@@ -1,0 +1,27 @@
+{
+  "id": "idea-research-groundingdino",
+  "fetchedAt": "2026-08-12T17:39:34.156Z",
+  "stars": 10500,
+  "forks": 1062,
+  "watchers": 48,
+  "openIssues": 325,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "description": "[ECCV 2024] Official implementation of the paper \"Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection\"",
+  "homepage": "https://arxiv.org/abs/2303.05499",
+  "topics": [
+    "object-detection",
+    "open-world",
+    "open-world-detection",
+    "vision-language",
+    "vision-language-transformer"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2024-08-12T08:52:02Z",
+  "updatedAt": "2026-08-12T13:52:51Z",
+  "createdAt": "2023-03-09T06:14:41Z",
+  "latestRelease": "v0.1.0-alpha2",
+  "latestReleaseAt": "2023-04-07T09:36:20Z",
+  "defaultBranch": "main"
+}

@@ -1,0 +1,768 @@
+[
+  {
+    "id": "arize-ai-phoenix",
+    "name": "phoenix",
+    "owner": "Arize-ai",
+    "repo": "phoenix",
+    "githubUrl": "https://github.com/Arize-ai/phoenix",
+    "homepage": "https://arize.com/docs/phoenix",
+    "description": "AI Observability & Evaluation",
+    "editorialSummary": "Arize Phoenix is an open AI observability and evaluation suite for tracing LLM apps, running evals, and debugging retrieval/agent workflows. Widely used as a local-first companion to Arize’s commercial platform.",
+    "whyCare": "Gives engineers a practical UI and Python SDK for traces + evals with strong RAG/agent coverage, bridging research-style metrics and production debugging.",
+    "primaryCategory": "evaluation",
+    "secondaryCategories": [
+      "rag",
+      "infrastructure"
+    ],
+    "tags": [
+      "observability",
+      "evals",
+      "tracing",
+      "rag-eval",
+      "llmops",
+      "arize"
+    ],
+    "language": "Python",
+    "license": "Elastic-2.0",
+    "stars": 11015,
+    "forks": 1055,
+    "latestCommitAt": "2026-08-12T17:16:35Z",
+    "latestRelease": "arize-phoenix-v20.1.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/Arize-ai/phoenix",
+      "https://arize.com/docs/phoenix",
+      "https://github.com/Arize-ai/phoenix/blob/main/LICENSE"
+    ],
+    "notes": "GitHub SPDX is NOASSERTION; LICENSE file is Elastic License 2.0 (ELv2)—source-available with hosting restrictions. Verified 2026-08-12."
+  },
+  {
+    "id": "braintrustdata-autoevals",
+    "name": "autoevals",
+    "owner": "braintrustdata",
+    "repo": "autoevals",
+    "githubUrl": "https://github.com/braintrustdata/autoevals",
+    "homepage": null,
+    "description": "AutoEvals is a tool for quickly and easily evaluating AI model outputs using best practices.",
+    "editorialSummary": "AutoEvals is Braintrust’s open-source library of ready-made scorers (LLM-as-judge and heuristic) for evaluating model outputs; the broader Braintrust product is primarily commercial.",
+    "whyCare": "Lightweight OSS entry point to Braintrust-style eval scorers without adopting the full hosted platform.",
+    "primaryCategory": "evaluation",
+    "secondaryCategories": [],
+    "tags": [
+      "llm-as-judge",
+      "scorers",
+      "braintrust",
+      "evals"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 998,
+    "forks": 76,
+    "latestCommitAt": "2026-07-29T20:54:43Z",
+    "latestRelease": "js-0.3.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": false,
+    "audience": [
+      "engineers"
+    ],
+    "difficulty": "beginner",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/braintrustdata/autoevals",
+      "https://www.braintrust.dev"
+    ],
+    "notes": "Braintrust has no single monorepo product OSS dump; autoevals is the primary public eval library. Related OSS: braintrust-sdk-python / braintrust-sdk-javascript (lower star counts)."
+  },
+  {
+    "id": "confident-ai-deepeval",
+    "name": "deepeval",
+    "owner": "confident-ai",
+    "repo": "deepeval",
+    "githubUrl": "https://github.com/confident-ai/deepeval",
+    "homepage": "https://deepeval.com",
+    "description": "The LLM Evaluation Framework",
+    "editorialSummary": "DeepEval is a Python LLM evaluation framework with rich metric suites, pytest-style workflows, and CI-friendly unit testing for RAG, agents, and chat apps.",
+    "whyCare": "Treats LLM quality like software testing—metrics, fixtures, and CI—so product teams can regression-test prompts and pipelines continuously.",
+    "primaryCategory": "evaluation",
+    "secondaryCategories": [
+      "rag"
+    ],
+    "tags": [
+      "llm-evaluation",
+      "metrics",
+      "pytest",
+      "rag-eval",
+      "ci"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 17553,
+    "forks": 1791,
+    "latestCommitAt": "2026-08-12T16:39:02Z",
+    "latestRelease": "v4.1.7",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": false,
+    "audience": [
+      "engineers",
+      "researchers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/confident-ai/deepeval",
+      "https://deepeval.com"
+    ],
+    "notes": "localOfflineCapable=false because many default metrics use LLM-as-judge APIs; some deterministic checks can run offline."
+  },
+  {
+    "id": "eleutherai-lm-evaluation-harness",
+    "name": "lm-evaluation-harness",
+    "owner": "EleutherAI",
+    "repo": "lm-evaluation-harness",
+    "githubUrl": "https://github.com/EleutherAI/lm-evaluation-harness",
+    "homepage": "https://www.eleuther.ai",
+    "description": "A framework for few-shot evaluation of language models.",
+    "editorialSummary": "EleutherAI’s lm-evaluation-harness is the de-facto open framework for few-shot and zero-shot academic-style LM benchmarks across hundreds of tasks.",
+    "whyCare": "Industry and research default for comparable model scores (MMLU-style suites and beyond)—essential for training and inference teams publishing results.",
+    "primaryCategory": "evaluation",
+    "secondaryCategories": [
+      "research",
+      "training"
+    ],
+    "tags": [
+      "benchmarks",
+      "few-shot",
+      "lm-eval",
+      "eleutherai",
+      "model-evaluation"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 13605,
+    "forks": 3476,
+    "latestCommitAt": "2026-08-11T08:24:39Z",
+    "latestRelease": "v0.4.12",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/EleutherAI/lm-evaluation-harness",
+      "https://www.eleuther.ai"
+    ],
+    "notes": "Canonical EleutherAI eval harness (often called lm-eval-harness)."
+  },
+  {
+    "id": "giskard-ai-giskard-oss",
+    "name": "giskard-oss",
+    "owner": "Giskard-AI",
+    "repo": "giskard-oss",
+    "githubUrl": "https://github.com/Giskard-AI/giskard-oss",
+    "homepage": "https://docs.giskard.ai",
+    "description": "🐢 Open-Source Evaluation & Testing library for LLM Agents",
+    "editorialSummary": "Giskard OSS is an evaluation and testing library for LLM agents and ML models, covering quality, security, fairness, and automated scanning workflows.",
+    "whyCare": "Strong when you need vulnerability/red-team style testing and responsible-AI checks beyond accuracy metrics alone.",
+    "primaryCategory": "evaluation",
+    "secondaryCategories": [
+      "ai-agents"
+    ],
+    "tags": [
+      "llm-testing",
+      "red-teaming",
+      "fairness",
+      "agent-eval",
+      "security"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 5749,
+    "forks": 517,
+    "latestCommitAt": "2026-08-12T12:27:38Z",
+    "latestRelease": "giskard-scan/v1.0.0b4",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": false,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/Giskard-AI/giskard-oss",
+      "https://docs.giskard.ai"
+    ],
+    "notes": "Canonical repo is Giskard-AI/giskard-oss (giskard-ai/giskard redirects here)."
+  },
+  {
+    "id": "helicone-helicone",
+    "name": "helicone",
+    "owner": "Helicone",
+    "repo": "helicone",
+    "githubUrl": "https://github.com/Helicone/helicone",
+    "homepage": "https://www.helicone.ai",
+    "description": "🧊 Open source LLM observability platform. One line of code to monitor, evaluate, and experiment. YC W23 🍓",
+    "editorialSummary": "Helicone is an open-source LLM observability platform focused on low-friction request logging, cost tracking, evals, and prompt experimentation via a gateway/proxy model.",
+    "whyCare": "Fast path to production monitoring and experiment tracking when you want gateway-style instrumentation rather than a heavy SDK rewrite.",
+    "primaryCategory": "evaluation",
+    "secondaryCategories": [
+      "infrastructure"
+    ],
+    "tags": [
+      "llm-observability",
+      "gateway",
+      "cost-tracking",
+      "evals",
+      "prompt-management"
+    ],
+    "language": "TypeScript",
+    "license": "Apache-2.0",
+    "stars": 6058,
+    "forks": 649,
+    "latestCommitAt": "2026-07-25T01:10:06Z",
+    "latestRelease": "v2025.08.21-1",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "difficulty": "beginner",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/Helicone/helicone",
+      "https://www.helicone.ai"
+    ]
+  },
+  {
+    "id": "langfuse-langfuse",
+    "name": "langfuse",
+    "owner": "langfuse",
+    "repo": "langfuse",
+    "githubUrl": "https://github.com/langfuse/langfuse",
+    "homepage": "https://langfuse.com",
+    "description": "🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets. Integrates with OpenTelemetry, LangChain, OpenAI SDK, LiteLLM, and more. 🍊YC W23",
+    "editorialSummary": "Self-hostable LLM engineering platform combining tracing, evaluations, prompt management, datasets, and a playground. Strong OpenTelemetry and framework integrations make it a default choice for production LLMOps.",
+    "whyCare": "One of the most complete open-source stacks for LLM observability plus evals—usable cloud or self-hosted—so teams can ship quality loops without locking into a closed SaaS-only path.",
+    "primaryCategory": "evaluation",
+    "secondaryCategories": [
+      "infrastructure"
+    ],
+    "tags": [
+      "llm-observability",
+      "evals",
+      "prompt-management",
+      "opentelemetry",
+      "self-hosted",
+      "llmops"
+    ],
+    "language": "TypeScript",
+    "license": "MIT",
+    "stars": 32973,
+    "forks": 3550,
+    "latestCommitAt": "2026-08-12T17:24:11Z",
+    "latestRelease": "v4.10.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/langfuse/langfuse",
+      "https://langfuse.com",
+      "https://github.com/langfuse/langfuse/blob/main/LICENSE"
+    ],
+    "notes": "GitHub SPDX is NOASSERTION (MIT for non-ee paths; ee/ directories use a separate commercial license). Stars/forks/release verified via GitHub API on 2026-08-12."
+  },
+  {
+    "id": "open-telemetry-semantic-conventions",
+    "name": "semantic-conventions",
+    "owner": "open-telemetry",
+    "repo": "semantic-conventions",
+    "githubUrl": "https://github.com/open-telemetry/semantic-conventions",
+    "homepage": null,
+    "description": "Defines standards for generating consistent, accessible telemetry across a variety of domains",
+    "editorialSummary": "OpenTelemetry Semantic Conventions—including GenAI attribute and span conventions—define how LLM/agent telemetry should be named and structured across vendors.",
+    "whyCare": "The standards layer behind interoperable GenAI observability; implementers (OpenLLMetry, Langfuse OTel, cloud APM) converge here.",
+    "primaryCategory": "evaluation",
+    "secondaryCategories": [
+      "infrastructure"
+    ],
+    "tags": [
+      "opentelemetry",
+      "genai",
+      "semantic-conventions",
+      "standards",
+      "observability"
+    ],
+    "language": "Jinja",
+    "license": "Apache-2.0",
+    "stars": 628,
+    "forks": 379,
+    "latestCommitAt": "2026-08-12T16:57:00Z",
+    "latestRelease": "v1.44.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/open-telemetry/semantic-conventions",
+      "https://opentelemetry.io/docs/specs/semconv/gen-ai/"
+    ],
+    "notes": "Listed as the OpenTelemetry GenAI standards home (specs + models/). Practical instrumentation often via OpenLLMetry or language contrib packages."
+  },
+  {
+    "id": "openai-evals",
+    "name": "evals",
+    "owner": "openai",
+    "repo": "evals",
+    "githubUrl": "https://github.com/openai/evals",
+    "homepage": null,
+    "description": "Evals is a framework for evaluating LLMs and LLM systems, and an open-source registry of benchmarks.",
+    "editorialSummary": "OpenAI Evals popularized an open registry and framework pattern for LLM/system evaluations; still a reference point though community momentum has shifted to newer tools.",
+    "whyCare": "Historically important template for eval registries and custom evals; useful lineage even if not the most active day-to-day harness.",
+    "primaryCategory": "evaluation",
+    "secondaryCategories": [
+      "research"
+    ],
+    "tags": [
+      "openai",
+      "benchmarks",
+      "eval-registry",
+      "llm-evaluation"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 19154,
+    "forks": 3052,
+    "latestCommitAt": "2026-04-14T15:29:57Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "moderate",
+    "selfHostable": true,
+    "localOfflineCapable": false,
+    "audience": [
+      "researchers",
+      "engineers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "fair",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/openai/evals",
+      "https://github.com/openai/evals/blob/main/LICENSE.md"
+    ],
+    "notes": "GitHub SPDX NOASSERTION; LICENSE.md is MIT with separate dataset license notes. No GitHub Releases; last push 2026-04-14."
+  },
+  {
+    "id": "promptfoo-promptfoo",
+    "name": "promptfoo",
+    "owner": "promptfoo",
+    "repo": "promptfoo",
+    "githubUrl": "https://github.com/promptfoo/promptfoo",
+    "homepage": "https://promptfoo.dev",
+    "description": "Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, DeepSeek, and more. Simple declarative configs with command line and CI/CD integration.  Used by OpenAI and Anthropic.",
+    "editorialSummary": "Promptfoo is a declarative CLI/CI toolkit for prompt testing, model comparison, RAG/agent evals, and AI red-teaming with security-oriented scanners.",
+    "whyCare": "Best developer UX for matrix evals and red-team checks in CI—YAML configs, multi-provider comparisons, and security testing in one tool.",
+    "primaryCategory": "evaluation",
+    "secondaryCategories": [
+      "ai-agents"
+    ],
+    "tags": [
+      "prompt-testing",
+      "red-teaming",
+      "ci-cd",
+      "llm-eval",
+      "security"
+    ],
+    "language": "TypeScript",
+    "license": "MIT",
+    "stars": 24171,
+    "forks": 2178,
+    "latestCommitAt": "2026-08-12T17:07:21Z",
+    "latestRelease": "0.122.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": false,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "difficulty": "beginner",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/promptfoo/promptfoo",
+      "https://promptfoo.dev"
+    ]
+  },
+  {
+    "id": "stanford-crfm-helm",
+    "name": "helm",
+    "owner": "stanford-crfm",
+    "repo": "helm",
+    "githubUrl": "https://github.com/stanford-crfm/helm",
+    "homepage": "https://crfm.stanford.edu/helm",
+    "description": "Holistic Evaluation of Language Models (HELM) is an open source Python framework created by the Center for Research on Foundation Models (CRFM) at Stanford for holistic, reproducible and transparent evaluation of foundation models, including large language models (LLMs) and multimodal models.",
+    "editorialSummary": "Stanford CRFM’s HELM framework runs holistic, multi-scenario foundation-model evaluations with published leaderboards emphasizing transparency and reproducibility.",
+    "whyCare": "Research-standard holistic eval suite when you need multi-metric, multi-scenario comparisons beyond a single academic benchmark.",
+    "primaryCategory": "evaluation",
+    "secondaryCategories": [
+      "research",
+      "multimodal"
+    ],
+    "tags": [
+      "helm",
+      "benchmarks",
+      "foundation-models",
+      "leaderboard",
+      "crfm"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 2877,
+    "forks": 406,
+    "latestCommitAt": "2026-08-01T01:23:17Z",
+    "latestRelease": "v0.5.16",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "enterprises"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/stanford-crfm/helm",
+      "https://crfm.stanford.edu/helm"
+    ]
+  },
+  {
+    "id": "traceloop-openllmetry",
+    "name": "openllmetry",
+    "owner": "traceloop",
+    "repo": "openllmetry",
+    "githubUrl": "https://github.com/traceloop/openllmetry",
+    "homepage": "https://www.traceloop.com/openllmetry",
+    "description": "Open-source observability for your GenAI or LLM application, based on OpenTelemetry",
+    "editorialSummary": "OpenLLMetry provides OpenTelemetry-based instrumentations for popular GenAI/LLM libraries so traces and metrics export to any OTel-compatible backend.",
+    "whyCare": "Best-in-class vendor-neutral instrumentation layer—pair with Langfuse, Phoenix, Jaeger, or any OTel collector instead of proprietary SDKs.",
+    "primaryCategory": "evaluation",
+    "secondaryCategories": [
+      "infrastructure"
+    ],
+    "tags": [
+      "opentelemetry",
+      "instrumentation",
+      "genai",
+      "tracing",
+      "observability"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 7374,
+    "forks": 1045,
+    "latestCommitAt": "2026-08-10T08:49:01Z",
+    "latestRelease": "0.62.3",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/traceloop/openllmetry",
+      "https://www.traceloop.com/openllmetry"
+    ]
+  },
+  {
+    "id": "truera-trulens",
+    "name": "trulens",
+    "owner": "truera",
+    "repo": "trulens",
+    "githubUrl": "https://github.com/truera/trulens",
+    "homepage": "https://www.trulens.org/",
+    "description": "Evaluation and Tracking for LLM Experiments and AI Agents",
+    "editorialSummary": "TruLens provides feedback functions, tracing, and dashboards for evaluating LLM apps and agents, with emphasis on groundedness and application-level quality signals.",
+    "whyCare": "Mature OSS eval+tracking library for teams that want feedback functions wired into experiment loops rather than only offline benchmark suites.",
+    "primaryCategory": "evaluation",
+    "secondaryCategories": [
+      "ai-agents",
+      "rag"
+    ],
+    "tags": [
+      "feedback-functions",
+      "agent-eval",
+      "tracing",
+      "llmops"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 3507,
+    "forks": 320,
+    "latestCommitAt": "2026-08-12T15:14:53Z",
+    "latestRelease": "trulens-2.12.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": false,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/truera/trulens",
+      "https://www.trulens.org/"
+    ]
+  },
+  {
+    "id": "ukgovernmentbeis-inspect-ai",
+    "name": "inspect_ai",
+    "owner": "UKGovernmentBEIS",
+    "repo": "inspect_ai",
+    "githubUrl": "https://github.com/UKGovernmentBEIS/inspect_ai",
+    "homepage": "https://inspect.aisi.org.uk/",
+    "description": "Inspect: A framework for large language model evaluations",
+    "editorialSummary": "Inspect AI is the UK AISI framework for composing rigorous LLM evaluations—tasks, solvers, scorers, and logging—aimed at research and safety assessments.",
+    "whyCare": "Government/research-grade eval framework gaining adoption for agent and capability evaluations with clear composition primitives.",
+    "primaryCategory": "evaluation",
+    "secondaryCategories": [
+      "research"
+    ],
+    "tags": [
+      "inspect-ai",
+      "aisi",
+      "benchmarks",
+      "safety-eval",
+      "agents"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 2530,
+    "forks": 652,
+    "latestCommitAt": "2026-08-12T16:39:15Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers",
+      "enterprises"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "excellent",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": true,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/UKGovernmentBEIS/inspect_ai",
+      "https://inspect.aisi.org.uk/"
+    ],
+    "notes": "No GitHub Releases/latest as of 2026-08-12; tags exist (e.g. release/2025-11-28). Homepage from API: https://inspect.aisi.org.uk/"
+  },
+  {
+    "id": "vibrantlabsai-ragas",
+    "name": "ragas",
+    "owner": "vibrantlabsai",
+    "repo": "ragas",
+    "githubUrl": "https://github.com/vibrantlabsai/ragas",
+    "homepage": "https://docs.ragas.io",
+    "description": "Supercharge Your LLM Application Evaluations 🚀",
+    "editorialSummary": "RAGAS pioneered widely adopted metrics for RAG pipelines (faithfulness, answer relevance, context precision, etc.) and remains a standard library for retrieval-augmented evaluation.",
+    "whyCare": "The go-to metric toolkit when you need to score RAG quality without inventing eval rubrics from scratch.",
+    "primaryCategory": "evaluation",
+    "secondaryCategories": [
+      "rag"
+    ],
+    "tags": [
+      "rag-eval",
+      "metrics",
+      "llm-evaluation",
+      "retrieval"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 15291,
+    "forks": 1623,
+    "latestCommitAt": "2026-02-24T07:47:19Z",
+    "latestRelease": "v0.4.3",
+    "archived": false,
+    "maintenance": "moderate",
+    "selfHostable": true,
+    "localOfflineCapable": false,
+    "audience": [
+      "engineers",
+      "researchers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/vibrantlabsai/ragas",
+      "https://docs.ragas.io"
+    ],
+    "notes": "Formerly explodinggradients/ragas; GitHub now resolves to vibrantlabsai/ragas. Last push as of verification was 2026-02-24 (moderate maintenance)."
+  },
+  {
+    "id": "wandb-wandb",
+    "name": "wandb",
+    "owner": "wandb",
+    "repo": "wandb",
+    "githubUrl": "https://github.com/wandb/wandb",
+    "homepage": "https://wandb.ai",
+    "description": "The AI developer platform. Use Weights & Biases to train and fine-tune models, and manage models from experimentation to production.",
+    "editorialSummary": "Weights & Biases client SDK for experiment tracking, model management, and evaluation workflows. Partial fit for this category: core strength is MLOps/experiment tracking with growing LLM eval features.",
+    "whyCare": "If your team already lives in W&B for training, its eval and Weave-related workflows keep evaluation adjacent to experiment history.",
+    "primaryCategory": "evaluation",
+    "secondaryCategories": [
+      "training",
+      "infrastructure"
+    ],
+    "tags": [
+      "experiment-tracking",
+      "mlops",
+      "wandb",
+      "llm-eval",
+      "partial"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 11230,
+    "forks": 881,
+    "latestCommitAt": "2026-08-12T17:13:41Z",
+    "latestRelease": "v0.28.2",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": false,
+    "localOfflineCapable": false,
+    "audience": [
+      "engineers",
+      "researchers",
+      "enterprises"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/wandb/wandb",
+      "https://wandb.ai"
+    ],
+    "notes": "Partial category inclusion: primary product is broader than LLM eval/observability; hosted backend is commercial (selfHostable=false for the platform)."
+  }
+]

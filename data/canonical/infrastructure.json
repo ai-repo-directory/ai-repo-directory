@@ -1,0 +1,736 @@
+[
+  {
+    "id": "ai-dynamo-dynamo",
+    "name": "NVIDIA Dynamo",
+    "owner": "ai-dynamo",
+    "repo": "dynamo",
+    "githubUrl": "https://github.com/ai-dynamo/dynamo",
+    "homepage": "https://docs.nvidia.com/dynamo/latest",
+    "description": "A Datacenter Scale Distributed Inference Serving Framework",
+    "editorialSummary": "NVIDIA Dynamo is a datacenter-scale distributed inference serving framework with disaggregated serving and routing across engines such as vLLM, SGLang, and TensorRT-LLM. It targets large GPU fleets that need higher utilization than single-node servers.",
+    "whyCare": "Evaluate Dynamo when scaling LLM inference across a GPU datacenter with disaggregated prefill/decode and multi-engine routing.",
+    "primaryCategory": "infrastructure",
+    "secondaryCategories": [
+      "llm-inference"
+    ],
+    "tags": [
+      "distributed-inference",
+      "nvidia",
+      "disaggregated-serving",
+      "vllm",
+      "kubernetes",
+      "rust"
+    ],
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "stars": 7742,
+    "forks": 1435,
+    "latestCommitAt": "2026-08-12T17:26:45Z",
+    "latestRelease": "v1.3.1",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": true,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/ai-dynamo/dynamo",
+      "https://docs.nvidia.com/dynamo/latest",
+      "https://raw.githubusercontent.com/ai-dynamo/dynamo/main/LICENSE"
+    ],
+    "notes": "GitHub license API reports NOASSERTION due to bundled MIT test-data notice; LICENSE states the rest of the codebase is Apache-2.0."
+  },
+  {
+    "id": "bentoml-bentoml",
+    "name": "BentoML",
+    "owner": "bentoml",
+    "repo": "BentoML",
+    "githubUrl": "https://github.com/bentoml/BentoML",
+    "homepage": "https://bentoml.com",
+    "description": "The easiest way to serve AI apps and models - Build Model Inference APIs, Job queues, LLM apps, Multi-model pipelines, and more!",
+    "editorialSummary": "BentoML packages models and LLM apps into deployable services with APIs, runners, and queueing primitives. It bridges research artifacts and production inference without locking you to a single cloud.",
+    "whyCare": "Use BentoML to turn Python model code into containerized inference APIs and multi-model services with a developer-friendly workflow.",
+    "primaryCategory": "infrastructure",
+    "secondaryCategories": [
+      "llm-inference"
+    ],
+    "tags": [
+      "model-serving",
+      "llmops",
+      "inference-api",
+      "python",
+      "deployment"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 8782,
+    "forks": 1009,
+    "latestCommitAt": "2026-08-03T17:00:21Z",
+    "latestRelease": "v1.4.39",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "enterprises"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/bentoml/BentoML",
+      "https://docs.bentoml.com/",
+      "https://bentoml.com"
+    ]
+  },
+  {
+    "id": "determined-ai-determined",
+    "name": "Determined",
+    "owner": "determined-ai",
+    "repo": "determined",
+    "githubUrl": "https://github.com/determined-ai/determined",
+    "homepage": "https://determined.ai",
+    "description": "Determined is an open-source machine learning platform that simplifies distributed training, hyperparameter tuning, experiment tracking, and resource management. Works with PyTorch and TensorFlow.",
+    "editorialSummary": "Determined is an open-source deep learning platform for distributed training, hyperparameter search, experiment tracking, and GPU resource management. Upstream activity has slowed relative to peer platforms, but the architecture remains relevant for cluster training ops.",
+    "whyCare": "Consider Determined if you want an integrated training cluster UI/CLI for PyTorch/TensorFlow jobs with built-in HPO and scheduling.",
+    "primaryCategory": "infrastructure",
+    "secondaryCategories": [
+      "training"
+    ],
+    "tags": [
+      "distributed-training",
+      "hyperparameter-tuning",
+      "experiment-tracking",
+      "gpu",
+      "mlops"
+    ],
+    "language": "Go",
+    "license": "Apache-2.0",
+    "stars": 3232,
+    "forks": 373,
+    "latestCommitAt": "2025-03-20T19:09:46Z",
+    "latestRelease": "v0.38.1",
+    "archived": false,
+    "maintenance": "slow",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers",
+      "enterprises"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/determined-ai/determined",
+      "https://determined.ai"
+    ],
+    "notes": "Last upstream push observed 2025-03-20; public docs host was unreachable at verification time."
+  },
+  {
+    "id": "flyteorg-flyte",
+    "name": "Flyte",
+    "owner": "flyteorg",
+    "repo": "flyte",
+    "githubUrl": "https://github.com/flyteorg/flyte",
+    "homepage": "https://flyte.org",
+    "description": "Dynamic, resilient AI orchestration. Coordinate data, models, and compute as you build AI workflows.",
+    "editorialSummary": "Flyte is a Kubernetes-native workflow orchestrator purpose-built for data and ML/AI pipelines with strong typing, versioning, and reproducibility. It scales from ETL to fine-tuning and agentic workloads.",
+    "whyCare": "Use Flyte to orchestrate production AI workflows on Kubernetes with first-class reproducibility and dynamic DAG patterns.",
+    "primaryCategory": "infrastructure",
+    "secondaryCategories": [
+      "training"
+    ],
+    "tags": [
+      "orchestration",
+      "kubernetes",
+      "workflows",
+      "mlops",
+      "golang"
+    ],
+    "language": "Go",
+    "license": "Apache-2.0",
+    "stars": 7198,
+    "forks": 870,
+    "latestCommitAt": "2026-08-12T09:25:09Z",
+    "latestRelease": "v2.0.40",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/flyteorg/flyte",
+      "https://docs.flyte.org/",
+      "https://flyte.org"
+    ]
+  },
+  {
+    "id": "kserve-kserve",
+    "name": "KServe",
+    "owner": "kserve",
+    "repo": "kserve",
+    "githubUrl": "https://github.com/kserve/kserve",
+    "homepage": "https://kserve.github.io/website/",
+    "description": "Standardized Distributed Generative and Predictive AI Inference Platform for Scalable, Multi-Framework Deployment on Kubernetes",
+    "editorialSummary": "KServe (formerly KFServing) standardizes model serving on Kubernetes with InferenceService CRDs, autoscaling, and multi-framework runtimes including vLLM for generative AI. It is the CNCF-aligned serving control plane many Kubeflow and enterprise stacks use.",
+    "whyCare": "Choose KServe to deploy predictive and generative models behind a consistent Kubernetes API with canary rollouts and scale-to-zero.",
+    "primaryCategory": "infrastructure",
+    "secondaryCategories": [
+      "llm-inference"
+    ],
+    "tags": [
+      "kubernetes",
+      "model-serving",
+      "inference",
+      "vllm",
+      "cncf",
+      "mlops"
+    ],
+    "language": "Go",
+    "license": "Apache-2.0",
+    "stars": 5784,
+    "forks": 1616,
+    "latestCommitAt": "2026-08-11T19:16:05Z",
+    "latestRelease": "v0.20.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/kserve/kserve",
+      "https://kserve.github.io/website/"
+    ]
+  },
+  {
+    "id": "kubeflow-kubeflow",
+    "name": "Kubeflow",
+    "owner": "kubeflow",
+    "repo": "kubeflow",
+    "githubUrl": "https://github.com/kubeflow/kubeflow",
+    "homepage": "https://www.kubeflow.org/",
+    "description": "Machine Learning Toolkit for Kubernetes",
+    "editorialSummary": "Kubeflow is the umbrella ML toolkit for Kubernetes, providing notebooks, pipelines, training operators, and platform components for cloud-native ML. It remains the default reference architecture for enterprise K8s ML platforms.",
+    "whyCare": "Adopt Kubeflow when you already run Kubernetes and want a shared ML platform for notebooks, pipelines, and distributed training operators.",
+    "primaryCategory": "infrastructure",
+    "secondaryCategories": [
+      "training"
+    ],
+    "tags": [
+      "kubernetes",
+      "mlops",
+      "pipelines",
+      "notebooks",
+      "cncf-ecosystem"
+    ],
+    "language": null,
+    "license": "Apache-2.0",
+    "stars": 15811,
+    "forks": 2690,
+    "latestCommitAt": "2026-07-10T11:31:26Z",
+    "latestRelease": "v1.10.0",
+    "archived": false,
+    "maintenance": "moderate",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/kubeflow/kubeflow",
+      "https://www.kubeflow.org/docs/",
+      "https://www.kubeflow.org/"
+    ],
+    "notes": "GitHub latest release tag is a redirect stub; editorial latestRelease uses the most recent versioned release v1.10.0."
+  },
+  {
+    "id": "llm-d-llm-d",
+    "name": "llm-d",
+    "owner": "llm-d",
+    "repo": "llm-d",
+    "githubUrl": "https://github.com/llm-d/llm-d",
+    "homepage": "https://www.llm-d.ai",
+    "description": "Achieve state of the art inference performance with modern accelerators on Kubernetes",
+    "editorialSummary": "llm-d is a Kubernetes-native distributed LLM inference stack focused on high performance with modern accelerators, intelligent routing, and production ops patterns adjacent to the vLLM ecosystem. It targets CNCF-style platform teams running GenAI at scale.",
+    "whyCare": "Reach for llm-d when you need Kubernetes-first distributed inference plumbing beyond a single vLLM Deployment.",
+    "primaryCategory": "infrastructure",
+    "secondaryCategories": [
+      "llm-inference"
+    ],
+    "tags": [
+      "kubernetes",
+      "distributed-inference",
+      "vllm-adjacent",
+      "gpu",
+      "cncf",
+      "model-server"
+    ],
+    "language": "Shell",
+    "license": "Apache-2.0",
+    "stars": 4023,
+    "forks": 675,
+    "latestCommitAt": "2026-08-12T17:20:51Z",
+    "latestRelease": "v0.8.1",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": true,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/llm-d/llm-d",
+      "https://www.llm-d.ai/"
+    ]
+  },
+  {
+    "id": "mlflow-mlflow",
+    "name": "MLflow",
+    "owner": "mlflow",
+    "repo": "mlflow",
+    "githubUrl": "https://github.com/mlflow/mlflow",
+    "homepage": "https://mlflow.org",
+    "description": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controlling costs and managing access to models and data.",
+    "editorialSummary": "MLflow is the open-source AI engineering platform for experiment tracking, model registry, evaluation, and LLM/agent lifecycle management. It remains the default shared control plane for many ML and GenAI teams.",
+    "whyCare": "Adopt MLflow to track experiments, register models, and govern LLM/agent apps with an open, self-hostable stack.",
+    "primaryCategory": "infrastructure",
+    "secondaryCategories": [
+      "evaluation",
+      "training"
+    ],
+    "tags": [
+      "mlops",
+      "experiment-tracking",
+      "model-registry",
+      "llmops",
+      "observability"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 27485,
+    "forks": 6144,
+    "latestCommitAt": "2026-08-12T17:04:28Z",
+    "latestRelease": "v3.15.1",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises",
+      "researchers",
+      "students"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/mlflow/mlflow",
+      "https://mlflow.org/docs/latest/index.html",
+      "https://mlflow.org"
+    ]
+  },
+  {
+    "id": "netflix-metaflow",
+    "name": "Metaflow",
+    "owner": "Netflix",
+    "repo": "metaflow",
+    "githubUrl": "https://github.com/Netflix/metaflow",
+    "homepage": "https://metaflow.org",
+    "description": "Build, Manage and Deploy AI/ML Systems",
+    "editorialSummary": "Metaflow is Netflix’s human-centric ML/AI workflow framework for building, versioning, and deploying data science and LLM pipelines to local machines, Kubernetes, or the cloud. It emphasizes approachable Python APIs with production-grade orchestration underneath.",
+    "whyCare": "Pick Metaflow when data scientists need productive Python workflows that still scale to cloud compute and production deployments.",
+    "primaryCategory": "infrastructure",
+    "secondaryCategories": [
+      "training"
+    ],
+    "tags": [
+      "workflow",
+      "orchestration",
+      "mlops",
+      "kubernetes",
+      "python"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 10209,
+    "forks": 1321,
+    "latestCommitAt": "2026-08-12T10:53:26Z",
+    "latestRelease": "2.19.37",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers",
+      "enterprises"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/Netflix/metaflow",
+      "https://docs.metaflow.org/",
+      "https://metaflow.org"
+    ]
+  },
+  {
+    "id": "open-telemetry-opentelemetry-collector",
+    "name": "OpenTelemetry Collector",
+    "owner": "open-telemetry",
+    "repo": "opentelemetry-collector",
+    "githubUrl": "https://github.com/open-telemetry/opentelemetry-collector",
+    "homepage": "https://opentelemetry.io",
+    "description": "OpenTelemetry Collector",
+    "editorialSummary": "The OpenTelemetry Collector is the vendor-neutral telemetry pipeline for metrics, traces, and logs. AI platforms rely on it to standardize observability for training jobs, inference services, and agent runtimes.",
+    "whyCare": "Deploy the Collector as the shared telemetry backbone so LLM and ML services export consistent traces, metrics, and logs.",
+    "primaryCategory": "infrastructure",
+    "secondaryCategories": [
+      "evaluation"
+    ],
+    "tags": [
+      "observability",
+      "telemetry",
+      "metrics",
+      "tracing",
+      "monitoring"
+    ],
+    "language": "Go",
+    "license": "Apache-2.0",
+    "stars": 7380,
+    "forks": 2203,
+    "latestCommitAt": "2026-08-12T17:14:46Z",
+    "latestRelease": "v0.158.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/open-telemetry/opentelemetry-collector",
+      "https://opentelemetry.io/docs/collector/",
+      "https://opentelemetry.io"
+    ]
+  },
+  {
+    "id": "ray-project-ray",
+    "name": "Ray",
+    "owner": "ray-project",
+    "repo": "ray",
+    "githubUrl": "https://github.com/ray-project/ray",
+    "homepage": "https://ray.io",
+    "description": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.",
+    "editorialSummary": "Ray is a distributed compute engine with first-class libraries for training (Train), serving (Serve), data processing (Data), and reinforcement learning (RLlib). It underpins many production LLM and ML platforms that need elastic, multi-node Python workloads.",
+    "whyCare": "Use Ray when you need one runtime to scale data prep, training, and model serving across a cluster without rewriting jobs for each cloud scheduler.",
+    "primaryCategory": "infrastructure",
+    "secondaryCategories": [
+      "training",
+      "llm-inference"
+    ],
+    "tags": [
+      "distributed",
+      "ray-serve",
+      "ray-train",
+      "cluster",
+      "python",
+      "mlops"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 43501,
+    "forks": 7916,
+    "latestCommitAt": "2026-08-12T16:47:45Z",
+    "latestRelease": "ray-2.57.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises",
+      "researchers"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/ray-project/ray",
+      "https://docs.ray.io/",
+      "https://ray.io"
+    ]
+  },
+  {
+    "id": "skypilot-org-skypilot",
+    "name": "SkyPilot",
+    "owner": "skypilot-org",
+    "repo": "skypilot",
+    "githubUrl": "https://github.com/skypilot-org/skypilot",
+    "homepage": "https://skypilot.ai/",
+    "description": "The AI Compute Platform for frontier teams. SkyPilot turns fragmented AI compute into one AI supercomputer, so frontier AI teams build custom intelligence faster.",
+    "editorialSummary": "SkyPilot unifies GPU/TPU job launch across clouds, Kubernetes, and clusters with cost-aware scheduling and spot-friendly execution. Teams use it to run training and LLM serving without rewriting for each provider.",
+    "whyCare": "Use SkyPilot to submit the same AI jobs across AWS, GCP, Azure, Kubernetes, or on-prem GPUs and automatically chase cheaper capacity.",
+    "primaryCategory": "infrastructure",
+    "secondaryCategories": [
+      "training",
+      "llm-inference"
+    ],
+    "tags": [
+      "multicloud",
+      "gpu",
+      "job-scheduler",
+      "spot-instances",
+      "llm-serving",
+      "mlops"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 10479,
+    "forks": 1185,
+    "latestCommitAt": "2026-08-12T17:04:54Z",
+    "latestRelease": "v0.13.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": false,
+    "audience": [
+      "engineers",
+      "researchers",
+      "enterprises"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/skypilot-org/skypilot",
+      "https://docs.skypilot.co/",
+      "https://skypilot.ai/"
+    ],
+    "notes": "GitHub latest release is a prerelease (v0.13.1rc1); latestRelease records the newest non-prerelease tag v0.13.0."
+  },
+  {
+    "id": "triton-inference-server-server",
+    "name": "Triton Inference Server",
+    "owner": "triton-inference-server",
+    "repo": "server",
+    "githubUrl": "https://github.com/triton-inference-server/server",
+    "homepage": "https://docs.nvidia.com/deeplearning/triton-inference-server/user-guide/docs/index.html",
+    "description": "The Triton Inference Server provides an optimized cloud and edge inferencing solution. ",
+    "editorialSummary": "NVIDIA Triton is a multi-framework inference server for GPU and CPU deployments, with dynamic batching, model ensembles, and production ops features. It is a long-standing standard for high-throughput model serving in data centers and at the edge.",
+    "whyCare": "Run Triton when you need a battle-tested multi-model inference server with NVIDIA-optimized backends and production serving controls.",
+    "primaryCategory": "infrastructure",
+    "secondaryCategories": [
+      "llm-inference"
+    ],
+    "tags": [
+      "inference",
+      "gpu",
+      "nvidia",
+      "model-serving",
+      "datacenter"
+    ],
+    "language": "Python",
+    "license": "BSD-3-Clause",
+    "stars": 10916,
+    "forks": 1823,
+    "latestCommitAt": "2026-08-12T01:15:02Z",
+    "latestRelease": "v2.71.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/triton-inference-server/server",
+      "https://docs.nvidia.com/deeplearning/triton-inference-server/user-guide/docs/index.html"
+    ]
+  },
+  {
+    "id": "vllm-project-aibrix",
+    "name": "AIBrix",
+    "owner": "vllm-project",
+    "repo": "aibrix",
+    "githubUrl": "https://github.com/vllm-project/aibrix",
+    "homepage": null,
+    "description": "Cost-efficient and pluggable Infrastructure components for GenAI inference",
+    "editorialSummary": "AIBrix provides pluggable GenAI inference infrastructure components—control-plane and data-plane building blocks aimed at cost-efficient LLM serving. It sits in the vLLM project ecosystem for platform teams assembling production inference stacks.",
+    "whyCare": "Use AIBrix when you need modular Kubernetes-oriented components around GenAI inference rather than a single monolithic server.",
+    "primaryCategory": "infrastructure",
+    "secondaryCategories": [
+      "llm-inference"
+    ],
+    "tags": [
+      "genai",
+      "inference",
+      "kubernetes",
+      "vllm-ecosystem",
+      "cost-efficiency"
+    ],
+    "language": "Go",
+    "license": "Apache-2.0",
+    "stars": 5006,
+    "forks": 644,
+    "latestCommitAt": "2026-08-12T03:14:15Z",
+    "latestRelease": "v0.7.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": true,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/vllm-project/aibrix",
+      "https://aibrix.readthedocs.io/"
+    ]
+  },
+  {
+    "id": "vllm-project-llm-compressor",
+    "name": "llm-compressor",
+    "owner": "vllm-project",
+    "repo": "llm-compressor",
+    "githubUrl": "https://github.com/vllm-project/llm-compressor",
+    "homepage": "https://docs.vllm.ai/projects/llm-compressor",
+    "description": "Transformers-compatible library for applying various compression algorithms to LLMs for optimized deployment with vLLM",
+    "editorialSummary": "llm-compressor applies quantization and other compression algorithms to Transformers models for efficient vLLM deployment. It is the vLLM-adjacent tooling layer between training checkpoints and production inference footprints.",
+    "whyCare": "Run llm-compressor to quantize/compress models before serving so vLLM fleets use less GPU memory and cost less to operate.",
+    "primaryCategory": "infrastructure",
+    "secondaryCategories": [
+      "llm-inference",
+      "training"
+    ],
+    "tags": [
+      "quantization",
+      "compression",
+      "vllm",
+      "deployment",
+      "optimization"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 3662,
+    "forks": 609,
+    "latestCommitAt": "2026-08-12T14:12:12Z",
+    "latestRelease": "0.13.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": true,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/vllm-project/llm-compressor",
+      "https://docs.vllm.ai/projects/llm-compressor"
+    ]
+  }
+]

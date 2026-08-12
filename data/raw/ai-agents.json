@@ -1,0 +1,679 @@
+[
+  {
+    "id": "langchain-ai-langgraph",
+    "name": "LangGraph",
+    "owner": "langchain-ai",
+    "repo": "langgraph",
+    "githubUrl": "https://github.com/langchain-ai/langgraph",
+    "homepage": "https://docs.langchain.com/oss/python/langgraph/",
+    "description": "Build resilient agents.",
+    "editorialSummary": "LangGraph is a low-level orchestration framework for durable, stateful agent workflows as graphs of nodes and edges. It emphasizes checkpointing, human-in-the-loop, and production reliability on top of the LangChain ecosystem.",
+    "whyCare": "Best-in-class control for complex agent loops—cycles, branching, persistence, and streaming—when you outgrow simple chain/agent wrappers.",
+    "primaryCategory": "ai-agents",
+    "secondaryCategories": [
+      "infrastructure",
+      "rag"
+    ],
+    "tags": [
+      "multi-agent",
+      "orchestration",
+      "stateful",
+      "langchain",
+      "python",
+      "workflows"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 39540,
+    "forks": 6637,
+    "latestCommitAt": "2026-08-11T18:17:11Z",
+    "latestRelease": "1.2.11",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises",
+      "researchers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/langchain-ai/langgraph",
+      "https://docs.langchain.com/oss/python/langgraph/"
+    ]
+  },
+  {
+    "id": "crewaiinc-crewai",
+    "name": "CrewAI",
+    "owner": "crewAIInc",
+    "repo": "crewAI",
+    "githubUrl": "https://github.com/crewAIInc/crewAI",
+    "homepage": "https://crewai.com",
+    "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
+    "editorialSummary": "CrewAI focuses on role-based multi-agent crews and process flows that are approachable for product teams. Agents collaborate with defined roles, tools, and tasks without requiring a heavy graph model.",
+    "whyCare": "Fast path from idea to a working multi-agent team—strong DX for role-playing crews and sequential/hierarchical processes.",
+    "primaryCategory": "ai-agents",
+    "secondaryCategories": [],
+    "tags": [
+      "multi-agent",
+      "role-playing",
+      "orchestration",
+      "python",
+      "crews"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 56989,
+    "forks": 8133,
+    "latestCommitAt": "2026-08-12T17:03:48Z",
+    "latestRelease": "1.15.15",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "enterprises"
+    ],
+    "difficulty": "beginner",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/crewAIInc/crewAI",
+      "https://docs.crewai.com"
+    ]
+  },
+  {
+    "id": "openai-openai-agents-python",
+    "name": "OpenAI Agents SDK",
+    "owner": "openai",
+    "repo": "openai-agents-python",
+    "githubUrl": "https://github.com/openai/openai-agents-python",
+    "homepage": "https://openai.github.io/openai-agents-python/",
+    "description": "A lightweight, powerful framework for multi-agent workflows",
+    "editorialSummary": "OpenAI’s production-oriented Agents SDK for multi-agent handoffs, tools, and tracing. It succeeds the educational Swarm patterns with a clearer programming model and first-party observability.",
+    "whyCare": "Canonical OpenAI stack for agent handoffs and tool use, with lightweight APIs suitable for production multi-agent apps.",
+    "primaryCategory": "ai-agents",
+    "secondaryCategories": [],
+    "tags": [
+      "multi-agent",
+      "openai",
+      "handoffs",
+      "tools",
+      "python",
+      "tracing"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 28578,
+    "forks": 4481,
+    "latestCommitAt": "2026-08-12T14:59:24Z",
+    "latestRelease": "v0.20.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": false,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/openai/openai-agents-python",
+      "https://openai.github.io/openai-agents-python/"
+    ],
+    "notes": "Spiritual successor to openai/swarm educational patterns."
+  },
+  {
+    "id": "agno-agi-agno",
+    "name": "Agno",
+    "owner": "agno-agi",
+    "repo": "agno",
+    "githubUrl": "https://github.com/agno-agi/agno",
+    "homepage": "https://docs.agno.com",
+    "description": "Build, run, and manage agent platforms.",
+    "editorialSummary": "Agno (formerly Phidata) is a high-performance Python framework for building agents and multi-agent systems with built-in tooling for memory, knowledge, and agent platform runtime concerns.",
+    "whyCare": "Strong ergonomics and performance for shipping agent apps and platforms without bolting on half a dozen libs.",
+    "primaryCategory": "ai-agents",
+    "secondaryCategories": [
+      "infrastructure"
+    ],
+    "tags": [
+      "multi-agent",
+      "agent-platform",
+      "python",
+      "memory",
+      "tools"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 41681,
+    "forks": 5759,
+    "latestCommitAt": "2026-08-12T17:11:52Z",
+    "latestRelease": "v2.8.7",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises",
+      "hobbyists"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/agno-agi/agno",
+      "https://docs.agno.com"
+    ]
+  },
+  {
+    "id": "ag2ai-ag2",
+    "name": "AG2",
+    "owner": "ag2ai",
+    "repo": "ag2",
+    "githubUrl": "https://github.com/ag2ai/ag2",
+    "homepage": "https://ag2.ai",
+    "description": "AG2 (formerly AutoGen): The Open-Source AgentOS.Join us at: https://discord.gg/sNGSwQME3x",
+    "editorialSummary": "AG2 is the community-led continuation of the original AutoGen multi-agent framework (AgentOS), with active development around conversable agents, group chat, and tool use.",
+    "whyCare": "If you want AutoGen-style multi-agent conversations with an actively maintained open fork, AG2 is the primary upstream to track.",
+    "primaryCategory": "ai-agents",
+    "secondaryCategories": [
+      "mcp-tools"
+    ],
+    "tags": [
+      "multi-agent",
+      "autogen",
+      "agentos",
+      "python",
+      "conversation"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 4854,
+    "forks": 698,
+    "latestCommitAt": "2026-08-12T15:18:48Z",
+    "latestRelease": "v1.0.1",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers",
+      "hobbyists"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": true,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/ag2ai/ag2",
+      "https://docs.ag2.ai"
+    ],
+    "notes": "Community fork/continuation of AutoGen; prefer this over microsoft/autogen for new OSS AutoGen-lineage work."
+  },
+  {
+    "id": "microsoft-autogen",
+    "name": "AutoGen",
+    "owner": "microsoft",
+    "repo": "autogen",
+    "githubUrl": "https://github.com/microsoft/autogen",
+    "homepage": "https://microsoft.github.io/autogen/",
+    "description": "A programming framework for agentic AI",
+    "editorialSummary": "Microsoft’s AutoGen popularized conversable multi-agent patterns and remains an important reference implementation. Maintenance has slowed relative to the AG2 community fork; check both before committing.",
+    "whyCare": "Historically shaped multi-agent chat and tool-calling patterns; still useful as ecosystem reference and enterprise Microsoft alignment.",
+    "primaryCategory": "ai-agents",
+    "secondaryCategories": [
+      "research"
+    ],
+    "tags": [
+      "multi-agent",
+      "microsoft",
+      "conversation",
+      "python",
+      "dotnet"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 60386,
+    "forks": 9098,
+    "latestCommitAt": "2026-04-15T11:59:09Z",
+    "latestRelease": "python-v0.7.5",
+    "archived": false,
+    "maintenance": "moderate",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises",
+      "researchers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/microsoft/autogen",
+      "https://microsoft.github.io/autogen/"
+    ],
+    "notes": "Code under LICENSE-CODE (MIT); repo root LICENSE is CC-BY-4.0 for docs. Community continuation: ag2ai/ag2. Last notable push ~Apr 2026."
+  },
+  {
+    "id": "microsoft-semantic-kernel",
+    "name": "Semantic Kernel",
+    "owner": "microsoft",
+    "repo": "semantic-kernel",
+    "githubUrl": "https://github.com/microsoft/semantic-kernel",
+    "homepage": "https://aka.ms/semantic-kernel",
+    "description": "Integrate cutting-edge LLM technology quickly and easily into your apps",
+    "editorialSummary": "Semantic Kernel is Microsoft’s SDK for embedding planners, plugins, and agentic patterns into .NET, Python, and Java apps. Strong fit for enterprise stacks already on Azure/.NET.",
+    "whyCare": "Enterprise-friendly agent and plugin model with first-class .NET support—rare among Python-heavy agent frameworks.",
+    "primaryCategory": "ai-agents",
+    "secondaryCategories": [
+      "infrastructure"
+    ],
+    "tags": [
+      "dotnet",
+      "plugins",
+      "planners",
+      "enterprise",
+      "python",
+      "microsoft"
+    ],
+    "language": "C#",
+    "license": "MIT",
+    "stars": 28444,
+    "forks": 4714,
+    "latestCommitAt": "2026-08-11T17:05:12Z",
+    "latestRelease": "python-1.44.1",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "enterprises",
+      "engineers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/microsoft/semantic-kernel",
+      "https://learn.microsoft.com/en-us/semantic-kernel/"
+    ]
+  },
+  {
+    "id": "langgenius-dify",
+    "name": "Dify",
+    "owner": "langgenius",
+    "repo": "dify",
+    "githubUrl": "https://github.com/langgenius/dify",
+    "homepage": "https://dify.ai",
+    "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
+    "editorialSummary": "Dify is a self-hostable agentic workflow and RAG platform with a visual builder, tool integrations, and team workspace features. It sits between low-code product tooling and developer frameworks.",
+    "whyCare": "Ship agentic apps with a UI + backend stack you can self-host—ideal when non-engineers need to design agent workflows.",
+    "primaryCategory": "ai-agents",
+    "secondaryCategories": [
+      "rag",
+      "local-ai",
+      "infrastructure"
+    ],
+    "tags": [
+      "low-code",
+      "workflows",
+      "self-hosted",
+      "agent-platform",
+      "typescript",
+      "python"
+    ],
+    "language": "TypeScript",
+    "license": null,
+    "stars": 152225,
+    "forks": 24028,
+    "latestCommitAt": "2026-08-12T17:25:52Z",
+    "latestRelease": "1.16.1",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "enterprises",
+      "engineers",
+      "hobbyists"
+    ],
+    "difficulty": "beginner",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/langgenius/dify",
+      "https://dify.ai",
+      "https://github.com/langgenius/dify/blob/main/LICENSE"
+    ],
+    "notes": "License is a modified Apache-2.0 with additional commercial/multi-tenant restrictions (GitHub SPDX NOASSERTION); not plain Apache-2.0."
+  },
+  {
+    "id": "significant-gravitas-autogpt",
+    "name": "AutoGPT",
+    "owner": "Significant-Gravitas",
+    "repo": "AutoGPT",
+    "githubUrl": "https://github.com/Significant-Gravitas/AutoGPT",
+    "homepage": "https://agpt.co",
+    "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+    "editorialSummary": "AutoGPT ignited the 2023 autonomous-agent wave and remains a landmark project. The monorepo now mixes the classic agent with a newer platform under a different license—treat as historically essential, not the default modern framework pick.",
+    "whyCare": "Historically significant autonomous-agent milestone; useful for studying early agent loops and the evolving AutoGPT platform.",
+    "primaryCategory": "ai-agents",
+    "secondaryCategories": [
+      "research"
+    ],
+    "tags": [
+      "autonomous-agents",
+      "historical",
+      "platform",
+      "python"
+    ],
+    "language": "Python",
+    "license": null,
+    "stars": 186557,
+    "forks": 46091,
+    "latestCommitAt": "2026-08-12T17:05:38Z",
+    "latestRelease": "autogpt-platform-beta-v0.7.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "hobbyists",
+      "engineers",
+      "students"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "fair",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/Significant-Gravitas/AutoGPT",
+      "https://agpt.co"
+    ],
+    "notes": "Split licensing: autogpt_platform/ is Polyform Shield; classic agent and other paths are MIT. Still actively pushed, but prefer LangGraph/CrewAI/Agents SDK for greenfield production agents."
+  },
+  {
+    "id": "huggingface-smolagents",
+    "name": "smolagents",
+    "owner": "huggingface",
+    "repo": "smolagents",
+    "githubUrl": "https://github.com/huggingface/smolagents",
+    "homepage": "https://huggingface.co/docs/smolagents",
+    "description": "🤗 smolagents: a barebones library for agents that think in code.",
+    "editorialSummary": "Hugging Face smolagents is a minimal library for code-acting agents that write and run code to solve tasks. Designed to be readable and hackable rather than a full enterprise platform.",
+    "whyCare": "Lightweight entry point for code-first agents with tight HF Hub integration and clear educational value.",
+    "primaryCategory": "ai-agents",
+    "secondaryCategories": [
+      "research"
+    ],
+    "tags": [
+      "code-agents",
+      "huggingface",
+      "minimal",
+      "python",
+      "tools"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 28776,
+    "forks": 2853,
+    "latestCommitAt": "2026-07-21T18:35:00Z",
+    "latestRelease": "v1.26.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers",
+      "students",
+      "hobbyists"
+    ],
+    "difficulty": "beginner",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/huggingface/smolagents",
+      "https://huggingface.co/docs/smolagents"
+    ]
+  },
+  {
+    "id": "pydantic-pydantic-ai",
+    "name": "Pydantic AI",
+    "owner": "pydantic",
+    "repo": "pydantic-ai",
+    "githubUrl": "https://github.com/pydantic/pydantic-ai",
+    "homepage": "https://pydantic.dev/pydantic-ai",
+    "description": "AI Agent Framework, the Pydantic way",
+    "editorialSummary": "Pydantic AI brings type-safe, dependency-injected agent definitions using Pydantic models for structured outputs and tooling. Strong fit for teams that already standardize on Pydantic/FastAPI.",
+    "whyCare": "Typed agent interfaces and structured outputs with familiar Pydantic ergonomics—great for production Python services.",
+    "primaryCategory": "ai-agents",
+    "secondaryCategories": [],
+    "tags": [
+      "pydantic",
+      "typed",
+      "structured-output",
+      "python",
+      "tools"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 19246,
+    "forks": 2509,
+    "latestCommitAt": "2026-08-12T17:24:44Z",
+    "latestRelease": "v1.107.4",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": true,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/pydantic/pydantic-ai",
+      "https://ai.pydantic.dev"
+    ]
+  },
+  {
+    "id": "google-adk-python",
+    "name": "Google Agent Development Kit",
+    "owner": "google",
+    "repo": "adk-python",
+    "githubUrl": "https://github.com/google/adk-python",
+    "homepage": "https://google.github.io/adk-docs/",
+    "description": "An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
+    "editorialSummary": "Google’s Agent Development Kit (ADK) is a code-first toolkit for building, evaluating, and deploying multi-agent systems with strong Google Cloud / Gemini alignment.",
+    "whyCare": "Official Google path for sophisticated multi-agent apps with eval and deployment hooks—especially if you are already on Gemini/GCP.",
+    "primaryCategory": "ai-agents",
+    "secondaryCategories": [
+      "evaluation",
+      "infrastructure"
+    ],
+    "tags": [
+      "google",
+      "gemini",
+      "multi-agent",
+      "python",
+      "evaluation"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 21087,
+    "forks": 3823,
+    "latestCommitAt": "2026-08-12T17:12:45Z",
+    "latestRelease": "v2.6.3",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": false,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": true,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/google/adk-python",
+      "https://google.github.io/adk-docs/"
+    ]
+  },
+  {
+    "id": "camel-ai-camel",
+    "name": "CAMEL",
+    "owner": "camel-ai",
+    "repo": "camel",
+    "githubUrl": "https://github.com/camel-ai/camel",
+    "homepage": "https://docs.camel-ai.org/",
+    "description": "🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org",
+    "editorialSummary": "CAMEL is a research-rooted multi-agent framework exploring communicative agents and scaling laws of agent societies. It offers role-playing societies, tool agents, and extensive research tooling.",
+    "whyCare": "Strong research pedigree for multi-agent communication experiments and agent-society simulations beyond simple task crews.",
+    "primaryCategory": "ai-agents",
+    "secondaryCategories": [
+      "research"
+    ],
+    "tags": [
+      "multi-agent",
+      "research",
+      "role-playing",
+      "python",
+      "agent-societies"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 17578,
+    "forks": 2039,
+    "latestCommitAt": "2026-08-07T09:51:49Z",
+    "latestRelease": "v0.2.90",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers",
+      "students"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/camel-ai/camel",
+      "https://docs.camel-ai.org/"
+    ]
+  },
+  {
+    "id": "openai-swarm",
+    "name": "Swarm",
+    "owner": "openai",
+    "repo": "swarm",
+    "githubUrl": "https://github.com/openai/swarm",
+    "homepage": null,
+    "description": "Educational framework exploring ergonomic, lightweight multi-agent orchestration. Managed by OpenAI Solution team.",
+    "editorialSummary": "Swarm is OpenAI’s educational exploration of lightweight multi-agent handoffs and routines. It is not a production SDK; patterns live on in the OpenAI Agents SDK.",
+    "whyCare": "Short, readable reference for handoff-style multi-agent design—historically useful, then move to openai-agents-python for real apps.",
+    "primaryCategory": "ai-agents",
+    "secondaryCategories": [
+      "research"
+    ],
+    "tags": [
+      "educational",
+      "multi-agent",
+      "handoffs",
+      "openai",
+      "python"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 21896,
+    "forks": 2329,
+    "latestCommitAt": "2026-04-15T17:10:28Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "slow",
+    "selfHostable": true,
+    "localOfflineCapable": false,
+    "audience": [
+      "students",
+      "engineers",
+      "hobbyists"
+    ],
+    "difficulty": "beginner",
+    "documentationQuality": "fair",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/openai/swarm",
+      "https://openai.github.io/openai-agents-python/"
+    ],
+    "notes": "Educational only; OpenAI points production users to openai/openai-agents-python. No GitHub Releases; last push ~Apr 2026."
+  }
+]

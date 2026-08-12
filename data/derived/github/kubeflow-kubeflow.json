@@ -1,0 +1,31 @@
+{
+  "id": "kubeflow-kubeflow",
+  "fetchedAt": "2026-08-12T17:39:37.537Z",
+  "stars": 15811,
+  "forks": 2690,
+  "watchers": 361,
+  "openIssues": 0,
+  "language": null,
+  "license": "Apache-2.0",
+  "description": "Machine Learning Toolkit for Kubernetes",
+  "homepage": "https://www.kubeflow.org/",
+  "topics": [
+    "google-kubernetes-engine",
+    "jupyter",
+    "kubeflow",
+    "kubernetes",
+    "machine-learning",
+    "minikube",
+    "ml",
+    "notebook",
+    "tensorflow"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-07-10T11:31:26Z",
+  "updatedAt": "2026-08-12T16:05:09Z",
+  "createdAt": "2017-11-30T18:44:19Z",
+  "latestRelease": "redirect",
+  "latestReleaseAt": "2026-04-29T13:58:28Z",
+  "defaultBranch": "master"
+}

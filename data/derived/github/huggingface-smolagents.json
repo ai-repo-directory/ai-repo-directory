@@ -1,0 +1,21 @@
+{
+  "id": "huggingface-smolagents",
+  "fetchedAt": "2026-08-12T17:35:59.524Z",
+  "stars": 28776,
+  "forks": 2853,
+  "watchers": 136,
+  "openIssues": 756,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "description": "🤗 smolagents: a barebones library for agents that think in code.",
+  "homepage": "https://huggingface.co/docs/smolagents",
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-07-21T18:35:00Z",
+  "updatedAt": "2026-08-12T17:14:30Z",
+  "createdAt": "2024-12-05T11:28:04Z",
+  "latestRelease": "v1.26.0",
+  "latestReleaseAt": "2026-05-29T05:09:47Z",
+  "defaultBranch": "main"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "sourcegraph-cody-public-snapshot",
+  "fetchedAt": "2026-08-12T17:39:25.438Z",
+  "stars": 3806,
+  "forks": 486,
+  "watchers": 10,
+  "openIssues": 43,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "description": "Type less, code more: Cody is an AI code assistant that uses advanced search and codebase context to help you write and fix code.",
+  "homepage": "https://cody.dev",
+  "topics": [
+    "ai",
+    "intellij-plugin",
+    "vscode-extension"
+  ],
+  "archived": true,
+  "disabled": false,
+  "pushedAt": "2025-08-01T14:31:09Z",
+  "updatedAt": "2026-08-10T01:28:15Z",
+  "createdAt": "2023-07-10T10:13:55Z",
+  "latestRelease": "vscode-v1.116.0",
+  "latestReleaseAt": "2025-07-30T17:40:54Z",
+  "defaultBranch": "main"
+}

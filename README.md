@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI Repo Directory
 
-## Getting Started
+A searchable, continuously updateable directory of high-quality open-source AI repositories — built for discovery, not star-chasing.
 
-First, run the development server:
+**Stack:** Next.js (App Router) · TypeScript · Tailwind CSS · curated JSON + GitHub metadata pipeline
+
+## Features
+
+- Curated listings across inference, agents, coding agents, RAG, local AI, multimodal, training, eval, MCP, infra, and more
+- Shareable search & filters (category, language, license, activity, self-hostable, local/offline, difficulty)
+- Repository pages with editorial context, maintenance signals, and similar projects
+- Category pages and editorial collections
+- Transparent composite ranking (not stars-only) — see [RANKING_METHODOLOGY.md](./RANKING_METHODOLOGY.md)
+- GitHub metadata refresh + candidate discovery pipeline (GitHub Actions)
+
+## Quick start
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+pnpm install
+cp .env.example .env.local
+pnpm merge-data    # raw research → canonical
+pnpm refresh       # optional: ingest GitHub stats + rank (needs GITHUB_TOKEN)
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Command | Purpose |
+|---------|---------|
+| `pnpm dev` | Dev server |
+| `pnpm build` / `pnpm start` | Production |
+| `pnpm validate` | Schema + duplicate checks |
+| `pnpm merge-data` | Merge `data/raw` → `data/canonical` |
+| `pnpm ingest` | Refresh GitHub snapshots |
+| `pnpm rank` | Recompute scores |
+| `pnpm discover` | Write pending candidates |
+| `pnpm test` | Vitest |
+| `pnpm typecheck` | `tsc --noEmit` |
+| `pnpm lint` | ESLint |
 
-## Learn More
+## Documentation
 
-To learn more about Next.js, take a look at the following resources:
+- [ARCHITECTURE.md](./ARCHITECTURE.md)
+- [docs/DATA_SCHEMA.md](./docs/DATA_SCHEMA.md)
+- [RANKING_METHODOLOGY.md](./RANKING_METHODOLOGY.md)
+- [CONTRIBUTING.md](./CONTRIBUTING.md)
+- [DATA_PROVENANCE.md](./DATA_PROVENANCE.md)
+- [DEPLOYMENT.md](./DEPLOYMENT.md)
+- [docs/EXECUTION_PLAN.md](./docs/EXECUTION_PLAN.md)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT (directory code and editorial metadata). Listed projects retain their own licenses.

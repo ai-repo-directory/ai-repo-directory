@@ -1,0 +1,714 @@
+[
+  {
+    "id": "huggingface-datasets",
+    "name": "Datasets",
+    "owner": "huggingface",
+    "repo": "datasets",
+    "githubUrl": "https://github.com/huggingface/datasets",
+    "homepage": "https://huggingface.co/docs/datasets",
+    "description": "🤗 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools",
+    "editorialSummary": "Hugging Face Datasets is the standard Python library for loading, streaming, and transforming ML datasets from the Hub and local sources. It provides memory-mapped Arrow backends, streaming for large corpora, and a shared API used across NLP, vision, and audio training stacks.",
+    "whyCare": "Almost every open LLM/data workflow touches this library—learn it once to access Hub datasets, build local processing pipelines, and share reproducible dataset cards.",
+    "primaryCategory": "datasets",
+    "secondaryCategories": [
+      "training",
+      "infrastructure"
+    ],
+    "tags": [
+      "huggingface",
+      "datasets",
+      "arrow",
+      "streaming",
+      "nlp",
+      "python",
+      "data-loading"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 21831,
+    "forks": 3349,
+    "latestCommitAt": "2026-08-12T14:56:51Z",
+    "latestRelease": "5.0.1",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers",
+      "students",
+      "hobbyists"
+    ],
+    "difficulty": "beginner",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/huggingface/datasets",
+      "https://huggingface.co/docs/datasets"
+    ]
+  },
+  {
+    "id": "eleutherai-the-pile",
+    "name": "The Pile",
+    "owner": "EleutherAI",
+    "repo": "the-pile",
+    "githubUrl": "https://github.com/EleutherAI/the-pile",
+    "homepage": null,
+    "description": null,
+    "editorialSummary": "The Pile is EleutherAI’s influential 800GB+ open language-modeling corpus assembled from diverse high-quality sources. The repo documents dataset construction and download tooling that defined an early open alternative to proprietary pretraining mixes.",
+    "whyCare": "It set the template for transparent, multi-domain open pretraining data and remains a historical reference point for dataset design and citation.",
+    "primaryCategory": "datasets",
+    "secondaryCategories": [
+      "research",
+      "training"
+    ],
+    "tags": [
+      "pretraining",
+      "corpus",
+      "eleutherai",
+      "open-data",
+      "nlp",
+      "historically-significant"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 1674,
+    "forks": 150,
+    "latestCommitAt": "2023-04-27T21:00:48Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "stale",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers",
+      "students"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "fair",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/EleutherAI/the-pile",
+      "https://pile.eleuther.ai/"
+    ],
+    "notes": "GitHub description is empty; project is historically important but largely unmaintained since 2023."
+  },
+  {
+    "id": "togethercomputer-redpajama-data",
+    "name": "RedPajama-Data",
+    "owner": "togethercomputer",
+    "repo": "RedPajama-Data",
+    "githubUrl": "https://github.com/togethercomputer/RedPajama-Data",
+    "homepage": null,
+    "description": "The RedPajama-Data repository contains code for preparing large datasets for training large language models.",
+    "editorialSummary": "RedPajama-Data open-sources recipes and processing code for large pretraining corpora inspired by LLaMA’s reported data mix. It became a widely used community baseline for reproducible web-scale LLM data preparation.",
+    "whyCare": "Use it when you need battle-tested scripts and lineage for open LLaMA-style pretraining data rather than opaque dumps.",
+    "primaryCategory": "datasets",
+    "secondaryCategories": [
+      "training",
+      "research"
+    ],
+    "tags": [
+      "pretraining",
+      "redpajama",
+      "together",
+      "data-prep",
+      "open-data",
+      "llm"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 4976,
+    "forks": 375,
+    "latestCommitAt": "2026-06-03T16:00:12Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers",
+      "enterprises"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/togethercomputer/RedPajama-Data",
+      "https://www.together.ai/blog/redpajama"
+    ]
+  },
+  {
+    "id": "allenai-dolma",
+    "name": "Dolma",
+    "owner": "allenai",
+    "repo": "dolma",
+    "githubUrl": "https://github.com/allenai/dolma",
+    "homepage": "https://allenai.github.io/dolma/",
+    "description": "Data and tools for generating and inspecting OLMo pre-training data. ",
+    "editorialSummary": "Dolma is AI2’s toolkit and dataset lineage for building and inspecting the OLMo pretraining corpus. It emphasizes open processing pipelines, filtering, and documentation for multi-trillion-token scale data.",
+    "whyCare": "If you care about fully open model+data stacks, Dolma is one of the clearest end-to-end pretraining data pipelines you can study and reuse.",
+    "primaryCategory": "datasets",
+    "secondaryCategories": [
+      "training",
+      "research"
+    ],
+    "tags": [
+      "dolma",
+      "olmo",
+      "allenai",
+      "pretraining",
+      "data-processing",
+      "open-data"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 1535,
+    "forks": 204,
+    "latestCommitAt": "2025-11-05T22:00:12Z",
+    "latestRelease": "v1.2.1",
+    "archived": false,
+    "maintenance": "moderate",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "excellent",
+    "demoAvailable": false,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/allenai/dolma",
+      "https://allenai.github.io/dolma/",
+      "https://huggingface.co/datasets/allenai/dolma"
+    ]
+  },
+  {
+    "id": "huggingface-datatrove",
+    "name": "Datatrove",
+    "owner": "huggingface",
+    "repo": "datatrove",
+    "githubUrl": "https://github.com/huggingface/datatrove",
+    "homepage": null,
+    "description": "Freeing data processing from scripting madness by providing a set of platform-agnostic customizable pipeline processing blocks.",
+    "editorialSummary": "Datatrove is Hugging Face’s large-scale data processing framework of composable pipeline blocks for crawling, filtering, deduplicating, and formatting text corpora. It powers production datasets such as FineWeb and is designed for cluster-friendly, reproducible ETL.",
+    "whyCare": "Choose Datatrove when you need FineWeb-class web data pipelines without reinventing Common Crawl processing, filters, and sharding.",
+    "primaryCategory": "datasets",
+    "secondaryCategories": [
+      "infrastructure",
+      "training"
+    ],
+    "tags": [
+      "fineweb",
+      "datatrove",
+      "common-crawl",
+      "deduplication",
+      "etl",
+      "pretraining",
+      "huggingface"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 3260,
+    "forks": 287,
+    "latestCommitAt": "2026-08-12T14:37:17Z",
+    "latestRelease": "v0.9.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers",
+      "enterprises"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/huggingface/datatrove",
+      "https://huggingface.co/datasets/HuggingFaceFW/fineweb",
+      "https://huggingface.co/spaces/HuggingFaceFW/blogpost-fineweb-v1"
+    ],
+    "notes": "Primary open-source tooling behind FineWeb; the FineWeb dataset itself is published on the Hub as HuggingFaceFW/fineweb (no dedicated fineweb GitHub repo)."
+  },
+  {
+    "id": "huggingface-fineweb-2",
+    "name": "FineWeb-2",
+    "owner": "huggingface",
+    "repo": "fineweb-2",
+    "githubUrl": "https://github.com/huggingface/fineweb-2",
+    "homepage": null,
+    "description": null,
+    "editorialSummary": "FineWeb-2 is Hugging Face’s open repository for the multilingual FineWeb-2 pretraining dataset effort—extending FineWeb-style Common Crawl curation beyond English. It complements the Hub-hosted FineWeb family with reproducible processing code.",
+    "whyCare": "Best GitHub entry point for FineWeb lineage code when you need multilingual web pretraining data rather than English-only FineWeb dumps.",
+    "primaryCategory": "datasets",
+    "secondaryCategories": [
+      "training",
+      "research"
+    ],
+    "tags": [
+      "fineweb",
+      "multilingual",
+      "pretraining",
+      "common-crawl",
+      "huggingface",
+      "open-data"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 257,
+    "forks": 15,
+    "latestCommitAt": "2025-10-27T18:15:38Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "moderate",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "fair",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": true,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/huggingface/fineweb-2",
+      "https://huggingface.co/datasets/HuggingFaceFW/fineweb-2",
+      "https://huggingface.co/datasets/HuggingFaceFW/fineweb"
+    ],
+    "notes": "GitHub description is empty; paired with Hub datasets HuggingFaceFW/fineweb and HuggingFaceFW/fineweb-2."
+  },
+  {
+    "id": "datadreamer-dev-datadreamer",
+    "name": "DataDreamer",
+    "owner": "datadreamer-dev",
+    "repo": "DataDreamer",
+    "githubUrl": "https://github.com/datadreamer-dev/DataDreamer",
+    "homepage": "https://datadreamer.dev",
+    "description": "DataDreamer: Prompt. Generate Synthetic Data. Train & Align Models.    🤖💤",
+    "editorialSummary": "DataDreamer is a research-friendly Python framework for prompting LLMs to generate synthetic datasets, then training and aligning models in one workflow. It abstracts multi-step generation, caching, and training hooks for reproducible synthetic-data experiments.",
+    "whyCare": "Useful when you want an end-to-end synthetic data → train/align loop with less glue code than DIY prompting scripts.",
+    "primaryCategory": "datasets",
+    "secondaryCategories": [
+      "training",
+      "research"
+    ],
+    "tags": [
+      "synthetic-data",
+      "prompting",
+      "instruction-tuning",
+      "alignment",
+      "llm",
+      "python"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 1116,
+    "forks": 58,
+    "latestCommitAt": "2025-02-02T21:23:50Z",
+    "latestRelease": "0.46.0",
+    "archived": false,
+    "maintenance": "stale",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers",
+      "students"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/datadreamer-dev/DataDreamer",
+      "https://datadreamer.dev"
+    ]
+  },
+  {
+    "id": "argilla-io-distilabel",
+    "name": "Distilabel",
+    "owner": "argilla-io",
+    "repo": "distilabel",
+    "githubUrl": "https://github.com/argilla-io/distilabel",
+    "homepage": "https://distilabel.argilla.io",
+    "description": "Distilabel is a framework for synthetic data and AI feedback for engineers who need fast, reliable and scalable pipelines based on verified research papers.",
+    "editorialSummary": "Distilabel is Argilla’s framework for building scalable synthetic data and AI-feedback pipelines grounded in published methods (SFT, preference, RLAIF-style flows). It composes LLM tasks into reliable dataset generation graphs for post-training.",
+    "whyCare": "One of the strongest OSS choices for production-minded synthetic instruction/preference data with paper-backed pipeline patterns.",
+    "primaryCategory": "datasets",
+    "secondaryCategories": [
+      "training",
+      "evaluation"
+    ],
+    "tags": [
+      "synthetic-data",
+      "distilabel",
+      "rlaif",
+      "rlhf",
+      "pipelines",
+      "argilla",
+      "post-training"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 3366,
+    "forks": 253,
+    "latestCommitAt": "2026-08-10T22:20:11Z",
+    "latestRelease": "1.5.3",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers",
+      "enterprises"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/argilla-io/distilabel",
+      "https://distilabel.argilla.io"
+    ]
+  },
+  {
+    "id": "argilla-io-argilla",
+    "name": "Argilla",
+    "owner": "argilla-io",
+    "repo": "argilla",
+    "githubUrl": "https://github.com/argilla-io/argilla",
+    "homepage": "https://argilla-io.github.io/argilla/latest/",
+    "description": "Argilla is a collaboration tool for AI engineers and domain experts to build high-quality datasets",
+    "editorialSummary": "Argilla is an open human-in-the-loop platform for annotating, reviewing, and curating datasets for LLMs and classical NLP. It bridges engineers and domain experts for feedback collection, preference labeling, and iterative dataset quality improvement.",
+    "whyCare": "When synthetic or scraped data needs expert review, Argilla provides the collaboration UI and workflows that raw JSONL pipelines lack.",
+    "primaryCategory": "datasets",
+    "secondaryCategories": [
+      "evaluation",
+      "training"
+    ],
+    "tags": [
+      "annotation",
+      "human-in-the-loop",
+      "labeling",
+      "rlhf",
+      "data-quality",
+      "argilla"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 5079,
+    "forks": 497,
+    "latestCommitAt": "2026-08-10T22:20:05Z",
+    "latestRelease": "v2.8.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises",
+      "researchers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/argilla-io/argilla",
+      "https://argilla-io.github.io/argilla/latest/"
+    ]
+  },
+  {
+    "id": "meta-llama-synthetic-data-kit",
+    "name": "Synthetic Data Kit",
+    "owner": "meta-llama",
+    "repo": "synthetic-data-kit",
+    "githubUrl": "https://github.com/meta-llama/synthetic-data-kit",
+    "homepage": "https://pypi.org/project/synthetic-data-kit/",
+    "description": "Tool for generating high quality Synthetic datasets",
+    "editorialSummary": "Meta’s Synthetic Data Kit is a CLI/tooling package for generating high-quality synthetic datasets for Llama-centric fine-tuning workflows. It focuses on practical generation pipelines rather than a full annotation UI.",
+    "whyCare": "A lightweight official Meta tooling path for spinning up synthetic fine-tuning data without assembling a custom generator stack.",
+    "primaryCategory": "datasets",
+    "secondaryCategories": [
+      "training"
+    ],
+    "tags": [
+      "synthetic-data",
+      "llama",
+      "meta",
+      "fine-tuning",
+      "cli",
+      "generation"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 1627,
+    "forks": 234,
+    "latestCommitAt": "2025-10-28T20:10:55Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "moderate",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers",
+      "hobbyists"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": true,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/meta-llama/synthetic-data-kit",
+      "https://pypi.org/project/synthetic-data-kit/"
+    ]
+  },
+  {
+    "id": "instructlab-instructlab",
+    "name": "InstructLab",
+    "owner": "instructlab",
+    "repo": "instructlab",
+    "githubUrl": "https://github.com/instructlab/instructlab",
+    "homepage": "https://instructlab.ai",
+    "description": "InstructLab Core package.  Use this to chat with a model and execute the InstructLab workflow to train a model using custom taxonomy data.",
+    "editorialSummary": "InstructLab (IBM/Red Hat originated) provides a taxonomy-driven workflow to generate synthetic instruction data and fine-tune models locally. The core CLI covers chat, synthetic generation from taxonomies, and training loops for community model improvement.",
+    "whyCare": "Still a notable pattern for taxonomy-based synthetic data generation even though the core repo is now archived—study it for LAB-method style contribution workflows.",
+    "primaryCategory": "datasets",
+    "secondaryCategories": [
+      "training",
+      "local-ai"
+    ],
+    "tags": [
+      "instructlab",
+      "synthetic-data",
+      "taxonomy",
+      "fine-tuning",
+      "ibm",
+      "local"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 1420,
+    "forks": 456,
+    "latestCommitAt": "2026-03-30T22:38:31Z",
+    "latestRelease": "v0.26.1",
+    "archived": true,
+    "maintenance": "archived",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises",
+      "hobbyists"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/instructlab/instructlab",
+      "https://instructlab.ai"
+    ],
+    "notes": "Repository marked archived on GitHub as of verification date."
+  },
+  {
+    "id": "nvidia-nemo-curator",
+    "name": "NeMo Curator",
+    "owner": "NVIDIA-NeMo",
+    "repo": "Curator",
+    "githubUrl": "https://github.com/NVIDIA-NeMo/Curator",
+    "homepage": null,
+    "description": "Scalable data pre processing and curation toolkit for LLMs",
+    "editorialSummary": "NVIDIA NeMo Curator is a GPU-accelerated toolkit for large-scale LLM data curation—filtering, quality scoring, and semantic/exact deduplication. It targets production pretraining and fine-tuning data prep on multi-node GPU clusters.",
+    "whyCare": "Pick it when CPU-bound Python ETL is too slow and you need NVIDIA-optimized curation at web-corpus scale.",
+    "primaryCategory": "datasets",
+    "secondaryCategories": [
+      "infrastructure",
+      "training"
+    ],
+    "tags": [
+      "nemo",
+      "nvidia",
+      "data-curation",
+      "deduplication",
+      "gpu",
+      "pretraining",
+      "etl"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 1712,
+    "forks": 313,
+    "latestCommitAt": "2026-08-12T17:28:17Z",
+    "latestRelease": "v1.3.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises",
+      "researchers"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/NVIDIA-NeMo/Curator",
+      "https://docs.nvidia.com/nemo-framework/user-guide/latest/datacuration/index.html"
+    ],
+    "notes": "Formerly referenced as NVIDIA/NeMo-Curator; canonical repo is NVIDIA-NeMo/Curator."
+  },
+  {
+    "id": "sdv-dev-sdv",
+    "name": "SDV",
+    "owner": "sdv-dev",
+    "repo": "SDV",
+    "githubUrl": "https://github.com/sdv-dev/SDV",
+    "homepage": "https://docs.sdv.dev/sdv",
+    "description": "Synthetic data generation for tabular data",
+    "editorialSummary": "SDV (Synthetic Data Vault) is a mature open-source library for generating synthetic tabular and multi-table relational data. It covers statistical and deep generative models for privacy-friendly dataset sharing and augmentation outside pure LLM text pipelines.",
+    "whyCare": "The go-to OSS stack when your synthetic data problem is structured/tabular rather than LLM instruction text.",
+    "primaryCategory": "datasets",
+    "secondaryCategories": [
+      "research"
+    ],
+    "tags": [
+      "synthetic-data",
+      "tabular",
+      "relational",
+      "privacy",
+      "generative-models",
+      "sdv"
+    ],
+    "language": "Python",
+    "license": null,
+    "stars": 3543,
+    "forks": 417,
+    "latestCommitAt": "2026-08-12T15:03:27Z",
+    "latestRelease": "v1.38.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises",
+      "researchers",
+      "students"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/sdv-dev/SDV",
+      "https://docs.sdv.dev/sdv"
+    ],
+    "notes": "GitHub license SPDX is NOASSERTION (custom/other); recorded as null rather than inventing an SPDX id."
+  },
+  {
+    "id": "mosaicml-streaming",
+    "name": "Streaming",
+    "owner": "mosaicml",
+    "repo": "streaming",
+    "githubUrl": "https://github.com/mosaicml/streaming",
+    "homepage": "https://streaming.docs.mosaicml.com",
+    "description": "A Data Streaming Library for Efficient Neural Network Training",
+    "editorialSummary": "MosaicML Streaming is a high-performance dataset streaming library for training neural networks from cloud object storage without full local downloads. It focuses on deterministic sharding, fast epoch iteration, and efficient multi-node data feeding.",
+    "whyCare": "Critical infrastructure when your curated datasets are too large to stage locally and training throughput is gated on data I/O.",
+    "primaryCategory": "datasets",
+    "secondaryCategories": [
+      "training",
+      "infrastructure"
+    ],
+    "tags": [
+      "streaming",
+      "data-loading",
+      "mosaicml",
+      "pytorch",
+      "object-storage",
+      "training"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 1545,
+    "forks": 202,
+    "latestCommitAt": "2026-06-25T15:02:27Z",
+    "latestRelease": "v0.13.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": false,
+    "audience": [
+      "engineers",
+      "enterprises",
+      "researchers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/mosaicml/streaming",
+      "https://streaming.docs.mosaicml.com"
+    ],
+    "notes": "localOfflineCapable=false because primary design center is remote object-store streaming (local shards still possible but not the main mode)."
+  }
+]

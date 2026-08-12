@@ -1,0 +1,32 @@
+{
+  "id": "run-llama-llama-index",
+  "fetchedAt": "2026-08-12T17:39:54.742Z",
+  "stars": 51594,
+  "forks": 7916,
+  "watchers": 278,
+  "openIssues": 605,
+  "language": "Python",
+  "license": "MIT",
+  "description": "LlamaIndex is the leading document agent and OCR platform",
+  "homepage": "https://developers.llamaindex.ai",
+  "topics": [
+    "agents",
+    "application",
+    "data",
+    "fine-tuning",
+    "framework",
+    "llamaindex",
+    "llm",
+    "multi-agents",
+    "rag",
+    "vector-database"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-08-11T16:13:44Z",
+  "updatedAt": "2026-08-12T15:59:28Z",
+  "createdAt": "2022-11-02T04:24:54Z",
+  "latestRelease": "v0.14.23",
+  "latestReleaseAt": "2026-06-24T19:36:43Z",
+  "defaultBranch": "main"
+}

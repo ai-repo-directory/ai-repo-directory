@@ -1,0 +1,27 @@
+{
+  "id": "tensorflow-tensor2tensor",
+  "fetchedAt": "2026-08-12T17:39:57.523Z",
+  "stars": 17460,
+  "forks": 3775,
+  "watchers": 3,
+  "openIssues": 589,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "description": "Library of deep learning models and datasets designed to make deep learning more accessible and accelerate ML research.",
+  "homepage": null,
+  "topics": [
+    "deep-learning",
+    "machine-learning",
+    "machine-translation",
+    "reinforcement-learning",
+    "tpu"
+  ],
+  "archived": true,
+  "disabled": false,
+  "pushedAt": "2023-06-02T18:55:09Z",
+  "updatedAt": "2026-08-12T17:34:19Z",
+  "createdAt": "2017-06-15T16:57:39Z",
+  "latestRelease": "v1.15.7",
+  "latestReleaseAt": "2020-06-17T16:10:01Z",
+  "defaultBranch": "master"
+}

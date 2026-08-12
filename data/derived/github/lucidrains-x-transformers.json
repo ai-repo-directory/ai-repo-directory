@@ -1,0 +1,26 @@
+{
+  "id": "lucidrains-x-transformers",
+  "fetchedAt": "2026-08-12T17:39:56.406Z",
+  "stars": 5934,
+  "forks": 516,
+  "watchers": 55,
+  "openIssues": 74,
+  "language": "Python",
+  "license": "MIT",
+  "description": "A concise but complete full-attention transformer with a set of promising experimental features from various papers",
+  "homepage": null,
+  "topics": [
+    "artificial-intelligence",
+    "attention-mechanism",
+    "deep-learning",
+    "transformers"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-08-09T00:02:06Z",
+  "updatedAt": "2026-08-12T01:50:56Z",
+  "createdAt": "2020-10-24T22:13:25Z",
+  "latestRelease": "2.16.1",
+  "latestReleaseAt": "2026-02-12T16:25:41Z",
+  "defaultBranch": "main"
+}

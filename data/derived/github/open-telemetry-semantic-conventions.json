@@ -1,0 +1,21 @@
+{
+  "id": "open-telemetry-semantic-conventions",
+  "fetchedAt": "2026-08-12T17:39:30.978Z",
+  "stars": 628,
+  "forks": 379,
+  "watchers": 47,
+  "openIssues": 718,
+  "language": "Jinja",
+  "license": "Apache-2.0",
+  "description": "Defines standards for generating consistent, accessible telemetry across a variety of domains",
+  "homepage": null,
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-08-12T16:57:00Z",
+  "updatedAt": "2026-08-11T17:46:03Z",
+  "createdAt": "2023-05-09T17:15:53Z",
+  "latestRelease": "v1.44.0",
+  "latestReleaseAt": "2026-08-04T20:00:58Z",
+  "defaultBranch": "main"
+}

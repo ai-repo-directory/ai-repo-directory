@@ -1,0 +1,21 @@
+{
+  "id": "modelcontextprotocol-servers",
+  "fetchedAt": "2026-08-12T17:39:48.816Z",
+  "stars": 89492,
+  "forks": 11434,
+  "watchers": 635,
+  "openIssues": 507,
+  "language": "TypeScript",
+  "license": null,
+  "description": "Model Context Protocol Servers",
+  "homepage": "https://modelcontextprotocol.io",
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-08-10T02:41:59Z",
+  "updatedAt": "2026-08-12T17:38:32Z",
+  "createdAt": "2024-11-19T01:10:17Z",
+  "latestRelease": "2026.7.10",
+  "latestReleaseAt": "2026-07-10T03:39:07Z",
+  "defaultBranch": "main"
+}

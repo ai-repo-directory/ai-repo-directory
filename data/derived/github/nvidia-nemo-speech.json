@@ -1,0 +1,32 @@
+{
+  "id": "nvidia-nemo-speech",
+  "fetchedAt": "2026-08-12T17:40:00.067Z",
+  "stars": 18110,
+  "forks": 3550,
+  "watchers": 230,
+  "openIssues": 236,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "description": "A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech AI (Automatic Speech Recognition and Text-to-Speech)",
+  "homepage": "https://docs.nvidia.com/nemo/speech/nightly/index.html",
+  "topics": [
+    "asr",
+    "deeplearning",
+    "generative-ai",
+    "machine-translation",
+    "neural-networks",
+    "speaker-diariazation",
+    "speaker-recognition",
+    "speech-synthesis",
+    "speech-translation",
+    "tts"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-08-12T16:52:00Z",
+  "updatedAt": "2026-08-12T17:08:57Z",
+  "createdAt": "2019-08-05T20:16:42Z",
+  "latestRelease": "v3.0.0",
+  "latestReleaseAt": "2026-08-07T00:13:21Z",
+  "defaultBranch": "main"
+}

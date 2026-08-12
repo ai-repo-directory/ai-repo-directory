@@ -1,0 +1,21 @@
+{
+  "id": "llava-vl-llava-next",
+  "fetchedAt": "2026-08-12T17:39:50.785Z",
+  "stars": 4711,
+  "forks": 469,
+  "watchers": 32,
+  "openIssues": 358,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "description": null,
+  "homepage": null,
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-06-15T06:32:49Z",
+  "updatedAt": "2026-08-05T08:49:57Z",
+  "createdAt": "2024-03-08T12:54:09Z",
+  "latestRelease": null,
+  "latestReleaseAt": null,
+  "defaultBranch": "main"
+}

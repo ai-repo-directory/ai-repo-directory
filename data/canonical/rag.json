@@ -1,0 +1,397 @@
+[
+  {
+    "id": "answerdotai-ragatouille",
+    "name": "RAGatouille",
+    "owner": "AnswerDotAI",
+    "repo": "RAGatouille",
+    "githubUrl": "https://github.com/AnswerDotAI/RAGatouille",
+    "homepage": null,
+    "description": "Easily use and train state of the art late-interaction retrieval methods (ColBERT) in any RAG pipeline. Designed for modularity and ease-of-use, backed by research.",
+    "editorialSummary": "RAGatouille wraps ColBERT late-interaction retrieval so teams can drop research-grade reranking/retrieval into existing RAG stacks. It focuses on training and serving ColBERT indexes with a simple API.",
+    "whyCare": "When dense embedding search is not enough, ColBERT via RAGatouille often lifts answer quality with relatively little pipeline churn.",
+    "primaryCategory": "rag",
+    "secondaryCategories": [
+      "research"
+    ],
+    "tags": [
+      "colbert",
+      "late-interaction",
+      "reranking",
+      "retrieval",
+      "python"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 3950,
+    "forks": 274,
+    "latestCommitAt": "2025-05-17T12:45:38Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "slow",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/AnswerDotAI/RAGatouille"
+    ],
+    "notes": "Last push observed mid-2025; still widely referenced for ColBERT-in-RAG."
+  },
+  {
+    "id": "deepset-ai-haystack",
+    "name": "Haystack",
+    "owner": "deepset-ai",
+    "repo": "haystack",
+    "githubUrl": "https://github.com/deepset-ai/haystack",
+    "homepage": "https://haystack.deepset.ai",
+    "description": "Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation.",
+    "editorialSummary": "Haystack is a production-oriented pipeline framework for RAG, semantic search, and agent workflows with explicit component graphs. deepset designed it for controllable retrieval, routing, and evaluation rather than opaque chains.",
+    "whyCare": "Choose Haystack when you need modular, inspectable RAG/agent pipelines with strong IR roots and enterprise deployment patterns.",
+    "primaryCategory": "rag",
+    "secondaryCategories": [
+      "ai-agents",
+      "evaluation"
+    ],
+    "tags": [
+      "rag",
+      "pipelines",
+      "semantic-search",
+      "orchestration",
+      "python",
+      "information-retrieval"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 26189,
+    "forks": 2997,
+    "latestCommitAt": "2026-08-12T16:17:53Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises",
+      "researchers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/deepset-ai/haystack",
+      "https://haystack.deepset.ai"
+    ]
+  },
+  {
+    "id": "langchain-ai-langchain",
+    "name": "LangChain",
+    "owner": "langchain-ai",
+    "repo": "langchain",
+    "githubUrl": "https://github.com/langchain-ai/langchain",
+    "homepage": "https://docs.langchain.com/langchain/",
+    "description": "The agent engineering platform.",
+    "editorialSummary": "LangChain remains the most widely adopted LLM application framework, with first-class RAG primitives (retrievers, document loaders, vector store integrations) alongside agent tooling. Listed here for its retrieval ecosystem even as the project positions itself around agent engineering.",
+    "whyCare": "Its retriever/vector-store ecosystem and tutorials make it the default starting point for many RAG prototypes and production apps.",
+    "primaryCategory": "rag",
+    "secondaryCategories": [
+      "ai-agents"
+    ],
+    "tags": [
+      "rag",
+      "retrievers",
+      "vector-stores",
+      "agents",
+      "python",
+      "framework"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 144088,
+    "forks": 23995,
+    "latestCommitAt": "2026-08-12T16:58:15Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "enterprises",
+      "students"
+    ],
+    "difficulty": "beginner",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/langchain-ai/langchain",
+      "https://docs.langchain.com/langchain/"
+    ],
+    "notes": "Primary product messaging is agent-centric; included for RAG-centric integrations and retriever abstractions."
+  },
+  {
+    "id": "neuml-txtai",
+    "name": "txtai",
+    "owner": "neuml",
+    "repo": "txtai",
+    "githubUrl": "https://github.com/neuml/txtai",
+    "homepage": "https://neuml.github.io/txtai",
+    "description": "All-in-one AI framework for semantic search, LLM orchestration and language model workflows",
+    "editorialSummary": "txtai is an all-in-one embeddings + semantic search + RAG workflow library with a built-in vector index. It targets teams that want embeddings, retrieval, and LLM pipelines without assembling many separate services.",
+    "whyCare": "Great fit for compact semantic-search and RAG apps where an embedded vector index plus orchestration in one package reduces stack complexity.",
+    "primaryCategory": "rag",
+    "secondaryCategories": [
+      "vector-db",
+      "local-ai"
+    ],
+    "tags": [
+      "semantic-search",
+      "embeddings",
+      "rag",
+      "vector-index",
+      "python"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 12880,
+    "forks": 872,
+    "latestCommitAt": "2026-08-12T13:42:39Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "researchers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/neuml/txtai",
+      "https://neuml.github.io/txtai"
+    ]
+  },
+  {
+    "id": "onyx-dot-app-onyx",
+    "name": "Onyx",
+    "owner": "onyx-dot-app",
+    "repo": "onyx",
+    "githubUrl": "https://github.com/onyx-dot-app/onyx",
+    "homepage": "https://onyx.app",
+    "description": "Open Source AI Platform - AI Chat with advanced features that works with every LLM",
+    "editorialSummary": "Onyx (formerly Danswer) is a self-hosted enterprise search and AI chat platform with connectors into workplace knowledge sources. It emphasizes permission-aware retrieval and production chat UX over raw library APIs.",
+    "whyCare": "The strongest open-source option for company-internal RAG: connectors, ACL-aware search, and a full chat product you can self-host.",
+    "primaryCategory": "rag",
+    "secondaryCategories": [
+      "local-ai",
+      "infrastructure"
+    ],
+    "tags": [
+      "enterprise-search",
+      "rag",
+      "self-hosted",
+      "connectors",
+      "knowledge-base",
+      "danswer"
+    ],
+    "language": "Python",
+    "license": null,
+    "stars": 31561,
+    "forks": 4344,
+    "latestCommitAt": "2026-08-12T17:20:27Z",
+    "latestRelease": "v4.5.6",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "enterprises",
+      "engineers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/onyx-dot-app/onyx",
+      "https://onyx.app"
+    ],
+    "notes": "Formerly danswer-ai/danswer; GitHub license SPDX unresolved (NOASSERTION)."
+  },
+  {
+    "id": "quivrhq-quivr",
+    "name": "Quivr",
+    "owner": "QuivrHQ",
+    "repo": "quivr",
+    "githubUrl": "https://github.com/QuivrHQ/quivr",
+    "homepage": "https://core.quivr.com",
+    "description": "Opiniated RAG for integrating GenAI in your apps. Focus on your product rather than the RAG. Easy integration in existing products with customisation.",
+    "editorialSummary": "Quivr provides an opinionated RAG stack (APIs, UI patterns, vector store choices) aimed at product teams embedding knowledge chat into apps. It abstracts LLM and vector-store selection behind a product-oriented interface.",
+    "whyCare": "Useful when you want a ready-made RAG product layer instead of assembling loaders, stores, and chat UI from scratch.",
+    "primaryCategory": "rag",
+    "secondaryCategories": [
+      "local-ai"
+    ],
+    "tags": [
+      "rag",
+      "knowledge-base",
+      "chat",
+      "pgvector",
+      "product-rag"
+    ],
+    "language": "Python",
+    "license": null,
+    "stars": 39394,
+    "forks": 3724,
+    "latestCommitAt": "2025-07-09T12:55:23Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "slow",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises",
+      "hobbyists"
+    ],
+    "difficulty": "beginner",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/QuivrHQ/quivr",
+      "https://core.quivr.com"
+    ],
+    "notes": "GitHub license SPDX unresolved (NOASSERTION); activity slowed after mid-2025."
+  },
+  {
+    "id": "run-llama-llama-index",
+    "name": "LlamaIndex",
+    "owner": "run-llama",
+    "repo": "llama_index",
+    "githubUrl": "https://github.com/run-llama/llama_index",
+    "homepage": "https://developers.llamaindex.ai",
+    "description": "LlamaIndex is the leading document agent and OCR platform",
+    "editorialSummary": "LlamaIndex is the go-to Python framework for connecting LLMs to private data via indexing, retrieval, and query engines. It covers ingestion connectors, vector/graph stores, agentic RAG patterns, and evaluation utilities used across production knowledge systems.",
+    "whyCare": "If you are building document Q&A, knowledge agents, or multi-source RAG pipelines in Python, LlamaIndex offers the deepest retrieval-centric abstractions and ecosystem of integrations.",
+    "primaryCategory": "rag",
+    "secondaryCategories": [
+      "ai-agents",
+      "vector-db"
+    ],
+    "tags": [
+      "rag",
+      "retrieval",
+      "indexing",
+      "query-engine",
+      "python",
+      "document-agents"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 51594,
+    "forks": 7916,
+    "latestCommitAt": "2026-08-11T16:13:44Z",
+    "latestRelease": "v0.14.23",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises",
+      "researchers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/run-llama/llama_index",
+      "https://developers.llamaindex.ai"
+    ]
+  },
+  {
+    "id": "zylon-ai-private-gpt",
+    "name": "PrivateGPT",
+    "owner": "zylon-ai",
+    "repo": "private-gpt",
+    "githubUrl": "https://github.com/zylon-ai/private-gpt",
+    "homepage": "https://www.zylon.ai/private-gpt",
+    "description": "Complete API layer for private AI applications on local models: RAG, skills, tools, MCP, text-to-sql, and more. Works with any OpenAI-compatible inference server.",
+    "editorialSummary": "PrivateGPT popularized private, document-local RAG with a complete API over local or OpenAI-compatible models. It now extends into tools, MCP, and text-to-SQL while keeping privacy-first defaults.",
+    "whyCare": "Ideal when documents must stay on-prem and you want a ready API for private RAG rather than wiring inference and retrieval yourself.",
+    "primaryCategory": "rag",
+    "secondaryCategories": [
+      "local-ai",
+      "mcp-tools"
+    ],
+    "tags": [
+      "private-rag",
+      "local-llm",
+      "api",
+      "privacy",
+      "on-premise"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 57432,
+    "forks": 7608,
+    "latestCommitAt": "2026-08-12T12:36:47Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "enterprises",
+      "engineers",
+      "hobbyists"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/zylon-ai/private-gpt",
+      "https://www.zylon.ai/private-gpt"
+    ]
+  }
+]

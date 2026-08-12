@@ -1,0 +1,443 @@
+[
+  {
+    "id": "chroma-core-chroma",
+    "name": "Chroma",
+    "owner": "chroma-core",
+    "repo": "chroma",
+    "githubUrl": "https://github.com/chroma-core/chroma",
+    "homepage": "https://www.trychroma.com/",
+    "description": "Search infrastructure for AI",
+    "editorialSummary": "Chroma is a developer-friendly embedding database commonly used as the default vector store in RAG tutorials and prototypes. It supports local embedded mode and client/server deployments with a simple collections API.",
+    "whyCare": "The lowest-friction vector store for getting a RAG demo running—especially with Python notebooks and LangChain/LlamaIndex integrations.",
+    "primaryCategory": "vector-db",
+    "secondaryCategories": [
+      "rag",
+      "local-ai"
+    ],
+    "tags": [
+      "vector-database",
+      "embeddings",
+      "rag",
+      "python",
+      "rust"
+    ],
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "stars": 29037,
+    "forks": 2435,
+    "latestCommitAt": "2026-08-11T23:20:13Z",
+    "latestRelease": "1.5.9",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "students"
+    ],
+    "difficulty": "beginner",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/chroma-core/chroma",
+      "https://www.trychroma.com/"
+    ]
+  },
+  {
+    "id": "facebookresearch-faiss",
+    "name": "FAISS",
+    "owner": "facebookresearch",
+    "repo": "faiss",
+    "githubUrl": "https://github.com/facebookresearch/faiss",
+    "homepage": "https://faiss.ai",
+    "description": "A library for efficient similarity search and clustering of dense vectors.",
+    "editorialSummary": "FAISS is Meta’s foundational library for efficient similarity search and clustering of dense vectors on CPU/GPU. Many vector databases and RAG stacks still embed FAISS indexes under the hood.",
+    "whyCare": "The reference implementation for large-scale nearest-neighbor search—essential when you need custom indexes or GPU-accelerated retrieval.",
+    "primaryCategory": "vector-db",
+    "secondaryCategories": [
+      "research",
+      "rag"
+    ],
+    "tags": [
+      "similarity-search",
+      "ann",
+      "gpu",
+      "embeddings",
+      "cpp",
+      "library"
+    ],
+    "language": "C++",
+    "license": "MIT",
+    "stars": 40722,
+    "forks": 4492,
+    "latestCommitAt": "2026-08-10T21:36:25Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/facebookresearch/faiss",
+      "https://faiss.ai"
+    ]
+  },
+  {
+    "id": "lancedb-lancedb",
+    "name": "LanceDB",
+    "owner": "lancedb",
+    "repo": "lancedb",
+    "githubUrl": "https://github.com/lancedb/lancedb",
+    "homepage": "https://lancedb.com/docs",
+    "description": "Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less.",
+    "editorialSummary": "LanceDB is an embedded, developer-friendly multimodal vector database built on the Lance columnar format. It targets RAG and multimodal retrieval with zero or low ops compared to server-centric vector DBs.",
+    "whyCare": "Strong emerging option for local/embedded multimodal RAG without standing up a separate vector cluster.",
+    "primaryCategory": "vector-db",
+    "secondaryCategories": [
+      "rag",
+      "multimodal"
+    ],
+    "tags": [
+      "embedded",
+      "vector-database",
+      "multimodal",
+      "lance",
+      "rust",
+      "retrieval"
+    ],
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "stars": 11138,
+    "forks": 997,
+    "latestCommitAt": "2026-08-12T16:19:27Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers",
+      "hobbyists"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": true,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/lancedb/lancedb",
+      "https://lancedb.com/docs"
+    ]
+  },
+  {
+    "id": "meilisearch-meilisearch",
+    "name": "Meilisearch",
+    "owner": "meilisearch",
+    "repo": "meilisearch",
+    "githubUrl": "https://github.com/meilisearch/meilisearch",
+    "homepage": "https://www.meilisearch.com",
+    "description": "A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications.",
+    "editorialSummary": "Meilisearch is a fast, developer-friendly search engine that added vector and hybrid (neural + keyword) search for AI apps. It is often used when product search UX matters as much as embedding retrieval.",
+    "whyCare": "Excellent when RAG or AI features need typo-tolerant keyword search fused with vectors behind a simple REST API.",
+    "primaryCategory": "vector-db",
+    "secondaryCategories": [
+      "rag",
+      "infrastructure"
+    ],
+    "tags": [
+      "hybrid-search",
+      "vector-search",
+      "full-text",
+      "search-engine",
+      "rust",
+      "neural-search"
+    ],
+    "language": "Rust",
+    "license": null,
+    "stars": 58950,
+    "forks": 2664,
+    "latestCommitAt": "2026-08-12T08:31:27Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "enterprises"
+    ],
+    "difficulty": "beginner",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/meilisearch/meilisearch",
+      "https://www.meilisearch.com"
+    ],
+    "notes": "GitHub license SPDX unresolved (NOASSERTION); included for neural/hybrid search capabilities relevant to RAG."
+  },
+  {
+    "id": "milvus-io-milvus",
+    "name": "Milvus",
+    "owner": "milvus-io",
+    "repo": "milvus",
+    "githubUrl": "https://github.com/milvus-io/milvus",
+    "homepage": "https://milvus.io",
+    "description": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search",
+    "editorialSummary": "Milvus is a cloud-native distributed vector database built for large-scale ANN search. It underpins many high-volume RAG and multimodal retrieval deployments via Kubernetes-oriented architecture.",
+    "whyCare": "When vector corpora grow into billions of embeddings, Milvus is the established open-source scale-out option.",
+    "primaryCategory": "vector-db",
+    "secondaryCategories": [
+      "rag",
+      "infrastructure"
+    ],
+    "tags": [
+      "vector-database",
+      "ann",
+      "distributed",
+      "kubernetes",
+      "hnsw",
+      "diskann"
+    ],
+    "language": "Go",
+    "license": "Apache-2.0",
+    "stars": 45615,
+    "forks": 4174,
+    "latestCommitAt": "2026-08-12T12:05:33Z",
+    "latestRelease": "v3.0.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/milvus-io/milvus",
+      "https://milvus.io"
+    ]
+  },
+  {
+    "id": "pgvector-pgvector",
+    "name": "pgvector",
+    "owner": "pgvector",
+    "repo": "pgvector",
+    "githubUrl": "https://github.com/pgvector/pgvector",
+    "homepage": null,
+    "description": "Open-source vector similarity search for Postgres",
+    "editorialSummary": "pgvector adds vector similarity search as a PostgreSQL extension, letting teams keep embeddings next to relational data. It is the default vector backend for many RAG apps that already run Postgres.",
+    "whyCare": "Avoid a separate vector service—store and query embeddings in the database you already operate.",
+    "primaryCategory": "vector-db",
+    "secondaryCategories": [
+      "rag",
+      "infrastructure"
+    ],
+    "tags": [
+      "postgres",
+      "vector-extension",
+      "similarity-search",
+      "sql",
+      "embeddings"
+    ],
+    "language": "C",
+    "license": null,
+    "stars": 22600,
+    "forks": 1282,
+    "latestCommitAt": "2026-08-08T06:08:24Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/pgvector/pgvector"
+    ],
+    "notes": "License file present but SPDX marked NOASSERTION on GitHub (PostgreSQL-style)."
+  },
+  {
+    "id": "qdrant-qdrant",
+    "name": "Qdrant",
+    "owner": "qdrant",
+    "repo": "qdrant",
+    "githubUrl": "https://github.com/qdrant/qdrant",
+    "homepage": "https://qdrant.tech",
+    "description": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI.",
+    "editorialSummary": "Qdrant is a Rust-based vector database focused on high-performance similarity and hybrid search with rich filtering. It is a common production backend for RAG systems that outgrow embedded stores.",
+    "whyCare": "Strong choice for scalable RAG retrieval with payload filters, hybrid search, and a clear self-hosted or cloud path.",
+    "primaryCategory": "vector-db",
+    "secondaryCategories": [
+      "rag",
+      "infrastructure"
+    ],
+    "tags": [
+      "vector-database",
+      "hnsw",
+      "hybrid-search",
+      "rust",
+      "similarity-search"
+    ],
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "stars": 33940,
+    "forks": 2574,
+    "latestCommitAt": "2026-08-12T15:10:26Z",
+    "latestRelease": "v1.19.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/qdrant/qdrant",
+      "https://qdrant.tech"
+    ]
+  },
+  {
+    "id": "vespa-engine-vespa",
+    "name": "Vespa",
+    "owner": "vespa-engine",
+    "repo": "vespa",
+    "githubUrl": "https://github.com/vespa-engine/vespa",
+    "homepage": "https://vespa.ai",
+    "description": "The AI search platform",
+    "editorialSummary": "Vespa is a full AI search platform combining lexical, vector, and ranking features for low-latency serving at scale. It targets production RAG and recommendation workloads that need more than a pure vector DB.",
+    "whyCare": "Use Vespa when RAG quality depends on hybrid ranking, real-time serving, and sophisticated relevance beyond ANN alone.",
+    "primaryCategory": "vector-db",
+    "secondaryCategories": [
+      "rag",
+      "infrastructure"
+    ],
+    "tags": [
+      "search-engine",
+      "vector-search",
+      "ranking",
+      "hybrid-search",
+      "java",
+      "serving"
+    ],
+    "language": "Java",
+    "license": "Apache-2.0",
+    "stars": 7046,
+    "forks": 732,
+    "latestCommitAt": "2026-08-12T17:04:38Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/vespa-engine/vespa",
+      "https://vespa.ai"
+    ]
+  },
+  {
+    "id": "weaviate-weaviate",
+    "name": "Weaviate",
+    "owner": "weaviate",
+    "repo": "weaviate",
+    "githubUrl": "https://github.com/weaviate/weaviate",
+    "homepage": "https://weaviate.io/developers/weaviate/",
+    "description": "Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database.",
+    "editorialSummary": "Weaviate combines object storage with vectors, hybrid search, and generative/search modules in a cloud-native Go service. It is frequently used as the retrieval layer for enterprise RAG and semantic search products.",
+    "whyCare": "Pick Weaviate when you need hybrid search, schemaful objects, and modular vectorization/generation features in one database.",
+    "primaryCategory": "vector-db",
+    "secondaryCategories": [
+      "rag",
+      "infrastructure"
+    ],
+    "tags": [
+      "vector-database",
+      "hybrid-search",
+      "semantic-search",
+      "go",
+      "cloud-native"
+    ],
+    "language": "Go",
+    "license": "BSD-3-Clause",
+    "stars": 16725,
+    "forks": 1363,
+    "latestCommitAt": "2026-08-12T17:22:12Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/weaviate/weaviate",
+      "https://weaviate.io/developers/weaviate/"
+    ]
+  }
+]

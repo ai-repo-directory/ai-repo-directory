@@ -1,0 +1,30 @@
+{
+  "id": "lancedb-lancedb",
+  "fetchedAt": "2026-08-12T17:40:01.326Z",
+  "stars": 11138,
+  "forks": 997,
+  "watchers": 55,
+  "openIssues": 612,
+  "language": "Rust",
+  "license": "Apache-2.0",
+  "description": "Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less.",
+  "homepage": "https://lancedb.com/docs",
+  "topics": [
+    "approximate-nearest-neighbor-search",
+    "image-search",
+    "nearest-neighbor-search",
+    "recommender-system",
+    "search-engine",
+    "semantic-search",
+    "similarity-search",
+    "vector-database"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-08-12T16:19:27Z",
+  "updatedAt": "2026-08-12T15:26:14Z",
+  "createdAt": "2023-02-28T01:15:17Z",
+  "latestRelease": "v0.37.1",
+  "latestReleaseAt": "2026-08-10T07:55:09Z",
+  "defaultBranch": "main"
+}

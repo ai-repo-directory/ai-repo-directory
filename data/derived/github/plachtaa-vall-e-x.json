@@ -1,0 +1,29 @@
+{
+  "id": "plachtaa-vall-e-x",
+  "fetchedAt": "2026-08-12T17:39:20.497Z",
+  "stars": 7935,
+  "forks": 783,
+  "watchers": 1,
+  "openIssues": 99,
+  "language": "Python",
+  "license": "MIT",
+  "description": "An open source implementation of Microsoft's VALL-E X zero-shot TTS model. Demo is available in https://plachtaa.github.io/vallex/",
+  "homepage": null,
+  "topics": [
+    "emotional-speech",
+    "gpt",
+    "text-to-speech",
+    "transformer-architecture",
+    "tts",
+    "vall-e",
+    "voice-clone"
+  ],
+  "archived": true,
+  "disabled": false,
+  "pushedAt": "2024-02-11T15:36:45Z",
+  "updatedAt": "2026-08-10T15:32:16Z",
+  "createdAt": "2023-07-29T07:10:10Z",
+  "latestRelease": null,
+  "latestReleaseAt": null,
+  "defaultBranch": "master"
+}

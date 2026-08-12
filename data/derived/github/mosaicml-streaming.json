@@ -1,0 +1,28 @@
+{
+  "id": "mosaicml-streaming",
+  "fetchedAt": "2026-08-12T17:39:28.303Z",
+  "stars": 1545,
+  "forks": 202,
+  "watchers": 24,
+  "openIssues": 112,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "description": "A Data Streaming Library for Efficient Neural Network Training",
+  "homepage": "https://streaming.docs.mosaicml.com",
+  "topics": [
+    "dataset",
+    "deep-learning",
+    "machine-learning",
+    "neural-network",
+    "pytorch",
+    "streaming"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-06-25T15:02:27Z",
+  "updatedAt": "2026-08-10T19:07:28Z",
+  "createdAt": "2022-06-09T13:36:54Z",
+  "latestRelease": "v0.13.0",
+  "latestReleaseAt": "2025-07-15T22:04:37Z",
+  "defaultBranch": "main"
+}

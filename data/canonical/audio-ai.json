@@ -1,0 +1,792 @@
+[
+  {
+    "id": "coqui-ai-tts",
+    "name": "Coqui TTS",
+    "owner": "coqui-ai",
+    "repo": "TTS",
+    "githubUrl": "https://github.com/coqui-ai/TTS",
+    "homepage": "http://coqui.ai",
+    "description": "🐸💬 - a deep learning toolkit for Text-to-Speech, battle-tested in research and production",
+    "editorialSummary": "Broad TTS/voice-cloning toolkit that shipped many research and production models, including XTTS. Coqui as a company shut down; the repo remains a foundational open TTS reference despite slowed upstream development.",
+    "whyCare": "Still one of the most complete open TTS codebases (multi-speaker, cloning, training recipes), especially if you need XTTS-era capabilities offline.",
+    "primaryCategory": "audio-ai",
+    "secondaryCategories": [
+      "local-ai",
+      "training"
+    ],
+    "tags": [
+      "tts",
+      "xtts",
+      "voice-cloning",
+      "speech-synthesis",
+      "vocoder",
+      "multi-speaker"
+    ],
+    "language": "Python",
+    "license": "MPL-2.0",
+    "stars": 45883,
+    "forks": 6151,
+    "latestCommitAt": "2024-08-16T12:07:14Z",
+    "latestRelease": "v0.22.0",
+    "archived": false,
+    "maintenance": "stale",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers",
+      "hobbyists"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/coqui-ai/TTS",
+      "https://github.com/coqui-ai/TTS/releases/tag/v0.22.0"
+    ],
+    "notes": "Includes XTTS; upstream activity slowed after Coqui shutdown."
+  },
+  {
+    "id": "facebookresearch-audiocraft",
+    "name": "AudioCraft",
+    "owner": "facebookresearch",
+    "repo": "audiocraft",
+    "githubUrl": "https://github.com/facebookresearch/audiocraft",
+    "homepage": null,
+    "description": "Audiocraft is a library for audio processing and generation with deep learning. It features the state-of-the-art EnCodec audio compressor / tokenizer, along with MusicGen, a simple and controllable music generation LM with textual and melodic conditioning.",
+    "editorialSummary": "Meta's audio generation library shipping EnCodec plus MusicGen for text- and melody-conditioned music generation. The primary open release for MusicGen research and local experiments.",
+    "whyCare": "Canonical open MusicGen/EnCodec stack if you need controllable music generation or audio tokenization building blocks.",
+    "primaryCategory": "audio-ai",
+    "secondaryCategories": [
+      "research",
+      "multimodal"
+    ],
+    "tags": [
+      "musicgen",
+      "music",
+      "encodec",
+      "audio-generation",
+      "audiocraft"
+    ],
+    "language": "Jupyter Notebook",
+    "license": "MIT",
+    "stars": 23559,
+    "forks": 2678,
+    "latestCommitAt": "2026-03-03T21:50:32Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "moderate",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers",
+      "hobbyists"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/facebookresearch/audiocraft"
+    ],
+    "notes": "Includes MusicGen; no separate facebookresearch/musicgen app repo."
+  },
+  {
+    "id": "facebookresearch-demucs",
+    "name": "Demucs",
+    "owner": "facebookresearch",
+    "repo": "demucs",
+    "githubUrl": "https://github.com/facebookresearch/demucs",
+    "homepage": null,
+    "description": "Code for the paper Hybrid Spectrogram and Waveform Source Separation",
+    "editorialSummary": "Meta's hybrid spectrogram/waveform source separation model, long the default open tool for music stem splitting. Upstream repo is archived but still heavily used in audio production pipelines.",
+    "whyCare": "Go-to open music source separation for extracting vocals, drums, bass, and other stems.",
+    "primaryCategory": "audio-ai",
+    "secondaryCategories": [
+      "research"
+    ],
+    "tags": [
+      "source-separation",
+      "stems",
+      "music",
+      "demucs",
+      "audio-processing"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 10356,
+    "forks": 1563,
+    "latestCommitAt": "2024-04-24T20:25:19Z",
+    "latestRelease": null,
+    "archived": true,
+    "maintenance": "archived",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "researchers"
+    ],
+    "difficulty": "beginner",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/facebookresearch/demucs"
+    ]
+  },
+  {
+    "id": "facebookresearch-seamless-communication",
+    "name": "SeamlessM4T",
+    "owner": "facebookresearch",
+    "repo": "seamless_communication",
+    "githubUrl": "https://github.com/facebookresearch/seamless_communication",
+    "homepage": null,
+    "description": "Foundational Models for State-of-the-Art Speech and Text Translation",
+    "editorialSummary": "Meta's Seamless Communication codebase for SeamlessM4T and related speech/text translation models. Covers speech-to-speech, speech-to-text, and text translation in a unified multimodal stack.",
+    "whyCare": "Primary open release for SeamlessM4T-style multilingual speech translation rather than ASR-only pipelines.",
+    "primaryCategory": "audio-ai",
+    "secondaryCategories": [
+      "multimodal",
+      "research"
+    ],
+    "tags": [
+      "seamlessm4t",
+      "speech-translation",
+      "asr",
+      "tts",
+      "multilingual",
+      "speech-to-speech"
+    ],
+    "language": "Jupyter Notebook",
+    "license": "CC-BY-NC-4.0",
+    "stars": 11839,
+    "forks": 1175,
+    "latestCommitAt": "2026-07-28T13:03:12Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers",
+      "enterprises"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/facebookresearch/seamless_communication",
+      "https://github.com/facebookresearch/seamless_communication/blob/main/LICENSE"
+    ],
+    "notes": "GitHub SPDX NOASSERTION; LICENSE text is Creative Commons Attribution-NonCommercial 4.0 (CC-BY-NC-4.0)."
+  },
+  {
+    "id": "fishaudio-fish-speech",
+    "name": "Fish Speech",
+    "owner": "fishaudio",
+    "repo": "fish-speech",
+    "githubUrl": "https://github.com/fishaudio/fish-speech",
+    "homepage": "https://speech.fish.audio",
+    "description": "SOTA Open Source TTS",
+    "editorialSummary": "Actively maintained open TTS stack from Fish Audio positioned as SOTA multilingual speech synthesis with strong cloning and deployment tooling. Custom research/non-commercial license—commercial use needs a separate agreement.",
+    "whyCare": "Current high-quality open TTS choice for cloning and multilingual speech when you can accept the Fish Audio research license terms.",
+    "primaryCategory": "audio-ai",
+    "secondaryCategories": [
+      "local-ai"
+    ],
+    "tags": [
+      "tts",
+      "voice-cloning",
+      "multilingual",
+      "fish-speech",
+      "speech-synthesis"
+    ],
+    "language": "Python",
+    "license": null,
+    "stars": 32165,
+    "forks": 2757,
+    "latestCommitAt": "2026-08-03T19:11:40Z",
+    "latestRelease": "v1.5.1",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "researchers",
+      "enterprises"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": true,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/fishaudio/fish-speech",
+      "https://speech.fish.audio",
+      "https://github.com/fishaudio/fish-speech/blob/main/LICENSE"
+    ],
+    "notes": "GitHub SPDX is NOASSERTION; LICENSE is Fish Audio Research License (research/non-commercial; commercial requires separate license)."
+  },
+  {
+    "id": "ggml-org-whisper-cpp",
+    "name": "whisper.cpp",
+    "owner": "ggml-org",
+    "repo": "whisper.cpp",
+    "githubUrl": "https://github.com/ggml-org/whisper.cpp",
+    "homepage": null,
+    "description": "Port of OpenAI's Whisper model in C/C++",
+    "editorialSummary": "High-performance C/C++ port of Whisper using ggml, enabling CPU-first and edge-friendly speech recognition without a heavy Python stack. Formerly hosted under ggerganov/whisper.cpp.",
+    "whyCare": "Best-known path for embedding Whisper into apps, devices, and offline tooling with quantized models and minimal dependencies.",
+    "primaryCategory": "audio-ai",
+    "secondaryCategories": [
+      "local-ai",
+      "infrastructure"
+    ],
+    "tags": [
+      "whisper",
+      "asr",
+      "stt",
+      "cpp",
+      "ggml",
+      "edge",
+      "offline"
+    ],
+    "language": "C++",
+    "license": "MIT",
+    "stars": 52843,
+    "forks": 6059,
+    "latestCommitAt": "2026-08-07T18:59:53Z",
+    "latestRelease": "v1.9.2",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "enterprises"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/ggml-org/whisper.cpp",
+      "https://github.com/ggml-org/whisper.cpp/releases/tag/v1.9.2"
+    ],
+    "notes": "Canonical repo is ggml-org/whisper.cpp (redirect from ggerganov/whisper.cpp)."
+  },
+  {
+    "id": "m-bain-whisperx",
+    "name": "WhisperX",
+    "owner": "m-bain",
+    "repo": "whisperX",
+    "githubUrl": "https://github.com/m-bain/whisperX",
+    "homepage": null,
+    "description": "WhisperX:  Automatic Speech Recognition with Word-level Timestamps (& Diarization)",
+    "editorialSummary": "Whisper-based ASR pipeline that adds word-level timestamps and speaker diarization on top of fast transcription backends. Popular for subtitle and podcast workflows that need alignment quality, not just transcripts.",
+    "whyCare": "Use when plain Whisper timestamps are not enough—forced alignment and diarization for production captioning and multi-speaker audio.",
+    "primaryCategory": "audio-ai",
+    "secondaryCategories": [
+      "local-ai"
+    ],
+    "tags": [
+      "whisper",
+      "asr",
+      "diarization",
+      "timestamps",
+      "alignment",
+      "subtitles"
+    ],
+    "language": "Python",
+    "license": "BSD-2-Clause",
+    "stars": 23545,
+    "forks": 2379,
+    "latestCommitAt": "2026-07-13T08:30:07Z",
+    "latestRelease": "v3.8.6",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "enterprises"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/m-bain/whisperX",
+      "https://github.com/m-bain/whisperX/releases/tag/v3.8.6"
+    ]
+  },
+  {
+    "id": "myshell-ai-openvoice",
+    "name": "OpenVoice",
+    "owner": "myshell-ai",
+    "repo": "OpenVoice",
+    "githubUrl": "https://github.com/myshell-ai/OpenVoice",
+    "homepage": "https://research.myshell.ai/open-voice",
+    "description": "Instant voice cloning by MIT and MyShell. Audio foundation model.",
+    "editorialSummary": "Instant voice cloning system from MyShell/MIT focused on accurate tone color cloning with controllable style and language. Popular MIT-licensed entry point for zero-shot cloning demos and apps.",
+    "whyCare": "Simple, well-known open voice cloning stack with clear MIT licensing for many product prototypes.",
+    "primaryCategory": "audio-ai",
+    "secondaryCategories": [
+      "local-ai",
+      "research"
+    ],
+    "tags": [
+      "voice-cloning",
+      "tts",
+      "zero-shot",
+      "openvoice",
+      "style-control"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 37136,
+    "forks": 4145,
+    "latestCommitAt": "2025-04-19T16:00:00Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "slow",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "researchers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/myshell-ai/OpenVoice",
+      "https://research.myshell.ai/open-voice"
+    ]
+  },
+  {
+    "id": "openai-whisper",
+    "name": "Whisper",
+    "owner": "openai",
+    "repo": "whisper",
+    "githubUrl": "https://github.com/openai/whisper",
+    "homepage": null,
+    "description": "Robust Speech Recognition via Large-Scale Weak Supervision",
+    "editorialSummary": "OpenAI's general-purpose speech recognition model trained on large-scale weak supervision. It remains the reference ASR baseline that most local and production Whisper derivatives build on.",
+    "whyCare": "Default open STT starting point: multilingual transcription, translation, and a huge ecosystem of optimized ports and wrappers.",
+    "primaryCategory": "audio-ai",
+    "secondaryCategories": [
+      "local-ai",
+      "multimodal"
+    ],
+    "tags": [
+      "asr",
+      "stt",
+      "speech-recognition",
+      "whisper",
+      "transcription",
+      "multilingual"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 107155,
+    "forks": 13005,
+    "latestCommitAt": "2026-07-28T20:18:29Z",
+    "latestRelease": "v20250625",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers",
+      "hobbyists",
+      "enterprises"
+    ],
+    "difficulty": "beginner",
+    "documentationQuality": "excellent",
+    "demoAvailable": false,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/openai/whisper",
+      "https://github.com/openai/whisper/releases/tag/v20250625"
+    ]
+  },
+  {
+    "id": "plachtaa-vall-e-x",
+    "name": "VALL-E X",
+    "owner": "Plachtaa",
+    "repo": "VALL-E-X",
+    "githubUrl": "https://github.com/Plachtaa/VALL-E-X",
+    "homepage": null,
+    "description": "An open source implementation of Microsoft's VALL-E X zero-shot TTS model. Demo is available in https://plachtaa.github.io/vallex/",
+    "editorialSummary": "Open reimplementation of Microsoft's VALL-E X zero-shot multilingual TTS. Archived, but historically important as an accessible VALL-E-style cloning demo.",
+    "whyCare": "Useful historical reference for neural codec LM TTS and cross-lingual zero-shot cloning experiments.",
+    "primaryCategory": "audio-ai",
+    "secondaryCategories": [
+      "research"
+    ],
+    "tags": [
+      "tts",
+      "vall-e",
+      "zero-shot",
+      "voice-cloning",
+      "multilingual"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 7935,
+    "forks": 783,
+    "latestCommitAt": "2024-02-11T15:36:45Z",
+    "latestRelease": null,
+    "archived": true,
+    "maintenance": "archived",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "hobbyists"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "fair",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/Plachtaa/VALL-E-X",
+      "https://plachtaa.github.io/vallex/"
+    ]
+  },
+  {
+    "id": "rhasspy-piper",
+    "name": "Piper",
+    "owner": "rhasspy",
+    "repo": "piper",
+    "githubUrl": "https://github.com/rhasspy/piper",
+    "homepage": "https://rhasspy.github.io/piper-samples/",
+    "description": "A fast, local neural text to speech system",
+    "editorialSummary": "Fast local neural TTS designed for on-device and home-assistant style deployments. Archived upstream, but still widely embedded where low-latency offline speech is required.",
+    "whyCare": "Excellent lightweight TTS option for edge/IoT and privacy-sensitive assistants that cannot run large diffusion or LLM-style synthesizers.",
+    "primaryCategory": "audio-ai",
+    "secondaryCategories": [
+      "local-ai"
+    ],
+    "tags": [
+      "tts",
+      "offline",
+      "edge",
+      "onnx",
+      "home-assistant",
+      "speech-synthesis"
+    ],
+    "language": "C++",
+    "license": "MIT",
+    "stars": 11279,
+    "forks": 1055,
+    "latestCommitAt": "2025-08-26T15:01:29Z",
+    "latestRelease": "2023.11.14-2",
+    "archived": true,
+    "maintenance": "archived",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "hobbyists",
+      "engineers",
+      "enterprises"
+    ],
+    "difficulty": "beginner",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/rhasspy/piper",
+      "https://rhasspy.github.io/piper-samples/",
+      "https://github.com/rhasspy/piper/releases/tag/2023.11.14-2"
+    ]
+  },
+  {
+    "id": "rvc-project-retrieval-based-voice-conversion-webui",
+    "name": "RVC WebUI",
+    "owner": "RVC-Project",
+    "repo": "Retrieval-based-Voice-Conversion-WebUI",
+    "githubUrl": "https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+    "homepage": null,
+    "description": "Easily train a good VC model with voice data <= 10 mins!",
+    "editorialSummary": "Retrieval-based Voice Conversion WebUI for training and running high-quality voice conversion from short samples. Dominant community stack for singing/speech VC workflows.",
+    "whyCare": "Fastest path for hobbyist and creator voice conversion with a polished training/inference UI and large model ecosystem.",
+    "primaryCategory": "audio-ai",
+    "secondaryCategories": [
+      "local-ai",
+      "training"
+    ],
+    "tags": [
+      "voice-conversion",
+      "rvc",
+      "webui",
+      "singing",
+      "vc",
+      "fine-tuning"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 37301,
+    "forks": 5193,
+    "latestCommitAt": "2026-08-04T07:47:32Z",
+    "latestRelease": "2.3.260718",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "hobbyists",
+      "engineers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "fair",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI/releases/tag/2.3.260718"
+    ]
+  },
+  {
+    "id": "suno-ai-bark",
+    "name": "Bark",
+    "owner": "suno-ai",
+    "repo": "bark",
+    "githubUrl": "https://github.com/suno-ai/bark",
+    "homepage": null,
+    "description": "🔊 Text-Prompted Generative Audio Model",
+    "editorialSummary": "Suno's text-prompted generative audio model that can produce speech, music, and sound effects from text. Influential early open generative audio release, though upstream commits have slowed.",
+    "whyCare": "Useful reference for expressive generative audio beyond classic TTS—non-speech sounds, laughter, and music-like prompts in one model family.",
+    "primaryCategory": "audio-ai",
+    "secondaryCategories": [
+      "research",
+      "local-ai"
+    ],
+    "tags": [
+      "tts",
+      "generative-audio",
+      "music",
+      "sound-effects",
+      "bark"
+    ],
+    "language": "Jupyter Notebook",
+    "license": "MIT",
+    "stars": 39236,
+    "forks": 4672,
+    "latestCommitAt": "2024-08-19T07:45:36Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "stale",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "hobbyists",
+      "engineers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/suno-ai/bark"
+    ]
+  },
+  {
+    "id": "swivid-f5-tts",
+    "name": "F5-TTS",
+    "owner": "SWivid",
+    "repo": "F5-TTS",
+    "githubUrl": "https://github.com/SWivid/F5-TTS",
+    "homepage": "https://arxiv.org/abs/2410.06885",
+    "description": "Official code for \"F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching\"",
+    "editorialSummary": "Official implementation of F5-TTS, a flow-matching TTS model known for fluent zero-shot voice cloning and active community adoption. Rapidly released versions make it a current research-to-practice TTS option.",
+    "whyCare": "Modern open TTS baseline for faithful cloning with flow matching—strong alternative to older XTTS/VALL-E style stacks.",
+    "primaryCategory": "audio-ai",
+    "secondaryCategories": [
+      "research",
+      "local-ai"
+    ],
+    "tags": [
+      "tts",
+      "f5-tts",
+      "flow-matching",
+      "voice-cloning",
+      "zero-shot"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 15114,
+    "forks": 2193,
+    "latestCommitAt": "2026-07-23T09:20:37Z",
+    "latestRelease": "1.1.22",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers",
+      "hobbyists"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": true,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/SWivid/F5-TTS",
+      "https://arxiv.org/abs/2410.06885",
+      "https://github.com/SWivid/F5-TTS/releases/tag/1.1.22"
+    ]
+  },
+  {
+    "id": "systran-faster-whisper",
+    "name": "faster-whisper",
+    "owner": "SYSTRAN",
+    "repo": "faster-whisper",
+    "githubUrl": "https://github.com/SYSTRAN/faster-whisper",
+    "homepage": null,
+    "description": "Faster Whisper transcription with CTranslate2",
+    "editorialSummary": "Reimplementation of OpenAI Whisper inference on CTranslate2 for substantially faster transcription with lower memory use. Widely used as the engine behind many Whisper UIs and services.",
+    "whyCare": "Practical production Whisper runtime when you want Python APIs with much better speed/VRAM than the original reference code.",
+    "primaryCategory": "audio-ai",
+    "secondaryCategories": [
+      "local-ai",
+      "infrastructure"
+    ],
+    "tags": [
+      "whisper",
+      "asr",
+      "stt",
+      "ctranslate2",
+      "quantization",
+      "inference"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 24876,
+    "forks": 2019,
+    "latestCommitAt": "2025-11-19T14:40:46Z",
+    "latestRelease": "v1.2.1",
+    "archived": false,
+    "maintenance": "moderate",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises",
+      "hobbyists"
+    ],
+    "difficulty": "beginner",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/SYSTRAN/faster-whisper",
+      "https://github.com/SYSTRAN/faster-whisper/releases/tag/v1.2.1"
+    ]
+  },
+  {
+    "id": "yl4579-styletts2",
+    "name": "StyleTTS2",
+    "owner": "yl4579",
+    "repo": "StyleTTS2",
+    "githubUrl": "https://github.com/yl4579/StyleTTS2",
+    "homepage": null,
+    "description": "StyleTTS 2: Towards Human-Level Text-to-Speech through Style Diffusion and Adversarial Training with Large Speech Language Models",
+    "editorialSummary": "Research TTS system combining style diffusion and adversarial training aiming at near human-level naturalness. Influential paper code for high-quality single- and multi-speaker synthesis.",
+    "whyCare": "Strong open research baseline for expressive, high-fidelity TTS and style transfer experiments.",
+    "primaryCategory": "audio-ai",
+    "secondaryCategories": [
+      "research"
+    ],
+    "tags": [
+      "tts",
+      "styletts2",
+      "diffusion",
+      "speech-synthesis",
+      "style-transfer"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 6329,
+    "forks": 697,
+    "latestCommitAt": "2024-08-10T00:48:18Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "stale",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "fair",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/yl4579/StyleTTS2"
+    ]
+  }
+]

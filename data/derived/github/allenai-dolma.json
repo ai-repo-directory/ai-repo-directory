@@ -1,0 +1,27 @@
+{
+  "id": "allenai-dolma",
+  "fetchedAt": "2026-08-12T17:39:26.128Z",
+  "stars": 1535,
+  "forks": 204,
+  "watchers": 23,
+  "openIssues": 26,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "description": "Data and tools for generating and inspecting OLMo pre-training data. ",
+  "homepage": "https://allenai.github.io/dolma/",
+  "topics": [
+    "data-processing",
+    "large-language-models",
+    "llm",
+    "machile-learning",
+    "nlp"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2025-11-05T22:00:12Z",
+  "updatedAt": "2026-08-12T01:01:11Z",
+  "createdAt": "2023-06-20T20:37:39Z",
+  "latestRelease": "v1.2.1",
+  "latestReleaseAt": "2025-07-07T15:47:20Z",
+  "defaultBranch": "main"
+}

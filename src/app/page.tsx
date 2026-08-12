@@ -1,69 +1,162 @@
-import Image from "next/image";
+import type { Metadata } from "next";
+import Link from "next/link";
+import { CategoryNav } from "@/components/CategoryNav";
+import { EmptyState } from "@/components/EmptyState";
+import { RepoGrid } from "@/components/RepoGrid";
+import { SearchForm } from "@/components/SearchForm";
+import { SectionHeader } from "@/components/SectionHeader";
+import { CATEGORIES } from "@/lib/categories";
+import { COLLECTIONS } from "@/lib/collections";
+import { getHomeHighlights, loadEnrichedRepositories } from "@/lib/data";
+import { formatNumber } from "@/lib/format";
+import type { EnrichedRepository } from "@/lib/types";
 
-export default function Home() {
+export const metadata: Metadata = {
+  title: "AI Repo Directory — Open-source AI discovery",
+  description:
+    "Search and browse curated open-source AI repositories: coding agents, local AI, RAG, inference servers, and more.",
+};
+
+export default function HomePage() {
+  const repos = loadEnrichedRepositories();
+  const highlights = getHomeHighlights(repos);
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
+    <div className="site-container py-8 sm:py-10">
+      <section className="border-b border-border pb-8" aria-labelledby="home-heading">
+        <h1
+          id="home-heading"
+          className="text-3xl font-semibold tracking-tight text-ink sm:text-4xl"
+        >
+          AI Repo Directory
+        </h1>
+        <p className="mt-2 max-w-2xl text-base text-ink-muted">
+          High-signal open-source AI repos — scored for usefulness, not stars alone.
+        </p>
+        <div className="mt-5 max-w-xl">
+          <SearchForm autofocus />
+        </div>
+        <p className="mt-3 text-sm text-ink-faint">
+          {repos.length > 0 ? (
+            <>
+              <span className="mono text-ink">{formatNumber(repos.length)}</span>{" "}
+              curated projects ·{" "}
+              <Link href="/explore" className="text-accent underline-offset-2 hover:underline">
+                Browse all
+              </Link>
+              {" · "}
+              <Link
+                href="/methodology"
+                className="text-accent underline-offset-2 hover:underline"
+              >
+                How scoring works
+              </Link>
+            </>
+          ) : (
+            <>No listings loaded yet — run <span className="mono">pnpm merge-data</span>.</>
+          )}
+        </p>
+      </section>
+
+      <section className="py-8" aria-labelledby="categories-heading">
+        <SectionHeader
+          id="categories-heading"
+          title="Categories"
+          description={`${CATEGORIES.length} topic areas`}
         />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
+        <CategoryNav />
+      </section>
+
+      {repos.length === 0 ? (
+        <EmptyState
+          title="No repositories yet"
+          description="Merge research data into data/canonical to populate the directory."
+          actionHref="/explore"
+          actionLabel="Open explore"
+        />
+      ) : (
+        <>
+          <HomeSection
+            title="Editor's picks"
+            description="Featured projects with strong practical signal"
+            href="/explore?sort=score"
+            repos={highlights.featured}
+          />
+          <HomeSection
+            title="Trending"
+            description="Highest adoption in the catalog"
+            href="/explore?sort=stars"
+            repos={highlights.trending}
+          />
+          <HomeSection
+            title="Recently updated"
+            description="Newest known push activity"
+            href="/explore?sort=recent"
+            repos={highlights.recentlyUpdated}
+          />
+          <HomeSection
+            title="Emerging"
+            description="Newer projects with momentum"
+            href="/collection/emerging-ai"
+            repos={highlights.emerging}
+          />
+          <HomeSection
+            title="Local AI"
+            description="Run capable stacks on your own hardware"
+            href="/collection/best-local-ai"
+            repos={highlights.local}
+          />
+          <HomeSection
+            title="Coding agents"
+            description="AI pair programmers and developer automation"
+            href="/collection/best-coding-agents"
+            repos={highlights.coding}
+          />
+
+          <section className="border-t border-border py-8" aria-labelledby="collections-heading">
+            <SectionHeader
+              id="collections-heading"
+              title="Collections"
+              description="Opinionated shortlists for common discovery jobs"
             />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
+            <ul className="mt-4 grid list-none gap-2 p-0 sm:grid-cols-2 lg:grid-cols-3">
+              {COLLECTIONS.map((c) => (
+                <li key={c.id}>
+                  <Link
+                    href={`/collection/${c.slug}`}
+                    className="block border border-border bg-paper-elevated p-3 no-underline transition-colors hover:border-border-strong"
+                  >
+                    <span className="text-sm font-semibold text-ink">{c.title}</span>
+                    <span className="mt-1 block text-xs text-ink-muted line-clamp-2">
+                      {c.description}
+                    </span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        </>
+      )}
     </div>
+  );
+}
+
+function HomeSection({
+  title,
+  description,
+  href,
+  repos,
+}: {
+  title: string;
+  description: string;
+  href: string;
+  repos: EnrichedRepository[];
+}) {
+  if (repos.length === 0) return null;
+  return (
+    <section className="border-t border-border py-8">
+      <SectionHeader title={title} description={description} href={href} />
+      <RepoGrid repos={repos} />
+    </section>
   );
 }

@@ -1,0 +1,21 @@
+{
+  "id": "karpathy-mingpt",
+  "fetchedAt": "2026-08-12T17:39:56.438Z",
+  "stars": 24789,
+  "forks": 3313,
+  "watchers": 269,
+  "openIssues": 84,
+  "language": "Python",
+  "license": "MIT",
+  "description": "A minimal PyTorch re-implementation of the OpenAI GPT (Generative Pretrained Transformer) training",
+  "homepage": null,
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2024-08-15T04:09:40Z",
+  "updatedAt": "2026-08-12T16:00:43Z",
+  "createdAt": "2020-08-17T07:08:48Z",
+  "latestRelease": null,
+  "latestReleaseAt": null,
+  "defaultBranch": "master"
+}

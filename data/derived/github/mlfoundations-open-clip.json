@@ -1,0 +1,30 @@
+{
+  "id": "mlfoundations-open-clip",
+  "fetchedAt": "2026-08-12T17:39:51.357Z",
+  "stars": 14059,
+  "forks": 1301,
+  "watchers": 81,
+  "openIssues": 29,
+  "language": "Python",
+  "license": null,
+  "description": "An open source implementation of CLIP.",
+  "homepage": null,
+  "topics": [
+    "computer-vision",
+    "contrastive-loss",
+    "deep-learning",
+    "language-model",
+    "multi-modal-learning",
+    "pretrained-models",
+    "pytorch",
+    "zero-shot-classification"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-08-10T21:11:36Z",
+  "updatedAt": "2026-08-12T13:49:20Z",
+  "createdAt": "2021-07-28T23:24:39Z",
+  "latestRelease": "v3.3.0",
+  "latestReleaseAt": "2026-02-27T00:32:41Z",
+  "defaultBranch": "main"
+}

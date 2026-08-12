@@ -1,0 +1,28 @@
+{
+  "id": "lightricks-ltx-video",
+  "fetchedAt": "2026-08-12T17:40:04.960Z",
+  "stars": 10843,
+  "forks": 1109,
+  "watchers": 116,
+  "openIssues": 98,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "description": "Official repository for LTX-Video",
+  "homepage": "https://ltx.io/model",
+  "topics": [
+    "diffusion-models",
+    "dit",
+    "image-to-video",
+    "image-to-video-generation",
+    "text-to-video",
+    "text-to-video-generation"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-01-05T22:37:07Z",
+  "updatedAt": "2026-08-12T15:51:16Z",
+  "createdAt": "2024-11-20T20:06:28Z",
+  "latestRelease": null,
+  "latestReleaseAt": null,
+  "defaultBranch": "main"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "google-flax",
+  "fetchedAt": "2026-08-12T17:39:55.797Z",
+  "stars": 7299,
+  "forks": 829,
+  "watchers": 81,
+  "openIssues": 500,
+  "language": "Jupyter Notebook",
+  "license": "Apache-2.0",
+  "description": "Flax is a neural network library for JAX that is designed for flexibility.",
+  "homepage": "https://flax.readthedocs.io",
+  "topics": [
+    "jax"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-08-12T14:27:12Z",
+  "updatedAt": "2026-08-12T14:30:26Z",
+  "createdAt": "2020-01-10T09:48:37Z",
+  "latestRelease": "v0.12.8",
+  "latestReleaseAt": "2026-07-20T18:29:01Z",
+  "defaultBranch": "main"
+}

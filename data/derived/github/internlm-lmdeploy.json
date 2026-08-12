@@ -1,0 +1,33 @@
+{
+  "id": "internlm-lmdeploy",
+  "fetchedAt": "2026-08-12T17:39:40.634Z",
+  "stars": 8000,
+  "forks": 720,
+  "watchers": 56,
+  "openIssues": 599,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "description": "LMDeploy is a toolkit for compressing, deploying, and serving LLMs.",
+  "homepage": "https://lmdeploy.readthedocs.io/en/latest",
+  "topics": [
+    "codellama",
+    "cuda-kernels",
+    "deepspeed",
+    "fastertransformer",
+    "internlm",
+    "llama",
+    "llama2",
+    "llama3",
+    "llm",
+    "llm-inference",
+    "turbomind"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-08-12T17:06:49Z",
+  "updatedAt": "2026-08-12T17:07:44Z",
+  "createdAt": "2023-06-15T12:38:06Z",
+  "latestRelease": "v0.15.0",
+  "latestReleaseAt": "2026-07-31T13:00:46Z",
+  "defaultBranch": "main"
+}

@@ -1,0 +1,773 @@
+[
+  {
+    "id": "browserbase-mcp-server-browserbase",
+    "name": "Browserbase MCP Server",
+    "owner": "browserbase",
+    "repo": "mcp-server-browserbase",
+    "githubUrl": "https://github.com/browserbase/mcp-server-browserbase",
+    "homepage": "https://stagehand.dev",
+    "description": "Allow LLMs to control a browser with Browserbase and Stagehand",
+    "editorialSummary": "MCP server that lets LLMs drive cloud browsers via Browserbase and Stagehand. Historically influential browser-automation MCP; repository is now archived.",
+    "whyCare": "Reference for browser-control MCP design; for active Stagehand/browser work prefer Browserbase Stagehand and newer browser MCP servers.",
+    "primaryCategory": "mcp-tools",
+    "secondaryCategories": [
+      "ai-agents"
+    ],
+    "tags": [
+      "mcp",
+      "browser",
+      "browserbase",
+      "stagehand",
+      "playwright",
+      "archived"
+    ],
+    "language": "TypeScript",
+    "license": "Apache-2.0",
+    "stars": 3412,
+    "forks": 367,
+    "latestCommitAt": "2026-07-20T21:48:14Z",
+    "latestRelease": "v3.0.0",
+    "archived": true,
+    "maintenance": "archived",
+    "selfHostable": false,
+    "localOfflineCapable": false,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/browserbase/mcp-server-browserbase",
+      "https://stagehand.dev"
+    ],
+    "notes": "Repo is archived on GitHub as of verification date."
+  },
+  {
+    "id": "composiohq-composio",
+    "name": "Composio",
+    "owner": "ComposioHQ",
+    "repo": "composio",
+    "githubUrl": "https://github.com/ComposioHQ/composio",
+    "homepage": "https://docs.composio.dev",
+    "description": "Composio powers 1000+ toolkits, tool search, context management, authentication, and a sandboxed workbench to help you build AI agents that turn intent into action.",
+    "editorialSummary": "Tool-integration platform with large toolkit catalog, auth handling, and MCP/remote MCP support so agents can call real SaaS APIs. Sits between agent frameworks and production tool auth/execution.",
+    "whyCare": "Skip building OAuth and 1000+ API wrappers—Composio exposes toolkits as callable functions and MCP servers for agents.",
+    "primaryCategory": "mcp-tools",
+    "secondaryCategories": [
+      "ai-agents",
+      "infrastructure"
+    ],
+    "tags": [
+      "mcp",
+      "tools",
+      "integrations",
+      "function-calling",
+      "auth",
+      "typescript"
+    ],
+    "language": "TypeScript",
+    "license": "MIT",
+    "stars": 29649,
+    "forks": 4696,
+    "latestCommitAt": "2026-08-12T15:21:18Z",
+    "latestRelease": "@composio/core@0.16.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": false,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/ComposioHQ/composio",
+      "https://docs.composio.dev"
+    ]
+  },
+  {
+    "id": "cursortouch-windows-mcp",
+    "name": "Windows-MCP",
+    "owner": "CursorTouch",
+    "repo": "Windows-MCP",
+    "githubUrl": "https://github.com/CursorTouch/Windows-MCP",
+    "homepage": null,
+    "description": "MCP Server for Computer Use in Windows",
+    "editorialSummary": "Open-source MCP server for Windows computer-use: UI automation and desktop control for MCP clients including Cursor. Community Cursor-adjacent MCP for OS-level tool use.",
+    "whyCare": "Cursor-oriented Windows computer-use MCP when browser-only tools are not enough—desktop UI actions via MCP.",
+    "primaryCategory": "mcp-tools",
+    "secondaryCategories": [
+      "coding-agents"
+    ],
+    "tags": [
+      "mcp",
+      "windows",
+      "computer-use",
+      "cursor",
+      "desktop",
+      "python"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 6732,
+    "forks": 813,
+    "latestCommitAt": "2026-08-12T16:35:01Z",
+    "latestRelease": "v0.8.5",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "fair",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": true,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/CursorTouch/Windows-MCP"
+    ]
+  },
+  {
+    "id": "github-github-mcp-server",
+    "name": "GitHub MCP Server",
+    "owner": "github",
+    "repo": "github-mcp-server",
+    "githubUrl": "https://github.com/github/github-mcp-server",
+    "homepage": null,
+    "description": "GitHub's official MCP Server",
+    "editorialSummary": "Official GitHub MCP server for issues, PRs, repos, and related GitHub APIs via MCP tools. First-party integration path for agents and coding assistants that need GitHub context and actions.",
+    "whyCare": "Authoritative GitHub tool surface for MCP clients—prefer this over unofficial GitHub MCP forks for auth and API coverage.",
+    "primaryCategory": "mcp-tools",
+    "secondaryCategories": [
+      "coding-agents",
+      "infrastructure"
+    ],
+    "tags": [
+      "mcp",
+      "github",
+      "official",
+      "go",
+      "devtools"
+    ],
+    "language": "Go",
+    "license": "MIT",
+    "stars": 32187,
+    "forks": 4780,
+    "latestCommitAt": "2026-08-12T13:40:55Z",
+    "latestRelease": "v1.9.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": false,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "difficulty": "beginner",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/github/github-mcp-server"
+    ]
+  },
+  {
+    "id": "langchain-ai-langchain-mcp-adapters",
+    "name": "LangChain MCP Adapters",
+    "owner": "langchain-ai",
+    "repo": "langchain-mcp-adapters",
+    "githubUrl": "https://github.com/langchain-ai/langchain-mcp-adapters",
+    "homepage": "https://docs.langchain.com/oss/python/langchain/mcp",
+    "description": "LangChain 🔌 MCP",
+    "editorialSummary": "Adapters that connect LangChain/LangGraph agents to MCP servers as tools. Makes the LangChain ecosystem MCP-native without rewriting tool integrations.",
+    "whyCare": "Bridge from MCP tool servers into LangChain agents—the practical glue for teams already on LangGraph/LangChain.",
+    "primaryCategory": "mcp-tools",
+    "secondaryCategories": [
+      "ai-agents"
+    ],
+    "tags": [
+      "mcp",
+      "langchain",
+      "adapters",
+      "tools",
+      "python"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 3627,
+    "forks": 473,
+    "latestCommitAt": "2026-08-06T06:17:09Z",
+    "latestRelease": "langchain-mcp-adapters==0.3.2",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/langchain-ai/langchain-mcp-adapters",
+      "https://docs.langchain.com/oss/python/langchain/mcp"
+    ]
+  },
+  {
+    "id": "lastmile-ai-mcp-agent",
+    "name": "mcp-agent",
+    "owner": "lastmile-ai",
+    "repo": "mcp-agent",
+    "githubUrl": "https://github.com/lastmile-ai/mcp-agent",
+    "homepage": null,
+    "description": "Build effective agents using Model Context Protocol and simple workflow patterns",
+    "editorialSummary": "Python framework for composing effective agents on top of MCP with simple workflow patterns (fan-out, routers, evaluators). Bridges agent orchestration and MCP tool ecosystems.",
+    "whyCare": "MCP-native agent patterns without adopting a heavy general agent framework—useful when tools already speak MCP.",
+    "primaryCategory": "mcp-tools",
+    "secondaryCategories": [
+      "ai-agents"
+    ],
+    "tags": [
+      "mcp",
+      "agents",
+      "workflows",
+      "python",
+      "orchestration"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 8502,
+    "forks": 875,
+    "latestCommitAt": "2026-01-25T16:35:16Z",
+    "latestRelease": "v0.0.21",
+    "archived": false,
+    "maintenance": "moderate",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/lastmile-ai/mcp-agent"
+    ]
+  },
+  {
+    "id": "mark3labs-mcp-go",
+    "name": "mcp-go",
+    "owner": "mark3labs",
+    "repo": "mcp-go",
+    "githubUrl": "https://github.com/mark3labs/mcp-go",
+    "homepage": "http://mcp-go.dev/",
+    "description": "A Go implementation of the Model Context Protocol (MCP), enabling seamless integration between LLM applications and external data sources and tools.",
+    "editorialSummary": "Popular community Go MCP SDK used by many Go-based MCP servers (including patterns later reflected in official Go SDK work). Strong ergonomics for building servers in Go.",
+    "whyCare": "If your stack is Go, mcp-go is the battle-tested community SDK many production MCP servers already depend on.",
+    "primaryCategory": "mcp-tools",
+    "secondaryCategories": [
+      "infrastructure"
+    ],
+    "tags": [
+      "mcp",
+      "go",
+      "sdk",
+      "servers",
+      "clients"
+    ],
+    "language": "Go",
+    "license": "MIT",
+    "stars": 8998,
+    "forks": 864,
+    "latestCommitAt": "2026-08-12T12:29:17Z",
+    "latestRelease": "v1.0.0-beta.1",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/mark3labs/mcp-go",
+      "http://mcp-go.dev/"
+    ]
+  },
+  {
+    "id": "mcp-use-mcp-use",
+    "name": "mcp-use",
+    "owner": "mcp-use",
+    "repo": "mcp-use",
+    "githubUrl": "https://github.com/mcp-use/mcp-use",
+    "homepage": "https://manufact.com",
+    "description": "The fullstack MCP framework to develop MCP Apps for ChatGPT / Claude & MCP Servers for AI Agents.",
+    "editorialSummary": "Full-stack MCP-centric framework for building MCP apps and servers aimed at ChatGPT, Claude, and agent hosts. Focuses on end-to-end MCP application development beyond single-tool servers.",
+    "whyCare": "MCP-first app framework when you need more than a thin server wrapper—clients, servers, and agent-facing MCP apps in one stack.",
+    "primaryCategory": "mcp-tools",
+    "secondaryCategories": [
+      "ai-agents"
+    ],
+    "tags": [
+      "mcp",
+      "framework",
+      "agents",
+      "apps",
+      "typescript"
+    ],
+    "language": "TypeScript",
+    "license": "MIT",
+    "stars": 10481,
+    "forks": 1408,
+    "latestCommitAt": "2026-08-12T15:26:30Z",
+    "latestRelease": "mcp-use@2.2.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": true,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/mcp-use/mcp-use",
+      "https://manufact.com"
+    ]
+  },
+  {
+    "id": "microsoft-playwright-mcp",
+    "name": "Playwright MCP",
+    "owner": "microsoft",
+    "repo": "playwright-mcp",
+    "githubUrl": "https://github.com/microsoft/playwright-mcp",
+    "homepage": "https://www.npmjs.com/package/@playwright/mcp",
+    "description": "Playwright MCP server",
+    "editorialSummary": "Official Microsoft Playwright MCP server exposing browser automation tools to MCP clients. Widely used from Cursor and other IDEs for scraping, testing, and UI-driven agent workflows.",
+    "whyCare": "Production-grade browser MCP from the Playwright team—strong default for Cursor/Claude browser tool use.",
+    "primaryCategory": "mcp-tools",
+    "secondaryCategories": [
+      "coding-agents"
+    ],
+    "tags": [
+      "mcp",
+      "playwright",
+      "browser",
+      "cursor",
+      "microsoft",
+      "typescript"
+    ],
+    "language": "TypeScript",
+    "license": "Apache-2.0",
+    "stars": 36050,
+    "forks": 3015,
+    "latestCommitAt": "2026-08-09T09:44:48Z",
+    "latestRelease": "v0.0.79",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "enterprises"
+    ],
+    "difficulty": "beginner",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/microsoft/playwright-mcp",
+      "https://www.npmjs.com/package/@playwright/mcp"
+    ]
+  },
+  {
+    "id": "modelcontextprotocol-inspector",
+    "name": "MCP Inspector",
+    "owner": "modelcontextprotocol",
+    "repo": "inspector",
+    "githubUrl": "https://github.com/modelcontextprotocol/inspector",
+    "homepage": "https://modelcontextprotocol.io",
+    "description": "Visual testing tool for MCP servers",
+    "editorialSummary": "Official interactive inspector for debugging MCP servers: list tools/resources/prompts, invoke calls, and inspect protocol traffic. Essential DX companion when developing or validating servers.",
+    "whyCare": "Fastest way to verify an MCP server works before wiring it into Cursor, Claude, or a custom client.",
+    "primaryCategory": "mcp-tools",
+    "secondaryCategories": [
+      "evaluation"
+    ],
+    "tags": [
+      "mcp",
+      "debugger",
+      "inspector",
+      "devtools",
+      "typescript"
+    ],
+    "language": "TypeScript",
+    "license": null,
+    "stars": 10653,
+    "forks": 1471,
+    "latestCommitAt": "2026-08-12T16:48:06Z",
+    "latestRelease": "2.2.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists"
+    ],
+    "difficulty": "beginner",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/modelcontextprotocol/inspector",
+      "https://modelcontextprotocol.io"
+    ],
+    "notes": "No SPDX license detected via GitHub license API."
+  },
+  {
+    "id": "modelcontextprotocol-python-sdk",
+    "name": "MCP Python SDK",
+    "owner": "modelcontextprotocol",
+    "repo": "python-sdk",
+    "githubUrl": "https://github.com/modelcontextprotocol/python-sdk",
+    "homepage": "https://py.sdk.modelcontextprotocol.io/",
+    "description": "The official Python SDK for Model Context Protocol servers and clients",
+    "editorialSummary": "Official Python SDK for MCP servers and clients. Powers FastMCP integrations, research agents, and most Python MCP servers in the ecosystem.",
+    "whyCare": "Canonical Python surface for MCP—pair with FastMCP for ergonomics or use the SDK directly for full protocol control.",
+    "primaryCategory": "mcp-tools",
+    "secondaryCategories": [
+      "infrastructure"
+    ],
+    "tags": [
+      "mcp",
+      "sdk",
+      "python",
+      "client",
+      "server",
+      "official"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 23994,
+    "forks": 3776,
+    "latestCommitAt": "2026-08-12T09:45:08Z",
+    "latestRelease": "v2.0.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers",
+      "enterprises"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/modelcontextprotocol/python-sdk",
+      "https://py.sdk.modelcontextprotocol.io/"
+    ]
+  },
+  {
+    "id": "modelcontextprotocol-registry",
+    "name": "MCP Registry",
+    "owner": "modelcontextprotocol",
+    "repo": "registry",
+    "githubUrl": "https://github.com/modelcontextprotocol/registry",
+    "homepage": "https://github.com/modelcontextprotocol/registry/tree/main/docs",
+    "description": "A community driven registry service for Model Context Protocol (MCP) servers.",
+    "editorialSummary": "Official community registry service for discovering and publishing MCP servers. Complements the servers monorepo by providing a catalog/API layer for the broader ecosystem.",
+    "whyCare": "Discovery and distribution backbone for MCP servers as the ecosystem moves beyond ad-hoc GitHub lists.",
+    "primaryCategory": "mcp-tools",
+    "secondaryCategories": [
+      "infrastructure"
+    ],
+    "tags": [
+      "mcp",
+      "registry",
+      "catalog",
+      "discovery",
+      "go"
+    ],
+    "language": "Go",
+    "license": null,
+    "stars": 7138,
+    "forks": 944,
+    "latestCommitAt": "2026-08-10T13:32:40Z",
+    "latestRelease": "v1.8.1",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": true,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/modelcontextprotocol/registry",
+      "https://github.com/modelcontextprotocol/registry/tree/main/docs"
+    ],
+    "notes": "GitHub license SPDX is NOASSERTION; repo LICENSE describes MIT→Apache-2.0 transition."
+  },
+  {
+    "id": "modelcontextprotocol-servers",
+    "name": "MCP Servers",
+    "owner": "modelcontextprotocol",
+    "repo": "servers",
+    "githubUrl": "https://github.com/modelcontextprotocol/servers",
+    "homepage": "https://modelcontextprotocol.io",
+    "description": "Model Context Protocol Servers",
+    "editorialSummary": "Reference and community MCP server implementations maintained by the MCP project. It is the canonical starting collection for filesystem, fetch, git, memory, and other baseline tool servers that clients like Claude Desktop and Cursor consume.",
+    "whyCare": "The official sample/reference server monorepo—use it to learn the protocol shape and ship production-ready baseline tools quickly.",
+    "primaryCategory": "mcp-tools",
+    "secondaryCategories": [
+      "infrastructure"
+    ],
+    "tags": [
+      "mcp",
+      "servers",
+      "tools",
+      "reference",
+      "anthropic",
+      "typescript"
+    ],
+    "language": "TypeScript",
+    "license": null,
+    "stars": 89490,
+    "forks": 11435,
+    "latestCommitAt": "2026-08-10T02:41:59Z",
+    "latestRelease": "2026.7.10",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "enterprises"
+    ],
+    "difficulty": "beginner",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/modelcontextprotocol/servers",
+      "https://modelcontextprotocol.io"
+    ],
+    "notes": "GitHub license SPDX is NOASSERTION; repo LICENSE describes MIT→Apache-2.0 transition."
+  },
+  {
+    "id": "modelcontextprotocol-typescript-sdk",
+    "name": "MCP TypeScript SDK",
+    "owner": "modelcontextprotocol",
+    "repo": "typescript-sdk",
+    "githubUrl": "https://github.com/modelcontextprotocol/typescript-sdk",
+    "homepage": "https://ts.sdk.modelcontextprotocol.io/v2",
+    "description": "The official TypeScript SDK for Model Context Protocol servers and clients",
+    "editorialSummary": "Official TypeScript/JavaScript SDK for building MCP servers and clients, with transports, tooling helpers, and framework adapters. Default choice for Node-based MCP servers used by Cursor, Claude Desktop, and custom hosts.",
+    "whyCare": "If you ship MCP in TypeScript, this is the supported client/server foundation—not a third-party wrapper.",
+    "primaryCategory": "mcp-tools",
+    "secondaryCategories": [
+      "infrastructure"
+    ],
+    "tags": [
+      "mcp",
+      "sdk",
+      "typescript",
+      "client",
+      "server",
+      "official"
+    ],
+    "language": "TypeScript",
+    "license": null,
+    "stars": 13150,
+    "forks": 2072,
+    "latestCommitAt": "2026-08-11T07:12:54Z",
+    "latestRelease": "1.30.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/modelcontextprotocol/typescript-sdk",
+      "https://ts.sdk.modelcontextprotocol.io/v2"
+    ],
+    "notes": "GitHub license SPDX is NOASSERTION; repo LICENSE describes MIT→Apache-2.0 transition. Latest monorepo package tags also include @modelcontextprotocol/core@2.0.0."
+  },
+  {
+    "id": "prefecthq-fastmcp",
+    "name": "FastMCP",
+    "owner": "PrefectHQ",
+    "repo": "fastmcp",
+    "githubUrl": "https://github.com/PrefectHQ/fastmcp",
+    "homepage": "https://gofastmcp.com",
+    "description": "🚀 The fast, Pythonic way to build MCP servers and clients.",
+    "editorialSummary": "High-level Pythonic framework for building MCP servers and clients with decorators, auth helpers, and deployment ergonomics. Built on the official Python SDK and widely adopted for production MCP servers.",
+    "whyCare": "Turns MCP server authoring into a few decorated functions—best DX for Python MCP without fighting protocol boilerplate.",
+    "primaryCategory": "mcp-tools",
+    "secondaryCategories": [
+      "ai-agents"
+    ],
+    "tags": [
+      "mcp",
+      "fastmcp",
+      "python",
+      "servers",
+      "clients",
+      "framework"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 27190,
+    "forks": 2242,
+    "latestCommitAt": "2026-08-11T19:27:46Z",
+    "latestRelease": "v3.4.7",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "enterprises"
+    ],
+    "difficulty": "beginner",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/PrefectHQ/fastmcp",
+      "https://gofastmcp.com"
+    ],
+    "notes": "Originally jlowin/fastmcp; canonical repo is PrefectHQ/fastmcp."
+  },
+  {
+    "id": "upstash-context7",
+    "name": "Context7",
+    "owner": "upstash",
+    "repo": "context7",
+    "githubUrl": "https://github.com/upstash/context7",
+    "homepage": "https://context7.com",
+    "description": "Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors",
+    "editorialSummary": "Documentation MCP/platform that pulls version-accurate library docs into LLM coding sessions. Extremely popular with Cursor users to reduce hallucinated APIs.",
+    "whyCare": "Highest-leverage Cursor MCP for coding accuracy—injects current docs instead of stale training data.",
+    "primaryCategory": "mcp-tools",
+    "secondaryCategories": [
+      "coding-agents",
+      "rag"
+    ],
+    "tags": [
+      "mcp",
+      "docs",
+      "cursor",
+      "context7",
+      "upstash",
+      "typescript"
+    ],
+    "language": "TypeScript",
+    "license": "MIT",
+    "stars": 60651,
+    "forks": 2924,
+    "latestCommitAt": "2026-08-12T15:22:34Z",
+    "latestRelease": "@upstash/context7-mcp@4.0.2",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": false,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "students"
+    ],
+    "difficulty": "beginner",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/upstash/context7",
+      "https://context7.com"
+    ]
+  }
+]

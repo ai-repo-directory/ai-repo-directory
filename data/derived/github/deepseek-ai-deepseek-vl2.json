@@ -1,0 +1,21 @@
+{
+  "id": "deepseek-ai-deepseek-vl2",
+  "fetchedAt": "2026-08-12T17:39:49.898Z",
+  "stars": 5355,
+  "forks": 1812,
+  "watchers": 82,
+  "openIssues": 119,
+  "language": "Python",
+  "license": "MIT",
+  "description": "DeepSeek-VL2: Mixture-of-Experts Vision-Language Models for Advanced Multimodal Understanding",
+  "homepage": null,
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2025-02-26T05:03:42Z",
+  "updatedAt": "2026-08-12T03:15:27Z",
+  "createdAt": "2024-12-13T04:55:41Z",
+  "latestRelease": null,
+  "latestReleaseAt": null,
+  "defaultBranch": "main"
+}

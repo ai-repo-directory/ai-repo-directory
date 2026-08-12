@@ -1,0 +1,776 @@
+[
+  {
+    "id": "ailab-cvc-videocrafter",
+    "name": "VideoCrafter",
+    "owner": "AILab-CVC",
+    "repo": "VideoCrafter",
+    "githubUrl": "https://github.com/AILab-CVC/VideoCrafter",
+    "homepage": "https://ailab-cvc.github.io/videocrafter2/",
+    "description": "VideoCrafter2: Overcoming Data Limitations for High-Quality Video Diffusion Models",
+    "editorialSummary": "Tencent AI Lab’s VideoCrafter / VideoCrafter2 open text-to-video and image-to-video diffusion models. An important pre-Sora-wave open T2V baseline still used in papers and demos.",
+    "whyCare": "Classic open T2V/I2V models with clear research papers and runnable code; good teaching and baseline stack.",
+    "primaryCategory": "video-ai",
+    "secondaryCategories": [
+      "research"
+    ],
+    "tags": [
+      "videocrafter",
+      "text-to-video",
+      "image-to-video",
+      "video-diffusion"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 5070,
+    "forks": 413,
+    "latestCommitAt": "2026-01-09T15:01:22Z",
+    "latestRelease": "VideoCrafter1",
+    "archived": false,
+    "maintenance": "moderate",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/AILab-CVC/VideoCrafter",
+      "https://ailab-cvc.github.io/videocrafter2/",
+      "https://github.com/AILab-CVC/VideoCrafter/releases/tag/VideoCrafter1"
+    ],
+    "notes": "GitHub SPDX shows NOASSERTION; root License file states Apache License 2.0 for open-sourced VideoCrafter1 codes."
+  },
+  {
+    "id": "ali-vilab-vgen",
+    "name": "VGen (ModelScope T2V / I2VGen-XL)",
+    "owner": "ali-vilab",
+    "repo": "VGen",
+    "githubUrl": "https://github.com/ali-vilab/VGen",
+    "homepage": "https://i2vgen-xl.github.io",
+    "description": "Official repo for VGen: a holistic video generation ecosystem for video generation building on diffusion models",
+    "editorialSummary": "Alibaba VILAB’s VGen ecosystem covering ModelScope-era text-to-video and I2VGen-XL image-to-video diffusion models. Historical open ModelScope T2V lineage in one research codebase.",
+    "whyCare": "Canonical OSS home for early ModelScope text-to-video / I2VGen models still referenced in papers and demos.",
+    "primaryCategory": "video-ai",
+    "secondaryCategories": [
+      "research"
+    ],
+    "tags": [
+      "modelscope",
+      "text-to-video",
+      "i2vgen-xl",
+      "video-synthesis",
+      "diffusion"
+    ],
+    "language": "Python",
+    "license": null,
+    "stars": 3156,
+    "forks": 275,
+    "latestCommitAt": "2025-01-10T09:09:13Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "slow",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "fair",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/ali-vilab/VGen",
+      "https://i2vgen-xl.github.io"
+    ],
+    "notes": "No SPDX license detected on GitHub; verify model/code terms before commercial use."
+  },
+  {
+    "id": "doubiiu-dynamicrafter",
+    "name": "DynamiCrafter",
+    "owner": "Doubiiu",
+    "repo": "DynamiCrafter",
+    "githubUrl": "https://github.com/Doubiiu/DynamiCrafter",
+    "homepage": "https://doubiiu.github.io/projects/DynamiCrafter/",
+    "description": "[ECCV 2024, Oral] DynamiCrafter: Animating Open-domain Images with Video Diffusion Priors",
+    "editorialSummary": "ECCV 2024 oral open-domain image animation system using video diffusion priors. Strong open I2V/animation baseline for turning stills into coherent short clips.",
+    "whyCare": "High-quality open image-to-video animation with clear paper + code; still widely used for open-domain I2V demos.",
+    "primaryCategory": "video-ai",
+    "secondaryCategories": [
+      "research",
+      "image-ai"
+    ],
+    "tags": [
+      "dynamicrafter",
+      "image-to-video",
+      "image-animation",
+      "video-diffusion",
+      "eccv"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 3008,
+    "forks": 242,
+    "latestCommitAt": "2024-09-08T23:43:53Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "stale",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers",
+      "hobbyists"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/Doubiiu/DynamiCrafter",
+      "https://doubiiu.github.io/projects/DynamiCrafter/"
+    ]
+  },
+  {
+    "id": "facebookresearch-moviegenbench",
+    "name": "MovieGenBench",
+    "owner": "facebookresearch",
+    "repo": "MovieGenBench",
+    "githubUrl": "https://github.com/facebookresearch/MovieGenBench",
+    "homepage": null,
+    "description": "Movie Gen Bench - two media generation evaluation benchmarks released with Meta Movie Gen",
+    "editorialSummary": "Meta’s open Movie Gen research artifact: evaluation benchmarks released with Movie Gen. Full Movie Gen model weights were not open-sourced; this is the primary official OSS companion release.",
+    "whyCare": "Only substantial official Meta Movie Gen OSS drop—use for T2V/evaluation research, not as a runnable Movie Gen model.",
+    "primaryCategory": "video-ai",
+    "secondaryCategories": [
+      "evaluation",
+      "research"
+    ],
+    "tags": [
+      "movie-gen",
+      "benchmark",
+      "evaluation",
+      "text-to-video",
+      "meta"
+    ],
+    "language": null,
+    "license": "CC-BY-NC-4.0",
+    "stars": 442,
+    "forks": 25,
+    "latestCommitAt": "2025-03-08T07:58:21Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "slow",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "fair",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/facebookresearch/MovieGenBench"
+    ],
+    "notes": "Not a Movie Gen model implementation—benchmarks only. LICENSE text is Creative Commons Attribution-NonCommercial 4.0; GitHub SPDX is NOASSERTION."
+  },
+  {
+    "id": "genmoai-mochi",
+    "name": "Mochi",
+    "owner": "genmoai",
+    "repo": "mochi",
+    "githubUrl": "https://github.com/genmoai/mochi",
+    "homepage": null,
+    "description": "The best OSS video generation models, created by Genmo",
+    "editorialSummary": "Genmo’s open Mochi video generation model and inference code. Early fully open high-quality T2V release that helped set expectations for community-weight video models.",
+    "whyCare": "Clean Apache-licensed open video model with strong community demos; useful alternative baseline to Chinese-lab releases.",
+    "primaryCategory": "video-ai",
+    "secondaryCategories": [
+      "research"
+    ],
+    "tags": [
+      "mochi",
+      "text-to-video",
+      "video-generation",
+      "genmo",
+      "open-weights"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 3705,
+    "forks": 488,
+    "latestCommitAt": "2025-11-14T01:17:56Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "moderate",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers",
+      "hobbyists"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/genmoai/mochi"
+    ]
+  },
+  {
+    "id": "guoyww-animatediff",
+    "name": "AnimateDiff",
+    "owner": "guoyww",
+    "repo": "AnimateDiff",
+    "githubUrl": "https://github.com/guoyww/AnimateDiff",
+    "homepage": "https://animatediff.github.io",
+    "description": "Official implementation of AnimateDiff.",
+    "editorialSummary": "Motion-module approach that turns personalized Stable Diffusion image models into short videos without retraining the full backbone. Became a default animation path in A1111/ComfyUI ecosystems.",
+    "whyCare": "Still the most practical OSS bridge from SD personalization (LoRA/DreamBooth) to video; historically defined open Animate workflows.",
+    "primaryCategory": "video-ai",
+    "secondaryCategories": [
+      "image-ai"
+    ],
+    "tags": [
+      "animatediff",
+      "motion-module",
+      "stable-diffusion",
+      "text-to-video",
+      "animation"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 12213,
+    "forks": 1088,
+    "latestCommitAt": "2024-07-31T01:14:15Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "slow",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "hobbyists",
+      "engineers",
+      "researchers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/guoyww/AnimateDiff",
+      "https://animatediff.github.io"
+    ]
+  },
+  {
+    "id": "hao-ai-lab-fastvideo",
+    "name": "FastVideo",
+    "owner": "hao-ai-lab",
+    "repo": "FastVideo",
+    "githubUrl": "https://github.com/hao-ai-lab/FastVideo",
+    "homepage": "https://hao-ai-lab.github.io/FastVideo",
+    "description": "A unified inference and post-training framework for accelerated video generation.",
+    "editorialSummary": "Unified framework for accelerating video diffusion inference and post-training (distillation and related techniques). Targets practical throughput for open video models rather than a single new base model.",
+    "whyCare": "Infrastructure layer that makes open video models usable at higher FPS/lower cost; actively maintained.",
+    "primaryCategory": "video-ai",
+    "secondaryCategories": [
+      "infrastructure",
+      "training"
+    ],
+    "tags": [
+      "fastvideo",
+      "inference",
+      "distillation",
+      "video-generation",
+      "diffusers"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 3941,
+    "forks": 400,
+    "latestCommitAt": "2026-08-12T00:05:48Z",
+    "latestRelease": "v0.2.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": true,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/hao-ai-lab/FastVideo",
+      "https://hao-ai-lab.github.io/FastVideo",
+      "https://github.com/hao-ai-lab/FastVideo/releases/tag/v0.2.0"
+    ]
+  },
+  {
+    "id": "hpcaitech-open-sora",
+    "name": "Open-Sora",
+    "owner": "hpcaitech",
+    "repo": "Open-Sora",
+    "githubUrl": "https://github.com/hpcaitech/Open-Sora",
+    "homepage": "https://hpcaitech.github.io/Open-Sora/",
+    "description": "Open-Sora: Democratizing Efficient Video Production for All",
+    "editorialSummary": "HPC-AI Tech’s open stack for training and running Sora-like text-to-video models, with emphasis on efficient DiT video generation and reproducible pipelines. One of the most cited community responses to closed video foundation models.",
+    "whyCare": "Reference open implementation for large-scale video DiT training/inference; strong docs and continued releases for researchers and infra teams.",
+    "primaryCategory": "video-ai",
+    "secondaryCategories": [
+      "training",
+      "research"
+    ],
+    "tags": [
+      "text-to-video",
+      "dit",
+      "open-sora",
+      "video-generation",
+      "diffusion"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 29269,
+    "forks": 3007,
+    "latestCommitAt": "2026-04-09T01:52:40Z",
+    "latestRelease": "v1.3",
+    "archived": false,
+    "maintenance": "moderate",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/hpcaitech/Open-Sora",
+      "https://hpcaitech.github.io/Open-Sora/",
+      "https://github.com/hpcaitech/Open-Sora/releases/tag/v1.3"
+    ]
+  },
+  {
+    "id": "hzwer-eccv2022-rife",
+    "name": "RIFE",
+    "owner": "hzwer",
+    "repo": "ECCV2022-RIFE",
+    "githubUrl": "https://github.com/hzwer/ECCV2022-RIFE",
+    "homepage": null,
+    "description": "ECCV2022 - Real-Time Intermediate Flow Estimation for Video Frame Interpolation",
+    "editorialSummary": "Canonical RIFE real-time video frame interpolation (ECCV 2022). Not a generative T2V model, but foundational OSS for frame-rate conversion and temporal smoothing in video pipelines.",
+    "whyCare": "Default open frame-interpolation building block used across creative tooling, restoration, and AI video post-processing.",
+    "primaryCategory": "video-ai",
+    "secondaryCategories": [
+      "research"
+    ],
+    "tags": [
+      "rife",
+      "frame-interpolation",
+      "video-interpolation",
+      "slomo",
+      "optical-flow"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 5561,
+    "forks": 561,
+    "latestCommitAt": "2025-09-10T06:32:03Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "moderate",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "researchers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/hzwer/ECCV2022-RIFE"
+    ],
+    "notes": "Practical follow-on improvements also live at hzwer/Practical-RIFE; this repo is the canonical ECCV RIFE paper code."
+  },
+  {
+    "id": "lightricks-ltx-video",
+    "name": "LTX-Video",
+    "owner": "Lightricks",
+    "repo": "LTX-Video",
+    "githubUrl": "https://github.com/Lightricks/LTX-Video",
+    "homepage": "https://ltx.io/model",
+    "description": "Official repository for LTX-Video",
+    "editorialSummary": "Lightricks’ official LTX-Video models and code for fast DiT text/image-to-video generation. Positioned for real-time-ish creative workflows rather than only research demos.",
+    "whyCare": "Strong speed/quality tradeoff among open video models; popular in creator and ComfyUI communities.",
+    "primaryCategory": "video-ai",
+    "secondaryCategories": [
+      "research"
+    ],
+    "tags": [
+      "ltx-video",
+      "text-to-video",
+      "image-to-video",
+      "dit",
+      "diffusion"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 10843,
+    "forks": 1109,
+    "latestCommitAt": "2026-01-05T22:37:07Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "moderate",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "researchers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": true,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/Lightricks/LTX-Video",
+      "https://ltx.io/model"
+    ]
+  },
+  {
+    "id": "modelscope-diffsynth-studio",
+    "name": "DiffSynth-Studio",
+    "owner": "modelscope",
+    "repo": "DiffSynth-Studio",
+    "githubUrl": "https://github.com/modelscope/DiffSynth-Studio",
+    "homepage": null,
+    "description": "Enjoy the magic of Diffusion models!",
+    "editorialSummary": "ModelScope’s actively maintained diffusion studio for image and video generation/editing pipelines. Practical successor surface for ModelScope-era text-to-video tooling beyond one-off research repos.",
+    "whyCare": "Best maintained ModelScope-side OSS entry for running modern video/image diffusion workflows with Chinese-ecosystem model support.",
+    "primaryCategory": "video-ai",
+    "secondaryCategories": [
+      "image-ai"
+    ],
+    "tags": [
+      "modelscope",
+      "diffsynth",
+      "text-to-video",
+      "diffusion",
+      "video-editing"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 12922,
+    "forks": 1264,
+    "latestCommitAt": "2026-08-12T11:03:05Z",
+    "latestRelease": "v1.1.9",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers",
+      "hobbyists"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/modelscope/DiffSynth-Studio",
+      "https://github.com/modelscope/DiffSynth-Studio/releases/tag/v1.1.9"
+    ],
+    "notes": "Represents current ModelScope video/image diffusion tooling; classic ModelScope T2V models also live via ali-vilab/VGen."
+  },
+  {
+    "id": "stability-ai-generative-models",
+    "name": "Stable Video Diffusion (generative-models)",
+    "owner": "Stability-AI",
+    "repo": "generative-models",
+    "githubUrl": "https://github.com/Stability-AI/generative-models",
+    "homepage": null,
+    "description": "Generative Models by Stability AI",
+    "editorialSummary": "Official Stability AI generative-models repo hosting Stable Video Diffusion (SVD) and related image/video diffusion training and inference code. SVD was the early high-visibility open image-to-video baseline.",
+    "whyCare": "Canonical OSS home for SVD; still a standard I2V reference and training scaffold in open video research.",
+    "primaryCategory": "video-ai",
+    "secondaryCategories": [
+      "image-ai",
+      "research"
+    ],
+    "tags": [
+      "svd",
+      "stable-video-diffusion",
+      "image-to-video",
+      "stability-ai",
+      "diffusion"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 27253,
+    "forks": 3103,
+    "latestCommitAt": "2025-12-16T08:36:18Z",
+    "latestRelease": "0.1.0",
+    "archived": false,
+    "maintenance": "moderate",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "fair",
+    "demoAvailable": false,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/Stability-AI/generative-models",
+      "https://github.com/Stability-AI/generative-models/releases/tag/0.1.0"
+    ],
+    "notes": "Repo covers multiple Stability generative models; SVD is the primary video relevance."
+  },
+  {
+    "id": "tencent-hunyuan-hunyuanvideo",
+    "name": "HunyuanVideo",
+    "owner": "Tencent-Hunyuan",
+    "repo": "HunyuanVideo",
+    "githubUrl": "https://github.com/Tencent-Hunyuan/HunyuanVideo",
+    "homepage": "https://aivideo.hunyuan.tencent.com",
+    "description": "HunyuanVideo: A Systematic Framework For Large Video Generation Model",
+    "editorialSummary": "Tencent’s open HunyuanVideo framework for large DiT-based video generation, including inference code and model assets under a community license. Competitive open alternative to closed commercial T2V systems.",
+    "whyCare": "High-quality open video foundation model with strong ecosystem adoption; important for benchmarking against Wan/CogVideoX/LTX.",
+    "primaryCategory": "video-ai",
+    "secondaryCategories": [
+      "research"
+    ],
+    "tags": [
+      "hunyuanvideo",
+      "text-to-video",
+      "dit",
+      "diffusion-transformer",
+      "video-generation"
+    ],
+    "language": "Python",
+    "license": null,
+    "stars": 12423,
+    "forks": 1310,
+    "latestCommitAt": "2026-06-29T09:33:50Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers",
+      "enterprises"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/Tencent-Hunyuan/HunyuanVideo",
+      "https://aivideo.hunyuan.tencent.com"
+    ],
+    "notes": "GitHub license is non-SPDX (Tencent Hunyuan Community License); territorial and MAU restrictions apply—see LICENSE.txt."
+  },
+  {
+    "id": "vchitect-venhancer",
+    "name": "VEnhancer",
+    "owner": "Vchitect",
+    "repo": "VEnhancer",
+    "githubUrl": "https://github.com/Vchitect/VEnhancer",
+    "homepage": "https://vchitect.github.io/VEnhancer-project/",
+    "description": "Official codes of VEnhancer: Generative Space-Time Enhancement for Video Generation",
+    "editorialSummary": "Generative space-time video enhancement for upscaling, sharpening, and refining AI-generated or low-quality video. Complements T2V generators as a post-enhancement stage.",
+    "whyCare": "Focused OSS enhancer for generative video quality; useful when base T2V outputs need spatial/temporal refinement.",
+    "primaryCategory": "video-ai",
+    "secondaryCategories": [
+      "research"
+    ],
+    "tags": [
+      "venhancer",
+      "video-enhancement",
+      "super-resolution",
+      "video-to-video",
+      "aigc"
+    ],
+    "language": "Python",
+    "license": null,
+    "stars": 578,
+    "forks": 33,
+    "latestCommitAt": "2024-09-16T13:48:02Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "stale",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "fair",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/Vchitect/VEnhancer",
+      "https://vchitect.github.io/VEnhancer-project/"
+    ],
+    "notes": "No license file detected on GitHub at verification time."
+  },
+  {
+    "id": "wan-video-wan2-1",
+    "name": "Wan2.1",
+    "owner": "Wan-Video",
+    "repo": "Wan2.1",
+    "githubUrl": "https://github.com/Wan-Video/Wan2.1",
+    "homepage": "https://wan.video",
+    "description": "Wan: Open and Advanced Large-Scale Video Generative Models",
+    "editorialSummary": "Open release of Wan large-scale video generative models (T2V/I2V) with inference code and weights. Quickly became a leading open-weight video foundation model family in 2025.",
+    "whyCare": "Among the strongest fully open video model stacks; widely integrated in ComfyUI and community pipelines.",
+    "primaryCategory": "video-ai",
+    "secondaryCategories": [
+      "research"
+    ],
+    "tags": [
+      "wan",
+      "text-to-video",
+      "image-to-video",
+      "video-generation",
+      "aigc"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 16810,
+    "forks": 3249,
+    "latestCommitAt": "2026-03-05T09:38:07Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "moderate",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers",
+      "hobbyists"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": true,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/Wan-Video/Wan2.1",
+      "https://wan.video"
+    ]
+  },
+  {
+    "id": "zai-org-cogvideo",
+    "name": "CogVideo",
+    "owner": "zai-org",
+    "repo": "CogVideo",
+    "githubUrl": "https://github.com/zai-org/CogVideo",
+    "homepage": null,
+    "description": "text and image to video generation: CogVideoX (2024) and CogVideo (ICLR 2023)",
+    "editorialSummary": "Zhipu/THUDM’s official CogVideo and CogVideoX codebase for text- and image-to-video generation. CogVideoX brought widely used open video DiT checkpoints into Hugging Face and Diffusers ecosystems.",
+    "whyCare": "Production-relevant open video checkpoints with solid research lineage; common baseline for open T2V/I2V experiments.",
+    "primaryCategory": "video-ai",
+    "secondaryCategories": [
+      "research",
+      "multimodal"
+    ],
+    "tags": [
+      "cogvideox",
+      "text-to-video",
+      "image-to-video",
+      "dit",
+      "video-generation"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 12950,
+    "forks": 1324,
+    "latestCommitAt": "2025-11-04T11:19:04Z",
+    "latestRelease": "v1.0",
+    "archived": false,
+    "maintenance": "moderate",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers",
+      "hobbyists"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/zai-org/CogVideo",
+      "https://github.com/zai-org/CogVideo/releases/tag/v1.0"
+    ],
+    "notes": "Canonical GitHub owner is zai-org (formerly THUDM/CogVideo)."
+  }
+]

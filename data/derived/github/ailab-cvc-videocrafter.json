@@ -1,0 +1,25 @@
+{
+  "id": "ailab-cvc-videocrafter",
+  "fetchedAt": "2026-08-12T17:40:02.734Z",
+  "stars": 5070,
+  "forks": 413,
+  "watchers": 65,
+  "openIssues": 74,
+  "language": "Python",
+  "license": null,
+  "description": "VideoCrafter2: Overcoming Data Limitations for High-Quality Video Diffusion Models",
+  "homepage": "https://ailab-cvc.github.io/videocrafter2/",
+  "topics": [
+    "image-to-video",
+    "text-to-video",
+    "video-generation"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-01-09T15:01:22Z",
+  "updatedAt": "2026-08-11T01:41:04Z",
+  "createdAt": "2023-04-03T09:27:42Z",
+  "latestRelease": "VideoCrafter1",
+  "latestReleaseAt": "2024-01-17T11:39:37Z",
+  "defaultBranch": "main"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "agno-agi-agno",
+  "fetchedAt": "2026-08-12T17:35:59.103Z",
+  "stars": 41681,
+  "forks": 5758,
+  "watchers": 237,
+  "openIssues": 1223,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "description": "Build, run, and manage agent platforms.",
+  "homepage": "https://docs.agno.com",
+  "topics": [
+    "agents",
+    "ai",
+    "ai-agents",
+    "developer-tools",
+    "python"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-08-12T17:11:52Z",
+  "updatedAt": "2026-08-12T17:25:46Z",
+  "createdAt": "2022-05-04T15:23:02Z",
+  "latestRelease": "v2.8.7",
+  "latestReleaseAt": "2026-08-05T14:44:53Z",
+  "defaultBranch": "main"
+}

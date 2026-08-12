@@ -1,0 +1,759 @@
+[
+  {
+    "id": "hiyouga-llamafactory",
+    "name": "LLaMA-Factory",
+    "owner": "hiyouga",
+    "repo": "LlamaFactory",
+    "githubUrl": "https://github.com/hiyouga/LlamaFactory",
+    "homepage": "https://llamafactory.readthedocs.io",
+    "description": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)",
+    "editorialSummary": "End-to-end toolkit for SFT, preference tuning, and RLHF across 100+ LLMs and VLMs, with YAML/CLI recipes and a web UI. Widely adopted as the practical default for instruction and alignment fine-tuning.",
+    "whyCare": "Covers the full post-training stack (LoRA/QLoRA, DPO, KTO, PPO, etc.) without stitching together separate PEFT/TRL scripts for each model family.",
+    "primaryCategory": "training",
+    "secondaryCategories": [
+      "multimodal",
+      "local-ai"
+    ],
+    "tags": [
+      "fine-tuning",
+      "lora",
+      "qlora",
+      "rlhf",
+      "sft",
+      "dpo",
+      "llm",
+      "vlm",
+      "peft"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 74026,
+    "forks": 9057,
+    "latestCommitAt": "2026-08-10T03:20:42Z",
+    "latestRelease": "v0.9.5",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers",
+      "hobbyists",
+      "enterprises"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/hiyouga/LlamaFactory",
+      "https://llamafactory.readthedocs.io"
+    ],
+    "notes": "GitHub canonical name is LlamaFactory; LLaMA-Factory redirects."
+  },
+  {
+    "id": "unslothai-unsloth",
+    "name": "Unsloth",
+    "owner": "unslothai",
+    "repo": "unsloth",
+    "githubUrl": "https://github.com/unslothai/unsloth",
+    "homepage": "https://unsloth.ai/docs",
+    "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
+    "editorialSummary": "Highly optimized fine-tuning stack focused on speed and lower VRAM for LoRA/QLoRA training, plus a local UI for training and running models. Popular for consumer-GPU fine-tunes and fast iteration.",
+    "whyCare": "Often the fastest path to fine-tune popular open models on a single GPU with far less memory than stock Transformers+PEFT setups.",
+    "primaryCategory": "training",
+    "secondaryCategories": [
+      "local-ai",
+      "image-ai"
+    ],
+    "tags": [
+      "fine-tuning",
+      "lora",
+      "qlora",
+      "rl",
+      "local",
+      "gpu-efficiency",
+      "llm"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 70569,
+    "forks": 6371,
+    "latestCommitAt": "2026-08-12T17:26:13Z",
+    "latestRelease": "v0.1.701-beta",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "hobbyists",
+      "engineers",
+      "students",
+      "researchers"
+    ],
+    "difficulty": "beginner",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/unslothai/unsloth",
+      "https://unsloth.ai/docs"
+    ]
+  },
+  {
+    "id": "deepspeedai-deepspeed",
+    "name": "DeepSpeed",
+    "owner": "deepspeedai",
+    "repo": "DeepSpeed",
+    "githubUrl": "https://github.com/deepspeedai/DeepSpeed",
+    "homepage": "https://www.deepspeed.ai/",
+    "description": "DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective.",
+    "editorialSummary": "Microsoft-origin distributed training library best known for ZeRO memory optimizations, enabling large-model training across many GPUs. Remains a core backend for LLM pretraining and fine-tuning frameworks.",
+    "whyCare": "ZeRO stages, offload, and MoE tooling are foundational when you outgrow single-GPU LoRA and need real multi-node training efficiency.",
+    "primaryCategory": "training",
+    "secondaryCategories": [
+      "infrastructure",
+      "llm-inference"
+    ],
+    "tags": [
+      "distributed-training",
+      "zero",
+      "deepspeed",
+      "moe",
+      "fp16",
+      "bf16",
+      "pipeline-parallelism"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 42915,
+    "forks": 4929,
+    "latestCommitAt": "2026-08-12T17:18:05Z",
+    "latestRelease": "v0.19.5",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers",
+      "enterprises"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "excellent",
+    "demoAvailable": false,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/deepspeedai/DeepSpeed",
+      "https://www.deepspeed.ai/"
+    ],
+    "notes": "Moved from microsoft/DeepSpeed to deepspeedai/DeepSpeed."
+  },
+  {
+    "id": "hpcaitech-colossalai",
+    "name": "ColossalAI",
+    "owner": "hpcaitech",
+    "repo": "ColossalAI",
+    "githubUrl": "https://github.com/hpcaitech/ColossalAI",
+    "homepage": "https://www.colossalai.org",
+    "description": "Making large AI models cheaper, faster and more accessible",
+    "editorialSummary": "Unified large-model training system covering parallelism strategies, heterogeneous memory, and efficient fine-tuning. Aimed at making multi-GPU and multi-node LLM training more accessible.",
+    "whyCare": "Strong option when you want an integrated parallelism + efficiency stack rather than composing Megatron/DeepSpeed pieces yourself.",
+    "primaryCategory": "training",
+    "secondaryCategories": [
+      "infrastructure"
+    ],
+    "tags": [
+      "distributed-training",
+      "parallelism",
+      "llm",
+      "heterogeneous-training",
+      "fine-tuning"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 41435,
+    "forks": 4504,
+    "latestCommitAt": "2026-08-10T17:47:01Z",
+    "latestRelease": "v0.5.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers",
+      "enterprises"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/hpcaitech/ColossalAI",
+      "https://www.colossalai.org"
+    ]
+  },
+  {
+    "id": "dao-ailab-flash-attention",
+    "name": "FlashAttention",
+    "owner": "Dao-AILab",
+    "repo": "flash-attention",
+    "githubUrl": "https://github.com/Dao-AILab/flash-attention",
+    "homepage": null,
+    "description": "Fast and memory-efficient exact attention",
+    "editorialSummary": "IO-aware exact attention kernels that cut activation memory and speed up transformer training and inference. De facto dependency across modern LLM training stacks.",
+    "whyCare": "Nearly every serious training framework plugs into FlashAttention; knowing it explains large VRAM and throughput gains on long contexts.",
+    "primaryCategory": "training",
+    "secondaryCategories": [
+      "infrastructure",
+      "llm-inference"
+    ],
+    "tags": [
+      "attention",
+      "cuda",
+      "performance",
+      "memory-efficiency",
+      "transformers"
+    ],
+    "language": "Python",
+    "license": "BSD-3-Clause",
+    "stars": 24690,
+    "forks": 2979,
+    "latestCommitAt": "2026-08-12T08:33:02Z",
+    "latestRelease": "v2.8.3.post1",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/Dao-AILab/flash-attention"
+    ]
+  },
+  {
+    "id": "verl-project-verl",
+    "name": "verl",
+    "owner": "verl-project",
+    "repo": "verl",
+    "githubUrl": "https://github.com/verl-project/verl",
+    "homepage": "https://verl-project.github.io",
+    "description": "verl/HybridFlow: A Flexible and Efficient RL Post-Training Framework",
+    "editorialSummary": "Flexible HybridFlow RL post-training framework for LLMs, widely used for PPO/GRPO-style and agentic reinforcement learning at scale. Became a leading open stack for reasoning-model RL.",
+    "whyCare": "If you are doing RL post-training beyond TRL toy setups, verl is one of the most battle-tested open frameworks in 2025–2026.",
+    "primaryCategory": "training",
+    "secondaryCategories": [
+      "ai-agents",
+      "research"
+    ],
+    "tags": [
+      "rlhf",
+      "rl",
+      "post-training",
+      "ppo",
+      "grpo",
+      "hybridflow",
+      "llm"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 22932,
+    "forks": 4389,
+    "latestCommitAt": "2026-08-12T12:44:47Z",
+    "latestRelease": "v0.8.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers",
+      "enterprises"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": true,
+    "emerging": true,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/verl-project/verl",
+      "https://verl-project.github.io"
+    ],
+    "notes": "Moved from volcengine/verl to verl-project/verl."
+  },
+  {
+    "id": "huggingface-peft",
+    "name": "PEFT",
+    "owner": "huggingface",
+    "repo": "peft",
+    "githubUrl": "https://github.com/huggingface/peft",
+    "homepage": "https://huggingface.co/docs/peft",
+    "description": "🤗 PEFT: State-of-the-art Parameter-Efficient Fine-Tuning.",
+    "editorialSummary": "Hugging Face library implementing LoRA, QLoRA adapters, prefix tuning, and other parameter-efficient methods on top of Transformers. The standard adapter API most fine-tuning tools wrap.",
+    "whyCare": "Almost every modern fine-tuning recipe either uses PEFT directly or re-exports its LoRA abstractions.",
+    "primaryCategory": "training",
+    "secondaryCategories": [],
+    "tags": [
+      "lora",
+      "qlora",
+      "adapters",
+      "peft",
+      "parameter-efficient",
+      "fine-tuning"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 21536,
+    "forks": 2431,
+    "latestCommitAt": "2026-08-12T10:38:53Z",
+    "latestRelease": "v0.20.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers",
+      "hobbyists",
+      "students"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/huggingface/peft",
+      "https://huggingface.co/docs/peft"
+    ]
+  },
+  {
+    "id": "huggingface-trl",
+    "name": "TRL",
+    "owner": "huggingface",
+    "repo": "trl",
+    "githubUrl": "https://github.com/huggingface/trl",
+    "homepage": "http://hf.co/docs/trl",
+    "description": "Train transformer language models with reinforcement learning.",
+    "editorialSummary": "Transformers Reinforcement Learning library for SFT, reward modeling, PPO, DPO, and related alignment algorithms. Default post-training layer in the Hugging Face ecosystem.",
+    "whyCare": "Best starting point for preference optimization and RLHF when you already train with Transformers/PEFT/Accelerate.",
+    "primaryCategory": "training",
+    "secondaryCategories": [
+      "evaluation"
+    ],
+    "tags": [
+      "rlhf",
+      "dpo",
+      "ppo",
+      "sft",
+      "alignment",
+      "post-training",
+      "transformers"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 19060,
+    "forks": 2902,
+    "latestCommitAt": "2026-08-12T17:04:07Z",
+    "latestRelease": "v1.9.2",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers",
+      "students"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/huggingface/trl",
+      "https://huggingface.co/docs/trl"
+    ]
+  },
+  {
+    "id": "nvidia-nemo-speech",
+    "name": "NeMo",
+    "owner": "NVIDIA-NeMo",
+    "repo": "Speech",
+    "githubUrl": "https://github.com/NVIDIA-NeMo/Speech",
+    "homepage": "https://docs.nvidia.com/nemo/speech/nightly/index.html",
+    "description": "A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech AI (Automatic Speech Recognition and Text-to-Speech)",
+    "editorialSummary": "NVIDIA NeMo framework (canonical repo now NVIDIA-NeMo/Speech after org split) for scalable generative AI spanning speech, multimodal, and LLM workflows. Historical home of NeMo training collections used across NVIDIA stacks.",
+    "whyCare": "Enterprise-grade recipes and modules for speech/LLM training on NVIDIA hardware, with deep integration into the broader NeMo FW (Automodel, RL, Megatron-Bridge).",
+    "primaryCategory": "training",
+    "secondaryCategories": [
+      "audio-ai",
+      "multimodal"
+    ],
+    "tags": [
+      "nemo",
+      "nvidia",
+      "asr",
+      "tts",
+      "llm",
+      "multimodal",
+      "speech"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 18110,
+    "forks": 3550,
+    "latestCommitAt": "2026-08-12T16:52:00Z",
+    "latestRelease": "v3.0.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "enterprises",
+      "researchers",
+      "engineers"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "excellent",
+    "demoAvailable": false,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/NVIDIA-NeMo/Speech",
+      "https://docs.nvidia.com/nemo/speech/nightly/index.html"
+    ],
+    "notes": "NVIDIA/NeMo and NVIDIA-NeMo/NeMo redirect here after NeMo org reorganization; related training libs include NVIDIA-NeMo/Automodel and NVIDIA-NeMo/RL."
+  },
+  {
+    "id": "nvidia-megatron-lm",
+    "name": "Megatron-LM",
+    "owner": "NVIDIA",
+    "repo": "Megatron-LM",
+    "githubUrl": "https://github.com/NVIDIA/Megatron-LM",
+    "homepage": "https://docs.nvidia.com/megatron-core/developer-guide/latest/get-started/quickstart.html",
+    "description": "Ongoing research training transformer models at scale",
+    "editorialSummary": "NVIDIA research codebase and Megatron-Core for training transformers at massive scale with tensor, pipeline, and sequence parallelism. Backbone for many industrial LLM pretraining systems.",
+    "whyCare": "Reference implementation for large-scale model parallel training; Megatron-Core is what serious pretraining clusters still build around.",
+    "primaryCategory": "training",
+    "secondaryCategories": [
+      "infrastructure",
+      "research"
+    ],
+    "tags": [
+      "megatron",
+      "model-parallelism",
+      "pretraining",
+      "llm",
+      "nvidia",
+      "distributed-training"
+    ],
+    "language": "Python",
+    "license": null,
+    "stars": 17403,
+    "forks": 4357,
+    "latestCommitAt": "2026-08-12T17:21:09Z",
+    "latestRelease": "core_v0.18.2",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "enterprises",
+      "engineers"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/NVIDIA/Megatron-LM",
+      "https://docs.nvidia.com/megatron-core/developer-guide/latest/get-started/quickstart.html"
+    ],
+    "notes": "GitHub license API returns NOASSERTION (non-SPDX); license left null rather than inventing an SPDX id."
+  },
+  {
+    "id": "axolotl-ai-cloud-axolotl",
+    "name": "Axolotl",
+    "owner": "axolotl-ai-cloud",
+    "repo": "axolotl",
+    "githubUrl": "https://github.com/axolotl-ai-cloud/axolotl",
+    "homepage": "https://docs.axolotl.ai",
+    "description": "Go ahead and axolotl questions",
+    "editorialSummary": "YAML-driven fine-tuning framework supporting many model architectures, chat templates, and training methods (LoRA, QLoRA, full FT). Favored by practitioners who want reproducible configs over ad-hoc scripts.",
+    "whyCare": "Excellent config-first workflow for production-ish fine-tunes with community recipes and strong multi-GPU support.",
+    "primaryCategory": "training",
+    "secondaryCategories": [
+      "local-ai"
+    ],
+    "tags": [
+      "fine-tuning",
+      "lora",
+      "qlora",
+      "yaml",
+      "llm",
+      "sft"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 12344,
+    "forks": 1401,
+    "latestCommitAt": "2026-08-12T16:41:22Z",
+    "latestRelease": "v0.18.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "researchers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": false,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/axolotl-ai-cloud/axolotl",
+      "https://docs.axolotl.ai"
+    ],
+    "notes": "Moved from OpenAccess-AI-Collective/axolotl to axolotl-ai-cloud/axolotl."
+  },
+  {
+    "id": "openrlhf-openrlhf",
+    "name": "OpenRLHF",
+    "owner": "OpenRLHF",
+    "repo": "OpenRLHF",
+    "githubUrl": "https://github.com/OpenRLHF/OpenRLHF",
+    "homepage": "https://openrlhf.readthedocs.io/",
+    "description": "An Easy-to-use, Scalable and High-performance Agentic RL Framework based on Ray (PPO & DAPO & REINFORCE++ & VLM & TIS & vLLM & Ray & Async RL)",
+    "editorialSummary": "Ray-based scalable RLHF/agentic RL framework with PPO, DAPO, REINFORCE++, and async RL paths, often paired with vLLM for rollouts. Strong open alternative for production-minded RL post-training.",
+    "whyCare": "Clean Ray + vLLM architecture for high-throughput RLHF when TRL is too small and Megatron-heavy stacks are too heavy.",
+    "primaryCategory": "training",
+    "secondaryCategories": [
+      "ai-agents",
+      "llm-inference"
+    ],
+    "tags": [
+      "rlhf",
+      "ppo",
+      "ray",
+      "vllm",
+      "agentic-rl",
+      "post-training"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 9906,
+    "forks": 998,
+    "latestCommitAt": "2026-07-14T01:57:21Z",
+    "latestRelease": "v0.10.4",
+    "archived": false,
+    "maintenance": "moderate",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers",
+      "enterprises"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/OpenRLHF/OpenRLHF",
+      "https://openrlhf.readthedocs.io/"
+    ]
+  },
+  {
+    "id": "huggingface-accelerate",
+    "name": "Accelerate",
+    "owner": "huggingface",
+    "repo": "accelerate",
+    "githubUrl": "https://github.com/huggingface/accelerate",
+    "homepage": "https://huggingface.co/docs/accelerate",
+    "description": "🚀 A simple way to launch, train, and use PyTorch models on almost any device and distributed configuration, automatic mixed precision (including fp8), and easy-to-configure FSDP and DeepSpeed support",
+    "editorialSummary": "Thin launcher and distributed helper that unifies single-GPU, multi-GPU, FSDP, and DeepSpeed training behind one config/API. Ubiquitous plumbing under HF Trainer, TRL, and many fine-tuning tools.",
+    "whyCare": "Lets you write one training loop and scale from laptop to multi-node without rewriting device/placement logic.",
+    "primaryCategory": "training",
+    "secondaryCategories": [
+      "infrastructure"
+    ],
+    "tags": [
+      "distributed-training",
+      "fsdp",
+      "deepspeed",
+      "mixed-precision",
+      "pytorch",
+      "launcher"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 9814,
+    "forks": 1431,
+    "latestCommitAt": "2026-08-10T07:57:27Z",
+    "latestRelease": "v1.14.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers",
+      "students"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/huggingface/accelerate",
+      "https://huggingface.co/docs/accelerate"
+    ]
+  },
+  {
+    "id": "bitsandbytes-foundation-bitsandbytes",
+    "name": "bitsandbytes",
+    "owner": "bitsandbytes-foundation",
+    "repo": "bitsandbytes",
+    "githubUrl": "https://github.com/bitsandbytes-foundation/bitsandbytes",
+    "homepage": "https://huggingface.co/docs/bitsandbytes/main/en/index",
+    "description": "Accessible large language models via k-bit quantization for PyTorch.",
+    "editorialSummary": "k-bit quantization library powering 8-bit optimizers and 4-bit QLoRA-style loading in PyTorch. Essential dependency for memory-efficient fine-tuning on consumer GPUs.",
+    "whyCare": "QLoRA and many low-VRAM training recipes depend on bitsandbytes for 4/8-bit weights and optimizers.",
+    "primaryCategory": "training",
+    "secondaryCategories": [
+      "llm-inference",
+      "local-ai"
+    ],
+    "tags": [
+      "quantization",
+      "qlora",
+      "8bit",
+      "4bit",
+      "optimizers",
+      "pytorch"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 8414,
+    "forks": 903,
+    "latestCommitAt": "2026-08-12T09:53:56Z",
+    "latestRelease": "0.50.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "researchers",
+      "students"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/bitsandbytes-foundation/bitsandbytes",
+      "https://huggingface.co/docs/bitsandbytes/main/en/index"
+    ]
+  },
+  {
+    "id": "meta-pytorch-torchtune",
+    "name": "torchtune",
+    "owner": "meta-pytorch",
+    "repo": "torchtune",
+    "githubUrl": "https://github.com/meta-pytorch/torchtune",
+    "homepage": "https://pytorch.org/torchtune/main/",
+    "description": "PyTorch native post-training library",
+    "editorialSummary": "PyTorch-native post-training library with composable recipes for SFT, LoRA, preference tuning, and related workflows. Emphasizes readable, hackable PyTorch code over opaque trainers.",
+    "whyCare": "Ideal when you want first-party PyTorch recipes you can modify without fighting a heavyweight framework abstraction.",
+    "primaryCategory": "training",
+    "secondaryCategories": [
+      "research"
+    ],
+    "tags": [
+      "post-training",
+      "pytorch",
+      "sft",
+      "lora",
+      "fine-tuning",
+      "llm"
+    ],
+    "language": "Python",
+    "license": "BSD-3-Clause",
+    "stars": 5799,
+    "forks": 743,
+    "latestCommitAt": "2026-08-12T11:49:19Z",
+    "latestRelease": "v0.6.1",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers",
+      "students"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/meta-pytorch/torchtune",
+      "https://pytorch.org/torchtune/main/"
+    ],
+    "notes": "Moved from pytorch/torchtune to meta-pytorch/torchtune."
+  }
+]

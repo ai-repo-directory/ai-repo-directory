@@ -1,0 +1,783 @@
+[
+  {
+    "id": "haotian-liu-llava",
+    "name": "LLaVA",
+    "owner": "haotian-liu",
+    "repo": "LLaVA",
+    "githubUrl": "https://github.com/haotian-liu/LLaVA",
+    "homepage": "https://llava.hliu.cc",
+    "description": "[NeurIPS'23 Oral] Visual Instruction Tuning (LLaVA) built towards GPT-4V level capabilities and beyond.",
+    "editorialSummary": "LLaVA pioneered visual instruction tuning that connects a vision encoder to an LLM with GPT-4-generated multimodal instruction data. It became the default open recipe for GPT-4V-style chat and spawned LLaVA-NeXT and many community fine-tunes.",
+    "whyCare": "Still the clearest reference implementation for training and serving open vision-language chat models, with widely reused data formats and evaluation setups.",
+    "primaryCategory": "multimodal",
+    "secondaryCategories": [
+      "research",
+      "training"
+    ],
+    "tags": [
+      "vision-language",
+      "visual-instruction-tuning",
+      "llava",
+      "vllm-chat",
+      "neurips"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 24977,
+    "forks": 2776,
+    "latestCommitAt": "2024-08-12T09:52:38Z",
+    "latestRelease": "v1.2.0",
+    "archived": false,
+    "maintenance": "slow",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers",
+      "students"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/haotian-liu/LLaVA",
+      "https://llava.hliu.cc",
+      "https://arxiv.org/abs/2304.08485"
+    ]
+  },
+  {
+    "id": "llava-vl-llava-next",
+    "name": "LLaVA-NeXT",
+    "owner": "LLaVA-VL",
+    "repo": "LLaVA-NeXT",
+    "githubUrl": "https://github.com/LLaVA-VL/LLaVA-NeXT",
+    "homepage": null,
+    "description": null,
+    "editorialSummary": "Successor codebase to classic LLaVA with stronger image understanding, higher-resolution inputs, and video/multimodal extensions under the LLaVA-VL org. Prefer this over the original LLaVA repo for newer checkpoints and training scripts.",
+    "whyCare": "Active LLaVA-family training and inference stack used for LLaVA-NeXT / OneVision-style open VLMs.",
+    "primaryCategory": "multimodal",
+    "secondaryCategories": [
+      "training",
+      "research"
+    ],
+    "tags": [
+      "llava-next",
+      "vision-language",
+      "video-understanding",
+      "instruction-tuning"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 4711,
+    "forks": 469,
+    "latestCommitAt": "2026-06-15T06:32:49Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/LLaVA-VL/LLaVA-NeXT",
+      "https://llava.hliu.cc"
+    ]
+  },
+  {
+    "id": "qwenlm-qwen3-vl",
+    "name": "Qwen3-VL",
+    "owner": "QwenLM",
+    "repo": "Qwen3-VL",
+    "githubUrl": "https://github.com/QwenLM/Qwen3-VL",
+    "homepage": null,
+    "description": "Qwen3-VL is the multimodal large language model series developed by Qwen team, Alibaba Cloud.",
+    "editorialSummary": "Official Qwen vision-language series repo (GitHub redirects older Qwen2-VL / Qwen2.5-VL URLs here). Covers Alibaba’s current open multimodal LLMs with strong OCR, document, and video understanding.",
+    "whyCare": "One of the strongest open VLM families for production multimodal apps; this is the canonical training/inference home for the latest Qwen-VL line.",
+    "primaryCategory": "multimodal",
+    "secondaryCategories": [
+      "llm-inference",
+      "local-ai"
+    ],
+    "tags": [
+      "qwen",
+      "qwen-vl",
+      "qwen2.5-vl",
+      "vision-language",
+      "mllm"
+    ],
+    "language": "Jupyter Notebook",
+    "license": "Apache-2.0",
+    "stars": 19778,
+    "forks": 1831,
+    "latestCommitAt": "2026-01-30T04:47:30Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "moderate",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers",
+      "enterprises"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/QwenLM/Qwen3-VL",
+      "https://github.com/QwenLM/Qwen2.5-VL"
+    ],
+    "notes": "QwenLM/Qwen2-VL and QwenLM/Qwen2.5-VL resolve to this repo on GitHub."
+  },
+  {
+    "id": "qwenlm-qwen-vl",
+    "name": "Qwen-VL",
+    "owner": "QwenLM",
+    "repo": "Qwen-VL",
+    "githubUrl": "https://github.com/QwenLM/Qwen-VL",
+    "homepage": null,
+    "description": "The official repo of Qwen-VL (通义千问-VL) chat & pretrained large vision language model proposed by Alibaba Cloud.",
+    "editorialSummary": "Original Tongyi Qianwen vision-language release that established the Qwen-VL line. Kept for historical reference and older checkpoints; prefer Qwen3-VL for current models.",
+    "whyCare": "Important baseline and paper code for early open Chinese/English VLMs; useful when reproducing older Qwen-VL results.",
+    "primaryCategory": "multimodal",
+    "secondaryCategories": [
+      "research"
+    ],
+    "tags": [
+      "qwen-vl",
+      "vision-language",
+      "alibaba",
+      "historical"
+    ],
+    "language": "Python",
+    "license": null,
+    "stars": 6722,
+    "forks": 495,
+    "latestCommitAt": "2024-08-07T02:37:06Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "stale",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/QwenLM/Qwen-VL",
+      "https://arxiv.org/abs/2308.12966"
+    ],
+    "notes": "GitHub license API reports NOASSERTION; repo ships Tongyi Qianwen LICENSE AGREEMENT (not SPDX)."
+  },
+  {
+    "id": "opengvlab-internvl",
+    "name": "InternVL",
+    "owner": "OpenGVLab",
+    "repo": "InternVL",
+    "githubUrl": "https://github.com/OpenGVLab/InternVL",
+    "homepage": "https://internvl.readthedocs.io/en/latest/",
+    "description": "[CVPR 2024 Oral] InternVL Family: A Pioneering Open-Source Alternative to GPT-4o.  接近GPT-4o表现的开源多模态对话模型",
+    "editorialSummary": "OpenGVLab’s InternVL family scales vision backbones and multimodal chat models as an open GPT-4o-class alternative, with strong docs and a wide model ladder.",
+    "whyCare": "High-performing open MLLM stack with clear training/inference paths and competitive multimodal benchmarks.",
+    "primaryCategory": "multimodal",
+    "secondaryCategories": [
+      "research",
+      "llm-inference"
+    ],
+    "tags": [
+      "internvl",
+      "vision-language",
+      "gpt-4o",
+      "cvpr",
+      "mllm"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 10125,
+    "forks": 788,
+    "latestCommitAt": "2025-09-22T01:36:48Z",
+    "latestRelease": "v1.5.0",
+    "archived": false,
+    "maintenance": "moderate",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers",
+      "enterprises"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/OpenGVLab/InternVL",
+      "https://internvl.readthedocs.io/en/latest/"
+    ]
+  },
+  {
+    "id": "vision-cair-minigpt-4",
+    "name": "MiniGPT-4",
+    "owner": "Vision-CAIR",
+    "repo": "MiniGPT-4",
+    "githubUrl": "https://github.com/Vision-CAIR/MiniGPT-4",
+    "homepage": "https://minigpt-4.github.io",
+    "description": "Open-sourced codes for MiniGPT-4 and MiniGPT-v2 (https://minigpt-4.github.io, https://minigpt-v2.github.io/)",
+    "editorialSummary": "Early open GPT-4V-style system aligning a frozen vision encoder with Vicuna via a projection layer. MiniGPT-v2 extended grounded conversation; highly influential for lightweight VLM recipes.",
+    "whyCare": "Classic minimal recipe for vision-language chat; still cited and forked for teaching and rapid prototyping.",
+    "primaryCategory": "multimodal",
+    "secondaryCategories": [
+      "research"
+    ],
+    "tags": [
+      "minigpt-4",
+      "vision-language",
+      "vicuna",
+      "alignment"
+    ],
+    "language": "Python",
+    "license": "BSD-3-Clause",
+    "stars": 25636,
+    "forks": 2871,
+    "latestCommitAt": "2024-09-02T09:07:21Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "slow",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "students",
+      "hobbyists"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/Vision-CAIR/MiniGPT-4",
+      "https://minigpt-4.github.io"
+    ]
+  },
+  {
+    "id": "salesforce-lavis",
+    "name": "LAVIS",
+    "owner": "salesforce",
+    "repo": "LAVIS",
+    "githubUrl": "https://github.com/salesforce/LAVIS",
+    "homepage": null,
+    "description": "LAVIS - A One-stop Library for Language-Vision Intelligence",
+    "editorialSummary": "Salesforce’s unified library for vision-language research, including BLIP, BLIP-2, InstructBLIP, ALBEF, and related tasks (captioning, VQA, retrieval). Primary open home for BLIP-2 training and inference APIs.",
+    "whyCare": "If you need BLIP-2 or a batteries-included VL research framework (datasets, trainers, evals), LAVIS is the standard package.",
+    "primaryCategory": "multimodal",
+    "secondaryCategories": [
+      "research",
+      "training"
+    ],
+    "tags": [
+      "blip-2",
+      "blip",
+      "instructblip",
+      "vision-language",
+      "salesforce"
+    ],
+    "language": "Jupyter Notebook",
+    "license": "BSD-3-Clause",
+    "stars": 11264,
+    "forks": 1110,
+    "latestCommitAt": "2026-06-02T18:14:49Z",
+    "latestRelease": "v1.0.2",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers",
+      "students"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/salesforce/LAVIS",
+      "https://arxiv.org/abs/2301.12597"
+    ],
+    "notes": "BLIP-2 lives in this library; there is no separate official Salesforce/blip2 application repo."
+  },
+  {
+    "id": "microsoft-unilm",
+    "name": "unilm",
+    "owner": "microsoft",
+    "repo": "unilm",
+    "githubUrl": "https://github.com/microsoft/unilm",
+    "homepage": "https://aka.ms/GeneralAI",
+    "description": "Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities",
+    "editorialSummary": "Microsoft’s long-running multimodal/NLP research monorepo. Contains Kosmos-1, Kosmos-2, and Kosmos-2.5 code alongside LayoutLM, BEiT, TrOCR, and other foundation models.",
+    "whyCare": "Canonical open source for Kosmos grounded multimodal models and related Microsoft document/vision-language research code.",
+    "primaryCategory": "multimodal",
+    "secondaryCategories": [
+      "research",
+      "training"
+    ],
+    "tags": [
+      "kosmos",
+      "kosmos-2",
+      "beit",
+      "layoutlm",
+      "document-ai",
+      "mllm"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 22186,
+    "forks": 2703,
+    "latestCommitAt": "2026-01-23T04:09:35Z",
+    "latestRelease": "yoco.v0",
+    "archived": false,
+    "maintenance": "moderate",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/microsoft/unilm",
+      "https://github.com/microsoft/unilm/tree/master/kosmos-2",
+      "https://aka.ms/GeneralAI"
+    ],
+    "notes": "Kosmos family directories: kosmos-1, kosmos-2, kosmos-2.5 inside this monorepo."
+  },
+  {
+    "id": "microsoft-phicookbook",
+    "name": "PhiCookBook",
+    "owner": "microsoft",
+    "repo": "PhiCookBook",
+    "githubUrl": "https://github.com/microsoft/PhiCookBook",
+    "homepage": null,
+    "description": "This is a Phi Family of SLMs book for getting started with Phi Models. Phi a family of open sourced AI models developed by Microsoft. Phi models are the most capable and cost-effective small language models (SLMs) available, outperforming models of the same size and next size up across a variety of language, reasoning, coding, and math benchmarks",
+    "editorialSummary": "Official Microsoft cookbook for Phi SLMs with dedicated guidance for Phi-3/3.5 vision and Phi-4 multimodal—prompting, fine-tuning, and deployment patterns for vision-language use.",
+    "whyCare": "Best open starting point for Phi-3 Vision / Phi multimodal OSS workflows when weights are consumed via Azure, Hugging Face, or ONNX.",
+    "primaryCategory": "multimodal",
+    "secondaryCategories": [
+      "local-ai",
+      "llm-inference"
+    ],
+    "tags": [
+      "phi-3-vision",
+      "phi-4-multimodal",
+      "slm",
+      "cookbook",
+      "microsoft"
+    ],
+    "language": "Jupyter Notebook",
+    "license": "MIT",
+    "stars": 3786,
+    "forks": 511,
+    "latestCommitAt": "2026-08-11T16:00:09Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "students",
+      "enterprises"
+    ],
+    "difficulty": "beginner",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/microsoft/PhiCookBook",
+      "https://huggingface.co/microsoft/Phi-3-vision-128k-instruct"
+    ],
+    "notes": "Repo renamed from Phi-3CookBook; covers Phi vision/multimodal chapters. Model weights are published separately on Hugging Face / Azure."
+  },
+  {
+    "id": "allenai-molmo",
+    "name": "molmo",
+    "owner": "allenai",
+    "repo": "molmo",
+    "githubUrl": "https://github.com/allenai/molmo",
+    "homepage": null,
+    "description": "Code for the Molmo Vision-Language Model",
+    "editorialSummary": "AllenAI’s fully open Molmo VLM: training code and recipes paired with openly released weights and the PixMo dataset family, emphasizing transparency end-to-end.",
+    "whyCare": "Rare fully open vision-language stack (data + code + weights) from a major lab—strong choice when openness and reproducibility matter.",
+    "primaryCategory": "multimodal",
+    "secondaryCategories": [
+      "research",
+      "datasets"
+    ],
+    "tags": [
+      "molmo",
+      "allenai",
+      "vision-language",
+      "open-weights",
+      "pixmo"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 926,
+    "forks": 96,
+    "latestCommitAt": "2024-12-12T17:37:41Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "slow",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": true,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/allenai/molmo",
+      "https://huggingface.co/allenai/Molmo-7B-D-0924"
+    ]
+  },
+  {
+    "id": "facebookresearch-chameleon",
+    "name": "chameleon",
+    "owner": "facebookresearch",
+    "repo": "chameleon",
+    "githubUrl": "https://github.com/facebookresearch/chameleon",
+    "homepage": "https://arxiv.org/abs/2405.09818",
+    "description": "Repository for Meta Chameleon, a mixed-modal early-fusion foundation model from FAIR.",
+    "editorialSummary": "Meta FAIR’s early-fusion token-based mixed-modal model that treats images and text in a shared discrete space. Research release; repository is archived.",
+    "whyCare": "Important architecture reference for early-fusion multimodal transformers beyond encoder-LLM adapters.",
+    "primaryCategory": "multimodal",
+    "secondaryCategories": [
+      "research"
+    ],
+    "tags": [
+      "chameleon",
+      "meta",
+      "early-fusion",
+      "mixed-modal",
+      "fair"
+    ],
+    "language": "Python",
+    "license": null,
+    "stars": 2104,
+    "forks": 118,
+    "latestCommitAt": "2024-07-29T22:36:44Z",
+    "latestRelease": null,
+    "archived": true,
+    "maintenance": "archived",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "fair",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/facebookresearch/chameleon",
+      "https://arxiv.org/abs/2405.09818"
+    ],
+    "notes": "Custom Chameleon Research License (GitHub SPDX NOASSERTION). Repo archived."
+  },
+  {
+    "id": "openai-clip",
+    "name": "CLIP",
+    "owner": "openai",
+    "repo": "CLIP",
+    "githubUrl": "https://github.com/openai/CLIP",
+    "homepage": null,
+    "description": "CLIP (Contrastive Language-Image Pretraining),  Predict the most relevant text snippet given an image",
+    "editorialSummary": "OpenAI’s original contrastive language-image pretraining code and ViT/ResNet checkpoints. Foundation of modern zero-shot vision, retrieval, and many VLM vision towers.",
+    "whyCare": "Still the baseline embedding/zero-shot API everyone compares against; required literacy for multimodal work.",
+    "primaryCategory": "multimodal",
+    "secondaryCategories": [
+      "research",
+      "image-ai"
+    ],
+    "tags": [
+      "clip",
+      "contrastive",
+      "zero-shot",
+      "embeddings",
+      "openai"
+    ],
+    "language": "Jupyter Notebook",
+    "license": "MIT",
+    "stars": 34160,
+    "forks": 4039,
+    "latestCommitAt": "2026-03-25T18:46:40Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "moderate",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers",
+      "students",
+      "hobbyists"
+    ],
+    "difficulty": "beginner",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/openai/CLIP",
+      "https://arxiv.org/abs/2103.00020"
+    ]
+  },
+  {
+    "id": "mlfoundations-open-clip",
+    "name": "open_clip",
+    "owner": "mlfoundations",
+    "repo": "open_clip",
+    "githubUrl": "https://github.com/mlfoundations/open_clip",
+    "homepage": null,
+    "description": "An open source implementation of CLIP.",
+    "editorialSummary": "Community CLIP implementation with many pretrained backbones (LAION, DataComp, SigLIP-style training), scalable training scripts, and active releases—preferred over openai/CLIP for new embedding work.",
+    "whyCare": "De-facto open CLIP training/inference library with far more checkpoints and training options than the original OpenAI repo.",
+    "primaryCategory": "multimodal",
+    "secondaryCategories": [
+      "training",
+      "image-ai"
+    ],
+    "tags": [
+      "open-clip",
+      "clip",
+      "laion",
+      "contrastive",
+      "embeddings"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 14059,
+    "forks": 1301,
+    "latestCommitAt": "2026-08-10T21:11:36Z",
+    "latestRelease": "v3.3.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": false,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/mlfoundations/open_clip",
+      "https://github.com/mlfoundations/open_clip/blob/main/LICENSE"
+    ],
+    "notes": "GitHub license API reports NOASSERTION; LICENSE file is MIT."
+  },
+  {
+    "id": "openbmb-minicpm-v",
+    "name": "MiniCPM-V",
+    "owner": "OpenBMB",
+    "repo": "MiniCPM-V",
+    "githubUrl": "https://github.com/OpenBMB/MiniCPM-V",
+    "homepage": null,
+    "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
+    "editorialSummary": "OpenBMB’s efficient multimodal LLM series (MiniCPM-V / MiniCPM-o) aimed at strong image and video understanding on edge devices and phones, with frequent model drops.",
+    "whyCare": "Top pick when you need capable open multimodal models that actually fit consumer GPUs or mobile deployment budgets.",
+    "primaryCategory": "multimodal",
+    "secondaryCategories": [
+      "local-ai",
+      "llm-inference"
+    ],
+    "tags": [
+      "minicpm-v",
+      "minicpm-o",
+      "edge",
+      "efficient-mllm",
+      "video"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 26158,
+    "forks": 2044,
+    "latestCommitAt": "2026-08-12T14:16:57Z",
+    "latestRelease": "20250527",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "enterprises",
+      "researchers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/OpenBMB/MiniCPM-V"
+    ]
+  },
+  {
+    "id": "deepseek-ai-deepseek-vl2",
+    "name": "DeepSeek-VL2",
+    "owner": "deepseek-ai",
+    "repo": "DeepSeek-VL2",
+    "githubUrl": "https://github.com/deepseek-ai/DeepSeek-VL2",
+    "homepage": null,
+    "description": "DeepSeek-VL2: Mixture-of-Experts Vision-Language Models for Advanced Multimodal Understanding",
+    "editorialSummary": "DeepSeek’s MoE vision-language models for advanced multimodal understanding, succeeding DeepSeek-VL with stronger OCR/document and general visual reasoning.",
+    "whyCare": "Strong open MoE VLM option from DeepSeek with practical inference code for multimodal agents and document QA.",
+    "primaryCategory": "multimodal",
+    "secondaryCategories": [
+      "llm-inference",
+      "research"
+    ],
+    "tags": [
+      "deepseek-vl",
+      "moe",
+      "vision-language",
+      "ocr"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 5355,
+    "forks": 1812,
+    "latestCommitAt": "2025-02-26T05:03:42Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "moderate",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/deepseek-ai/DeepSeek-VL2",
+      "https://github.com/deepseek-ai/DeepSeek-VL"
+    ]
+  },
+  {
+    "id": "idea-research-grounded-sam-2",
+    "name": "Grounded-SAM-2",
+    "owner": "IDEA-Research",
+    "repo": "Grounded-SAM-2",
+    "githubUrl": "https://github.com/IDEA-Research/Grounded-SAM-2",
+    "homepage": "https://arxiv.org/abs/2401.14159",
+    "description": "Grounded SAM 2: Ground and Track Anything in Videos with Grounding DINO, Florence-2 and SAM 2",
+    "editorialSummary": "IDEA-Research pipeline that grounds and tracks anything in images/video by combining Grounding DINO, Microsoft Florence-2, and SAM 2. Practical open entry point for Florence-2-style open-vocabulary perception.",
+    "whyCare": "Best high-star OSS project that ships Florence-2 in a real multimodal detection/segmentation workflow (Florence-2 weights themselves are primarily on Hugging Face).",
+    "primaryCategory": "multimodal",
+    "secondaryCategories": [
+      "image-ai",
+      "video-ai"
+    ],
+    "tags": [
+      "florence-2",
+      "grounding-dino",
+      "sam-2",
+      "open-vocabulary",
+      "segmentation"
+    ],
+    "language": "Jupyter Notebook",
+    "license": "Apache-2.0",
+    "stars": 3688,
+    "forks": 428,
+    "latestCommitAt": "2025-11-11T12:16:57Z",
+    "latestRelease": "v1.0",
+    "archived": false,
+    "maintenance": "moderate",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/IDEA-Research/Grounded-SAM-2",
+      "https://huggingface.co/microsoft/Florence-2-large",
+      "https://arxiv.org/abs/2311.06242"
+    ],
+    "notes": "Florence-2 has no large standalone Microsoft model-code repo; weights/docs are on Hugging Face. This repo is the primary curated Florence-2-related OSS integration."
+  }
+]

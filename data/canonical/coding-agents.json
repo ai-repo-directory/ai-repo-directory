@@ -1,0 +1,878 @@
+[
+  {
+    "id": "aaif-goose-goose",
+    "name": "Goose",
+    "owner": "aaif-goose",
+    "repo": "goose",
+    "githubUrl": "https://github.com/aaif-goose/goose",
+    "homepage": "https://goose-docs.ai/",
+    "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+    "editorialSummary": "Extensible local AI agent (originated at Block) that installs tools, edits code, runs commands, and tests changes with any LLM. Rust-based core with strong MCP/ACP integration for developer workflows beyond autocomplete.",
+    "whyCare": "Production-minded open agent from a major eng org lineage; excellent if you want an installable, tool-extensible coding agent rather than only an IDE chat panel.",
+    "primaryCategory": "coding-agents",
+    "secondaryCategories": [
+      "ai-agents",
+      "mcp-tools"
+    ],
+    "tags": [
+      "rust",
+      "mcp",
+      "acp",
+      "local-agent",
+      "extensible",
+      "block"
+    ],
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "stars": 52721,
+    "forks": 5992,
+    "latestCommitAt": "2026-08-12T17:23:42Z",
+    "latestRelease": "v1.46.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/aaif-goose/goose",
+      "https://goose-docs.ai/"
+    ],
+    "notes": "Previously block/goose; GitHub redirects to aaif-goose/goose."
+  },
+  {
+    "id": "abanteai-archive-old-cli-mentat",
+    "name": "Mentat",
+    "owner": "AbanteAI",
+    "repo": "archive-old-cli-mentat",
+    "githubUrl": "https://github.com/AbanteAI/archive-old-cli-mentat",
+    "homepage": "https://mentat.ai",
+    "description": null,
+    "editorialSummary": "Archived CLI for Mentat, an early AI pair-programming agent focused on coordinated multi-file edits from the terminal. Kept here for historical coverage of the 2023–2024 coding-agent wave.",
+    "whyCare": "Notable early terminal coding agent emphasizing coordinated edits; useful historical comparison to Aider-style workflows.",
+    "primaryCategory": "coding-agents",
+    "secondaryCategories": [],
+    "tags": [
+      "cli",
+      "pair-programming",
+      "historical",
+      "archived",
+      "multi-file-edit"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 2546,
+    "forks": 234,
+    "latestCommitAt": "2025-01-07T22:52:59Z",
+    "latestRelease": "v1.0.18",
+    "archived": true,
+    "maintenance": "archived",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "fair",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/AbanteAI/archive-old-cli-mentat",
+      "https://mentat.ai"
+    ],
+    "notes": "Original AbanteAI/mentat is gone; archive-old-cli-mentat is the remaining public CLI snapshot."
+  },
+  {
+    "id": "aider-ai-aider",
+    "name": "Aider",
+    "owner": "Aider-AI",
+    "repo": "aider",
+    "githubUrl": "https://github.com/Aider-AI/aider",
+    "homepage": "https://aider.chat/",
+    "description": "aider is AI pair programming in your terminal",
+    "editorialSummary": "Terminal-native AI pair programmer that edits a real git repo with you: maps the codebase, proposes multi-file diffs, and commits when you approve. Model-agnostic (OpenAI, Anthropic, Gemini, local models) and widely used as a lightweight alternative to IDE-bound agents.",
+    "whyCare": "Battle-tested CLI workflow for repo-aware edits without leaving the terminal; excellent for git-centric teams who want transparent, reviewable AI changes.",
+    "primaryCategory": "coding-agents",
+    "secondaryCategories": [
+      "local-ai",
+      "ai-agents"
+    ],
+    "tags": [
+      "cli",
+      "pair-programming",
+      "git",
+      "multi-file-edit",
+      "terminal",
+      "byok"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 48147,
+    "forks": 4834,
+    "latestCommitAt": "2026-05-22T14:02:20Z",
+    "latestRelease": "v0.86.0",
+    "archived": false,
+    "maintenance": "moderate",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists"
+    ],
+    "difficulty": "beginner",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/Aider-AI/aider",
+      "https://aider.chat/"
+    ]
+  },
+  {
+    "id": "anomalyco-opencode",
+    "name": "OpenCode",
+    "owner": "anomalyco",
+    "repo": "opencode",
+    "githubUrl": "https://github.com/anomalyco/opencode",
+    "homepage": "https://opencode.ai",
+    "description": "The open source coding agent.",
+    "editorialSummary": "Rapidly adopted open-source coding agent focused on a polished terminal/product experience for agentic software work. Positions itself as a full OSS coding-agent product rather than a research harness.",
+    "whyCare": "Among the highest-visibility open coding agents by adoption; useful reference for modern TUI/CLI agent UX and ecosystem integrations.",
+    "primaryCategory": "coding-agents",
+    "secondaryCategories": [
+      "ai-agents"
+    ],
+    "tags": [
+      "cli",
+      "tui",
+      "coding-agent",
+      "terminal"
+    ],
+    "language": "TypeScript",
+    "license": "MIT",
+    "stars": 196501,
+    "forks": 25253,
+    "latestCommitAt": "2026-08-12T17:23:17Z",
+    "latestRelease": "v1.18.16",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists"
+    ],
+    "difficulty": "beginner",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": true,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/anomalyco/opencode",
+      "https://opencode.ai"
+    ]
+  },
+  {
+    "id": "antonosika-gpt-engineer",
+    "name": "GPT Engineer",
+    "owner": "AntonOsika",
+    "repo": "gpt-engineer",
+    "githubUrl": "https://github.com/AntonOsika/gpt-engineer",
+    "homepage": null,
+    "description": "CLI platform to experiment with codegen. Precursor to: https://lovable.dev",
+    "editorialSummary": "Early viral CLI that generated whole codebases from prompts; archived and noted as a precursor to Lovable. Landmark project in the 2023–2024 codegen-agent wave.",
+    "whyCare": "Historically significant blueprint for prompt→repo generation agents; still useful for understanding how today’s app builders evolved.",
+    "primaryCategory": "coding-agents",
+    "secondaryCategories": [
+      "ai-agents"
+    ],
+    "tags": [
+      "codegen",
+      "cli",
+      "historical",
+      "codebase-generation",
+      "archived"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 55149,
+    "forks": 7302,
+    "latestCommitAt": "2025-05-14T10:15:10Z",
+    "latestRelease": "v0.3.1",
+    "archived": true,
+    "maintenance": "archived",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "hobbyists",
+      "engineers",
+      "students"
+    ],
+    "difficulty": "beginner",
+    "documentationQuality": "fair",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/AntonOsika/gpt-engineer"
+    ]
+  },
+  {
+    "id": "cline-cline",
+    "name": "Cline",
+    "owner": "cline",
+    "repo": "cline",
+    "githubUrl": "https://github.com/cline/cline",
+    "homepage": "https://cline.bot",
+    "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
+    "editorialSummary": "Autonomous coding agent available as a VS Code extension, CLI, and SDK. Plans and executes multi-step coding tasks with tool use, file edits, and terminal commands—often cited as a leading open Cursor-class agent.",
+    "whyCare": "One of the fastest-growing OSS IDE coding agents; flexible surfaces (extension/CLI/SDK) and a large ecosystem of forks and adjacent tools (e.g. Roo lineage).",
+    "primaryCategory": "coding-agents",
+    "secondaryCategories": [
+      "ai-agents",
+      "mcp-tools"
+    ],
+    "tags": [
+      "vscode",
+      "autonomous-agent",
+      "cli",
+      "sdk",
+      "cursor-alternative"
+    ],
+    "language": "TypeScript",
+    "license": "Apache-2.0",
+    "stars": 66053,
+    "forks": 7094,
+    "latestCommitAt": "2026-08-12T17:23:44Z",
+    "latestRelease": "cli-v3.0.53",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "enterprises"
+    ],
+    "difficulty": "beginner",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/cline/cline",
+      "https://cline.bot"
+    ],
+    "notes": "Evolved from the Claude Dev / claude-dev VS Code extension lineage."
+  },
+  {
+    "id": "continuedev-continue",
+    "name": "Continue",
+    "owner": "continuedev",
+    "repo": "continue",
+    "githubUrl": "https://github.com/continuedev/continue",
+    "homepage": "https://continue.dev",
+    "description": "open-source coding agent",
+    "editorialSummary": "Open-source coding agent and IDE extension that brings chat, autocomplete, and agentic edits into VS Code and JetBrains with your choice of model providers. Strong emphasis on customizable rules, context providers, and local or cloud LLMs.",
+    "whyCare": "One of the most mature OSS Cursor/Copilot-style IDE experiences; easy path to BYOK or fully local coding assistance inside the editors developers already use.",
+    "primaryCategory": "coding-agents",
+    "secondaryCategories": [
+      "local-ai",
+      "mcp-tools"
+    ],
+    "tags": [
+      "vscode",
+      "jetbrains",
+      "ide-extension",
+      "autocomplete",
+      "agent",
+      "byok"
+    ],
+    "language": "TypeScript",
+    "license": "Apache-2.0",
+    "stars": 35457,
+    "forks": 5218,
+    "latestCommitAt": "2026-08-12T08:40:25Z",
+    "latestRelease": "v2.0.0-vscode",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises",
+      "hobbyists"
+    ],
+    "difficulty": "beginner",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/continuedev/continue",
+      "https://continue.dev"
+    ]
+  },
+  {
+    "id": "google-gemini-gemini-cli",
+    "name": "Gemini CLI",
+    "owner": "google-gemini",
+    "repo": "gemini-cli",
+    "githubUrl": "https://github.com/google-gemini/gemini-cli",
+    "homepage": "https://geminicli.com",
+    "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+    "editorialSummary": "Google’s open-source terminal agent for Gemini: MCP-aware CLI for coding and general developer tasks with first-party model integration. Complements IDE agents with a vendor CLI similar to Codex/Claude Code style workflows.",
+    "whyCare": "Major-vendor OSS coding/terminal agent with MCP client/server support; important for Gemini-centric and Google Cloud-adjacent developer workflows.",
+    "primaryCategory": "coding-agents",
+    "secondaryCategories": [
+      "ai-agents",
+      "mcp-tools"
+    ],
+    "tags": [
+      "cli",
+      "gemini",
+      "mcp",
+      "google",
+      "terminal",
+      "coding-agent"
+    ],
+    "language": "TypeScript",
+    "license": "Apache-2.0",
+    "stars": 106487,
+    "forks": 14423,
+    "latestCommitAt": "2026-08-12T16:34:43Z",
+    "latestRelease": "v0.55.1",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": false,
+    "audience": [
+      "engineers",
+      "enterprises",
+      "hobbyists"
+    ],
+    "difficulty": "beginner",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/google-gemini/gemini-cli",
+      "https://geminicli.com"
+    ]
+  },
+  {
+    "id": "openai-codex",
+    "name": "Codex CLI",
+    "owner": "openai",
+    "repo": "codex",
+    "githubUrl": "https://github.com/openai/codex",
+    "homepage": null,
+    "description": "Lightweight coding agent that runs in your terminal",
+    "editorialSummary": "OpenAI’s open-source terminal coding agent: a lightweight Rust-based CLI that can read, edit, and run commands in a project to complete coding tasks. Important reference implementation for vendor-backed OSS coding agents.",
+    "whyCare": "Official OpenAI coding-agent CLI with massive adoption; useful both as a daily tool and as a baseline for comparing open agent harnesses.",
+    "primaryCategory": "coding-agents",
+    "secondaryCategories": [
+      "ai-agents"
+    ],
+    "tags": [
+      "cli",
+      "openai",
+      "rust",
+      "terminal",
+      "coding-agent"
+    ],
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "stars": 105539,
+    "forks": 16000,
+    "latestCommitAt": "2026-08-12T16:52:43Z",
+    "latestRelease": "rust-v0.147.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": false,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "enterprises"
+    ],
+    "difficulty": "beginner",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/openai/codex"
+    ]
+  },
+  {
+    "id": "openhands-openhands",
+    "name": "OpenHands",
+    "owner": "OpenHands",
+    "repo": "OpenHands",
+    "githubUrl": "https://github.com/OpenHands/OpenHands",
+    "homepage": "https://openhands.dev",
+    "description": "🙌 OpenHands: AI-Driven Development",
+    "editorialSummary": "Formerly OpenDevin: an open platform for AI-driven software development where agents can write code, run commands, browse, and collaborate on real tasks. Supports CLI and UI workflows and is a leading research-to-product coding-agent stack.",
+    "whyCare": "Highest-signal open autonomous coding agent platform after the OpenDevin rebrand; strong community, frequent releases, and a clear path from evals to day-to-day agentic development.",
+    "primaryCategory": "coding-agents",
+    "secondaryCategories": [
+      "ai-agents",
+      "evaluation"
+    ],
+    "tags": [
+      "autonomous-agent",
+      "opendevin",
+      "sandbox",
+      "cli",
+      "web-ui",
+      "software-engineering"
+    ],
+    "language": "TypeScript",
+    "license": "MIT",
+    "stars": 83808,
+    "forks": 10845,
+    "latestCommitAt": "2026-08-12T16:33:59Z",
+    "latestRelease": "v1.12.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers",
+      "enterprises"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/OpenHands/OpenHands",
+      "https://openhands.dev"
+    ],
+    "notes": "Renamed from OpenDevin; GitHub redirects All-Hands-AI/OpenHands → OpenHands/OpenHands."
+  },
+  {
+    "id": "openinterpreter-openinterpreter",
+    "name": "Open Interpreter",
+    "owner": "openinterpreter",
+    "repo": "openinterpreter",
+    "githubUrl": "https://github.com/openinterpreter/openinterpreter",
+    "homepage": "http://openinterpreter.com/",
+    "description": "A coding agent for open models like Kimi K3",
+    "editorialSummary": "Coding agent oriented toward open models, evolved from the widely known Open Interpreter project that let LLMs run code locally. Current Rust-oriented stack targets open-weight models as first-class citizens.",
+    "whyCare": "Historically popular local-code-execution coding agent; still a major brand for developers who want agents that run tools/code against open models.",
+    "primaryCategory": "coding-agents",
+    "secondaryCategories": [
+      "local-ai",
+      "ai-agents"
+    ],
+    "tags": [
+      "local",
+      "open-models",
+      "code-execution",
+      "cli",
+      "rust"
+    ],
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "stars": 67979,
+    "forks": 5850,
+    "latestCommitAt": "2026-08-08T19:04:44Z",
+    "latestRelease": "rust-v0.0.34",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "researchers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/openinterpreter/openinterpreter",
+      "http://openinterpreter.com/"
+    ],
+    "notes": "Canonical GitHub path is openinterpreter/openinterpreter (open-interpreter redirects)."
+  },
+  {
+    "id": "qwenlm-qwen-code",
+    "name": "Qwen Code",
+    "owner": "QwenLM",
+    "repo": "qwen-code",
+    "githubUrl": "https://github.com/QwenLM/qwen-code",
+    "homepage": "https://qwenlm.github.io/qwen-code-docs/en/users/overview",
+    "description": "An open-source AI coding agent that lives in your terminal.",
+    "editorialSummary": "Alibaba Qwen team’s open terminal coding agent with MCP support and agentic developer workflows. Strong fit for Qwen model users who want a first-party CLI agent experience.",
+    "whyCare": "Major open-weight model lab shipping a dedicated coding agent CLI—useful for Qwen-centric stacks and as a Claude Code / Codex-style alternative.",
+    "primaryCategory": "coding-agents",
+    "secondaryCategories": [
+      "ai-agents",
+      "mcp-tools"
+    ],
+    "tags": [
+      "cli",
+      "qwen",
+      "mcp",
+      "terminal",
+      "coding-agent"
+    ],
+    "language": "TypeScript",
+    "license": "Apache-2.0",
+    "stars": 26944,
+    "forks": 2847,
+    "latestCommitAt": "2026-08-12T17:19:41Z",
+    "latestRelease": "v0.21.10",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists"
+    ],
+    "difficulty": "beginner",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": true,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/QwenLM/qwen-code",
+      "https://qwenlm.github.io/qwen-code-docs/en/users/overview"
+    ]
+  },
+  {
+    "id": "roocodeinc-roo-code",
+    "name": "Roo Code",
+    "owner": "RooCodeInc",
+    "repo": "Roo-Code",
+    "githubUrl": "https://github.com/RooCodeInc/Roo-Code",
+    "homepage": "https://roocode.com",
+    "description": "Roo Code gives you a whole dev team of AI agents in your code editor.",
+    "editorialSummary": "Popular Cline-descended VS Code coding agent emphasizing multi-mode/agent-team workflows inside the editor. Repository is archived as of verification, but remains a major reference in the OSS Cursor-alternative lineage.",
+    "whyCare": "High-signal fork/evolution of the Cline-style agent UX; historically important for comparing multi-agent IDE coding tools even if the main repo is archived.",
+    "primaryCategory": "coding-agents",
+    "secondaryCategories": [
+      "ai-agents"
+    ],
+    "tags": [
+      "vscode",
+      "multi-agent",
+      "cline-fork",
+      "cursor-alternative",
+      "archived"
+    ],
+    "language": "TypeScript",
+    "license": "Apache-2.0",
+    "stars": 24350,
+    "forks": 3417,
+    "latestCommitAt": "2026-05-15T18:08:47Z",
+    "latestRelease": "v3.54.0",
+    "archived": true,
+    "maintenance": "archived",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists"
+    ],
+    "difficulty": "beginner",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/RooCodeInc/Roo-Code",
+      "https://roocode.com"
+    ],
+    "notes": "GitHub marks repository archived; product site may still be active—verify status before recommending for new installs."
+  },
+  {
+    "id": "smol-ai-developer",
+    "name": "Smol Developer",
+    "owner": "smol-ai",
+    "repo": "developer",
+    "githubUrl": "https://github.com/smol-ai/developer",
+    "homepage": "https://twitter.com/SmolModels",
+    "description": "the first library to let you embed a developer agent in your own app!",
+    "editorialSummary": "Early ‘smol’ developer-agent experiment for embedding a coding agent into apps and generating projects from prompts. Less maintained now, but culturally important in the open coding-agent timeline.",
+    "whyCare": "Historically significant lightweight agent pattern that influenced later codegen and agent-embedding approaches.",
+    "primaryCategory": "coding-agents",
+    "secondaryCategories": [
+      "ai-agents",
+      "research"
+    ],
+    "tags": [
+      "historical",
+      "codegen",
+      "embeddable-agent",
+      "smol"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 12185,
+    "forks": 1073,
+    "latestCommitAt": "2024-04-07T07:11:03Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "stale",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "hobbyists",
+      "students",
+      "researchers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "fair",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/smol-ai/developer"
+    ]
+  },
+  {
+    "id": "sourcegraph-cody-public-snapshot",
+    "name": "Sourcegraph Cody (public snapshot)",
+    "owner": "sourcegraph",
+    "repo": "cody-public-snapshot",
+    "githubUrl": "https://github.com/sourcegraph/cody-public-snapshot",
+    "homepage": "https://cody.dev",
+    "description": "Type less, code more: Cody is an AI code assistant that uses advanced search and codebase context to help you write and fix code.",
+    "editorialSummary": "Public snapshot of Sourcegraph Cody, the context-heavy AI coding assistant that leveraged code search for IDE chat and edits. Archived after Sourcegraph’s product shift; still the best OSS reference for Cody’s architecture.",
+    "whyCare": "Historically important OSS coding assistant showing search-augmented IDE AI; useful when studying codebase-context retrieval for coding agents.",
+    "primaryCategory": "coding-agents",
+    "secondaryCategories": [
+      "rag"
+    ],
+    "tags": [
+      "cody",
+      "sourcegraph",
+      "vscode",
+      "code-search",
+      "historical",
+      "archived"
+    ],
+    "language": "TypeScript",
+    "license": "Apache-2.0",
+    "stars": 3806,
+    "forks": 486,
+    "latestCommitAt": "2025-08-01T14:31:09Z",
+    "latestRelease": "vscode-v1.116.0",
+    "archived": true,
+    "maintenance": "archived",
+    "selfHostable": true,
+    "localOfflineCapable": false,
+    "audience": [
+      "engineers",
+      "enterprises",
+      "researchers"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "fair",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/sourcegraph/cody-public-snapshot",
+      "https://cody.dev"
+    ],
+    "notes": "Live sourcegraph/cody repo is not public; this snapshot is the available OSS artifact. Cody product direction later moved toward Amp."
+  },
+  {
+    "id": "swe-agent-swe-agent",
+    "name": "SWE-agent",
+    "owner": "SWE-agent",
+    "repo": "SWE-agent",
+    "githubUrl": "https://github.com/SWE-agent/SWE-agent",
+    "homepage": "https://swe-agent.com",
+    "description": "SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024]",
+    "editorialSummary": "Research-rooted agent that turns GitHub issues into attempted fixes via an LM agent loop. Influential NeurIPS 2024 system and a standard baseline for software-engineering agent benchmarks (SWE-bench family).",
+    "whyCare": "Canonical open implementation for issue→PR style coding agents; essential for researchers and for teams evaluating autonomous fix workflows.",
+    "primaryCategory": "coding-agents",
+    "secondaryCategories": [
+      "evaluation",
+      "research",
+      "ai-agents"
+    ],
+    "tags": [
+      "swe-bench",
+      "github-issues",
+      "autonomous-agent",
+      "neurips",
+      "research"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 20050,
+    "forks": 2191,
+    "latestCommitAt": "2026-08-10T22:08:15Z",
+    "latestRelease": "v1.1.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/SWE-agent/SWE-agent",
+      "https://swe-agent.com"
+    ],
+    "notes": "princeton-nlp/SWE-agent redirects to SWE-agent/SWE-agent."
+  },
+  {
+    "id": "tabbyml-tabby",
+    "name": "Tabby",
+    "owner": "TabbyML",
+    "repo": "tabby",
+    "githubUrl": "https://github.com/TabbyML/tabby",
+    "homepage": "https://tabbyml.com",
+    "description": "Self-hosted AI coding assistant",
+    "editorialSummary": "Self-hosted AI coding assistant focused on privacy-friendly autocomplete and chat that you run on your own infrastructure. Rust core with IDE integrations; Apache-licensed OSS with optional enterprise edition paths.",
+    "whyCare": "Best-known open Copilot-style self-hosted coding assistant when data residency and offline/on-prem inference matter.",
+    "primaryCategory": "coding-agents",
+    "secondaryCategories": [
+      "local-ai",
+      "infrastructure"
+    ],
+    "tags": [
+      "self-hosted",
+      "autocomplete",
+      "coding-assistant",
+      "privacy",
+      "ide"
+    ],
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "stars": 33820,
+    "forks": 1777,
+    "latestCommitAt": "2026-06-30T20:38:02Z",
+    "latestRelease": "v0.32.0",
+    "archived": false,
+    "maintenance": "moderate",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "enterprises",
+      "engineers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/TabbyML/tabby",
+      "https://tabbyml.com"
+    ],
+    "notes": "GitHub SPDX shows NOASSERTION due to Apache-2.0 + ee/ split; core outside ee/ is Apache-2.0."
+  },
+  {
+    "id": "voideditor-void",
+    "name": "Void",
+    "owner": "voideditor",
+    "repo": "void",
+    "githubUrl": "https://github.com/voideditor/void",
+    "homepage": "https://voideditor.com",
+    "description": null,
+    "editorialSummary": "Open-source AI code editor positioned as a Cursor alternative, built on the VS Code lineage with BYOK model support. Archived on GitHub at verification time but remains a landmark OSS attempt at a full AI IDE.",
+    "whyCare": "One of the best-known open Cursor-class editors; valuable historically and as a fork base even if the primary repo is archived.",
+    "primaryCategory": "coding-agents",
+    "secondaryCategories": [
+      "local-ai"
+    ],
+    "tags": [
+      "cursor-alternative",
+      "vscode-fork",
+      "ai-ide",
+      "byok",
+      "archived"
+    ],
+    "language": "TypeScript",
+    "license": "Apache-2.0",
+    "stars": 28853,
+    "forks": 2624,
+    "latestCommitAt": "2026-06-02T22:03:55Z",
+    "latestRelease": "v1.3.4",
+    "archived": true,
+    "maintenance": "archived",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "fair",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/voideditor/void",
+      "https://voideditor.com"
+    ],
+    "notes": "latestRelease taken from git tags (v1.3.4); GitHub Releases API returned no latest release."
+  }
+]

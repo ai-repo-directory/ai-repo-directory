@@ -1,0 +1,30 @@
+{
+  "id": "systran-faster-whisper",
+  "fetchedAt": "2026-08-12T17:39:21.610Z",
+  "stars": 24876,
+  "forks": 2019,
+  "watchers": 171,
+  "openIssues": 314,
+  "language": "Python",
+  "license": "MIT",
+  "description": "Faster Whisper transcription with CTranslate2",
+  "homepage": null,
+  "topics": [
+    "deep-learning",
+    "inference",
+    "openai",
+    "quantization",
+    "speech-recognition",
+    "speech-to-text",
+    "transformer",
+    "whisper"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2025-11-19T14:40:46Z",
+  "updatedAt": "2026-08-12T16:49:24Z",
+  "createdAt": "2023-02-11T09:17:27Z",
+  "latestRelease": "v1.2.1",
+  "latestReleaseAt": "2025-10-31T11:34:00Z",
+  "defaultBranch": "master"
+}

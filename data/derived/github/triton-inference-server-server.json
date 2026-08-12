@@ -1,0 +1,29 @@
+{
+  "id": "triton-inference-server-server",
+  "fetchedAt": "2026-08-12T17:39:39.247Z",
+  "stars": 10916,
+  "forks": 1823,
+  "watchers": 144,
+  "openIssues": 910,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "description": "The Triton Inference Server provides an optimized cloud and edge inferencing solution. ",
+  "homepage": "https://docs.nvidia.com/deeplearning/triton-inference-server/user-guide/docs/index.html",
+  "topics": [
+    "cloud",
+    "datacenter",
+    "deep-learning",
+    "edge",
+    "gpu",
+    "inference",
+    "machine-learning"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-08-12T01:15:02Z",
+  "updatedAt": "2026-08-12T08:00:21Z",
+  "createdAt": "2018-10-04T21:10:30Z",
+  "latestRelease": "v2.71.0",
+  "latestReleaseAt": "2026-07-29T16:09:26Z",
+  "defaultBranch": "main"
+}

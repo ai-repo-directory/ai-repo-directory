@@ -1,0 +1,26 @@
+{
+  "id": "openbmb-minicpm-v",
+  "fetchedAt": "2026-08-12T17:39:51.717Z",
+  "stars": 26158,
+  "forks": 2044,
+  "watchers": 165,
+  "openIssues": 58,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
+  "homepage": null,
+  "topics": [
+    "minicpm",
+    "minicpm-o",
+    "minicpm-v",
+    "multi-modal"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-08-12T14:16:57Z",
+  "updatedAt": "2026-08-12T16:42:39Z",
+  "createdAt": "2024-01-29T05:30:33Z",
+  "latestRelease": "20250527",
+  "latestReleaseAt": "2025-05-27T09:55:51Z",
+  "defaultBranch": "main"
+}

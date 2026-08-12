@@ -1,0 +1,21 @@
+{
+  "id": "tencent-ailab-ip-adapter",
+  "fetchedAt": "2026-08-12T17:39:35.766Z",
+  "stars": 6663,
+  "forks": 426,
+  "watchers": 58,
+  "openIssues": 299,
+  "language": "Jupyter Notebook",
+  "license": "Apache-2.0",
+  "description": "The image prompt adapter is designed to enable a pretrained text-to-image diffusion model to generate images with image prompt. ",
+  "homepage": null,
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2024-06-28T02:47:03Z",
+  "updatedAt": "2026-08-12T09:19:40Z",
+  "createdAt": "2023-08-16T03:35:16Z",
+  "latestRelease": null,
+  "latestReleaseAt": null,
+  "defaultBranch": "main"
+}

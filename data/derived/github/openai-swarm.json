@@ -1,0 +1,21 @@
+{
+  "id": "openai-swarm",
+  "fetchedAt": "2026-08-12T17:36:00.498Z",
+  "stars": 21896,
+  "forks": 2329,
+  "watchers": 298,
+  "openIssues": 36,
+  "language": "Python",
+  "license": "MIT",
+  "description": "Educational framework exploring ergonomic, lightweight multi-agent orchestration. Managed by OpenAI Solution team.",
+  "homepage": null,
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-04-15T17:10:28Z",
+  "updatedAt": "2026-08-12T12:03:13Z",
+  "createdAt": "2024-02-22T20:53:54Z",
+  "latestRelease": null,
+  "latestReleaseAt": null,
+  "defaultBranch": "main"
+}

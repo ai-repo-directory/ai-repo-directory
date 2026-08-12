@@ -1,0 +1,821 @@
+[
+  {
+    "id": "automatic1111-stable-diffusion-webui",
+    "name": "Stable Diffusion web UI",
+    "owner": "AUTOMATIC1111",
+    "repo": "stable-diffusion-webui",
+    "githubUrl": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+    "homepage": null,
+    "description": "Stable Diffusion web UI",
+    "editorialSummary": "The Gradio-based WebUI that defined consumer Stable Diffusion workflows: txt2img, img2img, inpainting, extensions, and a huge ecosystem of community scripts. Still the most recognizable entry point for local image generation.",
+    "whyCare": "Largest historical install base and extension catalog; essential reference for how people actually run diffusion models locally.",
+    "primaryCategory": "image-ai",
+    "secondaryCategories": [
+      "local-ai"
+    ],
+    "tags": [
+      "stable-diffusion",
+      "webui",
+      "gradio",
+      "txt2img",
+      "img2img",
+      "extensions"
+    ],
+    "language": "Python",
+    "license": "AGPL-3.0",
+    "stars": 164497,
+    "forks": 30567,
+    "latestCommitAt": "2026-03-02T07:00:53Z",
+    "latestRelease": "v1.10.1",
+    "archived": false,
+    "maintenance": "moderate",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "hobbyists",
+      "engineers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "https://github.com/AUTOMATIC1111/stable-diffusion-webui/releases/tag/v1.10.1"
+    ]
+  },
+  {
+    "id": "comfy-org-comfyui",
+    "name": "ComfyUI",
+    "owner": "Comfy-Org",
+    "repo": "ComfyUI",
+    "githubUrl": "https://github.com/Comfy-Org/ComfyUI",
+    "homepage": "https://www.comfy.org/",
+    "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+    "editorialSummary": "Node-graph diffusion frontend/backend for composing complex image (and increasingly video) pipelines. De facto standard for power users, custom nodes, and production-style workflows.",
+    "whyCare": "Best-in-class modularity and model support; workflows are shareable graphs and the custom-node ecosystem moves fastest in open image AI.",
+    "primaryCategory": "image-ai",
+    "secondaryCategories": [
+      "local-ai",
+      "video-ai"
+    ],
+    "tags": [
+      "comfyui",
+      "node-graph",
+      "stable-diffusion",
+      "flux",
+      "workflow",
+      "api"
+    ],
+    "language": "Python",
+    "license": "GPL-3.0",
+    "stars": 127050,
+    "forks": 14967,
+    "latestCommitAt": "2026-08-12T16:07:56Z",
+    "latestRelease": "v0.32.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "enterprises"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/Comfy-Org/ComfyUI",
+      "https://www.comfy.org/",
+      "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.32.0"
+    ]
+  },
+  {
+    "id": "invoke-ai-invokeai",
+    "name": "InvokeAI",
+    "owner": "invoke-ai",
+    "repo": "InvokeAI",
+    "githubUrl": "https://github.com/invoke-ai/InvokeAI",
+    "homepage": "https://invoke-ai.github.io/InvokeAI/",
+    "description": "Invoke is a leading creative engine for Stable Diffusion models, empowering professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry leading WebUI, and serves as the foundation for multiple commercial products.",
+    "editorialSummary": "Polished creative WebUI focused on professional art workflows: canvas, boards, unified canvas editing, and curated model management. Stronger product UX than most research UIs.",
+    "whyCare": "Best open option when you want studio-grade UX and commercial-ready packaging rather than raw research flexibility.",
+    "primaryCategory": "image-ai",
+    "secondaryCategories": [
+      "local-ai"
+    ],
+    "tags": [
+      "invokeai",
+      "webui",
+      "inpainting",
+      "outpainting",
+      "canvas",
+      "stable-diffusion"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 27860,
+    "forks": 2936,
+    "latestCommitAt": "2026-08-09T18:28:32Z",
+    "latestRelease": "v6.13.7",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "hobbyists",
+      "enterprises",
+      "engineers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": false,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/invoke-ai/InvokeAI",
+      "https://invoke-ai.github.io/InvokeAI/",
+      "https://github.com/invoke-ai/InvokeAI/releases/tag/v6.13.7"
+    ]
+  },
+  {
+    "id": "lllyasviel-fooocus",
+    "name": "Fooocus",
+    "owner": "lllyasviel",
+    "repo": "Fooocus",
+    "githubUrl": "https://github.com/lllyasviel/Fooocus",
+    "homepage": null,
+    "description": "Focus on prompting and generating",
+    "editorialSummary": "Opinionated, Midjourney-like local UI that hides sampler/model complexity behind strong defaults. Designed so users mostly write prompts and get good images.",
+    "whyCare": "Lowest-friction path to high-quality local generations without learning ControlNet graphs or dozens of WebUI tabs.",
+    "primaryCategory": "image-ai",
+    "secondaryCategories": [
+      "local-ai"
+    ],
+    "tags": [
+      "fooocus",
+      "webui",
+      "beginner-friendly",
+      "stable-diffusion",
+      "prompting"
+    ],
+    "language": "Python",
+    "license": "GPL-3.0",
+    "stars": 52198,
+    "forks": 8528,
+    "latestCommitAt": "2025-12-01T19:17:07Z",
+    "latestRelease": "v2.5.5",
+    "archived": false,
+    "maintenance": "moderate",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "hobbyists",
+      "students"
+    ],
+    "difficulty": "beginner",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/lllyasviel/Fooocus",
+      "https://github.com/lllyasviel/Fooocus/releases/tag/v2.5.5"
+    ]
+  },
+  {
+    "id": "huggingface-diffusers",
+    "name": "Diffusers",
+    "owner": "huggingface",
+    "repo": "diffusers",
+    "githubUrl": "https://github.com/huggingface/diffusers",
+    "homepage": "https://huggingface.co/docs/diffusers",
+    "description": "🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.",
+    "editorialSummary": "Hugging Face’s canonical library for loading and running diffusion pipelines in code—SD, SDXL, FLUX, ControlNet adapters, and more. The programming interface most papers and products build on.",
+    "whyCare": "If you integrate image generation into apps or research code, Diffusers is the default API surface and model zoo.",
+    "primaryCategory": "image-ai",
+    "secondaryCategories": [
+      "infrastructure",
+      "research",
+      "video-ai"
+    ],
+    "tags": [
+      "diffusers",
+      "huggingface",
+      "pytorch",
+      "pipelines",
+      "flux",
+      "stable-diffusion"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 34292,
+    "forks": 7234,
+    "latestCommitAt": "2026-08-12T16:59:40Z",
+    "latestRelease": "v0.39.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers",
+      "enterprises"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/huggingface/diffusers",
+      "https://huggingface.co/docs/diffusers",
+      "https://github.com/huggingface/diffusers/releases/tag/v0.39.0"
+    ]
+  },
+  {
+    "id": "lllyasviel-controlnet",
+    "name": "ControlNet",
+    "owner": "lllyasviel",
+    "repo": "ControlNet",
+    "githubUrl": "https://github.com/lllyasviel/ControlNet",
+    "homepage": null,
+    "description": "Let us control diffusion models!",
+    "editorialSummary": "Original research and reference implementation for spatial conditioning of diffusion models (edges, depth, pose, segmentation, and more). Spawned the entire controllable-generation ecosystem.",
+    "whyCare": "Foundational technique behind pose/composition control in nearly every modern image WebUI and ComfyUI workflow.",
+    "primaryCategory": "image-ai",
+    "secondaryCategories": [
+      "research"
+    ],
+    "tags": [
+      "controlnet",
+      "conditioning",
+      "pose",
+      "depth",
+      "edges",
+      "stable-diffusion"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 34064,
+    "forks": 3020,
+    "latestCommitAt": "2024-02-25T09:49:39Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "stale",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "fair",
+    "demoAvailable": false,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/lllyasviel/ControlNet"
+    ],
+    "notes": "Reference research repo; day-to-day usage usually via WebUI/ComfyUI integrations rather than this tree."
+  },
+  {
+    "id": "instantx-research-instantid",
+    "name": "InstantID",
+    "owner": "instantX-research",
+    "repo": "InstantID",
+    "githubUrl": "https://github.com/instantX-research/InstantID",
+    "homepage": "https://instantid.github.io/",
+    "description": "InstantID: Zero-shot Identity-Preserving Generation in Seconds 🔥",
+    "editorialSummary": "Zero-shot identity-preserving generation from a face image without per-person fine-tuning. Widely integrated into ComfyUI and WebUI face-consistency workflows.",
+    "whyCare": "Practical face consistency without DreamBooth/LoRA training—critical for character and portrait pipelines.",
+    "primaryCategory": "image-ai",
+    "secondaryCategories": [
+      "research"
+    ],
+    "tags": [
+      "instantid",
+      "identity",
+      "face",
+      "ip-adapter",
+      "zero-shot"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 11985,
+    "forks": 883,
+    "latestCommitAt": "2024-07-18T04:12:48Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "stale",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "researchers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/instantX-research/InstantID",
+      "https://instantid.github.io/"
+    ]
+  },
+  {
+    "id": "tencent-ailab-ip-adapter",
+    "name": "IP-Adapter",
+    "owner": "tencent-ailab",
+    "repo": "IP-Adapter",
+    "githubUrl": "https://github.com/tencent-ailab/IP-Adapter",
+    "homepage": null,
+    "description": "The image prompt adapter is designed to enable a pretrained text-to-image diffusion model to generate images with image prompt.",
+    "editorialSummary": "Image-prompt adapters that inject visual reference into text-to-image models. Basis for style/reference and many InstantID-style stacks.",
+    "whyCare": "Core building block for image-conditioned generation; almost every modern reference-image workflow traces back here.",
+    "primaryCategory": "image-ai",
+    "secondaryCategories": [
+      "research"
+    ],
+    "tags": [
+      "ip-adapter",
+      "image-prompt",
+      "reference",
+      "style-transfer",
+      "stable-diffusion"
+    ],
+    "language": "Jupyter Notebook",
+    "license": "Apache-2.0",
+    "stars": 6663,
+    "forks": 426,
+    "latestCommitAt": "2024-06-28T02:47:03Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "stale",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/tencent-ailab/IP-Adapter"
+    ]
+  },
+  {
+    "id": "idea-research-groundingdino",
+    "name": "Grounding DINO",
+    "owner": "IDEA-Research",
+    "repo": "GroundingDINO",
+    "githubUrl": "https://github.com/IDEA-Research/GroundingDINO",
+    "homepage": "https://arxiv.org/abs/2303.05499",
+    "description": "[ECCV 2024] Official implementation of the paper \"Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection\"",
+    "editorialSummary": "Open-set object detection grounded by text prompts. Paired with SAM it powers text-driven segmentation and region-aware image editing pipelines.",
+    "whyCare": "Key detector for “select this object by language” editing—common glue in ComfyUI and automated inpainting stacks.",
+    "primaryCategory": "image-ai",
+    "secondaryCategories": [
+      "research",
+      "multimodal"
+    ],
+    "tags": [
+      "grounding-dino",
+      "object-detection",
+      "open-set",
+      "segmentation",
+      "editing"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 10500,
+    "forks": 1062,
+    "latestCommitAt": "2024-08-12T08:52:02Z",
+    "latestRelease": "v0.1.0-alpha2",
+    "archived": false,
+    "maintenance": "stale",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/IDEA-Research/GroundingDINO",
+      "https://arxiv.org/abs/2303.05499"
+    ]
+  },
+  {
+    "id": "facebookresearch-segment-anything",
+    "name": "Segment Anything",
+    "owner": "facebookresearch",
+    "repo": "segment-anything",
+    "githubUrl": "https://github.com/facebookresearch/segment-anything",
+    "homepage": null,
+    "description": "The repository provides code for running inference with the SegmentAnything Model (SAM), links for downloading the trained model checkpoints, and example notebooks that show how to use the model.",
+    "editorialSummary": "Meta’s promptable segmentation foundation model. Click/box/mask prompts produce high-quality masks used everywhere in generative image editing.",
+    "whyCare": "Default mask engine for inpainting, matting, and region edits across WebUIs, ComfyUI, and research toolchains.",
+    "primaryCategory": "image-ai",
+    "secondaryCategories": [
+      "research",
+      "multimodal"
+    ],
+    "tags": [
+      "sam",
+      "segmentation",
+      "masks",
+      "editing",
+      "foundation-model"
+    ],
+    "language": "Jupyter Notebook",
+    "license": "Apache-2.0",
+    "stars": 54679,
+    "forks": 6356,
+    "latestCommitAt": "2024-09-18T17:46:55Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "slow",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers",
+      "hobbyists"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/facebookresearch/segment-anything"
+    ]
+  },
+  {
+    "id": "facebookresearch-sam2",
+    "name": "SAM 2",
+    "owner": "facebookresearch",
+    "repo": "sam2",
+    "githubUrl": "https://github.com/facebookresearch/sam2",
+    "homepage": null,
+    "description": "The repository provides code for running inference with the Meta Segment Anything Model 2 (SAM 2), links for downloading the trained model checkpoints, and example notebooks that show how to use the model.",
+    "editorialSummary": "Successor to SAM with stronger image masks and native video object segmentation. Becoming the preferred segmentation backend for newer editing tools.",
+    "whyCare": "Best open promptable segmenter for current image/video editing pipelines that need temporal consistency.",
+    "primaryCategory": "image-ai",
+    "secondaryCategories": [
+      "video-ai",
+      "research"
+    ],
+    "tags": [
+      "sam2",
+      "segmentation",
+      "video",
+      "masks",
+      "editing"
+    ],
+    "language": "Jupyter Notebook",
+    "license": "Apache-2.0",
+    "stars": 19692,
+    "forks": 2526,
+    "latestCommitAt": "2026-05-30T02:29:40Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "moderate",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": true,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/facebookresearch/sam2"
+    ]
+  },
+  {
+    "id": "vladmandic-sdnext",
+    "name": "SD.Next",
+    "owner": "vladmandic",
+    "repo": "sdnext",
+    "githubUrl": "https://github.com/vladmandic/sdnext",
+    "homepage": "https://vladmandic.github.io/sdnext/",
+    "description": "SD.Next: All-in-one WebUI for AI generative image and video creation, captioning and processing",
+    "editorialSummary": "Actively maintained A1111-family WebUI fork with aggressive model/backend coverage (Diffusers backends, modern architectures, video/caption tooling). Positions itself as an all-in-one creative suite.",
+    "whyCare": "If A1111 feels frozen, SD.Next is the continuously updated drop-in-style WebUI for new models and pipelines.",
+    "primaryCategory": "image-ai",
+    "secondaryCategories": [
+      "local-ai",
+      "video-ai"
+    ],
+    "tags": [
+      "sdnext",
+      "webui",
+      "diffusers",
+      "stable-diffusion",
+      "video"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 7308,
+    "forks": 574,
+    "latestCommitAt": "2026-08-12T14:16:00Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "hobbyists",
+      "engineers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/vladmandic/sdnext",
+      "https://vladmandic.github.io/sdnext/"
+    ]
+  },
+  {
+    "id": "lllyasviel-stable-diffusion-webui-forge",
+    "name": "Stable Diffusion WebUI Forge",
+    "owner": "lllyasviel",
+    "repo": "stable-diffusion-webui-forge",
+    "githubUrl": "https://github.com/lllyasviel/stable-diffusion-webui-forge",
+    "homepage": null,
+    "description": null,
+    "editorialSummary": "Performance-oriented A1111 fork from the ControlNet/Fooocus author, emphasizing Unet patching, memory efficiency, and modern model support while keeping familiar WebUI UX.",
+    "whyCare": "Popular upgrade path for A1111 users who want speed and newer model hooks without switching to node graphs.",
+    "primaryCategory": "image-ai",
+    "secondaryCategories": [
+      "local-ai"
+    ],
+    "tags": [
+      "forge",
+      "webui",
+      "stable-diffusion",
+      "performance",
+      "a1111-fork"
+    ],
+    "language": "Python",
+    "license": "AGPL-3.0",
+    "stars": 12955,
+    "forks": 1692,
+    "latestCommitAt": "2025-07-31T01:33:17Z",
+    "latestRelease": "latest",
+    "archived": false,
+    "maintenance": "moderate",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "hobbyists",
+      "engineers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "fair",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/lllyasviel/stable-diffusion-webui-forge"
+    ]
+  },
+  {
+    "id": "xinntao-real-esrgan",
+    "name": "Real-ESRGAN",
+    "owner": "xinntao",
+    "repo": "Real-ESRGAN",
+    "githubUrl": "https://github.com/xinntao/Real-ESRGAN",
+    "homepage": null,
+    "description": "Real-ESRGAN aims at developing Practical Algorithms for General Image/Video Restoration.",
+    "editorialSummary": "Practical blind super-resolution and restoration models used as the default upscaler in countless diffusion UIs. Not a generator, but essential post-processing for image AI pipelines.",
+    "whyCare": "De facto OSS upscaler for diffusion outputs; nearly every local image stack ships Real-ESRGAN weights.",
+    "primaryCategory": "image-ai",
+    "secondaryCategories": [
+      "video-ai"
+    ],
+    "tags": [
+      "upscaling",
+      "restoration",
+      "super-resolution",
+      "real-esrgan",
+      "postprocessing"
+    ],
+    "language": "Python",
+    "license": "BSD-3-Clause",
+    "stars": 36457,
+    "forks": 4436,
+    "latestCommitAt": "2024-08-06T13:15:18Z",
+    "latestRelease": "v0.3.0",
+    "archived": false,
+    "maintenance": "stale",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "hobbyists",
+      "engineers",
+      "researchers"
+    ],
+    "difficulty": "beginner",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/xinntao/Real-ESRGAN",
+      "https://github.com/xinntao/Real-ESRGAN/releases/tag/v0.3.0"
+    ],
+    "notes": "Included as the ecosystem 'Reality'/restoration staple paired with generation UIs."
+  },
+  {
+    "id": "black-forest-labs-flux",
+    "name": "FLUX.1",
+    "owner": "black-forest-labs",
+    "repo": "flux",
+    "githubUrl": "https://github.com/black-forest-labs/flux",
+    "homepage": null,
+    "description": "Official inference repo for FLUX.1 models",
+    "editorialSummary": "Official inference code for Black Forest Labs’ FLUX.1 image models, which became a leading open-weight generation family after SDXL.",
+    "whyCare": "Reference implementation and licensing entry point for FLUX—currently one of the most important open image model lines.",
+    "primaryCategory": "image-ai",
+    "secondaryCategories": [
+      "research"
+    ],
+    "tags": [
+      "flux",
+      "text-to-image",
+      "inference",
+      "black-forest-labs",
+      "diffusion-transformer"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 25896,
+    "forks": 1911,
+    "latestCommitAt": "2025-07-31T13:58:55Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "moderate",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers",
+      "hobbyists"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/black-forest-labs/flux"
+    ]
+  },
+  {
+    "id": "acly-krita-ai-diffusion",
+    "name": "Krita AI Diffusion",
+    "owner": "Acly",
+    "repo": "krita-ai-diffusion",
+    "githubUrl": "https://github.com/Acly/krita-ai-diffusion",
+    "homepage": "https://www.interstice.cloud",
+    "description": "Streamlined interface for generating images with AI in Krita. Inpaint and outpaint with optional text prompt, no tweaking required.",
+    "editorialSummary": "Krita plugin for generative fill, inpaint, and outpaint that embeds diffusion into a real painting app instead of a separate WebUI.",
+    "whyCare": "Best OSS bridge between traditional digital painting and local diffusion—ideal for illustrators who edit on canvas.",
+    "primaryCategory": "image-ai",
+    "secondaryCategories": [
+      "local-ai"
+    ],
+    "tags": [
+      "krita",
+      "inpainting",
+      "outpainting",
+      "plugin",
+      "comfyui-backend"
+    ],
+    "language": "Python",
+    "license": "GPL-3.0",
+    "stars": 10458,
+    "forks": 611,
+    "latestCommitAt": "2026-06-30T12:33:40Z",
+    "latestRelease": "v1.52.1",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "hobbyists",
+      "enterprises"
+    ],
+    "difficulty": "beginner",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/Acly/krita-ai-diffusion",
+      "https://www.interstice.cloud",
+      "https://github.com/Acly/krita-ai-diffusion/releases/tag/v1.52.1"
+    ]
+  },
+  {
+    "id": "mcmonkeyprojects-swarmui",
+    "name": "SwarmUI",
+    "owner": "mcmonkeyprojects",
+    "repo": "SwarmUI",
+    "githubUrl": "https://github.com/mcmonkeyprojects/SwarmUI",
+    "homepage": null,
+    "description": "SwarmUI (formerly StableSwarmUI), A Modular Stable Diffusion Web-User-Interface, with an emphasis on making powertools easily accessible, high performance, and extensibility.",
+    "editorialSummary": "Modular WebUI (formerly StableSwarmUI) that fronts ComfyUI/backends with a cleaner UI, multi-user features, and power-tool accessibility.",
+    "whyCare": "Strong middle ground between ComfyUI power and beginner WebUI ergonomics; actively maintained alternative UI layer.",
+    "primaryCategory": "image-ai",
+    "secondaryCategories": [
+      "local-ai"
+    ],
+    "tags": [
+      "swarmui",
+      "webui",
+      "comfyui",
+      "multi-user",
+      "stable-diffusion"
+    ],
+    "language": "C#",
+    "license": "MIT",
+    "stars": 4449,
+    "forks": 446,
+    "latestCommitAt": "2026-08-12T02:45:52Z",
+    "latestRelease": "0.9.8-Beta",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "hobbyists",
+      "engineers",
+      "enterprises"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": true,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/mcmonkeyprojects/SwarmUI",
+      "https://github.com/mcmonkeyprojects/SwarmUI/releases"
+    ]
+  }
+]

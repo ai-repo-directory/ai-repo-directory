@@ -1,0 +1,27 @@
+{
+  "id": "crewaiinc-crewai",
+  "fetchedAt": "2026-08-12T17:35:59.527Z",
+  "stars": 56989,
+  "forks": 8133,
+  "watchers": 391,
+  "openIssues": 781,
+  "language": "Python",
+  "license": "MIT",
+  "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
+  "homepage": "https://crewai.com",
+  "topics": [
+    "agents",
+    "ai",
+    "ai-agents",
+    "aiagentframework",
+    "llms"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-08-12T17:03:48Z",
+  "updatedAt": "2026-08-12T17:01:58Z",
+  "createdAt": "2023-10-27T03:26:59Z",
+  "latestRelease": "1.15.15",
+  "latestReleaseAt": "2026-08-12T01:27:30Z",
+  "defaultBranch": "main"
+}

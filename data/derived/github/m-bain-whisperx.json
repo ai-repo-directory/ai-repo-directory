@@ -1,0 +1,27 @@
+{
+  "id": "m-bain-whisperx",
+  "fetchedAt": "2026-08-12T17:39:19.818Z",
+  "stars": 23545,
+  "forks": 2379,
+  "watchers": 159,
+  "openIssues": 209,
+  "language": "Python",
+  "license": "BSD-2-Clause",
+  "description": "WhisperX:  Automatic Speech Recognition with Word-level Timestamps (& Diarization)",
+  "homepage": null,
+  "topics": [
+    "asr",
+    "speech",
+    "speech-recognition",
+    "speech-to-text",
+    "whisper"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-07-13T08:30:07Z",
+  "updatedAt": "2026-08-12T16:51:29Z",
+  "createdAt": "2022-12-09T02:34:23Z",
+  "latestRelease": "v3.8.6",
+  "latestReleaseAt": "2026-05-25T12:35:47Z",
+  "defaultBranch": "main"
+}

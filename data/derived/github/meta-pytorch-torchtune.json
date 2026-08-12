@@ -1,0 +1,21 @@
+{
+  "id": "meta-pytorch-torchtune",
+  "fetchedAt": "2026-08-12T17:39:59.593Z",
+  "stars": 5799,
+  "forks": 743,
+  "watchers": 40,
+  "openIssues": 455,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "description": "PyTorch native post-training library",
+  "homepage": "https://pytorch.org/torchtune/main/",
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-08-12T11:49:19Z",
+  "updatedAt": "2026-08-12T12:50:51Z",
+  "createdAt": "2023-10-20T21:10:49Z",
+  "latestRelease": "v0.6.1",
+  "latestReleaseAt": "2025-04-07T19:01:38Z",
+  "defaultBranch": "main"
+}

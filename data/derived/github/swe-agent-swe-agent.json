@@ -1,0 +1,29 @@
+{
+  "id": "swe-agent-swe-agent",
+  "fetchedAt": "2026-08-12T17:39:25.342Z",
+  "stars": 20050,
+  "forks": 2191,
+  "watchers": 111,
+  "openIssues": 64,
+  "language": "Python",
+  "license": "MIT",
+  "description": "SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024] ",
+  "homepage": "https://swe-agent.com",
+  "topics": [
+    "agent",
+    "agent-based-model",
+    "ai",
+    "cybersecurity",
+    "developer-tools",
+    "llm",
+    "lms"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-08-10T22:08:15Z",
+  "updatedAt": "2026-08-12T15:55:20Z",
+  "createdAt": "2024-04-02T04:09:47Z",
+  "latestRelease": "v1.1.0",
+  "latestReleaseAt": "2025-05-22T16:11:39Z",
+  "defaultBranch": "main"
+}

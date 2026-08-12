@@ -1,0 +1,21 @@
+{
+  "id": "microsoft-bitnet",
+  "fetchedAt": "2026-08-12T17:39:40.842Z",
+  "stars": 40062,
+  "forks": 3695,
+  "watchers": 350,
+  "openIssues": 317,
+  "language": "C++",
+  "license": "MIT",
+  "description": "Official inference framework for 1-bit LLMs",
+  "homepage": null,
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-07-27T05:52:06Z",
+  "updatedAt": "2026-08-12T17:38:14Z",
+  "createdAt": "2024-08-05T09:07:38Z",
+  "latestRelease": null,
+  "latestReleaseAt": null,
+  "defaultBranch": "main"
+}

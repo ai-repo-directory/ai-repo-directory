@@ -1,0 +1,27 @@
+{
+  "id": "hzwer-eccv2022-rife",
+  "fetchedAt": "2026-08-12T17:40:04.569Z",
+  "stars": 5561,
+  "forks": 561,
+  "watchers": 80,
+  "openIssues": 71,
+  "language": "Python",
+  "license": "MIT",
+  "description": "ECCV2022 - Real-Time Intermediate Flow Estimation for Video Frame Interpolation",
+  "homepage": null,
+  "topics": [
+    "aigc",
+    "computer-vision",
+    "deep-learning",
+    "slomo-filter",
+    "video-interpolation"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2025-09-10T06:32:03Z",
+  "updatedAt": "2026-08-12T06:32:13Z",
+  "createdAt": "2020-11-12T05:46:23Z",
+  "latestRelease": null,
+  "latestReleaseAt": null,
+  "defaultBranch": "main"
+}

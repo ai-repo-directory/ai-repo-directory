@@ -1,0 +1,28 @@
+{
+  "id": "zai-org-cogvideo",
+  "fetchedAt": "2026-08-12T17:40:06.364Z",
+  "stars": 12950,
+  "forks": 1324,
+  "watchers": 136,
+  "openIssues": 115,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "description": "text and image to video generation: CogVideoX (2024) and CogVideo (ICLR 2023)",
+  "homepage": null,
+  "topics": [
+    "cogvideox",
+    "image-to-video",
+    "llm",
+    "sora",
+    "text-to-video",
+    "video-generation"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2025-11-04T11:19:04Z",
+  "updatedAt": "2026-08-12T12:43:57Z",
+  "createdAt": "2022-05-29T06:46:18Z",
+  "latestRelease": "v1.0",
+  "latestReleaseAt": "2024-11-08T05:32:23Z",
+  "defaultBranch": "main"
+}

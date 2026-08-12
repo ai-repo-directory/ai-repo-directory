@@ -1,0 +1,634 @@
+[
+  {
+    "id": "dphnai-sonar",
+    "name": "Sonar (Aphrodite Engine)",
+    "owner": "dphnAI",
+    "repo": "sonar",
+    "githubUrl": "https://github.com/dphnAI/sonar",
+    "homepage": "https://sonar.dphn.ai",
+    "description": "Large-scale LLM inference engine",
+    "editorialSummary": "Sonar is the continuation of Aphrodite Engine: a large-scale LLM inference server with broad accelerator support (CUDA, ROCm, TPU, Inferentia) and features like LoRA and speculative decoding. It targets community and production serving beyond a single-vendor stack.",
+    "whyCare": "Consider when you want an Aphrodite-lineage serving engine with multi-backend hardware coverage and OpenAI-style APIs.",
+    "primaryCategory": "llm-inference",
+    "secondaryCategories": [
+      "infrastructure"
+    ],
+    "tags": [
+      "serving",
+      "aphrodite",
+      "lora",
+      "speculative-decoding",
+      "rocm",
+      "tpu"
+    ],
+    "language": "C++",
+    "license": "AGPL-3.0",
+    "stars": 1831,
+    "forks": 206,
+    "latestCommitAt": "2026-08-10T17:49:08Z",
+    "latestRelease": "v0.23.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "fair",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/dphnAI/sonar",
+      "https://sonar.dphn.ai"
+    ],
+    "notes": "GitHub redirects former Aphrodite-Engine/aphrodite-engine and PygmalionAI/aphrodite-engine here."
+  },
+  {
+    "id": "exo-explore-exo",
+    "name": "exo",
+    "owner": "exo-explore",
+    "repo": "exo",
+    "githubUrl": "https://github.com/exo-explore/exo",
+    "homepage": null,
+    "description": "Run frontier AI locally.",
+    "editorialSummary": "exo lets you run large models by partitioning inference across everyday devices on a local network—turning multiple Macs/PCs into a makeshift cluster for frontier-sized local AI.",
+    "whyCare": "Interesting when a single machine cannot hold the model and you want distributed local inference without a datacenter rack.",
+    "primaryCategory": "llm-inference",
+    "secondaryCategories": [
+      "local-ai",
+      "infrastructure"
+    ],
+    "tags": [
+      "distributed",
+      "local-cluster",
+      "apple-silicon",
+      "peer-to-peer"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 46785,
+    "forks": 3424,
+    "latestCommitAt": "2026-06-23T18:59:18Z",
+    "latestRelease": "v1.0.71",
+    "archived": false,
+    "maintenance": "moderate",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "hobbyists",
+      "engineers",
+      "researchers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "fair",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": true,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/exo-explore/exo"
+    ]
+  },
+  {
+    "id": "ggml-org-llama.cpp",
+    "name": "llama.cpp",
+    "owner": "ggml-org",
+    "repo": "llama.cpp",
+    "githubUrl": "https://github.com/ggml-org/llama.cpp",
+    "homepage": "https://llama.app",
+    "description": "LLM inference in C/C++",
+    "editorialSummary": "llama.cpp is the foundational C/C++ runtime for running GGUF LLMs efficiently on CPU, Apple Silicon, and many GPUs. It powers a large share of local-AI tooling and defines the GGUF ecosystem used by Ollama, llamafile, and others.",
+    "whyCare": "Best-in-class portable inference when you care about quantization, edge/CPU performance, and a dependency-light C++ core rather than a Python serving stack.",
+    "primaryCategory": "llm-inference",
+    "secondaryCategories": [
+      "local-ai"
+    ],
+    "tags": [
+      "gguf",
+      "ggml",
+      "cpu",
+      "quantization",
+      "apple-silicon",
+      "c++"
+    ],
+    "language": "C++",
+    "license": "MIT",
+    "stars": 123662,
+    "forks": 21626,
+    "latestCommitAt": "2026-08-12T17:07:38Z",
+    "latestRelease": "b10375",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "researchers",
+      "students"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/ggml-org/llama.cpp",
+      "https://github.com/ggml-org/llama.cpp/blob/master/README.md"
+    ]
+  },
+  {
+    "id": "huggingface-text-generation-inference",
+    "name": "Text Generation Inference",
+    "owner": "huggingface",
+    "repo": "text-generation-inference",
+    "githubUrl": "https://github.com/huggingface/text-generation-inference",
+    "homepage": "http://hf.co/docs/text-generation-inference",
+    "description": "Large Language Model Text Generation Inference",
+    "editorialSummary": "Hugging Face TGI was a major production LLM server used widely on the Hub and in enterprise deployments. The repository is now archived, but it shaped OpenAI-compatible serving patterns and remains historically important.",
+    "whyCare": "Useful as historical reference and for understanding HF's serving stack; new greenfield projects should prefer actively maintained engines like vLLM or SGLang.",
+    "primaryCategory": "llm-inference",
+    "secondaryCategories": [
+      "infrastructure"
+    ],
+    "tags": [
+      "huggingface",
+      "serving",
+      "openai-compatible",
+      "archived"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 10886,
+    "forks": 1277,
+    "latestCommitAt": "2026-03-21T11:34:22Z",
+    "latestRelease": "v3.3.7",
+    "archived": true,
+    "maintenance": "archived",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/huggingface/text-generation-inference",
+      "https://huggingface.co/docs/text-generation-inference"
+    ],
+    "notes": "Repository archived; prefer vLLM/SGLang for new deployments."
+  },
+  {
+    "id": "internlm-lmdeploy",
+    "name": "LMDeploy",
+    "owner": "InternLM",
+    "repo": "lmdeploy",
+    "githubUrl": "https://github.com/InternLM/lmdeploy",
+    "homepage": "https://lmdeploy.readthedocs.io/en/latest",
+    "description": "LMDeploy is a toolkit for compressing, deploying, and serving LLMs.",
+    "editorialSummary": "LMDeploy from InternLM provides Turbomind and PyTorch backends for compressing, deploying, and serving LLMs with strong performance on NVIDIA GPUs—especially popular in the Chinese open-source LLM ecosystem.",
+    "whyCare": "Solid serving/compression toolkit if you deploy InternLM/Qwen-class models and want an alternative to vLLM with first-class Turbomind kernels.",
+    "primaryCategory": "llm-inference",
+    "secondaryCategories": [
+      "infrastructure"
+    ],
+    "tags": [
+      "turbomind",
+      "serving",
+      "quantization",
+      "internlm",
+      "cuda"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 8000,
+    "forks": 720,
+    "latestCommitAt": "2026-08-12T17:06:49Z",
+    "latestRelease": "v0.15.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers",
+      "enterprises"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/InternLM/lmdeploy",
+      "https://lmdeploy.readthedocs.io/en/latest/"
+    ]
+  },
+  {
+    "id": "microsoft-bitnet",
+    "name": "BitNet",
+    "owner": "microsoft",
+    "repo": "BitNet",
+    "githubUrl": "https://github.com/microsoft/BitNet",
+    "homepage": null,
+    "description": "Official inference framework for 1-bit LLMs",
+    "editorialSummary": "Microsoft BitNet is the official inference framework for 1-bit (and low-bit) LLMs, focusing on extreme quantization for efficient CPU inference. It represents a distinct efficiency path versus standard GGUF INT4/INT8 stacks.",
+    "whyCare": "Watch this if you care about ultralow-bit local LLMs and CPU-first efficiency research moving into usable runtimes.",
+    "primaryCategory": "llm-inference",
+    "secondaryCategories": [
+      "local-ai",
+      "research"
+    ],
+    "tags": [
+      "1-bit",
+      "quantization",
+      "cpu",
+      "bitnet",
+      "microsoft"
+    ],
+    "language": "C++",
+    "license": "MIT",
+    "stars": 40062,
+    "forks": 3695,
+    "latestCommitAt": "2026-07-27T05:52:06Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "moderate",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers",
+      "hobbyists"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": true,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/microsoft/BitNet"
+    ]
+  },
+  {
+    "id": "ml-explore-mlx",
+    "name": "MLX",
+    "owner": "ml-explore",
+    "repo": "mlx",
+    "githubUrl": "https://github.com/ml-explore/mlx",
+    "homepage": "https://ml-explore.github.io/mlx/",
+    "description": "MLX: An array framework for Apple silicon",
+    "editorialSummary": "MLX is Apple's array framework for machine learning on Apple Silicon, with unified memory and NumPy-like APIs. Together with mlx-lm it is the preferred path for efficient local LLM inference on Mac.",
+    "whyCare": "If your target is Apple Silicon, MLX often beats generic CPU/Metal stacks for local model experimentation and fine-tuned inference workflows.",
+    "primaryCategory": "llm-inference",
+    "secondaryCategories": [
+      "local-ai",
+      "research"
+    ],
+    "tags": [
+      "apple-silicon",
+      "metal",
+      "array-framework",
+      "macos",
+      "unified-memory"
+    ],
+    "language": "C++",
+    "license": "MIT",
+    "stars": 27923,
+    "forks": 2122,
+    "latestCommitAt": "2026-08-12T11:52:31Z",
+    "latestRelease": "v0.32.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers",
+      "hobbyists"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/ml-explore/mlx",
+      "https://ml-explore.github.io/mlx/",
+      "https://github.com/ml-explore/mlx-lm"
+    ],
+    "notes": "Pair with ml-explore/mlx-lm for turnkey LLM loading and generation."
+  },
+  {
+    "id": "mlc-ai-mlc-llm",
+    "name": "MLC LLM",
+    "owner": "mlc-ai",
+    "repo": "mlc-llm",
+    "githubUrl": "https://github.com/mlc-ai/mlc-llm",
+    "homepage": "https://llm.mlc.ai/",
+    "description": "Universal LLM Deployment Engine with ML Compilation",
+    "editorialSummary": "MLC LLM uses machine-learning compilation (Apache TVM) to deploy LLMs across phones, browsers, laptops, and GPUs from one stack. It emphasizes portable, compiled runtimes rather than Python-centric servers.",
+    "whyCare": "Pick this when you need the same model runtime story across mobile, WebGPU, and desktop—not just datacenter GPUs.",
+    "primaryCategory": "llm-inference",
+    "secondaryCategories": [
+      "local-ai",
+      "infrastructure"
+    ],
+    "tags": [
+      "tvm",
+      "compilation",
+      "mobile",
+      "webgpu",
+      "cross-platform"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 23054,
+    "forks": 2110,
+    "latestCommitAt": "2026-07-31T03:03:18Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "moderate",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers",
+      "hobbyists"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/mlc-ai/mlc-llm",
+      "https://llm.mlc.ai/"
+    ]
+  },
+  {
+    "id": "nvidia-tensorrt-llm",
+    "name": "TensorRT-LLM",
+    "owner": "NVIDIA",
+    "repo": "TensorRT-LLM",
+    "githubUrl": "https://github.com/NVIDIA/TensorRT-LLM",
+    "homepage": "https://nvidia.github.io/TensorRT-LLM",
+    "description": "TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs. TensorRT LLM also contains components to create Python and C++ runtimes that orchestrate the inference execution in a performant way.",
+    "editorialSummary": "NVIDIA's optimized LLM inference stack compiles models into highly tuned TensorRT engines for maximum throughput and lowest latency on NVIDIA GPUs. It is the production path when you are all-in on NVIDIA hardware and need peak efficiency.",
+    "whyCare": "Choose this when NVIDIA GPU utilization and latency matter more than cross-vendor portability—especially for large-scale enterprise serving.",
+    "primaryCategory": "llm-inference",
+    "secondaryCategories": [
+      "infrastructure"
+    ],
+    "tags": [
+      "tensorrt",
+      "nvidia",
+      "cuda",
+      "serving",
+      "optimization",
+      "moe"
+    ],
+    "language": "Python",
+    "license": null,
+    "stars": 14370,
+    "forks": 2658,
+    "latestCommitAt": "2026-08-12T17:25:23Z",
+    "latestRelease": "v1.2.1",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "excellent",
+    "demoAvailable": false,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/NVIDIA/TensorRT-LLM",
+      "https://nvidia.github.io/TensorRT-LLM/"
+    ],
+    "notes": "GitHub license metadata is NOASSERTION; treat SPDX as unverified."
+  },
+  {
+    "id": "opennmt-ctranslate2",
+    "name": "CTranslate2",
+    "owner": "OpenNMT",
+    "repo": "CTranslate2",
+    "githubUrl": "https://github.com/OpenNMT/CTranslate2",
+    "homepage": "https://opennmt.net/CTranslate2",
+    "description": "Fast inference engine for Transformer models",
+    "editorialSummary": "CTranslate2 is a fast C++/CUDA inference engine for Transformer models with strong quantization support. It underpins many Whisper and translation deployments and remains a workhorse for efficient encoder-decoder and decoder-only inference.",
+    "whyCare": "Excellent when you need a lean runtime for Whisper/translation/LLM-style Transformers with great CPU and GPU efficiency.",
+    "primaryCategory": "llm-inference",
+    "secondaryCategories": [
+      "audio-ai",
+      "infrastructure"
+    ],
+    "tags": [
+      "transformer",
+      "quantization",
+      "whisper",
+      "cpu",
+      "cuda",
+      "c++"
+    ],
+    "language": "C++",
+    "license": "MIT",
+    "stars": 4615,
+    "forks": 512,
+    "latestCommitAt": "2026-08-05T05:09:08Z",
+    "latestRelease": "v4.8.1",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/OpenNMT/CTranslate2",
+      "https://opennmt.net/CTranslate2/"
+    ]
+  },
+  {
+    "id": "predibase-lorax",
+    "name": "LoRAX",
+    "owner": "predibase",
+    "repo": "lorax",
+    "githubUrl": "https://github.com/predibase/lorax",
+    "homepage": "https://loraexchange.ai",
+    "description": "Multi-LoRA inference server that scales to 1000s of fine-tuned LLMs",
+    "editorialSummary": "LoRAX is a multi-LoRA inference server designed to host thousands of fine-tuned adapters on shared base models. It targets production multi-tenant serving where each customer or task has its own LoRA.",
+    "whyCare": "Use when adapter density matters—serving many fine-tunes efficiently without loading a full model copy per adapter.",
+    "primaryCategory": "llm-inference",
+    "secondaryCategories": [
+      "infrastructure"
+    ],
+    "tags": [
+      "lora",
+      "multi-adapter",
+      "serving",
+      "fine-tunes"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 3823,
+    "forks": 326,
+    "latestCommitAt": "2026-05-28T18:12:20Z",
+    "latestRelease": "lorax-0.4.0",
+    "archived": false,
+    "maintenance": "moderate",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/predibase/lorax",
+      "https://loraexchange.ai"
+    ]
+  },
+  {
+    "id": "sgl-project-sglang",
+    "name": "SGLang",
+    "owner": "sgl-project",
+    "repo": "sglang",
+    "githubUrl": "https://github.com/sgl-project/sglang",
+    "homepage": "https://sglang.io",
+    "description": "SGLang is a high-performance serving framework for large language models and multimodal models.",
+    "editorialSummary": "SGLang is a high-performance serving framework focused on fast structured generation, RadixAttention for KV-cache reuse, and strong multimodal/MoE support. It competes directly with vLLM for cutting-edge throughput on modern GPUs.",
+    "whyCare": "Strong alternative to vLLM when you need radix-cache efficiency, constrained/structured decoding, or leading multimodal and MoE serving performance.",
+    "primaryCategory": "llm-inference",
+    "secondaryCategories": [
+      "multimodal",
+      "infrastructure"
+    ],
+    "tags": [
+      "serving",
+      "radixattention",
+      "structured-output",
+      "moe",
+      "vlm",
+      "cuda"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 31715,
+    "forks": 7836,
+    "latestCommitAt": "2026-08-12T17:18:22Z",
+    "latestRelease": "v0.5.17",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers",
+      "enterprises"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/sgl-project/sglang",
+      "https://docs.sglang.io/"
+    ]
+  },
+  {
+    "id": "vllm-project-vllm",
+    "name": "vLLM",
+    "owner": "vllm-project",
+    "repo": "vllm",
+    "githubUrl": "https://github.com/vllm-project/vllm",
+    "homepage": "https://vllm.ai",
+    "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+    "editorialSummary": "vLLM is the de facto open-source engine for high-throughput LLM serving. It pioneered PagedAttention and continuous batching, and remains the default choice for OpenAI-compatible GPU inference in production and research.",
+    "whyCare": "If you need maximum tokens/sec on NVIDIA (and increasingly AMD/TPU) GPUs with an OpenAI-compatible API, vLLM is the starting point most teams standardize on.",
+    "primaryCategory": "llm-inference",
+    "secondaryCategories": [
+      "infrastructure"
+    ],
+    "tags": [
+      "serving",
+      "pagedattention",
+      "openai-compatible",
+      "cuda",
+      "continuous-batching",
+      "moe"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 88884,
+    "forks": 20597,
+    "latestCommitAt": "2026-08-12T17:22:11Z",
+    "latestRelease": "v0.27.1",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises",
+      "researchers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": false,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/vllm-project/vllm",
+      "https://docs.vllm.ai/"
+    ]
+  }
+]

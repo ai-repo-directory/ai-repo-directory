@@ -1,0 +1,626 @@
+[
+  {
+    "id": "huggingface-transformers",
+    "name": "Transformers",
+    "owner": "huggingface",
+    "repo": "transformers",
+    "githubUrl": "https://github.com/huggingface/transformers",
+    "homepage": "https://huggingface.co/transformers",
+    "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+    "editorialSummary": "The de facto open-source model zoo and definition layer for modern transformers across NLP, vision, audio, and multimodal work. It turned research checkpoints into a shared, reproducible API used by labs and product teams alike.",
+    "whyCare": "If you need to load, fine-tune, or publish SOTA pretrained models with a consistent interface, this is the research-to-production bridge most papers and tutorials assume.",
+    "primaryCategory": "research",
+    "secondaryCategories": [
+      "training",
+      "llm-inference",
+      "multimodal"
+    ],
+    "tags": [
+      "transformers",
+      "pretrained-models",
+      "nlp",
+      "pytorch",
+      "huggingface",
+      "vlm"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 164003,
+    "forks": 34223,
+    "latestCommitAt": "2026-08-12T17:05:33Z",
+    "latestRelease": "v5.15.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers",
+      "students",
+      "enterprises"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/huggingface/transformers",
+      "https://huggingface.co/docs/transformers"
+    ],
+    "notes": "Seminal papers-with-code style hub; primaryCategory research despite broad training/inference use."
+  },
+  {
+    "id": "lightning-ai-litgpt",
+    "name": "LitGPT",
+    "owner": "Lightning-AI",
+    "repo": "litgpt",
+    "githubUrl": "https://github.com/Lightning-AI/litgpt",
+    "homepage": "https://lightning.ai",
+    "description": "20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale.",
+    "editorialSummary": "Lightning AI's readable from-scratch LLM implementations with production-minded recipes for pretrain, finetune, and deploy. Emphasizes clarity over framework magic while staying competitive on throughput.",
+    "whyCare": "Useful when you want research-grade LLM training code that is still approachable enough to hack on without Megatron-scale complexity.",
+    "primaryCategory": "research",
+    "secondaryCategories": [
+      "training"
+    ],
+    "tags": [
+      "llm",
+      "pretraining",
+      "finetuning",
+      "lightning",
+      "recipes"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 13611,
+    "forks": 1483,
+    "latestCommitAt": "2026-07-20T10:24:12Z",
+    "latestRelease": "v0.5.13",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers",
+      "students"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/Lightning-AI/litgpt",
+      "https://lightning.ai"
+    ]
+  },
+  {
+    "id": "karpathy-nanogpt",
+    "name": "nanoGPT",
+    "owner": "karpathy",
+    "repo": "nanoGPT",
+    "githubUrl": "https://github.com/karpathy/nanoGPT",
+    "homepage": null,
+    "description": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
+    "editorialSummary": "Karpathy's minimal GPT training repo that became the default educational and prototyping baseline for modern LLM research. Small enough to read end-to-end, serious enough to train real models.",
+    "whyCare": "Best starting point for understanding GPT training loops, scaling experiments, and reproducible medium-scale pretraining without framework overhead.",
+    "primaryCategory": "research",
+    "secondaryCategories": [
+      "training"
+    ],
+    "tags": [
+      "gpt",
+      "pretraining",
+      "educational",
+      "karpathy",
+      "minimal"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 62051,
+    "forks": 10695,
+    "latestCommitAt": "2025-11-12T19:52:34Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "moderate",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "students",
+      "hobbyists",
+      "engineers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/karpathy/nanoGPT"
+    ]
+  },
+  {
+    "id": "karpathy-mingpt",
+    "name": "minGPT",
+    "owner": "karpathy",
+    "repo": "minGPT",
+    "githubUrl": "https://github.com/karpathy/minGPT",
+    "homepage": null,
+    "description": "A minimal PyTorch re-implementation of the OpenAI GPT (Generative Pretrained Transformer) training",
+    "editorialSummary": "The precursor minimal GPT reimplementation that shaped how researchers teach and prototype transformer LMs. Intentionally tiny and readable rather than production-oriented.",
+    "whyCare": "Still the clearest short codebase for studying GPT architecture and training before moving to nanoGPT or larger stacks.",
+    "primaryCategory": "research",
+    "secondaryCategories": [
+      "training"
+    ],
+    "tags": [
+      "gpt",
+      "educational",
+      "minimal",
+      "karpathy",
+      "pytorch"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 24789,
+    "forks": 3313,
+    "latestCommitAt": "2024-08-15T04:09:40Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "slow",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "students",
+      "researchers",
+      "hobbyists"
+    ],
+    "difficulty": "beginner",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/karpathy/minGPT"
+    ],
+    "notes": "Largely superseded by nanoGPT for active experiments; retained for historical/educational significance."
+  },
+  {
+    "id": "eleutherai-gpt-neox",
+    "name": "GPT-NeoX",
+    "owner": "EleutherAI",
+    "repo": "gpt-neox",
+    "githubUrl": "https://github.com/EleutherAI/gpt-neox",
+    "homepage": "https://www.eleuther.ai/",
+    "description": "An implementation of model parallel autoregressive transformers on GPUs, based on the Megatron and DeepSpeed libraries",
+    "editorialSummary": "EleutherAI's large-scale GPT training codebase that powered open GPT-NeoX-20B and related open LM efforts. Combines Megatron-style parallelism with DeepSpeed.",
+    "whyCare": "Key reference for open large-model training before today's many commercial stacks; still relevant for Megatron/DeepSpeed-style research setups.",
+    "primaryCategory": "research",
+    "secondaryCategories": [
+      "training",
+      "infrastructure"
+    ],
+    "tags": [
+      "gpt",
+      "megatron",
+      "deepspeed",
+      "model-parallel",
+      "eleutherai"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 7451,
+    "forks": 1118,
+    "latestCommitAt": "2026-06-11T19:25:44Z",
+    "latestRelease": "v2.0",
+    "archived": false,
+    "maintenance": "moderate",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/EleutherAI/gpt-neox",
+      "https://www.eleuther.ai/"
+    ]
+  },
+  {
+    "id": "google-flax",
+    "name": "Flax",
+    "owner": "google",
+    "repo": "flax",
+    "githubUrl": "https://github.com/google/flax",
+    "homepage": "https://flax.readthedocs.io",
+    "description": "Flax is a neural network library for JAX that is designed for flexibility.",
+    "editorialSummary": "Google's flexible neural net library on JAX, widely used for research implementations that need composable transforms, clarity, and TPU/GPU portability. Home to many JAX/Flax example patterns for transformers and beyond.",
+    "whyCare": "Go-to stack when a paper or lab ships JAX reference code and you need an idiomatic NN API rather than raw JAX.",
+    "primaryCategory": "research",
+    "secondaryCategories": [
+      "training"
+    ],
+    "tags": [
+      "jax",
+      "flax",
+      "neural-networks",
+      "tpu",
+      "research-framework"
+    ],
+    "language": "Jupyter Notebook",
+    "license": "Apache-2.0",
+    "stars": 7299,
+    "forks": 829,
+    "latestCommitAt": "2026-08-12T14:27:12Z",
+    "latestRelease": "v0.12.8",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers",
+      "students"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/google/flax",
+      "https://flax.readthedocs.io"
+    ],
+    "notes": "GitHub primary language reported as Jupyter Notebook; library code is Python/JAX."
+  },
+  {
+    "id": "ai-hypercomputer-maxtext",
+    "name": "MaxText",
+    "owner": "AI-Hypercomputer",
+    "repo": "maxtext",
+    "githubUrl": "https://github.com/AI-Hypercomputer/maxtext",
+    "homepage": "https://maxtext.readthedocs.io",
+    "description": "A simple, performant, and scalable Jax LLM!",
+    "editorialSummary": "Google's high-performance JAX LLM training reference (now under AI-Hypercomputer) for scalable pretraining on GPUs/TPUs. Practical JAX counterpart to PyTorch Megatron-style stacks.",
+    "whyCare": "Best-known open JAX example stack for serious LLM training research and performance work.",
+    "primaryCategory": "research",
+    "secondaryCategories": [
+      "training",
+      "infrastructure"
+    ],
+    "tags": [
+      "jax",
+      "llm",
+      "pretraining",
+      "tpu",
+      "maxtext"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 2387,
+    "forks": 582,
+    "latestCommitAt": "2026-08-12T17:28:36Z",
+    "latestRelease": "maxtext-v0.2.3",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": true,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/AI-Hypercomputer/maxtext",
+      "https://maxtext.readthedocs.io"
+    ],
+    "notes": "Formerly google/maxtext; GitHub canonical full_name is AI-Hypercomputer/maxtext."
+  },
+  {
+    "id": "harvardnlp-annotated-transformer",
+    "name": "The Annotated Transformer",
+    "owner": "harvardnlp",
+    "repo": "annotated-transformer",
+    "githubUrl": "https://github.com/harvardnlp/annotated-transformer",
+    "homepage": "http://nlp.seas.harvard.edu/annotated-transformer",
+    "description": "An annotated implementation of the Transformer paper.",
+    "editorialSummary": "Harvard NLP's line-by-line annotated reimplementation of Attention Is All You Need. The most cited pedagogical OSS companion to the original Transformer paper.",
+    "whyCare": "Carefully preferred AIAYN learning artifact: pairs paper exposition with working code rather than a bare architecture clone.",
+    "primaryCategory": "research",
+    "secondaryCategories": [],
+    "tags": [
+      "transformer",
+      "attention-is-all-you-need",
+      "educational",
+      "nlp",
+      "annotated"
+    ],
+    "language": "Jupyter Notebook",
+    "license": "MIT",
+    "stars": 7436,
+    "forks": 1561,
+    "latestCommitAt": "2024-04-07T09:58:46Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "slow",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "students",
+      "researchers",
+      "hobbyists"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/harvardnlp/annotated-transformer",
+      "http://nlp.seas.harvard.edu/annotated-transformer"
+    ],
+    "notes": "Chosen over many AIAYN clones for editorial quality and historical role in teaching transformers."
+  },
+  {
+    "id": "tensorflow-tensor2tensor",
+    "name": "Tensor2Tensor",
+    "owner": "tensorflow",
+    "repo": "tensor2tensor",
+    "githubUrl": "https://github.com/tensorflow/tensor2tensor",
+    "homepage": null,
+    "description": "Library of deep learning models and datasets designed to make deep learning more accessible and accelerate ML research.",
+    "editorialSummary": "Google's historical TensorFlow research library that popularized reproducible Transformer and seq2seq experiments after Attention Is All You Need. Archived, but foundational to the papers-with-code era.",
+    "whyCare": "Important lineage artifact for Transformer research tooling; superseded by Trax/Flax/JAX and modern libraries but historically significant.",
+    "primaryCategory": "research",
+    "secondaryCategories": [
+      "training"
+    ],
+    "tags": [
+      "transformer",
+      "tensorflow",
+      "seq2seq",
+      "historical",
+      "machine-translation"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 17459,
+    "forks": 3775,
+    "latestCommitAt": "2023-06-02T18:55:09Z",
+    "latestRelease": "v1.15.7",
+    "archived": true,
+    "maintenance": "archived",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "students"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "fair",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/tensorflow/tensor2tensor"
+    ],
+    "notes": "Archived; retained as historically significant Transformer-era research implementation library."
+  },
+  {
+    "id": "blinkdl-rwkv-lm",
+    "name": "RWKV-LM",
+    "owner": "BlinkDL",
+    "repo": "RWKV-LM",
+    "githubUrl": "https://github.com/BlinkDL/RWKV-LM",
+    "homepage": null,
+    "description": "RWKV (pronounced RwaKuv) is an RNN with great LLM performance, which can also be directly trained like a GPT transformer (parallelizable). We are at RWKV-7 \"Goose\". So it's combining the best of RNN and transformer - great performance, linear time, constant space (no kv-cache), fast training, infinite ctx_len, and free sentence embedding.",
+    "editorialSummary": "Official research implementation of RWKV, the linear-time RNN/transformer hybrid architecture for LLMs. Demonstrates competitive language modeling without quadratic attention.",
+    "whyCare": "Canonical code for studying and training alternative sequence architectures beyond softmax attention.",
+    "primaryCategory": "research",
+    "secondaryCategories": [
+      "training",
+      "llm-inference"
+    ],
+    "tags": [
+      "rwkv",
+      "rnn",
+      "linear-attention",
+      "llm",
+      "architecture"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 14660,
+    "forks": 1017,
+    "latestCommitAt": "2026-07-23T08:56:31Z",
+    "latestRelease": "5.00",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers",
+      "hobbyists"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "fair",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/BlinkDL/RWKV-LM"
+    ]
+  },
+  {
+    "id": "state-spaces-mamba",
+    "name": "Mamba",
+    "owner": "state-spaces",
+    "repo": "mamba",
+    "githubUrl": "https://github.com/state-spaces/mamba",
+    "homepage": null,
+    "description": "Mamba SSM architecture",
+    "editorialSummary": "Official implementation of Mamba selective state-space models, a major post-Transformer architecture paper with strong long-sequence efficiency claims. Reference CUDA/PyTorch research code from the authors.",
+    "whyCare": "The source of truth for reproducing Mamba and building SSM-based language/sequence models.",
+    "primaryCategory": "research",
+    "secondaryCategories": [
+      "training"
+    ],
+    "tags": [
+      "mamba",
+      "ssm",
+      "state-space",
+      "architecture",
+      "long-context"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 18731,
+    "forks": 1792,
+    "latestCommitAt": "2026-07-22T19:41:12Z",
+    "latestRelease": "v2.3.2.post1",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "fair",
+    "demoAvailable": false,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/state-spaces/mamba"
+    ]
+  },
+  {
+    "id": "lucidrains-x-transformers",
+    "name": "x-transformers",
+    "owner": "lucidrains",
+    "repo": "x-transformers",
+    "githubUrl": "https://github.com/lucidrains/x-transformers",
+    "homepage": null,
+    "description": "A concise but complete full-attention transformer with a set of promising experimental features from various papers",
+    "editorialSummary": "Phil Wang (lucidrains) library packing many experimental attention/transformer paper ideas into a compact, hackable PyTorch implementation. A frequent research playground for trying architectural variants quickly.",
+    "whyCare": "Ideal when you want paper features (attention variants, positional schemes, etc.) composed without rebuilding a transformer from scratch.",
+    "primaryCategory": "research",
+    "secondaryCategories": [
+      "training"
+    ],
+    "tags": [
+      "transformers",
+      "attention",
+      "experimental",
+      "pytorch",
+      "lucidrains"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 5934,
+    "forks": 516,
+    "latestCommitAt": "2026-08-09T00:02:06Z",
+    "latestRelease": "2.16.1",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers",
+      "hobbyists"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/lucidrains/x-transformers"
+    ]
+  },
+  {
+    "id": "state-spaces-s4",
+    "name": "S4",
+    "owner": "state-spaces",
+    "repo": "s4",
+    "githubUrl": "https://github.com/state-spaces/s4",
+    "homepage": null,
+    "description": "Structured state space sequence models",
+    "editorialSummary": "Official Structured State Space (S4) sequence model repository—the influential SSM research line that preceded Mamba. Core papers-with-code artifact for long-range sequence modeling without full attention.",
+    "whyCare": "Read this to understand the SSM lineage and baselines before Mamba and later selective SSMs.",
+    "primaryCategory": "research",
+    "secondaryCategories": [
+      "training"
+    ],
+    "tags": [
+      "s4",
+      "ssm",
+      "state-space",
+      "long-range",
+      "architecture"
+    ],
+    "language": "Jupyter Notebook",
+    "license": "Apache-2.0",
+    "stars": 2917,
+    "forks": 367,
+    "latestCommitAt": "2024-07-17T17:04:39Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "stale",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "students"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/state-spaces/s4"
+    ]
+  }
+]
