@@ -1,0 +1,21 @@
+{
+  "id": "ukgovernmentbeis-inspect-ai",
+  "fetchedAt": "2026-08-12T17:39:32.277Z",
+  "stars": 2530,
+  "forks": 652,
+  "watchers": 19,
+  "openIssues": 248,
+  "language": "Python",
+  "license": "MIT",
+  "description": "Inspect: A framework for large language model evaluations",
+  "homepage": "https://inspect.aisi.org.uk/",
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-08-12T16:39:15Z",
+  "updatedAt": "2026-08-12T16:39:50Z",
+  "createdAt": "2023-11-14T14:53:11Z",
+  "latestRelease": null,
+  "latestReleaseAt": null,
+  "defaultBranch": "main"
+}

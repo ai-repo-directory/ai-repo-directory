@@ -29,7 +29,7 @@
     "latestCommitAt": "2025-11-05T22:00:12Z",
     "latestRelease": "v1.2.1",
     "archived": false,
-    "maintenance": "moderate",
+    "maintenance": "slow",
     "selfHostable": true,
     "localOfflineCapable": true,
     "audience": [
@@ -47,7 +47,8 @@
       "https://github.com/allenai/dolma",
       "https://allenai.github.io/dolma/",
       "https://huggingface.co/datasets/allenai/dolma"
-    ]
+    ],
+    "notes": "Activity verification 2026-08-12: maintenance moderate→slow (pushedAt=2025-11-05T22:00:12Z, primary_status=low_activity)."
   },
   {
     "id": "argilla-io-argilla",
@@ -386,7 +387,7 @@
     "latestCommitAt": "2025-10-27T18:15:38Z",
     "latestRelease": null,
     "archived": false,
-    "maintenance": "moderate",
+    "maintenance": "slow",
     "selfHostable": true,
     "localOfflineCapable": true,
     "audience": [
@@ -405,7 +406,7 @@
       "https://huggingface.co/datasets/HuggingFaceFW/fineweb-2",
       "https://huggingface.co/datasets/HuggingFaceFW/fineweb"
     ],
-    "notes": "GitHub description is empty; paired with Hub datasets HuggingFaceFW/fineweb and HuggingFaceFW/fineweb-2."
+    "notes": "GitHub description is empty; paired with Hub datasets HuggingFaceFW/fineweb and HuggingFaceFW/fineweb-2. Activity verification 2026-08-12: maintenance moderate→slow (pushedAt=2025-10-27T18:15:38Z, primary_status=low_activity)."
   },
   {
     "id": "instructlab-instructlab",
@@ -419,8 +420,7 @@
     "whyCare": "Still a notable pattern for taxonomy-based synthetic data generation even though the core repo is now archived—study it for LAB-method style contribution workflows.",
     "primaryCategory": "datasets",
     "secondaryCategories": [
-      "training",
-      "local-ai"
+      "training"
     ],
     "tags": [
       "instructlab",
@@ -456,7 +456,7 @@
       "https://github.com/instructlab/instructlab",
       "https://instructlab.ai"
     ],
-    "notes": "Repository marked archived on GitHub as of verification date."
+    "notes": "Repository marked archived on GitHub as of verification date. Category verification 2026-08-12: datasets/['training', 'local-ai'] → datasets/['training']."
   },
   {
     "id": "meta-llama-synthetic-data-kit",
@@ -487,7 +487,7 @@
     "latestCommitAt": "2025-10-28T20:10:55Z",
     "latestRelease": null,
     "archived": false,
-    "maintenance": "moderate",
+    "maintenance": "slow",
     "selfHostable": true,
     "localOfflineCapable": true,
     "audience": [
@@ -505,7 +505,8 @@
     "sources": [
       "https://github.com/meta-llama/synthetic-data-kit",
       "https://pypi.org/project/synthetic-data-kit/"
-    ]
+    ],
+    "notes": "Activity verification 2026-08-12: maintenance moderate→slow (pushedAt=2025-10-28T20:10:55Z, primary_status=low_activity)."
   },
   {
     "id": "mosaicml-streaming",
@@ -537,7 +538,7 @@
     "latestCommitAt": "2026-06-25T15:02:27Z",
     "latestRelease": "v0.13.0",
     "archived": false,
-    "maintenance": "active",
+    "maintenance": "moderate",
     "selfHostable": true,
     "localOfflineCapable": false,
     "audience": [
@@ -556,7 +557,7 @@
       "https://github.com/mosaicml/streaming",
       "https://streaming.docs.mosaicml.com"
     ],
-    "notes": "localOfflineCapable=false because primary design center is remote object-store streaming (local shards still possible but not the main mode)."
+    "notes": "localOfflineCapable=false because primary design center is remote object-store streaming (local shards still possible but not the main mode). Activity verification 2026-08-12: maintenance active→moderate (pushedAt=2026-06-25T15:02:27Z, primary_status=maintained)."
   },
   {
     "id": "nvidia-nemo-curator",
@@ -584,7 +585,7 @@
     ],
     "language": "Python",
     "license": "Apache-2.0",
-    "stars": 1712,
+    "stars": 1713,
     "forks": 313,
     "latestCommitAt": "2026-08-12T17:28:17Z",
     "latestRelease": "v1.3.0",
@@ -691,7 +692,7 @@
     "latestCommitAt": "2026-06-03T16:00:12Z",
     "latestRelease": null,
     "archived": false,
-    "maintenance": "active",
+    "maintenance": "moderate",
     "selfHostable": true,
     "localOfflineCapable": true,
     "audience": [
@@ -709,6 +710,7 @@
     "sources": [
       "https://github.com/togethercomputer/RedPajama-Data",
       "https://www.together.ai/blog/redpajama"
-    ]
+    ],
+    "notes": "Activity verification 2026-08-12: maintenance active→moderate (pushedAt=2026-06-03T16:00:12Z, primary_status=maintained)."
   }
 ]

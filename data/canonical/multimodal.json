@@ -28,7 +28,7 @@
     "latestCommitAt": "2024-12-12T17:37:41Z",
     "latestRelease": null,
     "archived": false,
-    "maintenance": "slow",
+    "maintenance": "stale",
     "selfHostable": true,
     "localOfflineCapable": true,
     "audience": [
@@ -45,7 +45,8 @@
     "sources": [
       "https://github.com/allenai/molmo",
       "https://huggingface.co/allenai/Molmo-7B-D-0924"
-    ]
+    ],
+    "notes": "Activity verification 2026-08-12: maintenance slow→stale (pushedAt=2024-12-12T17:37:41Z, primary_status=stale)."
   },
   {
     "id": "deepseek-ai-deepseek-vl2",
@@ -75,7 +76,7 @@
     "latestCommitAt": "2025-02-26T05:03:42Z",
     "latestRelease": null,
     "archived": false,
-    "maintenance": "moderate",
+    "maintenance": "stale",
     "selfHostable": true,
     "localOfflineCapable": true,
     "audience": [
@@ -92,7 +93,8 @@
     "sources": [
       "https://github.com/deepseek-ai/DeepSeek-VL2",
       "https://github.com/deepseek-ai/DeepSeek-VL"
-    ]
+    ],
+    "notes": "Activity verification 2026-08-12: maintenance moderate→stale (pushedAt=2025-02-26T05:03:42Z, primary_status=stale)."
   },
   {
     "id": "facebookresearch-chameleon",
@@ -170,7 +172,7 @@
     "latestCommitAt": "2024-08-12T09:52:38Z",
     "latestRelease": "v1.2.0",
     "archived": false,
-    "maintenance": "slow",
+    "maintenance": "stale",
     "selfHostable": true,
     "localOfflineCapable": true,
     "audience": [
@@ -189,57 +191,8 @@
       "https://github.com/haotian-liu/LLaVA",
       "https://llava.hliu.cc",
       "https://arxiv.org/abs/2304.08485"
-    ]
-  },
-  {
-    "id": "idea-research-grounded-sam-2",
-    "name": "Grounded-SAM-2",
-    "owner": "IDEA-Research",
-    "repo": "Grounded-SAM-2",
-    "githubUrl": "https://github.com/IDEA-Research/Grounded-SAM-2",
-    "homepage": "https://arxiv.org/abs/2401.14159",
-    "description": "Grounded SAM 2: Ground and Track Anything in Videos with Grounding DINO, Florence-2 and SAM 2",
-    "editorialSummary": "IDEA-Research pipeline that grounds and tracks anything in images/video by combining Grounding DINO, Microsoft Florence-2, and SAM 2. Practical open entry point for Florence-2-style open-vocabulary perception.",
-    "whyCare": "Best high-star OSS project that ships Florence-2 in a real multimodal detection/segmentation workflow (Florence-2 weights themselves are primarily on Hugging Face).",
-    "primaryCategory": "multimodal",
-    "secondaryCategories": [
-      "image-ai",
-      "video-ai"
     ],
-    "tags": [
-      "florence-2",
-      "grounding-dino",
-      "sam-2",
-      "open-vocabulary",
-      "segmentation"
-    ],
-    "language": "Jupyter Notebook",
-    "license": "Apache-2.0",
-    "stars": 3688,
-    "forks": 428,
-    "latestCommitAt": "2025-11-11T12:16:57Z",
-    "latestRelease": "v1.0",
-    "archived": false,
-    "maintenance": "moderate",
-    "selfHostable": true,
-    "localOfflineCapable": true,
-    "audience": [
-      "engineers",
-      "researchers"
-    ],
-    "difficulty": "intermediate",
-    "documentationQuality": "good",
-    "demoAvailable": true,
-    "featured": false,
-    "emerging": false,
-    "historicallySignificant": false,
-    "dateLastVerified": "2026-08-12",
-    "sources": [
-      "https://github.com/IDEA-Research/Grounded-SAM-2",
-      "https://huggingface.co/microsoft/Florence-2-large",
-      "https://arxiv.org/abs/2311.06242"
-    ],
-    "notes": "Florence-2 has no large standalone Microsoft model-code repo; weights/docs are on Hugging Face. This repo is the primary curated Florence-2-related OSS integration."
+    "notes": "Activity verification 2026-08-12: maintenance slow→stale (pushedAt=2024-08-12T09:52:38Z, primary_status=stale)."
   },
   {
     "id": "llava-vl-llava-next",
@@ -269,7 +222,7 @@
     "latestCommitAt": "2026-06-15T06:32:49Z",
     "latestRelease": null,
     "archived": false,
-    "maintenance": "active",
+    "maintenance": "moderate",
     "selfHostable": true,
     "localOfflineCapable": true,
     "audience": [
@@ -286,7 +239,8 @@
     "sources": [
       "https://github.com/LLaVA-VL/LLaVA-NeXT",
       "https://llava.hliu.cc"
-    ]
+    ],
+    "notes": "Activity verification 2026-08-12: maintenance active→moderate (pushedAt=2026-06-15T06:32:49Z, primary_status=maintained)."
   },
   {
     "id": "microsoft-phicookbook",
@@ -368,7 +322,7 @@
     "latestCommitAt": "2026-01-23T04:09:35Z",
     "latestRelease": "yoco.v0",
     "archived": false,
-    "maintenance": "moderate",
+    "maintenance": "slow",
     "selfHostable": true,
     "localOfflineCapable": true,
     "audience": [
@@ -387,7 +341,7 @@
       "https://github.com/microsoft/unilm/tree/master/kosmos-2",
       "https://aka.ms/GeneralAI"
     ],
-    "notes": "Kosmos family directories: kosmos-1, kosmos-2, kosmos-2.5 inside this monorepo."
+    "notes": "Kosmos family directories: kosmos-1, kosmos-2, kosmos-2.5 inside this monorepo. Activity verification 2026-08-12: maintenance moderate→slow (pushedAt=2026-01-23T04:09:35Z, primary_status=low_activity)."
   },
   {
     "id": "mlfoundations-open-clip",
@@ -467,7 +421,7 @@
     "latestCommitAt": "2026-03-25T18:46:40Z",
     "latestRelease": null,
     "archived": false,
-    "maintenance": "moderate",
+    "maintenance": "slow",
     "selfHostable": true,
     "localOfflineCapable": true,
     "audience": [
@@ -486,7 +440,8 @@
     "sources": [
       "https://github.com/openai/CLIP",
       "https://arxiv.org/abs/2103.00020"
-    ]
+    ],
+    "notes": "Activity verification 2026-08-12: maintenance moderate→slow (pushedAt=2026-03-25T18:46:40Z, primary_status=low_activity)."
   },
   {
     "id": "openbmb-minicpm-v",
@@ -566,7 +521,7 @@
     "latestCommitAt": "2025-09-22T01:36:48Z",
     "latestRelease": "v1.5.0",
     "archived": false,
-    "maintenance": "moderate",
+    "maintenance": "slow",
     "selfHostable": true,
     "localOfflineCapable": true,
     "audience": [
@@ -584,7 +539,8 @@
     "sources": [
       "https://github.com/OpenGVLab/InternVL",
       "https://internvl.readthedocs.io/en/latest/"
-    ]
+    ],
+    "notes": "Activity verification 2026-08-12: maintenance moderate→slow (pushedAt=2025-09-22T01:36:48Z, primary_status=low_activity)."
   },
   {
     "id": "qwenlm-qwen-vl",
@@ -662,7 +618,7 @@
     "latestCommitAt": "2026-01-30T04:47:30Z",
     "latestRelease": null,
     "archived": false,
-    "maintenance": "moderate",
+    "maintenance": "slow",
     "selfHostable": true,
     "localOfflineCapable": true,
     "audience": [
@@ -681,7 +637,7 @@
       "https://github.com/QwenLM/Qwen3-VL",
       "https://github.com/QwenLM/Qwen2.5-VL"
     ],
-    "notes": "QwenLM/Qwen2-VL and QwenLM/Qwen2.5-VL resolve to this repo on GitHub."
+    "notes": "QwenLM/Qwen2-VL and QwenLM/Qwen2.5-VL resolve to this repo on GitHub. Activity verification 2026-08-12: maintenance moderate→slow (pushedAt=2026-01-30T04:47:30Z, primary_status=low_activity)."
   },
   {
     "id": "salesforce-lavis",
@@ -712,7 +668,7 @@
     "latestCommitAt": "2026-06-02T18:14:49Z",
     "latestRelease": "v1.0.2",
     "archived": false,
-    "maintenance": "active",
+    "maintenance": "moderate",
     "selfHostable": true,
     "localOfflineCapable": true,
     "audience": [
@@ -731,7 +687,7 @@
       "https://github.com/salesforce/LAVIS",
       "https://arxiv.org/abs/2301.12597"
     ],
-    "notes": "BLIP-2 lives in this library; there is no separate official Salesforce/blip2 application repo."
+    "notes": "BLIP-2 lives in this library; there is no separate official Salesforce/blip2 application repo. Activity verification 2026-08-12: maintenance active→moderate (pushedAt=2026-06-02T18:14:49Z, primary_status=maintained)."
   },
   {
     "id": "vision-cair-minigpt-4",
@@ -760,7 +716,7 @@
     "latestCommitAt": "2024-09-02T09:07:21Z",
     "latestRelease": null,
     "archived": false,
-    "maintenance": "slow",
+    "maintenance": "stale",
     "selfHostable": true,
     "localOfflineCapable": true,
     "audience": [
@@ -778,6 +734,7 @@
     "sources": [
       "https://github.com/Vision-CAIR/MiniGPT-4",
       "https://minigpt-4.github.io"
-    ]
+    ],
+    "notes": "Activity verification 2026-08-12: maintenance slow→stale (pushedAt=2024-09-02T09:07:21Z, primary_status=stale)."
   }
 ]

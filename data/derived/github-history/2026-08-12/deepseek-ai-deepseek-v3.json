@@ -1,0 +1,21 @@
+{
+  "id": "deepseek-ai-deepseek-v3",
+  "fetchedAt": "2026-08-12T19:24:51.995Z",
+  "stars": 104169,
+  "forks": 16723,
+  "watchers": 749,
+  "openIssues": 204,
+  "language": "Python",
+  "license": "MIT",
+  "description": null,
+  "homepage": null,
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2025-08-28T03:24:37Z",
+  "updatedAt": "2026-08-12T18:34:23Z",
+  "createdAt": "2024-12-26T09:52:40Z",
+  "latestRelease": "v1.0.0",
+  "latestReleaseAt": "2025-06-27T08:46:37Z",
+  "defaultBranch": "main"
+}

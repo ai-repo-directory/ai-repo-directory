@@ -1,0 +1,3140 @@
+{
+  "agent": "agent3-readme",
+  "dateVerified": "2026-08-12",
+  "totals": {
+    "repos": 233,
+    "readmeFetched": 232,
+    "ok": 217,
+    "flagged": 2,
+    "corrected": 13,
+    "fetch_failed": 1
+  },
+  "method": {
+    "readmeSource": "https://raw.githubusercontent.com/{owner}/{repo}/{defaultBranch}/README.md with main/master and filename fallbacks",
+    "defaultBranchSource": "data/derived/github/*.json",
+    "priority": "featured, high-star, generic/AI-slop, maintenance mismatches",
+    "policy": "Rewrite editorialSummary/whyCare only when clearly wrong vs README; never infer from repo name alone"
+  },
+  "topCorrections": [
+    {
+      "id": "continuedev-continue",
+      "summary_changed": true,
+      "issues": [
+        "README states repository is no longer actively maintained / read-only after final 2.0.0; editorial presented it as mature active product; maintenance was active"
+      ],
+      "field_changes": {
+        "maintenance": {
+          "from": "active",
+          "to": "stale"
+        }
+      },
+      "editorialSummary": "Continue was a pioneering open-source coding agent (CLI, VS Code extension, and JetBrains plugin) with BYOK providers, rules, and context providers. The continuedev/continue GitHub repo is now read-only and no longer actively maintained after a final 2.0.0 release.",
+      "whyCare": "Still a major historical Cursor/Copilot-class OSS IDE agent and a useful read-only reference/fork base, but not an actively developed upstream—prefer maintained alternatives for new work."
+    },
+    {
+      "id": "karpathy-nanogpt",
+      "summary_changed": true,
+      "issues": [
+        "README marks nanoGPT deprecated (Nov 2025) in favor of nanochat; editorial still called it the default/best starting point"
+      ],
+      "field_changes": {
+        "maintenance": {
+          "from": "slow",
+          "to": "stale"
+        }
+      },
+      "editorialSummary": "Karpathy's minimal GPT training repo that taught a generation of researchers readable pretraining loops. The README now marks nanoGPT as deprecated in favor of the newer nanochat project, but the ~300-line train/model core remains a classic educational artifact.",
+      "whyCare": "Still the clearest historical baseline for understanding GPT training loops; for new work the author points you to nanochat instead."
+    },
+    {
+      "id": "meta-pytorch-torchtune",
+      "summary_changed": true,
+      "issues": [
+        "README: torchtune no longer actively maintained (wound down 2025); editorial and maintenance=active omitted that"
+      ],
+      "field_changes": {
+        "maintenance": {
+          "from": "active",
+          "to": "stale"
+        }
+      },
+      "editorialSummary": "PyTorch-native post-training library with composable recipes for SFT, LoRA, preference tuning (DPO/PPO/GRPO), and QAT. Development wound down in 2025 and the project is no longer actively maintained, though the recipes remain a readable PyTorch reference.",
+      "whyCare": "Useful when you want hackable first-party PyTorch post-training recipes—but treat it as unmaintained legacy rather than a default new stack."
+    },
+    {
+      "id": "modelcontextprotocol-servers",
+      "summary_changed": true,
+      "issues": [
+        "whyCare oversold shipping production from reference servers; README WARNING says educational examples not production-ready; README points list browsers to MCP Registry"
+      ],
+      "field_changes": {},
+      "editorialSummary": "Official MCP reference-server monorepo (filesystem, fetch, git, memory, and related examples) maintained by the MCP steering group. Intended as educational SDK samples—not a production server catalog; browse the MCP Registry for published servers.",
+      "whyCare": "Best place to learn reference MCP server shape and SDK usage; for production integrations prefer purpose-built servers and the MCP Registry rather than these examples."
+    },
+    {
+      "id": "itzcrazykns-vane",
+      "summary_changed": false,
+      "issues": [
+        "localOfflineCapable=false but README: runs on your own hardware with local LLMs (Ollama) and private SearXNG search"
+      ],
+      "field_changes": {
+        "localOfflineCapable": {
+          "from": false,
+          "to": true
+        }
+      },
+      "editorialSummary": "Self-hosted AI answering/search engine (formerly Perplexica) built around local or remote LLMs plus search backends like SearXNG. Privacy-oriented alternative to cloud answer engines.",
+      "whyCare": "If your “local AI stack” needs web-grounded Q&A—not just chat—this is the go-to OSS Perplexity-style stack."
+    },
+    {
+      "id": "browserbase-mcp-server-browserbase",
+      "summary_changed": false,
+      "issues": [
+        "selfHostable=false but README describes a self-hostable version of the Browserbase hosted MCP server (still depends on Browserbase cloud browsers; repo archived)"
+      ],
+      "field_changes": {
+        "selfHostable": {
+          "from": false,
+          "to": true
+        }
+      },
+      "editorialSummary": "MCP server that lets LLMs drive cloud browsers via Browserbase and Stagehand. Historically influential browser-automation MCP; repository is now archived.",
+      "whyCare": "Reference for browser-control MCP design; for active Stagehand/browser work prefer Browserbase Stagehand and newer browser MCP servers."
+    },
+    {
+      "id": "giskard-ai-giskard-oss",
+      "summary_changed": true,
+      "issues": [
+        "Editorial framed generic LLM/ML testing; README centers v3 agentic rewrite and notes v2 unmaintained"
+      ],
+      "field_changes": {},
+      "editorialSummary": "Giskard OSS is a Python toolkit for testing and evaluating agentic systems. v3 is a modular rewrite (scenario checks, LLM-as-judge, and giskard-scan for vulnerability/RAG quality); legacy v2 tabular/ML scan paths remain available but are no longer actively maintained.",
+      "whyCare": "Reach for it when you need agent red-teaming, multi-turn scenario checks, and RAG/quality scanning beyond simple accuracy metrics."
+    },
+    {
+      "id": "voideditor-void",
+      "summary_changed": true,
+      "issues": [
+        "README says Void is deprecated; editorial only emphasized archived"
+      ],
+      "field_changes": {},
+      "editorialSummary": "Open-source AI code editor positioned as a Cursor alternative on the VS Code lineage with BYOK model support. The project is deprecated (no longer accepting contributions) and the GitHub repo is archived; it remains a landmark fork reference.",
+      "whyCare": "One of the best-known open Cursor-class editors; valuable historically and as a fork base (see Void forks) even though upstream is deprecated/archived."
+    },
+    {
+      "id": "openhands-openhands",
+      "summary_changed": true,
+      "issues": [
+        "Editorial underspecified current multi-backend/ACP Agent Canvas positioning described in README"
+      ],
+      "field_changes": {},
+      "editorialSummary": "Formerly OpenDevin: an open platform for AI-driven software development. It can run OpenHands agents and other ACP-compatible coding agents across local, remote, and cloud backends, with Agent Canvas as a self-hosted control center for multi-agent engineering work.",
+      "whyCare": "Leading open coding-agent platform after the OpenDevin rebrand—strong when you want a self-hosted hub that can drive OpenHands or other ACP-compatible agents on real repos."
+    },
+    {
+      "id": "sgl-project-sglang",
+      "summary_changed": true,
+      "issues": [
+        "editorial used AI-slop phrase cutting-edge; otherwise factually aligned with README"
+      ],
+      "field_changes": {},
+      "editorialSummary": "SGLang is a high-performance LLM serving framework focused on fast structured generation, RadixAttention for KV-cache reuse, and strong multimodal/MoE support. It is a primary open alternative to vLLM for throughput-oriented GPU serving.",
+      "whyCare": "Strong alternative to vLLM when you need radix-cache efficiency, constrained/structured decoding, or competitive multimodal and MoE serving performance."
+    },
+    {
+      "id": "zylon-ai-private-gpt",
+      "summary_changed": true,
+      "issues": [
+        "README now positions product as API layer for private AI apps (Claude API model); editorial was slightly RAG-era only though still directionally right"
+      ],
+      "field_changes": {},
+      "editorialSummary": "PrivateGPT is an open-source API layer that turns local (or OpenAI-compatible) models into private AI applications—document RAG and higher-level building blocks with a Claude-style API. It popularized private document Q&A and continues to emphasize on-prem/privacy-first defaults.",
+      "whyCare": "Ideal when documents must stay on-prem and you want a ready API for private RAG and related app primitives rather than wiring inference and retrieval yourself."
+    },
+    {
+      "id": "fishaudio-fish-speech",
+      "summary_changed": true,
+      "issues": [
+        "editorial asserted SOTA positioning; README supports strong Seed-TTS Eval WER results—rewrote to cite that rather than unqualified SOTA"
+      ],
+      "field_changes": {},
+      "editorialSummary": "Actively maintained open TTS stack from Fish Audio with strong multilingual synthesis and voice cloning, plus deployment tooling. README cites leading Seed-TTS Eval WER numbers; license is research/non-commercial unless you obtain a separate commercial agreement.",
+      "whyCare": "High-quality open TTS choice for cloning and multilingual speech when you can accept the Fish Audio research license terms."
+    },
+    {
+      "id": "run-llama-llama-index",
+      "summary_changed": true,
+      "issues": [
+        "README lead now stresses agentic applications; editorial was RAG-only framing—updated to match without inventing features"
+      ],
+      "field_changes": {},
+      "editorialSummary": "LlamaIndex is a widely used Python framework for building agentic LLM applications over private data—indexing, retrieval/query engines, connectors, and agent workflows. Retrieval-centric abstractions remain a core strength alongside broader agent tooling.",
+      "whyCare": "If you are building document Q&A, knowledge agents, or multi-source RAG/agent pipelines in Python, LlamaIndex offers deep data-connection abstractions and a large integration ecosystem."
+    }
+  ],
+  "repos": [
+    {
+      "id": "aaif-goose-goose",
+      "name": "Goose",
+      "featured": false,
+      "stars": 52720,
+      "canonicalFile": "coding-agents.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/aaif-goose/goose/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "abanteai-archive-old-cli-mentat",
+      "name": "Mentat",
+      "featured": false,
+      "stars": 2546,
+      "canonicalFile": "coding-agents.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/AbanteAI/archive-old-cli-mentat/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "acly-krita-ai-diffusion",
+      "name": "Krita AI Diffusion",
+      "featured": false,
+      "stars": 10458,
+      "canonicalFile": "image-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/Acly/krita-ai-diffusion/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "ag2ai-ag2",
+      "name": "AG2",
+      "featured": false,
+      "stars": 4854,
+      "canonicalFile": "ai-agents.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/ag2ai/ag2/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "agno-agi-agno",
+      "name": "Agno",
+      "featured": true,
+      "stars": 41681,
+      "canonicalFile": "ai-agents.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/agno-agi/agno/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "ai-dynamo-dynamo",
+      "name": "NVIDIA Dynamo",
+      "featured": true,
+      "stars": 7743,
+      "canonicalFile": "infrastructure.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/ai-dynamo/dynamo/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "ai-hypercomputer-maxtext",
+      "name": "MaxText",
+      "featured": false,
+      "stars": 2387,
+      "canonicalFile": "training.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/AI-Hypercomputer/maxtext/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "aider-ai-aider",
+      "name": "Aider",
+      "featured": true,
+      "stars": 48147,
+      "canonicalFile": "coding-agents.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/Aider-AI/aider/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "ailab-cvc-videocrafter",
+      "name": "VideoCrafter",
+      "featured": false,
+      "stars": 5070,
+      "canonicalFile": "video-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/AILab-CVC/VideoCrafter/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "ali-vilab-vgen",
+      "name": "VGen (ModelScope T2V / I2VGen-XL)",
+      "featured": false,
+      "stars": 3156,
+      "canonicalFile": "video-ai.json",
+      "readmeFetched": false,
+      "readmeUrl": null,
+      "status": "fetch_failed",
+      "issues": [
+        "readme_fetch_failed: raw.githubusercontent README.md 404 (repo appears to lack README.md)",
+        "homepage https://i2vgen-xl.github.io fetched: confirms I2VGen-XL image-to-video project page; editorial left unchanged (unverified_readme)"
+      ],
+      "summary_changed": false
+    },
+    {
+      "id": "allenai-dolma",
+      "name": "Dolma",
+      "featured": true,
+      "stars": 1535,
+      "canonicalFile": "datasets.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/allenai/dolma/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "allenai-molmo",
+      "name": "molmo",
+      "featured": false,
+      "stars": 926,
+      "canonicalFile": "multimodal.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/allenai/molmo/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "anomalyco-opencode",
+      "name": "OpenCode",
+      "featured": false,
+      "stars": 196508,
+      "canonicalFile": "coding-agents.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/anomalyco/opencode/dev/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "answerdotai-ragatouille",
+      "name": "RAGatouille",
+      "featured": false,
+      "stars": 3950,
+      "canonicalFile": "rag.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/AnswerDotAI/RAGatouille/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "antonosika-gpt-engineer",
+      "name": "GPT Engineer",
+      "featured": false,
+      "stars": 55149,
+      "canonicalFile": "coding-agents.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/AntonOsika/gpt-engineer/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "argilla-io-argilla",
+      "name": "Argilla",
+      "featured": true,
+      "stars": 5079,
+      "canonicalFile": "datasets.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/argilla-io/argilla/develop/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "argilla-io-distilabel",
+      "name": "Distilabel",
+      "featured": true,
+      "stars": 3366,
+      "canonicalFile": "datasets.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/argilla-io/distilabel/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "arize-ai-phoenix",
+      "name": "phoenix",
+      "featured": true,
+      "stars": 11015,
+      "canonicalFile": "evaluation.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/Arize-ai/phoenix/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "automatic1111-stable-diffusion-webui",
+      "name": "Stable Diffusion web UI",
+      "featured": true,
+      "stars": 164497,
+      "canonicalFile": "image-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "axolotl-ai-cloud-axolotl",
+      "name": "Axolotl",
+      "featured": true,
+      "stars": 12344,
+      "canonicalFile": "training.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/axolotl-ai-cloud/axolotl/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "bentoml-bentoml",
+      "name": "BentoML",
+      "featured": false,
+      "stars": 8782,
+      "canonicalFile": "infrastructure.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/bentoml/BentoML/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "bitsandbytes-foundation-bitsandbytes",
+      "name": "bitsandbytes",
+      "featured": false,
+      "stars": 8414,
+      "canonicalFile": "training.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/bitsandbytes-foundation/bitsandbytes/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "black-forest-labs-flux",
+      "name": "FLUX.1",
+      "featured": true,
+      "stars": 25896,
+      "canonicalFile": "image-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/black-forest-labs/flux/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "blinkdl-rwkv-lm",
+      "name": "RWKV-LM",
+      "featured": false,
+      "stars": 14660,
+      "canonicalFile": "research.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/BlinkDL/RWKV-LM/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "braintrustdata-autoevals",
+      "name": "autoevals",
+      "featured": false,
+      "stars": 998,
+      "canonicalFile": "evaluation.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/braintrustdata/autoevals/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "browserbase-mcp-server-browserbase",
+      "name": "Browserbase MCP Server",
+      "featured": false,
+      "stars": 3412,
+      "canonicalFile": "mcp-tools.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/browserbase/mcp-server-browserbase/main/README.md",
+      "status": "corrected",
+      "issues": [
+        "selfHostable=false but README describes a self-hostable version of the Browserbase hosted MCP server (still depends on Browserbase cloud browsers; repo archived)"
+      ],
+      "summary_changed": false,
+      "field_changes": {
+        "selfHostable": {
+          "from": false,
+          "to": true
+        }
+      },
+      "before": {
+        "editorialSummary": "MCP server that lets LLMs drive cloud browsers via Browserbase and Stagehand. Historically influential browser-automation MCP; repository is now archived.",
+        "whyCare": "Reference for browser-control MCP design; for active Stagehand/browser work prefer Browserbase Stagehand and newer browser MCP servers."
+      },
+      "after": {
+        "editorialSummary": "MCP server that lets LLMs drive cloud browsers via Browserbase and Stagehand. Historically influential browser-automation MCP; repository is now archived.",
+        "whyCare": "Reference for browser-control MCP design; for active Stagehand/browser work prefer Browserbase Stagehand and newer browser MCP servers."
+      }
+    },
+    {
+      "id": "camel-ai-camel",
+      "name": "CAMEL",
+      "featured": false,
+      "stars": 17578,
+      "canonicalFile": "ai-agents.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/camel-ai/camel/master/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "chatboxai-chatbox",
+      "name": "Chatbox",
+      "featured": false,
+      "stars": 41415,
+      "canonicalFile": "local-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/chatboxai/chatbox/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "chatgptnextweb-nextchat",
+      "name": "NextChat",
+      "featured": false,
+      "stars": 88610,
+      "canonicalFile": "local-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/ChatGPTNextWeb/NextChat/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "chroma-core-chroma",
+      "name": "Chroma",
+      "featured": true,
+      "stars": 29037,
+      "canonicalFile": "vector-db.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/chroma-core/chroma/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "cline-cline",
+      "name": "Cline",
+      "featured": true,
+      "stars": 66054,
+      "canonicalFile": "coding-agents.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/cline/cline/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "comfy-org-comfyui",
+      "name": "ComfyUI",
+      "featured": true,
+      "stars": 127051,
+      "canonicalFile": "image-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/Comfy-Org/ComfyUI/master/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "composiohq-composio",
+      "name": "Composio",
+      "featured": true,
+      "stars": 29649,
+      "canonicalFile": "mcp-tools.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/ComposioHQ/composio/next/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "confident-ai-deepeval",
+      "name": "deepeval",
+      "featured": true,
+      "stars": 17553,
+      "canonicalFile": "evaluation.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/confident-ai/deepeval/main/README.md",
+      "status": "flagged",
+      "issues": [
+        "localOfflineCapable=false while README emphasizes metrics/tests that run locally on your machine (cloud Confident AI is optional product); not auto-corrected—may be intentional if judge models need APIs"
+      ],
+      "summary_changed": false
+    },
+    {
+      "id": "continuedev-continue",
+      "name": "Continue",
+      "featured": true,
+      "stars": 35457,
+      "canonicalFile": "coding-agents.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/continuedev/continue/main/README.md",
+      "status": "corrected",
+      "issues": [
+        "README states repository is no longer actively maintained / read-only after final 2.0.0; editorial presented it as mature active product; maintenance was active"
+      ],
+      "summary_changed": true,
+      "field_changes": {
+        "maintenance": {
+          "from": "active",
+          "to": "stale"
+        }
+      },
+      "before": {
+        "editorialSummary": "Open-source coding agent and IDE extension that brings chat, autocomplete, and agentic edits into VS Code and JetBrains with your choice of model providers. Strong emphasis on customizable rules, context providers, and local or cloud LLMs.",
+        "whyCare": "One of the most mature OSS Cursor/Copilot-style IDE experiences; easy path to BYOK or fully local coding assistance inside the editors developers already use."
+      },
+      "after": {
+        "editorialSummary": "Continue was a pioneering open-source coding agent (CLI, VS Code extension, and JetBrains plugin) with BYOK providers, rules, and context providers. The continuedev/continue GitHub repo is now read-only and no longer actively maintained after a final 2.0.0 release.",
+        "whyCare": "Still a major historical Cursor/Copilot-class OSS IDE agent and a useful read-only reference/fork base, but not an actively developed upstream—prefer maintained alternatives for new work."
+      }
+    },
+    {
+      "id": "coqui-ai-tts",
+      "name": "Coqui TTS",
+      "featured": true,
+      "stars": 45883,
+      "canonicalFile": "audio-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/coqui-ai/TTS/dev/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "crewaiinc-crewai",
+      "name": "CrewAI",
+      "featured": true,
+      "stars": 56989,
+      "canonicalFile": "ai-agents.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/crewAIInc/crewAI/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "cursortouch-windows-mcp",
+      "name": "Windows-MCP",
+      "featured": false,
+      "stars": 6732,
+      "canonicalFile": "mcp-tools.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/CursorTouch/Windows-MCP/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "danny-avila-librechat",
+      "name": "LibreChat",
+      "featured": true,
+      "stars": 41958,
+      "canonicalFile": "local-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/danny-avila/LibreChat/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "dao-ailab-flash-attention",
+      "name": "FlashAttention",
+      "featured": true,
+      "stars": 24690,
+      "canonicalFile": "training.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/Dao-AILab/flash-attention/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "datadreamer-dev-datadreamer",
+      "name": "DataDreamer",
+      "featured": false,
+      "stars": 1116,
+      "canonicalFile": "datasets.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/datadreamer-dev/DataDreamer/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "deepseek-ai-deepseek-vl2",
+      "name": "DeepSeek-VL2",
+      "featured": false,
+      "stars": 5355,
+      "canonicalFile": "multimodal.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/deepseek-ai/DeepSeek-VL2/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "deepset-ai-haystack",
+      "name": "Haystack",
+      "featured": true,
+      "stars": 26189,
+      "canonicalFile": "rag.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/deepset-ai/haystack/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "deepspeedai-deepspeed",
+      "name": "DeepSpeed",
+      "featured": true,
+      "stars": 42915,
+      "canonicalFile": "training.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/deepspeedai/DeepSpeed/master/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "determined-ai-determined",
+      "name": "Determined",
+      "featured": false,
+      "stars": 3232,
+      "canonicalFile": "infrastructure.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/determined-ai/determined/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "doubiiu-dynamicrafter",
+      "name": "DynamiCrafter",
+      "featured": false,
+      "stars": 3008,
+      "canonicalFile": "video-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/Doubiiu/DynamiCrafter/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "dphnai-sonar",
+      "name": "Sonar (Aphrodite Engine)",
+      "featured": false,
+      "stars": 1831,
+      "canonicalFile": "llm-inference.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/dphnAI/sonar/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "eleutherai-gpt-neox",
+      "name": "GPT-NeoX",
+      "featured": false,
+      "stars": 7451,
+      "canonicalFile": "research.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/EleutherAI/gpt-neox/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "eleutherai-lm-evaluation-harness",
+      "name": "lm-evaluation-harness",
+      "featured": true,
+      "stars": 13605,
+      "canonicalFile": "evaluation.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "eleutherai-the-pile",
+      "name": "The Pile",
+      "featured": false,
+      "stars": 1674,
+      "canonicalFile": "datasets.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/EleutherAI/the-pile/master/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "exo-explore-exo",
+      "name": "exo",
+      "featured": false,
+      "stars": 46785,
+      "canonicalFile": "llm-inference.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/exo-explore/exo/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "facebookresearch-audiocraft",
+      "name": "AudioCraft",
+      "featured": true,
+      "stars": 23559,
+      "canonicalFile": "audio-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/facebookresearch/audiocraft/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "facebookresearch-chameleon",
+      "name": "chameleon",
+      "featured": false,
+      "stars": 2104,
+      "canonicalFile": "multimodal.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/facebookresearch/chameleon/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "facebookresearch-demucs",
+      "name": "Demucs",
+      "featured": false,
+      "stars": 10356,
+      "canonicalFile": "audio-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/facebookresearch/demucs/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "facebookresearch-faiss",
+      "name": "FAISS",
+      "featured": true,
+      "stars": 40723,
+      "canonicalFile": "vector-db.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/facebookresearch/faiss/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "facebookresearch-moviegenbench",
+      "name": "MovieGenBench",
+      "featured": false,
+      "stars": 442,
+      "canonicalFile": "evaluation.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/facebookresearch/MovieGenBench/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "facebookresearch-sam2",
+      "name": "SAM 2",
+      "featured": false,
+      "stars": 19692,
+      "canonicalFile": "image-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/facebookresearch/sam2/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "facebookresearch-seamless-communication",
+      "name": "SeamlessM4T",
+      "featured": false,
+      "stars": 11839,
+      "canonicalFile": "audio-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/facebookresearch/seamless_communication/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "facebookresearch-segment-anything",
+      "name": "Segment Anything",
+      "featured": true,
+      "stars": 54679,
+      "canonicalFile": "image-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/facebookresearch/segment-anything/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "fishaudio-fish-speech",
+      "name": "Fish Speech",
+      "featured": true,
+      "stars": 32165,
+      "canonicalFile": "audio-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/fishaudio/fish-speech/main/README.md",
+      "status": "corrected",
+      "issues": [
+        "editorial asserted SOTA positioning; README supports strong Seed-TTS Eval WER results—rewrote to cite that rather than unqualified SOTA"
+      ],
+      "summary_changed": true,
+      "before": {
+        "editorialSummary": "Actively maintained open TTS stack from Fish Audio positioned as SOTA multilingual speech synthesis with strong cloning and deployment tooling. Custom research/non-commercial license—commercial use needs a separate agreement.",
+        "whyCare": "Current high-quality open TTS choice for cloning and multilingual speech when you can accept the Fish Audio research license terms."
+      },
+      "after": {
+        "editorialSummary": "Actively maintained open TTS stack from Fish Audio with strong multilingual synthesis and voice cloning, plus deployment tooling. README cites leading Seed-TTS Eval WER numbers; license is research/non-commercial unless you obtain a separate commercial agreement.",
+        "whyCare": "High-quality open TTS choice for cloning and multilingual speech when you can accept the Fish Audio research license terms."
+      }
+    },
+    {
+      "id": "flyteorg-flyte",
+      "name": "Flyte",
+      "featured": false,
+      "stars": 7198,
+      "canonicalFile": "infrastructure.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/flyteorg/flyte/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "genmoai-mochi",
+      "name": "Mochi",
+      "featured": false,
+      "stars": 3705,
+      "canonicalFile": "video-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/genmoai/mochi/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "ggml-org-llama.cpp",
+      "name": "llama.cpp",
+      "featured": true,
+      "stars": 123663,
+      "canonicalFile": "local-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/ggml-org/llama.cpp/master/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "ggml-org-whisper-cpp",
+      "name": "whisper.cpp",
+      "featured": true,
+      "stars": 52843,
+      "canonicalFile": "audio-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/ggml-org/whisper.cpp/master/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "giskard-ai-giskard-oss",
+      "name": "giskard-oss",
+      "featured": false,
+      "stars": 5749,
+      "canonicalFile": "evaluation.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/Giskard-AI/giskard-oss/main/README.md",
+      "status": "corrected",
+      "issues": [
+        "Editorial framed generic LLM/ML testing; README centers v3 agentic rewrite and notes v2 unmaintained"
+      ],
+      "summary_changed": true,
+      "before": {
+        "editorialSummary": "Giskard OSS is an evaluation and testing library for LLM agents and ML models, covering quality, security, fairness, and automated scanning workflows.",
+        "whyCare": "Strong when you need vulnerability/red-team style testing and responsible-AI checks beyond accuracy metrics alone."
+      },
+      "after": {
+        "editorialSummary": "Giskard OSS is a Python toolkit for testing and evaluating agentic systems. v3 is a modular rewrite (scenario checks, LLM-as-judge, and giskard-scan for vulnerability/RAG quality); legacy v2 tabular/ML scan paths remain available but are no longer actively maintained.",
+        "whyCare": "Reach for it when you need agent red-teaming, multi-turn scenario checks, and RAG/quality scanning beyond simple accuracy metrics."
+      }
+    },
+    {
+      "id": "github-github-mcp-server",
+      "name": "GitHub MCP Server",
+      "featured": true,
+      "stars": 32188,
+      "canonicalFile": "mcp-tools.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/github/github-mcp-server/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "google-adk-python",
+      "name": "Google Agent Development Kit",
+      "featured": false,
+      "stars": 21087,
+      "canonicalFile": "ai-agents.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/google/adk-python/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "google-flax",
+      "name": "Flax",
+      "featured": false,
+      "stars": 7299,
+      "canonicalFile": "infrastructure.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/google/flax/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "google-gemini-gemini-cli",
+      "name": "Gemini CLI",
+      "featured": false,
+      "stars": 106489,
+      "canonicalFile": "coding-agents.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/google-gemini/gemini-cli/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "guoyww-animatediff",
+      "name": "AnimateDiff",
+      "featured": true,
+      "stars": 12213,
+      "canonicalFile": "video-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/guoyww/AnimateDiff/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "hao-ai-lab-fastvideo",
+      "name": "FastVideo",
+      "featured": false,
+      "stars": 3941,
+      "canonicalFile": "video-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/hao-ai-lab/FastVideo/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "haotian-liu-llava",
+      "name": "LLaVA",
+      "featured": true,
+      "stars": 24977,
+      "canonicalFile": "multimodal.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/haotian-liu/LLaVA/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "harvardnlp-annotated-transformer",
+      "name": "The Annotated Transformer",
+      "featured": false,
+      "stars": 7436,
+      "canonicalFile": "research.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/harvardnlp/annotated-transformer/master/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "helicone-helicone",
+      "name": "helicone",
+      "featured": false,
+      "stars": 6058,
+      "canonicalFile": "evaluation.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/Helicone/helicone/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "hiyouga-llamafactory",
+      "name": "LLaMA-Factory",
+      "featured": true,
+      "stars": 74027,
+      "canonicalFile": "training.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/hiyouga/LlamaFactory/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "hpcaitech-colossalai",
+      "name": "ColossalAI",
+      "featured": false,
+      "stars": 41435,
+      "canonicalFile": "training.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/hpcaitech/ColossalAI/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "hpcaitech-open-sora",
+      "name": "Open-Sora",
+      "featured": true,
+      "stars": 29269,
+      "canonicalFile": "video-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/hpcaitech/Open-Sora/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "huggingface-accelerate",
+      "name": "Accelerate",
+      "featured": false,
+      "stars": 9814,
+      "canonicalFile": "training.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/huggingface/accelerate/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "huggingface-chat-ui",
+      "name": "chat-ui",
+      "featured": false,
+      "stars": 10880,
+      "canonicalFile": "local-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/huggingface/chat-ui/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "huggingface-datasets",
+      "name": "Datasets",
+      "featured": true,
+      "stars": 21831,
+      "canonicalFile": "datasets.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/huggingface/datasets/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "huggingface-datatrove",
+      "name": "Datatrove",
+      "featured": true,
+      "stars": 3260,
+      "canonicalFile": "datasets.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/huggingface/datatrove/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "huggingface-diffusers",
+      "name": "Diffusers",
+      "featured": true,
+      "stars": 34292,
+      "canonicalFile": "image-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/huggingface/diffusers/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "huggingface-fineweb-2",
+      "name": "FineWeb-2",
+      "featured": false,
+      "stars": 257,
+      "canonicalFile": "datasets.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/huggingface/fineweb-2/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "huggingface-peft",
+      "name": "PEFT",
+      "featured": true,
+      "stars": 21536,
+      "canonicalFile": "training.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/huggingface/peft/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "huggingface-smolagents",
+      "name": "smolagents",
+      "featured": false,
+      "stars": 28776,
+      "canonicalFile": "ai-agents.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/huggingface/smolagents/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "huggingface-text-generation-inference",
+      "name": "Text Generation Inference",
+      "featured": false,
+      "stars": 10886,
+      "canonicalFile": "llm-inference.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/huggingface/text-generation-inference/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "huggingface-transformers",
+      "name": "Transformers",
+      "featured": true,
+      "stars": 164003,
+      "canonicalFile": "infrastructure.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/huggingface/transformers/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "huggingface-trl",
+      "name": "TRL",
+      "featured": true,
+      "stars": 19060,
+      "canonicalFile": "training.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/huggingface/trl/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "hzwer-eccv2022-rife",
+      "name": "RIFE",
+      "featured": false,
+      "stars": 5561,
+      "canonicalFile": "video-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/hzwer/ECCV2022-RIFE/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "idea-research-grounded-sam-2",
+      "name": "Grounded-SAM-2",
+      "featured": false,
+      "stars": 3688,
+      "canonicalFile": "image-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/IDEA-Research/Grounded-SAM-2/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "idea-research-groundingdino",
+      "name": "Grounding DINO",
+      "featured": false,
+      "stars": 10500,
+      "canonicalFile": "image-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/IDEA-Research/GroundingDINO/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "instantx-research-instantid",
+      "name": "InstantID",
+      "featured": false,
+      "stars": 11985,
+      "canonicalFile": "image-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/instantX-research/InstantID/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "instructlab-instructlab",
+      "name": "InstructLab",
+      "featured": false,
+      "stars": 1420,
+      "canonicalFile": "datasets.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/instructlab/instructlab/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "internlm-lmdeploy",
+      "name": "LMDeploy",
+      "featured": false,
+      "stars": 8000,
+      "canonicalFile": "llm-inference.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/InternLM/lmdeploy/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "invoke-ai-invokeai",
+      "name": "InvokeAI",
+      "featured": true,
+      "stars": 27860,
+      "canonicalFile": "image-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/invoke-ai/InvokeAI/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "itzcrazykns-vane",
+      "name": "Vane",
+      "featured": false,
+      "stars": 36105,
+      "canonicalFile": "rag.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/ItzCrazyKns/Vane/master/README.md",
+      "status": "corrected",
+      "issues": [
+        "localOfflineCapable=false but README: runs on your own hardware with local LLMs (Ollama) and private SearXNG search"
+      ],
+      "summary_changed": false,
+      "field_changes": {
+        "localOfflineCapable": {
+          "from": false,
+          "to": true
+        }
+      },
+      "before": {
+        "editorialSummary": "Self-hosted AI answering/search engine (formerly Perplexica) built around local or remote LLMs plus search backends like SearXNG. Privacy-oriented alternative to cloud answer engines.",
+        "whyCare": "If your “local AI stack” needs web-grounded Q&A—not just chat—this is the go-to OSS Perplexity-style stack."
+      },
+      "after": {
+        "editorialSummary": "Self-hosted AI answering/search engine (formerly Perplexica) built around local or remote LLMs plus search backends like SearXNG. Privacy-oriented alternative to cloud answer engines.",
+        "whyCare": "If your “local AI stack” needs web-grounded Q&A—not just chat—this is the go-to OSS Perplexity-style stack."
+      }
+    },
+    {
+      "id": "janhq-jan",
+      "name": "Jan",
+      "featured": true,
+      "stars": 43980,
+      "canonicalFile": "local-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/janhq/jan/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "karpathy-mingpt",
+      "name": "minGPT",
+      "featured": false,
+      "stars": 24789,
+      "canonicalFile": "research.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/karpathy/minGPT/master/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "karpathy-nanogpt",
+      "name": "nanoGPT",
+      "featured": true,
+      "stars": 62051,
+      "canonicalFile": "research.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/karpathy/nanoGPT/master/README.md",
+      "status": "corrected",
+      "issues": [
+        "README marks nanoGPT deprecated (Nov 2025) in favor of nanochat; editorial still called it the default/best starting point"
+      ],
+      "summary_changed": true,
+      "field_changes": {
+        "maintenance": {
+          "from": "slow",
+          "to": "stale"
+        }
+      },
+      "before": {
+        "editorialSummary": "Karpathy's minimal GPT training repo that became the default educational and prototyping baseline for modern LLM research. Small enough to read end-to-end, serious enough to train real models.",
+        "whyCare": "Best starting point for understanding GPT training loops, scaling experiments, and reproducible medium-scale pretraining without framework overhead."
+      },
+      "after": {
+        "editorialSummary": "Karpathy's minimal GPT training repo that taught a generation of researchers readable pretraining loops. The README now marks nanoGPT as deprecated in favor of the newer nanochat project, but the ~300-line train/model core remains a classic educational artifact.",
+        "whyCare": "Still the clearest historical baseline for understanding GPT training loops; for new work the author points you to nanochat instead."
+      }
+    },
+    {
+      "id": "khoj-ai-khoj",
+      "name": "Khoj",
+      "featured": false,
+      "stars": 36464,
+      "canonicalFile": "local-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/khoj-ai/khoj/master/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "kserve-kserve",
+      "name": "KServe",
+      "featured": true,
+      "stars": 5784,
+      "canonicalFile": "infrastructure.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/kserve/kserve/master/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "kubeflow-kubeflow",
+      "name": "Kubeflow",
+      "featured": true,
+      "stars": 15811,
+      "canonicalFile": "infrastructure.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/kubeflow/kubeflow/master/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "lancedb-lancedb",
+      "name": "LanceDB",
+      "featured": false,
+      "stars": 11138,
+      "canonicalFile": "vector-db.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/lancedb/lancedb/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "langchain-ai-langchain",
+      "name": "LangChain",
+      "featured": true,
+      "stars": 144088,
+      "canonicalFile": "rag.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/langchain-ai/langchain/master/README.md",
+      "status": "flagged",
+      "issues": [
+        "editorial emphasizes first-class RAG primitives; current README lead focuses on agents/LLM apps (RAG still in ecosystem)—soft drift flag, not rewritten"
+      ],
+      "summary_changed": false
+    },
+    {
+      "id": "langchain-ai-langchain-mcp-adapters",
+      "name": "LangChain MCP Adapters",
+      "featured": false,
+      "stars": 3627,
+      "canonicalFile": "mcp-tools.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/langchain-ai/langchain-mcp-adapters/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "langchain-ai-langgraph",
+      "name": "LangGraph",
+      "featured": true,
+      "stars": 39540,
+      "canonicalFile": "ai-agents.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/langchain-ai/langgraph/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "langfuse-langfuse",
+      "name": "langfuse",
+      "featured": true,
+      "stars": 32973,
+      "canonicalFile": "evaluation.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/langfuse/langfuse/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "langgenius-dify",
+      "name": "Dify",
+      "featured": false,
+      "stars": 152225,
+      "canonicalFile": "ai-agents.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/langgenius/dify/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "lastmile-ai-mcp-agent",
+      "name": "mcp-agent",
+      "featured": false,
+      "stars": 8502,
+      "canonicalFile": "ai-agents.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/lastmile-ai/mcp-agent/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "lightning-ai-litgpt",
+      "name": "LitGPT",
+      "featured": false,
+      "stars": 13611,
+      "canonicalFile": "training.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/Lightning-AI/litgpt/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "lightricks-ltx-video",
+      "name": "LTX-Video",
+      "featured": true,
+      "stars": 10843,
+      "canonicalFile": "video-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/Lightricks/LTX-Video/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "llava-vl-llava-next",
+      "name": "LLaVA-NeXT",
+      "featured": false,
+      "stars": 4711,
+      "canonicalFile": "multimodal.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/LLaVA-VL/LLaVA-NeXT/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "lllyasviel-controlnet",
+      "name": "ControlNet",
+      "featured": true,
+      "stars": 34064,
+      "canonicalFile": "image-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/lllyasviel/ControlNet/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "lllyasviel-fooocus",
+      "name": "Fooocus",
+      "featured": true,
+      "stars": 52198,
+      "canonicalFile": "image-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/lllyasviel/Fooocus/main/readme.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "lllyasviel-stable-diffusion-webui-forge",
+      "name": "Stable Diffusion WebUI Forge",
+      "featured": false,
+      "stars": 12955,
+      "canonicalFile": "image-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/lllyasviel/stable-diffusion-webui-forge/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "llm-d-llm-d",
+      "name": "llm-d",
+      "featured": false,
+      "stars": 4023,
+      "canonicalFile": "infrastructure.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/llm-d/llm-d/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "lostruins-koboldcpp",
+      "name": "KoboldCpp",
+      "featured": false,
+      "stars": 11392,
+      "canonicalFile": "local-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/LostRuins/koboldcpp/concedo/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "lucidrains-x-transformers",
+      "name": "x-transformers",
+      "featured": false,
+      "stars": 5934,
+      "canonicalFile": "research.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/lucidrains/x-transformers/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "m-bain-whisperx",
+      "name": "WhisperX",
+      "featured": false,
+      "stars": 23545,
+      "canonicalFile": "audio-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/m-bain/whisperX/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "mark3labs-mcp-go",
+      "name": "mcp-go",
+      "featured": false,
+      "stars": 8998,
+      "canonicalFile": "mcp-tools.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/mark3labs/mcp-go/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "mcmonkeyprojects-swarmui",
+      "name": "SwarmUI",
+      "featured": false,
+      "stars": 4449,
+      "canonicalFile": "image-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/mcmonkeyprojects/SwarmUI/master/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "mcp-use-mcp-use",
+      "name": "mcp-use",
+      "featured": false,
+      "stars": 10481,
+      "canonicalFile": "mcp-tools.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/mcp-use/mcp-use/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "meilisearch-meilisearch",
+      "name": "Meilisearch",
+      "featured": false,
+      "stars": 58950,
+      "canonicalFile": "vector-db.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/meilisearch/meilisearch/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "meta-llama-synthetic-data-kit",
+      "name": "Synthetic Data Kit",
+      "featured": false,
+      "stars": 1627,
+      "canonicalFile": "datasets.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/meta-llama/synthetic-data-kit/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "meta-pytorch-torchtune",
+      "name": "torchtune",
+      "featured": false,
+      "stars": 5799,
+      "canonicalFile": "training.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/meta-pytorch/torchtune/main/README.md",
+      "status": "corrected",
+      "issues": [
+        "README: torchtune no longer actively maintained (wound down 2025); editorial and maintenance=active omitted that"
+      ],
+      "summary_changed": true,
+      "field_changes": {
+        "maintenance": {
+          "from": "active",
+          "to": "stale"
+        }
+      },
+      "before": {
+        "editorialSummary": "PyTorch-native post-training library with composable recipes for SFT, LoRA, preference tuning, and related workflows. Emphasizes readable, hackable PyTorch code over opaque trainers.",
+        "whyCare": "Ideal when you want first-party PyTorch recipes you can modify without fighting a heavyweight framework abstraction."
+      },
+      "after": {
+        "editorialSummary": "PyTorch-native post-training library with composable recipes for SFT, LoRA, preference tuning (DPO/PPO/GRPO), and QAT. Development wound down in 2025 and the project is no longer actively maintained, though the recipes remain a readable PyTorch reference.",
+        "whyCare": "Useful when you want hackable first-party PyTorch post-training recipes—but treat it as unmaintained legacy rather than a default new stack."
+      }
+    },
+    {
+      "id": "microsoft-autogen",
+      "name": "AutoGen",
+      "featured": false,
+      "stars": 60386,
+      "canonicalFile": "ai-agents.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/microsoft/autogen/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "microsoft-bitnet",
+      "name": "BitNet",
+      "featured": false,
+      "stars": 40062,
+      "canonicalFile": "llm-inference.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/microsoft/BitNet/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "microsoft-phicookbook",
+      "name": "PhiCookBook",
+      "featured": false,
+      "stars": 3786,
+      "canonicalFile": "multimodal.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/microsoft/PhiCookBook/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "microsoft-playwright-mcp",
+      "name": "Playwright MCP",
+      "featured": true,
+      "stars": 36050,
+      "canonicalFile": "mcp-tools.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/microsoft/playwright-mcp/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "microsoft-semantic-kernel",
+      "name": "Semantic Kernel",
+      "featured": false,
+      "stars": 28444,
+      "canonicalFile": "ai-agents.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/microsoft/semantic-kernel/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "microsoft-unilm",
+      "name": "unilm",
+      "featured": true,
+      "stars": 22186,
+      "canonicalFile": "multimodal.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/microsoft/unilm/master/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "milvus-io-milvus",
+      "name": "Milvus",
+      "featured": true,
+      "stars": 45615,
+      "canonicalFile": "vector-db.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/milvus-io/milvus/master/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "mintplex-labs-anything-llm",
+      "name": "AnythingLLM",
+      "featured": true,
+      "stars": 64661,
+      "canonicalFile": "local-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/Mintplex-Labs/anything-llm/master/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "ml-explore-mlx",
+      "name": "MLX",
+      "featured": false,
+      "stars": 27923,
+      "canonicalFile": "llm-inference.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/ml-explore/mlx/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "mlc-ai-mlc-llm",
+      "name": "MLC LLM",
+      "featured": false,
+      "stars": 23054,
+      "canonicalFile": "llm-inference.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/mlc-ai/mlc-llm/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "mlc-ai-web-llm",
+      "name": "WebLLM",
+      "featured": false,
+      "stars": 18554,
+      "canonicalFile": "local-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/mlc-ai/web-llm/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "mlflow-mlflow",
+      "name": "MLflow",
+      "featured": true,
+      "stars": 27485,
+      "canonicalFile": "infrastructure.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/mlflow/mlflow/master/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "mlfoundations-open-clip",
+      "name": "open_clip",
+      "featured": true,
+      "stars": 14059,
+      "canonicalFile": "multimodal.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/mlfoundations/open_clip/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "modelcontextprotocol-inspector",
+      "name": "MCP Inspector",
+      "featured": true,
+      "stars": 10653,
+      "canonicalFile": "mcp-tools.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/modelcontextprotocol/inspector/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "modelcontextprotocol-python-sdk",
+      "name": "MCP Python SDK",
+      "featured": true,
+      "stars": 23994,
+      "canonicalFile": "mcp-tools.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/modelcontextprotocol/python-sdk/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "modelcontextprotocol-registry",
+      "name": "MCP Registry",
+      "featured": false,
+      "stars": 7138,
+      "canonicalFile": "mcp-tools.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/modelcontextprotocol/registry/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "modelcontextprotocol-servers",
+      "name": "MCP Servers",
+      "featured": true,
+      "stars": 89492,
+      "canonicalFile": "mcp-tools.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md",
+      "status": "corrected",
+      "issues": [
+        "whyCare oversold shipping production from reference servers; README WARNING says educational examples not production-ready; README points list browsers to MCP Registry"
+      ],
+      "summary_changed": true,
+      "before": {
+        "editorialSummary": "Reference and community MCP server implementations maintained by the MCP project. It is the canonical starting collection for filesystem, fetch, git, memory, and other baseline tool servers that clients like Claude Desktop and Cursor consume.",
+        "whyCare": "The official sample/reference server monorepo—use it to learn the protocol shape and ship production-ready baseline tools quickly."
+      },
+      "after": {
+        "editorialSummary": "Official MCP reference-server monorepo (filesystem, fetch, git, memory, and related examples) maintained by the MCP steering group. Intended as educational SDK samples—not a production server catalog; browse the MCP Registry for published servers.",
+        "whyCare": "Best place to learn reference MCP server shape and SDK usage; for production integrations prefer purpose-built servers and the MCP Registry rather than these examples."
+      }
+    },
+    {
+      "id": "modelcontextprotocol-typescript-sdk",
+      "name": "MCP TypeScript SDK",
+      "featured": true,
+      "stars": 13150,
+      "canonicalFile": "mcp-tools.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/modelcontextprotocol/typescript-sdk/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "modelscope-diffsynth-studio",
+      "name": "DiffSynth-Studio",
+      "featured": false,
+      "stars": 12922,
+      "canonicalFile": "video-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/modelscope/DiffSynth-Studio/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "mosaicml-streaming",
+      "name": "Streaming",
+      "featured": false,
+      "stars": 1545,
+      "canonicalFile": "datasets.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/mosaicml/streaming/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "mozilla-ai-llamafile",
+      "name": "llamafile",
+      "featured": false,
+      "stars": 25544,
+      "canonicalFile": "local-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/mozilla-ai/llamafile/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "mudler-localai",
+      "name": "LocalAI",
+      "featured": true,
+      "stars": 48410,
+      "canonicalFile": "local-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/mudler/LocalAI/master/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "myshell-ai-openvoice",
+      "name": "OpenVoice",
+      "featured": false,
+      "stars": 37136,
+      "canonicalFile": "audio-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/myshell-ai/OpenVoice/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "netflix-metaflow",
+      "name": "Metaflow",
+      "featured": false,
+      "stars": 10209,
+      "canonicalFile": "infrastructure.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/Netflix/metaflow/master/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "neuml-txtai",
+      "name": "txtai",
+      "featured": false,
+      "stars": 12880,
+      "canonicalFile": "rag.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/neuml/txtai/master/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "nomic-ai-gpt4all",
+      "name": "GPT4All",
+      "featured": false,
+      "stars": 77415,
+      "canonicalFile": "local-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/nomic-ai/gpt4all/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "nvidia-megatron-lm",
+      "name": "Megatron-LM",
+      "featured": true,
+      "stars": 17403,
+      "canonicalFile": "training.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/NVIDIA/Megatron-LM/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "nvidia-nemo-curator",
+      "name": "NeMo Curator",
+      "featured": true,
+      "stars": 1713,
+      "canonicalFile": "datasets.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/NVIDIA-NeMo/Curator/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "nvidia-nemo-speech",
+      "name": "NeMo",
+      "featured": true,
+      "stars": 18110,
+      "canonicalFile": "training.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/NVIDIA-NeMo/Speech/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "nvidia-tensorrt-llm",
+      "name": "TensorRT-LLM",
+      "featured": true,
+      "stars": 14370,
+      "canonicalFile": "llm-inference.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/NVIDIA/TensorRT-LLM/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "ollama-ollama",
+      "name": "Ollama",
+      "featured": true,
+      "stars": 178355,
+      "canonicalFile": "local-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/ollama/ollama/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "onyx-dot-app-onyx",
+      "name": "Onyx",
+      "featured": true,
+      "stars": 31561,
+      "canonicalFile": "rag.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/onyx-dot-app/onyx/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "oobabooga-textgen",
+      "name": "textgen",
+      "featured": false,
+      "stars": 47541,
+      "canonicalFile": "local-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/oobabooga/textgen/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "open-telemetry-opentelemetry-collector",
+      "name": "OpenTelemetry Collector",
+      "featured": false,
+      "stars": 7380,
+      "canonicalFile": "infrastructure.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/open-telemetry/opentelemetry-collector/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "open-telemetry-semantic-conventions",
+      "name": "semantic-conventions",
+      "featured": false,
+      "stars": 628,
+      "canonicalFile": "infrastructure.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/open-telemetry/semantic-conventions/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "open-webui-open-webui",
+      "name": "Open WebUI",
+      "featured": true,
+      "stars": 148594,
+      "canonicalFile": "local-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/open-webui/open-webui/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "openai-clip",
+      "name": "CLIP",
+      "featured": true,
+      "stars": 34160,
+      "canonicalFile": "multimodal.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/openai/CLIP/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "openai-codex",
+      "name": "Codex CLI",
+      "featured": false,
+      "stars": 105540,
+      "canonicalFile": "coding-agents.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/openai/codex/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "openai-evals",
+      "name": "evals",
+      "featured": false,
+      "stars": 19154,
+      "canonicalFile": "evaluation.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/openai/evals/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "openai-openai-agents-python",
+      "name": "OpenAI Agents SDK",
+      "featured": true,
+      "stars": 28578,
+      "canonicalFile": "ai-agents.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/openai/openai-agents-python/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "openai-swarm",
+      "name": "Swarm",
+      "featured": false,
+      "stars": 21896,
+      "canonicalFile": "ai-agents.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/openai/swarm/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "openai-whisper",
+      "name": "Whisper",
+      "featured": true,
+      "stars": 107155,
+      "canonicalFile": "audio-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/openai/whisper/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "openbmb-minicpm-v",
+      "name": "MiniCPM-V",
+      "featured": true,
+      "stars": 26158,
+      "canonicalFile": "multimodal.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/OpenBMB/MiniCPM-V/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "opengvlab-internvl",
+      "name": "InternVL",
+      "featured": true,
+      "stars": 10125,
+      "canonicalFile": "multimodal.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/OpenGVLab/InternVL/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "openhands-openhands",
+      "name": "OpenHands",
+      "featured": true,
+      "stars": 83811,
+      "canonicalFile": "coding-agents.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/README.md",
+      "status": "corrected",
+      "issues": [
+        "Editorial underspecified current multi-backend/ACP Agent Canvas positioning described in README"
+      ],
+      "summary_changed": true,
+      "before": {
+        "editorialSummary": "Formerly OpenDevin: an open platform for AI-driven software development where agents can write code, run commands, browse, and collaborate on real tasks. Supports CLI and UI workflows and is a leading research-to-product coding-agent stack.",
+        "whyCare": "Highest-signal open autonomous coding agent platform after the OpenDevin rebrand; strong community, frequent releases, and a clear path from evals to day-to-day agentic development."
+      },
+      "after": {
+        "editorialSummary": "Formerly OpenDevin: an open platform for AI-driven software development. It can run OpenHands agents and other ACP-compatible coding agents across local, remote, and cloud backends, with Agent Canvas as a self-hosted control center for multi-agent engineering work.",
+        "whyCare": "Leading open coding-agent platform after the OpenDevin rebrand—strong when you want a self-hosted hub that can drive OpenHands or other ACP-compatible agents on real repos."
+      }
+    },
+    {
+      "id": "openinterpreter-openinterpreter",
+      "name": "Open Interpreter",
+      "featured": false,
+      "stars": 67979,
+      "canonicalFile": "coding-agents.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/openinterpreter/openinterpreter/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "opennmt-ctranslate2",
+      "name": "CTranslate2",
+      "featured": false,
+      "stars": 4615,
+      "canonicalFile": "llm-inference.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/OpenNMT/CTranslate2/master/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "openrlhf-openrlhf",
+      "name": "OpenRLHF",
+      "featured": false,
+      "stars": 9906,
+      "canonicalFile": "training.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/OpenRLHF/OpenRLHF/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "pgvector-pgvector",
+      "name": "pgvector",
+      "featured": true,
+      "stars": 22600,
+      "canonicalFile": "vector-db.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/pgvector/pgvector/master/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "plachtaa-vall-e-x",
+      "name": "VALL-E X",
+      "featured": false,
+      "stars": 7935,
+      "canonicalFile": "audio-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/Plachtaa/VALL-E-X/master/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "predibase-lorax",
+      "name": "LoRAX",
+      "featured": false,
+      "stars": 3823,
+      "canonicalFile": "llm-inference.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/predibase/lorax/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "prefecthq-fastmcp",
+      "name": "FastMCP",
+      "featured": true,
+      "stars": 27190,
+      "canonicalFile": "mcp-tools.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/PrefectHQ/fastmcp/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "promptfoo-promptfoo",
+      "name": "promptfoo",
+      "featured": true,
+      "stars": 24171,
+      "canonicalFile": "evaluation.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/promptfoo/promptfoo/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "pydantic-pydantic-ai",
+      "name": "Pydantic AI",
+      "featured": false,
+      "stars": 19247,
+      "canonicalFile": "ai-agents.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/pydantic/pydantic-ai/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "qdrant-qdrant",
+      "name": "Qdrant",
+      "featured": true,
+      "stars": 33940,
+      "canonicalFile": "vector-db.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/qdrant/qdrant/master/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "quivrhq-quivr",
+      "name": "Quivr",
+      "featured": false,
+      "stars": 39394,
+      "canonicalFile": "rag.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/QuivrHQ/quivr/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "qwenlm-qwen-code",
+      "name": "Qwen Code",
+      "featured": false,
+      "stars": 26944,
+      "canonicalFile": "coding-agents.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/QwenLM/qwen-code/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "qwenlm-qwen-vl",
+      "name": "Qwen-VL",
+      "featured": false,
+      "stars": 6722,
+      "canonicalFile": "multimodal.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/QwenLM/Qwen-VL/master/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "qwenlm-qwen3-vl",
+      "name": "Qwen3-VL",
+      "featured": true,
+      "stars": 19778,
+      "canonicalFile": "multimodal.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/QwenLM/Qwen3-VL/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "ray-project-ray",
+      "name": "Ray",
+      "featured": true,
+      "stars": 43501,
+      "canonicalFile": "infrastructure.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/ray-project/ray/master/README.rst",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "rhasspy-piper",
+      "name": "Piper",
+      "featured": false,
+      "stars": 11279,
+      "canonicalFile": "audio-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/rhasspy/piper/master/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "roocodeinc-roo-code",
+      "name": "Roo Code",
+      "featured": false,
+      "stars": 24350,
+      "canonicalFile": "coding-agents.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/RooCodeInc/Roo-Code/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "run-llama-llama-index",
+      "name": "LlamaIndex",
+      "featured": true,
+      "stars": 51594,
+      "canonicalFile": "rag.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/run-llama/llama_index/main/README.md",
+      "status": "corrected",
+      "issues": [
+        "README lead now stresses agentic applications; editorial was RAG-only framing—updated to match without inventing features"
+      ],
+      "summary_changed": true,
+      "before": {
+        "editorialSummary": "LlamaIndex is the go-to Python framework for connecting LLMs to private data via indexing, retrieval, and query engines. It covers ingestion connectors, vector/graph stores, agentic RAG patterns, and evaluation utilities used across production knowledge systems.",
+        "whyCare": "If you are building document Q&A, knowledge agents, or multi-source RAG pipelines in Python, LlamaIndex offers the deepest retrieval-centric abstractions and ecosystem of integrations."
+      },
+      "after": {
+        "editorialSummary": "LlamaIndex is a widely used Python framework for building agentic LLM applications over private data—indexing, retrieval/query engines, connectors, and agent workflows. Retrieval-centric abstractions remain a core strength alongside broader agent tooling.",
+        "whyCare": "If you are building document Q&A, knowledge agents, or multi-source RAG/agent pipelines in Python, LlamaIndex offers deep data-connection abstractions and a large integration ecosystem."
+      }
+    },
+    {
+      "id": "rvc-project-retrieval-based-voice-conversion-webui",
+      "name": "RVC WebUI",
+      "featured": true,
+      "stars": 37302,
+      "canonicalFile": "audio-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "salesforce-lavis",
+      "name": "LAVIS",
+      "featured": true,
+      "stars": 11264,
+      "canonicalFile": "multimodal.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/salesforce/LAVIS/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "sdv-dev-sdv",
+      "name": "SDV",
+      "featured": false,
+      "stars": 3543,
+      "canonicalFile": "datasets.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/sdv-dev/SDV/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "sgl-project-sglang",
+      "name": "SGLang",
+      "featured": false,
+      "stars": 31715,
+      "canonicalFile": "llm-inference.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/sgl-project/sglang/main/README.md",
+      "status": "corrected",
+      "issues": [
+        "editorial used AI-slop phrase cutting-edge; otherwise factually aligned with README"
+      ],
+      "summary_changed": true,
+      "before": {
+        "editorialSummary": "SGLang is a high-performance serving framework focused on fast structured generation, RadixAttention for KV-cache reuse, and strong multimodal/MoE support. It competes directly with vLLM for cutting-edge throughput on modern GPUs.",
+        "whyCare": "Strong alternative to vLLM when you need radix-cache efficiency, constrained/structured decoding, or leading multimodal and MoE serving performance."
+      },
+      "after": {
+        "editorialSummary": "SGLang is a high-performance LLM serving framework focused on fast structured generation, RadixAttention for KV-cache reuse, and strong multimodal/MoE support. It is a primary open alternative to vLLM for throughput-oriented GPU serving.",
+        "whyCare": "Strong alternative to vLLM when you need radix-cache efficiency, constrained/structured decoding, or competitive multimodal and MoE serving performance."
+      }
+    },
+    {
+      "id": "significant-gravitas-autogpt",
+      "name": "AutoGPT",
+      "featured": false,
+      "stars": 186557,
+      "canonicalFile": "ai-agents.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/Significant-Gravitas/AutoGPT/master/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "sillytavern-sillytavern",
+      "name": "SillyTavern",
+      "featured": false,
+      "stars": 32009,
+      "canonicalFile": "local-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/SillyTavern/SillyTavern/release/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "skypilot-org-skypilot",
+      "name": "SkyPilot",
+      "featured": true,
+      "stars": 10479,
+      "canonicalFile": "infrastructure.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/skypilot-org/skypilot/master/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "smol-ai-developer",
+      "name": "Smol Developer",
+      "featured": false,
+      "stars": 12185,
+      "canonicalFile": "coding-agents.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/smol-ai/developer/main/readme.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "sourcegraph-cody-public-snapshot",
+      "name": "Sourcegraph Cody (public snapshot)",
+      "featured": false,
+      "stars": 3806,
+      "canonicalFile": "coding-agents.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/sourcegraph/cody-public-snapshot/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "stability-ai-generative-models",
+      "name": "Stable Video Diffusion (generative-models)",
+      "featured": true,
+      "stars": 27253,
+      "canonicalFile": "video-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/Stability-AI/generative-models/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "stanford-crfm-helm",
+      "name": "helm",
+      "featured": false,
+      "stars": 2877,
+      "canonicalFile": "evaluation.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/stanford-crfm/helm/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "state-spaces-mamba",
+      "name": "Mamba",
+      "featured": true,
+      "stars": 18731,
+      "canonicalFile": "research.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/state-spaces/mamba/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "state-spaces-s4",
+      "name": "S4",
+      "featured": false,
+      "stars": 2917,
+      "canonicalFile": "research.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/state-spaces/s4/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "suno-ai-bark",
+      "name": "Bark",
+      "featured": false,
+      "stars": 39236,
+      "canonicalFile": "audio-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/suno-ai/bark/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "swe-agent-swe-agent",
+      "name": "SWE-agent",
+      "featured": false,
+      "stars": 20050,
+      "canonicalFile": "coding-agents.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/SWE-agent/SWE-agent/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "swivid-f5-tts",
+      "name": "F5-TTS",
+      "featured": false,
+      "stars": 15114,
+      "canonicalFile": "audio-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/SWivid/F5-TTS/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "systran-faster-whisper",
+      "name": "faster-whisper",
+      "featured": true,
+      "stars": 24876,
+      "canonicalFile": "audio-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/SYSTRAN/faster-whisper/master/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "tabbyml-tabby",
+      "name": "Tabby",
+      "featured": false,
+      "stars": 33820,
+      "canonicalFile": "coding-agents.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/TabbyML/tabby/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "tencent-ailab-ip-adapter",
+      "name": "IP-Adapter",
+      "featured": false,
+      "stars": 6663,
+      "canonicalFile": "image-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/tencent-ailab/IP-Adapter/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "tencent-hunyuan-hunyuanvideo",
+      "name": "HunyuanVideo",
+      "featured": true,
+      "stars": 12423,
+      "canonicalFile": "video-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/Tencent-Hunyuan/HunyuanVideo/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "tensorflow-tensor2tensor",
+      "name": "Tensor2Tensor",
+      "featured": false,
+      "stars": 17460,
+      "canonicalFile": "research.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/tensorflow/tensor2tensor/master/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "togethercomputer-redpajama-data",
+      "name": "RedPajama-Data",
+      "featured": true,
+      "stars": 4976,
+      "canonicalFile": "datasets.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/togethercomputer/RedPajama-Data/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "traceloop-openllmetry",
+      "name": "openllmetry",
+      "featured": false,
+      "stars": 7374,
+      "canonicalFile": "evaluation.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/traceloop/openllmetry/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "triton-inference-server-server",
+      "name": "Triton Inference Server",
+      "featured": true,
+      "stars": 10916,
+      "canonicalFile": "infrastructure.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/triton-inference-server/server/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "truera-trulens",
+      "name": "trulens",
+      "featured": false,
+      "stars": 3507,
+      "canonicalFile": "evaluation.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/truera/trulens/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "ukgovernmentbeis-inspect-ai",
+      "name": "inspect_ai",
+      "featured": false,
+      "stars": 2530,
+      "canonicalFile": "evaluation.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/UKGovernmentBEIS/inspect_ai/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "unslothai-unsloth",
+      "name": "Unsloth",
+      "featured": true,
+      "stars": 70571,
+      "canonicalFile": "training.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/unslothai/unsloth/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "upstash-context7",
+      "name": "Context7",
+      "featured": true,
+      "stars": 60651,
+      "canonicalFile": "mcp-tools.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/upstash/context7/master/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "vchitect-venhancer",
+      "name": "VEnhancer",
+      "featured": false,
+      "stars": 578,
+      "canonicalFile": "video-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/Vchitect/VEnhancer/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "verl-project-verl",
+      "name": "verl",
+      "featured": true,
+      "stars": 22932,
+      "canonicalFile": "training.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/verl-project/verl/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "vespa-engine-vespa",
+      "name": "Vespa",
+      "featured": false,
+      "stars": 7046,
+      "canonicalFile": "vector-db.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/vespa-engine/vespa/master/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "vibrantlabsai-ragas",
+      "name": "ragas",
+      "featured": false,
+      "stars": 15291,
+      "canonicalFile": "evaluation.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/vibrantlabsai/ragas/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "vision-cair-minigpt-4",
+      "name": "MiniGPT-4",
+      "featured": true,
+      "stars": 25636,
+      "canonicalFile": "multimodal.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/Vision-CAIR/MiniGPT-4/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "vladmandic-sdnext",
+      "name": "SD.Next",
+      "featured": false,
+      "stars": 7308,
+      "canonicalFile": "image-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/vladmandic/sdnext/master/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "vllm-project-aibrix",
+      "name": "AIBrix",
+      "featured": false,
+      "stars": 5006,
+      "canonicalFile": "infrastructure.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/vllm-project/aibrix/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "vllm-project-llm-compressor",
+      "name": "llm-compressor",
+      "featured": false,
+      "stars": 3662,
+      "canonicalFile": "infrastructure.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/vllm-project/llm-compressor/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "vllm-project-vllm",
+      "name": "vLLM",
+      "featured": true,
+      "stars": 88886,
+      "canonicalFile": "llm-inference.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/vllm-project/vllm/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "voideditor-void",
+      "name": "Void",
+      "featured": false,
+      "stars": 28853,
+      "canonicalFile": "coding-agents.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/voideditor/void/main/README.md",
+      "status": "corrected",
+      "issues": [
+        "README says Void is deprecated; editorial only emphasized archived"
+      ],
+      "summary_changed": true,
+      "before": {
+        "editorialSummary": "Open-source AI code editor positioned as a Cursor alternative, built on the VS Code lineage with BYOK model support. Archived on GitHub at verification time but remains a landmark OSS attempt at a full AI IDE.",
+        "whyCare": "One of the best-known open Cursor-class editors; valuable historically and as a fork base even if the primary repo is archived."
+      },
+      "after": {
+        "editorialSummary": "Open-source AI code editor positioned as a Cursor alternative on the VS Code lineage with BYOK model support. The project is deprecated (no longer accepting contributions) and the GitHub repo is archived; it remains a landmark fork reference.",
+        "whyCare": "One of the best-known open Cursor-class editors; valuable historically and as a fork base (see Void forks) even though upstream is deprecated/archived."
+      }
+    },
+    {
+      "id": "wan-video-wan2-1",
+      "name": "Wan2.1",
+      "featured": true,
+      "stars": 16810,
+      "canonicalFile": "video-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/Wan-Video/Wan2.1/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "wandb-wandb",
+      "name": "wandb",
+      "featured": false,
+      "stars": 11230,
+      "canonicalFile": "infrastructure.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/wandb/wandb/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "weaviate-weaviate",
+      "name": "Weaviate",
+      "featured": true,
+      "stars": 16725,
+      "canonicalFile": "vector-db.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/weaviate/weaviate/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "xinntao-real-esrgan",
+      "name": "Real-ESRGAN",
+      "featured": false,
+      "stars": 36457,
+      "canonicalFile": "image-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/xinntao/Real-ESRGAN/master/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "yl4579-styletts2",
+      "name": "StyleTTS2",
+      "featured": false,
+      "stars": 6329,
+      "canonicalFile": "audio-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/yl4579/StyleTTS2/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "zai-org-cogvideo",
+      "name": "CogVideo",
+      "featured": true,
+      "stars": 12950,
+      "canonicalFile": "video-ai.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/zai-org/CogVideo/main/README.md",
+      "status": "ok",
+      "issues": [],
+      "summary_changed": false
+    },
+    {
+      "id": "zylon-ai-private-gpt",
+      "name": "PrivateGPT",
+      "featured": true,
+      "stars": 57432,
+      "canonicalFile": "rag.json",
+      "readmeFetched": true,
+      "readmeUrl": "https://raw.githubusercontent.com/zylon-ai/private-gpt/main/README.md",
+      "status": "corrected",
+      "issues": [
+        "README now positions product as API layer for private AI apps (Claude API model); editorial was slightly RAG-era only though still directionally right"
+      ],
+      "summary_changed": true,
+      "before": {
+        "editorialSummary": "PrivateGPT popularized private, document-local RAG with a complete API over local or OpenAI-compatible models. It now extends into tools, MCP, and text-to-SQL while keeping privacy-first defaults.",
+        "whyCare": "Ideal when documents must stay on-prem and you want a ready API for private RAG rather than wiring inference and retrieval yourself."
+      },
+      "after": {
+        "editorialSummary": "PrivateGPT is an open-source API layer that turns local (or OpenAI-compatible) models into private AI applications—document RAG and higher-level building blocks with a Claude-style API. It popularized private document Q&A and continues to emphasize on-prem/privacy-first defaults.",
+        "whyCare": "Ideal when documents must stay on-prem and you want a ready API for private RAG and related app primitives rather than wiring inference and retrieval yourself."
+      }
+    }
+  ]
+}

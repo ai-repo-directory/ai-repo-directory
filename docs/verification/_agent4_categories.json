@@ -1,0 +1,575 @@
+{
+  "verifiedAt": "2026-08-12",
+  "agent": "agent4-categories",
+  "rules": [
+    "Avoid category inflation",
+    "Using an LLM internally ≠ ai-agents",
+    "coding-agents = software engineering/coding agents; general multi-agent frameworks = ai-agents",
+    "vector DBs stay in vector-db (not rag)",
+    "MCP servers/SDKs in mcp-tools",
+    "local-ai = local/offline UIs and runtimes (Ollama, Open WebUI, llama.cpp)—not everything self-hostable",
+    "research = research/paper implementations—not every ML library",
+    "secondaryCategories must not repeat primaryCategory",
+    "canonical filename must match primaryCategory"
+  ],
+  "counts": {
+    "totalReviewed": 233,
+    "correctionsApplied": 19,
+    "primaryMoves": 11,
+    "secondaryOnly": 8,
+    "borderlineLeftUnchanged": 12,
+    "byPrimaryCategoryAfter": {
+      "ai-agents": 15,
+      "audio-ai": 16,
+      "coding-agents": 18,
+      "datasets": 14,
+      "evaluation": 15,
+      "image-ai": 18,
+      "infrastructure": 19,
+      "llm-inference": 12,
+      "local-ai": 17,
+      "mcp-tools": 15,
+      "multimodal": 15,
+      "rag": 9,
+      "research": 9,
+      "training": 17,
+      "vector-db": 9,
+      "video-ai": 15
+    }
+  },
+  "corrections": [
+    {
+      "id": "ggml-org-llama.cpp",
+      "name": "llama.cpp",
+      "kind": "primary_change",
+      "from": {
+        "primaryCategory": "llm-inference",
+        "secondaryCategories": [
+          "local-ai"
+        ]
+      },
+      "to": {
+        "primaryCategory": "local-ai",
+        "secondaryCategories": [
+          "llm-inference"
+        ]
+      },
+      "reason": "Rule explicitly lists llama.cpp as a local/offline runtime; inference engine role stays secondary.",
+      "fileMove": true,
+      "fromFile": "llm-inference",
+      "toFile": "local-ai"
+    },
+    {
+      "id": "huggingface-transformers",
+      "name": "Transformers",
+      "kind": "primary_change",
+      "from": {
+        "primaryCategory": "research",
+        "secondaryCategories": [
+          "training",
+          "llm-inference",
+          "multimodal"
+        ]
+      },
+      "to": {
+        "primaryCategory": "infrastructure",
+        "secondaryCategories": [
+          "training",
+          "llm-inference",
+          "multimodal"
+        ]
+      },
+      "reason": "Shared model zoo/library, not paper-code research; research category is for research implementations.",
+      "fileMove": true,
+      "fromFile": "research",
+      "toFile": "infrastructure"
+    },
+    {
+      "id": "google-flax",
+      "name": "Flax",
+      "kind": "primary_change",
+      "from": {
+        "primaryCategory": "research",
+        "secondaryCategories": [
+          "training"
+        ]
+      },
+      "to": {
+        "primaryCategory": "infrastructure",
+        "secondaryCategories": [
+          "training",
+          "research"
+        ]
+      },
+      "reason": "General JAX neural-net library (ML framework), not a paper implementation; closer to infrastructure than research.",
+      "fileMove": true,
+      "fromFile": "research",
+      "toFile": "infrastructure"
+    },
+    {
+      "id": "lastmile-ai-mcp-agent",
+      "name": "mcp-agent",
+      "kind": "primary_change",
+      "from": {
+        "primaryCategory": "mcp-tools",
+        "secondaryCategories": [
+          "ai-agents"
+        ]
+      },
+      "to": {
+        "primaryCategory": "ai-agents",
+        "secondaryCategories": [
+          "mcp-tools"
+        ]
+      },
+      "reason": "Agent/workflow orchestration framework that uses MCP; not an MCP server/SDK (mcp-tools).",
+      "fileMove": true,
+      "fromFile": "mcp-tools",
+      "toFile": "ai-agents"
+    },
+    {
+      "id": "itzcrazykns-vane",
+      "name": "Vane",
+      "kind": "primary_change",
+      "from": {
+        "primaryCategory": "local-ai",
+        "secondaryCategories": [
+          "rag"
+        ]
+      },
+      "to": {
+        "primaryCategory": "rag",
+        "secondaryCategories": [
+          "local-ai"
+        ]
+      },
+      "reason": "Self-hosted AI search/answering product is a RAG app; local-ai is for local UIs/runtimes, not every self-hosted AI app.",
+      "fileMove": true,
+      "fromFile": "local-ai",
+      "toFile": "rag"
+    },
+    {
+      "id": "wandb-wandb",
+      "name": "wandb",
+      "kind": "primary_change",
+      "from": {
+        "primaryCategory": "evaluation",
+        "secondaryCategories": [
+          "training",
+          "infrastructure"
+        ]
+      },
+      "to": {
+        "primaryCategory": "infrastructure",
+        "secondaryCategories": [
+          "evaluation",
+          "training"
+        ]
+      },
+      "reason": "Core product is MLOps/experiment tracking (peer to MLflow); evaluation notes already marked partial fit.",
+      "fileMove": true,
+      "fromFile": "evaluation",
+      "toFile": "infrastructure"
+    },
+    {
+      "id": "open-telemetry-semantic-conventions",
+      "name": "semantic-conventions",
+      "kind": "primary_change",
+      "from": {
+        "primaryCategory": "evaluation",
+        "secondaryCategories": [
+          "infrastructure"
+        ]
+      },
+      "to": {
+        "primaryCategory": "infrastructure",
+        "secondaryCategories": [
+          "evaluation"
+        ]
+      },
+      "reason": "Telemetry naming standards for GenAI spans/attributes—observability infrastructure, not an evaluation framework.",
+      "fileMove": true,
+      "fromFile": "evaluation",
+      "toFile": "infrastructure"
+    },
+    {
+      "id": "ai-hypercomputer-maxtext",
+      "name": "MaxText",
+      "kind": "primary_change",
+      "from": {
+        "primaryCategory": "research",
+        "secondaryCategories": [
+          "training",
+          "infrastructure"
+        ]
+      },
+      "to": {
+        "primaryCategory": "training",
+        "secondaryCategories": [
+          "research",
+          "infrastructure"
+        ]
+      },
+      "reason": "High-performance LLM pretraining codebase/recipes; training is the primary job, research is secondary context.",
+      "fileMove": true,
+      "fromFile": "research",
+      "toFile": "training"
+    },
+    {
+      "id": "lightning-ai-litgpt",
+      "name": "LitGPT",
+      "kind": "primary_change",
+      "from": {
+        "primaryCategory": "research",
+        "secondaryCategories": [
+          "training"
+        ]
+      },
+      "to": {
+        "primaryCategory": "training",
+        "secondaryCategories": [
+          "research"
+        ]
+      },
+      "reason": "From-scratch LLM implementations with pretrain/finetune/deploy recipes—practitioner training toolkit more than paper artifact.",
+      "fileMove": true,
+      "fromFile": "research",
+      "toFile": "training"
+    },
+    {
+      "id": "idea-research-grounded-sam-2",
+      "name": "Grounded-SAM-2",
+      "kind": "primary_change",
+      "from": {
+        "primaryCategory": "multimodal",
+        "secondaryCategories": [
+          "image-ai",
+          "video-ai"
+        ]
+      },
+      "to": {
+        "primaryCategory": "image-ai",
+        "secondaryCategories": [
+          "video-ai",
+          "multimodal"
+        ]
+      },
+      "reason": "Grounding DINO + Florence-2 + SAM 2 segmentation/tracking pipeline; vision editing stack, not a VLM multimodal model.",
+      "fileMove": true,
+      "fromFile": "multimodal",
+      "toFile": "image-ai"
+    },
+    {
+      "id": "facebookresearch-moviegenbench",
+      "name": "MovieGenBench",
+      "kind": "primary_change",
+      "from": {
+        "primaryCategory": "video-ai",
+        "secondaryCategories": [
+          "evaluation",
+          "research"
+        ]
+      },
+      "to": {
+        "primaryCategory": "evaluation",
+        "secondaryCategories": [
+          "video-ai",
+          "research"
+        ]
+      },
+      "reason": "Official notes: benchmarks only (no Movie Gen model weights); evaluation is the primary artifact.",
+      "fileMove": true,
+      "fromFile": "video-ai",
+      "toFile": "evaluation"
+    },
+    {
+      "id": "langgenius-dify",
+      "name": "Dify",
+      "kind": "secondary_only",
+      "from": {
+        "primaryCategory": "ai-agents",
+        "secondaryCategories": [
+          "rag",
+          "local-ai",
+          "infrastructure"
+        ]
+      },
+      "to": {
+        "primaryCategory": "ai-agents",
+        "secondaryCategories": [
+          "rag",
+          "infrastructure"
+        ]
+      },
+      "reason": "Remove local-ai: self-hostable platform ≠ local/offline UI/runtime category.",
+      "fileMove": false,
+      "fromFile": "ai-agents",
+      "toFile": "ai-agents"
+    },
+    {
+      "id": "instructlab-instructlab",
+      "name": "InstructLab",
+      "kind": "secondary_only",
+      "from": {
+        "primaryCategory": "datasets",
+        "secondaryCategories": [
+          "training",
+          "local-ai"
+        ]
+      },
+      "to": {
+        "primaryCategory": "datasets",
+        "secondaryCategories": [
+          "training"
+        ]
+      },
+      "reason": "Remove local-ai: taxonomy/synthetic-data CLI is not a local AI UI/runtime.",
+      "fileMove": false,
+      "fromFile": "datasets",
+      "toFile": "datasets"
+    },
+    {
+      "id": "axolotl-ai-cloud-axolotl",
+      "name": "Axolotl",
+      "kind": "secondary_only",
+      "from": {
+        "primaryCategory": "training",
+        "secondaryCategories": [
+          "local-ai"
+        ]
+      },
+      "to": {
+        "primaryCategory": "training",
+        "secondaryCategories": []
+      },
+      "reason": "Remove local-ai: fine-tuning framework running on GPUs is not a local AI UI/runtime.",
+      "fileMove": false,
+      "fromFile": "training",
+      "toFile": "training"
+    },
+    {
+      "id": "bitsandbytes-foundation-bitsandbytes",
+      "name": "bitsandbytes",
+      "kind": "secondary_only",
+      "from": {
+        "primaryCategory": "training",
+        "secondaryCategories": [
+          "llm-inference",
+          "local-ai"
+        ]
+      },
+      "to": {
+        "primaryCategory": "training",
+        "secondaryCategories": [
+          "llm-inference"
+        ]
+      },
+      "reason": "Remove local-ai: quantization library dependency, not a local AI UI/runtime.",
+      "fileMove": false,
+      "fromFile": "training",
+      "toFile": "training"
+    },
+    {
+      "id": "hiyouga-llamafactory",
+      "name": "LLaMA-Factory",
+      "kind": "secondary_only",
+      "from": {
+        "primaryCategory": "training",
+        "secondaryCategories": [
+          "multimodal",
+          "local-ai"
+        ]
+      },
+      "to": {
+        "primaryCategory": "training",
+        "secondaryCategories": [
+          "multimodal"
+        ]
+      },
+      "reason": "Remove local-ai: training toolkit with optional WebUI ≠ local-ai runtimes like Ollama/Open WebUI.",
+      "fileMove": false,
+      "fromFile": "training",
+      "toFile": "training"
+    },
+    {
+      "id": "open-webui-open-webui",
+      "name": "Open WebUI",
+      "kind": "secondary_only",
+      "from": {
+        "primaryCategory": "local-ai",
+        "secondaryCategories": [
+          "rag",
+          "ai-agents"
+        ]
+      },
+      "to": {
+        "primaryCategory": "local-ai",
+        "secondaryCategories": [
+          "rag"
+        ]
+      },
+      "reason": "Remove ai-agents: ChatGPT-style local UI with tools/MCP is not an agent framework (avoid LLM→agent inflation).",
+      "fileMove": false,
+      "fromFile": "local-ai",
+      "toFile": "local-ai"
+    },
+    {
+      "id": "openai-whisper",
+      "name": "Whisper",
+      "kind": "secondary_only",
+      "from": {
+        "primaryCategory": "audio-ai",
+        "secondaryCategories": [
+          "local-ai",
+          "multimodal"
+        ]
+      },
+      "to": {
+        "primaryCategory": "audio-ai",
+        "secondaryCategories": [
+          "local-ai"
+        ]
+      },
+      "reason": "Remove multimodal: Whisper is speech recognition (audio-ai); multimodal reserved for cross-modal VLMs/etc.",
+      "fileMove": false,
+      "fromFile": "audio-ai",
+      "toFile": "audio-ai"
+    },
+    {
+      "id": "facebookresearch-audiocraft",
+      "name": "AudioCraft",
+      "kind": "secondary_only",
+      "from": {
+        "primaryCategory": "audio-ai",
+        "secondaryCategories": [
+          "research",
+          "multimodal"
+        ]
+      },
+      "to": {
+        "primaryCategory": "audio-ai",
+        "secondaryCategories": [
+          "research"
+        ]
+      },
+      "reason": "Remove multimodal: MusicGen/EnCodec are audio generation; multimodal secondary was category inflation.",
+      "fileMove": false,
+      "fromFile": "audio-ai",
+      "toFile": "audio-ai"
+    }
+  ],
+  "borderlineLeftUnchanged": [
+    {
+      "id": "langchain-ai-langchain",
+      "name": "LangChain",
+      "primaryCategory": "rag",
+      "secondaryCategories": [
+        "ai-agents"
+      ],
+      "note": "Equally an agent framework, but RAG primitives remain a defining use-case and LangGraph already covers orchestration under ai-agents; left as RAG peer to LlamaIndex/Haystack."
+    },
+    {
+      "id": "huggingface-smolagents",
+      "name": "smolagents",
+      "primaryCategory": "ai-agents",
+      "secondaryCategories": [
+        "research"
+      ],
+      "note": "Code-acting agents write/run code as an action space, but the library is a general agent framework—not a software-engineering coding agent product. Kept in ai-agents."
+    },
+    {
+      "id": "openinterpreter-openinterpreter",
+      "name": "Open Interpreter",
+      "primaryCategory": "coding-agents",
+      "secondaryCategories": [
+        "local-ai",
+        "ai-agents"
+      ],
+      "note": "General local code-execution agent vs SE-specific coding agent; retained in coding-agents given code-centric product positioning and local open-model focus."
+    },
+    {
+      "id": "meilisearch-meilisearch",
+      "name": "Meilisearch",
+      "primaryCategory": "vector-db",
+      "secondaryCategories": [
+        "rag",
+        "infrastructure"
+      ],
+      "note": "Primarily a full-text/hybrid search engine that added vectors; kept in vector-db because hybrid retrieval is how it enters AI stacks, with infrastructure already secondary."
+    },
+    {
+      "id": "helicone-helicone",
+      "name": "helicone",
+      "primaryCategory": "evaluation",
+      "secondaryCategories": [
+        "infrastructure"
+      ],
+      "note": "Gateway/observability platform; evaluation category in this directory intentionally holds LLMOps eval+tracing tools (alongside Langfuse/Phoenix). Not moved with wandb."
+    },
+    {
+      "id": "langfuse-langfuse",
+      "name": "langfuse",
+      "primaryCategory": "evaluation",
+      "secondaryCategories": [
+        "infrastructure"
+      ],
+      "note": "Tracing + evals + prompt management; same editorial bucket as other LLM observability/eval suites. Borderline with infrastructure but left with peers."
+    },
+    {
+      "id": "ml-explore-mlx",
+      "name": "MLX",
+      "primaryCategory": "llm-inference",
+      "secondaryCategories": [
+        "local-ai",
+        "research"
+      ],
+      "note": "General Apple Silicon array framework, but directory framing is LLM/local inference path (with mlx-lm). Left as llm-inference rather than infrastructure."
+    },
+    {
+      "id": "eleutherai-gpt-neox",
+      "name": "GPT-NeoX",
+      "primaryCategory": "research",
+      "secondaryCategories": [
+        "training",
+        "infrastructure"
+      ],
+      "note": "Large-scale training codebase, but historically a research/open-LM artifact (Eleuther). Unlike MaxText/LitGPT, kept under research."
+    },
+    {
+      "id": "tabbyml-tabby",
+      "name": "Tabby",
+      "primaryCategory": "coding-agents",
+      "secondaryCategories": [
+        "local-ai",
+        "infrastructure"
+      ],
+      "note": "Self-hosted autocomplete/chat assistant more than autonomous coding agent; coding-agents category here includes IDE coding assistants, so left unchanged."
+    },
+    {
+      "id": "huggingface-chat-ui",
+      "name": "chat-ui",
+      "primaryCategory": "local-ai",
+      "secondaryCategories": [],
+      "note": "Self-hosted HuggingChat UI often backed by remote HF Inference—not strictly local/offline—but kept with other ChatGPT-clone clients (NextChat/Chatbox)."
+    },
+    {
+      "id": "danny-avila-librechat",
+      "name": "LibreChat",
+      "primaryCategory": "local-ai",
+      "secondaryCategories": [
+        "ai-agents"
+      ],
+      "note": "Product has first-class agents; secondary ai-agents retained (contrast Open WebUI where agent secondary was removed as weaker)."
+    },
+    {
+      "id": "vespa-engine-vespa",
+      "name": "Vespa",
+      "primaryCategory": "vector-db",
+      "secondaryCategories": [
+        "rag",
+        "infrastructure"
+      ],
+      "note": "Full search/ranking platform beyond pure vector DB; left in vector-db for AI retrieval/hybrid role, infrastructure secondary."
+    }
+  ]
+}

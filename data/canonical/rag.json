@@ -25,9 +25,9 @@
     "stars": 3950,
     "forks": 274,
     "latestCommitAt": "2025-05-17T12:45:38Z",
-    "latestRelease": null,
+    "latestRelease": "0.0.9",
     "archived": false,
-    "maintenance": "slow",
+    "maintenance": "stale",
     "selfHostable": true,
     "localOfflineCapable": true,
     "audience": [
@@ -44,7 +44,7 @@
     "sources": [
       "https://github.com/AnswerDotAI/RAGatouille"
     ],
-    "notes": "Last push observed mid-2025; still widely referenced for ColBERT-in-RAG."
+    "notes": "Last push observed mid-2025; still widely referenced for ColBERT-in-RAG. Activity verification 2026-08-12: maintenance slow→stale (pushedAt=2025-05-17T12:45:38Z, primary_status=stale)."
   },
   {
     "id": "deepset-ai-haystack",
@@ -53,7 +53,7 @@
     "repo": "haystack",
     "githubUrl": "https://github.com/deepset-ai/haystack",
     "homepage": "https://haystack.deepset.ai",
-    "description": "Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation.",
+    "description": "Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation. Built for scalable agents, RAG, multimodal applications, semantic search, and conversational systems.",
     "editorialSummary": "Haystack is a production-oriented pipeline framework for RAG, semantic search, and agent workflows with explicit component graphs. deepset designed it for controllable retrieval, routing, and evaluation rather than opaque chains.",
     "whyCare": "Choose Haystack when you need modular, inspectable RAG/agent pipelines with strong IR roots and enterprise deployment patterns.",
     "primaryCategory": "rag",
@@ -74,7 +74,7 @@
     "stars": 26189,
     "forks": 2997,
     "latestCommitAt": "2026-08-12T16:17:53Z",
-    "latestRelease": null,
+    "latestRelease": "v3.0.0",
     "archived": false,
     "maintenance": "active",
     "selfHostable": true,
@@ -95,6 +95,106 @@
       "https://github.com/deepset-ai/haystack",
       "https://haystack.deepset.ai"
     ]
+  },
+  {
+    "id": "infiniflow-ragflow",
+    "name": "RAGFlow",
+    "owner": "infiniflow",
+    "repo": "ragflow",
+    "githubUrl": "https://github.com/infiniflow/ragflow",
+    "homepage": "https://ragflow.io",
+    "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+    "editorialSummary": "End-to-end open RAG engine with deep document understanding (DeepDoc), hybrid retrieval, and a product UI. Distinct from library stacks (LlamaIndex/Haystack) and from other self-hosted knowledge apps.",
+    "whyCare": "Deploy RAGFlow when you want a self-hosted RAG product with strong document parsing—not just a Python retrieval library.",
+    "primaryCategory": "rag",
+    "secondaryCategories": [
+      "ai-agents"
+    ],
+    "tags": [
+      "rag",
+      "document-understanding",
+      "self-hosted",
+      "hybrid-retrieval",
+      "ui"
+    ],
+    "language": "Go",
+    "license": "Apache-2.0",
+    "stars": 87477,
+    "forks": 10305,
+    "latestCommitAt": "2026-08-12T14:46:25Z",
+    "latestRelease": "v0.26.4",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises",
+      "hobbyists"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/infiniflow/ragflow",
+      "https://ragflow.io"
+    ],
+    "notes": "GitHub primary language may report Go for some services; core product docs emphasize Python stack. Cloud/enterprise add-ons exist; Apache-2.0 covers the open core."
+  },
+  {
+    "id": "itzcrazykns-vane",
+    "name": "Vane",
+    "owner": "ItzCrazyKns",
+    "repo": "Vane",
+    "githubUrl": "https://github.com/ItzCrazyKns/Vane",
+    "homepage": null,
+    "description": "Vane is an AI-powered answering engine.",
+    "editorialSummary": "Self-hosted AI answering/search engine (formerly Perplexica) built around local or remote LLMs plus search backends like SearXNG. Privacy-oriented alternative to cloud answer engines.",
+    "whyCare": "If your “local AI stack” needs web-grounded Q&A—not just chat—this is the go-to OSS Perplexity-style stack.",
+    "primaryCategory": "rag",
+    "secondaryCategories": [
+      "local-ai"
+    ],
+    "tags": [
+      "search",
+      "answering-engine",
+      "searxng",
+      "self-hosted",
+      "rag",
+      "perplexica"
+    ],
+    "language": "TypeScript",
+    "license": "MIT",
+    "stars": 36105,
+    "forks": 3996,
+    "latestCommitAt": "2026-04-11T14:33:06Z",
+    "latestRelease": "v1.12.2",
+    "archived": false,
+    "maintenance": "slow",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "hobbyists",
+      "engineers",
+      "students"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/ItzCrazyKns/Vane",
+      "https://github.com/ItzCrazyKns/Perplexica",
+      "https://raw.githubusercontent.com/ItzCrazyKns/Vane/master/README.md"
+    ],
+    "notes": "Renamed from Perplexica (ItzCrazyKns/Perplexica → ItzCrazyKns/Vane). localOfflineCapable false because search grounding typically needs network/SearXNG. Activity verification 2026-08-12: maintenance moderate→slow (pushedAt=2026-04-11T14:33:06Z, primary_status=low_activity). Category verification 2026-08-12: local-ai/['rag'] → rag/['local-ai']."
   },
   {
     "id": "langchain-ai-langchain",
@@ -121,9 +221,9 @@
     "language": "Python",
     "license": "MIT",
     "stars": 144088,
-    "forks": 23995,
-    "latestCommitAt": "2026-08-12T16:58:15Z",
-    "latestRelease": null,
+    "forks": 23996,
+    "latestCommitAt": "2026-08-12T17:39:37Z",
+    "latestRelease": "langchain-core==1.5.4",
     "archived": false,
     "maintenance": "active",
     "selfHostable": true,
@@ -148,13 +248,61 @@
     "notes": "Primary product messaging is agent-centric; included for RAG-centric integrations and retriever abstractions."
   },
   {
+    "id": "microsoft-graphrag",
+    "name": "GraphRAG",
+    "owner": "microsoft",
+    "repo": "graphrag",
+    "githubUrl": "https://github.com/microsoft/graphrag",
+    "homepage": "https://microsoft.github.io/graphrag/",
+    "description": "A modular graph-based Retrieval-Augmented Generation (RAG) system",
+    "editorialSummary": "Microsoft Research’s modular graph-based RAG system—extracts knowledge graphs from corpora and answers with community summaries and graph traversal. Influential alternative to pure vector RAG for global sense-making questions.",
+    "whyCare": "Choose GraphRAG when corpus-level themes and entity relationships matter more than nearest-neighbor chunk lookup alone.",
+    "primaryCategory": "rag",
+    "secondaryCategories": [
+      "research"
+    ],
+    "tags": [
+      "graphrag",
+      "knowledge-graph",
+      "rag",
+      "microsoft",
+      "python"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 35453,
+    "forks": 3728,
+    "latestCommitAt": "2026-08-11T00:32:29Z",
+    "latestRelease": "v3.1.1",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers",
+      "enterprises"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/microsoft/graphrag",
+      "https://microsoft.github.io/graphrag/"
+    ]
+  },
+  {
     "id": "neuml-txtai",
     "name": "txtai",
     "owner": "neuml",
     "repo": "txtai",
     "githubUrl": "https://github.com/neuml/txtai",
     "homepage": "https://neuml.github.io/txtai",
-    "description": "All-in-one AI framework for semantic search, LLM orchestration and language model workflows",
+    "description": "💡 All-in-one AI framework for semantic search, LLM orchestration and language model workflows",
     "editorialSummary": "txtai is an all-in-one embeddings + semantic search + RAG workflow library with a built-in vector index. It targets teams that want embeddings, retrieval, and LLM pipelines without assembling many separate services.",
     "whyCare": "Great fit for compact semantic-search and RAG apps where an embedded vector index plus orchestration in one package reduces stack complexity.",
     "primaryCategory": "rag",
@@ -174,7 +322,7 @@
     "stars": 12880,
     "forks": 872,
     "latestCommitAt": "2026-08-12T13:42:39Z",
-    "latestRelease": null,
+    "latestRelease": "v9.12.0",
     "archived": false,
     "maintenance": "active",
     "selfHostable": true,
@@ -223,7 +371,7 @@
     "license": null,
     "stars": 31561,
     "forks": 4344,
-    "latestCommitAt": "2026-08-12T17:20:27Z",
+    "latestCommitAt": "2026-08-12T17:35:47Z",
     "latestRelease": "v4.5.6",
     "archived": false,
     "maintenance": "active",
@@ -253,7 +401,7 @@
     "repo": "quivr",
     "githubUrl": "https://github.com/QuivrHQ/quivr",
     "homepage": "https://core.quivr.com",
-    "description": "Opiniated RAG for integrating GenAI in your apps. Focus on your product rather than the RAG. Easy integration in existing products with customisation.",
+    "description": "Opiniated RAG for integrating GenAI in your apps 🧠   Focus on your product rather than the RAG. Easy integration in existing products with customisation!  Any LLM: GPT4, Groq, Llama. Any Vectorstore: PGVector, Faiss. Any Files. Anyway you want.",
     "editorialSummary": "Quivr provides an opinionated RAG stack (APIs, UI patterns, vector store choices) aimed at product teams embedding knowledge chat into apps. It abstracts LLM and vector-store selection behind a product-oriented interface.",
     "whyCare": "Useful when you want a ready-made RAG product layer instead of assembling loaders, stores, and chat UI from scratch.",
     "primaryCategory": "rag",
@@ -272,9 +420,9 @@
     "stars": 39394,
     "forks": 3724,
     "latestCommitAt": "2025-07-09T12:55:23Z",
-    "latestRelease": null,
+    "latestRelease": "core-0.0.33",
     "archived": false,
-    "maintenance": "slow",
+    "maintenance": "stale",
     "selfHostable": true,
     "localOfflineCapable": true,
     "audience": [
@@ -293,7 +441,7 @@
       "https://github.com/QuivrHQ/quivr",
       "https://core.quivr.com"
     ],
-    "notes": "GitHub license SPDX unresolved (NOASSERTION); activity slowed after mid-2025."
+    "notes": "GitHub license SPDX unresolved (NOASSERTION); activity slowed after mid-2025. Activity verification 2026-08-12: maintenance slow→stale (pushedAt=2025-07-09T12:55:23Z, primary_status=stale)."
   },
   {
     "id": "run-llama-llama-index",
@@ -303,8 +451,8 @@
     "githubUrl": "https://github.com/run-llama/llama_index",
     "homepage": "https://developers.llamaindex.ai",
     "description": "LlamaIndex is the leading document agent and OCR platform",
-    "editorialSummary": "LlamaIndex is the go-to Python framework for connecting LLMs to private data via indexing, retrieval, and query engines. It covers ingestion connectors, vector/graph stores, agentic RAG patterns, and evaluation utilities used across production knowledge systems.",
-    "whyCare": "If you are building document Q&A, knowledge agents, or multi-source RAG pipelines in Python, LlamaIndex offers the deepest retrieval-centric abstractions and ecosystem of integrations.",
+    "editorialSummary": "LlamaIndex is a widely used Python framework for building agentic LLM applications over private data—indexing, retrieval/query engines, connectors, and agent workflows. Retrieval-centric abstractions remain a core strength alongside broader agent tooling.",
+    "whyCare": "If you are building document Q&A, knowledge agents, or multi-source RAG/agent pipelines in Python, LlamaIndex offers deep data-connection abstractions and a large integration ecosystem.",
     "primaryCategory": "rag",
     "secondaryCategories": [
       "ai-agents",
@@ -342,7 +490,57 @@
     "dateLastVerified": "2026-08-12",
     "sources": [
       "https://github.com/run-llama/llama_index",
-      "https://developers.llamaindex.ai"
+      "https://developers.llamaindex.ai",
+      "https://raw.githubusercontent.com/run-llama/llama_index/main/README.md"
+    ]
+  },
+  {
+    "id": "stanfordnlp-dspy",
+    "name": "DSPy",
+    "owner": "stanfordnlp",
+    "repo": "dspy",
+    "githubUrl": "https://github.com/stanfordnlp/dspy",
+    "homepage": "https://dspy.ai",
+    "description": "DSPy: The framework for programming—not prompting—language models",
+    "editorialSummary": "DSPy treats LM pipelines as programs with signatures, modules, and automatic optimizers instead of hand-tuned prompts. Foundational for systematic RAG/agent tuning beyond ad-hoc prompt engineering.",
+    "whyCare": "Reach for DSPy when you want optimizable LM programs rather than brittle prompt strings.",
+    "primaryCategory": "rag",
+    "secondaryCategories": [
+      "ai-agents",
+      "evaluation"
+    ],
+    "tags": [
+      "dspy",
+      "prompt-optimization",
+      "pipelines",
+      "rag",
+      "python",
+      "stanford"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 37147,
+    "forks": 3210,
+    "latestCommitAt": "2026-08-12T19:20:48Z",
+    "latestRelease": "3.3.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/stanfordnlp/dspy",
+      "https://dspy.ai"
     ]
   },
   {
@@ -353,8 +551,8 @@
     "githubUrl": "https://github.com/zylon-ai/private-gpt",
     "homepage": "https://www.zylon.ai/private-gpt",
     "description": "Complete API layer for private AI applications on local models: RAG, skills, tools, MCP, text-to-sql, and more. Works with any OpenAI-compatible inference server.",
-    "editorialSummary": "PrivateGPT popularized private, document-local RAG with a complete API over local or OpenAI-compatible models. It now extends into tools, MCP, and text-to-SQL while keeping privacy-first defaults.",
-    "whyCare": "Ideal when documents must stay on-prem and you want a ready API for private RAG rather than wiring inference and retrieval yourself.",
+    "editorialSummary": "PrivateGPT is an open-source API layer that turns local (or OpenAI-compatible) models into private AI applications—document RAG and higher-level building blocks with a Claude-style API. It popularized private document Q&A and continues to emphasize on-prem/privacy-first defaults.",
+    "whyCare": "Ideal when documents must stay on-prem and you want a ready API for private RAG and related app primitives rather than wiring inference and retrieval yourself.",
     "primaryCategory": "rag",
     "secondaryCategories": [
       "local-ai",
@@ -372,7 +570,7 @@
     "stars": 57432,
     "forks": 7608,
     "latestCommitAt": "2026-08-12T12:36:47Z",
-    "latestRelease": null,
+    "latestRelease": "v1.0.1",
     "archived": false,
     "maintenance": "active",
     "selfHostable": true,
@@ -391,7 +589,8 @@
     "dateLastVerified": "2026-08-12",
     "sources": [
       "https://github.com/zylon-ai/private-gpt",
-      "https://www.zylon.ai/private-gpt"
+      "https://www.zylon.ai/private-gpt",
+      "https://raw.githubusercontent.com/zylon-ai/private-gpt/main/README.md"
     ]
   }
 ]

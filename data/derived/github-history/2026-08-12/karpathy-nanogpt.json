@@ -1,0 +1,21 @@
+{
+  "id": "karpathy-nanogpt",
+  "fetchedAt": "2026-08-12T17:39:56.726Z",
+  "stars": 62051,
+  "forks": 10695,
+  "watchers": 528,
+  "openIssues": 351,
+  "language": "Python",
+  "license": "MIT",
+  "description": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
+  "homepage": null,
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2025-11-12T19:52:34Z",
+  "updatedAt": "2026-08-12T15:19:31Z",
+  "createdAt": "2022-12-28T00:51:12Z",
+  "latestRelease": null,
+  "latestReleaseAt": null,
+  "defaultBranch": "master"
+}

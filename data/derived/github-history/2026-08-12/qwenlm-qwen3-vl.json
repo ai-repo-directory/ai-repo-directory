@@ -1,0 +1,21 @@
+{
+  "id": "qwenlm-qwen3-vl",
+  "fetchedAt": "2026-08-12T17:39:52.633Z",
+  "stars": 19778,
+  "forks": 1831,
+  "watchers": 96,
+  "openIssues": 422,
+  "language": "Jupyter Notebook",
+  "license": "Apache-2.0",
+  "description": "Qwen3-VL is the multimodal large language model series developed by Qwen team, Alibaba Cloud.",
+  "homepage": null,
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-01-30T04:47:30Z",
+  "updatedAt": "2026-08-12T14:55:36Z",
+  "createdAt": "2024-08-29T08:30:38Z",
+  "latestRelease": null,
+  "latestReleaseAt": null,
+  "defaultBranch": "main"
+}

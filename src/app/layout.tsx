@@ -26,19 +26,19 @@ export const metadata: Metadata = {
     template: "%s · AI Repo Directory",
   },
   description:
-    "Discover curated open-source AI repositories — agents, RAG, inference, local AI, and more — with transparent discovery scores.",
+    "Discover a curated, regularly refreshed directory of AI repositories — agents, RAG, inference, local AI, and more — with transparent discovery scores.",
   openGraph: {
     type: "website",
     siteName: "AI Repo Directory",
     title: "AI Repo Directory",
     description:
-      "A high-signal directory of open-source AI projects for engineers and researchers.",
+      "A curated, independently verified directory of AI projects for engineers and researchers.",
   },
   twitter: {
     card: "summary_large_image",
     title: "AI Repo Directory",
     description:
-      "Curated open-source AI repositories with transparent ranking.",
+      "Curated AI repositories with transparent ranking — regularly refreshed, not real-time.",
   },
   robots: {
     index: true,

@@ -1,0 +1,2985 @@
+[
+  {
+    "id": "ollama-ollama",
+    "featured": true,
+    "stars": 178354,
+    "summary": "The most popular way to run open models locally: a simple CLI and desktop app with an OpenAI-compatible API. Pull models by name, chat in the terminal, and point any local UI at localhost.",
+    "whyCare": "Default local runtime for hobbyists and teams\u2014huge model library, minimal setup, and the ecosystem hub that Open WebUI, LibreChat, and coding tools already speak.",
+    "blurb": "Start building with open models. ```shell curl -fsSL https://ollama.com/install.sh | sh or [download manually](https://ollama.com/download/Ollama.dmg) ```shell irm https://ollama.com/install.ps1 | iex or [download manually](https://ollama.com/download/OllamaSetup.exe) ```shell curl -fsSL https://ollama.com/install.sh | sh The official [Ollama Docker image](https://hub.docker.com/r/ollama/ollama) `ollama/ollama` is available on Docker Hub.",
+    "issues": [
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "students",
+      "hobbyists",
+      "enterprises"
+    ],
+    "tags": [
+      "local-llm",
+      "ollama",
+      "openai-compatible",
+      "desktop",
+      "cli",
+      "gguf",
+      "self-hosted"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/ollama/ollama/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/local-ai.json"
+  },
+  {
+    "id": "automatic1111-stable-diffusion-webui",
+    "featured": true,
+    "stars": 164497,
+    "summary": "The Gradio-based WebUI that defined consumer Stable Diffusion workflows: txt2img, img2img, inpainting, extensions, and a huge ecosystem of community scripts. Still the most recognizable entry point for local image generation.",
+    "whyCare": "Largest historical install base and extension catalog; essential reference for how people actually run diffusion models locally.",
+    "blurb": "A web interface for Stable Diffusion, implemented using Gradio library. - Original txt2img and img2img modes - One click install and run script (but you still must install python and git) - Outpainting - Inpainting - Color Sketch - Prompt Matrix - Stable Diffusion Upscale - Attention, specify parts of text that the model should pay more attention to - a man in a `((tuxedo))` - will pay more attention to tuxedo",
+    "issues": [
+      "spot_check_priority"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists"
+    ],
+    "tags": [
+      "stable-diffusion",
+      "webui",
+      "gradio",
+      "txt2img",
+      "img2img",
+      "extensions"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/image-ai.json"
+  },
+  {
+    "id": "huggingface-transformers",
+    "featured": true,
+    "stars": 164003,
+    "summary": "The de facto open-source model zoo and definition layer for modern transformers across NLP, vision, audio, and multimodal work. It turned research checkpoints into a shared, reproducible API used by labs and product teams alike.",
+    "whyCare": "If you need to load, fine-tune, or publish SOTA pretrained models with a consistent interface, this is the research-to-production bridge most papers and tutorials assume.",
+    "blurb": "Copyright 2020 The HuggingFace Team. All rights reserved. Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS,",
+    "issues": [
+      "spot_check_priority"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "students",
+      "researchers",
+      "enterprises"
+    ],
+    "tags": [
+      "transformers",
+      "pretrained-models",
+      "nlp",
+      "pytorch",
+      "huggingface",
+      "vlm"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/huggingface/transformers/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/research.json"
+  },
+  {
+    "id": "open-webui-open-webui",
+    "featured": true,
+    "stars": 148594,
+    "summary": "Polished ChatGPT-style web UI for Ollama and OpenAI-compatible backends, with RAG, tools/MCP, multi-user auth, and rich admin controls. The default frontend for many self-hosted stacks.",
+    "whyCare": "Turns a local model server into a full product experience\u2014documents, agents, and team access\u2014without building your own chat app.",
+    "blurb": "**Open WebUI is an [extensible](https://docs.openwebui.com/features/extensibility/plugin), feature-rich, and user-friendly self-hosted AI platform designed to operate entirely offline.** It supports various LLM runners like **Ollama** and **OpenAI-compatible APIs**, with **built-in inference engine** for RAG, making it a **powerful AI deployment solution**. Passionate about open-source AI? [Join our team \u2192](https://careers.openwebui.com/)",
+    "issues": [
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "students",
+      "hobbyists",
+      "enterprises"
+    ],
+    "tags": [
+      "webui",
+      "ollama",
+      "self-hosted",
+      "rag",
+      "mcp",
+      "chat"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/open-webui/open-webui/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/local-ai.json"
+  },
+  {
+    "id": "langchain-ai-langchain",
+    "featured": true,
+    "stars": 144088,
+    "summary": "LangChain remains the most widely adopted LLM application framework, with first-class RAG primitives (retrievers, document loaders, vector store integrations) alongside agent tooling. Listed here for its retrieval ecosystem even as the project positions itself around agent engineering.",
+    "whyCare": "Its retriever/vector-store ecosystem and tutorials make it the default starting point for many RAG prototypes and production apps.",
+    "blurb": "LangChain is a framework for building agents and LLM-powered applications. It helps you chain together interoperable components and third-party integrations to simplify AI application development \u2014 all while future-proofing decisions as the underlying technology evolves. > [!TIP] > Just getting started? Check out **[Deep Agents](http://docs.langchain.com/oss/python/deepagents/)** \u2014 a higher-level package built on LangChain for agents that have built-in capabilites for common usage patterns such as planning, subagents, file system usage, and more.",
+    "issues": [
+      "editorial claims pattern '\\\\bRAG\\\\b' not clearly supported in README"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "students",
+      "hobbyists",
+      "enterprises"
+    ],
+    "tags": [
+      "rag",
+      "retrievers",
+      "vector-stores",
+      "agents",
+      "python",
+      "framework"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/langchain-ai/langchain/master/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/rag.json"
+  },
+  {
+    "id": "comfy-org-comfyui",
+    "featured": true,
+    "stars": 127050,
+    "summary": "Node-graph diffusion frontend/backend for composing complex image (and increasingly video) pipelines. De facto standard for power users, custom nodes, and production-style workflows.",
+    "whyCare": "Best-in-class modularity and model support; workflows are shareable graphs and the custom-node ecosystem moves fastest in open image AI.",
+    "blurb": "**The most powerful and modular AI engine for content creation.** [matrix-shield]: https://img.shields.io/badge/Matrix-000000?style=flat&logo=matrix&logoColor=white [matrix-url]: https://app.element.io/#/room/%23comfyui_space%3Amatrix.org [website-shield]: https://img.shields.io/badge/ComfyOrg-4285F4?style=flat [website-url]: https://www.comfy.org/ [discord-shield]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscord.com%2Fapi%2Finvites%2Fcomfyorg%3Fwith_counts%3Dtrue&query=%24.approximate_member_count&logo=discord&logoColor=white&label=Discord&color=green&suffix=%20total",
+    "issues": [
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "enterprises"
+    ],
+    "tags": [
+      "comfyui",
+      "node-graph",
+      "stable-diffusion",
+      "flux",
+      "workflow",
+      "api"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/Comfy-Org/ComfyUI/master/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/image-ai.json"
+  },
+  {
+    "id": "ggml-org-llama.cpp",
+    "featured": true,
+    "stars": 123662,
+    "summary": "llama.cpp is the foundational C/C++ runtime for running GGUF LLMs efficiently on CPU, Apple Silicon, and many GPUs. It powers a large share of local-AI tooling and defines the GGUF ecosystem used by Ollama, llamafile, and others.",
+    "whyCare": "Best-in-class portable inference when you care about quantization, edge/CPU performance, and a dependency-light C++ core rather than a Python serving stack.",
+    "blurb": "[manifesto](https://github.com/ggml-org/llama.cpp/discussions/205) / [ggml](https://github.com/ggml-org/ggml) / [ops](https://github.com/ggml-org/llama.cpp/blob/master/docs/ops.md) / [maintainer PRs](https://github.com/ggml-org/llama.cpp/issues?q=is%3Apr%20is%3Aopen%20draft%3AFalse%20(author%3Argerganov%20OR%20author%3AKitaitiMakoto%20OR%20author%3Adanbev%20OR%20author%3Aaldehir%20OR%20author%3Amax-krasnyansky%20OR%20author%3ACISC%20OR%20author%3Aggerganov%20OR%20author%3Aam17an%20OR%20author%3Abartowski1182%20OR%20author%3Ahipudding%20OR%20author%3AServeurpersoCom%20OR%20author%3Apwilkin%20OR",
+    "issues": [
+      "spot_check_priority"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "students",
+      "hobbyists",
+      "researchers"
+    ],
+    "tags": [
+      "gguf",
+      "ggml",
+      "cpu",
+      "quantization",
+      "apple-silicon",
+      "c++"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/ggml-org/llama.cpp/master/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/llm-inference.json"
+  },
+  {
+    "id": "openai-whisper",
+    "featured": true,
+    "stars": 107155,
+    "summary": "OpenAI's general-purpose speech recognition model trained on large-scale weak supervision. It remains the reference ASR baseline that most local and production Whisper derivatives build on.",
+    "whyCare": "Default open STT starting point: multilingual transcription, translation, and a huge ecosystem of optimized ports and wrappers.",
+    "blurb": "Whisper is a general-purpose speech recognition model. It is trained on a large dataset of diverse audio and is also a multitasking model that can perform multilingual speech recognition, speech translation, and language identification. A Transformer sequence-to-sequence model is trained on various speech processing tasks, including multilingual speech recognition, speech translation, spoken language identification, and voice activity detection. These tasks are jointly represented as a sequence of tokens to be predicted by the decoder, allowing a single model to replace many stages of a tradit",
+    "issues": [
+      "spot_check_priority"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "researchers",
+      "enterprises"
+    ],
+    "tags": [
+      "asr",
+      "stt",
+      "speech-recognition",
+      "whisper",
+      "transcription",
+      "multilingual"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/openai/whisper/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/audio-ai.json"
+  },
+  {
+    "id": "modelcontextprotocol-servers",
+    "featured": true,
+    "stars": 89490,
+    "summary": "Reference and community MCP server implementations maintained by the MCP project. It is the canonical starting collection for filesystem, fetch, git, memory, and other baseline tool servers that clients like Claude Desktop and Cursor consume.",
+    "whyCare": "The official sample/reference server monorepo\u2014use it to learn the protocol shape and ship production-ready baseline tools quickly.",
+    "blurb": "This repository is a collection of *reference implementations* for the [Model Context Protocol](https://modelcontextprotocol.io/) (MCP), as well as references to community-built servers and additional resources. > [!IMPORTANT] > If you are looking for a list of MCP servers, you can browse published servers on [the MCP Registry](https://registry.modelcontextprotocol.io/). The repository served by this README is dedicated to housing just the small number of reference servers maintained by the MCP steering group.",
+    "issues": [
+      "README indicates archived/deprecated/unmaintained; editorial may need historical framing"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "enterprises"
+    ],
+    "tags": [
+      "mcp",
+      "servers",
+      "tools",
+      "reference",
+      "anthropic",
+      "typescript"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/mcp-tools.json"
+  },
+  {
+    "id": "vllm-project-vllm",
+    "featured": true,
+    "stars": 88884,
+    "summary": "vLLM is the de facto open-source engine for high-throughput LLM serving. It pioneered PagedAttention and continuous batching, and remains the default choice for OpenAI-compatible GPU inference in production and research.",
+    "whyCare": "If you need maximum tokens/sec on NVIDIA (and increasingly AMD/TPU) GPUs with an OpenAI-compatible API, vLLM is the starting point most teams standardize on.",
+    "blurb": "Easy, fast, and cheap LLM serving for everyone | <a href=\"https://docs.vllm.ai\"><b>Documentation</b></a> | <a href=\"https://blog.vllm.ai/\"><b>Blog</b></a> | <a href=\"https://arxiv.org/abs/2309.06180\"><b>Paper</b></a> | <a href=\"https://x.com/vllm_project\"><b>Twitter/X</b></a> | <a href=\"https://discuss.vllm.ai\"><b>User Forum</b></a> | <a href=\"https://slack.vllm.ai\"><b>Developer Slack</b></a> | \ud83d\udd25 We have built a vLLM website to help you get started with vLLM. Please visit [vllm.ai](https://vllm.ai) to learn more.",
+    "issues": [
+      "spot_check_priority"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers",
+      "enterprises"
+    ],
+    "tags": [
+      "serving",
+      "pagedattention",
+      "openai-compatible",
+      "cuda",
+      "continuous-batching",
+      "moe"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/vllm-project/vllm/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/llm-inference.json"
+  },
+  {
+    "id": "openhands-openhands",
+    "featured": true,
+    "stars": 83808,
+    "summary": "Formerly OpenDevin: an open platform for AI-driven software development where agents can write code, run commands, browse, and collaborate on real tasks. Supports CLI and UI workflows and is a leading research-to-product coding-agent stack.",
+    "whyCare": "Highest-signal open autonomous coding agent platform after the OpenDevin rebrand; strong community, frequent releases, and a clear path from evals to day-to-day agentic development.",
+    "blurb": "Run OpenHands, Claude Code, Codex, Gemini, or any ACP-compatible agent across local, remote, and cloud backends. OpenHands Agent Canvas turns your coding agents into a self-hosted, always-on engineering team. It's a developer control center for starting conversations and automating everyday tasks \u2014 like generating reports that publish to Slack or automatically decomposing GitHub issues into tasks. It runs locally on your machine by default, but can connect to multiple \u201cagent backends\u201d, e.g. running agents in Docker containers, on VMs, or within your company infrastructure. You can optionally c",
+    "issues": [
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers",
+      "enterprises"
+    ],
+    "tags": [
+      "autonomous-agent",
+      "opendevin",
+      "sandbox",
+      "cli",
+      "web-ui",
+      "software-engineering"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/coding-agents.json"
+  },
+  {
+    "id": "hiyouga-llamafactory",
+    "featured": true,
+    "stars": 74026,
+    "summary": "End-to-end toolkit for SFT, preference tuning, and RLHF across 100+ LLMs and VLMs, with YAML/CLI recipes and a web UI. Widely adopted as the practical default for instruction and alignment fine-tuning.",
+    "whyCare": "Covers the full post-training stack (LoRA/QLoRA, DPO, KTO, PPO, etc.) without stitching together separate PEFT/TRL scripts for each model family.",
+    "blurb": "Follow our project: https://github.com/Prism-Shadow/penguin-harness https://github.com/user-attachments/assets/9b7033e8-f08a-4c3f-bd33-547896664e6e | <div style=\"text-align: center;\"><a href=\"https://warp.dev/llama-factory\"><img alt=\"Warp sponsorship\" width=\"400\" src=\"assets/sponsors/warp.jpg\"></a><br><a href=\"https://warp.dev/llama-factory\" style=\"font-size:larger;\">Warp, the agentic terminal for developers</a><br><a href=\"https://warp.dev/llama-factory\">Available for MacOS, Linux, & Windows</a> | <a href=\"https://serpapi.com\"><img alt=\"SerpAPI sponsorship\" width=\"250\" src=\"assets/sponsors/se",
+    "issues": [
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "researchers",
+      "enterprises"
+    ],
+    "tags": [
+      "fine-tuning",
+      "lora",
+      "qlora",
+      "rlhf",
+      "sft",
+      "dpo",
+      "llm",
+      "vlm",
+      "peft"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/hiyouga/LlamaFactory/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/training.json"
+  },
+  {
+    "id": "unslothai-unsloth",
+    "featured": true,
+    "stars": 70569,
+    "summary": "Highly optimized fine-tuning stack focused on speed and lower VRAM for LoRA/QLoRA training, plus a local UI for training and running models. Popular for consumer-GPU fine-tunes and fast iteration.",
+    "whyCare": "Often the fastest path to fine-tune popular open models on a single GPU with far less memory than stock Transformers+PEFT setups.",
+    "blurb": "Unsloth lets you run and train models locally. Download the native Unsloth Desktop app for your operating system: Download from [Unsloth](https://unsloth.ai/download) or [GitHub Releases](https://github.com/unslothai/unsloth/releases). Or if you prefer to install manually: ```bash curl -fsSL https://unsloth.ai/install.sh | sh ```powershell irm https://unsloth.ai/install.ps1 | iex - [Discord](https://discord.gg/unsloth)",
+    "issues": [
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "students",
+      "hobbyists",
+      "researchers"
+    ],
+    "tags": [
+      "fine-tuning",
+      "lora",
+      "qlora",
+      "rl",
+      "local",
+      "gpu-efficiency",
+      "llm"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/unslothai/unsloth/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/training.json"
+  },
+  {
+    "id": "cline-cline",
+    "featured": true,
+    "stars": 66053,
+    "summary": "Autonomous coding agent available as a VS Code extension, CLI, and SDK. Plans and executes multi-step coding tasks with tool use, file edits, and terminal commands\u2014often cited as a leading open Cursor-class agent.",
+    "whyCare": "One of the fastest-growing OSS IDE coding agents; flexible surfaces (extension/CLI/SDK) and a large ecosystem of forks and adjacent tools (e.g. Roo lineage).",
+    "blurb": "The open source coding agent in your IDE and terminal. Run Cline in your terminal. Interactive chat or fully headless for CI/CD and scripting. npm i -g cline Run many agents in parallel from a web-based task board. Each card gets its own worktree, auto-commit, and dependency chains. npm i -g kanban AI coding assistant in your editor. Create files, run commands, browse the web, and use tools with human-in-the-loop approval.",
+    "issues": [
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "enterprises"
+    ],
+    "tags": [
+      "vscode",
+      "autonomous-agent",
+      "cli",
+      "sdk",
+      "cursor-alternative"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/cline/cline/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/coding-agents.json"
+  },
+  {
+    "id": "mintplex-labs-anything-llm",
+    "featured": true,
+    "stars": 64661,
+    "summary": "All-in-one local-first workspace: chat, document RAG, agents, and multi-user modes with desktop and Docker installs. Strong productization of private AI for individuals and small teams.",
+    "whyCare": "One package for docs + chat + agents without assembling Open WebUI, a vector DB, and glue scripts yourself.",
+    "blurb": "> [!NOTE] > We are also working on [Open Computer](/open-computer) which gives an entire computer environment for AI Agents to use. > > This will bring AnythingLLM's agent capabilities to a new level and a novel UX paradigm for AI Agent use. > > \u2b50 Star the repo to stay updated! Chat with your docs, use AI Agents, hyper-configurable, multi-user, & no frustrating setup required. Docs Hosted Instance \ud83d\udc49 AnythingLLM for desktop (Mac, Windows, & Linux)! <a href=\"https://anythingllm.com/download\" target=\"_blank\"> Download Now</a>",
+    "issues": [
+      "editorial claims pattern '\\\\bRAG\\\\b' not clearly supported in README",
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "students",
+      "hobbyists",
+      "enterprises"
+    ],
+    "tags": [
+      "rag",
+      "agents",
+      "desktop",
+      "docker",
+      "local-first",
+      "self-hosted"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/Mintplex-Labs/anything-llm/master/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/local-ai.json"
+  },
+  {
+    "id": "karpathy-nanogpt",
+    "featured": true,
+    "stars": 62051,
+    "summary": "Karpathy's minimal GPT training repo that became the default educational and prototyping baseline for modern LLM research. Small enough to read end-to-end, serious enough to train real models.",
+    "whyCare": "Best starting point for understanding GPT training loops, scaling experiments, and reproducible medium-scale pretraining without framework overhead.",
+    "blurb": "**Update Nov 2025** nanoGPT has a new and improved cousin called [nanochat](https://github.com/karpathy/nanochat). It is very likely you meant to use/find nanochat instead. nanoGPT (this repo) is now very old and deprecated but I will leave it up for posterity. The simplest, fastest repository for training/finetuning medium-sized GPTs. It is a rewrite of [minGPT](https://github.com/karpathy/minGPT) that prioritizes teeth over education. Still under active development, but currently the file `train.py` reproduces GPT-2 (124M) on OpenWebText, running on a single 8XA100 40GB node in about 4 days ",
+    "issues": [
+      "editorialSummary may not mention project name distinctly",
+      "README indicates archived/deprecated/unmaintained; editorial may need historical framing"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "students",
+      "hobbyists",
+      "researchers"
+    ],
+    "tags": [
+      "gpt",
+      "pretraining",
+      "educational",
+      "karpathy",
+      "minimal"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/karpathy/nanoGPT/master/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/research.json"
+  },
+  {
+    "id": "upstash-context7",
+    "featured": true,
+    "stars": 60651,
+    "summary": "Documentation MCP/platform that pulls version-accurate library docs into LLM coding sessions. Extremely popular with Cursor users to reduce hallucinated APIs.",
+    "whyCare": "Highest-leverage Cursor MCP for coding accuracy\u2014injects current docs instead of stale training data.",
+    "blurb": "LLMs rely on outdated or generic information about the libraries you use. You get: - \u274c Code examples are outdated and based on year-old training data - \u274c Hallucinated APIs that don't even exist - \u274c Generic answers for old package versions Context7 pulls up-to-date, version-specific documentation and code examples straight from the source \u2014 and places them directly into your prompt. ```txt Create a Next.js middleware that checks for a valid JWT in cookies",
+    "issues": [
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": false,
+    "audience": [
+      "engineers",
+      "students",
+      "hobbyists"
+    ],
+    "tags": [
+      "mcp",
+      "docs",
+      "cursor",
+      "context7",
+      "upstash",
+      "typescript"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/upstash/context7/master/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/mcp-tools.json"
+  },
+  {
+    "id": "zylon-ai-private-gpt",
+    "featured": true,
+    "stars": 57432,
+    "summary": "PrivateGPT popularized private, document-local RAG with a complete API over local or OpenAI-compatible models. It now extends into tools, MCP, and text-to-SQL while keeping privacy-first defaults.",
+    "whyCare": "Ideal when documents must stay on-prem and you want a ready API for private RAG rather than wiring inference and retrieval yourself.",
+    "blurb": "**PrivateGPT is the open-source API layer that turns local models into production AI applications.** Running a model locally is only the first step. To build useful AI applications you need a set of higher-level building blocks. PrivateGPT provides that layer as an open-source API following the Claude API model \u2014 so you can build private AI products without rebuilding the same backend primitives from scratch, and without depending on cloud APIs.",
+    "issues": [
+      "spot_check_priority"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "enterprises"
+    ],
+    "tags": [
+      "private-rag",
+      "local-llm",
+      "api",
+      "privacy",
+      "on-premise"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/zylon-ai/private-gpt/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/rag.json"
+  },
+  {
+    "id": "crewaiinc-crewai",
+    "featured": true,
+    "stars": 56989,
+    "summary": "CrewAI focuses on role-based multi-agent crews and process flows that are approachable for product teams. Agents collaborate with defined roles, tools, and tasks without requiring a heavy graph model.",
+    "whyCare": "Fast path from idea to a working multi-agent team\u2014strong DX for role-playing crews and sequential/hierarchical processes.",
+    "blurb": "\u00b7 \u00b7 \u00b7 \u00b7 \u00b7 > CrewAI is an open-source Python framework with high-level abstractions and low-level APIs for building production-ready multi-agent workflows. > It gives developers autonomous agent collaboration through Crews and precise, event-driven control through Flows. - **CrewAI Crews**: Optimize for autonomy and collaborative intelligence with role-based AI agents. - **CrewAI Flows**: Build event-driven automations that combine precise workflow control, single LLM calls, and native support for Crews.",
+    "issues": [
+      "spot_check_priority"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "enterprises"
+    ],
+    "tags": [
+      "multi-agent",
+      "role-playing",
+      "orchestration",
+      "python",
+      "crews"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/crewAIInc/crewAI/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/ai-agents.json"
+  },
+  {
+    "id": "facebookresearch-segment-anything",
+    "featured": true,
+    "stars": 54679,
+    "summary": "Meta\u2019s promptable segmentation foundation model. Click/box/mask prompts produce high-quality masks used everywhere in generative image editing.",
+    "whyCare": "Default mask engine for inpainting, matting, and region edits across WebUIs, ComfyUI, and research toolchains.",
+    "blurb": "Please check out our new release on [**Segment Anything Model 2 (SAM 2)**](https://github.com/facebookresearch/segment-anything-2). * SAM 2 code: https://github.com/facebookresearch/segment-anything-2 * SAM 2 demo: https://sam2.metademolab.com/ * SAM 2 paper: https://arxiv.org/abs/2408.00714 **Segment Anything Model 2 (SAM 2)** is a foundation model towards solving promptable visual segmentation in images and videos. We extend SAM to video by considering images as a video with a single frame. The model design is a simple transformer architecture with streaming memory for real-time video proces",
+    "issues": [
+      "spot_check_priority"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "researchers"
+    ],
+    "tags": [
+      "sam",
+      "segmentation",
+      "masks",
+      "editing",
+      "foundation-model"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/facebookresearch/segment-anything/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/image-ai.json"
+  },
+  {
+    "id": "ggml-org-whisper-cpp",
+    "featured": true,
+    "stars": 52843,
+    "summary": "High-performance C/C++ port of Whisper using ggml, enabling CPU-first and edge-friendly speech recognition without a heavy Python stack. Formerly hosted under ggerganov/whisper.cpp.",
+    "whyCare": "Best-known path for embedding Whisper into apps, devices, and offline tooling with quantized models and minimal dependencies.",
+    "blurb": "Stable: [v1.9.2](https://github.com/ggml-org/whisper.cpp/releases/tag/v1.9.2) / [Roadmap](https://github.com/orgs/ggml-org/projects/4/) High-performance inference of [OpenAI's Whisper](https://github.com/openai/whisper) automatic speech recognition (ASR) model: - Plain C/C++ implementation without dependencies - Apple Silicon first-class citizen - optimized via ARM NEON, Accelerate framework, Metal and [Core ML](#core-ml-support)",
+    "issues": [
+      "spot_check_priority"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "enterprises"
+    ],
+    "tags": [
+      "whisper",
+      "asr",
+      "stt",
+      "cpp",
+      "ggml",
+      "edge",
+      "offline"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/ggml-org/whisper.cpp/master/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/audio-ai.json"
+  },
+  {
+    "id": "lllyasviel-fooocus",
+    "featured": true,
+    "stars": 52198,
+    "summary": "Opinionated, Midjourney-like local UI that hides sampler/model complexity behind strong defaults. Designed so users mostly write prompts and get good images.",
+    "whyCare": "Lowest-friction path to high-quality local generations without learning ControlNet graphs or dozens of WebUI tabs.",
+    "blurb": "Fooocus is an image generating software (based on [Gradio](https://www.gradio.app/) <a href='https://github.com/gradio-app/gradio'><img src='https://img.shields.io/github/stars/gradio-app/gradio'></a>). Fooocus presents a rethinking of image generator designs. The software is offline, open source, and free, while at the same time, similar to many online image generators like Midjourney, the manual tweaking is not needed, and users only need to focus on the prompts and images. Fooocus has also simplified the installation: between pressing \"download\" and generating the first image, the number of",
+    "issues": [
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "students",
+      "hobbyists"
+    ],
+    "tags": [
+      "fooocus",
+      "webui",
+      "beginner-friendly",
+      "stable-diffusion",
+      "prompting"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/lllyasviel/Fooocus/main/readme.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/image-ai.json"
+  },
+  {
+    "id": "run-llama-llama-index",
+    "featured": true,
+    "stars": 51594,
+    "summary": "LlamaIndex is the go-to Python framework for connecting LLMs to private data via indexing, retrieval, and query engines. It covers ingestion connectors, vector/graph stores, agentic RAG patterns, and evaluation utilities used across production knowledge systems.",
+    "whyCare": "If you are building document Q&A, knowledge agents, or multi-source RAG pipelines in Python, LlamaIndex offers the deepest retrieval-centric abstractions and ecosystem of integrations.",
+    "blurb": "LlamaIndex OSS (by [LlamaIndex](https://llamaindex.ai?utm_medium=li_github&utm_source=github&utm_campaign=2026--)) is an open-source framework to build agentic applications. **[Parse](https://cloud.llamaindex.ai?utm_medium=li_github&utm_source=github&utm_campaign=2026--)** is our enterprise platform for agentic OCR, parsing, extraction, indexing and more. You can use LlamaParse with this framework or on its own; see [LlamaParse](#llamacloud-document-agent-platform) below for signup and product links.",
+    "issues": [
+      "spot_check_priority"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers",
+      "enterprises"
+    ],
+    "tags": [
+      "rag",
+      "retrieval",
+      "indexing",
+      "query-engine",
+      "python",
+      "document-agents"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/run-llama/llama_index/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/rag.json"
+  },
+  {
+    "id": "mudler-localai",
+    "featured": true,
+    "stars": 48410,
+    "summary": "Drop-in OpenAI-compatible API gateway that runs LLMs, vision, audio, and image models locally\u2014including CPU-only paths. A self-hosted alternative when you want one engine for multimodal workloads.",
+    "whyCare": "Closest OSS \u201cOpenAI API at home\u201d for mixed modalities without locking into a single vendor runtime.",
+    "blurb": "**LocalAI** is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required. **A small core, not a bundle.** Each backend wraps a best-in-class engine (llama.cpp, vLLM, whisper.cpp, stable-diffusion, MLX...) in its own image, pulled only when a model needs it. You install nothing you don't use. - **Composable by design**: backends are separate and pulled on demand, so you install only what your model needs",
+    "issues": [
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "enterprises"
+    ],
+    "tags": [
+      "openai-compatible",
+      "api",
+      "multimodal",
+      "self-hosted",
+      "cpu",
+      "docker"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/mudler/LocalAI/master/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/local-ai.json"
+  },
+  {
+    "id": "aider-ai-aider",
+    "featured": true,
+    "stars": 48147,
+    "summary": "Terminal-native AI pair programmer that edits a real git repo with you: maps the codebase, proposes multi-file diffs, and commits when you approve. Model-agnostic (OpenAI, Anthropic, Gemini, local models) and widely used as a lightweight alternative to IDE-bound agents.",
+    "whyCare": "Battle-tested CLI workflow for repo-aware edits without leaving the terminal; excellent for git-centric teams who want transparent, reviewable AI changes.",
+    "blurb": "AI Pair Programming in Your Terminal Aider lets you pair program with LLMs to start a new project or build on your existing codebase. src=\"https://aider.chat/assets/screencast.svg\" alt=\"aider screencast\" > from scripts.homepage import get_badges_md text = get_badges_md() cog.out(text) ]]]--> src=\"https://img.shields.io/github/stars/Aider-AI/aider?style=flat-square&logo=github&color=f1c40f&labelColor=555555\"/></a>",
+    "issues": [
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists"
+    ],
+    "tags": [
+      "cli",
+      "pair-programming",
+      "git",
+      "multi-file-edit",
+      "terminal",
+      "byok"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/Aider-AI/aider/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/coding-agents.json"
+  },
+  {
+    "id": "coqui-ai-tts",
+    "featured": true,
+    "stars": 45883,
+    "summary": "Broad TTS/voice-cloning toolkit that shipped many research and production models, including XTTS. Coqui as a company shut down; the repo remains a foundational open TTS reference despite slowed upstream development.",
+    "whyCare": "Still one of the most complete open TTS codebases (multi-speaker, cloning, training recipes), especially if you need XTTS-era capabilities offline.",
+    "blurb": "- \ud83d\udce3 \u24cdTTSv2 is here with 16 languages and better performance across the board. - \ud83d\udce3 \u24cdTTS fine-tuning code is out. Check the [example recipes](https://github.com/coqui-ai/TTS/tree/dev/recipes/ljspeech). - \ud83d\udce3 \u24cdTTS can now stream with <200ms latency. - \ud83d\udce3 \u24cdTTS, our production TTS model that can speak 13 languages, is released [Blog Post](https://coqui.ai/blog/tts/open_xtts), [Demo](https://huggingface.co/spaces/coqui/xtts), [Docs](https://tts.readthedocs.io/en/dev/models/xtts.html)",
+    "issues": [
+      "spot_check_priority"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "researchers"
+    ],
+    "tags": [
+      "tts",
+      "xtts",
+      "voice-cloning",
+      "speech-synthesis",
+      "vocoder",
+      "multi-speaker"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/coqui-ai/TTS/dev/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/audio-ai.json"
+  },
+  {
+    "id": "milvus-io-milvus",
+    "featured": true,
+    "stars": 45615,
+    "summary": "Milvus is a cloud-native distributed vector database built for large-scale ANN search. It underpins many high-volume RAG and multimodal retrieval deployments via Kubernetes-oriented architecture.",
+    "whyCare": "When vector corpora grow into billions of embeddings, Milvus is the established open-source scale-out option.",
+    "blurb": "\ud83d\udc26 [Milvus](https://milvus.io/) is a high-performance vector database built for scale. It powers AI applications by efficiently organizing and searching vast amounts of unstructured data, such as text, images, and multi-modal information. \ud83e\uddd1\u200d\ud83d\udcbb Written in Go and C++, Milvus implements hardware acceleration for CPU/GPU to achieve best-in-class vector search performance. Thanks to its [fully-distributed and K8s-native architecture](https://milvus.io/docs/overview.md#What-Makes-Milvus-so-Scalable), Milvus can scale horizontally, handle tens of thousands of search queries on billions of vectors, and ",
+    "issues": [
+      "spot_check_priority"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "tags": [
+      "vector-database",
+      "ann",
+      "distributed",
+      "kubernetes",
+      "hnsw",
+      "diskann"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/milvus-io/milvus/master/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/vector-db.json"
+  },
+  {
+    "id": "janhq-jan",
+    "featured": true,
+    "stars": 43980,
+    "summary": "Open-source ChatGPT alternative that runs fully offline as a desktop app (Tauri), with local model management and optional remote providers. Strong focus on privacy-first everyday use.",
+    "whyCare": "Best \u201cdownload and chat offline\u201d experience for users who want a native app rather than Docker/Ollama + browser UI.",
+    "blurb": "- <a href=\"https://discord.gg/Exe46xPMbK\">Community</a> - <a href=\"https://jan.ai/changelog\">Changelog</a> - <a href=\"https://github.com/janhq/jan/issues\">Bug reports</a> Jan is bringing the best of open-source AI in an easy-to-use product. Download and run LLMs with **full control** and **privacy**. width=\"200\" alt=\"Get it from Microsoft Store\" src=\"https://get.microsoft.com/images/en-us%20dark.svg\"/>",
+    "issues": [
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "students",
+      "hobbyists",
+      "enterprises"
+    ],
+    "tags": [
+      "desktop",
+      "offline",
+      "tauri",
+      "local-llm",
+      "privacy"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/janhq/jan/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/local-ai.json"
+  },
+  {
+    "id": "ray-project-ray",
+    "featured": true,
+    "stars": 43501,
+    "summary": "Ray is a distributed compute engine with first-class libraries for training (Train), serving (Serve), data processing (Data), and reinforcement learning (RLlib). It underpins many production LLM and ML platforms that need elastic, multi-node Python workloads.",
+    "whyCare": "Use Ray when you need one runtime to scale data prep, training, and model serving across a cluster without rewriting jobs for each cloud scheduler.",
+    "blurb": ".. image:: https://github.com/ray-project/ray/raw/master/doc/source/images/ray_header_logo.png .. image:: https://readthedocs.org/projects/ray/badge/?version=master :target: http://docs.ray.io/en/master/?badge=master .. image:: https://img.shields.io/badge/Ray-Join%20Slack-blue :target: https://www.ray.io/join-slack .. image:: https://img.shields.io/badge/Discuss-Ask%20Questions-blue :target: https://discuss.ray.io/",
+    "issues": [
+      "spot_check_priority"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers",
+      "enterprises"
+    ],
+    "tags": [
+      "distributed",
+      "ray-serve",
+      "ray-train",
+      "cluster",
+      "python",
+      "mlops"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/ray-project/ray/master/README.rst",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/infrastructure.json"
+  },
+  {
+    "id": "deepspeedai-deepspeed",
+    "featured": true,
+    "stars": 42915,
+    "summary": "Microsoft-origin distributed training library best known for ZeRO memory optimizations, enabling large-model training across many GPUs. Remains a core backend for LLM pretraining and fine-tuning frameworks.",
+    "whyCare": "ZeRO stages, offload, and MoE tooling are foundational when you outgrow single-GPU LoRA and need real multi-node training efficiency.",
+    "blurb": "DeepSpeed hosts regular office hours on the last Tuesday of each month at 12:00 America/New_York to discuss development plans, features, etc.  This meeting is public for anyone to join and ask questions. The meeting is hosted on Zoom and can be joined [here](https://zoom-lfx.platform.linuxfoundation.org/meeting/93902569995?password=7d9c4fc9-3efa-4715-88f0-df8a6deb008b). * [2026/05] [Using Muon Optimizer with DeepSpeed](https://github.com/deepspeedai/DeepSpeed/blob/master/blogs/muon-optimizer/README.md)",
+    "issues": [
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers",
+      "enterprises"
+    ],
+    "tags": [
+      "distributed-training",
+      "zero",
+      "deepspeed",
+      "moe",
+      "fp16",
+      "bf16",
+      "pipeline-parallelism"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/deepspeedai/DeepSpeed/master/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/training.json"
+  },
+  {
+    "id": "danny-avila-librechat",
+    "featured": true,
+    "stars": 41958,
+    "summary": "Feature-rich self-hosted ChatGPT clone with multi-provider routing, agents, MCP, artifacts, and serious multi-user auth. Suited to teams that need one portal across cloud and local endpoints.",
+    "whyCare": "Enterprise-leaning self-host chat platform when Open WebUI\u2019s Ollama-first story isn\u2019t enough and you need auth, agents, and many providers.",
+    "blurb": "src=\"https://img.shields.io/discord/1086345563026489514?label=&logo=discord&style=for-the-badge&logoWidth=20&logoColor=white&labelColor=000000&color=blueviolet\"> src=\"https://img.shields.io/badge/YOUTUBE-red.svg?style=for-the-badge&logo=youtube&logoColor=white&labelColor=000000&logoWidth=20\"> src=\"https://img.shields.io/badge/DOCS-blue.svg?style=for-the-badge&logo=read-the-docs&logoColor=white&labelColor=000000&logoWidth=20\">",
+    "issues": [
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "enterprises"
+    ],
+    "tags": [
+      "self-hosted",
+      "chatgpt-clone",
+      "mcp",
+      "agents",
+      "multi-user",
+      "webui"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/danny-avila/LibreChat/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/local-ai.json"
+  },
+  {
+    "id": "agno-agi-agno",
+    "featured": true,
+    "stars": 41681,
+    "summary": "Agno (formerly Phidata) is a high-performance Python framework for building agents and multi-agent systems with built-in tooling for memory, knowledge, and agent platform runtime concerns.",
+    "whyCare": "Strong ergonomics and performance for shipping agent apps and platforms without bolting on half a dozen libs.",
+    "blurb": "Build, run, and manage agent platforms.<br/> Agno is a framework and runtime for agent platforms. Build agents, run them as a service, manage your platform using a web UI. - Build your agent platform using the Agno SDK. - Run your agent platform using the AgentOS runtime. - Manage everything using the AgentOS UI. Agno allows you to own your agent stack. Maintain control of your data, memory, and security posture (JWT-based RBAC), and turn your agent platform into a learning loop with simulations and usage data.",
+    "issues": [
+      "editorial claims pattern '\\\\bmulti-?agent\\\\b' not clearly supported in README"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "enterprises"
+    ],
+    "tags": [
+      "multi-agent",
+      "agent-platform",
+      "python",
+      "memory",
+      "tools"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/agno-agi/agno/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/ai-agents.json"
+  },
+  {
+    "id": "facebookresearch-faiss",
+    "featured": true,
+    "stars": 40722,
+    "summary": "FAISS is Meta\u2019s foundational library for efficient similarity search and clustering of dense vectors on CPU/GPU. Many vector databases and RAG stacks still embed FAISS indexes under the hood.",
+    "whyCare": "The reference implementation for large-scale nearest-neighbor search\u2014essential when you need custom indexes or GPU-accelerated retrieval.",
+    "blurb": "Faiss is a library for efficient similarity search and clustering of dense vectors. It contains algorithms that search in sets of vectors of any size, up to ones that possibly do not fit in RAM. It also contains supporting code for evaluation and parameter tuning. Faiss is written in C++ with complete wrappers for Python/numpy. Some of the most useful algorithms are implemented on the GPU. It is developed primarily at Meta's [Fundamental AI Research](https://ai.facebook.com/) group.",
+    "issues": [
+      "editorial claims pattern '\\\\bRAG\\\\b' not clearly supported in README"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers"
+    ],
+    "tags": [
+      "similarity-search",
+      "ann",
+      "gpu",
+      "embeddings",
+      "cpp",
+      "library"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/facebookresearch/faiss/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/vector-db.json"
+  },
+  {
+    "id": "langchain-ai-langgraph",
+    "featured": true,
+    "stars": 39540,
+    "summary": "LangGraph is a low-level orchestration framework for durable, stateful agent workflows as graphs of nodes and edges. It emphasizes checkpointing, human-in-the-loop, and production reliability on top of the LangChain ecosystem.",
+    "whyCare": "Best-in-class control for complex agent loops\u2014cycles, branching, persistence, and streaming\u2014when you outgrow simple chain/agent wrappers.",
+    "blurb": "Trusted by companies shaping the future of agents \u2013 including Klarna, Replit, Elastic, and more \u2013 LangGraph is a low-level orchestration framework for building, managing, and deploying long-running, stateful agents. ```bash pip install -U langgraph > [!TIP] > If you're looking to quickly build agents, check out **[Deep Agents](https://docs.langchain.com/oss/python/deepagents/overview)** \u2014 a higher-level package built on LangGraph for agents that can plan, use subagents, and leverage file systems for complex tasks.",
+    "issues": [
+      "spot_check_priority"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers",
+      "enterprises"
+    ],
+    "tags": [
+      "multi-agent",
+      "orchestration",
+      "stateful",
+      "langchain",
+      "python",
+      "workflows"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/langchain-ai/langgraph/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/ai-agents.json"
+  },
+  {
+    "id": "rvc-project-retrieval-based-voice-conversion-webui",
+    "featured": true,
+    "stars": 37301,
+    "summary": "Retrieval-based Voice Conversion WebUI for training and running high-quality voice conversion from short samples. Dominant community stack for singing/speech VC workflows.",
+    "whyCare": "Fastest path for hobbyist and creator voice conversion with a polished training/inference UI and large model ecosystem.",
+    "blurb": "\u7b80\u5355\u6613\u7528\u7684 \u8bed\u97f3\u97f3\u8272\u8f6c\u6362/\u53d8\u58f0\u5668 \u6846\u67b6<br><br> )](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI) [**\u66f4\u65b0\u65e5\u5fd7**](./docs/cn/Changelog_CN.md) | [**\u5e38\u89c1\u95ee\u9898\u89e3\u7b54**](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI/wiki/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94) | [**AutoDL\u00b75\u6bdb\u94b1\u8bad\u7ec3AI\u6b4c\u624b**](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI/wiki/Autodl%E8%AE%AD%E7%BB%83RVC%C2%B7AI%E6%AD%8C%E6%89%8B%E6%95%99%E7%A8%8B) | [**\u5bf9\u7167\u5b9e\u9a8c\u8bb0\u5f55**](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI/wiki/%E5%AF%B9%E7%85%A7%E5%AE%9E%E9%AA%8C%C2%B7%E5%AE%9E",
+    "issues": [
+      "spot_check_priority"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists"
+    ],
+    "tags": [
+      "voice-conversion",
+      "rvc",
+      "webui",
+      "singing",
+      "vc",
+      "fine-tuning"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/audio-ai.json"
+  },
+  {
+    "id": "microsoft-playwright-mcp",
+    "featured": true,
+    "stars": 36050,
+    "summary": "Official Microsoft Playwright MCP server exposing browser automation tools to MCP clients. Widely used from Cursor and other IDEs for scraping, testing, and UI-driven agent workflows.",
+    "whyCare": "Production-grade browser MCP from the Playwright team\u2014strong default for Cursor/Claude browser tool use.",
+    "blurb": "A Model Context Protocol (MCP) server that provides browser automation capabilities using [Playwright](https://playwright.dev). This server enables LLMs to interact with web pages through structured accessibility snapshots, bypassing the need for screenshots or visually-tuned models. This package provides MCP interface into Playwright. If you are using a **coding agent**, you might benefit from using the [CLI+SKILLS](https://github.com/microsoft/playwright-cli) instead.",
+    "issues": [
+      "spot_check_priority"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "enterprises"
+    ],
+    "tags": [
+      "mcp",
+      "playwright",
+      "browser",
+      "cursor",
+      "microsoft",
+      "typescript"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/microsoft/playwright-mcp/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/mcp-tools.json"
+  },
+  {
+    "id": "continuedev-continue",
+    "featured": true,
+    "stars": 35457,
+    "summary": "Open-source coding agent and IDE extension that brings chat, autocomplete, and agentic edits into VS Code and JetBrains with your choice of model providers. Strong emphasis on customizable rules, context providers, and local or cloud LLMs.",
+    "whyCare": "One of the most mature OSS Cursor/Copilot-style IDE experiences; easy path to BYOK or fully local coding assistance inside the editors developers already use.",
+    "blurb": "> _Note: The `continuedev/continue` repository is no longer actively maintained and is read-only for all users._ Continue is a coding agent available as a [CLI](#cli), [VS Code extension](#vs-code), and [JetBrains plugin](#jetbrains). To learn how to configure Continue, how it works, and how to customize it, check out the [Continue Docs](https://docs.continue.dev). We polished Continue and did a final 2.0.0 release of the VS Code extension, CLI, and JetBrains plugin.",
+    "issues": [
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "enterprises"
+    ],
+    "tags": [
+      "vscode",
+      "jetbrains",
+      "ide-extension",
+      "autocomplete",
+      "agent",
+      "byok"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/continuedev/continue/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/coding-agents.json"
+  },
+  {
+    "id": "huggingface-diffusers",
+    "featured": true,
+    "stars": 34292,
+    "summary": "Hugging Face\u2019s canonical library for loading and running diffusion pipelines in code\u2014SD, SDXL, FLUX, ControlNet adapters, and more. The programming interface most papers and products build on.",
+    "whyCare": "If you integrate image generation into apps or research code, Diffusers is the default API surface and model zoo.",
+    "blurb": "Copyright 2022 - The HuggingFace Team. All rights reserved. Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS,",
+    "issues": [
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers",
+      "enterprises"
+    ],
+    "tags": [
+      "diffusers",
+      "huggingface",
+      "pytorch",
+      "pipelines",
+      "flux",
+      "stable-diffusion"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/huggingface/diffusers/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/image-ai.json"
+  },
+  {
+    "id": "openai-clip",
+    "featured": true,
+    "stars": 34160,
+    "summary": "OpenAI\u2019s original contrastive language-image pretraining code and ViT/ResNet checkpoints. Foundation of modern zero-shot vision, retrieval, and many VLM vision towers.",
+    "whyCare": "Still the baseline embedding/zero-shot API everyone compares against; required literacy for multimodal work.",
+    "blurb": "[[Blog]](https://openai.com/blog/clip/) [[Paper]](https://arxiv.org/abs/2103.00020) [[Model Card]](model-card.md) [[Colab]](https://colab.research.google.com/github/openai/clip/blob/master/notebooks/Interacting_with_CLIP.ipynb) CLIP (Contrastive Language-Image Pre-Training) is a neural network trained on a variety of (image, text) pairs. It can be instructed in natural language to predict the most relevant text snippet, given an image, without directly optimizing for the task, similarly to the zero-shot capabilities of GPT-2 and 3. We found CLIP matches the performance of the original ResNet50",
+    "issues": [
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "students",
+      "hobbyists",
+      "researchers"
+    ],
+    "tags": [
+      "clip",
+      "contrastive",
+      "zero-shot",
+      "embeddings",
+      "openai"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/openai/CLIP/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/multimodal.json"
+  },
+  {
+    "id": "lllyasviel-controlnet",
+    "featured": true,
+    "stars": 34064,
+    "summary": "Original research and reference implementation for spatial conditioning of diffusion models (edges, depth, pose, segmentation, and more). Spawned the entire controllable-generation ecosystem.",
+    "whyCare": "Foundational technique behind pose/composition control in nearly every modern image WebUI and ComfyUI workflow.",
+    "blurb": "Official implementation of [Adding Conditional Control to Text-to-Image Diffusion Models](https://arxiv.org/abs/2302.05543). ControlNet is a neural network structure to control diffusion models by adding extra conditions. It copys the weights of neural network blocks into a \"locked\" copy and a \"trainable\" copy. The \"trainable\" one learns your condition. The \"locked\" one preserves your model. Thanks to this, training with small dataset of image pairs will not destroy the production-ready diffusion models.",
+    "issues": [
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers"
+    ],
+    "tags": [
+      "controlnet",
+      "conditioning",
+      "pose",
+      "depth",
+      "edges",
+      "stable-diffusion"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/lllyasviel/ControlNet/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/image-ai.json"
+  },
+  {
+    "id": "qdrant-qdrant",
+    "featured": true,
+    "stars": 33940,
+    "summary": "Qdrant is a Rust-based vector database focused on high-performance similarity and hybrid search with rich filtering. It is a common production backend for RAG systems that outgrow embedded stores.",
+    "whyCare": "Strong choice for scalable RAG retrieval with payload filters, hybrid search, and a clear self-hosted or cloud path.",
+    "blurb": "**Qdrant** (read: _quadrant_) is a vector similarity search engine and vector database. It provides a production-ready service with a convenient API to store, search, and manage points\u2014vectors with an additional payload. Qdrant is tailored for extended filtering support, making it useful for all sorts of neural-network or semantic-based matching, faceted search, and other applications. Qdrant is written in Rust \ud83e\udd80, which makes it fast and reliable even under high load. See [benchmarks](https://qdrant.tech/benchmarks/).",
+    "issues": [
+      "spot_check_priority"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "tags": [
+      "vector-database",
+      "hnsw",
+      "hybrid-search",
+      "rust",
+      "similarity-search"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/qdrant/qdrant/master/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/vector-db.json"
+  },
+  {
+    "id": "langfuse-langfuse",
+    "featured": true,
+    "stars": 32973,
+    "summary": "Self-hostable LLM engineering platform combining tracing, evaluations, prompt management, datasets, and a playground. Strong OpenTelemetry and framework integrations make it a default choice for production LLMOps.",
+    "whyCare": "One of the most complete open-source stacks for LLM observability plus evals\u2014usable cloud or self-hosted\u2014so teams can ship quality loops without locking into a closed SaaS-only path.",
+    "blurb": "alt=\"chat on Discord\"></a> alt=\"follow on X(Twitter)\"></a> alt=\"follow on LinkedIn\"></a> Langfuse is an **open source LLM engineering** platform. It helps teams collaboratively **develop, monitor, evaluate,** and **debug** AI applications. Langfuse can be **self-hosted in minutes** and is **battle-tested**. Proudly made with [ClickHouse open source database](https://github.com/ClickHouse/ClickHouse).",
+    "issues": [
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "tags": [
+      "llm-observability",
+      "evals",
+      "prompt-management",
+      "opentelemetry",
+      "self-hosted",
+      "llmops"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/langfuse/langfuse/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/evaluation.json"
+  },
+  {
+    "id": "github-github-mcp-server",
+    "featured": true,
+    "stars": 32187,
+    "summary": "Official GitHub MCP server for issues, PRs, repos, and related GitHub APIs via MCP tools. First-party integration path for agents and coding assistants that need GitHub context and actions.",
+    "whyCare": "Authoritative GitHub tool surface for MCP clients\u2014prefer this over unofficial GitHub MCP forks for auth and API coverage.",
+    "blurb": "The GitHub MCP Server connects AI tools directly to GitHub's platform. This gives AI agents, assistants, and chatbots the ability to read repositories and code files, manage issues and PRs, analyze code, and automate workflows. All through natural language interactions. - Repository Management: Browse and query code, search files, analyze commits, and understand project structure across any repository you have access to.",
+    "issues": [
+      "spot_check_priority"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": false,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "tags": [
+      "mcp",
+      "github",
+      "official",
+      "go",
+      "devtools"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/github/github-mcp-server/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/mcp-tools.json"
+  },
+  {
+    "id": "fishaudio-fish-speech",
+    "featured": true,
+    "stars": 32165,
+    "summary": "Actively maintained open TTS stack from Fish Audio positioned as SOTA multilingual speech synthesis with strong cloning and deployment tooling. Custom research/non-commercial license\u2014commercial use needs a separate agreement.",
+    "whyCare": "Current high-quality open TTS choice for cloning and multilingual speech when you can accept the Fish Audio research license terms.",
+    "blurb": "**English** | [\u7b80\u4f53\u4e2d\u6587](docs/README.zh.md) | [Portuguese](docs/README.pt-BR.md) | [\u65e5\u672c\u8a9e](docs/README.ja.md) | [\ud55c\uad6d\uc5b4](docs/README.ko.md) | [\u0627\u0644\u0639\u0631\u0628\u064a\u0629](docs/README.ar.md) | [Espa\u00f1ol](docs/README.es.md)  <br> > [!IMPORTANT] > **License Notice** > This codebase and its associated model weights are released under **[FISH AUDIO RESEARCH LICENSE](LICENSE)**. Please refer to [LICENSE](LICENSE) for more details. We will take action against any violation of the license.",
+    "issues": [
+      "spot_check_priority"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "researchers",
+      "enterprises"
+    ],
+    "tags": [
+      "tts",
+      "voice-cloning",
+      "multilingual",
+      "fish-speech",
+      "speech-synthesis"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/fishaudio/fish-speech/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/audio-ai.json"
+  },
+  {
+    "id": "onyx-dot-app-onyx",
+    "featured": true,
+    "stars": 31561,
+    "summary": "Onyx (formerly Danswer) is a self-hosted enterprise search and AI chat platform with connectors into workplace knowledge sources. It emphasizes permission-aware retrieval and production chat UX over raw library APIs.",
+    "whyCare": "The strongest open-source option for company-internal RAG: connectors, ACL-aware search, and a full chat product you can self-host.",
+    "blurb": "**[Onyx](https://www.onyx.app/?utm_source=onyx_repo&utm_medium=github&utm_campaign=readme)** is the application layer for LLMs - bringing a feature-rich interface that can be easily hosted by anyone. Onyx enables LLMs through advanced capabilities like RAG, web search, code execution, file creation, deep research and more. Connect your applications with over 50+ indexing based connectors provided out of the box or via MCP.",
+    "issues": [
+      "spot_check_priority"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "tags": [
+      "enterprise-search",
+      "rag",
+      "self-hosted",
+      "connectors",
+      "knowledge-base",
+      "danswer"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/onyx-dot-app/onyx/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/rag.json"
+  },
+  {
+    "id": "composiohq-composio",
+    "featured": true,
+    "stars": 29649,
+    "summary": "Tool-integration platform with large toolkit catalog, auth handling, and MCP/remote MCP support so agents can call real SaaS APIs. Sits between agent frameworks and production tool auth/execution.",
+    "whyCare": "Skip building OAuth and 1000+ API wrappers\u2014Composio exposes toolkits as callable functions and MCP servers for agents.",
+    "blurb": "Composio gives your AI agents 1000+ pre-authenticated toolkits, per-user sessions, authentication, triggers, and a sandbox, so you can ship agents that turn intent into action. This is the Composio SDK monorepo. It contains: - **[`@composio/core`](ts/packages/core)**: TypeScript SDK - **[`composio`](python)**: Python SDK - **[`composio` CLI](ts/packages/cli)**: search, execute, and script tools from your shell",
+    "issues": [
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": false,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "tags": [
+      "mcp",
+      "tools",
+      "integrations",
+      "function-calling",
+      "auth",
+      "typescript"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/ComposioHQ/composio/next/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/mcp-tools.json"
+  },
+  {
+    "id": "hpcaitech-open-sora",
+    "featured": true,
+    "stars": 29269,
+    "summary": "HPC-AI Tech\u2019s open stack for training and running Sora-like text-to-video models, with emphasis on efficient DiT video generation and reproducible pipelines. One of the most cited community responses to closed video foundation models.",
+    "whyCare": "Reference open implementation for large-scale video DiT training/inference; strong docs and continued releases for researchers and infra teams.",
+    "blurb": "We design and implement **Open-Sora**, an initiative dedicated to **efficiently** producing high-quality video. We hope to make the model, tools and all details accessible to all. By embracing **open-source** principles, Open-Sora not only democratizes access to advanced video generation techniques, but also offers a streamlined and user-friendly platform that simplifies the complexities of video generation.",
+    "issues": [
+      "spot_check_priority"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers"
+    ],
+    "tags": [
+      "text-to-video",
+      "dit",
+      "open-sora",
+      "video-generation",
+      "diffusion"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/hpcaitech/Open-Sora/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/video-ai.json"
+  },
+  {
+    "id": "chroma-core-chroma",
+    "featured": true,
+    "stars": 29037,
+    "summary": "Chroma is a developer-friendly embedding database commonly used as the default vector store in RAG tutorials and prototypes. It supports local embedded mode and client/server deployments with a simple collections API.",
+    "whyCare": "The lowest-friction vector store for getting a RAG demo running\u2014especially with Python notebooks and LangChain/LlamaIndex integrations.",
+    "blurb": "Docs Homepage ```bash pip install chromadb # python client Our hosted service, Chroma Cloud, powers serverless vector, hybrid, and full-text search. It's extremely fast, cost-effective, scalable and painless. Create a DB and try it out in under 30 seconds with $5 of free credits. The core API is only 4 functions (run our [\ud83d\udca1 Google Colab](https://colab.research.google.com/drive/1QEzFyqnoFxq7LUGyP1vzR4iLt9PpCDXv?usp=sharing)):",
+    "issues": [
+      "editorial claims pattern '\\\\bRAG\\\\b' not clearly supported in README"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "students",
+      "hobbyists"
+    ],
+    "tags": [
+      "vector-database",
+      "embeddings",
+      "rag",
+      "python",
+      "rust"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/chroma-core/chroma/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/vector-db.json"
+  },
+  {
+    "id": "openai-openai-agents-python",
+    "featured": true,
+    "stars": 28578,
+    "summary": "OpenAI\u2019s production-oriented Agents SDK for multi-agent handoffs, tools, and tracing. It succeeds the educational Swarm patterns with a clearer programming model and first-party observability.",
+    "whyCare": "Canonical OpenAI stack for agent handoffs and tool use, with lightweight APIs suitable for production multi-agent apps.",
+    "blurb": "The OpenAI Agents SDK is a lightweight yet powerful framework for building multi-agent workflows. It is provider-agnostic, supporting the OpenAI Responses and Chat Completions APIs, as well as 100+ other LLMs. > [!NOTE] > Looking for the JavaScript/TypeScript version? Check out [Agents SDK JS/TS](https://github.com/openai/openai-agents-js). 1. [**Agents**](https://openai.github.io/openai-agents-python/agents): LLMs configured with instructions, tools, guardrails, and handoffs",
+    "issues": [
+      "spot_check_priority"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": false,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "tags": [
+      "multi-agent",
+      "openai",
+      "handoffs",
+      "tools",
+      "python",
+      "tracing"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/openai/openai-agents-python/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/ai-agents.json"
+  },
+  {
+    "id": "invoke-ai-invokeai",
+    "featured": true,
+    "stars": 27860,
+    "summary": "Polished creative WebUI focused on professional art workflows: canvas, boards, unified canvas editing, and curated model management. Stronger product UX than most research UIs.",
+    "whyCare": "Best open option when you want studio-grade UX and commercial-ready packaging rather than raw research flexibility.",
+    "blurb": "Invoke is a leading creative engine built to empower professionals and enthusiasts alike. Generate and create stunning visual media using the latest AI-driven technologies. Invoke offers an industry leading web-based UI, and serves as the foundation for multiple commercial products. - Free to use under a commercially-friendly license - Download and install on compatible hardware - Generate, refine, iterate on images, and build workflows",
+    "issues": [
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "enterprises"
+    ],
+    "tags": [
+      "invokeai",
+      "webui",
+      "inpainting",
+      "outpainting",
+      "canvas",
+      "stable-diffusion"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/invoke-ai/InvokeAI/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/image-ai.json"
+  },
+  {
+    "id": "mlflow-mlflow",
+    "featured": true,
+    "stars": 27485,
+    "summary": "MLflow is the open-source AI engineering platform for experiment tracking, model registry, evaluation, and LLM/agent lifecycle management. It remains the default shared control plane for many ML and GenAI teams.",
+    "whyCare": "Adopt MLflow to track experiments, register models, and govern LLM/agent apps with an open, self-hostable stack.",
+    "blurb": "MLflow is the largest open source **AI engineering platform for agents, LLMs, and ML models**. MLflow enables teams of all sizes to [debug](https://mlflow.org/llm-tracing), controlling costs and managing access to models and data. With over **60 million monthly downloads**, thousands of organizations rely on MLflow each day to ship AI to production with confidence. MLflow's comprehensive feature set for agents and LLM applications includes production-grade [observability](https://mlflow.org/docs/latest/genai/tracing), [evaluation](https://mlflow.org/docs/latest/genai/eval-monitor),",
+    "issues": [
+      "spot_check_priority"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "students",
+      "researchers",
+      "enterprises"
+    ],
+    "tags": [
+      "mlops",
+      "experiment-tracking",
+      "model-registry",
+      "llmops",
+      "observability"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/mlflow/mlflow/master/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/infrastructure.json"
+  },
+  {
+    "id": "stability-ai-generative-models",
+    "featured": true,
+    "stars": 27253,
+    "summary": "Official Stability AI generative-models repo hosting Stable Video Diffusion (SVD) and related image/video diffusion training and inference code. SVD was the early high-visibility open image-to-video baseline.",
+    "whyCare": "Canonical OSS home for SVD; still a standard I2V reference and training scaffold in open video research.",
+    "blurb": "**May 20, 2025** - We are releasing **[Stable Video 4D 2.0 (SV4D 2.0)](https://huggingface.co/stabilityai/sv4d2.0)**, an enhanced video-to-4D diffusion model for high-fidelity novel-view video synthesis and 4D asset generation. For research purposes: - **SV4D 2.0** was trained to generate 48 frames (12 video frames x 4 camera views) at 576x576 resolution, given a 12-frame input video of the same size, ideally consisting of white-background images of a moving object.",
+    "issues": [
+      "spot_check_priority"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers"
+    ],
+    "tags": [
+      "svd",
+      "stable-video-diffusion",
+      "image-to-video",
+      "stability-ai",
+      "diffusion"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/Stability-AI/generative-models/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/video-ai.json"
+  },
+  {
+    "id": "prefecthq-fastmcp",
+    "featured": true,
+    "stars": 27190,
+    "summary": "High-level Pythonic framework for building MCP servers and clients with decorators, auth helpers, and deployment ergonomics. Built on the official Python SDK and widely adopted for production MCP servers.",
+    "whyCare": "Turns MCP server authoring into a few decorated functions\u2014best DX for Python MCP without fighting protocol boilerplate.",
+    "blurb": "*Made with \ud83d\udc99 by [Prefect](https://www.prefect.io/)* The [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) connects LLMs to tools and data. FastMCP is a full MCP application framework for servers, clients, and interactive apps. A server starts with ordinary Python: ```python from fastmcp import FastMCP mcp = FastMCP(\"Demo \ud83d\ude80\") @mcp.tool def add(a: int, b: int) -> int: \"\"\"Add two numbers\"\"\"",
+    "issues": [
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "enterprises"
+    ],
+    "tags": [
+      "mcp",
+      "fastmcp",
+      "python",
+      "servers",
+      "clients",
+      "framework"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/PrefectHQ/fastmcp/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/mcp-tools.json"
+  },
+  {
+    "id": "deepset-ai-haystack",
+    "featured": true,
+    "stars": 26189,
+    "summary": "Haystack is a production-oriented pipeline framework for RAG, semantic search, and agent workflows with explicit component graphs. deepset designed it for controllable retrieval, routing, and evaluation rather than opaque chains.",
+    "whyCare": "Choose Haystack when you need modular, inspectable RAG/agent pipelines with strong IR roots and enterprise deployment patterns.",
+    "blurb": "|         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ",
+    "issues": [
+      "spot_check_priority"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers",
+      "enterprises"
+    ],
+    "tags": [
+      "rag",
+      "pipelines",
+      "semantic-search",
+      "orchestration",
+      "python",
+      "information-retrieval"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/deepset-ai/haystack/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/rag.json"
+  },
+  {
+    "id": "openbmb-minicpm-v",
+    "featured": true,
+    "stars": 26158,
+    "summary": "OpenBMB\u2019s efficient multimodal LLM series (MiniCPM-V / MiniCPM-o) aimed at strong image and video understanding on edge devices and phones, with frequent model drops.",
+    "whyCare": "Top pick when you need capable open multimodal models that actually fit consumer GPUs or mobile deployment budgets.",
+    "blurb": "**A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone** English</strong> &nbsp; &nbsp; MiniCPM-V 4.6 <a href=\"https://huggingface.co/openbmb/MiniCPM-V-4.6\">\ud83e\udd17</a> <a href=\"https://huggingface.co/spaces/openbmb/MiniCPM-V-4.6-Demo\">\ud83e\udd16</a> <a href=\"https://github.com/OpenBMB/MiniCPM-V-Apps/blob/main/DOWNLOAD.md\">\ud83d\udcf1</a> | MiniCPM-o 4.5 <a href=\"https://huggingface.co/openbmb/MiniCPM-o-4_5\">\ud83e\udd17</a> <a href=\"https://openbmb.github.io/MiniCPM-o-Demo/\">\ud83d\udcde</a> <a href=\"https://minicpmo45.modelbest.cn\">\ud83e\udd16</a> | <a href=\"https://huggingface.co/papers/2604.27393\">\ud83d\udcc4 Technical Repor",
+    "issues": [
+      "spot_check_priority"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "researchers",
+      "enterprises"
+    ],
+    "tags": [
+      "minicpm-v",
+      "minicpm-o",
+      "edge",
+      "efficient-mllm",
+      "video"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/OpenBMB/MiniCPM-V/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/multimodal.json"
+  },
+  {
+    "id": "black-forest-labs-flux",
+    "featured": true,
+    "stars": 25896,
+    "summary": "Official inference code for Black Forest Labs\u2019 FLUX.1 image models, which became a leading open-weight generation family after SDXL.",
+    "whyCare": "Reference implementation and licensing entry point for FLUX\u2014currently one of the most important open image model lines.",
+    "blurb": "by Black Forest Labs: https://bfl.ai. Documentation for our API can be found here: [docs.bfl.ai](https://docs.bfl.ai/). This repo contains minimal inference code to run image generation & editing with our Flux open-weight models. ```bash cd $HOME && git clone https://github.com/black-forest-labs/flux cd $HOME/flux python3.10 -m venv .venv source .venv/bin/activate pip install -e \".[all]\" If you would like to install the repository with [TensorRT](https://github.com/NVIDIA/TensorRT) support, you currently need to install a PyTorch image from NVIDIA instead. First install [enroot](https://github",
+    "issues": [
+      "spot_check_priority"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "researchers"
+    ],
+    "tags": [
+      "flux",
+      "text-to-image",
+      "inference",
+      "black-forest-labs",
+      "diffusion-transformer"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/black-forest-labs/flux/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/image-ai.json"
+  },
+  {
+    "id": "vision-cair-minigpt-4",
+    "featured": true,
+    "stars": 25636,
+    "summary": "Early open GPT-4V-style system aligning a frozen vision encoder with Vicuna via a projection layer. MiniGPT-v2 extended grounded conversation; highly influential for lightweight VLM recipes.",
+    "whyCare": "Classic minimal recipe for vision-language chat; still cited and forked for teaching and rapid prototyping.",
+    "blurb": "Jun Chen, Deyao Zhu, Xiaoqian Shen, Xiang Li, Zechun Liu, Pengchuan Zhang, Raghuraman Krishnamoorthi, Vikas Chandra, Yunyang Xiong\u2628, Mohamed Elhoseiny\u2628 \u2628equal last author Deyao Zhu*, Jun Chen*, Xiaoqian Shen, Xiang Li, Mohamed Elhoseiny *equal contribution *King Abdullah University of Science and Technology* * <a href='https://github.com/waltonfuture/InstructionGPT-4?tab=readme-ov-file'><img src='https://img.shields.io/badge/Project-Page-Green'></a> **InstructionGPT-4**: A 200-Instruction Paradigm for Fine-Tuning MiniGPT-4 Lai Wei, Zihao Jiang, Weiran Huang, Lichao Sun, Arxiv, 2023",
+    "issues": [
+      "spot_check_priority"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "students",
+      "hobbyists",
+      "researchers"
+    ],
+    "tags": [
+      "minigpt-4",
+      "vision-language",
+      "vicuna",
+      "alignment"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/Vision-CAIR/MiniGPT-4/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/multimodal.json"
+  },
+  {
+    "id": "haotian-liu-llava",
+    "featured": true,
+    "stars": 24977,
+    "summary": "LLaVA pioneered visual instruction tuning that connects a vision encoder to an LLM with GPT-4-generated multimodal instruction data. It became the default open recipe for GPT-4V-style chat and spawned LLaVA-NeXT and many community fine-tunes.",
+    "whyCare": "Still the clearest reference implementation for training and serving open vision-language chat models, with widely reused data formats and evaluation setups.",
+    "blurb": "*Visual instruction tuning towards large language and vision models with GPT-4 level capabilities.* [\ud83d\udce2 [LLaVA-NeXT Blog](https://llava-vl.github.io/blog/2024-01-30-llava-next/)] [[Project Page](https://llava-vl.github.io/)] [[Demo](https://llava.hliu.cc/)]  [[Data](https://github.com/haotian-liu/LLaVA/blob/main/docs/Data.md)] [[Model Zoo](https://github.com/haotian-liu/LLaVA/blob/main/docs/MODEL_ZOO.md)]",
+    "issues": [
+      "spot_check_priority"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "students",
+      "researchers"
+    ],
+    "tags": [
+      "vision-language",
+      "visual-instruction-tuning",
+      "llava",
+      "vllm-chat",
+      "neurips"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/haotian-liu/LLaVA/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/multimodal.json"
+  },
+  {
+    "id": "systran-faster-whisper",
+    "featured": true,
+    "stars": 24876,
+    "summary": "Reimplementation of OpenAI Whisper inference on CTranslate2 for substantially faster transcription with lower memory use. Widely used as the engine behind many Whisper UIs and services.",
+    "whyCare": "Practical production Whisper runtime when you want Python APIs with much better speed/VRAM than the original reference code.",
+    "blurb": "**faster-whisper** is a reimplementation of OpenAI's Whisper model using [CTranslate2](https://github.com/OpenNMT/CTranslate2/), which is a fast inference engine for Transformer models. This implementation is up to 4 times faster than [openai/whisper](https://github.com/openai/whisper) for the same accuracy while using less memory. The efficiency can be further improved with 8-bit quantization on both CPU and GPU.",
+    "issues": [
+      "spot_check_priority"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "enterprises"
+    ],
+    "tags": [
+      "whisper",
+      "asr",
+      "stt",
+      "ctranslate2",
+      "quantization",
+      "inference"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/SYSTRAN/faster-whisper/master/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/audio-ai.json"
+  },
+  {
+    "id": "dao-ailab-flash-attention",
+    "featured": true,
+    "stars": 24690,
+    "summary": "IO-aware exact attention kernels that cut activation memory and speed up transformer training and inference. De facto dependency across modern LLM training stacks.",
+    "whyCare": "Nearly every serious training framework plugs into FlashAttention; knowing it explains large VRAM and throughput gains on long contexts.",
+    "blurb": "This repository provides the official implementation of FlashAttention and FlashAttention-2 from the following papers. **FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness** Tri Dao, Daniel Y. Fu, Stefano Ermon, Atri Rudra, Christopher R\u00e9 Paper: https://arxiv.org/abs/2205.14135 IEEE Spectrum [article](https://spectrum.ieee.org/mlperf-rankings-2022) about our submission to the MLPerf 2.0 benchmark using FlashAttention.",
+    "issues": [
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers"
+    ],
+    "tags": [
+      "attention",
+      "cuda",
+      "performance",
+      "memory-efficiency",
+      "transformers"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/Dao-AILab/flash-attention/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/training.json"
+  },
+  {
+    "id": "promptfoo-promptfoo",
+    "featured": true,
+    "stars": 24171,
+    "summary": "Promptfoo is a declarative CLI/CI toolkit for prompt testing, model comparison, RAG/agent evals, and AI red-teaming with security-oriented scanners.",
+    "whyCare": "Best developer UX for matrix evals and red-team checks in CI\u2014YAML configs, multi-provider comparisons, and security testing in one tool.",
+    "blurb": "> Promptfoo is now part of OpenAI. Promptfoo remains open source and MIT licensed. Read the [company update](https://www.promptfoo.dev/blog/promptfoo-joining-openai/). Requires [Node.js](https://nodejs.org/en/download) `>=22.22.0` for npm and npx usage. Node.js 24 LTS is recommended; see the [runtime support guide](https://www.promptfoo.dev/docs/installation/#nodejs-runtime-support). ```sh npm install -g promptfoo",
+    "issues": [
+      "spot_check_priority"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": false,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "tags": [
+      "prompt-testing",
+      "red-teaming",
+      "ci-cd",
+      "llm-eval",
+      "security"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/promptfoo/promptfoo/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/evaluation.json"
+  },
+  {
+    "id": "modelcontextprotocol-python-sdk",
+    "featured": true,
+    "stars": 23994,
+    "summary": "Official Python SDK for MCP servers and clients. Powers FastMCP integrations, research agents, and most Python MCP servers in the ecosystem.",
+    "whyCare": "Canonical Python surface for MCP\u2014pair with FastMCP for ergonomics or use the SDK directly for full protocol control.",
+    "blurb": "> [!NOTE] > **This is v2 of the MCP Python SDK, the current stable release line.** It is a major rework of the SDK, both to support the [2026-07-28 MCP specification](https://modelcontextprotocol.io/specification/2026-07-28) (and every earlier revision) and to fix long-standing architectural issues. Coming from v1? See [What's new in v2](https://py.sdk.modelcontextprotocol.io/whats-new/) for the tour of what changed and the [migration guide](https://py.sdk.modelcontextprotocol.io/migration/) for every breaking change.",
+    "issues": [
+      "spot_check_priority"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers",
+      "enterprises"
+    ],
+    "tags": [
+      "mcp",
+      "sdk",
+      "python",
+      "client",
+      "server",
+      "official"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/modelcontextprotocol/python-sdk/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/mcp-tools.json"
+  },
+  {
+    "id": "facebookresearch-audiocraft",
+    "featured": true,
+    "stars": 23559,
+    "summary": "Meta's audio generation library shipping EnCodec plus MusicGen for text- and melody-conditioned music generation. The primary open release for MusicGen research and local experiments.",
+    "whyCare": "Canonical open MusicGen/EnCodec stack if you need controllable music generation or audio tokenization building blocks.",
+    "blurb": "AudioCraft is a PyTorch library for deep learning research on audio generation. AudioCraft contains inference and training code for two state-of-the-art AI generative models producing high-quality audio: AudioGen and MusicGen. AudioCraft requires Python 3.9, PyTorch 2.1.0. To install AudioCraft, you can run the following: ```shell python -m pip install 'torch==2.1.0' python -m pip install setuptools wheel",
+    "issues": [
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "researchers"
+    ],
+    "tags": [
+      "musicgen",
+      "music",
+      "encodec",
+      "audio-generation",
+      "audiocraft"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/facebookresearch/audiocraft/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/audio-ai.json"
+  },
+  {
+    "id": "verl-project-verl",
+    "featured": true,
+    "stars": 22932,
+    "summary": "Flexible HybridFlow RL post-training framework for LLMs, widely used for PPO/GRPO-style and agentic reinforcement learning at scale. Became a leading open stack for reasoning-model RL.",
+    "whyCare": "If you are doing RL post-training beyond TRL toy setups, verl is one of the most battle-tested open frameworks in 2025\u20132026.",
+    "blurb": "\ud83d\udc4b Hi, everyone! verl is a RL training library initiated by <b>ByteDance Seed team</b> and maintained by the verl community. verl is a flexible, efficient and production-ready RL training library for large language models (LLMs). verl is the open-source version of **[HybridFlow: A Flexible and Efficient RLHF Framework](https://arxiv.org/abs/2409.19256v2)** paper. verl is flexible and easy to use with:",
+    "issues": [
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers",
+      "enterprises"
+    ],
+    "tags": [
+      "rlhf",
+      "rl",
+      "post-training",
+      "ppo",
+      "grpo",
+      "hybridflow",
+      "llm"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/verl-project/verl/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/training.json"
+  },
+  {
+    "id": "pgvector-pgvector",
+    "featured": true,
+    "stars": 22600,
+    "summary": "pgvector adds vector similarity search as a PostgreSQL extension, letting teams keep embeddings next to relational data. It is the default vector backend for many RAG apps that already run Postgres.",
+    "whyCare": "Avoid a separate vector service\u2014store and query embeddings in the database you already operate.",
+    "blurb": "Open-source vector similarity search for Postgres Store your vectors with the rest of your data. Supports: - exact and approximate nearest neighbor search - single-precision, half-precision, binary, and sparse vectors - L2 distance, inner product, cosine distance, L1 distance, Hamming distance, and Jaccard distance - any [language](#languages) with a Postgres client Plus [ACID](https://en.wikipedia.org/wiki/ACID) compliance, point-in-time recovery, JOINs, and all of the other [great features](https://www.postgresql.org/about/) of Postgres",
+    "issues": [
+      "editorial claims pattern '\\\\bRAG\\\\b' not clearly supported in README"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "tags": [
+      "postgres",
+      "vector-extension",
+      "similarity-search",
+      "sql",
+      "embeddings"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/pgvector/pgvector/master/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/vector-db.json"
+  },
+  {
+    "id": "microsoft-unilm",
+    "featured": true,
+    "stars": 22186,
+    "summary": "Microsoft\u2019s long-running multimodal/NLP research monorepo. Contains Kosmos-1, Kosmos-2, and Kosmos-2.5 code alongside LayoutLM, BEiT, TrOCR, and other foundation models.",
+    "whyCare": "Canonical open source for Kosmos grounded multimodal models and related Microsoft document/vision-language research code.",
+    "blurb": "We are hiring at all levels (including FTE researchers and interns)! If you are interested in working with us on Foundation Models (aka large-scale pre-trained models) and General AI, NLP, MT, Speech, Document AI and Multimodal AI, please send your resume to <a href=\"mailto:fuwei@microsoft.com\" class=\"x-hidden-focus\">fuwei@microsoft.com</a>. Fundamental research to develop new architectures for foundation models and AI, focusing on modeling generality and capability, as well as training stability and efficiency.",
+    "issues": [
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers"
+    ],
+    "tags": [
+      "kosmos",
+      "kosmos-2",
+      "beit",
+      "layoutlm",
+      "document-ai",
+      "mllm"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/microsoft/unilm/master/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/multimodal.json"
+  },
+  {
+    "id": "huggingface-datasets",
+    "featured": true,
+    "stars": 21831,
+    "summary": "Hugging Face Datasets is the standard Python library for loading, streaming, and transforming ML datasets from the Hub and local sources. It provides memory-mapped Arrow backends, streaming for large corpora, and a shared API used across NLP, vision, and audio training stacks.",
+    "whyCare": "Almost every open LLM/data workflow touches this library\u2014learn it once to access Hub datasets, build local processing pipelines, and share reproducible dataset cards.",
+    "blurb": "\ud83e\udd17 Datasets is a lightweight library providing **two** main features: - **one-line dataloaders for many public datasets**: one-liners to download and pre-process any of the ![number of datasets](https://img.shields.io/endpoint?url=https://huggingface.co/api/shields/datasets&color=brightgreen) major public datasets (image datasets, audio datasets, text datasets in 467 languages and dialects, 3D medical images, video datasets, agent traces, etc.) provided on the [HuggingFace Datasets Hub](https://huggingface.co/datasets). With a simple command like `squad_dataset = load_dataset(\"rajpurkar/squad\")",
+    "issues": [
+      "spot_check_priority"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "students",
+      "hobbyists",
+      "researchers"
+    ],
+    "tags": [
+      "huggingface",
+      "datasets",
+      "arrow",
+      "streaming",
+      "nlp",
+      "python",
+      "data-loading"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/huggingface/datasets/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/datasets.json"
+  },
+  {
+    "id": "huggingface-peft",
+    "featured": true,
+    "stars": 21536,
+    "summary": "Hugging Face library implementing LoRA, QLoRA adapters, prefix tuning, and other parameter-efficient methods on top of Transformers. The standard adapter API most fine-tuning tools wrap.",
+    "whyCare": "Almost every modern fine-tuning recipe either uses PEFT directly or re-exports its LoRA abstractions.",
+    "blurb": "Copyright 2023 The HuggingFace Team. All rights reserved. Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at https://www.apache.org/licenses/LICENSE-2.0 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS,",
+    "issues": [
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "students",
+      "hobbyists",
+      "researchers"
+    ],
+    "tags": [
+      "lora",
+      "qlora",
+      "adapters",
+      "peft",
+      "parameter-efficient",
+      "fine-tuning"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/huggingface/peft/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/training.json"
+  },
+  {
+    "id": "qwenlm-qwen3-vl",
+    "featured": true,
+    "stars": 19778,
+    "summary": "Official Qwen vision-language series repo (GitHub redirects older Qwen2-VL / Qwen2.5-VL URLs here). Covers Alibaba\u2019s current open multimodal LLMs with strong OCR, document, and video understanding.",
+    "whyCare": "One of the strongest open VLM families for production multimodal apps; this is the canonical training/inference home for the latest Qwen-VL line.",
+    "blurb": "\ud83d\udc9c <a href=\"https://chat.qwenlm.ai/\"><b>Qwen Chat</b></a>&nbsp&nbsp | &nbsp&nbsp\ud83e\udd17 <a href=\"https://huggingface.co/collections/Qwen/qwen3-vl-68d2a7c1b8a8afce4ebd2dbe\">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp\ud83e\udd16 <a href=\"https://modelscope.cn/collections/Qwen3-VL-5c7a94c8cb144b\">ModelScope</a>&nbsp&nbsp | &nbsp&nbsp\ud83d\udcd1 <a href=\"https://qwen.ai/blog?id=99f0335c4ad9ff6153e517418d48535ab6d8afef&from=research.latest-advancements-list\">Blog</a>&nbsp&nbsp | &nbsp&nbsp\ud83d\udcda <a href=\"https://github.com/QwenLM/Qwen3-VL/tree/main/cookbooks\">Cookbooks</a>&nbsp&nbsp | &nbsp&nbsp\ud83d\udcd1 <a href=\"https://arxiv.org/pdf/2511.2",
+    "issues": [
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers",
+      "enterprises"
+    ],
+    "tags": [
+      "qwen",
+      "qwen-vl",
+      "qwen2.5-vl",
+      "vision-language",
+      "mllm"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/QwenLM/Qwen3-VL/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/multimodal.json"
+  },
+  {
+    "id": "huggingface-trl",
+    "featured": true,
+    "stars": 19060,
+    "summary": "Transformers Reinforcement Learning library for SFT, reward modeling, PPO, DPO, and related alignment algorithms. Default post-training layer in the Hugging Face ecosystem.",
+    "whyCare": "Best starting point for preference optimization and RLHF when you already train with Transformers/PEFT/Accelerate.",
+    "blurb": "**\ud83c\udf0d Multi-environment agentic RL:** [`GRPOTrainer`](https://huggingface.co/docs/trl/grpo_trainer) now supports per-example environment selection and environment-owned rewards \u2014 mix multiple sandboxed task suites in one run and let each environment define its own scoring, with [Harbor](https://huggingface.co/docs/trl/harbor) and [OpenEnv](https://huggingface.co/docs/trl/openenv). **\ud83c\udfaf KTO is now stable:** [`KTOTrainer`](https://huggingface.co/docs/trl/kto_trainer) graduates to the stable API after a full alignment pass with [`DPOTrainer`](https://huggingface.co/docs/trl/dpo_trainer).",
+    "issues": [
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "students",
+      "researchers"
+    ],
+    "tags": [
+      "rlhf",
+      "dpo",
+      "ppo",
+      "sft",
+      "alignment",
+      "post-training",
+      "transformers"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/huggingface/trl/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/training.json"
+  },
+  {
+    "id": "state-spaces-mamba",
+    "featured": true,
+    "stars": 18731,
+    "summary": "Official implementation of Mamba selective state-space models, a major post-Transformer architecture paper with strong long-sequence efficiency claims. Reference CUDA/PyTorch research code from the authors.",
+    "whyCare": "The source of truth for reproducing Mamba and building SSM-based language/sequence models.",
+    "blurb": "> **Mamba: Linear-Time Sequence Modeling with Selective State Spaces**\\ > Albert Gu*, Tri Dao*\\ > Paper: https://arxiv.org/abs/2312.00752 > **Transformers are SSMs: Generalized Models and Efficient Algorithms**\\ >     **Through Structured State Space Duality**\\ > Tri Dao*, Albert Gu*\\ > Paper: https://arxiv.org/abs/2405.21060 > **Mamba-3: Improved Sequence Modeling using State Space Principles**\\ >     **Through Structured State Space Duality**\\",
+    "issues": [
+      "spot_check_priority"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers"
+    ],
+    "tags": [
+      "mamba",
+      "ssm",
+      "state-space",
+      "architecture",
+      "long-context"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/state-spaces/mamba/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/research.json"
+  },
+  {
+    "id": "nvidia-nemo-speech",
+    "featured": true,
+    "stars": 18110,
+    "summary": "NVIDIA NeMo framework (canonical repo now NVIDIA-NeMo/Speech after org split) for scalable generative AI spanning speech, multimodal, and LLM workflows. Historical home of NeMo training collections used across NVIDIA stacks.",
+    "whyCare": "Enterprise-grade recipes and modules for speech/LLM training on NVIDIA hardware, with deep integration into the broader NeMo FW (Automodel, RL, Megatron-Bridge).",
+    "blurb": "Checkout our [HuggingFace\ud83e\udd17 collection](https://huggingface.co/collections/nvidia/nemotron-speech) for the latest open weight checkpoints and demos! > The first release of NeMo Speech after NeMo repository split is scheduled for June 2026, as the repo undergoes transformation. > For the latest stable released version, please use [the 26.02 NGC container](https://catalog.ngc.nvidia.com/orgs/nvidia/containers/nemo?version=26.02).",
+    "issues": [
+      "spot_check_priority"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers",
+      "enterprises"
+    ],
+    "tags": [
+      "nemo",
+      "nvidia",
+      "asr",
+      "tts",
+      "llm",
+      "multimodal",
+      "speech"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/NVIDIA-NeMo/Speech/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/training.json"
+  },
+  {
+    "id": "confident-ai-deepeval",
+    "featured": true,
+    "stars": 17553,
+    "summary": "DeepEval is a Python LLM evaluation framework with rich metric suites, pytest-style workflows, and CI-friendly unit testing for RAG, agents, and chat apps.",
+    "whyCare": "Treats LLM quality like software testing\u2014metrics, fixtures, and CI\u2014so product teams can regression-test prompts and pipelines continuously.",
+    "blurb": "**DeepEval** is a simple-to-use, open-source LLM evaluation framework, for evaluating large-language model systems. It is similar to Pytest but specialized for unit testing LLM apps. DeepEval incorporates the latest research to run evals via metrics such as G-Eval, task completion, answer relevancy, hallucination, etc., which uses LLM-as-a-judge and other NLP models that run **locally on your machine**.",
+    "issues": [
+      "spot_check_priority"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": false,
+    "audience": [
+      "engineers",
+      "researchers"
+    ],
+    "tags": [
+      "llm-evaluation",
+      "metrics",
+      "pytest",
+      "rag-eval",
+      "ci"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/confident-ai/deepeval/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/evaluation.json"
+  },
+  {
+    "id": "nvidia-megatron-lm",
+    "featured": true,
+    "stars": 17403,
+    "summary": "NVIDIA research codebase and Megatron-Core for training transformers at massive scale with tensor, pipeline, and sequence parallelism. Backbone for many industrial LLM pretraining systems.",
+    "whyCare": "Reference implementation for large-scale model parallel training; Megatron-Core is what serious pretraining clusters still build around.",
+    "blurb": "Megatron-LM and Megatron Core This repository contains two components: **Megatron-LM** and **Megatron Core**. **Megatron-LM** is a reference example that includes Megatron Core plus pre-configured training scripts, ideal for research teams, learning distributed training, and quick experimentation. **Megatron Core** is a composable library with GPU-optimized building blocks for custom training frameworks. It provides transformer building blocks, advanced parallelism strategies (TP, PP, DP, EP, and CP), mixed precision support (FP16, BF16, FP8, and FP4), and model architectures, ideal for framew",
+    "issues": [
+      "spot_check_priority"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers",
+      "enterprises"
+    ],
+    "tags": [
+      "megatron",
+      "model-parallelism",
+      "pretraining",
+      "llm",
+      "nvidia",
+      "distributed-training"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/NVIDIA/Megatron-LM/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/training.json"
+  },
+  {
+    "id": "wan-video-wan2-1",
+    "featured": true,
+    "stars": 16810,
+    "summary": "Open release of Wan large-scale video generative models (T2V/I2V) with inference code and weights. Quickly became a leading open-weight video foundation model family in 2025.",
+    "whyCare": "Among the strongest fully open video model stacks; widely integrated in ComfyUI and community pipelines.",
+    "blurb": "\ud83d\udc9c <a href=\"https://wan.video\"><b>Wan</b></a> &nbsp&nbsp \uff5c &nbsp&nbsp \ud83d\udda5\ufe0f <a href=\"https://github.com/Wan-Video/Wan2.1\">GitHub</a> &nbsp&nbsp  | &nbsp&nbsp\ud83e\udd17 <a href=\"https://huggingface.co/Wan-AI/\">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp\ud83e\udd16 <a href=\"https://modelscope.cn/organization/Wan-AI\">ModelScope</a>&nbsp&nbsp | &nbsp&nbsp \ud83d\udcd1 <a href=\"https://arxiv.org/abs/2503.20314\">Technical Report</a> &nbsp&nbsp | &nbsp&nbsp \ud83d\udcd1 <a href=\"https://wan.video/welcome?spm=a2ty_o02.30011076.0.0.6c9ee41eCcluqg\">Blog</a> &nbsp&nbsp | &nbsp&nbsp\ud83d\udcac <a href=\"https://gw.alicdn.com/imgextra/i2/O1CN01tqjWFi1ByuyehkTSB_!!6",
+    "issues": [
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "researchers"
+    ],
+    "tags": [
+      "wan",
+      "text-to-video",
+      "image-to-video",
+      "video-generation",
+      "aigc"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/Wan-Video/Wan2.1/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/video-ai.json"
+  },
+  {
+    "id": "weaviate-weaviate",
+    "featured": true,
+    "stars": 16725,
+    "summary": "Weaviate combines object storage with vectors, hybrid search, and generative/search modules in a cloud-native Go service. It is frequently used as the retrieval layer for enterprise RAG and semantic search products.",
+    "whyCare": "Pick Weaviate when you need hybrid search, schemaful objects, and modular vectorization/generation features in one database.",
+    "blurb": "**Weaviate** is an open-source, cloud-native vector database that stores both objects and vectors, enabling semantic search at scale. It combines vector similarity search with keyword filtering, retrieval-augmented generation (RAG), and reranking in a single query interface. Common use cases include RAG systems, semantic and image search, recommendation engines, chatbots, and content classification.",
+    "issues": [
+      "spot_check_priority"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "tags": [
+      "vector-database",
+      "hybrid-search",
+      "semantic-search",
+      "go",
+      "cloud-native"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/weaviate/weaviate/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/vector-db.json"
+  },
+  {
+    "id": "kubeflow-kubeflow",
+    "featured": true,
+    "stars": 15811,
+    "summary": "Kubeflow is the umbrella ML toolkit for Kubernetes, providing notebooks, pipelines, training operators, and platform components for cloud-native ML. It remains the default reference architecture for enterprise K8s ML platforms.",
+    "whyCare": "Adopt Kubeflow when you already run Kubernetes and want a shared ML platform for notebooks, pipelines, and distributed training operators.",
+    "blurb": "AI platform teams can build on top of Kubeflow by using each subproject independently or deploying the entire Kubeflow Community Distribution to meet their specific needs. The Kubeflow Community Distribution is composable, modular, portable, and scalable, backed by an ecosystem of Kubernetes-native projects that cover every stage of Whether you\u2019re an AI practitioner, a platform administrator, or a team of developers,",
+    "issues": [
+      "spot_check_priority"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "tags": [
+      "kubernetes",
+      "mlops",
+      "pipelines",
+      "notebooks",
+      "cncf-ecosystem"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/kubeflow/kubeflow/master/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/infrastructure.json"
+  },
+  {
+    "id": "nvidia-tensorrt-llm",
+    "featured": true,
+    "stars": 14370,
+    "summary": "NVIDIA's optimized LLM inference stack compiles models into highly tuned TensorRT engines for maximum throughput and lowest latency on NVIDIA GPUs. It is the production path when you are all-in on NVIDIA hardware and need peak efficiency.",
+    "whyCare": "Choose this when NVIDIA GPU utilization and latency matter more than cross-vendor portability\u2014especially for large-scale enterprise serving.",
+    "blurb": "TensorRT LLM [Architecture](https://nvidia.github.io/TensorRT-LLM/developer-guide/overview.html)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Performance](https://nvidia.github.io/TensorRT-LLM/developer-guide/perf-overview.html)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Examples](https://nvidia.github.io/TensorRT-LLM/quick-start-guide.html)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Documentation](https://nvidia.github.io/TensorRT-LLM/)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Roadmap](https://github.com/NVIDIA/TensorRT-LLM/issues?q=is%3Aissue%20state%3Aopen%20label%3Aroadmap)",
+    "issues": [
+      "spot_check_priority"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "tags": [
+      "tensorrt",
+      "nvidia",
+      "cuda",
+      "serving",
+      "optimization",
+      "moe"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/NVIDIA/TensorRT-LLM/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/llm-inference.json"
+  },
+  {
+    "id": "axolotl-ai-cloud-axolotl",
+    "featured": true,
+    "stars": 12344,
+    "summary": "YAML-driven fine-tuning framework supporting many model architectures, chat templates, and training methods (LoRA, QLoRA, full FT). Favored by practitioners who want reproducible configs over ad-hoc scripts.",
+    "whyCare": "Excellent config-first workflow for production-ish fine-tunes with community recipes and strong multi-GPU support.",
+    "blurb": "- 2026/08: - New model support has been added in Axolotl for [North Micro Vision Instruct](https://docs.axolotl.ai/docs/models/cohere-north-micro-vision-instruct.html) and [Shieldstral](https://docs.axolotl.ai/docs/models/shieldstral.html). - 2026/07: - [NVFP4 (4-bit) MoE LoRA training](https://docs.axolotl.ai/docs/nvfp4_lora.html) is now supported via ScatterMoE (W4A16) and SonicMoE (W4A4), including adapter merge back into a plain NVFP4 checkpoint.",
+    "issues": [
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "researchers"
+    ],
+    "tags": [
+      "fine-tuning",
+      "lora",
+      "qlora",
+      "yaml",
+      "llm",
+      "sft"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/axolotl-ai-cloud/axolotl/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/training.json"
+  },
+  {
+    "id": "guoyww-animatediff",
+    "featured": true,
+    "stars": 12213,
+    "summary": "Motion-module approach that turns personalized Stable Diffusion image models into short videos without retraining the full backbone. Became a default animation path in A1111/ComfyUI ecosystems.",
+    "whyCare": "Still the most practical OSS bridge from SD personalization (LoRA/DreamBooth) to video; historically defined open Animate workflows.",
+    "blurb": "This repository is the official implementation of [AnimateDiff](https://arxiv.org/abs/2307.04725) [ICLR2024 Spotlight]. It is a plug-and-play module turning most community text-to-image models into animation generators, without the need of additional training. **[AnimateDiff: Animate Your Personalized Text-to-Image Diffusion Models without Specific Tuning](https://arxiv.org/abs/2307.04725)** (\u271dCorresponding Author)",
+    "issues": [
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "researchers"
+    ],
+    "tags": [
+      "animatediff",
+      "motion-module",
+      "stable-diffusion",
+      "text-to-video",
+      "animation"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/guoyww/AnimateDiff/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/video-ai.json"
+  },
+  {
+    "id": "salesforce-lavis",
+    "featured": true,
+    "stars": 11264,
+    "summary": "Salesforce\u2019s unified library for vision-language research, including BLIP, BLIP-2, InstructBLIP, ALBEF, and related tasks (captioning, VQA, retrieval). Primary open home for BLIP-2 training and inference APIs.",
+    "whyCare": "If you need BLIP-2 or a batteries-included VL research framework (datasets, trainers, evals), LAVIS is the standard package.",
+    "blurb": "* [Model Release] November 2023, released implementation of **X-InstructBLIP** <br> [Paper](https://arxiv.org/pdf/2311.18799.pdf), [Project Page](https://github.com/salesforce/LAVIS/tree/main/projects/xinstructblip), [Website](https://artemisp.github.io/X-InstructBLIP-page/), [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/salesforce/LAVIS/blob/main/projects/xinstructblip/demo/run_demo.ipynb)",
+    "issues": [
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "students",
+      "researchers"
+    ],
+    "tags": [
+      "blip-2",
+      "blip",
+      "instructblip",
+      "vision-language",
+      "salesforce"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/salesforce/LAVIS/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/multimodal.json"
+  },
+  {
+    "id": "anomalyco-opencode",
+    "featured": false,
+    "stars": 196501,
+    "summary": "Rapidly adopted open-source coding agent focused on a polished terminal/product experience for agentic software work. Positions itself as a full OSS coding-agent product rather than a research harness.",
+    "whyCare": "Among the highest-visibility open coding agents by adoption; useful reference for modern TUI/CLI agent UX and ecosystem integrations.",
+    "blurb": "```bash curl -fsSL https://opencode.ai/install | bash npm i -g opencode-ai@latest        # or bun/pnpm/yarn scoop install opencode             # Windows choco install opencode             # Windows brew install anomalyco/tap/opencode # macOS and Linux (recommended, always up to date) brew install opencode              # macOS and Linux (official brew formula, updated less) sudo pacman -S opencode            # Arch Linux (Stable)",
+    "issues": [
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists"
+    ],
+    "tags": [
+      "cli",
+      "tui",
+      "coding-agent",
+      "terminal"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/anomalyco/opencode/dev/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/coding-agents.json"
+  },
+  {
+    "id": "chatgptnextweb-nextchat",
+    "featured": false,
+    "stars": 88610,
+    "summary": "Lightweight cross-platform ChatGPT-style client (web + Tauri desktop) with broad provider support including Ollama. Fast to deploy on Vercel or self-host.",
+    "whyCare": "Huge adoption and a simple path to a portable multi-provider chat client when you want less stack than LibreChat or Open WebUI.",
+    "blurb": "English / [\u7b80\u4f53\u4e2d\u6587](./README_CN.md) \u2728 Light and Fast AI Assistant,with Claude, DeepSeek, GPT4 & Gemini Pro support. [NextChatAI](https://nextchat.club?utm_source=readme) / [iOS APP](https://apps.apple.com/us/app/nextchat-ai/id6743085599) / [Web App Demo](https://app.nextchat.club) / [Desktop App](https://github.com/Yidadaa/ChatGPT-Next-Web/releases) / [Enterprise Edition](#enterprise-edition) [saas-url]: https://nextchat.club?utm_source=readme",
+    "issues": [
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "students",
+      "hobbyists"
+    ],
+    "tags": [
+      "webui",
+      "tauri",
+      "ollama",
+      "cross-platform",
+      "chatgpt-clone"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/ChatGPTNextWeb/NextChat/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/local-ai.json"
+  },
+  {
+    "id": "nomic-ai-gpt4all",
+    "featured": false,
+    "stars": 77415,
+    "summary": "Early mainstream desktop app for local LLMs on CPU-friendly hardware, with a curated model catalog and commercial-friendly MIT licensing. Historically important onboarding path for offline chat.",
+    "whyCare": "Still a recognizable brand for \u201cChatGPT offline,\u201d especially when you want a simple installable client rather than a Docker stack.",
+    "blurb": "Now with support for DeepSeek R1 Distillations GPT4All runs large language models (LLMs) privately on everyday desktops & laptops. No API calls or GPUs required - you can just download the application and <a href=\"https://docs.gpt4all.io/gpt4all_desktop/quickstart.html#quickstart\">get started</a>. Read about what's new in <a href=\"https://www.nomic.ai/blog/tag/gpt4all\">our blog</a>. https://github.com/nomic-ai/gpt4all/assets/70534565/513a0f15-4964-4109-89e4-4f9a9011f311",
+    "issues": [
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "students",
+      "hobbyists",
+      "enterprises"
+    ],
+    "tags": [
+      "desktop",
+      "local-llm",
+      "offline",
+      "cpu",
+      "mit"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/nomic-ai/gpt4all/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/local-ai.json"
+  },
+  {
+    "id": "meilisearch-meilisearch",
+    "featured": false,
+    "stars": 58950,
+    "summary": "Meilisearch is a fast, developer-friendly search engine that added vector and hybrid (neural + keyword) search for AI apps. It is often used when product search UX matters as much as embedding retrieval.",
+    "whyCare": "Excellent when RAG or AI features need typo-tolerant keyword search fused with vectors behind a simple REST API.",
+    "blurb": "[Meilisearch](https://www.meilisearch.com?utm_campaign=oss&utm_source=github&utm_medium=meilisearch&utm_content=intro) helps you shape a delightful search experience in a snap, offering features that work out of the box to speed up your workflow. - [**Movies**](https://where2watch.meilisearch.com/?utm_campaign=oss&utm_source=github&utm_medium=organization) \u2014 An application to help you find streaming platforms to watch movies using [hybrid search](https://www.meilisearch.com/solutions/hybrid-search?utm_campaign=oss&utm_source=github&utm_medium=meilisearch&utm_content=demos).",
+    "issues": [
+      "editorial claims pattern '\\\\bRAG\\\\b' not clearly supported in README"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "enterprises"
+    ],
+    "tags": [
+      "hybrid-search",
+      "vector-search",
+      "full-text",
+      "search-engine",
+      "rust",
+      "neural-search"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/meilisearch/meilisearch/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/vector-db.json"
+  },
+  {
+    "id": "antonosika-gpt-engineer",
+    "featured": false,
+    "stars": 55149,
+    "summary": "Early viral CLI that generated whole codebases from prompts; archived and noted as a precursor to Lovable. Landmark project in the 2023\u20132024 codegen-agent wave.",
+    "whyCare": "Historically significant blueprint for prompt\u2192repo generation agents; still useful for understanding how today\u2019s app builders evolved.",
+    "blurb": "The OG code genereation experimentation platform! If you are looking for the evolution that is an opinionated, managed service \u2013 check out gptengineer.app. If you are looking for a well maintained hackable CLI for \u2013 check out aider. gpt-engineer lets you: - Specify software in natural language - Sit back and watch as an AI writes and executes the code - Ask the AI to implement improvements For **stable** release:",
+    "issues": [
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "students",
+      "hobbyists"
+    ],
+    "tags": [
+      "codegen",
+      "cli",
+      "historical",
+      "codebase-generation",
+      "archived"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/AntonOsika/gpt-engineer/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/coding-agents.json"
+  },
+  {
+    "id": "aaif-goose-goose",
+    "featured": false,
+    "stars": 52721,
+    "summary": "Extensible local AI agent (originated at Block) that installs tools, edits code, runs commands, and tests changes with any LLM. Rust-based core with strong MCP/ACP integration for developer workflows beyond autocomplete.",
+    "whyCare": "Production-minded open agent from a major eng org lineage; excellent if you want an installable, tool-extensible coding agent rather than only an IDE chat panel.",
+    "blurb": "_your native open source AI agent \u2014 desktop app, CLI, and API \u2014 for code, workflows, and everything in between_ ><img src=\"https://img.shields.io/badge/License-Apache_2.0-blue.svg\"></a> ><img src=\"https://img.shields.io/discord/1287729918100246654?logo=discord&logoColor=white&label=Join+Us&color=blueviolet\" alt=\"Discord\"></a> ><img src=\"https://img.shields.io/github/actions/workflow/status/aaif-goose/goose/ci.yml?branch=main\" alt=\"CI\"></a>",
+    "issues": [
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "tags": [
+      "rust",
+      "mcp",
+      "acp",
+      "local-agent",
+      "extensible",
+      "block"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/aaif-goose/goose/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/coding-agents.json"
+  },
+  {
+    "id": "oobabooga-textgen",
+    "featured": false,
+    "stars": 47541,
+    "summary": "Successor to text-generation-webui: a private desktop app for local LLMs with vision, tool-calling, and OpenAI/Anthropic-compatible APIs. Long-standing power-user favorite for local experimentation.",
+    "whyCare": "Deep local control\u2014loaders, extensions lineage, and API compatibility\u2014when browser UIs feel too opinionated.",
+    "blurb": "**A desktop app for local LLMs. Open source, no telemetry.** Text, vision, tool-calling, web search. UI + API. Download, unzip, double-click `textgen`. A window opens. **https://github.com/oobabooga/textgen/releases** Portable builds for Linux, Windows, and macOS with CUDA, Vulkan, ROCm, and CPU-only options. All dependencies included. Compatible with GGUF (llama.cpp) models. For additional backends (ExLlamaV3, Transformers), training, image generation, and extensions, see [Installation](#installation).",
+    "issues": [
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "researchers"
+    ],
+    "tags": [
+      "desktop",
+      "local-llm",
+      "webui",
+      "openai-compatible",
+      "vision",
+      "tool-calling"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/oobabooga/textgen/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/local-ai.json"
+  },
+  {
+    "id": "hpcaitech-colossalai",
+    "featured": false,
+    "stars": 41435,
+    "summary": "Unified large-model training system covering parallelism strategies, heterogeneous memory, and efficient fine-tuning. Aimed at making multi-GPU and multi-node LLM training more accessible.",
+    "whyCare": "Strong option when you want an integrated parallelism + efficiency stack rather than composing Megatron/DeepSpeed pieces yourself.",
+    "blurb": "Colossal-AI: Making large AI models cheaper, faster, and more accessible | [English](README.md) | [\u4e2d\u6587](docs/README-zh-Hans.md) | Skip the setup. Access a powerful, pre-configured Colossal-AI environment on [**HPC-AI Cloud**](https://hpc-ai.com/?utm_source=github&utm_medium=social&utm_campaign=promotion-colossalai). Train your models and scale your AI workload in one click! * **NVIDIA Blackwell B200s**: Experience the next generation of AI performance ([See Benchmarks](https://hpc-ai.com/blog/b200)). Now available on cloud from **$2.47/hr**.",
+    "issues": [
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers",
+      "enterprises"
+    ],
+    "tags": [
+      "distributed-training",
+      "parallelism",
+      "llm",
+      "heterogeneous-training",
+      "fine-tuning"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/hpcaitech/ColossalAI/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/training.json"
+  },
+  {
+    "id": "chatboxai-chatbox",
+    "featured": false,
+    "stars": 41415,
+    "summary": "Cross-platform desktop/mobile AI client with multi-provider support including Ollama. Emphasizes a polished client UX for daily chatting across local and cloud models.",
+    "whyCare": "Strong alternative to browser UIs when you want a native client that still talks to local OpenAI-compatible servers.",
+    "blurb": "Chatbox This is the repository for the Chatbox Community Edition, open-sourced under the GPLv3 license. We regularly sync code from the pro repo to this repo, and vice versa. .APK For more information: [chatboxai.app](https://chatboxai.app/) 1. Download the appropriate installer for your platform from the [releases page](https://github.com/chatboxai/chatbox/releases) 2. Install and launch Chatbox 3. Configure your AI provider (OpenAI, Claude, etc.) in settings",
+    "issues": [
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "students",
+      "hobbyists"
+    ],
+    "tags": [
+      "desktop",
+      "client",
+      "ollama",
+      "multi-provider",
+      "chat"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/chatboxai/chatbox/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/local-ai.json"
+  },
+  {
+    "id": "suno-ai-bark",
+    "featured": false,
+    "stars": 39236,
+    "summary": "Suno's text-prompted generative audio model that can produce speech, music, and sound effects from text. Influential early open generative audio release, though upstream commits have slowed.",
+    "whyCare": "Useful reference for expressive generative audio beyond classic TTS\u2014non-speech sounds, laughter, and music-like prompts in one model family.",
+    "blurb": "> Notice: Bark is Suno's open-source text-to-speech+ model. If you are looking for our text-to-music models, please visit us on our [web page](https://suno.ai) and join our community on [Discord](https://suno.ai/discord). > \ud83d\udd17 [Examples](https://suno.ai/examples/bark-v0) \u2022 [Suno Studio Waitlist](https://suno-ai.typeform.com/suno-studio) \u2022 [Updates](#-updates) \u2022 [How to Use](#-usage-in-python) \u2022 [Installation](#-installation) \u2022 [FAQ](#-faq)",
+    "issues": [
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "researchers"
+    ],
+    "tags": [
+      "tts",
+      "generative-audio",
+      "music",
+      "sound-effects",
+      "bark"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/suno-ai/bark/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/audio-ai.json"
+  },
+  {
+    "id": "myshell-ai-openvoice",
+    "featured": false,
+    "stars": 37136,
+    "summary": "Instant voice cloning system from MyShell/MIT focused on accurate tone color cloning with controllable style and language. Popular MIT-licensed entry point for zero-shot cloning demos and apps.",
+    "whyCare": "Simple, well-known open voice cloning stack with clear MIT licensing for many product prototypes.",
+    "blurb": "As we detailed in our [paper](https://arxiv.org/abs/2312.01479) and [website](https://research.myshell.ai/open-voice), the advantages of OpenVoice are three-fold: **1. Accurate Tone Color Cloning.** OpenVoice can accurately clone the reference tone color and generate speech in multiple languages and accents. **2. Flexible Voice Style Control.** OpenVoice enables granular control over voice styles, such as emotion and accent, as well as other style parameters including rhythm, pauses, and intonation.",
+    "issues": [
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "researchers"
+    ],
+    "tags": [
+      "voice-cloning",
+      "tts",
+      "zero-shot",
+      "openvoice",
+      "style-control"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/myshell-ai/OpenVoice/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/audio-ai.json"
+  },
+  {
+    "id": "khoj-ai-khoj",
+    "featured": false,
+    "stars": 36464,
+    "summary": "Self-hostable \u201cAI second brain\u201d with chat over personal docs and the web, custom agents, automations, and local/cloud LLM backends. Strong Obsidian/Emacs-friendly personal knowledge angle.",
+    "whyCare": "Goes beyond a chat shell into personal knowledge + automation while staying self-hostable and local-LLM friendly.",
+    "blurb": "* Meet \ud83c\udf36\ufe0f **[Pipali](https://pipali.ai)** - our [open-source](https://github.com/khoj-ai/pipali) AI coworker that runs on your computer. * [Read](https://blog.khoj.dev/posts/evaluate-khoj-quality/) about Khoj's excellent performance on modern retrieval and reasoning benchmarks. - Chat with any local or online LLM (e.g llama3, qwen, gemma, mistral, gpt, claude, gemini, deepseek). - Get answers from the internet and your docs (including image, pdf, markdown, org-mode, word, notion files).",
+    "issues": [
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "students",
+      "hobbyists",
+      "researchers"
+    ],
+    "tags": [
+      "second-brain",
+      "rag",
+      "agents",
+      "self-hosted",
+      "obsidian",
+      "offline-llm"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/khoj-ai/khoj/master/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/local-ai.json"
+  },
+  {
+    "id": "xinntao-real-esrgan",
+    "featured": false,
+    "stars": 36457,
+    "summary": "Practical blind super-resolution and restoration models used as the default upscaler in countless diffusion UIs. Not a generator, but essential post-processing for image AI pipelines.",
+    "whyCare": "De facto OSS upscaler for diffusion outputs; nearly every local image stack ships Real-ESRGAN weights.",
+    "blurb": "\ud83d\udc40[**Demos**](#-demos-videos) **|** \ud83d\udea9[**Updates**](#-updates) **|** \u26a1[**Usage**](#-quick-inference) **|** \ud83c\udff0[**Model Zoo**](docs/model_zoo.md) **|** \ud83d\udd27[Install](#-dependencies-and-installation)  **|** \ud83d\udcbb[Train](docs/Training.md) **|** \u2753[FAQ](docs/FAQ.md) **|** \ud83c\udfa8[Contribution](docs/CONTRIBUTING.md) \ud83d\udd25 **AnimeVideo-v3 model (\u52a8\u6f2b\u89c6\u9891\u5c0f\u6a21\u578b)**. Please see [[*anime video models*](docs/anime_video_model.md)] and [[*comparisons*](docs/anime_comparisons.md)]<br>",
+    "issues": [
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "researchers"
+    ],
+    "tags": [
+      "upscaling",
+      "restoration",
+      "super-resolution",
+      "real-esrgan",
+      "postprocessing"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/xinntao/Real-ESRGAN/master/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/image-ai.json"
+  },
+  {
+    "id": "itzcrazykns-vane",
+    "featured": false,
+    "stars": 36105,
+    "summary": "Self-hosted AI answering/search engine (formerly Perplexica) built around local or remote LLMs plus search backends like SearXNG. Privacy-oriented alternative to cloud answer engines.",
+    "whyCare": "If your \u201clocal AI stack\u201d needs web-grounded Q&A\u2014not just chat\u2014this is the go-to OSS Perplexity-style stack.",
+    "blurb": "Vane is a **privacy-focused AI answering engine** that runs entirely on your own hardware. It combines knowledge from the vast internet with support for **local LLMs** (Ollama) and cloud providers (OpenAI, Claude, Groq), delivering accurate answers with **cited sources** while keeping your searches completely private. Want to know more about its architecture and how it works? You can read it [here](https://github.com/ItzCrazyKns/Vane/tree/master/docs/architecture/README.md).",
+    "issues": [
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": false,
+    "audience": [
+      "engineers",
+      "students",
+      "hobbyists"
+    ],
+    "tags": [
+      "search",
+      "answering-engine",
+      "searxng",
+      "self-hosted",
+      "rag",
+      "perplexica"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/ItzCrazyKns/Vane/master/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/local-ai.json"
+  },
+  {
+    "id": "tabbyml-tabby",
+    "featured": false,
+    "stars": 33820,
+    "summary": "Self-hosted AI coding assistant focused on privacy-friendly autocomplete and chat that you run on your own infrastructure. Rust core with IDE integrations; Apache-licensed OSS with optional enterprise edition paths.",
+    "whyCare": "Best-known open Copilot-style self-hosted coding assistant when data residency and offline/on-prem inference matter.",
+    "blurb": "Tabby is a self-hosted AI coding assistant, offering an open-source and on-premises alternative to GitHub Copilot. It boasts several key features: * Self-contained, with no need for a DBMS or cloud service. * OpenAPI interface, easy to integrate with existing infrastructure (e.g Cloud IDE). * Supports consumer-grade GPUs. * **12/12/2025** Get your GitHub issues implemented by connecting them to [Pochi](https://github.com/TabbyML/pochi) tasks and create PRs directly from the sidebar with a breakdown of CI/Lint/Test results [vscode@0.20.0](https://github.com/TabbyML/pochi/releases/tag/vscode%400",
+    "issues": [
+      "editorialSummary may not mention project name distinctly",
+      "README indicates archived/deprecated/unmaintained; editorial may need historical framing"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "tags": [
+      "self-hosted",
+      "autocomplete",
+      "coding-assistant",
+      "privacy",
+      "ide"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/TabbyML/tabby/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/coding-agents.json"
+  },
+  {
+    "id": "sillytavern-sillytavern",
+    "featured": false,
+    "stars": 32008,
+    "summary": "Power-user LLM frontend focused on character chat, lorebooks, extensions, and deep prompt control. Connects to many local backends (KoboldCPP, textgen, Ollama, etc.).",
+    "whyCare": "The standard UI for roleplay and highly customized local chat workflows that generic ChatGPT clones don\u2019t cover.",
+    "blurb": "LLM Frontend for Power Users - GitHub: <https://github.com/SillyTavern/SillyTavern> - Docs: <https://docs.sillytavern.app/> - Discord: <https://discord.gg/sillytavern> - Reddit: <https://reddit.com/r/SillyTavernAI> AGPL-3.0",
+    "issues": [
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "hobbyists"
+    ],
+    "tags": [
+      "frontend",
+      "character-chat",
+      "kobold",
+      "extensions",
+      "power-user"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/SillyTavern/SillyTavern/release/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/local-ai.json"
+  },
+  {
+    "id": "sgl-project-sglang",
+    "featured": false,
+    "stars": 31715,
+    "summary": "SGLang is a high-performance serving framework focused on fast structured generation, RadixAttention for KV-cache reuse, and strong multimodal/MoE support. It competes directly with vLLM for cutting-edge throughput on modern GPUs.",
+    "whyCare": "Strong alternative to vLLM when you need radix-cache efficiency, constrained/structured decoding, or leading multimodal and MoE serving performance.",
+    "blurb": "- [2026/07] \ud83d\udd25 SGLang and Miles add day-0 support for Kimi K3 ([blog](https://lmsys.org/blog/2026-07-27-kimi-k3-day0-support/)). - [2026/07] RadixArk and Google bring full SGLang features to TPUs ([blog](https://lmsys.org/blog/2026-07-30-sglang-google-tpu/)). - [2026/07] Serving GLM5.2 NVFP4 agentic workloads with SGLang: Reaching 500 TPS in two weeks ([blog](https://lmsys.org/blog/2026-07-13-glm52-optimization/)).",
+    "issues": [
+      "ai_slop_phrase:cutting-edge"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers",
+      "enterprises"
+    ],
+    "tags": [
+      "serving",
+      "radixattention",
+      "structured-output",
+      "moe",
+      "vlm",
+      "cuda"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/sgl-project/sglang/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/llm-inference.json"
+  },
+  {
+    "id": "voideditor-void",
+    "featured": false,
+    "stars": 28853,
+    "summary": "Open-source AI code editor positioned as a Cursor alternative, built on the VS Code lineage with BYOK model support. Archived on GitHub at verification time but remains a landmark OSS attempt at a full AI IDE.",
+    "whyCare": "One of the best-known open Cursor-class editors; valuable historically and as a fork base even if the primary repo is archived.",
+    "blurb": "Void is deprecated and no longer accepting contributions. Thank you to everyone who contributed, both with lines of code and support from the community. Void remains open source and is still one of the best references to use when forking VS Code. To view a list of newer Void forks, see [Void Forks](http://github.com/voideditor/void-forks/). To download an old version of Void, see [Releases](https://github.com/voideditor/void/releases).",
+    "issues": [
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists"
+    ],
+    "tags": [
+      "cursor-alternative",
+      "vscode-fork",
+      "ai-ide",
+      "byok",
+      "archived"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/voideditor/void/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/coding-agents.json"
+  },
+  {
+    "id": "mozilla-ai-llamafile",
+    "featured": false,
+    "stars": 25543,
+    "summary": "Mozilla\u2019s single-file LLM distribution format: ship a GGUF model as one executable that runs across platforms. Ideal for portable demos and air-gapped sharing.",
+    "whyCare": "Simplest possible distribution story\u2014\u201cdownload one file, run the model\u201d\u2014without installing a full local stack.",
+    "blurb": "alt=\"[line drawing of llama animal head in front of slightly open manilla folder filled with files]\"> **llamafile lets you distribute and run LLMs with a single file.** llamafile is a [Mozilla Builders](https://builders.mozilla.org/) project (see its [announcement blog post](https://hacks.mozilla.org/2023/11/introducing-llamafile/)), now revamped by [Mozilla.ai](https://www.mozilla.ai/open-tools/llamafile).",
+    "issues": [
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "students",
+      "hobbyists",
+      "enterprises"
+    ],
+    "tags": [
+      "single-file",
+      "gguf",
+      "portable",
+      "offline",
+      "llama.cpp"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/mozilla-ai/llamafile/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/local-ai.json"
+  },
+  {
+    "id": "karpathy-mingpt",
+    "featured": false,
+    "stars": 24789,
+    "summary": "The precursor minimal GPT reimplementation that shaped how researchers teach and prototype transformer LMs. Intentionally tiny and readable rather than production-oriented.",
+    "whyCare": "Still the clearest short codebase for studying GPT architecture and training before moving to nanoGPT or larger stacks.",
+    "blurb": "A PyTorch re-implementation of [GPT](https://github.com/openai/gpt-2), both training and inference. minGPT tries to be small, clean, interpretable and educational, as most of the currently available GPT model implementations can a bit sprawling. GPT is not a complicated model and this implementation is appropriately about 300 lines of code (see [mingpt/model.py](mingpt/model.py)). All that's going on is that a sequence of indices feeds into a [Transformer](https://arxiv.org/abs/1706.03762), and a probability distribution over the next index in the sequence comes out. The majority of the comple",
+    "issues": [
+      "editorialSummary may not mention project name distinctly",
+      "README indicates archived/deprecated/unmaintained; editorial may need historical framing"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "students",
+      "hobbyists",
+      "researchers"
+    ],
+    "tags": [
+      "gpt",
+      "educational",
+      "minimal",
+      "karpathy",
+      "pytorch"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/karpathy/minGPT/master/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/research.json"
+  },
+  {
+    "id": "roocodeinc-roo-code",
+    "featured": false,
+    "stars": 24350,
+    "summary": "Popular Cline-descended VS Code coding agent emphasizing multi-mode/agent-team workflows inside the editor. Repository is archived as of verification, but remains a major reference in the OSS Cursor-alternative lineage.",
+    "whyCare": "High-signal fork/evolution of the Cline-style agent UX; historically important for comparing multi-agent IDE coding tools even if the main repo is archived.",
+    "blurb": "> Your AI-Powered Dev Team, Right in Your Editor - [English](README.md) - [Catal\u00e0](locales/ca/README.md) - [Deutsch](locales/de/README.md) - [Espa\u00f1ol](locales/es/README.md) - [Fran\u00e7ais](locales/fr/README.md) - [\u0939\u093f\u0902\u0926\u0940](locales/hi/README.md) - [Bahasa Indonesia](locales/id/README.md) - [Italiano](locales/it/README.md) - [\u65e5\u672c\u8a9e](locales/ja/README.md) - [\ud55c\uad6d\uc5b4](locales/ko/README.md) - [Nederlands](locales/nl/README.md)",
+    "issues": [
+      "editorial claims pattern '\\\\bmulti-?agent\\\\b' not clearly supported in README"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists"
+    ],
+    "tags": [
+      "vscode",
+      "multi-agent",
+      "cline-fork",
+      "cursor-alternative",
+      "archived"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/RooCodeInc/Roo-Code/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/coding-agents.json"
+  },
+  {
+    "id": "m-bain-whisperx",
+    "featured": false,
+    "stars": 23545,
+    "summary": "Whisper-based ASR pipeline that adds word-level timestamps and speaker diarization on top of fast transcription backends. Popular for subtitle and podcast workflows that need alignment quality, not just transcripts.",
+    "whyCare": "Use when plain Whisper timestamps are not enough\u2014forced alignment and diarization for production captioning and multi-speaker audio.",
+    "blurb": "If you\u2019re looking for a transcription API for meetings, consider checking out [Recall.ai's Meeting Transcription API](https://www.recall.ai/product/meeting-transcription-api?utm_source=github&utm_medium=sponsorship&utm_campaign=mbain-whisperx), an API that works with Zoom, Google Meet, Microsoft Teams, and more. Recall.ai diarizes by pulling the speaker data and separate audio streams from the meeting platforms, which means 100% accurate speaker diarization with actual speaker names.",
+    "issues": [
+      "editorialSummary may not mention project name distinctly"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "enterprises"
+    ],
+    "tags": [
+      "whisper",
+      "asr",
+      "diarization",
+      "timestamps",
+      "alignment",
+      "subtitles"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/m-bain/whisperX/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/audio-ai.json"
+  },
+  {
+    "id": "rhasspy-piper",
+    "featured": false,
+    "stars": 11279,
+    "summary": "Fast local neural TTS designed for on-device and home-assistant style deployments. Archived upstream, but still widely embedded where low-latency offline speech is required.",
+    "whyCare": "Excellent lightweight TTS option for edge/IoT and privacy-sensitive assistants that cannot run large diffusion or LLM-style synthesizers.",
+    "blurb": "Development has moved: https://github.com/OHF-Voice/piper1-gpl",
+    "issues": [
+      "readme_too_short_for_verification"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "enterprises"
+    ],
+    "tags": [
+      "tts",
+      "offline",
+      "edge",
+      "onnx",
+      "home-assistant",
+      "speech-synthesis"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/rhasspy/piper/master/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/audio-ai.json"
+  },
+  {
+    "id": "flyteorg-flyte",
+    "featured": false,
+    "stars": 7198,
+    "summary": "Flyte is a Kubernetes-native workflow orchestrator purpose-built for data and ML/AI pipelines with strong typing, versioning, and reproducibility. It scales from ETL to fine-tuning and agentic workloads.",
+    "whyCare": "Use Flyte to orchestrate production AI workflows on Kubernetes with first-class reproducibility and dynamic DAG patterns.",
+    "blurb": "> [!IMPORTANT] > ## Flyte 2 is now generally available! > > Read more in the announcement [here](https://www.union.ai/blog-post/flyte-2-is-generally-available-the-durable-open-source-ai-runtime). > > Want to try Flyte 2 locally? Run the [Devbox](https://www.union.ai/docs/v2/flyte/user-guide/get-started/run-modes/running-devbox/). > > Looking for Flyte 1? Go to the [master](https://github.com/flyteorg/flyte/tree/master) branch, where Flyte 1 is now maintained.",
+    "issues": [
+      "editorial claims pattern '\\\\bfine[- ]?tun' not clearly supported in README"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "tags": [
+      "orchestration",
+      "kubernetes",
+      "workflows",
+      "mlops",
+      "golang"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/flyteorg/flyte/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/infrastructure.json"
+  },
+  {
+    "id": "vespa-engine-vespa",
+    "featured": false,
+    "stars": 7046,
+    "summary": "Vespa is a full AI search platform combining lexical, vector, and ranking features for low-latency serving at scale. It targets production RAG and recommendation workloads that need more than a pure vector DB.",
+    "whyCare": "Use Vespa when RAG quality depends on hybrid ranking, real-time serving, and sophisticated relevance beyond ANN alone.",
+    "blurb": "Search, make inferences in and organize vectors, tensors, text and structured data, at serving time and any scale. This repository contains all the code required to build and run all of Vespa yourself, and where you can see all development as it happens. All the content in this repository is licensed under the Apache 2.0 license. A new release of Vespa is made from this repository's master branch every morning CET Monday through Thursday.",
+    "issues": [
+      "editorial claims pattern '\\\\bRAG\\\\b' not clearly supported in README"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "tags": [
+      "search-engine",
+      "vector-search",
+      "ranking",
+      "hybrid-search",
+      "java",
+      "serving"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/vespa-engine/vespa/master/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/vector-db.json"
+  },
+  {
+    "id": "idea-research-grounded-sam-2",
+    "featured": false,
+    "stars": 3688,
+    "summary": "IDEA-Research pipeline that grounds and tracks anything in images/video by combining Grounding DINO, Microsoft Florence-2, and SAM 2. Practical open entry point for Florence-2-style open-vocabulary perception.",
+    "whyCare": "Best high-star OSS project that ships Florence-2 in a real multimodal detection/segmentation workflow (Florence-2 weights themselves are primarily on Hugging Face).",
+    "blurb": "**[IDEA-Research](https://github.com/idea-research)** [[`SAM 2 Paper`](https://arxiv.org/abs/2408.00714)] [[`Grounding DINO Paper`](https://arxiv.org/abs/2303.05499)] [[`Grounding DINO 1.5 Paper`](https://arxiv.org/abs/2405.10300)] [[`DINO-X Paper`](https://arxiv.org/abs/2411.14347)] [[`BibTeX`](#citation)] Grounded SAM 2 is a foundation model pipeline towards grounding and track anything in Videos with [Grounding DINO](https://arxiv.org/abs/2303.05499), [Grounding DINO 1.5](https://arxiv.org/abs/2405.10300), [Florence-2](https://arxiv.org/abs/2311.06242), [DINO-X](https://arxiv.org/abs/2411.1",
+    "issues": [
+      "README indicates archived/deprecated/unmaintained; editorial may need historical framing"
+    ],
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers"
+    ],
+    "tags": [
+      "florence-2",
+      "grounding-dino",
+      "sam-2",
+      "open-vocabulary",
+      "segmentation"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/IDEA-Research/Grounded-SAM-2/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/multimodal.json"
+  },
+  {
+    "id": "browserbase-mcp-server-browserbase",
+    "featured": false,
+    "stars": 3412,
+    "summary": "MCP server that lets LLMs drive cloud browsers via Browserbase and Stagehand. Historically influential browser-automation MCP; repository is now archived.",
+    "whyCare": "Reference for browser-control MCP design; for active Stagehand/browser work prefer Browserbase Stagehand and newer browser MCP servers.",
+    "blurb": "This repository is archived and no longer maintained. It was originally published as a reference implementation and is retained for historical purposes. It should not be interpreted as representative of Browserbase's current production services or implementation. [The Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction) is an open protocol that enables seamless integration between LLM applications and external data sources and tools. Whether you're building an AI-powered IDE, enhancing a chat interface, or creating custom AI workflows, MCP provides a standardized way to ",
+    "issues": [
+      "selfHostable=false but README describes self-host/local install",
+      "README indicates archived/deprecated/unmaintained; editorial may need historical framing"
+    ],
+    "selfHostable": false,
+    "localOfflineCapable": false,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "tags": [
+      "mcp",
+      "browser",
+      "browserbase",
+      "stagehand",
+      "playwright",
+      "archived"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/browserbase/mcp-server-browserbase/main/README.md",
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/mcp-tools.json"
+  },
+  {
+    "id": "ali-vilab-vgen",
+    "issues": [
+      "readme_fetch_failed"
+    ],
+    "status": "fetch_failed",
+    "summary": "Alibaba VILAB\u2019s VGen ecosystem covering ModelScope-era text-to-video and I2VGen-XL image-to-video diffusion models. Historical open ModelScope T2V lineage in one research codebase.",
+    "stars": 3156,
+    "featured": false,
+    "file": "/Users/rahul_naveen/Desktop/ai-repo-directory/data/canonical/video-ai.json"
+  }
+]

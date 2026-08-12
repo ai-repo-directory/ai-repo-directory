@@ -1,0 +1,21 @@
+{
+  "id": "hpcaitech-open-sora",
+  "fetchedAt": "2026-08-12T17:40:04.446Z",
+  "stars": 29269,
+  "forks": 3006,
+  "watchers": 241,
+  "openIssues": 12,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "description": "Open-Sora: Democratizing Efficient Video Production for All",
+  "homepage": "https://hpcaitech.github.io/Open-Sora/",
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-04-09T01:52:40Z",
+  "updatedAt": "2026-08-12T15:48:13Z",
+  "createdAt": "2024-02-20T03:01:34Z",
+  "latestRelease": "v1.3",
+  "latestReleaseAt": "2025-02-21T02:30:05Z",
+  "defaultBranch": "main"
+}

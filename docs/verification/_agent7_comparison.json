@@ -1,0 +1,1215 @@
+{
+  "compared_at": "2026-08-12T18:10:00Z",
+  "independent_candidates": 120,
+  "present": 92,
+  "missing": 28,
+  "missing_by_tier": {
+    "Strong candidate": 22,
+    "Critical omission": 3,
+    "Optional/niche": 3
+  },
+  "missing_repos": [
+    {
+      "owner_repo": "microsoft/onnxruntime",
+      "url": "https://github.com/microsoft/onnxruntime",
+      "why": "Cross-platform ONNX runtime underpinning many production and edge inference paths.",
+      "category": "inference / serving",
+      "tier": "Strong candidate",
+      "status": "missing",
+      "matched_id": null,
+      "match_note": null
+    },
+    {
+      "owner_repo": "ggml-org/ggml",
+      "url": "https://github.com/ggml-org/ggml",
+      "why": "Tensor library behind llama.cpp/whisper.cpp; core of portable local AI.",
+      "category": "local AI",
+      "tier": "Strong candidate",
+      "status": "missing",
+      "matched_id": null,
+      "match_note": null
+    },
+    {
+      "owner_repo": "ml-explore/mlx-lm",
+      "url": "https://github.com/ml-explore/mlx-lm",
+      "why": "Native Apple Silicon LLM inference/fine-tuning on MLX.",
+      "category": "local AI",
+      "tier": "Strong candidate",
+      "status": "missing",
+      "matched_id": null,
+      "match_note": null
+    },
+    {
+      "owner_repo": "microsoft/agent-framework",
+      "url": "https://github.com/microsoft/agent-framework",
+      "why": "Microsoft\u2019s unified successor to AutoGen + Semantic Kernel for enterprise agents.",
+      "category": "general agents",
+      "tier": "Strong candidate",
+      "status": "missing",
+      "matched_id": null,
+      "match_note": null
+    },
+    {
+      "owner_repo": "browser-use/browser-use",
+      "url": "https://github.com/browser-use/browser-use",
+      "why": "Leading open browser-automation agent for web task completion.",
+      "category": "general agents",
+      "tier": "Strong candidate",
+      "status": "missing",
+      "matched_id": null,
+      "match_note": null
+    },
+    {
+      "owner_repo": "stanfordnlp/dspy",
+      "url": "https://github.com/stanfordnlp/dspy",
+      "why": "Programmatic prompt/pipeline optimization; foundational for systematic RAG/agent tuning.",
+      "category": "RAG",
+      "tier": "Strong candidate",
+      "status": "missing",
+      "matched_id": null,
+      "match_note": null
+    },
+    {
+      "owner_repo": "infiniflow/ragflow",
+      "url": "https://github.com/infiniflow/ragflow",
+      "why": "End-to-end open RAG engine with deep document understanding and UI.",
+      "category": "RAG",
+      "tier": "Strong candidate",
+      "status": "missing",
+      "matched_id": null,
+      "match_note": null
+    },
+    {
+      "owner_repo": "microsoft/graphrag",
+      "url": "https://github.com/microsoft/graphrag",
+      "why": "Influential graph-based RAG approach from Microsoft Research.",
+      "category": "RAG",
+      "tier": "Strong candidate",
+      "status": "missing",
+      "matched_id": null,
+      "match_note": null
+    },
+    {
+      "owner_repo": "mosaicml/llm-foundry",
+      "url": "https://github.com/mosaicml/llm-foundry",
+      "why": "Composer/LLM Foundry training stack used for efficient large-scale LLM training.",
+      "category": "training / fine-tuning",
+      "tier": "Strong candidate",
+      "status": "missing",
+      "matched_id": null,
+      "match_note": null
+    },
+    {
+      "owner_repo": "princeton-nlp/SWE-bench",
+      "url": "https://github.com/princeton-nlp/SWE-bench",
+      "why": "Defining benchmark for real GitHub issue-solving coding agents.",
+      "category": "evaluation",
+      "tier": "Strong candidate",
+      "status": "missing",
+      "matched_id": null,
+      "match_note": null
+    },
+    {
+      "owner_repo": "BerriAI/litellm",
+      "url": "https://github.com/BerriAI/litellm",
+      "why": "Universal LLM proxy/gateway (100+ providers) with spend/logging hooks.",
+      "category": "observability",
+      "tier": "Critical omission",
+      "status": "missing",
+      "matched_id": null,
+      "match_note": null
+    },
+    {
+      "owner_repo": "modelcontextprotocol/modelcontextprotocol",
+      "url": "https://github.com/modelcontextprotocol/modelcontextprotocol",
+      "why": "MCP specification / protocol home \u2014 the standard for tool/context wiring.",
+      "category": "MCP",
+      "tier": "Critical omission",
+      "status": "missing",
+      "matched_id": null,
+      "match_note": null
+    },
+    {
+      "owner_repo": "modelcontextprotocol/go-sdk",
+      "url": "https://github.com/modelcontextprotocol/go-sdk",
+      "why": "Official Go MCP SDK (with Google collaboration).",
+      "category": "MCP",
+      "tier": "Strong candidate",
+      "status": "missing",
+      "matched_id": null,
+      "match_note": null
+    },
+    {
+      "owner_repo": "Lightning-AI/pytorch-lightning",
+      "url": "https://github.com/Lightning-AI/pytorch-lightning",
+      "why": "High-level PyTorch training framework used across research and production.",
+      "category": "AI infrastructure",
+      "tier": "Strong candidate",
+      "status": "missing",
+      "matched_id": null,
+      "match_note": null
+    },
+    {
+      "owner_repo": "huggingface/huggingface_hub",
+      "url": "https://github.com/huggingface/huggingface_hub",
+      "why": "Client for the Hub \u2014 download/upload/version models and datasets.",
+      "category": "model tooling",
+      "tier": "Critical omission",
+      "status": "missing",
+      "matched_id": null,
+      "match_note": null
+    },
+    {
+      "owner_repo": "huggingface/tokenizers",
+      "url": "https://github.com/huggingface/tokenizers",
+      "why": "Fast production tokenizers used across HF models.",
+      "category": "model tooling",
+      "tier": "Strong candidate",
+      "status": "missing",
+      "matched_id": null,
+      "match_note": null
+    },
+    {
+      "owner_repo": "openai/tiktoken",
+      "url": "https://github.com/openai/tiktoken",
+      "why": "Fast BPE tokenizer used as the practical token-counting standard.",
+      "category": "model tooling",
+      "tier": "Strong candidate",
+      "status": "missing",
+      "matched_id": null,
+      "match_note": null
+    },
+    {
+      "owner_repo": "instructor-ai/instructor",
+      "url": "https://github.com/instructor-ai/instructor",
+      "why": "Structured output extraction via Pydantic for many LLM providers.",
+      "category": "model tooling",
+      "tier": "Strong candidate",
+      "status": "missing",
+      "matched_id": null,
+      "match_note": null
+    },
+    {
+      "owner_repo": "dottxt-ai/outlines",
+      "url": "https://github.com/dottxt-ai/outlines",
+      "why": "Constrained/structured generation library (JSON/grammar guidance).",
+      "category": "model tooling",
+      "tier": "Strong candidate",
+      "status": "missing",
+      "matched_id": null,
+      "match_note": null
+    },
+    {
+      "owner_repo": "AutoGPTQ/AutoGPTQ",
+      "url": "https://github.com/AutoGPTQ/AutoGPTQ",
+      "why": "Widely used GPTQ quantization tooling for local/prod weight compression.",
+      "category": "model tooling",
+      "tier": "Strong candidate",
+      "status": "missing",
+      "matched_id": null,
+      "match_note": null
+    },
+    {
+      "owner_repo": "NVIDIA/TransformerEngine",
+      "url": "https://github.com/NVIDIA/TransformerEngine",
+      "why": "FP8 Transformer building blocks for Hopper/Blackwell training & inference.",
+      "category": "model tooling",
+      "tier": "Strong candidate",
+      "status": "missing",
+      "matched_id": null,
+      "match_note": null
+    },
+    {
+      "owner_repo": "flashinfer-ai/flashinfer",
+      "url": "https://github.com/flashinfer-ai/flashinfer",
+      "why": "High-performance attention/KV kernels used by modern serving engines.",
+      "category": "model tooling",
+      "tier": "Strong candidate",
+      "status": "missing",
+      "matched_id": null,
+      "match_note": null
+    },
+    {
+      "owner_repo": "vercel/ai",
+      "url": "https://github.com/vercel/ai",
+      "why": "Dominant TypeScript AI SDK for app developers (Vercel AI SDK).",
+      "category": "model tooling",
+      "tier": "Strong candidate",
+      "status": "missing",
+      "matched_id": null,
+      "match_note": null
+    },
+    {
+      "owner_repo": "punkpeye/awesome-mcp-servers",
+      "url": "https://github.com/punkpeye/awesome-mcp-servers",
+      "why": "Widely used curated index of community MCP servers.",
+      "category": "MCP",
+      "tier": "Optional/niche",
+      "status": "missing",
+      "matched_id": null,
+      "match_note": null
+    },
+    {
+      "owner_repo": "Open-Orca/OpenOrca",
+      "url": "https://github.com/Open-Orca/OpenOrca",
+      "why": "Influential open instruction-tuning dataset family.",
+      "category": "datasets",
+      "tier": "Optional/niche",
+      "status": "missing",
+      "matched_id": null,
+      "match_note": null
+    },
+    {
+      "owner_repo": "karpathy/llm.c",
+      "url": "https://github.com/karpathy/llm.c",
+      "why": "Pure-C LLM training/inference \u2014 influential systems-education artifact.",
+      "category": "research implementations",
+      "tier": "Optional/niche",
+      "status": "missing",
+      "matched_id": null,
+      "match_note": null
+    },
+    {
+      "owner_repo": "meta-llama/llama",
+      "url": "https://github.com/meta-llama/llama",
+      "why": "Official Llama model cards/code lineage anchoring the open-weights era.",
+      "category": "research implementations",
+      "tier": "Strong candidate",
+      "status": "missing",
+      "matched_id": null,
+      "match_note": null
+    },
+    {
+      "owner_repo": "deepseek-ai/DeepSeek-V3",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3",
+      "why": "Open MoE model release with major research + systems impact.",
+      "category": "research implementations",
+      "tier": "Strong candidate",
+      "status": "missing",
+      "matched_id": null,
+      "match_note": null
+    }
+  ],
+  "present_with_notes": [
+    {
+      "owner_repo": "vllm-project/vllm",
+      "url": "https://github.com/vllm-project/vllm",
+      "why": "Default high-throughput OpenAI-compatible LLM serving (PagedAttention, continuous batching).",
+      "category": "inference / serving",
+      "tier": "Critical omission",
+      "status": "present",
+      "matched_id": "vllm-project-vllm",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "sgl-project/sglang",
+      "url": "https://github.com/sgl-project/sglang",
+      "why": "Fast LLM/VLM serving with RadixAttention; strong for agents, structured output, and multimodal.",
+      "category": "inference / serving",
+      "tier": "Critical omission",
+      "status": "present",
+      "matched_id": "sgl-project-sglang",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "NVIDIA/TensorRT-LLM",
+      "url": "https://github.com/NVIDIA/TensorRT-LLM",
+      "why": "NVIDIA peak-throughput LLM/visual-gen inference stack for production GPU fleets.",
+      "category": "inference / serving",
+      "tier": "Critical omission",
+      "status": "present",
+      "matched_id": "nvidia-tensorrt-llm",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "triton-inference-server/server",
+      "url": "https://github.com/triton-inference-server/server",
+      "why": "Enterprise multi-model inference server; common front door for TensorRT-LLM and ensembles.",
+      "category": "inference / serving",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "triton-inference-server-server",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "ai-dynamo/dynamo",
+      "url": "https://github.com/ai-dynamo/dynamo",
+      "why": "Datacenter-scale distributed inference framework (disagg serving, KV-aware routing).",
+      "category": "inference / serving",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "ai-dynamo-dynamo",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "InternLM/lmdeploy",
+      "url": "https://github.com/InternLM/lmdeploy",
+      "why": "High-performance serving/quantization stack widely used with Asian open models.",
+      "category": "inference / serving",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "internlm-lmdeploy",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "why": "De-facto \u201cDocker for local LLMs\u201d: simplest model pull/run/API for developers.",
+      "category": "local AI",
+      "tier": "Critical omission",
+      "status": "present",
+      "matched_id": "ollama-ollama",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "ggml-org/llama.cpp",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "why": "Foundational C/C++ GGUF inference engine powering most local LLM tooling.",
+      "category": "local AI",
+      "tier": "Critical omission",
+      "status": "present",
+      "matched_id": "ggml-org-llama.cpp",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "open-webui/open-webui",
+      "url": "https://github.com/open-webui/open-webui",
+      "why": "Leading ChatGPT-like self-hosted UI for Ollama and OpenAI-compatible backends.",
+      "category": "local AI",
+      "tier": "Critical omission",
+      "status": "present",
+      "matched_id": "open-webui-open-webui",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "mudler/LocalAI",
+      "url": "https://github.com/mudler/LocalAI",
+      "why": "Drop-in OpenAI API replacement for fully local multimodal stacks.",
+      "category": "local AI",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "mudler-localai",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "ml-explore/mlx",
+      "url": "https://github.com/ml-explore/mlx",
+      "why": "Apple\u2019s array framework for fast ML on Apple Silicon.",
+      "category": "local AI",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "ml-explore-mlx",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "mlc-ai/mlc-llm",
+      "url": "https://github.com/mlc-ai/mlc-llm",
+      "why": "Universal compiler-backed local LLM runtime (mobile, browser, desktop).",
+      "category": "local AI",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "mlc-ai-mlc-llm",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "OpenHands/OpenHands",
+      "url": "https://github.com/OpenHands/OpenHands",
+      "why": "Leading open autonomous coding agent / agent canvas (ex-OpenDevin); SWE-bench leader.",
+      "category": "coding agents",
+      "tier": "Critical omission",
+      "status": "present",
+      "matched_id": "openhands-openhands",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "Aider-AI/aider",
+      "url": "https://github.com/Aider-AI/aider",
+      "why": "Canonical Git-native terminal pair-programmer; auto-commits every edit.",
+      "category": "coding agents",
+      "tier": "Critical omission",
+      "status": "present",
+      "matched_id": "aider-ai-aider",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "cline/cline",
+      "url": "https://github.com/cline/cline",
+      "why": "Dominant VS Code / JetBrains / CLI agentic coding extension (BYOK).",
+      "category": "coding agents",
+      "tier": "Critical omission",
+      "status": "present",
+      "matched_id": "cline-cline",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "continuedev/continue",
+      "url": "https://github.com/continuedev/continue",
+      "why": "Open IDE assistant across VS Code + JetBrains with agent/chat/edit/autocomplete.",
+      "category": "coding agents",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "continuedev-continue",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "anomalyco/opencode",
+      "url": "https://github.com/anomalyco/opencode",
+      "why": "Massively adopted provider-agnostic terminal coding agent (Claude Code alternative).",
+      "category": "coding agents",
+      "tier": "Critical omission",
+      "status": "present",
+      "matched_id": "anomalyco-opencode",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "openai/codex",
+      "url": "https://github.com/openai/codex",
+      "why": "Official OpenAI open-source Codex CLI with sandboxing.",
+      "category": "coding agents",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "openai-codex",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "block/goose",
+      "url": "https://github.com/block/goose",
+      "why": "Local-first, MCP-driven general/coding agent (Linux Foundation AAIF).",
+      "category": "coding agents",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "aaif-goose-goose",
+      "match_note": "equivalent_mapping"
+    },
+    {
+      "owner_repo": "SWE-agent/SWE-agent",
+      "url": "https://github.com/SWE-agent/SWE-agent",
+      "why": "Research-origin agent framework that defined modern SWE-bench agent loops.",
+      "category": "coding agents",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "swe-agent-swe-agent",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "langchain-ai/langgraph",
+      "url": "https://github.com/langchain-ai/langgraph",
+      "why": "Production standard for stateful, durable, graph-based agent orchestration.",
+      "category": "general agents",
+      "tier": "Critical omission",
+      "status": "present",
+      "matched_id": "langchain-ai-langgraph",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "langchain-ai/langchain",
+      "url": "https://github.com/langchain-ai/langchain",
+      "why": "Largest LLM app framework ecosystem; integrations backbone for agents/RAG.",
+      "category": "general agents",
+      "tier": "Critical omission",
+      "status": "present",
+      "matched_id": "langchain-ai-langchain",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "crewAIInc/crewAI",
+      "url": "https://github.com/crewAIInc/crewAI",
+      "why": "Most popular role-based multi-agent framework for fast crew-style workflows.",
+      "category": "general agents",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "crewaiinc-crewai",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "openai/openai-agents-python",
+      "url": "https://github.com/openai/openai-agents-python",
+      "why": "Official OpenAI Agents SDK for tool-using multi-agent apps.",
+      "category": "general agents",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "openai-openai-agents-python",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "pydantic/pydantic-ai",
+      "url": "https://github.com/pydantic/pydantic-ai",
+      "why": "Type-safe Python agent framework with strong schema/validation ergonomics.",
+      "category": "general agents",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "pydantic-pydantic-ai",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "agno-agi/agno",
+      "url": "https://github.com/agno-agi/agno",
+      "why": "Fast multi-agent framework focused on self-hosted runtimes.",
+      "category": "general agents",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "agno-agi-agno",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "run-llama/llama_index",
+      "url": "https://github.com/run-llama/llama_index",
+      "why": "Purpose-built data/RAG framework (indexing, retrieval, workflows).",
+      "category": "RAG",
+      "tier": "Critical omission",
+      "status": "present",
+      "matched_id": "run-llama-llama-index",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "deepset-ai/haystack",
+      "url": "https://github.com/deepset-ai/haystack",
+      "why": "Mature production NLP/RAG pipeline framework.",
+      "category": "RAG",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "deepset-ai-haystack",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "explodinggradients/ragas",
+      "url": "https://github.com/explodinggradients/ragas",
+      "why": "Standard open toolkit for evaluating RAG quality.",
+      "category": "RAG",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "vibrantlabsai-ragas",
+      "match_note": "equivalent_mapping"
+    },
+    {
+      "owner_repo": "facebookresearch/faiss",
+      "url": "https://github.com/facebookresearch/faiss",
+      "why": "Foundational similarity-search library used under countless vector systems.",
+      "category": "vector/search",
+      "tier": "Critical omission",
+      "status": "present",
+      "matched_id": "facebookresearch-faiss",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "qdrant/qdrant",
+      "url": "https://github.com/qdrant/qdrant",
+      "why": "Top self-hosted production vector DB (Rust, filtering, low latency).",
+      "category": "vector/search",
+      "tier": "Critical omission",
+      "status": "present",
+      "matched_id": "qdrant-qdrant",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "milvus-io/milvus",
+      "url": "https://github.com/milvus-io/milvus",
+      "why": "Cloud-native vector database for billion-scale deployments.",
+      "category": "vector/search",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "milvus-io-milvus",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "weaviate/weaviate",
+      "url": "https://github.com/weaviate/weaviate",
+      "why": "Hybrid (vector + BM25) search DB with modular vectorizers.",
+      "category": "vector/search",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "weaviate-weaviate",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "chroma-core/chroma",
+      "url": "https://github.com/chroma-core/chroma",
+      "why": "Default embeddable vector store for local/prototype RAG.",
+      "category": "vector/search",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "chroma-core-chroma",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "pgvector/pgvector",
+      "url": "https://github.com/pgvector/pgvector",
+      "why": "Postgres extension bringing vectors into mainstream SQL stacks.",
+      "category": "vector/search",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "pgvector-pgvector",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "lancedb/lancedb",
+      "url": "https://github.com/lancedb/lancedb",
+      "why": "Developer-friendly embedded/cloud vector DB on Lance columnar format.",
+      "category": "vector/search",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "lancedb-lancedb",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "Comfy-Org/ComfyUI",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "why": "De-facto node graph for open image/video/audio generation workflows.",
+      "category": "image",
+      "tier": "Critical omission",
+      "status": "present",
+      "matched_id": "comfy-org-comfyui",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "huggingface/diffusers",
+      "url": "https://github.com/huggingface/diffusers",
+      "why": "Standard library for diffusion pipelines (SD, Flux, video, audio).",
+      "category": "image",
+      "tier": "Critical omission",
+      "status": "present",
+      "matched_id": "huggingface-diffusers",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "black-forest-labs/flux",
+      "url": "https://github.com/black-forest-labs/flux",
+      "why": "Official inference code for FLUX open image models (current SOTA open T2I line).",
+      "category": "image",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "black-forest-labs-flux",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "AUTOMATIC1111/stable-diffusion-webui",
+      "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "why": "Historic mass-market Stable Diffusion WebUI; still widely used.",
+      "category": "image",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "automatic1111-stable-diffusion-webui",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "Stability-AI/generative-models",
+      "url": "https://github.com/Stability-AI/generative-models",
+      "why": "Official Stability generative model training/inference code (SD3 family lineage).",
+      "category": "image",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "stability-ai-generative-models",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "Wan-Video/Wan2.2",
+      "url": "https://github.com/Wan-Video/Wan2.2",
+      "why": "Leading Apache-licensed open video foundation models (MoE generation stack).",
+      "category": "video",
+      "tier": "Critical omission",
+      "status": "present",
+      "matched_id": "wan-video-wan2-1",
+      "match_note": "version_gap_have_wan2_1"
+    },
+    {
+      "owner_repo": "Lightricks/LTX-Video",
+      "url": "https://github.com/Lightricks/LTX-Video",
+      "why": "Fast open DiT video (and AV) generation; deep ComfyUI ecosystem integration.",
+      "category": "video",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "lightricks-ltx-video",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "Tencent-Hunyuan/HunyuanVideo",
+      "url": "https://github.com/Tencent-Hunyuan/HunyuanVideo",
+      "why": "Major open Hunyuan video generation release from Tencent.",
+      "category": "video",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "tencent-hunyuan-hunyuanvideo",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "openai/whisper",
+      "url": "https://github.com/openai/whisper",
+      "why": "Foundational open multilingual ASR model (ecosystem root).",
+      "category": "audio / speech",
+      "tier": "Critical omission",
+      "status": "present",
+      "matched_id": "openai-whisper",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "SYSTRAN/faster-whisper",
+      "url": "https://github.com/SYSTRAN/faster-whisper",
+      "why": "Production default Whisper reimplementation (CTranslate2; much faster).",
+      "category": "audio / speech",
+      "tier": "Critical omission",
+      "status": "present",
+      "matched_id": "systran-faster-whisper",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "ggml-org/whisper.cpp",
+      "url": "https://github.com/ggml-org/whisper.cpp",
+      "why": "Portable C/C++ Whisper for on-device / Apple Silicon / embedded ASR.",
+      "category": "audio / speech",
+      "tier": "Critical omission",
+      "status": "present",
+      "matched_id": "ggml-org-whisper-cpp",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "m-bain/whisperX",
+      "url": "https://github.com/m-bain/whisperX",
+      "why": "Whisper + forced alignment + diarization for subtitle-grade transcripts.",
+      "category": "audio / speech",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "m-bain-whisperx",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "coqui-ai/TTS",
+      "url": "https://github.com/coqui-ai/TTS",
+      "why": "Major open text-to-speech toolkit (multi-speaker, cloning, training).",
+      "category": "audio / speech",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "coqui-ai-tts",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "haotian-liu/LLaVA",
+      "url": "https://github.com/haotian-liu/LLaVA",
+      "why": "Seminal open vision-language assistant architecture and training recipe.",
+      "category": "multimodal",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "haotian-liu-llava",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "OpenGVLab/InternVL",
+      "url": "https://github.com/OpenGVLab/InternVL",
+      "why": "Leading open multimodal / vision-language model family and tooling.",
+      "category": "multimodal",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "opengvlab-internvl",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "facebookresearch/sam2",
+      "url": "https://github.com/facebookresearch/sam2",
+      "why": "Segment Anything 2 \u2014 foundational video/image segmentation foundation model.",
+      "category": "multimodal",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "facebookresearch-sam2",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "facebookresearch/segment-anything",
+      "url": "https://github.com/facebookresearch/segment-anything",
+      "why": "Original SAM; still a core vision primitive for multimodal apps.",
+      "category": "multimodal",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "facebookresearch-segment-anything",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "QwenLM/Qwen3-VL",
+      "url": "https://github.com/QwenLM/Qwen3-VL",
+      "why": "Strong open Qwen vision-language model release line (widely deployed).",
+      "category": "multimodal",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "qwenlm-qwen3-vl",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "huggingface/transformers",
+      "url": "https://github.com/huggingface/transformers",
+      "why": "Universal model hub library for training and inference across modalities.",
+      "category": "training / fine-tuning",
+      "tier": "Critical omission",
+      "status": "present",
+      "matched_id": "huggingface-transformers",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "huggingface/trl",
+      "url": "https://github.com/huggingface/trl",
+      "why": "Canonical RLHF/DPO/GRPO trainer APIs others wrap.",
+      "category": "training / fine-tuning",
+      "tier": "Critical omission",
+      "status": "present",
+      "matched_id": "huggingface-trl",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "huggingface/peft",
+      "url": "https://github.com/huggingface/peft",
+      "why": "Standard parameter-efficient fine-tuning (LoRA/QLoRA/adapters).",
+      "category": "training / fine-tuning",
+      "tier": "Critical omission",
+      "status": "present",
+      "matched_id": "huggingface-peft",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "huggingface/accelerate",
+      "url": "https://github.com/huggingface/accelerate",
+      "why": "Distributed training launcher abstraction used across the HF stack.",
+      "category": "training / fine-tuning",
+      "tier": "Critical omission",
+      "status": "present",
+      "matched_id": "huggingface-accelerate",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "microsoft/DeepSpeed",
+      "url": "https://github.com/microsoft/DeepSpeed",
+      "why": "ZeRO / large-scale training & inference optimization engine.",
+      "category": "training / fine-tuning",
+      "tier": "Critical omission",
+      "status": "present",
+      "matched_id": "deepspeedai-deepspeed",
+      "match_note": "equivalent_mapping"
+    },
+    {
+      "owner_repo": "axolotl-ai-cloud/axolotl",
+      "url": "https://github.com/axolotl-ai-cloud/axolotl",
+      "why": "YAML-driven post-training framework (LoRA\u2192RL) with strong multi-GPU matrix.",
+      "category": "training / fine-tuning",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "axolotl-ai-cloud-axolotl",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "unslothai/unsloth",
+      "url": "https://github.com/unslothai/unsloth",
+      "why": "Fastest popular single-GPU LoRA/QLoRA path (kernel-optimized).",
+      "category": "training / fine-tuning",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "unslothai-unsloth",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "hiyouga/LLaMA-Factory",
+      "url": "https://github.com/hiyouga/LLaMA-Factory",
+      "why": "No/low-code fine-tuning UI covering 100+ models and many recipes.",
+      "category": "training / fine-tuning",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "hiyouga-llamafactory",
+      "match_note": "equivalent_mapping"
+    },
+    {
+      "owner_repo": "NVIDIA/Megatron-LM",
+      "url": "https://github.com/NVIDIA/Megatron-LM",
+      "why": "Industry-standard large-model parallel training framework.",
+      "category": "training / fine-tuning",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "nvidia-megatron-lm",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "meta-pytorch/torchtune",
+      "url": "https://github.com/meta-pytorch/torchtune",
+      "why": "Official PyTorch-native LLM fine-tuning library.",
+      "category": "training / fine-tuning",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "meta-pytorch-torchtune",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "NVIDIA/NeMo",
+      "url": "https://github.com/NVIDIA/NeMo",
+      "why": "NVIDIA end-to-end framework for speech/LLM training and alignment.",
+      "category": "training / fine-tuning",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "nvidia-nemo-speech",
+      "match_note": "partial_have_nemo_speech_not_full_nemo"
+    },
+    {
+      "owner_repo": "EleutherAI/lm-evaluation-harness",
+      "url": "https://github.com/EleutherAI/lm-evaluation-harness",
+      "why": "Standard open LLM academic eval harness (Open LLM Leaderboard backend).",
+      "category": "evaluation",
+      "tier": "Critical omission",
+      "status": "present",
+      "matched_id": "eleutherai-lm-evaluation-harness",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "promptfoo/promptfoo",
+      "url": "https://github.com/promptfoo/promptfoo",
+      "why": "Developer-centric LLM eval/red-team CLI used in CI.",
+      "category": "evaluation",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "promptfoo-promptfoo",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "confident-ai/deepeval",
+      "url": "https://github.com/confident-ai/deepeval",
+      "why": "Popular unit-test style LLM evaluation framework.",
+      "category": "evaluation",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "confident-ai-deepeval",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "stanford-crfm/helm",
+      "url": "https://github.com/stanford-crfm/helm",
+      "why": "Holistic Evaluation of Language Models (CRFM).",
+      "category": "evaluation",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "stanford-crfm-helm",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "langfuse/langfuse",
+      "url": "https://github.com/langfuse/langfuse",
+      "why": "Leading open-source LLM observability (traces, prompts, evals; self-hostable).",
+      "category": "observability",
+      "tier": "Critical omission",
+      "status": "present",
+      "matched_id": "langfuse-langfuse",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "Arize-ai/phoenix",
+      "url": "https://github.com/Arize-ai/phoenix",
+      "why": "OTel-native open tracing + evals for LLM/RAG apps.",
+      "category": "observability",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "arize-ai-phoenix",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "Helicone/helicone",
+      "url": "https://github.com/Helicone/helicone",
+      "why": "Gateway-style LLM logging/caching/cost observability (historically major).",
+      "category": "observability",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "helicone-helicone",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "traceloop/openllmetry",
+      "url": "https://github.com/traceloop/openllmetry",
+      "why": "OpenTelemetry instrumentation standards/SDKs for LLM apps.",
+      "category": "observability",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "traceloop-openllmetry",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "modelcontextprotocol/servers",
+      "url": "https://github.com/modelcontextprotocol/servers",
+      "why": "Official reference MCP servers and ecosystem pointers.",
+      "category": "MCP",
+      "tier": "Critical omission",
+      "status": "present",
+      "matched_id": "modelcontextprotocol-servers",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "modelcontextprotocol/python-sdk",
+      "url": "https://github.com/modelcontextprotocol/python-sdk",
+      "why": "Official Python MCP SDK (servers + clients).",
+      "category": "MCP",
+      "tier": "Critical omission",
+      "status": "present",
+      "matched_id": "modelcontextprotocol-python-sdk",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "modelcontextprotocol/typescript-sdk",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk",
+      "why": "Official TypeScript MCP SDK (Node/Bun/Deno).",
+      "category": "MCP",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "modelcontextprotocol-typescript-sdk",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "huggingface/datasets",
+      "url": "https://github.com/huggingface/datasets",
+      "why": "Standard dataset loading/processing library for ML/LLM work.",
+      "category": "datasets",
+      "tier": "Critical omission",
+      "status": "present",
+      "matched_id": "huggingface-datasets",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "allenai/dolma",
+      "url": "https://github.com/allenai/dolma",
+      "why": "Major open pretraining corpus from Ai2 (transparent data pipeline).",
+      "category": "datasets",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "allenai-dolma",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "ray-project/ray",
+      "url": "https://github.com/ray-project/ray",
+      "why": "Distributed compute backbone for training, serving, and agent workloads.",
+      "category": "AI infrastructure",
+      "tier": "Critical omission",
+      "status": "present",
+      "matched_id": "ray-project-ray",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "skypilot-org/skypilot",
+      "url": "https://github.com/skypilot-org/skypilot",
+      "why": "Multi-cloud GPU job launcher widely used for LLM experiments/training.",
+      "category": "AI infrastructure",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "skypilot-org-skypilot",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "kserve/kserve",
+      "url": "https://github.com/kserve/kserve",
+      "why": "Kubernetes-native model serving standard for cloud ML platforms.",
+      "category": "AI infrastructure",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "kserve-kserve",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "kubeflow/kubeflow",
+      "url": "https://github.com/kubeflow/kubeflow",
+      "why": "End-to-end ML platform on Kubernetes (pipelines, training, serving).",
+      "category": "AI infrastructure",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "kubeflow-kubeflow",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "Dao-AILab/flash-attention",
+      "url": "https://github.com/Dao-AILab/flash-attention",
+      "why": "FlashAttention kernels \u2014 foundational speed/memory win for Transformers.",
+      "category": "model tooling",
+      "tier": "Critical omission",
+      "status": "present",
+      "matched_id": "dao-ailab-flash-attention",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "bitsandbytes-foundation/bitsandbytes",
+      "url": "https://github.com/bitsandbytes-foundation/bitsandbytes",
+      "why": "8-bit/4-bit optimizers & quantization enabling consumer-GPU fine-tuning.",
+      "category": "model tooling",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "bitsandbytes-foundation-bitsandbytes",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "mozilla-ai/llamafile",
+      "url": "https://github.com/mozilla-ai/llamafile",
+      "why": "Single-file portable LLM executables combining llama.cpp + Cosmopolitan libc.",
+      "category": "local AI",
+      "tier": "Optional/niche",
+      "status": "present",
+      "matched_id": "mozilla-ai-llamafile",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "janhq/jan",
+      "url": "https://github.com/janhq/jan",
+      "why": "Offline-first desktop local AI app with growing MCP support.",
+      "category": "local AI",
+      "tier": "Optional/niche",
+      "status": "present",
+      "matched_id": "janhq-jan",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "tabbyml/tabby",
+      "url": "https://github.com/tabbyml/tabby",
+      "why": "Self-hosted open coding assistant / autocomplete server.",
+      "category": "coding agents",
+      "tier": "Optional/niche",
+      "status": "present",
+      "matched_id": "tabbyml-tabby",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "google/adk-python",
+      "url": "https://github.com/google/adk-python",
+      "why": "Google Agent Development Kit for building agents on GCP-oriented stacks.",
+      "category": "general agents",
+      "tier": "Optional/niche",
+      "status": "present",
+      "matched_id": "google-adk-python",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "rhasspy/piper",
+      "url": "https://github.com/rhasspy/piper",
+      "why": "Fast local neural TTS popular for edge and home-assistant use.",
+      "category": "audio / speech",
+      "tier": "Optional/niche",
+      "status": "present",
+      "matched_id": "rhasspy-piper",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "huggingface/text-generation-inference",
+      "url": "https://github.com/huggingface/text-generation-inference",
+      "why": "Historically important HF production LLM server (now maintenance-mode).",
+      "category": "inference / serving",
+      "tier": "Optional/niche",
+      "status": "present",
+      "matched_id": "huggingface-text-generation-inference",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "karpathy/nanoGPT",
+      "url": "https://github.com/karpathy/nanoGPT",
+      "why": "Minimal, educational GPT training codebase; research/onboarding staple.",
+      "category": "research implementations",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "karpathy-nanogpt",
+      "match_note": "exact"
+    },
+    {
+      "owner_repo": "EleutherAI/gpt-neox",
+      "url": "https://github.com/EleutherAI/gpt-neox",
+      "why": "Large-scale open training codebase that powered early open LLMs.",
+      "category": "research implementations",
+      "tier": "Strong candidate",
+      "status": "present",
+      "matched_id": "eleutherai-gpt-neox",
+      "match_note": "exact"
+    }
+  ]
+}

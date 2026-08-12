@@ -1,0 +1,21 @@
+{
+  "id": "suno-ai-bark",
+  "fetchedAt": "2026-08-12T17:39:21.301Z",
+  "stars": 39236,
+  "forks": 4672,
+  "watchers": 334,
+  "openIssues": 268,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "description": "🔊 Text-Prompted Generative Audio Model",
+  "homepage": null,
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2024-08-19T07:45:36Z",
+  "updatedAt": "2026-08-12T10:42:43Z",
+  "createdAt": "2023-04-07T19:34:48Z",
+  "latestRelease": null,
+  "latestReleaseAt": null,
+  "defaultBranch": "main"
+}

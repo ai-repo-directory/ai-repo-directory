@@ -1,0 +1,2103 @@
+{
+  "fetchedAt": "2026-08-12T17:49:34Z",
+  "total": 233,
+  "ok": 232,
+  "fail": 1,
+  "results": {
+    "google-adk-python": {
+      "id": "google-adk-python",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/google/adk-python/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 4538,
+      "homepage": "https://google.github.io/adk-docs/"
+    },
+    "huggingface-smolagents": {
+      "id": "huggingface-smolagents",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/huggingface/smolagents/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 14137,
+      "homepage": "https://huggingface.co/docs/smolagents"
+    },
+    "langchain-ai-langgraph": {
+      "id": "langchain-ai-langgraph",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/langchain-ai/langgraph/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 6395,
+      "homepage": "https://docs.langchain.com/oss/python/langgraph/"
+    },
+    "ag2ai-ag2": {
+      "id": "ag2ai-ag2",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/ag2ai/ag2/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 20288,
+      "homepage": "https://ag2.ai"
+    },
+    "agno-agi-agno": {
+      "id": "agno-agi-agno",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/agno-agi/agno/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 4960,
+      "homepage": "https://docs.agno.com"
+    },
+    "langgenius-dify": {
+      "id": "langgenius-dify",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/langgenius/dify/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 14606,
+      "homepage": "https://dify.ai"
+    },
+    "crewaiinc-crewai": {
+      "id": "crewaiinc-crewai",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/crewAIInc/crewAI/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 34018,
+      "homepage": "https://crewai.com"
+    },
+    "camel-ai-camel": {
+      "id": "camel-ai-camel",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/camel-ai/camel/master/README.md",
+      "branch": "master",
+      "path": "README.md",
+      "bytes": 34695,
+      "homepage": "https://docs.camel-ai.org/"
+    },
+    "microsoft-autogen": {
+      "id": "microsoft-autogen",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/microsoft/autogen/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 20790,
+      "homepage": "https://microsoft.github.io/autogen/"
+    },
+    "microsoft-semantic-kernel": {
+      "id": "microsoft-semantic-kernel",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/microsoft/semantic-kernel/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 14460,
+      "homepage": "https://aka.ms/semantic-kernel"
+    },
+    "openai-swarm": {
+      "id": "openai-swarm",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/openai/swarm/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 16860,
+      "homepage": ""
+    },
+    "openai-openai-agents-python": {
+      "id": "openai-openai-agents-python",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/openai/openai-agents-python/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 8456,
+      "homepage": "https://openai.github.io/openai-agents-python/"
+    },
+    "significant-gravitas-autogpt": {
+      "id": "significant-gravitas-autogpt",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/Significant-Gravitas/AutoGPT/master/README.md",
+      "branch": "master",
+      "path": "README.md",
+      "bytes": 10768,
+      "homepage": "https://agpt.co"
+    },
+    "pydantic-pydantic-ai": {
+      "id": "pydantic-pydantic-ai",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/pydantic/pydantic-ai/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 13740,
+      "homepage": "https://pydantic.dev/pydantic-ai"
+    },
+    "coqui-ai-tts": {
+      "id": "coqui-ai-tts",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/coqui-ai/TTS/dev/README.md",
+      "branch": "dev",
+      "path": "README.md",
+      "bytes": 17429,
+      "homepage": "http://coqui.ai"
+    },
+    "facebookresearch-audiocraft": {
+      "id": "facebookresearch-audiocraft",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/facebookresearch/audiocraft/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 4834,
+      "homepage": ""
+    },
+    "facebookresearch-demucs": {
+      "id": "facebookresearch-demucs",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/facebookresearch/demucs/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 18462,
+      "homepage": ""
+    },
+    "facebookresearch-seamless-communication": {
+      "id": "facebookresearch-seamless-communication",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/facebookresearch/seamless_communication/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 23402,
+      "homepage": ""
+    },
+    "fishaudio-fish-speech": {
+      "id": "fishaudio-fish-speech",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/fishaudio/fish-speech/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 12065,
+      "homepage": "https://speech.fish.audio"
+    },
+    "ggml-org-whisper-cpp": {
+      "id": "ggml-org-whisper-cpp",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/ggml-org/whisper.cpp/master/README.md",
+      "branch": "master",
+      "path": "README.md",
+      "bytes": 36779,
+      "homepage": ""
+    },
+    "m-bain-whisperx": {
+      "id": "m-bain-whisperx",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/m-bain/whisperX/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 15550,
+      "homepage": ""
+    },
+    "myshell-ai-openvoice": {
+      "id": "myshell-ai-openvoice",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/myshell-ai/OpenVoice/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 3120,
+      "homepage": "https://research.myshell.ai/open-voice"
+    },
+    "openai-whisper": {
+      "id": "openai-whisper",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/openai/whisper/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 8246,
+      "homepage": ""
+    },
+    "plachtaa-vall-e-x": {
+      "id": "plachtaa-vall-e-x",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/Plachtaa/VALL-E-X/master/README.md",
+      "branch": "master",
+      "path": "README.md",
+      "bytes": 14521,
+      "homepage": ""
+    },
+    "rhasspy-piper": {
+      "id": "rhasspy-piper",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/rhasspy/piper/master/README.md",
+      "branch": "master",
+      "path": "README.md",
+      "bytes": 63,
+      "homepage": "https://rhasspy.github.io/piper-samples/"
+    },
+    "rvc-project-retrieval-based-voice-conversion-webui": {
+      "id": "rvc-project-retrieval-based-voice-conversion-webui",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 9344,
+      "homepage": ""
+    },
+    "swivid-f5-tts": {
+      "id": "swivid-f5-tts",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/SWivid/F5-TTS/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 10449,
+      "homepage": "https://arxiv.org/abs/2410.06885"
+    },
+    "systran-faster-whisper": {
+      "id": "systran-faster-whisper",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/SYSTRAN/faster-whisper/master/README.md",
+      "branch": "master",
+      "path": "README.md",
+      "bytes": 15246,
+      "homepage": ""
+    },
+    "suno-ai-bark": {
+      "id": "suno-ai-bark",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/suno-ai/bark/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 15207,
+      "homepage": ""
+    },
+    "aaif-goose-goose": {
+      "id": "aaif-goose-goose",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/aaif-goose/goose/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 3449,
+      "homepage": "https://goose-docs.ai/"
+    },
+    "yl4579-styletts2": {
+      "id": "yl4579-styletts2",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/yl4579/StyleTTS2/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 14167,
+      "homepage": ""
+    },
+    "abanteai-archive-old-cli-mentat": {
+      "id": "abanteai-archive-old-cli-mentat",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/AbanteAI/archive-old-cli-mentat/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 495,
+      "homepage": "https://mentat.ai"
+    },
+    "aider-ai-aider": {
+      "id": "aider-ai-aider",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/Aider-AI/aider/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 12406,
+      "homepage": "https://aider.chat/"
+    },
+    "anomalyco-opencode": {
+      "id": "anomalyco-opencode",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/anomalyco/opencode/dev/README.md",
+      "branch": "dev",
+      "path": "README.md",
+      "bytes": 5402,
+      "homepage": "https://opencode.ai"
+    },
+    "antonosika-gpt-engineer": {
+      "id": "antonosika-gpt-engineer",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/AntonOsika/gpt-engineer/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 7857,
+      "homepage": ""
+    },
+    "continuedev-continue": {
+      "id": "continuedev-continue",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/continuedev/continue/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 2791,
+      "homepage": "https://continue.dev"
+    },
+    "cline-cline": {
+      "id": "cline-cline",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/cline/cline/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 9105,
+      "homepage": "https://cline.bot"
+    },
+    "google-gemini-gemini-cli": {
+      "id": "google-gemini-gemini-cli",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/google-gemini/gemini-cli/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 13489,
+      "homepage": "https://geminicli.com"
+    },
+    "openai-codex": {
+      "id": "openai-codex",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/openai/codex/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 3334,
+      "homepage": ""
+    },
+    "openhands-openhands": {
+      "id": "openhands-openhands",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 8928,
+      "homepage": "https://openhands.dev"
+    },
+    "openinterpreter-openinterpreter": {
+      "id": "openinterpreter-openinterpreter",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/openinterpreter/openinterpreter/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 7822,
+      "homepage": "http://openinterpreter.com/"
+    },
+    "roocodeinc-roo-code": {
+      "id": "roocodeinc-roo-code",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/RooCodeInc/Roo-Code/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 3387,
+      "homepage": "https://roocode.com"
+    },
+    "qwenlm-qwen-code": {
+      "id": "qwenlm-qwen-code",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/QwenLM/qwen-code/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 9841,
+      "homepage": "https://qwenlm.github.io/qwen-code-docs/en/users/overview"
+    },
+    "swe-agent-swe-agent": {
+      "id": "swe-agent-swe-agent",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/SWE-agent/SWE-agent/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 8158,
+      "homepage": "https://swe-agent.com"
+    },
+    "sourcegraph-cody-public-snapshot": {
+      "id": "sourcegraph-cody-public-snapshot",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/sourcegraph/cody-public-snapshot/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 5808,
+      "homepage": "https://cody.dev"
+    },
+    "tabbyml-tabby": {
+      "id": "tabbyml-tabby",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/TabbyML/tabby/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 9981,
+      "homepage": "https://tabbyml.com"
+    },
+    "voideditor-void": {
+      "id": "voideditor-void",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/voideditor/void/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 2980,
+      "homepage": "https://voideditor.com"
+    },
+    "allenai-dolma": {
+      "id": "allenai-dolma",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/allenai/dolma/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 3417,
+      "homepage": "https://allenai.github.io/dolma/"
+    },
+    "argilla-io-distilabel": {
+      "id": "argilla-io-distilabel",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/argilla-io/distilabel/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 10601,
+      "homepage": "https://distilabel.argilla.io"
+    },
+    "argilla-io-argilla": {
+      "id": "argilla-io-argilla",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/argilla-io/argilla/develop/README.md",
+      "branch": "develop",
+      "path": "README.md",
+      "bytes": 9279,
+      "homepage": "https://argilla-io.github.io/argilla/latest/"
+    },
+    "smol-ai-developer": {
+      "id": "smol-ai-developer",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/smol-ai/developer/main/readme.md",
+      "branch": "main",
+      "path": "readme.md",
+      "bytes": 14150,
+      "homepage": "https://twitter.com/SmolModels"
+    },
+    "datadreamer-dev-datadreamer": {
+      "id": "datadreamer-dev-datadreamer",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/datadreamer-dev/DataDreamer/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 8492,
+      "homepage": "https://datadreamer.dev"
+    },
+    "eleutherai-the-pile": {
+      "id": "eleutherai-the-pile",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/EleutherAI/the-pile/master/README.md",
+      "branch": "master",
+      "path": "README.md",
+      "bytes": 6980,
+      "homepage": ""
+    },
+    "huggingface-datasets": {
+      "id": "huggingface-datasets",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/huggingface/datasets/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 14461,
+      "homepage": "https://huggingface.co/docs/datasets"
+    },
+    "huggingface-datatrove": {
+      "id": "huggingface-datatrove",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/huggingface/datatrove/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 39633,
+      "homepage": ""
+    },
+    "huggingface-fineweb-2": {
+      "id": "huggingface-fineweb-2",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/huggingface/fineweb-2/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 7076,
+      "homepage": ""
+    },
+    "instructlab-instructlab": {
+      "id": "instructlab-instructlab",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/instructlab/instructlab/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 2511,
+      "homepage": "https://instructlab.ai"
+    },
+    "meta-llama-synthetic-data-kit": {
+      "id": "meta-llama-synthetic-data-kit",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/meta-llama/synthetic-data-kit/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 13887,
+      "homepage": "https://pypi.org/project/synthetic-data-kit/"
+    },
+    "nvidia-nemo-curator": {
+      "id": "nvidia-nemo-curator",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/NVIDIA-NeMo/Curator/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 13805,
+      "homepage": ""
+    },
+    "mosaicml-streaming": {
+      "id": "mosaicml-streaming",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/mosaicml/streaming/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 16003,
+      "homepage": "https://streaming.docs.mosaicml.com"
+    },
+    "sdv-dev-sdv": {
+      "id": "sdv-dev-sdv",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/sdv-dev/SDV/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 9987,
+      "homepage": "https://docs.sdv.dev/sdv"
+    },
+    "togethercomputer-redpajama-data": {
+      "id": "togethercomputer-redpajama-data",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/togethercomputer/RedPajama-Data/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 37595,
+      "homepage": ""
+    },
+    "braintrustdata-autoevals": {
+      "id": "braintrustdata-autoevals",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/braintrustdata/autoevals/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 15918,
+      "homepage": ""
+    },
+    "arize-ai-phoenix": {
+      "id": "arize-ai-phoenix",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/Arize-ai/phoenix/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 54869,
+      "homepage": "https://arize.com/docs/phoenix"
+    },
+    "confident-ai-deepeval": {
+      "id": "confident-ai-deepeval",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/confident-ai/deepeval/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 28796,
+      "homepage": "https://deepeval.com"
+    },
+    "helicone-helicone": {
+      "id": "helicone-helicone",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/Helicone/helicone/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 15453,
+      "homepage": "https://www.helicone.ai"
+    },
+    "eleutherai-lm-evaluation-harness": {
+      "id": "eleutherai-lm-evaluation-harness",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 53546,
+      "homepage": "https://www.eleuther.ai"
+    },
+    "giskard-ai-giskard-oss": {
+      "id": "giskard-ai-giskard-oss",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/Giskard-AI/giskard-oss/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 11488,
+      "homepage": "https://docs.giskard.ai"
+    },
+    "langfuse-langfuse": {
+      "id": "langfuse-langfuse",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/langfuse/langfuse/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 52651,
+      "homepage": "https://langfuse.com"
+    },
+    "openai-evals": {
+      "id": "openai-evals",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/openai/evals/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 6463,
+      "homepage": ""
+    },
+    "open-telemetry-semantic-conventions": {
+      "id": "open-telemetry-semantic-conventions",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/open-telemetry/semantic-conventions/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 3514,
+      "homepage": ""
+    },
+    "promptfoo-promptfoo": {
+      "id": "promptfoo-promptfoo",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/promptfoo/promptfoo/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 4844,
+      "homepage": "https://promptfoo.dev"
+    },
+    "truera-trulens": {
+      "id": "truera-trulens",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/truera/trulens/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 8607,
+      "homepage": "https://www.trulens.org/"
+    },
+    "stanford-crfm-helm": {
+      "id": "stanford-crfm-helm",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/stanford-crfm/helm/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 7194,
+      "homepage": "https://crfm.stanford.edu/helm"
+    },
+    "vibrantlabsai-ragas": {
+      "id": "vibrantlabsai-ragas",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/vibrantlabsai/ragas/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 6996,
+      "homepage": "https://docs.ragas.io"
+    },
+    "traceloop-openllmetry": {
+      "id": "traceloop-openllmetry",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/traceloop/openllmetry/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 10770,
+      "homepage": "https://www.traceloop.com/openllmetry"
+    },
+    "ukgovernmentbeis-inspect-ai": {
+      "id": "ukgovernmentbeis-inspect-ai",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/UKGovernmentBEIS/inspect_ai/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 3099,
+      "homepage": "https://inspect.aisi.org.uk/"
+    },
+    "acly-krita-ai-diffusion": {
+      "id": "acly-krita-ai-diffusion",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/Acly/krita-ai-diffusion/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 7145,
+      "homepage": "https://www.interstice.cloud"
+    },
+    "wandb-wandb": {
+      "id": "wandb-wandb",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/wandb/wandb/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 6475,
+      "homepage": "https://wandb.ai"
+    },
+    "automatic1111-stable-diffusion-webui": {
+      "id": "automatic1111-stable-diffusion-webui",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/README.md",
+      "branch": "master",
+      "path": "README.md",
+      "bytes": 12924,
+      "homepage": ""
+    },
+    "comfy-org-comfyui": {
+      "id": "comfy-org-comfyui",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/Comfy-Org/ComfyUI/master/README.md",
+      "branch": "master",
+      "path": "README.md",
+      "bytes": 27797,
+      "homepage": "https://www.comfy.org/"
+    },
+    "black-forest-labs-flux": {
+      "id": "black-forest-labs-flux",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/black-forest-labs/flux/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 6722,
+      "homepage": ""
+    },
+    "facebookresearch-sam2": {
+      "id": "facebookresearch-sam2",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/facebookresearch/sam2/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 16249,
+      "homepage": ""
+    },
+    "facebookresearch-segment-anything": {
+      "id": "facebookresearch-segment-anything",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/facebookresearch/segment-anything/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 9621,
+      "homepage": ""
+    },
+    "huggingface-diffusers": {
+      "id": "huggingface-diffusers",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/huggingface/diffusers/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 14708,
+      "homepage": "https://huggingface.co/docs/diffusers"
+    },
+    "instantx-research-instantid": {
+      "id": "instantx-research-instantid",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/instantX-research/InstantID/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 13590,
+      "homepage": "https://instantid.github.io/"
+    },
+    "idea-research-groundingdino": {
+      "id": "idea-research-groundingdino",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/IDEA-Research/GroundingDINO/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 19492,
+      "homepage": "https://arxiv.org/abs/2303.05499"
+    },
+    "invoke-ai-invokeai": {
+      "id": "invoke-ai-invokeai",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/invoke-ai/InvokeAI/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 7967,
+      "homepage": "https://invoke-ai.github.io/InvokeAI/"
+    },
+    "lllyasviel-stable-diffusion-webui-forge": {
+      "id": "lllyasviel-stable-diffusion-webui-forge",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/lllyasviel/stable-diffusion-webui-forge/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 12192,
+      "homepage": ""
+    },
+    "lllyasviel-controlnet": {
+      "id": "lllyasviel-controlnet",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/lllyasviel/ControlNet/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 16623,
+      "homepage": ""
+    },
+    "mcmonkeyprojects-swarmui": {
+      "id": "mcmonkeyprojects-swarmui",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/mcmonkeyprojects/SwarmUI/master/README.md",
+      "branch": "master",
+      "path": "README.md",
+      "bytes": 13592,
+      "homepage": ""
+    },
+    "tencent-ailab-ip-adapter": {
+      "id": "tencent-ailab-ip-adapter",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/tencent-ailab/IP-Adapter/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 11250,
+      "homepage": ""
+    },
+    "vladmandic-sdnext": {
+      "id": "vladmandic-sdnext",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/vladmandic/sdnext/master/README.md",
+      "branch": "master",
+      "path": "README.md",
+      "bytes": 9291,
+      "homepage": "https://vladmandic.github.io/sdnext/"
+    },
+    "xinntao-real-esrgan": {
+      "id": "xinntao-real-esrgan",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/xinntao/Real-ESRGAN/master/README.md",
+      "branch": "master",
+      "path": "README.md",
+      "bytes": 16548,
+      "homepage": ""
+    },
+    "bentoml-bentoml": {
+      "id": "bentoml-bentoml",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/bentoml/BentoML/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 9909,
+      "homepage": "https://bentoml.com"
+    },
+    "ai-dynamo-dynamo": {
+      "id": "ai-dynamo-dynamo",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/ai-dynamo/dynamo/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 22910,
+      "homepage": "https://docs.nvidia.com/dynamo/latest"
+    },
+    "determined-ai-determined": {
+      "id": "determined-ai-determined",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/determined-ai/determined/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 4749,
+      "homepage": "https://determined.ai"
+    },
+    "lllyasviel-fooocus": {
+      "id": "lllyasviel-fooocus",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/lllyasviel/Fooocus/main/readme.md",
+      "branch": "main",
+      "path": "readme.md",
+      "bytes": 33354,
+      "homepage": ""
+    },
+    "flyteorg-flyte": {
+      "id": "flyteorg-flyte",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/flyteorg/flyte/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 5384,
+      "homepage": "https://flyte.org"
+    },
+    "kserve-kserve": {
+      "id": "kserve-kserve",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/kserve/kserve/master/README.md",
+      "branch": "master",
+      "path": "README.md",
+      "bytes": 5908,
+      "homepage": "https://kserve.github.io/website/"
+    },
+    "kubeflow-kubeflow": {
+      "id": "kubeflow-kubeflow",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/kubeflow/kubeflow/master/README.md",
+      "branch": "master",
+      "path": "README.md",
+      "bytes": 2162,
+      "homepage": "https://www.kubeflow.org/"
+    },
+    "llm-d-llm-d": {
+      "id": "llm-d-llm-d",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/llm-d/llm-d/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 9463,
+      "homepage": "https://www.llm-d.ai"
+    },
+    "mlflow-mlflow": {
+      "id": "mlflow-mlflow",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/mlflow/mlflow/master/README.md",
+      "branch": "master",
+      "path": "README.md",
+      "bytes": 32660,
+      "homepage": "https://mlflow.org"
+    },
+    "netflix-metaflow": {
+      "id": "netflix-metaflow",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/Netflix/metaflow/master/README.md",
+      "branch": "master",
+      "path": "README.md",
+      "bytes": 5267,
+      "homepage": "https://metaflow.org"
+    },
+    "open-telemetry-opentelemetry-collector": {
+      "id": "open-telemetry-opentelemetry-collector",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/open-telemetry/opentelemetry-collector/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 24354,
+      "homepage": "https://opentelemetry.io"
+    },
+    "skypilot-org-skypilot": {
+      "id": "skypilot-org-skypilot",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/skypilot-org/skypilot/master/README.md",
+      "branch": "master",
+      "path": "README.md",
+      "bytes": 12915,
+      "homepage": "https://skypilot.ai/"
+    },
+    "triton-inference-server-server": {
+      "id": "triton-inference-server-server",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/triton-inference-server/server/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 14714,
+      "homepage": "https://docs.nvidia.com/deeplearning/triton-inference-server/user-guide/docs/index.html"
+    },
+    "ggml-org-llama.cpp": {
+      "id": "ggml-org-llama.cpp",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/ggml-org/llama.cpp/master/README.md",
+      "branch": "master",
+      "path": "README.md",
+      "bytes": 7049,
+      "homepage": "https://llama.app"
+    },
+    "vllm-project-aibrix": {
+      "id": "vllm-project-aibrix",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/vllm-project/aibrix/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 6840,
+      "homepage": ""
+    },
+    "vllm-project-llm-compressor": {
+      "id": "vllm-project-llm-compressor",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/vllm-project/llm-compressor/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 13119,
+      "homepage": "https://docs.vllm.ai/projects/llm-compressor"
+    },
+    "dphnai-sonar": {
+      "id": "dphnai-sonar",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/dphnAI/sonar/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 3401,
+      "homepage": "https://sonar.dphn.ai"
+    },
+    "exo-explore-exo": {
+      "id": "exo-explore-exo",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/exo-explore/exo/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 21388,
+      "homepage": ""
+    },
+    "huggingface-text-generation-inference": {
+      "id": "huggingface-text-generation-inference",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/huggingface/text-generation-inference/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 14691,
+      "homepage": "http://hf.co/docs/text-generation-inference"
+    },
+    "internlm-lmdeploy": {
+      "id": "internlm-lmdeploy",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/InternLM/lmdeploy/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 14861,
+      "homepage": "https://lmdeploy.readthedocs.io/en/latest"
+    },
+    "microsoft-bitnet": {
+      "id": "microsoft-bitnet",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/microsoft/BitNet/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 20666,
+      "homepage": ""
+    },
+    "mlc-ai-mlc-llm": {
+      "id": "mlc-ai-mlc-llm",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/mlc-ai/mlc-llm/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 5204,
+      "homepage": "https://llm.mlc.ai/"
+    },
+    "ml-explore-mlx": {
+      "id": "ml-explore-mlx",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/ml-explore/mlx/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 4597,
+      "homepage": "https://ml-explore.github.io/mlx/"
+    },
+    "opennmt-ctranslate2": {
+      "id": "opennmt-ctranslate2",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/OpenNMT/CTranslate2/master/README.md",
+      "branch": "master",
+      "path": "README.md",
+      "bytes": 9568,
+      "homepage": "https://opennmt.net/CTranslate2"
+    },
+    "nvidia-tensorrt-llm": {
+      "id": "nvidia-tensorrt-llm",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/NVIDIA/TensorRT-LLM/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 27780,
+      "homepage": "https://nvidia.github.io/TensorRT-LLM"
+    },
+    "predibase-lorax": {
+      "id": "predibase-lorax",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/predibase/lorax/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 9557,
+      "homepage": "https://loraexchange.ai"
+    },
+    "sgl-project-sglang": {
+      "id": "sgl-project-sglang",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/sgl-project/sglang/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 11893,
+      "homepage": "https://sglang.io"
+    },
+    "chatgptnextweb-nextchat": {
+      "id": "chatgptnextweb-nextchat",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/ChatGPTNextWeb/NextChat/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 17585,
+      "homepage": "https://nextchat.club"
+    },
+    "chatboxai-chatbox": {
+      "id": "chatboxai-chatbox",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/chatboxai/chatbox/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 12379,
+      "homepage": "https://chatboxai.app?utm_medium=github"
+    },
+    "danny-avila-librechat": {
+      "id": "danny-avila-librechat",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/danny-avila/LibreChat/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 12822,
+      "homepage": "https://librechat.ai/"
+    },
+    "vllm-project-vllm": {
+      "id": "vllm-project-vllm",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/vllm-project/vllm/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 5708,
+      "homepage": "https://vllm.ai"
+    },
+    "huggingface-chat-ui": {
+      "id": "huggingface-chat-ui",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/huggingface/chat-ui/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 9583,
+      "homepage": "https://huggingface.co/chat"
+    },
+    "itzcrazykns-vane": {
+      "id": "itzcrazykns-vane",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/ItzCrazyKns/Vane/master/README.md",
+      "branch": "master",
+      "path": "README.md",
+      "bytes": 13365,
+      "homepage": ""
+    },
+    "ray-project-ray": {
+      "id": "ray-project-ray",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/ray-project/ray/master/README.rst",
+      "branch": "master",
+      "path": "README.rst",
+      "bytes": 6506,
+      "homepage": "https://ray.io"
+    },
+    "janhq-jan": {
+      "id": "janhq-jan",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/janhq/jan/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 5755,
+      "homepage": "https://jan.ai/"
+    },
+    "khoj-ai-khoj": {
+      "id": "khoj-ai-khoj",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/khoj-ai/khoj/master/README.md",
+      "branch": "master",
+      "path": "README.md",
+      "bytes": 4701,
+      "homepage": "https://khoj.dev"
+    },
+    "mintplex-labs-anything-llm": {
+      "id": "mintplex-labs-anything-llm",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/Mintplex-Labs/anything-llm/master/README.md",
+      "branch": "master",
+      "path": "README.md",
+      "bytes": 26250,
+      "homepage": "https://anythingllm.com"
+    },
+    "nomic-ai-gpt4all": {
+      "id": "nomic-ai-gpt4all",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/nomic-ai/gpt4all/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 5925,
+      "homepage": "https://nomic.ai/gpt4all"
+    },
+    "mudler-localai": {
+      "id": "mudler-localai",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/mudler/LocalAI/master/README.md",
+      "branch": "master",
+      "path": "README.md",
+      "bytes": 23591,
+      "homepage": "https://localai.io"
+    },
+    "mlc-ai-web-llm": {
+      "id": "mlc-ai-web-llm",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/mlc-ai/web-llm/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 25807,
+      "homepage": "https://webllm.mlc.ai"
+    },
+    "mozilla-ai-llamafile": {
+      "id": "mozilla-ai-llamafile",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/mozilla-ai/llamafile/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 5874,
+      "homepage": "https://docs.mozilla.ai/llamafile"
+    },
+    "lostruins-koboldcpp": {
+      "id": "lostruins-koboldcpp",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/LostRuins/koboldcpp/concedo/README.md",
+      "branch": "concedo",
+      "path": "README.md",
+      "bytes": 23144,
+      "homepage": "https://github.com/LostRuins/koboldcpp/releases/latest"
+    },
+    "ollama-ollama": {
+      "id": "ollama-ollama",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/ollama/ollama/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 19150,
+      "homepage": "https://ollama.com"
+    },
+    "open-webui-open-webui": {
+      "id": "open-webui-open-webui",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/open-webui/open-webui/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 17885,
+      "homepage": "https://openwebui.com"
+    },
+    "sillytavern-sillytavern": {
+      "id": "sillytavern-sillytavern",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/SillyTavern/SillyTavern/release/README.md",
+      "branch": "release",
+      "path": "README.md",
+      "bytes": 267,
+      "homepage": "https://sillytavern.app"
+    },
+    "oobabooga-textgen": {
+      "id": "oobabooga-textgen",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/oobabooga/textgen/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 31101,
+      "homepage": ""
+    },
+    "composiohq-composio": {
+      "id": "composiohq-composio",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/ComposioHQ/composio/next/README.md",
+      "branch": "next",
+      "path": "README.md",
+      "bytes": 9110,
+      "homepage": "https://docs.composio.dev"
+    },
+    "browserbase-mcp-server-browserbase": {
+      "id": "browserbase-mcp-server-browserbase",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/browserbase/mcp-server-browserbase/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 7985,
+      "homepage": "https://stagehand.dev"
+    },
+    "langchain-ai-langchain-mcp-adapters": {
+      "id": "langchain-ai-langchain-mcp-adapters",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/langchain-ai/langchain-mcp-adapters/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 11281,
+      "homepage": "https://docs.langchain.com/oss/python/langchain/mcp"
+    },
+    "github-github-mcp-server": {
+      "id": "github-github-mcp-server",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/github/github-mcp-server/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 104333,
+      "homepage": ""
+    },
+    "cursortouch-windows-mcp": {
+      "id": "cursortouch-windows-mcp",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/CursorTouch/Windows-MCP/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 30618,
+      "homepage": ""
+    },
+    "lastmile-ai-mcp-agent": {
+      "id": "lastmile-ai-mcp-agent",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/lastmile-ai/mcp-agent/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 35207,
+      "homepage": ""
+    },
+    "modelcontextprotocol-python-sdk": {
+      "id": "modelcontextprotocol-python-sdk",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/modelcontextprotocol/python-sdk/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 5622,
+      "homepage": "https://py.sdk.modelcontextprotocol.io/"
+    },
+    "mark3labs-mcp-go": {
+      "id": "mark3labs-mcp-go",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/mark3labs/mcp-go/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 36723,
+      "homepage": "http://mcp-go.dev/"
+    },
+    "modelcontextprotocol-inspector": {
+      "id": "modelcontextprotocol-inspector",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/modelcontextprotocol/inspector/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 55150,
+      "homepage": "https://modelcontextprotocol.io"
+    },
+    "mcp-use-mcp-use": {
+      "id": "mcp-use-mcp-use",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/mcp-use/mcp-use/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 16828,
+      "homepage": "https://manufact.com"
+    },
+    "modelcontextprotocol-registry": {
+      "id": "modelcontextprotocol-registry",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/modelcontextprotocol/registry/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 8193,
+      "homepage": "https://github.com/modelcontextprotocol/registry/tree/main/docs"
+    },
+    "microsoft-playwright-mcp": {
+      "id": "microsoft-playwright-mcp",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/microsoft/playwright-mcp/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 61992,
+      "homepage": "https://www.npmjs.com/package/@playwright/mcp"
+    },
+    "modelcontextprotocol-servers": {
+      "id": "modelcontextprotocol-servers",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 8609,
+      "homepage": "https://modelcontextprotocol.io"
+    },
+    "modelcontextprotocol-typescript-sdk": {
+      "id": "modelcontextprotocol-typescript-sdk",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/modelcontextprotocol/typescript-sdk/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 8305,
+      "homepage": "https://ts.sdk.modelcontextprotocol.io/v2"
+    },
+    "prefecthq-fastmcp": {
+      "id": "prefecthq-fastmcp",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/PrefectHQ/fastmcp/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 7371,
+      "homepage": "https://gofastmcp.com"
+    },
+    "upstash-context7": {
+      "id": "upstash-context7",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/upstash/context7/master/README.md",
+      "branch": "master",
+      "path": "README.md",
+      "bytes": 9620,
+      "homepage": "https://context7.com"
+    },
+    "allenai-molmo": {
+      "id": "allenai-molmo",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/allenai/molmo/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 15980,
+      "homepage": ""
+    },
+    "deepseek-ai-deepseek-vl2": {
+      "id": "deepseek-ai-deepseek-vl2",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/deepseek-ai/DeepSeek-VL2/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 16265,
+      "homepage": ""
+    },
+    "idea-research-grounded-sam-2": {
+      "id": "idea-research-grounded-sam-2",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/IDEA-Research/Grounded-SAM-2/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 25026,
+      "homepage": "https://arxiv.org/abs/2401.14159"
+    },
+    "facebookresearch-chameleon": {
+      "id": "facebookresearch-chameleon",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/facebookresearch/chameleon/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 3556,
+      "homepage": "https://arxiv.org/abs/2405.09818"
+    },
+    "haotian-liu-llava": {
+      "id": "haotian-liu-llava",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/haotian-liu/LLaVA/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 30172,
+      "homepage": "https://llava.hliu.cc"
+    },
+    "microsoft-unilm": {
+      "id": "microsoft-unilm",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/microsoft/unilm/master/README.md",
+      "branch": "master",
+      "path": "README.md",
+      "bytes": 33524,
+      "homepage": "https://aka.ms/GeneralAI"
+    },
+    "llava-vl-llava-next": {
+      "id": "llava-vl-llava-next",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/LLaVA-VL/LLaVA-NeXT/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 23482,
+      "homepage": ""
+    },
+    "openai-clip": {
+      "id": "openai-clip",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/openai/CLIP/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 7306,
+      "homepage": ""
+    },
+    "microsoft-phicookbook": {
+      "id": "microsoft-phicookbook",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/microsoft/PhiCookBook/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 30643,
+      "homepage": ""
+    },
+    "mlfoundations-open-clip": {
+      "id": "mlfoundations-open-clip",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/mlfoundations/open_clip/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 48398,
+      "homepage": ""
+    },
+    "openbmb-minicpm-v": {
+      "id": "openbmb-minicpm-v",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/OpenBMB/MiniCPM-V/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 123156,
+      "homepage": ""
+    },
+    "opengvlab-internvl": {
+      "id": "opengvlab-internvl",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/OpenGVLab/InternVL/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 70862,
+      "homepage": "https://internvl.readthedocs.io/en/latest/"
+    },
+    "qwenlm-qwen-vl": {
+      "id": "qwenlm-qwen-vl",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/QwenLM/Qwen-VL/master/README.md",
+      "branch": "master",
+      "path": "README.md",
+      "bytes": 45091,
+      "homepage": ""
+    },
+    "qwenlm-qwen3-vl": {
+      "id": "qwenlm-qwen3-vl",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/QwenLM/Qwen3-VL/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 52828,
+      "homepage": ""
+    },
+    "deepset-ai-haystack": {
+      "id": "deepset-ai-haystack",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/deepset-ai/haystack/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 14041,
+      "homepage": "https://haystack.deepset.ai"
+    },
+    "salesforce-lavis": {
+      "id": "salesforce-lavis",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/salesforce/LAVIS/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 20118,
+      "homepage": ""
+    },
+    "answerdotai-ragatouille": {
+      "id": "answerdotai-ragatouille",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/AnswerDotAI/RAGatouille/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 13939,
+      "homepage": ""
+    },
+    "vision-cair-minigpt-4": {
+      "id": "vision-cair-minigpt-4",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/Vision-CAIR/MiniGPT-4/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 10667,
+      "homepage": "https://minigpt-4.github.io"
+    },
+    "langchain-ai-langchain": {
+      "id": "langchain-ai-langchain",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/langchain-ai/langchain/master/README.md",
+      "branch": "master",
+      "path": "README.md",
+      "bytes": 5932,
+      "homepage": "https://docs.langchain.com/langchain/"
+    },
+    "neuml-txtai": {
+      "id": "neuml-txtai",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/neuml/txtai/master/README.md",
+      "branch": "master",
+      "path": "README.md",
+      "bytes": 22641,
+      "homepage": "https://neuml.github.io/txtai"
+    },
+    "onyx-dot-app-onyx": {
+      "id": "onyx-dot-app-onyx",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/onyx-dot-app/onyx/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 6111,
+      "homepage": "https://onyx.app"
+    },
+    "quivrhq-quivr": {
+      "id": "quivrhq-quivr",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/QuivrHQ/quivr/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 6825,
+      "homepage": "https://core.quivr.com"
+    },
+    "zylon-ai-private-gpt": {
+      "id": "zylon-ai-private-gpt",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/zylon-ai/private-gpt/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 12748,
+      "homepage": "https://www.zylon.ai/private-gpt"
+    },
+    "run-llama-llama-index": {
+      "id": "run-llama-llama-index",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/run-llama/llama_index/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 13365,
+      "homepage": "https://developers.llamaindex.ai"
+    },
+    "ai-hypercomputer-maxtext": {
+      "id": "ai-hypercomputer-maxtext",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/AI-Hypercomputer/maxtext/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 14905,
+      "homepage": "https://maxtext.readthedocs.io"
+    },
+    "google-flax": {
+      "id": "google-flax",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/google/flax/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 7905,
+      "homepage": "https://flax.readthedocs.io"
+    },
+    "eleutherai-gpt-neox": {
+      "id": "eleutherai-gpt-neox",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/EleutherAI/gpt-neox/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 58329,
+      "homepage": "https://www.eleuther.ai/"
+    },
+    "blinkdl-rwkv-lm": {
+      "id": "blinkdl-rwkv-lm",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/BlinkDL/RWKV-LM/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 61209,
+      "homepage": ""
+    },
+    "harvardnlp-annotated-transformer": {
+      "id": "harvardnlp-annotated-transformer",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/harvardnlp/annotated-transformer/master/README.md",
+      "branch": "master",
+      "path": "README.md",
+      "bytes": 2925,
+      "homepage": "http://nlp.seas.harvard.edu/annotated-transformer"
+    },
+    "huggingface-transformers": {
+      "id": "huggingface-transformers",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/huggingface/transformers/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 18105,
+      "homepage": "https://huggingface.co/transformers"
+    },
+    "lightning-ai-litgpt": {
+      "id": "lightning-ai-litgpt",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/Lightning-AI/litgpt/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 31216,
+      "homepage": "https://lightning.ai"
+    },
+    "karpathy-nanogpt": {
+      "id": "karpathy-nanogpt",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/karpathy/nanoGPT/master/README.md",
+      "branch": "master",
+      "path": "README.md",
+      "bytes": 13850,
+      "homepage": ""
+    },
+    "karpathy-mingpt": {
+      "id": "karpathy-mingpt",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/karpathy/minGPT/master/README.md",
+      "branch": "master",
+      "path": "README.md",
+      "bytes": 9869,
+      "homepage": ""
+    },
+    "state-spaces-mamba": {
+      "id": "state-spaces-mamba",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/state-spaces/mamba/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 14833,
+      "homepage": ""
+    },
+    "state-spaces-s4": {
+      "id": "state-spaces-s4",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/state-spaces/s4/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 12512,
+      "homepage": ""
+    },
+    "tensorflow-tensor2tensor": {
+      "id": "tensorflow-tensor2tensor",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/tensorflow/tensor2tensor/master/README.md",
+      "branch": "master",
+      "path": "README.md",
+      "bytes": 19717,
+      "homepage": ""
+    },
+    "lucidrains-x-transformers": {
+      "id": "lucidrains-x-transformers",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/lucidrains/x-transformers/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 102684,
+      "homepage": ""
+    },
+    "axolotl-ai-cloud-axolotl": {
+      "id": "axolotl-ai-cloud-axolotl",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/axolotl-ai-cloud/axolotl/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 18466,
+      "homepage": "https://docs.axolotl.ai"
+    },
+    "dao-ailab-flash-attention": {
+      "id": "dao-ailab-flash-attention",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/Dao-AILab/flash-attention/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 24629,
+      "homepage": ""
+    },
+    "bitsandbytes-foundation-bitsandbytes": {
+      "id": "bitsandbytes-foundation-bitsandbytes",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/bitsandbytes-foundation/bitsandbytes/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 8049,
+      "homepage": "https://huggingface.co/docs/bitsandbytes/main/en/index"
+    },
+    "deepspeedai-deepspeed": {
+      "id": "deepspeedai-deepspeed",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/deepspeedai/DeepSpeed/master/README.md",
+      "branch": "master",
+      "path": "README.md",
+      "bytes": 32934,
+      "homepage": "https://www.deepspeed.ai/"
+    },
+    "hpcaitech-colossalai": {
+      "id": "hpcaitech-colossalai",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/hpcaitech/ColossalAI/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 35355,
+      "homepage": "https://www.colossalai.org"
+    },
+    "hiyouga-llamafactory": {
+      "id": "hiyouga-llamafactory",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/hiyouga/LlamaFactory/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 70205,
+      "homepage": "https://llamafactory.readthedocs.io"
+    },
+    "huggingface-accelerate": {
+      "id": "huggingface-accelerate",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/huggingface/accelerate/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 15187,
+      "homepage": "https://huggingface.co/docs/accelerate"
+    },
+    "huggingface-peft": {
+      "id": "huggingface-peft",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/huggingface/peft/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 12244,
+      "homepage": "https://huggingface.co/docs/peft"
+    },
+    "nvidia-nemo-speech": {
+      "id": "nvidia-nemo-speech",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/NVIDIA-NeMo/Speech/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 10371,
+      "homepage": "https://docs.nvidia.com/nemo/speech/nightly/index.html"
+    },
+    "huggingface-trl": {
+      "id": "huggingface-trl",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/huggingface/trl/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 8833,
+      "homepage": "http://hf.co/docs/trl"
+    },
+    "unslothai-unsloth": {
+      "id": "unslothai-unsloth",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/unslothai/unsloth/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 29495,
+      "homepage": "https://unsloth.ai/docs"
+    },
+    "verl-project-verl": {
+      "id": "verl-project-verl",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/verl-project/verl/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 38459,
+      "homepage": "https://verl-project.github.io"
+    },
+    "chroma-core-chroma": {
+      "id": "chroma-core-chroma",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/chroma-core/chroma/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 3273,
+      "homepage": "https://www.trychroma.com/"
+    },
+    "nvidia-megatron-lm": {
+      "id": "nvidia-megatron-lm",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/NVIDIA/Megatron-LM/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 10355,
+      "homepage": "https://docs.nvidia.com/megatron-core/developer-guide/latest/get-started/quickstart.html"
+    },
+    "openrlhf-openrlhf": {
+      "id": "openrlhf-openrlhf",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/OpenRLHF/OpenRLHF/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 42138,
+      "homepage": "https://openrlhf.readthedocs.io/"
+    },
+    "meta-pytorch-torchtune": {
+      "id": "meta-pytorch-torchtune",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/meta-pytorch/torchtune/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 22988,
+      "homepage": "https://pytorch.org/torchtune/main/"
+    },
+    "facebookresearch-faiss": {
+      "id": "facebookresearch-faiss",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/facebookresearch/faiss/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 6370,
+      "homepage": "https://faiss.ai"
+    },
+    "meilisearch-meilisearch": {
+      "id": "meilisearch-meilisearch",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/meilisearch/meilisearch/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 15829,
+      "homepage": "https://www.meilisearch.com"
+    },
+    "qdrant-qdrant": {
+      "id": "qdrant-qdrant",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/qdrant/qdrant/master/README.md",
+      "branch": "master",
+      "path": "README.md",
+      "bytes": 11560,
+      "homepage": "https://qdrant.tech"
+    },
+    "vespa-engine-vespa": {
+      "id": "vespa-engine-vespa",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/vespa-engine/vespa/master/README.md",
+      "branch": "master",
+      "path": "README.md",
+      "bytes": 6905,
+      "homepage": "https://vespa.ai"
+    },
+    "pgvector-pgvector": {
+      "id": "pgvector-pgvector",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/pgvector/pgvector/master/README.md",
+      "branch": "master",
+      "path": "README.md",
+      "bytes": 42327,
+      "homepage": ""
+    },
+    "lancedb-lancedb": {
+      "id": "lancedb-lancedb",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/lancedb/lancedb/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 5801,
+      "homepage": "https://lancedb.com/docs"
+    },
+    "weaviate-weaviate": {
+      "id": "weaviate-weaviate",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/weaviate/weaviate/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 18524,
+      "homepage": "https://weaviate.io/developers/weaviate/"
+    },
+    "milvus-io-milvus": {
+      "id": "milvus-io-milvus",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/milvus-io/milvus/master/README.md",
+      "branch": "master",
+      "path": "README.md",
+      "bytes": 70771,
+      "homepage": "https://milvus.io"
+    },
+    "ailab-cvc-videocrafter": {
+      "id": "ailab-cvc-videocrafter",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/AILab-CVC/VideoCrafter/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 9857,
+      "homepage": "https://ailab-cvc.github.io/videocrafter2/"
+    },
+    "doubiiu-dynamicrafter": {
+      "id": "doubiiu-dynamicrafter",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/Doubiiu/DynamiCrafter/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 16882,
+      "homepage": "https://doubiiu.github.io/projects/DynamiCrafter/"
+    },
+    "genmoai-mochi": {
+      "id": "genmoai-mochi",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/genmoai/mochi/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 7776,
+      "homepage": ""
+    },
+    "guoyww-animatediff": {
+      "id": "guoyww-animatediff",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/guoyww/AnimateDiff/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 19371,
+      "homepage": "https://animatediff.github.io"
+    },
+    "hao-ai-lab-fastvideo": {
+      "id": "hao-ai-lab-fastvideo",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/hao-ai-lab/FastVideo/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 13030,
+      "homepage": "https://hao-ai-lab.github.io/FastVideo"
+    },
+    "hpcaitech-open-sora": {
+      "id": "hpcaitech-open-sora",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/hpcaitech/Open-Sora/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 36451,
+      "homepage": "https://hpcaitech.github.io/Open-Sora/"
+    },
+    "facebookresearch-moviegenbench": {
+      "id": "facebookresearch-moviegenbench",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/facebookresearch/MovieGenBench/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 3801,
+      "homepage": ""
+    },
+    "lightricks-ltx-video": {
+      "id": "lightricks-ltx-video",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/Lightricks/LTX-Video/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 26649,
+      "homepage": "https://ltx.io/model"
+    },
+    "stability-ai-generative-models": {
+      "id": "stability-ai-generative-models",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/Stability-AI/generative-models/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 23497,
+      "homepage": ""
+    },
+    "hzwer-eccv2022-rife": {
+      "id": "hzwer-eccv2022-rife",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/hzwer/ECCV2022-RIFE/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 11007,
+      "homepage": ""
+    },
+    "modelscope-diffsynth-studio": {
+      "id": "modelscope-diffsynth-studio",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/modelscope/DiffSynth-Studio/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 185168,
+      "homepage": ""
+    },
+    "vchitect-venhancer": {
+      "id": "vchitect-venhancer",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/Vchitect/VEnhancer/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 10340,
+      "homepage": "https://vchitect.github.io/VEnhancer-project/"
+    },
+    "tencent-hunyuan-hunyuanvideo": {
+      "id": "tencent-hunyuan-hunyuanvideo",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/Tencent-Hunyuan/HunyuanVideo/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 29010,
+      "homepage": "https://aivideo.hunyuan.tencent.com"
+    },
+    "wan-video-wan2-1": {
+      "id": "wan-video-wan2-1",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/Wan-Video/Wan2.1/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 43823,
+      "homepage": "https://wan.video"
+    },
+    "zai-org-cogvideo": {
+      "id": "zai-org-cogvideo",
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/zai-org/CogVideo/main/README.md",
+      "branch": "main",
+      "path": "README.md",
+      "bytes": 28873,
+      "homepage": ""
+    },
+    "ali-vilab-vgen": {
+      "id": "ali-vilab-vgen",
+      "ok": false,
+      "url": null,
+      "error": "HTTP 404 https://raw.githubusercontent.com/ali-vilab/VGen/master/README",
+      "homepage": "https://i2vgen-xl.github.io"
+    }
+  }
+}

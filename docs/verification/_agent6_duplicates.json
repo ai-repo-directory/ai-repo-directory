@@ -1,0 +1,550 @@
+{
+  "agent": "group-6",
+  "date": "2026-08-12",
+  "scope": {
+    "canonical_entries": 233,
+    "raw_entries": 233,
+    "canonical_files": 16,
+    "raw_files": 15,
+    "github_snapshots": 233
+  },
+  "summary_counts": {
+    "identical_githubUrl_duplicates": 0,
+    "owner_repo_duplicates": 0,
+    "case_insensitive_owner_repo_duplicates": 0,
+    "duplicate_ids": 0,
+    "same_name_different_owner": 0,
+    "ids_differ_same_githubUrl": 0,
+    "true_duplicates_consolidated": 0,
+    "confirmed_redirects_checked": 30,
+    "related_lineage_pairs_kept": 5,
+    "notes_with_rename_transfer_language": 27,
+    "snapshots_without_canonical": 0,
+    "canonical_without_snapshot": 0,
+    "raw_only_ids": 3,
+    "canonical_only_ids": 3
+  },
+  "verdict": "No true duplicate canonical entries found. No consolidations performed. Rename/transfer/fork relationships are documented in notes and resolve to single canonical URLs (except intentional lineage pairs).",
+  "exact_duplicates": {
+    "identical_githubUrl": [],
+    "owner_repo": [],
+    "case_insensitive_owner_repo": [],
+    "duplicate_ids": [],
+    "ids_differ_same_githubUrl": [],
+    "same_name_different_owner": []
+  },
+  "snapshot_alignment": {
+    "snapshots_without_canonical": [],
+    "canonical_without_snapshot": [],
+    "aligned": true
+  },
+  "raw_vs_canonical": {
+    "note": "Same entry counts (233) but video-ai selection differs by 3 IDs each side. vector-db was split from rag in canonical only; those 9 IDs still exist in raw under rag.json.",
+    "canonical_only_ids": [
+      "ailab-cvc-videocrafter",
+      "facebookresearch-moviegenbench",
+      "vchitect-venhancer"
+    ],
+    "raw_only_ids": [
+      "pku-yuangroup-open-sora-plan",
+      "tencentarc-motionctrl",
+      "vchitect-vbench"
+    ],
+    "canonical_only_detail": [
+      {
+        "id": "ailab-cvc-videocrafter",
+        "githubUrl": "https://github.com/AILab-CVC/VideoCrafter",
+        "category": "video-ai"
+      },
+      {
+        "id": "facebookresearch-moviegenbench",
+        "githubUrl": "https://github.com/facebookresearch/MovieGenBench",
+        "category": "evaluation"
+      },
+      {
+        "id": "vchitect-venhancer",
+        "githubUrl": "https://github.com/Vchitect/VEnhancer",
+        "category": "video-ai"
+      }
+    ],
+    "raw_only_detail": [
+      {
+        "id": "pku-yuangroup-open-sora-plan",
+        "githubUrl": "https://github.com/PKU-YuanGroup/Open-Sora-Plan",
+        "category": "video-ai"
+      },
+      {
+        "id": "tencentarc-motionctrl",
+        "githubUrl": "https://github.com/TencentARC/MotionCtrl",
+        "category": "video-ai"
+      },
+      {
+        "id": "vchitect-vbench",
+        "githubUrl": "https://github.com/Vchitect/VBench",
+        "category": "video-ai"
+      }
+    ],
+    "category_file_diff": {
+      "canonical_only_files": [
+        "vector-db.json"
+      ],
+      "raw_only_files": [],
+      "vector_db_ids_in_raw_under_rag": [
+        "chroma-core-chroma",
+        "facebookresearch-faiss",
+        "lancedb-lancedb",
+        "meilisearch-meilisearch",
+        "milvus-io-milvus",
+        "pgvector-pgvector",
+        "qdrant-qdrant",
+        "vespa-engine-vespa",
+        "weaviate-weaviate"
+      ]
+    }
+  },
+  "confirmed_redirects": [
+    {
+      "queried": "ggerganov/whisper.cpp",
+      "resolves_to": "ggml-org/whisper.cpp",
+      "canonical_id": "ggml-org-whisper-cpp",
+      "status": "confirmed"
+    },
+    {
+      "queried": "block/goose",
+      "resolves_to": "aaif-goose/goose",
+      "canonical_id": "aaif-goose-goose",
+      "status": "confirmed"
+    },
+    {
+      "queried": "All-Hands-AI/OpenHands",
+      "resolves_to": "OpenHands/OpenHands",
+      "canonical_id": "openhands-openhands",
+      "status": "confirmed"
+    },
+    {
+      "queried": "OpenDevin/OpenDevin",
+      "resolves_to": "OpenHands/OpenHands",
+      "canonical_id": "openhands-openhands",
+      "status": "confirmed"
+    },
+    {
+      "queried": "princeton-nlp/SWE-agent",
+      "resolves_to": "SWE-agent/SWE-agent",
+      "canonical_id": "swe-agent-swe-agent",
+      "status": "confirmed"
+    },
+    {
+      "queried": "Aphrodite-Engine/aphrodite-engine",
+      "resolves_to": "dphnAI/sonar",
+      "canonical_id": "dphnai-sonar",
+      "status": "confirmed"
+    },
+    {
+      "queried": "PygmalionAI/aphrodite-engine",
+      "resolves_to": "dphnAI/sonar",
+      "canonical_id": "dphnai-sonar",
+      "status": "confirmed"
+    },
+    {
+      "queried": "explodinggradients/ragas",
+      "resolves_to": "vibrantlabsai/ragas",
+      "canonical_id": "vibrantlabsai-ragas",
+      "status": "confirmed"
+    },
+    {
+      "queried": "danswer-ai/danswer",
+      "resolves_to": "onyx-dot-app/onyx",
+      "canonical_id": "onyx-dot-app-onyx",
+      "status": "confirmed"
+    },
+    {
+      "queried": "ItzCrazyKns/Perplexica",
+      "resolves_to": "ItzCrazyKns/Vane",
+      "canonical_id": "itzcrazykns-vane",
+      "status": "confirmed"
+    },
+    {
+      "queried": "oobabooga/text-generation-webui",
+      "resolves_to": "oobabooga/textgen",
+      "canonical_id": "oobabooga-textgen",
+      "status": "confirmed"
+    },
+    {
+      "queried": "microsoft/DeepSpeed",
+      "resolves_to": "deepspeedai/DeepSpeed",
+      "canonical_id": "deepspeedai-deepspeed",
+      "status": "confirmed"
+    },
+    {
+      "queried": "OpenAccess-AI-Collective/axolotl",
+      "resolves_to": "axolotl-ai-cloud/axolotl",
+      "canonical_id": "axolotl-ai-cloud-axolotl",
+      "status": "confirmed"
+    },
+    {
+      "queried": "pytorch/torchtune",
+      "resolves_to": "meta-pytorch/torchtune",
+      "canonical_id": "meta-pytorch-torchtune",
+      "status": "confirmed"
+    },
+    {
+      "queried": "volcengine/verl",
+      "resolves_to": "verl-project/verl",
+      "canonical_id": "verl-project-verl",
+      "status": "confirmed"
+    },
+    {
+      "queried": "google/maxtext",
+      "resolves_to": "AI-Hypercomputer/maxtext",
+      "canonical_id": "ai-hypercomputer-maxtext",
+      "status": "confirmed"
+    },
+    {
+      "queried": "THUDM/CogVideo",
+      "resolves_to": "zai-org/CogVideo",
+      "canonical_id": "zai-org-cogvideo",
+      "status": "confirmed"
+    },
+    {
+      "queried": "Yidadaa/ChatGPT-Next-Web",
+      "resolves_to": "ChatGPTNextWeb/NextChat",
+      "canonical_id": "chatgptnextweb-nextchat",
+      "status": "confirmed"
+    },
+    {
+      "queried": "NVIDIA/NeMo-Curator",
+      "resolves_to": "NVIDIA-NeMo/Curator",
+      "canonical_id": "nvidia-nemo-curator",
+      "status": "confirmed"
+    },
+    {
+      "queried": "giskard-ai/giskard",
+      "resolves_to": "Giskard-AI/giskard-oss",
+      "canonical_id": "giskard-ai-giskard-oss",
+      "status": "confirmed"
+    },
+    {
+      "queried": "phidatahq/phidata",
+      "resolves_to": "agno-agi/agno",
+      "canonical_id": "agno-agi-agno",
+      "status": "confirmed"
+    },
+    {
+      "queried": "hiyouga/LLaMA-Factory",
+      "resolves_to": "hiyouga/LlamaFactory",
+      "canonical_id": "hiyouga-llamafactory",
+      "status": "confirmed"
+    },
+    {
+      "queried": "KillianLucas/open-interpreter",
+      "resolves_to": "openinterpreter/openinterpreter",
+      "canonical_id": "openinterpreter-openinterpreter",
+      "status": "confirmed"
+    },
+    {
+      "queried": "OpenInterpreter/open-interpreter",
+      "resolves_to": "openinterpreter/openinterpreter",
+      "canonical_id": "openinterpreter-openinterpreter",
+      "status": "confirmed"
+    },
+    {
+      "queried": "NVIDIA/NeMo",
+      "resolves_to": "NVIDIA-NeMo/Speech",
+      "canonical_id": "nvidia-nemo-speech",
+      "status": "confirmed"
+    },
+    {
+      "queried": "NVIDIA-NeMo/NeMo",
+      "resolves_to": "NVIDIA-NeMo/Speech",
+      "canonical_id": "nvidia-nemo-speech",
+      "status": "confirmed"
+    },
+    {
+      "queried": "microsoft/Phi-3CookBook",
+      "resolves_to": "microsoft/PhiCookBook",
+      "canonical_id": "microsoft-phicookbook",
+      "status": "confirmed"
+    },
+    {
+      "queried": "QwenLM/Qwen2-VL",
+      "resolves_to": "QwenLM/Qwen3-VL",
+      "canonical_id": "qwenlm-qwen3-vl",
+      "status": "confirmed"
+    },
+    {
+      "queried": "QwenLM/Qwen2.5-VL",
+      "resolves_to": "QwenLM/Qwen3-VL",
+      "canonical_id": "qwenlm-qwen3-vl",
+      "status": "confirmed"
+    },
+    {
+      "queried": "microsoft/autogen",
+      "resolves_to": "microsoft/autogen",
+      "canonical_id": "microsoft-autogen",
+      "status": "confirmed_no_redirect"
+    },
+    {
+      "queried": "open-interpreter/open-interpreter",
+      "resolves_to": null,
+      "canonical_id": "openinterpreter-openinterpreter",
+      "status": "404_notes_imprecise"
+    },
+    {
+      "queried": "jlowin/fastmcp",
+      "resolves_to": "PrefectHQ/fastmcp",
+      "canonical_id": "prefecthq-fastmcp",
+      "status": "confirmed"
+    }
+  ],
+  "related_lineage_not_duplicates": [
+    {
+      "ids": [
+        "ag2ai-ag2",
+        "microsoft-autogen"
+      ],
+      "relationship": "community_fork_continuation",
+      "action": "keep_both",
+      "rationale": "Distinct GitHub repos. AG2 is community continuation; microsoft/autogen remains historically significant and does not redirect to AG2. Notes correctly cross-reference."
+    },
+    {
+      "ids": [
+        "cline-cline",
+        "roocodeinc-roo-code"
+      ],
+      "relationship": "fork_evolution",
+      "action": "keep_both",
+      "rationale": "Roo-Code is a documented Cline-lineage fork; archived but historically significant; separate githubUrl."
+    },
+    {
+      "ids": [
+        "haotian-liu-llava",
+        "llava-vl-llava-next"
+      ],
+      "relationship": "successor_codebase",
+      "action": "keep_both",
+      "rationale": "Classic LLaVA vs LLaVA-NeXT successor under different org; both still useful references."
+    },
+    {
+      "ids": [
+        "qwenlm-qwen-vl",
+        "qwenlm-qwen3-vl"
+      ],
+      "relationship": "series_predecessor",
+      "action": "keep_both",
+      "rationale": "Older Qwen-VL research repo vs current Qwen3-VL (which absorbs Qwen2/Qwen2.5-VL redirects). Not the same repo."
+    },
+    {
+      "ids": [
+        "lllyasviel-stable-diffusion-webui-forge",
+        "vladmandic-sdnext"
+      ],
+      "relationship": "sibling_forks_of_a1111_family",
+      "action": "keep_both",
+      "rationale": "Independent A1111-family WebUI forks; not renames of each other."
+    }
+  ],
+  "rename_transfer_notes": [
+    {
+      "id": "aaif-goose-goose",
+      "githubUrl": "https://github.com/aaif-goose/goose",
+      "notes": "Previously block/goose; GitHub redirects to aaif-goose/goose.",
+      "category": "coding-agents"
+    },
+    {
+      "id": "abanteai-archive-old-cli-mentat",
+      "githubUrl": "https://github.com/AbanteAI/archive-old-cli-mentat",
+      "notes": "Original AbanteAI/mentat is gone; archive-old-cli-mentat is the remaining public CLI snapshot.",
+      "category": "coding-agents"
+    },
+    {
+      "id": "ag2ai-ag2",
+      "githubUrl": "https://github.com/ag2ai/ag2",
+      "notes": "Community fork/continuation of AutoGen; prefer this over microsoft/autogen for new OSS AutoGen-lineage work.",
+      "category": "ai-agents"
+    },
+    {
+      "id": "ai-hypercomputer-maxtext",
+      "githubUrl": "https://github.com/AI-Hypercomputer/maxtext",
+      "notes": "Formerly google/maxtext; GitHub canonical full_name is AI-Hypercomputer/maxtext. Category verification 2026-08-12: research/['training', 'infrastructure'] \u2192 training/['research', 'infrastructure'].",
+      "category": "training"
+    },
+    {
+      "id": "axolotl-ai-cloud-axolotl",
+      "githubUrl": "https://github.com/axolotl-ai-cloud/axolotl",
+      "notes": "Moved from OpenAccess-AI-Collective/axolotl to axolotl-ai-cloud/axolotl. Category verification 2026-08-12: training/['local-ai'] \u2192 training/[].",
+      "category": "training"
+    },
+    {
+      "id": "chatgptnextweb-nextchat",
+      "githubUrl": "https://github.com/ChatGPTNextWeb/NextChat",
+      "notes": "Formerly known as ChatGPT-Next-Web (Yidadaa/ChatGPT-Next-Web).",
+      "category": "local-ai"
+    },
+    {
+      "id": "deepspeedai-deepspeed",
+      "githubUrl": "https://github.com/deepspeedai/DeepSpeed",
+      "notes": "Moved from microsoft/DeepSpeed to deepspeedai/DeepSpeed.",
+      "category": "training"
+    },
+    {
+      "id": "dphnai-sonar",
+      "githubUrl": "https://github.com/dphnAI/sonar",
+      "notes": "GitHub redirects former Aphrodite-Engine/aphrodite-engine and PygmalionAI/aphrodite-engine here.",
+      "category": "llm-inference"
+    },
+    {
+      "id": "ggml-org-whisper-cpp",
+      "githubUrl": "https://github.com/ggml-org/whisper.cpp",
+      "notes": "Canonical repo is ggml-org/whisper.cpp (redirect from ggerganov/whisper.cpp).",
+      "category": "audio-ai"
+    },
+    {
+      "id": "giskard-ai-giskard-oss",
+      "githubUrl": "https://github.com/Giskard-AI/giskard-oss",
+      "notes": "Canonical repo is Giskard-AI/giskard-oss (giskard-ai/giskard redirects here).",
+      "category": "evaluation"
+    },
+    {
+      "id": "hiyouga-llamafactory",
+      "githubUrl": "https://github.com/hiyouga/LlamaFactory",
+      "notes": "GitHub canonical name is LlamaFactory; LLaMA-Factory redirects. Category verification 2026-08-12: training/['multimodal', 'local-ai'] \u2192 training/['multimodal'].",
+      "category": "training"
+    },
+    {
+      "id": "itzcrazykns-vane",
+      "githubUrl": "https://github.com/ItzCrazyKns/Vane",
+      "notes": "Renamed from Perplexica (ItzCrazyKns/Perplexica \u2192 ItzCrazyKns/Vane). localOfflineCapable false because search grounding typically needs network/SearXNG. Activity verification 2026-08-12: maintenance moderate\u2192slow (pushedAt=2026-04-11T14:33:06Z, primary_status=low_activity). Category verification 2026-08-12: local-ai/['rag'] \u2192 rag/['local-ai'].",
+      "category": "rag"
+    },
+    {
+      "id": "meta-pytorch-torchtune",
+      "githubUrl": "https://github.com/meta-pytorch/torchtune",
+      "notes": "Moved from pytorch/torchtune to meta-pytorch/torchtune.",
+      "category": "training"
+    },
+    {
+      "id": "microsoft-autogen",
+      "githubUrl": "https://github.com/microsoft/autogen",
+      "notes": "Code under LICENSE-CODE (MIT); repo root LICENSE is CC-BY-4.0 for docs. Community continuation: ag2ai/ag2. Last notable push ~Apr 2026. Activity verification 2026-08-12: maintenance moderate\u2192slow (pushedAt=2026-04-15T11:59:09Z, primary_status=low_activity).",
+      "category": "ai-agents"
+    },
+    {
+      "id": "microsoft-phicookbook",
+      "githubUrl": "https://github.com/microsoft/PhiCookBook",
+      "notes": "Repo renamed from Phi-3CookBook; covers Phi vision/multimodal chapters. Model weights are published separately on Hugging Face / Azure.",
+      "category": "multimodal"
+    },
+    {
+      "id": "nvidia-nemo-curator",
+      "githubUrl": "https://github.com/NVIDIA-NeMo/Curator",
+      "notes": "Formerly referenced as NVIDIA/NeMo-Curator; canonical repo is NVIDIA-NeMo/Curator.",
+      "category": "datasets"
+    },
+    {
+      "id": "nvidia-nemo-speech",
+      "githubUrl": "https://github.com/NVIDIA-NeMo/Speech",
+      "notes": "NVIDIA/NeMo and NVIDIA-NeMo/NeMo redirect here after NeMo org reorganization; related training libs include NVIDIA-NeMo/Automodel and NVIDIA-NeMo/RL.",
+      "category": "training"
+    },
+    {
+      "id": "onyx-dot-app-onyx",
+      "githubUrl": "https://github.com/onyx-dot-app/onyx",
+      "notes": "Formerly danswer-ai/danswer; GitHub license SPDX unresolved (NOASSERTION).",
+      "category": "rag"
+    },
+    {
+      "id": "oobabooga-textgen",
+      "githubUrl": "https://github.com/oobabooga/textgen",
+      "notes": "Repository renamed from oobabooga/text-generation-webui to oobabooga/textgen.",
+      "category": "local-ai"
+    },
+    {
+      "id": "openhands-openhands",
+      "githubUrl": "https://github.com/OpenHands/OpenHands",
+      "notes": "Renamed from OpenDevin; GitHub redirects All-Hands-AI/OpenHands \u2192 OpenHands/OpenHands.",
+      "category": "coding-agents"
+    },
+    {
+      "id": "openinterpreter-openinterpreter",
+      "githubUrl": "https://github.com/openinterpreter/openinterpreter",
+      "notes": "Canonical GitHub path is openinterpreter/openinterpreter (open-interpreter redirects).",
+      "category": "coding-agents"
+    },
+    {
+      "id": "prefecthq-fastmcp",
+      "githubUrl": "https://github.com/PrefectHQ/fastmcp",
+      "notes": "Originally jlowin/fastmcp; canonical repo is PrefectHQ/fastmcp.",
+      "category": "mcp-tools"
+    },
+    {
+      "id": "sourcegraph-cody-public-snapshot",
+      "githubUrl": "https://github.com/sourcegraph/cody-public-snapshot",
+      "notes": "Live sourcegraph/cody repo is not public; this snapshot is the available OSS artifact. Cody product direction later moved toward Amp.",
+      "category": "coding-agents"
+    },
+    {
+      "id": "swe-agent-swe-agent",
+      "githubUrl": "https://github.com/SWE-agent/SWE-agent",
+      "notes": "princeton-nlp/SWE-agent redirects to SWE-agent/SWE-agent.",
+      "category": "coding-agents"
+    },
+    {
+      "id": "verl-project-verl",
+      "githubUrl": "https://github.com/verl-project/verl",
+      "notes": "Moved from volcengine/verl to verl-project/verl.",
+      "category": "training"
+    },
+    {
+      "id": "vibrantlabsai-ragas",
+      "githubUrl": "https://github.com/vibrantlabsai/ragas",
+      "notes": "Formerly explodinggradients/ragas; GitHub now resolves to vibrantlabsai/ragas. Last push as of verification was 2026-02-24 (moderate maintenance). Activity verification 2026-08-12: maintenance moderate\u2192slow (pushedAt=2026-02-24T07:47:19Z, primary_status=low_activity).",
+      "category": "evaluation"
+    },
+    {
+      "id": "zai-org-cogvideo",
+      "githubUrl": "https://github.com/zai-org/CogVideo",
+      "notes": "Canonical GitHub owner is zai-org (formerly THUDM/CogVideo). Activity verification 2026-08-12: maintenance moderate\u2192slow (pushedAt=2025-11-04T11:19:04Z, primary_status=low_activity).",
+      "category": "video-ai"
+    }
+  ],
+  "notes_accuracy_nits": [
+    {
+      "id": "openinterpreter-openinterpreter",
+      "issue": "notes say 'open-interpreter redirects' but github.com/open-interpreter/open-interpreter returns 404; actual redirects confirmed from KillianLucas/open-interpreter and OpenInterpreter/open-interpreter \u2192 openinterpreter/openinterpreter",
+      "severity": "notes_imprecise_not_duplicate",
+      "action": "optional_notes_tweak_only"
+    }
+  ],
+  "homepage_collisions_benign": [
+    {
+      "homepage": "https://www.eleuther.ai",
+      "ids": [
+        "eleutherai-lm-evaluation-harness",
+        "eleutherai-gpt-neox"
+      ],
+      "note": "Shared org homepage; distinct repos"
+    },
+    {
+      "homepage": "https://modelcontextprotocol.io",
+      "ids": [
+        "modelcontextprotocol-inspector",
+        "modelcontextprotocol-servers"
+      ],
+      "note": "Shared project homepage; distinct repos"
+    }
+  ],
+  "consolidations_performed": [],
+  "method": {
+    "dataset_scan": "Full scan of data/canonical/*.json and data/raw/*.json for URL, owner/repo, case-insensitive, id, name collisions",
+    "redirect_confirmation": "HTTP follow-redirects via curl for suspected rename/transfer URLs only (not all 233). GitHub REST API rate-limited (403); used HTML redirects instead.",
+    "consolidation_policy": "Only consolidate clear duplicates (same underlying githubUrl/redirect target listed twice). Intentional lineage pairs kept."
+  },
+  "editorial_formerly_without_notes_field": [
+    {
+      "id": "agno-agi-agno",
+      "githubUrl": "https://github.com/agno-agi/agno",
+      "editorialSummary_excerpt": "Agno (formerly Phidata)",
+      "confirmed_redirect": "phidatahq/phidata \u2192 agno-agi/agno"
+    }
+  ]
+}

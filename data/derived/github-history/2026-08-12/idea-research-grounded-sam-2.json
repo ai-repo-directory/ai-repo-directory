@@ -1,0 +1,21 @@
+{
+  "id": "idea-research-grounded-sam-2",
+  "fetchedAt": "2026-08-12T17:39:50.485Z",
+  "stars": 3688,
+  "forks": 428,
+  "watchers": 15,
+  "openIssues": 58,
+  "language": "Jupyter Notebook",
+  "license": "Apache-2.0",
+  "description": "Grounded SAM 2: Ground and Track Anything in Videos with Grounding DINO, Florence-2 and SAM 2",
+  "homepage": "https://arxiv.org/abs/2401.14159",
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2025-11-11T12:16:57Z",
+  "updatedAt": "2026-08-12T09:26:01Z",
+  "createdAt": "2024-08-01T06:56:29Z",
+  "latestRelease": "v1.0",
+  "latestReleaseAt": "2024-12-11T05:29:16Z",
+  "defaultBranch": "main"
+}

@@ -1,0 +1,1739 @@
+[
+  {
+    "id": "aaif-goose-goose",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "abanteai-archive-old-cli-mentat",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "acly-krita-ai-diffusion",
+    "canonicalLicense": "GPL-3.0",
+    "githubLicense": "GPL-3.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "ag2ai-ag2",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "agno-agi-agno",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "ai-dynamo-dynamo",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": null,
+    "openness": "open_source",
+    "flags": [
+      "missing_github_license",
+      "canonical_present_github_null"
+    ]
+  },
+  {
+    "id": "ai-hypercomputer-maxtext",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "aider-ai-aider",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "ailab-cvc-videocrafter",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": null,
+    "openness": "open_source",
+    "flags": [
+      "missing_github_license",
+      "canonical_present_github_null"
+    ]
+  },
+  {
+    "id": "ali-vilab-vgen",
+    "canonicalLicense": null,
+    "githubLicense": null,
+    "openness": "unclear_or_none",
+    "flags": [
+      "missing_github_license",
+      "missing_license"
+    ]
+  },
+  {
+    "id": "allenai-dolma",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "allenai-molmo",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "anomalyco-opencode",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "answerdotai-ragatouille",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "antonosika-gpt-engineer",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "argilla-io-argilla",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "argilla-io-distilabel",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "arize-ai-phoenix",
+    "canonicalLicense": "Elastic-2.0",
+    "githubLicense": null,
+    "openness": "source_available",
+    "flags": [
+      "missing_github_license",
+      "canonical_present_github_null",
+      "source_available_not_osi",
+      "elastic_license"
+    ]
+  },
+  {
+    "id": "automatic1111-stable-diffusion-webui",
+    "canonicalLicense": "AGPL-3.0",
+    "githubLicense": "AGPL-3.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "axolotl-ai-cloud-axolotl",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "bentoml-bentoml",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "bitsandbytes-foundation-bitsandbytes",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "black-forest-labs-flux",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "blinkdl-rwkv-lm",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "braintrustdata-autoevals",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "browserbase-mcp-server-browserbase",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "camel-ai-camel",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "chatboxai-chatbox",
+    "canonicalLicense": "GPL-3.0",
+    "githubLicense": "GPL-3.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "chatgptnextweb-nextchat",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "chroma-core-chroma",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "cline-cline",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "comfy-org-comfyui",
+    "canonicalLicense": "GPL-3.0",
+    "githubLicense": "GPL-3.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "composiohq-composio",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "confident-ai-deepeval",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "continuedev-continue",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "coqui-ai-tts",
+    "canonicalLicense": "MPL-2.0",
+    "githubLicense": "MPL-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "crewaiinc-crewai",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "cursortouch-windows-mcp",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "danny-avila-librechat",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "dao-ailab-flash-attention",
+    "canonicalLicense": "BSD-3-Clause",
+    "githubLicense": "BSD-3-Clause",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "datadreamer-dev-datadreamer",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "deepseek-ai-deepseek-vl2",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "deepset-ai-haystack",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "deepspeedai-deepspeed",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "determined-ai-determined",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "doubiiu-dynamicrafter",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "dphnai-sonar",
+    "canonicalLicense": "AGPL-3.0",
+    "githubLicense": "AGPL-3.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "eleutherai-gpt-neox",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "eleutherai-lm-evaluation-harness",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "eleutherai-the-pile",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "exo-explore-exo",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "facebookresearch-audiocraft",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "facebookresearch-chameleon",
+    "canonicalLicense": null,
+    "githubLicense": null,
+    "openness": "unclear_or_none",
+    "flags": [
+      "missing_github_license",
+      "missing_license"
+    ]
+  },
+  {
+    "id": "facebookresearch-demucs",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "facebookresearch-faiss",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "facebookresearch-moviegenbench",
+    "canonicalLicense": "CC-BY-NC-4.0",
+    "githubLicense": null,
+    "openness": "source_available",
+    "flags": [
+      "missing_github_license",
+      "canonical_present_github_null",
+      "non_commercial",
+      "source_available_not_osi",
+      "creative_commons_nc"
+    ]
+  },
+  {
+    "id": "facebookresearch-sam2",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "facebookresearch-seamless-communication",
+    "canonicalLicense": "CC-BY-NC-4.0",
+    "githubLicense": null,
+    "openness": "source_available",
+    "flags": [
+      "missing_github_license",
+      "canonical_present_github_null",
+      "non_commercial",
+      "source_available_not_osi",
+      "creative_commons_nc"
+    ]
+  },
+  {
+    "id": "facebookresearch-segment-anything",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "fishaudio-fish-speech",
+    "canonicalLicense": null,
+    "githubLicense": null,
+    "openness": "unclear_or_none",
+    "flags": [
+      "missing_github_license",
+      "missing_license"
+    ]
+  },
+  {
+    "id": "flyteorg-flyte",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "genmoai-mochi",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "ggml-org-llama.cpp",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "ggml-org-whisper-cpp",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "giskard-ai-giskard-oss",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "github-github-mcp-server",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "google-adk-python",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "google-flax",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "google-gemini-gemini-cli",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "guoyww-animatediff",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "hao-ai-lab-fastvideo",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "haotian-liu-llava",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "harvardnlp-annotated-transformer",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "helicone-helicone",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "hiyouga-llamafactory",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "hpcaitech-colossalai",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "hpcaitech-open-sora",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "huggingface-accelerate",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "huggingface-chat-ui",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "huggingface-datasets",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "huggingface-datatrove",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "huggingface-diffusers",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "huggingface-fineweb-2",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "huggingface-peft",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "huggingface-smolagents",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "huggingface-text-generation-inference",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "huggingface-transformers",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "huggingface-trl",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "hzwer-eccv2022-rife",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "idea-research-grounded-sam-2",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "idea-research-groundingdino",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "instantx-research-instantid",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "instructlab-instructlab",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "internlm-lmdeploy",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "invoke-ai-invokeai",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "itzcrazykns-vane",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "janhq-jan",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": null,
+    "openness": "open_source",
+    "flags": [
+      "missing_github_license",
+      "canonical_present_github_null"
+    ]
+  },
+  {
+    "id": "karpathy-mingpt",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "karpathy-nanogpt",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "khoj-ai-khoj",
+    "canonicalLicense": "AGPL-3.0",
+    "githubLicense": "AGPL-3.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "kserve-kserve",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "kubeflow-kubeflow",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "lancedb-lancedb",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "langchain-ai-langchain",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "langchain-ai-langchain-mcp-adapters",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "langchain-ai-langgraph",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "langfuse-langfuse",
+    "canonicalLicense": "MIT",
+    "githubLicense": null,
+    "openness": "open_source",
+    "flags": [
+      "missing_github_license",
+      "canonical_present_github_null"
+    ]
+  },
+  {
+    "id": "langgenius-dify",
+    "canonicalLicense": null,
+    "githubLicense": null,
+    "openness": "unclear_or_none",
+    "flags": [
+      "missing_github_license",
+      "missing_license"
+    ]
+  },
+  {
+    "id": "lastmile-ai-mcp-agent",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "lightning-ai-litgpt",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "lightricks-ltx-video",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "llava-vl-llava-next",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "lllyasviel-controlnet",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "lllyasviel-fooocus",
+    "canonicalLicense": "GPL-3.0",
+    "githubLicense": "GPL-3.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "lllyasviel-stable-diffusion-webui-forge",
+    "canonicalLicense": "AGPL-3.0",
+    "githubLicense": "AGPL-3.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "llm-d-llm-d",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "lostruins-koboldcpp",
+    "canonicalLicense": "AGPL-3.0",
+    "githubLicense": "AGPL-3.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "lucidrains-x-transformers",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "m-bain-whisperx",
+    "canonicalLicense": "BSD-2-Clause",
+    "githubLicense": "BSD-2-Clause",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "mark3labs-mcp-go",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "mcmonkeyprojects-swarmui",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "mcp-use-mcp-use",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "meilisearch-meilisearch",
+    "canonicalLicense": null,
+    "githubLicense": null,
+    "openness": "unclear_or_none",
+    "flags": [
+      "missing_github_license",
+      "missing_license"
+    ]
+  },
+  {
+    "id": "meta-llama-synthetic-data-kit",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "meta-pytorch-torchtune",
+    "canonicalLicense": "BSD-3-Clause",
+    "githubLicense": "BSD-3-Clause",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "microsoft-autogen",
+    "canonicalLicense": "CC-BY-4.0",
+    "githubLicense": "CC-BY-4.0",
+    "openness": "open_source",
+    "flags": [
+      "conflicting_metadata",
+      "creative_commons",
+      "unusual_for_software",
+      "canonical_fixed_to_github"
+    ]
+  },
+  {
+    "id": "microsoft-bitnet",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "microsoft-phicookbook",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "microsoft-playwright-mcp",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "microsoft-semantic-kernel",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "microsoft-unilm",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "milvus-io-milvus",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "mintplex-labs-anything-llm",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "ml-explore-mlx",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "mlc-ai-mlc-llm",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "mlc-ai-web-llm",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "mlflow-mlflow",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "mlfoundations-open-clip",
+    "canonicalLicense": "MIT",
+    "githubLicense": null,
+    "openness": "open_source",
+    "flags": [
+      "missing_github_license",
+      "canonical_present_github_null"
+    ]
+  },
+  {
+    "id": "modelcontextprotocol-inspector",
+    "canonicalLicense": null,
+    "githubLicense": null,
+    "openness": "unclear_or_none",
+    "flags": [
+      "missing_github_license",
+      "missing_license"
+    ]
+  },
+  {
+    "id": "modelcontextprotocol-python-sdk",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "modelcontextprotocol-registry",
+    "canonicalLicense": null,
+    "githubLicense": null,
+    "openness": "unclear_or_none",
+    "flags": [
+      "missing_github_license",
+      "missing_license"
+    ]
+  },
+  {
+    "id": "modelcontextprotocol-servers",
+    "canonicalLicense": null,
+    "githubLicense": null,
+    "openness": "unclear_or_none",
+    "flags": [
+      "missing_github_license",
+      "missing_license"
+    ]
+  },
+  {
+    "id": "modelcontextprotocol-typescript-sdk",
+    "canonicalLicense": null,
+    "githubLicense": null,
+    "openness": "unclear_or_none",
+    "flags": [
+      "missing_github_license",
+      "missing_license"
+    ]
+  },
+  {
+    "id": "modelscope-diffsynth-studio",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "mosaicml-streaming",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "mozilla-ai-llamafile",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": null,
+    "openness": "open_source",
+    "flags": [
+      "missing_github_license",
+      "canonical_present_github_null"
+    ]
+  },
+  {
+    "id": "mudler-localai",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "myshell-ai-openvoice",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "netflix-metaflow",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "neuml-txtai",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "nomic-ai-gpt4all",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "nvidia-megatron-lm",
+    "canonicalLicense": null,
+    "githubLicense": null,
+    "openness": "unclear_or_none",
+    "flags": [
+      "missing_github_license",
+      "missing_license"
+    ]
+  },
+  {
+    "id": "nvidia-nemo-curator",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "nvidia-nemo-speech",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "nvidia-tensorrt-llm",
+    "canonicalLicense": null,
+    "githubLicense": null,
+    "openness": "unclear_or_none",
+    "flags": [
+      "missing_github_license",
+      "missing_license"
+    ]
+  },
+  {
+    "id": "ollama-ollama",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "onyx-dot-app-onyx",
+    "canonicalLicense": null,
+    "githubLicense": null,
+    "openness": "unclear_or_none",
+    "flags": [
+      "missing_github_license",
+      "missing_license"
+    ]
+  },
+  {
+    "id": "oobabooga-textgen",
+    "canonicalLicense": "AGPL-3.0",
+    "githubLicense": "AGPL-3.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "open-telemetry-opentelemetry-collector",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "open-telemetry-semantic-conventions",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "open-webui-open-webui",
+    "canonicalLicense": null,
+    "githubLicense": null,
+    "openness": "unclear_or_none",
+    "flags": [
+      "missing_github_license",
+      "missing_license"
+    ]
+  },
+  {
+    "id": "openai-clip",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "openai-codex",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "openai-evals",
+    "canonicalLicense": "MIT",
+    "githubLicense": null,
+    "openness": "open_source",
+    "flags": [
+      "missing_github_license",
+      "canonical_present_github_null"
+    ]
+  },
+  {
+    "id": "openai-openai-agents-python",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "openai-swarm",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "openai-whisper",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "openbmb-minicpm-v",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "opengvlab-internvl",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "openhands-openhands",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "openinterpreter-openinterpreter",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "opennmt-ctranslate2",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "openrlhf-openrlhf",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "pgvector-pgvector",
+    "canonicalLicense": null,
+    "githubLicense": null,
+    "openness": "unclear_or_none",
+    "flags": [
+      "missing_github_license",
+      "missing_license"
+    ]
+  },
+  {
+    "id": "plachtaa-vall-e-x",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "predibase-lorax",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "prefecthq-fastmcp",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "promptfoo-promptfoo",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "pydantic-pydantic-ai",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "qdrant-qdrant",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "quivrhq-quivr",
+    "canonicalLicense": null,
+    "githubLicense": null,
+    "openness": "unclear_or_none",
+    "flags": [
+      "missing_github_license",
+      "missing_license"
+    ]
+  },
+  {
+    "id": "qwenlm-qwen-code",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "qwenlm-qwen-vl",
+    "canonicalLicense": null,
+    "githubLicense": null,
+    "openness": "unclear_or_none",
+    "flags": [
+      "missing_github_license",
+      "missing_license"
+    ]
+  },
+  {
+    "id": "qwenlm-qwen3-vl",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "ray-project-ray",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "rhasspy-piper",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "roocodeinc-roo-code",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "run-llama-llama-index",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "rvc-project-retrieval-based-voice-conversion-webui",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "salesforce-lavis",
+    "canonicalLicense": "BSD-3-Clause",
+    "githubLicense": "BSD-3-Clause",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "sdv-dev-sdv",
+    "canonicalLicense": null,
+    "githubLicense": null,
+    "openness": "unclear_or_none",
+    "flags": [
+      "missing_github_license",
+      "missing_license"
+    ]
+  },
+  {
+    "id": "sgl-project-sglang",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "significant-gravitas-autogpt",
+    "canonicalLicense": null,
+    "githubLicense": null,
+    "openness": "unclear_or_none",
+    "flags": [
+      "missing_github_license",
+      "missing_license"
+    ]
+  },
+  {
+    "id": "sillytavern-sillytavern",
+    "canonicalLicense": "AGPL-3.0",
+    "githubLicense": "AGPL-3.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "skypilot-org-skypilot",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "smol-ai-developer",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "sourcegraph-cody-public-snapshot",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "stability-ai-generative-models",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "stanford-crfm-helm",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "state-spaces-mamba",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "state-spaces-s4",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "suno-ai-bark",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "swe-agent-swe-agent",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "swivid-f5-tts",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "systran-faster-whisper",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "tabbyml-tabby",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": null,
+    "openness": "open_source",
+    "flags": [
+      "missing_github_license",
+      "canonical_present_github_null"
+    ]
+  },
+  {
+    "id": "tencent-ailab-ip-adapter",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "tencent-hunyuan-hunyuanvideo",
+    "canonicalLicense": null,
+    "githubLicense": null,
+    "openness": "unclear_or_none",
+    "flags": [
+      "missing_github_license",
+      "missing_license"
+    ]
+  },
+  {
+    "id": "tensorflow-tensor2tensor",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "togethercomputer-redpajama-data",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "traceloop-openllmetry",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "triton-inference-server-server",
+    "canonicalLicense": "BSD-3-Clause",
+    "githubLicense": "BSD-3-Clause",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "truera-trulens",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "ukgovernmentbeis-inspect-ai",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "unslothai-unsloth",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "upstash-context7",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "vchitect-venhancer",
+    "canonicalLicense": null,
+    "githubLicense": null,
+    "openness": "unclear_or_none",
+    "flags": [
+      "missing_github_license",
+      "missing_license"
+    ]
+  },
+  {
+    "id": "verl-project-verl",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "vespa-engine-vespa",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "vibrantlabsai-ragas",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "vision-cair-minigpt-4",
+    "canonicalLicense": "BSD-3-Clause",
+    "githubLicense": "BSD-3-Clause",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "vladmandic-sdnext",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "vllm-project-aibrix",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "vllm-project-llm-compressor",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "vllm-project-vllm",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "voideditor-void",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "wan-video-wan2-1",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "wandb-wandb",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "weaviate-weaviate",
+    "canonicalLicense": "BSD-3-Clause",
+    "githubLicense": "BSD-3-Clause",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "xinntao-real-esrgan",
+    "canonicalLicense": "BSD-3-Clause",
+    "githubLicense": "BSD-3-Clause",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "yl4579-styletts2",
+    "canonicalLicense": "MIT",
+    "githubLicense": "MIT",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "zai-org-cogvideo",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  },
+  {
+    "id": "zylon-ai-private-gpt",
+    "canonicalLicense": "Apache-2.0",
+    "githubLicense": "Apache-2.0",
+    "openness": "open_source",
+    "flags": []
+  }
+]

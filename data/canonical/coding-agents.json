@@ -24,7 +24,7 @@
     ],
     "language": "Rust",
     "license": "Apache-2.0",
-    "stars": 52721,
+    "stars": 52720,
     "forks": 5992,
     "latestCommitAt": "2026-08-12T17:23:42Z",
     "latestRelease": "v1.46.0",
@@ -166,9 +166,9 @@
     ],
     "language": "TypeScript",
     "license": "MIT",
-    "stars": 196501,
-    "forks": 25253,
-    "latestCommitAt": "2026-08-12T17:23:17Z",
+    "stars": 196508,
+    "forks": 25256,
+    "latestCommitAt": "2026-08-12T17:35:36Z",
     "latestRelease": "v1.18.16",
     "archived": false,
     "maintenance": "active",
@@ -261,9 +261,9 @@
     ],
     "language": "TypeScript",
     "license": "Apache-2.0",
-    "stars": 66053,
+    "stars": 66054,
     "forks": 7094,
-    "latestCommitAt": "2026-08-12T17:23:44Z",
+    "latestCommitAt": "2026-08-12T17:39:19Z",
     "latestRelease": "cli-v3.0.53",
     "archived": false,
     "maintenance": "active",
@@ -295,8 +295,8 @@
     "githubUrl": "https://github.com/continuedev/continue",
     "homepage": "https://continue.dev",
     "description": "open-source coding agent",
-    "editorialSummary": "Open-source coding agent and IDE extension that brings chat, autocomplete, and agentic edits into VS Code and JetBrains with your choice of model providers. Strong emphasis on customizable rules, context providers, and local or cloud LLMs.",
-    "whyCare": "One of the most mature OSS Cursor/Copilot-style IDE experiences; easy path to BYOK or fully local coding assistance inside the editors developers already use.",
+    "editorialSummary": "Continue was a pioneering open-source coding agent (CLI, VS Code extension, and JetBrains plugin) with BYOK providers, rules, and context providers. The continuedev/continue GitHub repo is now read-only and no longer actively maintained after a final 2.0.0 release.",
+    "whyCare": "Still a major historical Cursor/Copilot-class OSS IDE agent and a useful read-only reference/fork base, but not an actively developed upstream—prefer maintained alternatives for new work.",
     "primaryCategory": "coding-agents",
     "secondaryCategories": [
       "local-ai",
@@ -317,7 +317,7 @@
     "latestCommitAt": "2026-08-12T08:40:25Z",
     "latestRelease": "v2.0.0-vscode",
     "archived": false,
-    "maintenance": "active",
+    "maintenance": "stale",
     "selfHostable": true,
     "localOfflineCapable": true,
     "audience": [
@@ -334,8 +334,10 @@
     "dateLastVerified": "2026-08-12",
     "sources": [
       "https://github.com/continuedev/continue",
-      "https://continue.dev"
-    ]
+      "https://continue.dev",
+      "https://raw.githubusercontent.com/continuedev/continue/main/README.md"
+    ],
+    "notes": "README (2026): repo read-only / not actively maintained after final 2.0.0 release."
   },
   {
     "id": "google-gemini-gemini-cli",
@@ -362,7 +364,7 @@
     ],
     "language": "TypeScript",
     "license": "Apache-2.0",
-    "stars": 106487,
+    "stars": 106489,
     "forks": 14423,
     "latestCommitAt": "2026-08-12T16:34:43Z",
     "latestRelease": "v0.55.1",
@@ -410,7 +412,7 @@
     ],
     "language": "Rust",
     "license": "Apache-2.0",
-    "stars": 105539,
+    "stars": 105540,
     "forks": 16000,
     "latestCommitAt": "2026-08-12T16:52:43Z",
     "latestRelease": "rust-v0.147.0",
@@ -442,8 +444,8 @@
     "githubUrl": "https://github.com/OpenHands/OpenHands",
     "homepage": "https://openhands.dev",
     "description": "🙌 OpenHands: AI-Driven Development",
-    "editorialSummary": "Formerly OpenDevin: an open platform for AI-driven software development where agents can write code, run commands, browse, and collaborate on real tasks. Supports CLI and UI workflows and is a leading research-to-product coding-agent stack.",
-    "whyCare": "Highest-signal open autonomous coding agent platform after the OpenDevin rebrand; strong community, frequent releases, and a clear path from evals to day-to-day agentic development.",
+    "editorialSummary": "Formerly OpenDevin: an open platform for AI-driven software development. It can run OpenHands agents and other ACP-compatible coding agents across local, remote, and cloud backends, with Agent Canvas as a self-hosted control center for multi-agent engineering work.",
+    "whyCare": "Leading open coding-agent platform after the OpenDevin rebrand—strong when you want a self-hosted hub that can drive OpenHands or other ACP-compatible agents on real repos.",
     "primaryCategory": "coding-agents",
     "secondaryCategories": [
       "ai-agents",
@@ -459,8 +461,8 @@
     ],
     "language": "TypeScript",
     "license": "MIT",
-    "stars": 83808,
-    "forks": 10845,
+    "stars": 83811,
+    "forks": 10844,
     "latestCommitAt": "2026-08-12T16:33:59Z",
     "latestRelease": "v1.12.0",
     "archived": false,
@@ -481,7 +483,8 @@
     "dateLastVerified": "2026-08-12",
     "sources": [
       "https://github.com/OpenHands/OpenHands",
-      "https://openhands.dev"
+      "https://openhands.dev",
+      "https://raw.githubusercontent.com/OpenHands/OpenHands/main/README.md"
     ],
     "notes": "Renamed from OpenDevin; GitHub redirects All-Hands-AI/OpenHands → OpenHands/OpenHands."
   },
@@ -561,7 +564,7 @@
     "license": "Apache-2.0",
     "stars": 26944,
     "forks": 2847,
-    "latestCommitAt": "2026-08-12T17:19:41Z",
+    "latestCommitAt": "2026-08-12T17:39:21Z",
     "latestRelease": "v0.21.10",
     "archived": false,
     "maintenance": "active",
@@ -735,7 +738,7 @@
     "repo": "SWE-agent",
     "githubUrl": "https://github.com/SWE-agent/SWE-agent",
     "homepage": "https://swe-agent.com",
-    "description": "SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024]",
+    "description": "SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024] ",
     "editorialSummary": "Research-rooted agent that turns GitHub issues into attempted fixes via an LM agent loop. Influential NeurIPS 2024 system and a standard baseline for software-engineering agent benchmarks (SWE-bench family).",
     "whyCare": "Canonical open implementation for issue→PR style coding agents; essential for researchers and for teams evaluating autonomous fix workflows.",
     "primaryCategory": "coding-agents",
@@ -835,8 +838,8 @@
     "githubUrl": "https://github.com/voideditor/void",
     "homepage": "https://voideditor.com",
     "description": null,
-    "editorialSummary": "Open-source AI code editor positioned as a Cursor alternative, built on the VS Code lineage with BYOK model support. Archived on GitHub at verification time but remains a landmark OSS attempt at a full AI IDE.",
-    "whyCare": "One of the best-known open Cursor-class editors; valuable historically and as a fork base even if the primary repo is archived.",
+    "editorialSummary": "Open-source AI code editor positioned as a Cursor alternative on the VS Code lineage with BYOK model support. The project is deprecated (no longer accepting contributions) and the GitHub repo is archived; it remains a landmark fork reference.",
+    "whyCare": "One of the best-known open Cursor-class editors; valuable historically and as a fork base (see Void forks) even though upstream is deprecated/archived.",
     "primaryCategory": "coding-agents",
     "secondaryCategories": [
       "local-ai"
@@ -853,7 +856,7 @@
     "stars": 28853,
     "forks": 2624,
     "latestCommitAt": "2026-06-02T22:03:55Z",
-    "latestRelease": "v1.3.4",
+    "latestRelease": null,
     "archived": true,
     "maintenance": "archived",
     "selfHostable": true,
@@ -871,7 +874,8 @@
     "dateLastVerified": "2026-08-12",
     "sources": [
       "https://github.com/voideditor/void",
-      "https://voideditor.com"
+      "https://voideditor.com",
+      "https://raw.githubusercontent.com/voideditor/void/main/README.md"
     ],
     "notes": "latestRelease taken from git tags (v1.3.4); GitHub Releases API returned no latest release."
   }

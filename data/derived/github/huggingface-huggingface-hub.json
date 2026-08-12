@@ -1,0 +1,30 @@
+{
+  "id": "huggingface-huggingface-hub",
+  "fetchedAt": "2026-08-12T19:17:34.893Z",
+  "stars": 3797,
+  "forks": 1134,
+  "watchers": 73,
+  "openIssues": 210,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "description": "The official CLI and Python client for the Hugging Face Hub.",
+  "homepage": "https://huggingface.co/docs/huggingface_hub",
+  "topics": [
+    "deep-learning",
+    "hacktoberfest",
+    "machine-learning",
+    "model-hub",
+    "models",
+    "natural-language-processing",
+    "pretrained-models",
+    "pytorch"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-08-12T10:25:40Z",
+  "updatedAt": "2026-08-12T10:47:11Z",
+  "createdAt": "2020-12-22T10:20:28Z",
+  "latestRelease": "v1.27.0",
+  "latestReleaseAt": "2026-08-07T12:10:27Z",
+  "defaultBranch": "main"
+}

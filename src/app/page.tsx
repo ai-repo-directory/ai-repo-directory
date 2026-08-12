@@ -12,9 +12,9 @@ import { formatNumber } from "@/lib/format";
 import type { EnrichedRepository } from "@/lib/types";
 
 export const metadata: Metadata = {
-  title: "AI Repo Directory — Open-source AI discovery",
+  title: "AI Repo Directory — Curated AI discovery",
   description:
-    "Search and browse curated open-source AI repositories: coding agents, local AI, RAG, inference servers, and more.",
+    "Search and browse a curated, independently verified directory of AI repositories: coding agents, local AI, RAG, inference servers, and more.",
 };
 
 export default function HomePage() {
@@ -31,7 +31,8 @@ export default function HomePage() {
           AI Repo Directory
         </h1>
         <p className="mt-2 max-w-2xl text-base text-ink-muted">
-          High-signal open-source AI repos — scored for usefulness, not stars alone.
+          Curated, regularly refreshed AI repos — scored for usefulness, not stars
+          alone.
         </p>
         <div className="mt-5 max-w-xl">
           <SearchForm autofocus />
@@ -83,8 +84,8 @@ export default function HomePage() {
             repos={highlights.featured}
           />
           <HomeSection
-            title="Trending"
-            description="Highest adoption in the catalog"
+            title="Most starred"
+            description="Highest adoption in the catalog (not star-velocity trending)"
             href="/explore?sort=stars"
             repos={highlights.trending}
           />

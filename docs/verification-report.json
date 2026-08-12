@@ -1,0 +1,63 @@
+{
+  "campaign": "independent-dataset-verification",
+  "verified_at": "2026-08-12T17:58:09Z",
+  "starting_repository_count": 233,
+  "final_verified_repository_count": 233,
+  "repositories_removed": 0,
+  "repositories_renamed_or_transferred": {
+    "live_api_renames_detected": 0,
+    "documented_lineage_notes_in_catalog": 27
+  },
+  "duplicates_consolidated": 0,
+  "stale_projects_identified": 32,
+  "archived_projects_identified": 13,
+  "low_activity_projects_identified": 27,
+  "historically_important_dual_labeled": 28,
+  "inaccurate_summaries_corrected": 13,
+  "readme_flagged_remaining": 2,
+  "readme_fetch_failed": 1,
+  "category_corrections": 19,
+  "license_problems": {
+    "open_source": 210,
+    "source_available": 3,
+    "unclear_or_none": 20,
+    "canonical_fixed_to_github": 1,
+    "non_commercial": 2
+  },
+  "important_missing_repositories_found": 28,
+  "important_missing_by_tier": {
+    "Strong candidate": 22,
+    "Critical omission": 3,
+    "Optional/niche": 3
+  },
+  "independent_benchmark_candidates": 120,
+  "independent_benchmark_already_present": 92,
+  "random_audit_sample_size": 75,
+  "random_audit_error_rate_percent_found": 1.33,
+  "random_audit_error_rate_percent_remaining": 0.0,
+  "random_audit_expanded": true,
+  "percent_records_verified_against_github_snapshots": 100,
+  "live_api_spotcheck": {
+    "sample": 55,
+    "ok": 55,
+    "errors": 0
+  },
+  "activity_mismatches_fixed": 52,
+  "canonical_fields_synced_from_snapshots": 60,
+  "anomalies_total": 3,
+  "github_snapshot_window": {
+    "min_fetchedAt": "2026-08-12T17:35:59.103Z",
+    "max_fetchedAt": "2026-08-12T17:40:06.364Z"
+  },
+  "ledger_verified_at": "2026-08-12T17:52:47.810Z",
+  "history_seeded": "data/derived/github-history/2026-08-12/",
+  "deliverables": [
+    "docs/verification/DATA_VERIFICATION_REPORT.md",
+    "docs/verification/MISSING_IMPORTANT_REPOS.md",
+    "docs/verification/LICENSE_AUDIT.md",
+    "docs/verification/DUPLICATE_AUDIT.md",
+    "docs/verification/FRESHNESS_POLICY.md",
+    "docs/verification/VERIFICATION_METHODOLOGY.md",
+    "docs/verification/verification-report.json"
+  ]
+}

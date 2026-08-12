@@ -1,0 +1,31 @@
+{
+  "id": "llm-d-llm-d",
+  "fetchedAt": "2026-08-12T17:39:37.692Z",
+  "stars": 4023,
+  "forks": 675,
+  "watchers": 62,
+  "openIssues": 211,
+  "language": "Shell",
+  "license": "Apache-2.0",
+  "description": "Achieve state of the art inference performance with modern accelerators on Kubernetes",
+  "homepage": "https://www.llm-d.ai",
+  "topics": [
+    "ai",
+    "cncf",
+    "distributed-inference",
+    "gpu",
+    "inference",
+    "intelligent-routing",
+    "kubernetes",
+    "llm",
+    "model-server"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-08-12T17:20:51Z",
+  "updatedAt": "2026-08-12T15:37:18Z",
+  "createdAt": "2025-04-29T18:28:17Z",
+  "latestRelease": "v0.8.1",
+  "latestReleaseAt": "2026-06-26T19:13:10Z",
+  "defaultBranch": "main"
+}

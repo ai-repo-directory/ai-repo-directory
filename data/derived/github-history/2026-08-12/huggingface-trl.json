@@ -1,0 +1,21 @@
+{
+  "id": "huggingface-trl",
+  "fetchedAt": "2026-08-12T17:39:59.438Z",
+  "stars": 19060,
+  "forks": 2902,
+  "watchers": 102,
+  "openIssues": 268,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "description": "Train transformer language models with reinforcement learning.",
+  "homepage": "http://hf.co/docs/trl",
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-08-12T17:04:07Z",
+  "updatedAt": "2026-08-12T17:05:31Z",
+  "createdAt": "2020-03-27T10:54:55Z",
+  "latestRelease": "v1.9.2",
+  "latestReleaseAt": "2026-07-28T10:39:01Z",
+  "defaultBranch": "main"
+}

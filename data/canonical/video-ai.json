@@ -26,7 +26,7 @@
     "latestCommitAt": "2026-01-09T15:01:22Z",
     "latestRelease": "VideoCrafter1",
     "archived": false,
-    "maintenance": "moderate",
+    "maintenance": "slow",
     "selfHostable": true,
     "localOfflineCapable": true,
     "audience": [
@@ -45,7 +45,7 @@
       "https://ailab-cvc.github.io/videocrafter2/",
       "https://github.com/AILab-CVC/VideoCrafter/releases/tag/VideoCrafter1"
     ],
-    "notes": "GitHub SPDX shows NOASSERTION; root License file states Apache License 2.0 for open-sourced VideoCrafter1 codes."
+    "notes": "GitHub SPDX shows NOASSERTION; root License file states Apache License 2.0 for open-sourced VideoCrafter1 codes. Activity verification 2026-08-12: maintenance moderate→slow (pushedAt=2026-01-09T15:01:22Z, primary_status=low_activity)."
   },
   {
     "id": "ali-vilab-vgen",
@@ -75,7 +75,7 @@
     "latestCommitAt": "2025-01-10T09:09:13Z",
     "latestRelease": null,
     "archived": false,
-    "maintenance": "slow",
+    "maintenance": "stale",
     "selfHostable": true,
     "localOfflineCapable": true,
     "audience": [
@@ -93,7 +93,7 @@
       "https://github.com/ali-vilab/VGen",
       "https://i2vgen-xl.github.io"
     ],
-    "notes": "No SPDX license detected on GitHub; verify model/code terms before commercial use."
+    "notes": "No SPDX license detected on GitHub; verify model/code terms before commercial use. Activity verification 2026-08-12: maintenance slow→stale (pushedAt=2025-01-10T09:09:13Z, primary_status=stale). README.md not fetchable from default branch (404); verified only via GitHub description + I2VGen-XL homepage — editorial not rewritten (unverified_readme)."
   },
   {
     "id": "doubiiu-dynamicrafter",
@@ -145,53 +145,6 @@
     ]
   },
   {
-    "id": "facebookresearch-moviegenbench",
-    "name": "MovieGenBench",
-    "owner": "facebookresearch",
-    "repo": "MovieGenBench",
-    "githubUrl": "https://github.com/facebookresearch/MovieGenBench",
-    "homepage": null,
-    "description": "Movie Gen Bench - two media generation evaluation benchmarks released with Meta Movie Gen",
-    "editorialSummary": "Meta’s open Movie Gen research artifact: evaluation benchmarks released with Movie Gen. Full Movie Gen model weights were not open-sourced; this is the primary official OSS companion release.",
-    "whyCare": "Only substantial official Meta Movie Gen OSS drop—use for T2V/evaluation research, not as a runnable Movie Gen model.",
-    "primaryCategory": "video-ai",
-    "secondaryCategories": [
-      "evaluation",
-      "research"
-    ],
-    "tags": [
-      "movie-gen",
-      "benchmark",
-      "evaluation",
-      "text-to-video",
-      "meta"
-    ],
-    "language": null,
-    "license": "CC-BY-NC-4.0",
-    "stars": 442,
-    "forks": 25,
-    "latestCommitAt": "2025-03-08T07:58:21Z",
-    "latestRelease": null,
-    "archived": false,
-    "maintenance": "slow",
-    "selfHostable": true,
-    "localOfflineCapable": true,
-    "audience": [
-      "researchers"
-    ],
-    "difficulty": "intermediate",
-    "documentationQuality": "fair",
-    "demoAvailable": false,
-    "featured": false,
-    "emerging": false,
-    "historicallySignificant": true,
-    "dateLastVerified": "2026-08-12",
-    "sources": [
-      "https://github.com/facebookresearch/MovieGenBench"
-    ],
-    "notes": "Not a Movie Gen model implementation—benchmarks only. LICENSE text is Creative Commons Attribution-NonCommercial 4.0; GitHub SPDX is NOASSERTION."
-  },
-  {
     "id": "genmoai-mochi",
     "name": "Mochi",
     "owner": "genmoai",
@@ -219,7 +172,7 @@
     "latestCommitAt": "2025-11-14T01:17:56Z",
     "latestRelease": null,
     "archived": false,
-    "maintenance": "moderate",
+    "maintenance": "slow",
     "selfHostable": true,
     "localOfflineCapable": true,
     "audience": [
@@ -236,7 +189,8 @@
     "dateLastVerified": "2026-08-12",
     "sources": [
       "https://github.com/genmoai/mochi"
-    ]
+    ],
+    "notes": "Activity verification 2026-08-12: maintenance moderate→slow (pushedAt=2025-11-14T01:17:56Z, primary_status=low_activity)."
   },
   {
     "id": "guoyww-animatediff",
@@ -266,7 +220,7 @@
     "latestCommitAt": "2024-07-31T01:14:15Z",
     "latestRelease": null,
     "archived": false,
-    "maintenance": "slow",
+    "maintenance": "stale",
     "selfHostable": true,
     "localOfflineCapable": true,
     "audience": [
@@ -284,7 +238,8 @@
     "sources": [
       "https://github.com/guoyww/AnimateDiff",
       "https://animatediff.github.io"
-    ]
+    ],
+    "notes": "Activity verification 2026-08-12: maintenance slow→stale (pushedAt=2024-07-31T01:14:15Z, primary_status=stale)."
   },
   {
     "id": "hao-ai-lab-fastvideo",
@@ -360,11 +315,11 @@
     "language": "Python",
     "license": "Apache-2.0",
     "stars": 29269,
-    "forks": 3007,
+    "forks": 3006,
     "latestCommitAt": "2026-04-09T01:52:40Z",
     "latestRelease": "v1.3",
     "archived": false,
-    "maintenance": "moderate",
+    "maintenance": "slow",
     "selfHostable": true,
     "localOfflineCapable": true,
     "audience": [
@@ -382,7 +337,8 @@
       "https://github.com/hpcaitech/Open-Sora",
       "https://hpcaitech.github.io/Open-Sora/",
       "https://github.com/hpcaitech/Open-Sora/releases/tag/v1.3"
-    ]
+    ],
+    "notes": "Activity verification 2026-08-12: maintenance moderate→slow (pushedAt=2026-04-09T01:52:40Z, primary_status=low_activity)."
   },
   {
     "id": "hzwer-eccv2022-rife",
@@ -412,7 +368,7 @@
     "latestCommitAt": "2025-09-10T06:32:03Z",
     "latestRelease": null,
     "archived": false,
-    "maintenance": "moderate",
+    "maintenance": "slow",
     "selfHostable": true,
     "localOfflineCapable": true,
     "audience": [
@@ -430,7 +386,7 @@
     "sources": [
       "https://github.com/hzwer/ECCV2022-RIFE"
     ],
-    "notes": "Practical follow-on improvements also live at hzwer/Practical-RIFE; this repo is the canonical ECCV RIFE paper code."
+    "notes": "Practical follow-on improvements also live at hzwer/Practical-RIFE; this repo is the canonical ECCV RIFE paper code. Activity verification 2026-08-12: maintenance moderate→slow (pushedAt=2025-09-10T06:32:03Z, primary_status=low_activity)."
   },
   {
     "id": "lightricks-ltx-video",
@@ -460,7 +416,7 @@
     "latestCommitAt": "2026-01-05T22:37:07Z",
     "latestRelease": null,
     "archived": false,
-    "maintenance": "moderate",
+    "maintenance": "slow",
     "selfHostable": true,
     "localOfflineCapable": true,
     "audience": [
@@ -478,7 +434,8 @@
     "sources": [
       "https://github.com/Lightricks/LTX-Video",
       "https://ltx.io/model"
-    ]
+    ],
+    "notes": "Activity verification 2026-08-12: maintenance moderate→slow (pushedAt=2026-01-05T22:37:07Z, primary_status=low_activity)."
   },
   {
     "id": "modelscope-diffsynth-studio",
@@ -558,7 +515,7 @@
     "latestCommitAt": "2025-12-16T08:36:18Z",
     "latestRelease": "0.1.0",
     "archived": false,
-    "maintenance": "moderate",
+    "maintenance": "slow",
     "selfHostable": true,
     "localOfflineCapable": true,
     "audience": [
@@ -576,7 +533,7 @@
       "https://github.com/Stability-AI/generative-models",
       "https://github.com/Stability-AI/generative-models/releases/tag/0.1.0"
     ],
-    "notes": "Repo covers multiple Stability generative models; SVD is the primary video relevance."
+    "notes": "Repo covers multiple Stability generative models; SVD is the primary video relevance. Activity verification 2026-08-12: maintenance moderate→slow (pushedAt=2025-12-16T08:36:18Z, primary_status=low_activity)."
   },
   {
     "id": "tencent-hunyuan-hunyuanvideo",
@@ -606,7 +563,7 @@
     "latestCommitAt": "2026-06-29T09:33:50Z",
     "latestRelease": null,
     "archived": false,
-    "maintenance": "active",
+    "maintenance": "moderate",
     "selfHostable": true,
     "localOfflineCapable": true,
     "audience": [
@@ -625,7 +582,7 @@
       "https://github.com/Tencent-Hunyuan/HunyuanVideo",
       "https://aivideo.hunyuan.tencent.com"
     ],
-    "notes": "GitHub license is non-SPDX (Tencent Hunyuan Community License); territorial and MAU restrictions apply—see LICENSE.txt."
+    "notes": "GitHub license is non-SPDX (Tencent Hunyuan Community License); territorial and MAU restrictions apply—see LICENSE.txt. Activity verification 2026-08-12: maintenance active→moderate (pushedAt=2026-06-29T09:33:50Z, primary_status=maintained)."
   },
   {
     "id": "vchitect-venhancer",
@@ -703,7 +660,7 @@
     "latestCommitAt": "2026-03-05T09:38:07Z",
     "latestRelease": null,
     "archived": false,
-    "maintenance": "moderate",
+    "maintenance": "slow",
     "selfHostable": true,
     "localOfflineCapable": true,
     "audience": [
@@ -721,7 +678,55 @@
     "sources": [
       "https://github.com/Wan-Video/Wan2.1",
       "https://wan.video"
-    ]
+    ],
+    "notes": "Activity verification 2026-08-12: maintenance moderate→slow (pushedAt=2026-03-05T09:38:07Z, primary_status=low_activity)."
+  },
+  {
+    "id": "wan-video-wan2-2",
+    "name": "Wan2.2",
+    "owner": "Wan-Video",
+    "repo": "Wan2.2",
+    "githubUrl": "https://github.com/Wan-Video/Wan2.2",
+    "homepage": "https://wan.video",
+    "description": "Wan: Open and Advanced Large-Scale Video Generative Models",
+    "editorialSummary": "Current Apache-licensed Wan open video generation stack (MoE T2V/I2V, S2V, Animate, TI2V)—material upgrade over Wan2.1 already in the catalog. Prefer Wan2.2 for new open video work in this family.",
+    "whyCare": "Use Wan2.2 as the current Wan open video foundation; keep Wan2.1 for lineage/history.",
+    "primaryCategory": "video-ai",
+    "secondaryCategories": [],
+    "tags": [
+      "video-generation",
+      "wan",
+      "dit",
+      "moe",
+      "apache"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 17078,
+    "forks": 2152,
+    "latestCommitAt": "2026-03-17T10:48:41Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "slow",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers",
+      "hobbyists"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/Wan-Video/Wan2.2",
+      "https://wan.video"
+    ],
+    "notes": "Companion to wan-video-wan2-1; 2.2 is the current generation with MoE and expanded modalities."
   },
   {
     "id": "zai-org-cogvideo",
@@ -752,7 +757,7 @@
     "latestCommitAt": "2025-11-04T11:19:04Z",
     "latestRelease": "v1.0",
     "archived": false,
-    "maintenance": "moderate",
+    "maintenance": "slow",
     "selfHostable": true,
     "localOfflineCapable": true,
     "audience": [
@@ -771,6 +776,6 @@
       "https://github.com/zai-org/CogVideo",
       "https://github.com/zai-org/CogVideo/releases/tag/v1.0"
     ],
-    "notes": "Canonical GitHub owner is zai-org (formerly THUDM/CogVideo)."
+    "notes": "Canonical GitHub owner is zai-org (formerly THUDM/CogVideo). Activity verification 2026-08-12: maintenance moderate→slow (pushedAt=2025-11-04T11:19:04Z, primary_status=low_activity)."
   }
 ]

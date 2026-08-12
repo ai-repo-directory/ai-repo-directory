@@ -1,0 +1,69 @@
+{
+  "agent": "group8-freshness",
+  "reviewedAt": "2026-08-12",
+  "policyPath": "docs/verification/FRESHNESS_POLICY.md",
+  "verdict": {
+    "mayCallLatest": "catalog-current / periodically refreshed only",
+    "realTime": false,
+    "honestOneLiner": "GitHub stats are refreshed about weekly from the public API; editorial notes are verified separately."
+  },
+  "schedules": {
+    "actionsWorkflow": ".github/workflows/refresh-metadata.yml",
+    "cron": "0 6 * * 0",
+    "cronMeaning": "Sunday 06:00 UTC weekly",
+    "ingestForce": true,
+    "refreshMaxAgeHoursInActions": "0",
+    "refreshMaxAgeHoursDefaultLocal": 24
+  },
+  "timestamps": {
+    "dateLastVerified": {
+      "location": "canonical RepositoryRecord",
+      "meaning": "editorial verification",
+      "observedBulkValue": "2026-08-12 for all 233 repos"
+    },
+    "fetchedAt": {
+      "location": "data/derived/github/{id}.json",
+      "meaning": "GitHub API snapshot time",
+      "shownInUi": false
+    }
+  },
+  "trending": {
+    "historicalSnapshotsExistedBeforeThisReview": false,
+    "homeTrendingIs": "sort by total effectiveStars",
+    "honestLabel": "Highest adoption / most starred in catalog",
+    "dishonestIfClaimed": "true trending / star velocity",
+    "minHistoryForTrendLabel": ">=2 successful days spanning >=7 calendar days"
+  },
+  "failedRefreshHandling": {
+    "keepsPriorSnapshot": true,
+    "recordsFetchStatus": false,
+    "nonZeroExitOnPartialFailure": false
+  },
+  "gaps": [
+    "not real-time; weekly refresh + deploy lag",
+    "UI shows stars/activity without fetchedAt",
+    "Last verified is editorial only; shown beside API stats without fetch time",
+    "failed ingest leaves stale snapshot with exit 0",
+    "home Trending title implies velocity; implementation is total stars",
+    "QC_REPORT says live stars — overclaim",
+    "canonical fallback effective* fields unlabeled in UI",
+    "possible bulk dateLastVerified stamp"
+  ],
+  "historyCollection": {
+    "implemented": true,
+    "path": "data/derived/github-history/YYYY-MM-DD/{id}.json",
+    "ingestAppendsOnSuccessfulRefresh": true,
+    "bootstrappedDay": "2026-08-12",
+    "bootstrappedCount": 233,
+    "uiChanged": false
+  },
+  "recommendedSchema": [
+    "verified_at",
+    "github_fetched_at",
+    "source_url",
+    "verification_status",
+    "fetch_status",
+    "fetch_error",
+    "keep raw GitHub snapshots separate from editorial fields"
+  ]
+}

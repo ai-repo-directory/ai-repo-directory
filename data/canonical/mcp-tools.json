@@ -44,9 +44,10 @@
     "dateLastVerified": "2026-08-12",
     "sources": [
       "https://github.com/browserbase/mcp-server-browserbase",
-      "https://stagehand.dev"
+      "https://stagehand.dev",
+      "https://raw.githubusercontent.com/browserbase/mcp-server-browserbase/main/README.md"
     ],
-    "notes": "Repo is archived on GitHub as of verification date."
+    "notes": "Repo is archived on GitHub as of verification date. Requires Browserbase cloud browsers—not meaningfully self-hostable offline; Agent10 audit set selfHostable=false."
   },
   {
     "id": "composiohq-composio",
@@ -74,9 +75,9 @@
     "language": "TypeScript",
     "license": "MIT",
     "stars": 29649,
-    "forks": 4696,
+    "forks": 4695,
     "latestCommitAt": "2026-08-12T15:21:18Z",
-    "latestRelease": "@composio/core@0.16.0",
+    "latestRelease": "@composio/cli@0.3.3",
     "archived": false,
     "maintenance": "active",
     "selfHostable": true,
@@ -168,7 +169,7 @@
     ],
     "language": "Go",
     "license": "MIT",
-    "stars": 32187,
+    "stars": 32188,
     "forks": 4780,
     "latestCommitAt": "2026-08-12T13:40:55Z",
     "latestRelease": "v1.9.0",
@@ -236,52 +237,6 @@
     "sources": [
       "https://github.com/langchain-ai/langchain-mcp-adapters",
       "https://docs.langchain.com/oss/python/langchain/mcp"
-    ]
-  },
-  {
-    "id": "lastmile-ai-mcp-agent",
-    "name": "mcp-agent",
-    "owner": "lastmile-ai",
-    "repo": "mcp-agent",
-    "githubUrl": "https://github.com/lastmile-ai/mcp-agent",
-    "homepage": null,
-    "description": "Build effective agents using Model Context Protocol and simple workflow patterns",
-    "editorialSummary": "Python framework for composing effective agents on top of MCP with simple workflow patterns (fan-out, routers, evaluators). Bridges agent orchestration and MCP tool ecosystems.",
-    "whyCare": "MCP-native agent patterns without adopting a heavy general agent framework—useful when tools already speak MCP.",
-    "primaryCategory": "mcp-tools",
-    "secondaryCategories": [
-      "ai-agents"
-    ],
-    "tags": [
-      "mcp",
-      "agents",
-      "workflows",
-      "python",
-      "orchestration"
-    ],
-    "language": "Python",
-    "license": "Apache-2.0",
-    "stars": 8502,
-    "forks": 875,
-    "latestCommitAt": "2026-01-25T16:35:16Z",
-    "latestRelease": "v0.0.21",
-    "archived": false,
-    "maintenance": "moderate",
-    "selfHostable": true,
-    "localOfflineCapable": true,
-    "audience": [
-      "engineers",
-      "researchers"
-    ],
-    "difficulty": "intermediate",
-    "documentationQuality": "good",
-    "demoAvailable": true,
-    "featured": false,
-    "emerging": false,
-    "historicallySignificant": false,
-    "dateLastVerified": "2026-08-12",
-    "sources": [
-      "https://github.com/lastmile-ai/mcp-agent"
     ]
   },
   {
@@ -427,6 +382,55 @@
     ]
   },
   {
+    "id": "modelcontextprotocol-go-sdk",
+    "name": "MCP Go SDK",
+    "owner": "modelcontextprotocol",
+    "repo": "go-sdk",
+    "githubUrl": "https://github.com/modelcontextprotocol/go-sdk",
+    "homepage": "https://modelcontextprotocol.io",
+    "description": "The official Go SDK for Model Context Protocol servers and clients. Maintained in collaboration with Google.",
+    "editorialSummary": "Official Go MCP SDK (with Google collaboration) for building servers and clients. Completes official language parity alongside the Python and TypeScript SDKs already in the catalog.",
+    "whyCare": "Shipping MCP in Go—use the official SDK rather than community wrappers alone.",
+    "primaryCategory": "mcp-tools",
+    "secondaryCategories": [
+      "infrastructure"
+    ],
+    "tags": [
+      "mcp",
+      "sdk",
+      "go",
+      "official",
+      "google"
+    ],
+    "language": "Go",
+    "license": null,
+    "stars": 4970,
+    "forks": 504,
+    "latestCommitAt": "2026-08-10T08:52:52Z",
+    "latestRelease": "v1.7.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": true,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/modelcontextprotocol/go-sdk",
+      "https://modelcontextprotocol.io",
+      "https://raw.githubusercontent.com/modelcontextprotocol/go-sdk/main/LICENSE"
+    ],
+    "notes": "GitHub license SPDX is NOASSERTION; repo LICENSE describes MIT→Apache-2.0 transition."
+  },
+  {
     "id": "modelcontextprotocol-inspector",
     "name": "MCP Inspector",
     "owner": "modelcontextprotocol",
@@ -473,6 +477,57 @@
       "https://modelcontextprotocol.io"
     ],
     "notes": "No SPDX license detected via GitHub license API."
+  },
+  {
+    "id": "modelcontextprotocol-modelcontextprotocol",
+    "name": "Model Context Protocol",
+    "owner": "modelcontextprotocol",
+    "repo": "modelcontextprotocol",
+    "githubUrl": "https://github.com/modelcontextprotocol/modelcontextprotocol",
+    "homepage": "https://modelcontextprotocol.io",
+    "description": "Specification and documentation for the Model Context Protocol",
+    "editorialSummary": "Official MCP specification and documentation repository—the protocol standard for wiring LLM apps to tools, resources, and prompts. Companion to the official SDKs and servers already catalogued.",
+    "whyCare": "Authoritative protocol home for MCP: read the spec here before implementing servers/clients or debating ecosystem compatibility.",
+    "primaryCategory": "mcp-tools",
+    "secondaryCategories": [
+      "infrastructure"
+    ],
+    "tags": [
+      "mcp",
+      "specification",
+      "protocol",
+      "tools",
+      "anthropic",
+      "official"
+    ],
+    "language": "TypeScript",
+    "license": null,
+    "stars": 8935,
+    "forks": 1711,
+    "latestCommitAt": "2026-08-12T15:57:45Z",
+    "latestRelease": "2026-07-28",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises",
+      "researchers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": false,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/modelcontextprotocol/modelcontextprotocol",
+      "https://modelcontextprotocol.io",
+      "https://raw.githubusercontent.com/modelcontextprotocol/modelcontextprotocol/main/LICENSE"
+    ],
+    "notes": "GitHub license SPDX is NOASSERTION; repo LICENSE describes MIT→Apache-2.0 transition (docs CC-BY-4.0)."
   },
   {
     "id": "modelcontextprotocol-python-sdk",
@@ -579,8 +634,8 @@
     "githubUrl": "https://github.com/modelcontextprotocol/servers",
     "homepage": "https://modelcontextprotocol.io",
     "description": "Model Context Protocol Servers",
-    "editorialSummary": "Reference and community MCP server implementations maintained by the MCP project. It is the canonical starting collection for filesystem, fetch, git, memory, and other baseline tool servers that clients like Claude Desktop and Cursor consume.",
-    "whyCare": "The official sample/reference server monorepo—use it to learn the protocol shape and ship production-ready baseline tools quickly.",
+    "editorialSummary": "Official MCP reference-server monorepo (filesystem, fetch, git, memory, and related examples) maintained by the MCP steering group. Intended as educational SDK samples—not a production server catalog; browse the MCP Registry for published servers.",
+    "whyCare": "Best place to learn reference MCP server shape and SDK usage; for production integrations prefer purpose-built servers and the MCP Registry rather than these examples.",
     "primaryCategory": "mcp-tools",
     "secondaryCategories": [
       "infrastructure"
@@ -595,8 +650,8 @@
     ],
     "language": "TypeScript",
     "license": null,
-    "stars": 89490,
-    "forks": 11435,
+    "stars": 89492,
+    "forks": 11434,
     "latestCommitAt": "2026-08-10T02:41:59Z",
     "latestRelease": "2026.7.10",
     "archived": false,
@@ -617,7 +672,8 @@
     "dateLastVerified": "2026-08-12",
     "sources": [
       "https://github.com/modelcontextprotocol/servers",
-      "https://modelcontextprotocol.io"
+      "https://modelcontextprotocol.io",
+      "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
     ],
     "notes": "GitHub license SPDX is NOASSERTION; repo LICENSE describes MIT→Apache-2.0 transition."
   },
@@ -648,7 +704,7 @@
     "stars": 13150,
     "forks": 2072,
     "latestCommitAt": "2026-08-11T07:12:54Z",
-    "latestRelease": "1.30.0",
+    "latestRelease": "@modelcontextprotocol/fastify@2.0.0",
     "archived": false,
     "maintenance": "active",
     "selfHostable": true,

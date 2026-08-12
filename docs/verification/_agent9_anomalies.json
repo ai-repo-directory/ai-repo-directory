@@ -1,0 +1,86 @@
+{
+  "generatedAt": "2026-08-12T19:26:06.828Z",
+  "today": "2026-08-12",
+  "totals": {
+    "canonicalRepos": 256,
+    "githubSnapshots": 256,
+    "scoreRecords": 256,
+    "anomalies": 3,
+    "fixesApplied": 0
+  },
+  "countsByType": {
+    "impossible_negative_counts": 0,
+    "suspicious_star_counts": 1,
+    "stars_lower_than_forks": 0,
+    "impossible_dates": 0,
+    "release_before_created": 0,
+    "malformed_github_url": 0,
+    "missing_required_fields": 0,
+    "duplicate_editorial_text": 0,
+    "repetitive_ai_phrasing": 0,
+    "identical_metadata": 0,
+    "canonical_derived_mismatch": 0,
+    "owner_repo_url_mismatch": 0,
+    "id_slug_mismatch": 1,
+    "fabricated_date_last_verified": 1
+  },
+  "fixes": [],
+  "anomalies": [
+    {
+      "type": "suspicious_star_counts",
+      "severity": "info",
+      "id": "internlm-lmdeploy",
+      "file": "data/canonical/llm-inference.json",
+      "message": "Round star count 8000 confirmed by derived GitHub snapshot (likely real)",
+      "details": {
+        "stars": 8000,
+        "derivedStars": 8000,
+        "confirmedBySnapshot": true
+      }
+    },
+    {
+      "type": "id_slug_mismatch",
+      "severity": "info",
+      "id": "ggml-org-llama.cpp",
+      "file": "data/canonical/local-ai.json",
+      "message": "id keeps literal '.' from repo name; schema prefers hyphenated \"ggml-org-llama-cpp\"",
+      "details": {
+        "expected": "ggml-org-llama-cpp",
+        "owner": "ggml-org",
+        "repo": "llama.cpp"
+      }
+    },
+    {
+      "type": "fabricated_date_last_verified",
+      "severity": "info",
+      "message": "dateLastVerified \"2026-08-12\" shared by 256/256 projects (all have github fetchedAt)",
+      "details": {
+        "date": "2026-08-12",
+        "count": 256,
+        "withoutFetchedAt": [],
+        "sampleIds": [
+          "ag2ai-ag2",
+          "agno-agi-agno",
+          "browser-use-browser-use",
+          "camel-ai-camel",
+          "crewaiinc-crewai",
+          "google-adk-python",
+          "huggingface-smolagents",
+          "langchain-ai-langgraph",
+          "langgenius-dify",
+          "lastmile-ai-mcp-agent",
+          "microsoft-agent-framework",
+          "microsoft-autogen",
+          "microsoft-semantic-kernel",
+          "openai-openai-agents-python",
+          "openai-swarm",
+          "pydantic-pydantic-ai",
+          "significant-gravitas-autogpt",
+          "coqui-ai-tts",
+          "facebookresearch-audiocraft",
+          "facebookresearch-demucs"
+        ]
+      }
+    }
+  ]
+}

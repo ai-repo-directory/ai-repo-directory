@@ -1,0 +1,21 @@
+{
+  "id": "facebookresearch-segment-anything",
+  "fetchedAt": "2026-08-12T17:39:33.935Z",
+  "stars": 54679,
+  "forks": 6356,
+  "watchers": 334,
+  "openIssues": 594,
+  "language": "Jupyter Notebook",
+  "license": "Apache-2.0",
+  "description": "The repository provides code for running inference with the SegmentAnything Model (SAM), links for downloading the trained model checkpoints, and example notebooks that show how to use the model.",
+  "homepage": null,
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2024-09-18T17:46:55Z",
+  "updatedAt": "2026-08-12T15:31:42Z",
+  "createdAt": "2023-03-23T17:03:03Z",
+  "latestRelease": null,
+  "latestReleaseAt": null,
+  "defaultBranch": "main"
+}

@@ -96,53 +96,50 @@
     ]
   },
   {
-    "id": "ggml-org-llama.cpp",
-    "name": "llama.cpp",
-    "owner": "ggml-org",
-    "repo": "llama.cpp",
-    "githubUrl": "https://github.com/ggml-org/llama.cpp",
-    "homepage": "https://llama.app",
-    "description": "LLM inference in C/C++",
-    "editorialSummary": "llama.cpp is the foundational C/C++ runtime for running GGUF LLMs efficiently on CPU, Apple Silicon, and many GPUs. It powers a large share of local-AI tooling and defines the GGUF ecosystem used by Ollama, llamafile, and others.",
-    "whyCare": "Best-in-class portable inference when you care about quantization, edge/CPU performance, and a dependency-light C++ core rather than a Python serving stack.",
+    "id": "flashinfer-ai-flashinfer",
+    "name": "FlashInfer",
+    "owner": "flashinfer-ai",
+    "repo": "flashinfer",
+    "githubUrl": "https://github.com/flashinfer-ai/flashinfer",
+    "homepage": "https://flashinfer.ai",
+    "description": "FlashInfer: Kernel Library for LLM Serving",
+    "editorialSummary": "High-performance attention and KV/MoE kernels aimed at LLM serving engines. Complements FlashAttention with serving-oriented primitives used by modern inference stacks.",
+    "whyCare": "Adopt FlashInfer when building or tuning LLM servers that need state-of-the-art attention/KV kernels.",
     "primaryCategory": "llm-inference",
     "secondaryCategories": [
-      "local-ai"
+      "infrastructure"
     ],
     "tags": [
-      "gguf",
-      "ggml",
-      "cpu",
-      "quantization",
-      "apple-silicon",
-      "c++"
+      "attention",
+      "kernels",
+      "llm-serving",
+      "kv-cache",
+      "cuda"
     ],
-    "language": "C++",
-    "license": "MIT",
-    "stars": 123662,
-    "forks": 21626,
-    "latestCommitAt": "2026-08-12T17:07:38Z",
-    "latestRelease": "b10375",
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 6153,
+    "forks": 1270,
+    "latestCommitAt": "2026-08-12T18:01:31Z",
+    "latestRelease": "v0.6.17",
     "archived": false,
     "maintenance": "active",
     "selfHostable": true,
     "localOfflineCapable": true,
     "audience": [
       "engineers",
-      "hobbyists",
-      "researchers",
-      "students"
+      "researchers"
     ],
-    "difficulty": "intermediate",
+    "difficulty": "advanced",
     "documentationQuality": "good",
-    "demoAvailable": false,
-    "featured": true,
-    "emerging": false,
-    "historicallySignificant": true,
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": true,
+    "historicallySignificant": false,
     "dateLastVerified": "2026-08-12",
     "sources": [
-      "https://github.com/ggml-org/llama.cpp",
-      "https://github.com/ggml-org/llama.cpp/blob/master/README.md"
+      "https://github.com/flashinfer-ai/flashinfer",
+      "https://flashinfer.ai"
     ]
   },
   {
@@ -269,7 +266,7 @@
     "latestCommitAt": "2026-07-27T05:52:06Z",
     "latestRelease": null,
     "archived": false,
-    "maintenance": "moderate",
+    "maintenance": "active",
     "selfHostable": true,
     "localOfflineCapable": true,
     "audience": [
@@ -286,7 +283,8 @@
     "dateLastVerified": "2026-08-12",
     "sources": [
       "https://github.com/microsoft/BitNet"
-    ]
+    ],
+    "notes": "Activity verification 2026-08-12: maintenance moderate→active (pushedAt=2026-07-27T05:52:06Z, primary_status=actively_maintained)."
   },
   {
     "id": "ml-explore-mlx",
@@ -368,7 +366,7 @@
     "latestCommitAt": "2026-07-31T03:03:18Z",
     "latestRelease": null,
     "archived": false,
-    "maintenance": "moderate",
+    "maintenance": "active",
     "selfHostable": true,
     "localOfflineCapable": true,
     "audience": [
@@ -386,7 +384,8 @@
     "sources": [
       "https://github.com/mlc-ai/mlc-llm",
       "https://llm.mlc.ai/"
-    ]
+    ],
+    "notes": "Activity verification 2026-08-12: maintenance moderate→active (pushedAt=2026-07-31T03:03:18Z, primary_status=actively_maintained)."
   },
   {
     "id": "nvidia-tensorrt-llm",
@@ -540,8 +539,8 @@
     "githubUrl": "https://github.com/sgl-project/sglang",
     "homepage": "https://sglang.io",
     "description": "SGLang is a high-performance serving framework for large language models and multimodal models.",
-    "editorialSummary": "SGLang is a high-performance serving framework focused on fast structured generation, RadixAttention for KV-cache reuse, and strong multimodal/MoE support. It competes directly with vLLM for cutting-edge throughput on modern GPUs.",
-    "whyCare": "Strong alternative to vLLM when you need radix-cache efficiency, constrained/structured decoding, or leading multimodal and MoE serving performance.",
+    "editorialSummary": "SGLang is a high-performance LLM serving framework focused on fast structured generation, RadixAttention for KV-cache reuse, and strong multimodal/MoE support. It is a primary open alternative to vLLM for throughput-oriented GPU serving.",
+    "whyCare": "Strong alternative to vLLM when you need radix-cache efficiency, constrained/structured decoding, or competitive multimodal and MoE serving performance.",
     "primaryCategory": "llm-inference",
     "secondaryCategories": [
       "multimodal",
@@ -558,8 +557,8 @@
     "language": "Python",
     "license": "Apache-2.0",
     "stars": 31715,
-    "forks": 7836,
-    "latestCommitAt": "2026-08-12T17:18:22Z",
+    "forks": 7837,
+    "latestCommitAt": "2026-08-12T17:39:08Z",
     "latestRelease": "v0.5.17",
     "archived": false,
     "maintenance": "active",
@@ -579,7 +578,8 @@
     "dateLastVerified": "2026-08-12",
     "sources": [
       "https://github.com/sgl-project/sglang",
-      "https://docs.sglang.io/"
+      "https://docs.sglang.io/",
+      "https://raw.githubusercontent.com/sgl-project/sglang/main/README.md"
     ]
   },
   {
@@ -606,7 +606,7 @@
     ],
     "language": "Python",
     "license": "Apache-2.0",
-    "stars": 88884,
+    "stars": 88886,
     "forks": 20597,
     "latestCommitAt": "2026-08-12T17:22:11Z",
     "latestRelease": "v0.27.1",

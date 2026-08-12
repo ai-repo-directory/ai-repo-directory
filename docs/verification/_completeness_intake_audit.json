@@ -1,0 +1,131 @@
+{
+  "date": "2026-08-12",
+  "new_additions": 23,
+  "sample_size": 15,
+  "sample_pct": 65.2,
+  "error_count": 0,
+  "error_rate": 0.0,
+  "sample": [
+    {
+      "id": "berriai-litellm",
+      "status": "ok",
+      "issues": [],
+      "live_stars": 56194,
+      "snap_stars": 56194,
+      "full_name": "BerriAI/litellm"
+    },
+    {
+      "id": "browser-use-browser-use",
+      "status": "ok",
+      "issues": [],
+      "live_stars": 108951,
+      "snap_stars": 108950,
+      "full_name": "browser-use/browser-use"
+    },
+    {
+      "id": "flashinfer-ai-flashinfer",
+      "status": "ok",
+      "issues": [],
+      "live_stars": 6153,
+      "snap_stars": 6153,
+      "full_name": "flashinfer-ai/flashinfer"
+    },
+    {
+      "id": "huggingface-huggingface-hub",
+      "status": "ok",
+      "issues": [],
+      "live_stars": 3797,
+      "snap_stars": 3797,
+      "full_name": "huggingface/huggingface_hub"
+    },
+    {
+      "id": "infiniflow-ragflow",
+      "status": "ok",
+      "issues": [],
+      "live_stars": 87479,
+      "snap_stars": 87477,
+      "full_name": "infiniflow/ragflow"
+    },
+    {
+      "id": "microsoft-agent-framework",
+      "status": "ok",
+      "issues": [],
+      "live_stars": 12753,
+      "snap_stars": 12753,
+      "full_name": "microsoft/agent-framework"
+    },
+    {
+      "id": "microsoft-graphrag",
+      "status": "ok",
+      "issues": [],
+      "live_stars": 35453,
+      "snap_stars": 35453,
+      "full_name": "microsoft/graphrag"
+    },
+    {
+      "id": "ml-explore-mlx-lm",
+      "status": "ok",
+      "issues": [],
+      "live_stars": 6584,
+      "snap_stars": 6584,
+      "full_name": "ml-explore/mlx-lm"
+    },
+    {
+      "id": "modelcontextprotocol-go-sdk",
+      "status": "ok",
+      "issues": [],
+      "live_stars": 4970,
+      "snap_stars": 4970,
+      "full_name": "modelcontextprotocol/go-sdk"
+    },
+    {
+      "id": "mosaicml-llm-foundry",
+      "status": "ok",
+      "issues": [],
+      "live_stars": 4438,
+      "snap_stars": 4438,
+      "full_name": "mosaicml/llm-foundry"
+    },
+    {
+      "id": "nvidia-transformerengine",
+      "status": "ok",
+      "issues": [],
+      "live_stars": 3490,
+      "snap_stars": 3490,
+      "full_name": "NVIDIA/TransformerEngine"
+    },
+    {
+      "id": "stanfordnlp-dspy",
+      "status": "ok",
+      "issues": [],
+      "live_stars": 37147,
+      "snap_stars": 37147,
+      "full_name": "stanfordnlp/dspy"
+    },
+    {
+      "id": "swe-bench-swe-bench",
+      "status": "ok",
+      "issues": [],
+      "live_stars": 5625,
+      "snap_stars": 5625,
+      "full_name": "SWE-bench/SWE-bench"
+    },
+    {
+      "id": "vercel-ai",
+      "status": "ok",
+      "issues": [],
+      "live_stars": 26149,
+      "snap_stars": 26149,
+      "full_name": "vercel/ai"
+    },
+    {
+      "id": "wan-video-wan2-2",
+      "status": "ok",
+      "issues": [],
+      "live_stars": 17078,
+      "snap_stars": 17078,
+      "full_name": "Wan-Video/Wan2.2"
+    }
+  ],
+  "errors": []
+}

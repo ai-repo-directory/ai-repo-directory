@@ -1,0 +1,21 @@
+{
+  "id": "huggingface-fineweb-2",
+  "fetchedAt": "2026-08-12T17:39:27.569Z",
+  "stars": 257,
+  "forks": 15,
+  "watchers": 5,
+  "openIssues": 3,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "description": null,
+  "homepage": null,
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2025-10-27T18:15:38Z",
+  "updatedAt": "2026-08-09T05:24:58Z",
+  "createdAt": "2024-12-05T17:26:01Z",
+  "latestRelease": null,
+  "latestReleaseAt": null,
+  "defaultBranch": "main"
+}

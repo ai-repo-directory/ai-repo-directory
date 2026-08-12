@@ -1,0 +1,26 @@
+{
+  "id": "upstash-context7",
+  "fetchedAt": "2026-08-12T17:39:49.414Z",
+  "stars": 60651,
+  "forks": 2924,
+  "watchers": 156,
+  "openIssues": 38,
+  "language": "TypeScript",
+  "license": "MIT",
+  "description": "Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors",
+  "homepage": "https://context7.com",
+  "topics": [
+    "llm",
+    "mcp",
+    "mcp-server",
+    "vibe-coding"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-08-12T15:22:34Z",
+  "updatedAt": "2026-08-12T17:04:54Z",
+  "createdAt": "2025-03-26T23:40:39Z",
+  "latestRelease": "@upstash/context7-mcp@4.0.2",
+  "latestReleaseAt": "2026-08-11T16:30:20Z",
+  "defaultBranch": "master"
+}

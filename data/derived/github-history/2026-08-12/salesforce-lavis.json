@@ -1,0 +1,33 @@
+{
+  "id": "salesforce-lavis",
+  "fetchedAt": "2026-08-12T17:39:53.011Z",
+  "stars": 11264,
+  "forks": 1110,
+  "watchers": 93,
+  "openIssues": 500,
+  "language": "Jupyter Notebook",
+  "license": "BSD-3-Clause",
+  "description": "LAVIS - A One-stop Library for Language-Vision Intelligence",
+  "homepage": null,
+  "topics": [
+    "deep-learning",
+    "deep-learning-library",
+    "image-captioning",
+    "multimodal-datasets",
+    "multimodal-deep-learning",
+    "salesforce",
+    "vision-and-language",
+    "vision-framework",
+    "vision-language-pretraining",
+    "vision-language-transformer",
+    "visual-question-anwsering"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-06-02T18:14:49Z",
+  "updatedAt": "2026-08-11T06:37:23Z",
+  "createdAt": "2022-08-24T02:36:01Z",
+  "latestRelease": "v1.0.2",
+  "latestReleaseAt": "2023-03-06T12:19:44Z",
+  "defaultBranch": "main"
+}

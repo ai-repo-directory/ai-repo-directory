@@ -9,8 +9,8 @@ export function Footer() {
         <div>
           <p className="text-sm font-semibold text-ink">AI Repo Directory</p>
           <p className="mt-2 text-sm text-ink-muted">
-            A curated, scored index of open-source AI repositories for engineers
-            and researchers.
+            A curated, scored directory of AI repositories — independently
+            verified and regularly refreshed.
           </p>
         </div>
 

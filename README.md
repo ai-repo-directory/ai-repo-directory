@@ -1,6 +1,6 @@
 # AI Repo Directory
 
-A searchable, continuously updateable directory of high-quality open-source AI repositories — built for discovery, not star-chasing.
+A searchable, continuously updateable directory of high-quality AI repositories — curated and independently verified for discovery, not star-chasing.
 
 **Stack:** Next.js (App Router) · TypeScript · Tailwind CSS · curated JSON + GitHub metadata pipeline
 
@@ -11,7 +11,8 @@ A searchable, continuously updateable directory of high-quality open-source AI r
 - Repository pages with editorial context, maintenance signals, and similar projects
 - Category pages and editorial collections
 - Transparent composite ranking (not stars-only) — see [RANKING_METHODOLOGY.md](./RANKING_METHODOLOGY.md)
-- GitHub metadata refresh + candidate discovery pipeline (GitHub Actions)
+- GitHub metadata refresh (weekly cadence) + candidate discovery pipeline (GitHub Actions)
+- Dataset milestone: [docs/DATASET_V1.md](./docs/DATASET_V1.md)
 
 ## Quick start
 

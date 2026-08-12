@@ -1,0 +1,32 @@
+{
+  "id": "antonosika-gpt-engineer",
+  "fetchedAt": "2026-08-12T17:39:23.006Z",
+  "stars": 55149,
+  "forks": 7302,
+  "watchers": 526,
+  "openIssues": 70,
+  "language": "Python",
+  "license": "MIT",
+  "description": "CLI platform to experiment with codegen. Precursor to: https://lovable.dev",
+  "homepage": null,
+  "topics": [
+    "ai",
+    "autonomous-agent",
+    "code-generation",
+    "codebase-generation",
+    "codegen",
+    "coding-assistant",
+    "gpt-4",
+    "gpt-engineer",
+    "openai",
+    "python"
+  ],
+  "archived": true,
+  "disabled": false,
+  "pushedAt": "2025-05-14T10:15:10Z",
+  "updatedAt": "2026-08-12T16:42:37Z",
+  "createdAt": "2023-04-29T12:52:15Z",
+  "latestRelease": "v0.3.1",
+  "latestReleaseAt": "2024-06-06T18:25:22Z",
+  "defaultBranch": "main"
+}

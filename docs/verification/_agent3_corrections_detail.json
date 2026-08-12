@@ -1,0 +1,248 @@
+[
+  {
+    "id": "continuedev-continue",
+    "summary_changed": true,
+    "before": {
+      "editorialSummary": "Open-source coding agent and IDE extension that brings chat, autocomplete, and agentic edits into VS Code and JetBrains with your choice of model providers. Strong emphasis on customizable rules, context providers, and local or cloud LLMs.",
+      "whyCare": "One of the most mature OSS Cursor/Copilot-style IDE experiences; easy path to BYOK or fully local coding assistance inside the editors developers already use."
+    },
+    "after": {
+      "editorialSummary": "Continue was a pioneering open-source coding agent (CLI, VS Code extension, and JetBrains plugin) with BYOK providers, rules, and context providers. The continuedev/continue GitHub repo is now read-only and no longer actively maintained after a final 2.0.0 release.",
+      "whyCare": "Still a major historical Cursor/Copilot-class OSS IDE agent and a useful read-only reference/fork base, but not an actively developed upstream\u2014prefer maintained alternatives for new work."
+    },
+    "field_changes": {
+      "maintenance": {
+        "from": "active",
+        "to": "stale"
+      }
+    },
+    "issues": [
+      "README states repository is no longer actively maintained / read-only after final 2.0.0; editorial presented it as mature active product; maintenance was active"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/continuedev/continue/main/README.md"
+  },
+  {
+    "id": "karpathy-nanogpt",
+    "summary_changed": true,
+    "before": {
+      "editorialSummary": "Karpathy's minimal GPT training repo that became the default educational and prototyping baseline for modern LLM research. Small enough to read end-to-end, serious enough to train real models.",
+      "whyCare": "Best starting point for understanding GPT training loops, scaling experiments, and reproducible medium-scale pretraining without framework overhead."
+    },
+    "after": {
+      "editorialSummary": "Karpathy's minimal GPT training repo that taught a generation of researchers readable pretraining loops. The README now marks nanoGPT as deprecated in favor of the newer nanochat project, but the ~300-line train/model core remains a classic educational artifact.",
+      "whyCare": "Still the clearest historical baseline for understanding GPT training loops; for new work the author points you to nanochat instead."
+    },
+    "field_changes": {
+      "maintenance": {
+        "from": "slow",
+        "to": "stale"
+      }
+    },
+    "issues": [
+      "README marks nanoGPT deprecated (Nov 2025) in favor of nanochat; editorial still called it the default/best starting point"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/karpathy/nanoGPT/master/README.md"
+  },
+  {
+    "id": "meta-pytorch-torchtune",
+    "summary_changed": true,
+    "before": {
+      "editorialSummary": "PyTorch-native post-training library with composable recipes for SFT, LoRA, preference tuning, and related workflows. Emphasizes readable, hackable PyTorch code over opaque trainers.",
+      "whyCare": "Ideal when you want first-party PyTorch recipes you can modify without fighting a heavyweight framework abstraction."
+    },
+    "after": {
+      "editorialSummary": "PyTorch-native post-training library with composable recipes for SFT, LoRA, preference tuning (DPO/PPO/GRPO), and QAT. Development wound down in 2025 and the project is no longer actively maintained, though the recipes remain a readable PyTorch reference.",
+      "whyCare": "Useful when you want hackable first-party PyTorch post-training recipes\u2014but treat it as unmaintained legacy rather than a default new stack."
+    },
+    "field_changes": {
+      "maintenance": {
+        "from": "active",
+        "to": "stale"
+      }
+    },
+    "issues": [
+      "README: torchtune no longer actively maintained (wound down 2025); editorial and maintenance=active omitted that"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/meta-pytorch/torchtune/main/README.md"
+  },
+  {
+    "id": "modelcontextprotocol-servers",
+    "summary_changed": true,
+    "before": {
+      "editorialSummary": "Reference and community MCP server implementations maintained by the MCP project. It is the canonical starting collection for filesystem, fetch, git, memory, and other baseline tool servers that clients like Claude Desktop and Cursor consume.",
+      "whyCare": "The official sample/reference server monorepo\u2014use it to learn the protocol shape and ship production-ready baseline tools quickly."
+    },
+    "after": {
+      "editorialSummary": "Official MCP reference-server monorepo (filesystem, fetch, git, memory, and related examples) maintained by the MCP steering group. Intended as educational SDK samples\u2014not a production server catalog; browse the MCP Registry for published servers.",
+      "whyCare": "Best place to learn reference MCP server shape and SDK usage; for production integrations prefer purpose-built servers and the MCP Registry rather than these examples."
+    },
+    "field_changes": {},
+    "issues": [
+      "whyCare oversold shipping production from reference servers; README WARNING says educational examples not production-ready; README points list browsers to MCP Registry"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "id": "itzcrazykns-vane",
+    "summary_changed": false,
+    "before": {
+      "editorialSummary": "Self-hosted AI answering/search engine (formerly Perplexica) built around local or remote LLMs plus search backends like SearXNG. Privacy-oriented alternative to cloud answer engines.",
+      "whyCare": "If your \u201clocal AI stack\u201d needs web-grounded Q&A\u2014not just chat\u2014this is the go-to OSS Perplexity-style stack."
+    },
+    "after": {
+      "editorialSummary": "Self-hosted AI answering/search engine (formerly Perplexica) built around local or remote LLMs plus search backends like SearXNG. Privacy-oriented alternative to cloud answer engines.",
+      "whyCare": "If your \u201clocal AI stack\u201d needs web-grounded Q&A\u2014not just chat\u2014this is the go-to OSS Perplexity-style stack."
+    },
+    "field_changes": {
+      "localOfflineCapable": {
+        "from": false,
+        "to": true
+      }
+    },
+    "issues": [
+      "localOfflineCapable=false but README: runs on your own hardware with local LLMs (Ollama) and private SearXNG search"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/ItzCrazyKns/Vane/master/README.md"
+  },
+  {
+    "id": "browserbase-mcp-server-browserbase",
+    "summary_changed": false,
+    "before": {
+      "editorialSummary": "MCP server that lets LLMs drive cloud browsers via Browserbase and Stagehand. Historically influential browser-automation MCP; repository is now archived.",
+      "whyCare": "Reference for browser-control MCP design; for active Stagehand/browser work prefer Browserbase Stagehand and newer browser MCP servers."
+    },
+    "after": {
+      "editorialSummary": "MCP server that lets LLMs drive cloud browsers via Browserbase and Stagehand. Historically influential browser-automation MCP; repository is now archived.",
+      "whyCare": "Reference for browser-control MCP design; for active Stagehand/browser work prefer Browserbase Stagehand and newer browser MCP servers."
+    },
+    "field_changes": {
+      "selfHostable": {
+        "from": false,
+        "to": true
+      }
+    },
+    "issues": [
+      "selfHostable=false but README describes a self-hostable version of the Browserbase hosted MCP server (still depends on Browserbase cloud browsers; repo archived)"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/browserbase/mcp-server-browserbase/main/README.md"
+  },
+  {
+    "id": "giskard-ai-giskard-oss",
+    "summary_changed": true,
+    "before": {
+      "editorialSummary": "Giskard OSS is an evaluation and testing library for LLM agents and ML models, covering quality, security, fairness, and automated scanning workflows.",
+      "whyCare": "Strong when you need vulnerability/red-team style testing and responsible-AI checks beyond accuracy metrics alone."
+    },
+    "after": {
+      "editorialSummary": "Giskard OSS is a Python toolkit for testing and evaluating agentic systems. v3 is a modular rewrite (scenario checks, LLM-as-judge, and giskard-scan for vulnerability/RAG quality); legacy v2 tabular/ML scan paths remain available but are no longer actively maintained.",
+      "whyCare": "Reach for it when you need agent red-teaming, multi-turn scenario checks, and RAG/quality scanning beyond simple accuracy metrics."
+    },
+    "field_changes": {},
+    "issues": [
+      "Editorial framed generic LLM/ML testing; README centers v3 agentic rewrite and notes v2 unmaintained"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/Giskard-AI/giskard-oss/main/README.md"
+  },
+  {
+    "id": "voideditor-void",
+    "summary_changed": true,
+    "before": {
+      "editorialSummary": "Open-source AI code editor positioned as a Cursor alternative, built on the VS Code lineage with BYOK model support. Archived on GitHub at verification time but remains a landmark OSS attempt at a full AI IDE.",
+      "whyCare": "One of the best-known open Cursor-class editors; valuable historically and as a fork base even if the primary repo is archived."
+    },
+    "after": {
+      "editorialSummary": "Open-source AI code editor positioned as a Cursor alternative on the VS Code lineage with BYOK model support. The project is deprecated (no longer accepting contributions) and the GitHub repo is archived; it remains a landmark fork reference.",
+      "whyCare": "One of the best-known open Cursor-class editors; valuable historically and as a fork base (see Void forks) even though upstream is deprecated/archived."
+    },
+    "field_changes": {},
+    "issues": [
+      "README says Void is deprecated; editorial only emphasized archived"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/voideditor/void/main/README.md"
+  },
+  {
+    "id": "openhands-openhands",
+    "summary_changed": true,
+    "before": {
+      "editorialSummary": "Formerly OpenDevin: an open platform for AI-driven software development where agents can write code, run commands, browse, and collaborate on real tasks. Supports CLI and UI workflows and is a leading research-to-product coding-agent stack.",
+      "whyCare": "Highest-signal open autonomous coding agent platform after the OpenDevin rebrand; strong community, frequent releases, and a clear path from evals to day-to-day agentic development."
+    },
+    "after": {
+      "editorialSummary": "Formerly OpenDevin: an open platform for AI-driven software development. It can run OpenHands agents and other ACP-compatible coding agents across local, remote, and cloud backends, with Agent Canvas as a self-hosted control center for multi-agent engineering work.",
+      "whyCare": "Leading open coding-agent platform after the OpenDevin rebrand\u2014strong when you want a self-hosted hub that can drive OpenHands or other ACP-compatible agents on real repos."
+    },
+    "field_changes": {},
+    "issues": [
+      "Editorial underspecified current multi-backend/ACP Agent Canvas positioning described in README"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/README.md"
+  },
+  {
+    "id": "sgl-project-sglang",
+    "summary_changed": true,
+    "before": {
+      "editorialSummary": "SGLang is a high-performance serving framework focused on fast structured generation, RadixAttention for KV-cache reuse, and strong multimodal/MoE support. It competes directly with vLLM for cutting-edge throughput on modern GPUs.",
+      "whyCare": "Strong alternative to vLLM when you need radix-cache efficiency, constrained/structured decoding, or leading multimodal and MoE serving performance."
+    },
+    "after": {
+      "editorialSummary": "SGLang is a high-performance LLM serving framework focused on fast structured generation, RadixAttention for KV-cache reuse, and strong multimodal/MoE support. It is a primary open alternative to vLLM for throughput-oriented GPU serving.",
+      "whyCare": "Strong alternative to vLLM when you need radix-cache efficiency, constrained/structured decoding, or competitive multimodal and MoE serving performance."
+    },
+    "field_changes": {},
+    "issues": [
+      "editorial used AI-slop phrase cutting-edge; otherwise factually aligned with README"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/sgl-project/sglang/main/README.md"
+  },
+  {
+    "id": "zylon-ai-private-gpt",
+    "summary_changed": true,
+    "before": {
+      "editorialSummary": "PrivateGPT popularized private, document-local RAG with a complete API over local or OpenAI-compatible models. It now extends into tools, MCP, and text-to-SQL while keeping privacy-first defaults.",
+      "whyCare": "Ideal when documents must stay on-prem and you want a ready API for private RAG rather than wiring inference and retrieval yourself."
+    },
+    "after": {
+      "editorialSummary": "PrivateGPT is an open-source API layer that turns local (or OpenAI-compatible) models into private AI applications\u2014document RAG and higher-level building blocks with a Claude-style API. It popularized private document Q&A and continues to emphasize on-prem/privacy-first defaults.",
+      "whyCare": "Ideal when documents must stay on-prem and you want a ready API for private RAG and related app primitives rather than wiring inference and retrieval yourself."
+    },
+    "field_changes": {},
+    "issues": [
+      "README now positions product as API layer for private AI apps (Claude API model); editorial was slightly RAG-era only though still directionally right"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/zylon-ai/private-gpt/main/README.md"
+  },
+  {
+    "id": "fishaudio-fish-speech",
+    "summary_changed": true,
+    "before": {
+      "editorialSummary": "Actively maintained open TTS stack from Fish Audio positioned as SOTA multilingual speech synthesis with strong cloning and deployment tooling. Custom research/non-commercial license\u2014commercial use needs a separate agreement.",
+      "whyCare": "Current high-quality open TTS choice for cloning and multilingual speech when you can accept the Fish Audio research license terms."
+    },
+    "after": {
+      "editorialSummary": "Actively maintained open TTS stack from Fish Audio with strong multilingual synthesis and voice cloning, plus deployment tooling. README cites leading Seed-TTS Eval WER numbers; license is research/non-commercial unless you obtain a separate commercial agreement.",
+      "whyCare": "High-quality open TTS choice for cloning and multilingual speech when you can accept the Fish Audio research license terms."
+    },
+    "field_changes": {},
+    "issues": [
+      "editorial asserted SOTA positioning; README supports strong Seed-TTS Eval WER results\u2014rewrote to cite that rather than unqualified SOTA"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/fishaudio/fish-speech/main/README.md"
+  },
+  {
+    "id": "run-llama-llama-index",
+    "summary_changed": true,
+    "before": {
+      "editorialSummary": "LlamaIndex is the go-to Python framework for connecting LLMs to private data via indexing, retrieval, and query engines. It covers ingestion connectors, vector/graph stores, agentic RAG patterns, and evaluation utilities used across production knowledge systems.",
+      "whyCare": "If you are building document Q&A, knowledge agents, or multi-source RAG pipelines in Python, LlamaIndex offers the deepest retrieval-centric abstractions and ecosystem of integrations."
+    },
+    "after": {
+      "editorialSummary": "LlamaIndex is a widely used Python framework for building agentic LLM applications over private data\u2014indexing, retrieval/query engines, connectors, and agent workflows. Retrieval-centric abstractions remain a core strength alongside broader agent tooling.",
+      "whyCare": "If you are building document Q&A, knowledge agents, or multi-source RAG/agent pipelines in Python, LlamaIndex offers deep data-connection abstractions and a large integration ecosystem."
+    },
+    "field_changes": {},
+    "issues": [
+      "README lead now stresses agentic applications; editorial was RAG-only framing\u2014updated to match without inventing features"
+    ],
+    "readme_url": "https://raw.githubusercontent.com/run-llama/llama_index/main/README.md"
+  }
+]

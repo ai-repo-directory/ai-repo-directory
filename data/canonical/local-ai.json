@@ -5,7 +5,7 @@
     "owner": "chatboxai",
     "repo": "chatbox",
     "githubUrl": "https://github.com/chatboxai/chatbox",
-    "homepage": "https://chatboxai.app",
+    "homepage": "https://chatboxai.app?utm_medium=github",
     "description": "Powerful AI Client",
     "editorialSummary": "Cross-platform desktop/mobile AI client with multi-provider support including Ollama. Emphasizes a polished client UX for daily chatting across local and cloud models.",
     "whyCare": "Strong alternative to browser UIs when you want a native client that still talks to local OpenAI-compatible servers.",
@@ -119,8 +119,8 @@
     "license": "MIT",
     "stars": 41958,
     "forks": 8674,
-    "latestCommitAt": "2026-08-12T17:25:09Z",
-    "latestRelease": "v0.8.7",
+    "latestCommitAt": "2026-08-12T17:31:51Z",
+    "latestRelease": null,
     "archived": false,
     "maintenance": "active",
     "selfHostable": true,
@@ -142,6 +142,57 @@
       "https://librechat.ai/"
     ],
     "notes": "GitHub /releases/latest 404 (recent releases marked prerelease); latestRelease taken from newest published tag v0.8.7."
+  },
+  {
+    "id": "ggml-org-llama.cpp",
+    "name": "llama.cpp",
+    "owner": "ggml-org",
+    "repo": "llama.cpp",
+    "githubUrl": "https://github.com/ggml-org/llama.cpp",
+    "homepage": "https://llama.app",
+    "description": "LLM inference in C/C++",
+    "editorialSummary": "llama.cpp is the foundational C/C++ runtime for running GGUF LLMs efficiently on CPU, Apple Silicon, and many GPUs. It powers a large share of local-AI tooling and defines the GGUF ecosystem used by Ollama, llamafile, and others.",
+    "whyCare": "Best-in-class portable inference when you care about quantization, edge/CPU performance, and a dependency-light C++ core rather than a Python serving stack.",
+    "primaryCategory": "local-ai",
+    "secondaryCategories": [
+      "llm-inference"
+    ],
+    "tags": [
+      "gguf",
+      "ggml",
+      "cpu",
+      "quantization",
+      "apple-silicon",
+      "c++"
+    ],
+    "language": "C++",
+    "license": "MIT",
+    "stars": 123663,
+    "forks": 21626,
+    "latestCommitAt": "2026-08-12T17:07:38Z",
+    "latestRelease": "b10375",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "researchers",
+      "students"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/ggml-org/llama.cpp",
+      "https://github.com/ggml-org/llama.cpp/blob/master/README.md"
+    ],
+    "notes": "Category verification 2026-08-12: llm-inference/['local-ai'] → local-ai/['llm-inference']."
   },
   {
     "id": "huggingface-chat-ui",
@@ -188,56 +239,6 @@
       "https://github.com/huggingface/chat-ui",
       "https://huggingface.co/chat"
     ]
-  },
-  {
-    "id": "itzcrazykns-vane",
-    "name": "Vane",
-    "owner": "ItzCrazyKns",
-    "repo": "Vane",
-    "githubUrl": "https://github.com/ItzCrazyKns/Vane",
-    "homepage": null,
-    "description": "Vane is an AI-powered answering engine.",
-    "editorialSummary": "Self-hosted AI answering/search engine (formerly Perplexica) built around local or remote LLMs plus search backends like SearXNG. Privacy-oriented alternative to cloud answer engines.",
-    "whyCare": "If your “local AI stack” needs web-grounded Q&A—not just chat—this is the go-to OSS Perplexity-style stack.",
-    "primaryCategory": "local-ai",
-    "secondaryCategories": [
-      "rag"
-    ],
-    "tags": [
-      "search",
-      "answering-engine",
-      "searxng",
-      "self-hosted",
-      "rag",
-      "perplexica"
-    ],
-    "language": "TypeScript",
-    "license": "MIT",
-    "stars": 36105,
-    "forks": 3996,
-    "latestCommitAt": "2026-04-11T14:33:06Z",
-    "latestRelease": "v1.12.2",
-    "archived": false,
-    "maintenance": "moderate",
-    "selfHostable": true,
-    "localOfflineCapable": false,
-    "audience": [
-      "hobbyists",
-      "engineers",
-      "students"
-    ],
-    "difficulty": "intermediate",
-    "documentationQuality": "good",
-    "demoAvailable": false,
-    "featured": false,
-    "emerging": false,
-    "historicallySignificant": false,
-    "dateLastVerified": "2026-08-12",
-    "sources": [
-      "https://github.com/ItzCrazyKns/Vane",
-      "https://github.com/ItzCrazyKns/Perplexica"
-    ],
-    "notes": "Renamed from Perplexica (ItzCrazyKns/Perplexica → ItzCrazyKns/Vane). localOfflineCapable false because search grounding typically needs network/SearXNG."
   },
   {
     "id": "janhq-jan",
@@ -437,6 +438,55 @@
     ]
   },
   {
+    "id": "ml-explore-mlx-lm",
+    "name": "MLX LM",
+    "owner": "ml-explore",
+    "repo": "mlx-lm",
+    "githubUrl": "https://github.com/ml-explore/mlx-lm",
+    "homepage": null,
+    "description": "Run LLMs with MLX",
+    "editorialSummary": "Native Apple Silicon LLM inference and fine-tuning on MLX—the practical load/generate/LoRA layer companions use with the MLX array framework. Complements the existing mlx catalog entry.",
+    "whyCare": "On Mac, mlx-lm is the turnkey path to run and adapt LLMs on Apple Silicon with MLX.",
+    "primaryCategory": "local-ai",
+    "secondaryCategories": [
+      "llm-inference",
+      "training"
+    ],
+    "tags": [
+      "mlx",
+      "apple-silicon",
+      "local-llm",
+      "lora",
+      "python"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 6584,
+    "forks": 949,
+    "latestCommitAt": "2026-08-12T17:01:18Z",
+    "latestRelease": "v0.31.3",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "researchers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/ml-explore/mlx-lm",
+      "https://github.com/ml-explore/mlx"
+    ]
+  },
+  {
     "id": "mlc-ai-web-llm",
     "name": "WebLLM",
     "owner": "mlc-ai",
@@ -508,7 +558,7 @@
     ],
     "language": "C++",
     "license": "Apache-2.0",
-    "stars": 25543,
+    "stars": 25544,
     "forks": 1545,
     "latestCommitAt": "2026-08-03T06:27:13Z",
     "latestRelease": "0.10.5",
@@ -660,7 +710,7 @@
     ],
     "language": "Go",
     "license": "MIT",
-    "stars": 178354,
+    "stars": 178355,
     "forks": 17371,
     "latestCommitAt": "2026-08-12T14:31:00Z",
     "latestRelease": "v0.32.9",
@@ -749,8 +799,7 @@
     "whyCare": "Turns a local model server into a full product experience—documents, agents, and team access—without building your own chat app.",
     "primaryCategory": "local-ai",
     "secondaryCategories": [
-      "rag",
-      "ai-agents"
+      "rag"
     ],
     "tags": [
       "webui",
@@ -763,7 +812,7 @@
     "language": "Python",
     "license": null,
     "stars": 148594,
-    "forks": 21631,
+    "forks": 21630,
     "latestCommitAt": "2026-08-12T07:13:40Z",
     "latestRelease": "v0.11.0",
     "archived": false,
@@ -788,7 +837,7 @@
       "https://openwebui.com",
       "https://raw.githubusercontent.com/open-webui/open-webui/main/LICENSE"
     ],
-    "notes": "GitHub license is NOASSERTION; project uses a custom Open WebUI License (BSD-like with branding restrictions). Source-available; verify license for your deployment size."
+    "notes": "GitHub license is NOASSERTION; project uses a custom Open WebUI License (BSD-like with branding restrictions). Source-available; verify license for your deployment size. Category verification 2026-08-12: local-ai/['rag', 'ai-agents'] → local-ai/['rag']."
   },
   {
     "id": "sillytavern-sillytavern",
@@ -811,12 +860,12 @@
     ],
     "language": "JavaScript",
     "license": "AGPL-3.0",
-    "stars": 32008,
+    "stars": 32009,
     "forks": 6039,
     "latestCommitAt": "2026-07-11T22:43:10Z",
     "latestRelease": "1.18.0",
     "archived": false,
-    "maintenance": "active",
+    "maintenance": "moderate",
     "selfHostable": true,
     "localOfflineCapable": true,
     "audience": [
@@ -832,6 +881,7 @@
     "sources": [
       "https://github.com/SillyTavern/SillyTavern",
       "https://sillytavern.app"
-    ]
+    ],
+    "notes": "Activity verification 2026-08-12: maintenance active→moderate (pushedAt=2026-07-11T22:43:10Z, primary_status=maintained)."
   }
 ]

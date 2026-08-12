@@ -1,0 +1,30 @@
+{
+  "id": "vchitect-venhancer",
+  "fetchedAt": "2026-08-12T17:40:05.745Z",
+  "stars": 578,
+  "forks": 33,
+  "watchers": 21,
+  "openIssues": 21,
+  "language": "Python",
+  "license": null,
+  "description": "Official codes of VEnhancer: Generative Space-Time Enhancement for Video Generation",
+  "homepage": "https://vchitect.github.io/VEnhancer-project/",
+  "topics": [
+    "aigc-enhancement",
+    "diffusion-models",
+    "frame-interpolation",
+    "text-to-video",
+    "video-enhancement",
+    "video-generation",
+    "video-super-resolution",
+    "video-to-video"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2024-09-16T13:48:02Z",
+  "updatedAt": "2026-08-05T09:13:42Z",
+  "createdAt": "2024-07-10T13:52:26Z",
+  "latestRelease": null,
+  "latestReleaseAt": null,
+  "defaultBranch": "main"
+}

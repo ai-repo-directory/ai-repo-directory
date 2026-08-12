@@ -1,5 +1,54 @@
 [
   {
+    "id": "ai-hypercomputer-maxtext",
+    "name": "MaxText",
+    "owner": "AI-Hypercomputer",
+    "repo": "maxtext",
+    "githubUrl": "https://github.com/AI-Hypercomputer/maxtext",
+    "homepage": "https://maxtext.readthedocs.io",
+    "description": "A simple, performant, and scalable Jax LLM!",
+    "editorialSummary": "Google's high-performance JAX LLM training reference (now under AI-Hypercomputer) for scalable pretraining on GPUs/TPUs. Practical JAX counterpart to PyTorch Megatron-style stacks.",
+    "whyCare": "Best-known open JAX example stack for serious LLM training research and performance work.",
+    "primaryCategory": "training",
+    "secondaryCategories": [
+      "research",
+      "infrastructure"
+    ],
+    "tags": [
+      "jax",
+      "llm",
+      "pretraining",
+      "tpu",
+      "maxtext"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 2387,
+    "forks": 582,
+    "latestCommitAt": "2026-08-12T17:37:05Z",
+    "latestRelease": "maxtext-v0.2.3",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": true,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/AI-Hypercomputer/maxtext",
+      "https://maxtext.readthedocs.io"
+    ],
+    "notes": "Formerly google/maxtext; GitHub canonical full_name is AI-Hypercomputer/maxtext. Category verification 2026-08-12: research/['training', 'infrastructure'] → training/['research', 'infrastructure']."
+  },
+  {
     "id": "axolotl-ai-cloud-axolotl",
     "name": "Axolotl",
     "owner": "axolotl-ai-cloud",
@@ -10,9 +59,7 @@
     "editorialSummary": "YAML-driven fine-tuning framework supporting many model architectures, chat templates, and training methods (LoRA, QLoRA, full FT). Favored by practitioners who want reproducible configs over ad-hoc scripts.",
     "whyCare": "Excellent config-first workflow for production-ish fine-tunes with community recipes and strong multi-GPU support.",
     "primaryCategory": "training",
-    "secondaryCategories": [
-      "local-ai"
-    ],
+    "secondaryCategories": [],
     "tags": [
       "fine-tuning",
       "lora",
@@ -47,7 +94,7 @@
       "https://github.com/axolotl-ai-cloud/axolotl",
       "https://docs.axolotl.ai"
     ],
-    "notes": "Moved from OpenAccess-AI-Collective/axolotl to axolotl-ai-cloud/axolotl."
+    "notes": "Moved from OpenAccess-AI-Collective/axolotl to axolotl-ai-cloud/axolotl. Category verification 2026-08-12: training/['local-ai'] → training/[]."
   },
   {
     "id": "bitsandbytes-foundation-bitsandbytes",
@@ -61,8 +108,7 @@
     "whyCare": "QLoRA and many low-VRAM training recipes depend on bitsandbytes for 4/8-bit weights and optimizers.",
     "primaryCategory": "training",
     "secondaryCategories": [
-      "llm-inference",
-      "local-ai"
+      "llm-inference"
     ],
     "tags": [
       "quantization",
@@ -98,7 +144,8 @@
     "sources": [
       "https://github.com/bitsandbytes-foundation/bitsandbytes",
       "https://huggingface.co/docs/bitsandbytes/main/en/index"
-    ]
+    ],
+    "notes": "Category verification 2026-08-12: training/['llm-inference', 'local-ai'] → training/['llm-inference']."
   },
   {
     "id": "dao-ailab-flash-attention",
@@ -211,8 +258,7 @@
     "whyCare": "Covers the full post-training stack (LoRA/QLoRA, DPO, KTO, PPO, etc.) without stitching together separate PEFT/TRL scripts for each model family.",
     "primaryCategory": "training",
     "secondaryCategories": [
-      "multimodal",
-      "local-ai"
+      "multimodal"
     ],
     "tags": [
       "fine-tuning",
@@ -227,7 +273,7 @@
     ],
     "language": "Python",
     "license": "Apache-2.0",
-    "stars": 74026,
+    "stars": 74027,
     "forks": 9057,
     "latestCommitAt": "2026-08-10T03:20:42Z",
     "latestRelease": "v0.9.5",
@@ -252,7 +298,7 @@
       "https://github.com/hiyouga/LlamaFactory",
       "https://llamafactory.readthedocs.io"
     ],
-    "notes": "GitHub canonical name is LlamaFactory; LLaMA-Factory redirects."
+    "notes": "GitHub canonical name is LlamaFactory; LLaMA-Factory redirects. Category verification 2026-08-12: training/['multimodal', 'local-ai'] → training/['multimodal']."
   },
   {
     "id": "hpcaitech-colossalai",
@@ -450,6 +496,55 @@
     ]
   },
   {
+    "id": "lightning-ai-litgpt",
+    "name": "LitGPT",
+    "owner": "Lightning-AI",
+    "repo": "litgpt",
+    "githubUrl": "https://github.com/Lightning-AI/litgpt",
+    "homepage": "https://lightning.ai",
+    "description": "20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale.",
+    "editorialSummary": "Lightning AI's readable from-scratch LLM implementations with production-minded recipes for pretrain, finetune, and deploy. Emphasizes clarity over framework magic while staying competitive on throughput.",
+    "whyCare": "Useful when you want research-grade LLM training code that is still approachable enough to hack on without Megatron-scale complexity.",
+    "primaryCategory": "training",
+    "secondaryCategories": [
+      "research"
+    ],
+    "tags": [
+      "llm",
+      "pretraining",
+      "finetuning",
+      "lightning",
+      "recipes"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 13611,
+    "forks": 1483,
+    "latestCommitAt": "2026-07-20T10:24:12Z",
+    "latestRelease": "v0.5.13",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers",
+      "students"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/Lightning-AI/litgpt",
+      "https://lightning.ai"
+    ],
+    "notes": "Category verification 2026-08-12: research/['training'] → training/['research']."
+  },
+  {
     "id": "meta-pytorch-torchtune",
     "name": "torchtune",
     "owner": "meta-pytorch",
@@ -457,8 +552,8 @@
     "githubUrl": "https://github.com/meta-pytorch/torchtune",
     "homepage": "https://pytorch.org/torchtune/main/",
     "description": "PyTorch native post-training library",
-    "editorialSummary": "PyTorch-native post-training library with composable recipes for SFT, LoRA, preference tuning, and related workflows. Emphasizes readable, hackable PyTorch code over opaque trainers.",
-    "whyCare": "Ideal when you want first-party PyTorch recipes you can modify without fighting a heavyweight framework abstraction.",
+    "editorialSummary": "PyTorch-native post-training library with composable recipes for SFT, LoRA, preference tuning (DPO/PPO/GRPO), and QAT. Development wound down in 2025 and the project is no longer actively maintained, though the recipes remain a readable PyTorch reference.",
+    "whyCare": "Useful when you want hackable first-party PyTorch post-training recipes—but treat it as unmaintained legacy rather than a default new stack.",
     "primaryCategory": "training",
     "secondaryCategories": [
       "research"
@@ -478,7 +573,7 @@
     "latestCommitAt": "2026-08-12T11:49:19Z",
     "latestRelease": "v0.6.1",
     "archived": false,
-    "maintenance": "active",
+    "maintenance": "stale",
     "selfHostable": true,
     "localOfflineCapable": true,
     "audience": [
@@ -495,9 +590,60 @@
     "dateLastVerified": "2026-08-12",
     "sources": [
       "https://github.com/meta-pytorch/torchtune",
-      "https://pytorch.org/torchtune/main/"
+      "https://pytorch.org/torchtune/main/",
+      "https://raw.githubusercontent.com/meta-pytorch/torchtune/main/README.md"
     ],
     "notes": "Moved from pytorch/torchtune to meta-pytorch/torchtune."
+  },
+  {
+    "id": "mosaicml-llm-foundry",
+    "name": "LLM Foundry",
+    "owner": "mosaicml",
+    "repo": "llm-foundry",
+    "githubUrl": "https://github.com/mosaicml/llm-foundry",
+    "homepage": "https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm",
+    "description": "LLM training code for Databricks foundation models",
+    "editorialSummary": "Composer/YAML-driven LLM training and fine-tuning stack from MosaicML/Databricks (DBRX lineage). Production-oriented multi-GPU training path distinct from Axolotl/Unsloth/Megatron recipes.",
+    "whyCare": "Use LLM Foundry for Databricks/Composer-style large-scale LLM training configs rather than hobbyist single-GPU LoRA tools.",
+    "primaryCategory": "training",
+    "secondaryCategories": [
+      "infrastructure"
+    ],
+    "tags": [
+      "training",
+      "composer",
+      "databricks",
+      "mosaicml",
+      "yaml",
+      "llm"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 4438,
+    "forks": 591,
+    "latestCommitAt": "2026-03-25T17:22:01Z",
+    "latestRelease": "v0.22.0",
+    "archived": false,
+    "maintenance": "slow",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises",
+      "researchers"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/mosaicml/llm-foundry",
+      "https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm"
+    ],
+    "notes": "Push activity slowed (last push Mar 2026) but still documented in Databricks training stacks; not abandoned."
   },
   {
     "id": "nvidia-megatron-lm",
@@ -526,7 +672,7 @@
     "license": null,
     "stars": 17403,
     "forks": 4357,
-    "latestCommitAt": "2026-08-12T17:21:09Z",
+    "latestCommitAt": "2026-08-12T17:30:53Z",
     "latestRelease": "core_v0.18.2",
     "archived": false,
     "maintenance": "active",
@@ -603,13 +749,62 @@
     "notes": "NVIDIA/NeMo and NVIDIA-NeMo/NeMo redirect here after NeMo org reorganization; related training libs include NVIDIA-NeMo/Automodel and NVIDIA-NeMo/RL."
   },
   {
+    "id": "nvidia-transformerengine",
+    "name": "Transformer Engine",
+    "owner": "NVIDIA",
+    "repo": "TransformerEngine",
+    "githubUrl": "https://github.com/NVIDIA/TransformerEngine",
+    "homepage": "https://docs.nvidia.com/deeplearning/transformer-engine/user-guide/index.html",
+    "description": "A library for accelerating Transformer models on NVIDIA GPUs, including using 8-bit and 4-bit floating point (FP8 and FP4) precision on Hopper, Ada and Blackwell GPUs, to provide better performance with lower memory utilization in both training and inference.",
+    "editorialSummary": "NVIDIA library of FP8/FP4 Transformer building blocks for Hopper/Blackwell training and inference. Foundational kernel layer for modern high-efficiency LLM training stacks.",
+    "whyCare": "Use Transformer Engine when optimizing Transformer training/inference with NVIDIA FP8/FP4 paths.",
+    "primaryCategory": "training",
+    "secondaryCategories": [
+      "llm-inference",
+      "infrastructure"
+    ],
+    "tags": [
+      "fp8",
+      "transformers",
+      "nvidia",
+      "kernels",
+      "training"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 3490,
+    "forks": 799,
+    "latestCommitAt": "2026-08-12T18:54:14Z",
+    "latestRelease": "v2.17.1",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers",
+      "enterprises"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/NVIDIA/TransformerEngine",
+      "https://docs.nvidia.com/deeplearning/transformer-engine/user-guide/index.html"
+    ]
+  },
+  {
     "id": "openrlhf-openrlhf",
     "name": "OpenRLHF",
     "owner": "OpenRLHF",
     "repo": "OpenRLHF",
     "githubUrl": "https://github.com/OpenRLHF/OpenRLHF",
     "homepage": "https://openrlhf.readthedocs.io/",
-    "description": "An Easy-to-use, Scalable and High-performance Agentic RL Framework based on Ray (PPO & DAPO & REINFORCE++ & VLM & TIS & vLLM & Ray & Async RL)",
+    "description": "An Easy-to-use, Scalable and High-performance Agentic RL Framework based on Ray (PPO & DAPO & REINFORCE++ &  VLM & TIS & vLLM & Ray & Async  RL)",
     "editorialSummary": "Ray-based scalable RLHF/agentic RL framework with PPO, DAPO, REINFORCE++, and async RL paths, often paired with vLLM for rollouts. Strong open alternative for production-minded RL post-training.",
     "whyCare": "Clean Ray + vLLM architecture for high-throughput RLHF when TRL is too small and Megatron-heavy stacks are too heavy.",
     "primaryCategory": "training",
@@ -632,7 +827,7 @@
     "latestCommitAt": "2026-07-14T01:57:21Z",
     "latestRelease": "v0.10.4",
     "archived": false,
-    "maintenance": "moderate",
+    "maintenance": "active",
     "selfHostable": true,
     "localOfflineCapable": true,
     "audience": [
@@ -650,7 +845,8 @@
     "sources": [
       "https://github.com/OpenRLHF/OpenRLHF",
       "https://openrlhf.readthedocs.io/"
-    ]
+    ],
+    "notes": "Activity verification 2026-08-12: maintenance moderate→active (pushedAt=2026-07-14T01:57:21Z, primary_status=actively_maintained)."
   },
   {
     "id": "unslothai-unsloth",
@@ -678,9 +874,9 @@
     ],
     "language": "Python",
     "license": "Apache-2.0",
-    "stars": 70569,
+    "stars": 70571,
     "forks": 6371,
-    "latestCommitAt": "2026-08-12T17:26:13Z",
+    "latestCommitAt": "2026-08-12T17:39:18Z",
     "latestRelease": "v0.1.701-beta",
     "archived": false,
     "maintenance": "active",
@@ -711,7 +907,7 @@
     "repo": "verl",
     "githubUrl": "https://github.com/verl-project/verl",
     "homepage": "https://verl-project.github.io",
-    "description": "verl/HybridFlow: A Flexible and Efficient RL Post-Training Framework",
+    "description": "verl/HybridFlow: A Flexible and Efficient RL Post-Training Framework ",
     "editorialSummary": "Flexible HybridFlow RL post-training framework for LLMs, widely used for PPO/GRPO-style and agentic reinforcement learning at scale. Became a leading open stack for reasoning-model RL.",
     "whyCare": "If you are doing RL post-training beyond TRL toy setups, verl is one of the most battle-tested open frameworks in 2025–2026.",
     "primaryCategory": "training",
@@ -732,7 +928,7 @@
     "license": "Apache-2.0",
     "stars": 22932,
     "forks": 4389,
-    "latestCommitAt": "2026-08-12T12:44:47Z",
+    "latestCommitAt": "2026-08-12T17:33:15Z",
     "latestRelease": "v0.8.0",
     "archived": false,
     "maintenance": "active",

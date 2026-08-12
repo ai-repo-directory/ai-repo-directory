@@ -1,0 +1,27 @@
+{
+  "id": "pydantic-pydantic-ai",
+  "fetchedAt": "2026-08-12T17:39:18.229Z",
+  "stars": 19247,
+  "forks": 2509,
+  "watchers": 114,
+  "openIssues": 699,
+  "language": "Python",
+  "license": "MIT",
+  "description": "AI Agent Framework, the Pydantic way",
+  "homepage": "https://pydantic.dev/pydantic-ai",
+  "topics": [
+    "agent-framework",
+    "genai",
+    "llm",
+    "pydantic",
+    "python"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-08-12T17:28:19Z",
+  "updatedAt": "2026-08-12T17:30:49Z",
+  "createdAt": "2024-06-21T15:55:04Z",
+  "latestRelease": "v1.107.4",
+  "latestReleaseAt": "2026-08-12T03:39:33Z",
+  "defaultBranch": "main"
+}

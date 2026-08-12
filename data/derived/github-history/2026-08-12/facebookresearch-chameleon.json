@@ -1,0 +1,21 @@
+{
+  "id": "facebookresearch-chameleon",
+  "fetchedAt": "2026-08-12T17:39:50.130Z",
+  "stars": 2104,
+  "forks": 118,
+  "watchers": 3,
+  "openIssues": 6,
+  "language": "Python",
+  "license": null,
+  "description": "Repository for Meta Chameleon, a mixed-modal early-fusion foundation model from FAIR.",
+  "homepage": "https://arxiv.org/abs/2405.09818",
+  "topics": [],
+  "archived": true,
+  "disabled": false,
+  "pushedAt": "2024-07-29T22:36:44Z",
+  "updatedAt": "2026-07-29T08:36:39Z",
+  "createdAt": "2024-06-18T00:36:05Z",
+  "latestRelease": null,
+  "latestReleaseAt": null,
+  "defaultBranch": "main"
+}

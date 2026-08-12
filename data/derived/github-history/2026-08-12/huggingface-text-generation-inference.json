@@ -1,0 +1,31 @@
+{
+  "id": "huggingface-text-generation-inference",
+  "fetchedAt": "2026-08-12T17:39:40.551Z",
+  "stars": 10886,
+  "forks": 1277,
+  "watchers": 100,
+  "openIssues": 324,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "description": "Large Language Model Text Generation Inference",
+  "homepage": "http://hf.co/docs/text-generation-inference",
+  "topics": [
+    "bloom",
+    "deep-learning",
+    "falcon",
+    "gpt",
+    "inference",
+    "nlp",
+    "pytorch",
+    "starcoder",
+    "transformer"
+  ],
+  "archived": true,
+  "disabled": false,
+  "pushedAt": "2026-03-21T11:34:22Z",
+  "updatedAt": "2026-08-11T16:50:42Z",
+  "createdAt": "2022-10-08T10:26:28Z",
+  "latestRelease": "v3.3.7",
+  "latestReleaseAt": "2025-12-19T14:35:25Z",
+  "defaultBranch": "main"
+}

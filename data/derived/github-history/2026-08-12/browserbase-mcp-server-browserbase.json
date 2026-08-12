@@ -1,0 +1,29 @@
+{
+  "id": "browserbase-mcp-server-browserbase",
+  "fetchedAt": "2026-08-12T17:39:46.348Z",
+  "stars": 3412,
+  "forks": 367,
+  "watchers": 25,
+  "openIssues": 52,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "description": "Allow LLMs to control a browser with Browserbase and Stagehand",
+  "homepage": "https://stagehand.dev",
+  "topics": [
+    "ai",
+    "browser",
+    "chrome",
+    "chromium",
+    "mcp",
+    "playwright",
+    "puppeteer"
+  ],
+  "archived": true,
+  "disabled": false,
+  "pushedAt": "2026-07-20T21:48:14Z",
+  "updatedAt": "2026-08-12T09:55:44Z",
+  "createdAt": "2024-12-05T19:20:40Z",
+  "latestRelease": "v3.0.0",
+  "latestReleaseAt": "2026-03-31T01:51:54Z",
+  "defaultBranch": "main"
+}

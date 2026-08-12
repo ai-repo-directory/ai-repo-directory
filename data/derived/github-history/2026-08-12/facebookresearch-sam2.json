@@ -1,0 +1,21 @@
+{
+  "id": "facebookresearch-sam2",
+  "fetchedAt": "2026-08-12T17:39:33.587Z",
+  "stars": 19692,
+  "forks": 2526,
+  "watchers": 107,
+  "openIssues": 481,
+  "language": "Jupyter Notebook",
+  "license": "Apache-2.0",
+  "description": "The repository provides code for running inference with the Meta Segment Anything Model 2 (SAM 2), links for downloading the trained model checkpoints, and example notebooks that show how to use the model.",
+  "homepage": null,
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-05-30T02:29:40Z",
+  "updatedAt": "2026-08-12T16:20:14Z",
+  "createdAt": "2024-07-29T21:48:23Z",
+  "latestRelease": null,
+  "latestReleaseAt": null,
+  "defaultBranch": "main"
+}

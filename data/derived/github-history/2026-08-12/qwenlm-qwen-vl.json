@@ -1,0 +1,24 @@
+{
+  "id": "qwenlm-qwen-vl",
+  "fetchedAt": "2026-08-12T17:39:52.394Z",
+  "stars": 6722,
+  "forks": 495,
+  "watchers": 47,
+  "openIssues": 324,
+  "language": "Python",
+  "license": null,
+  "description": "The official repo of Qwen-VL (通义千问-VL) chat & pretrained large vision language model proposed by Alibaba Cloud.",
+  "homepage": null,
+  "topics": [
+    "large-language-models",
+    "vision-language-model"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2024-08-07T02:37:06Z",
+  "updatedAt": "2026-08-12T15:33:13Z",
+  "createdAt": "2023-08-21T07:57:15Z",
+  "latestRelease": null,
+  "latestReleaseAt": null,
+  "defaultBranch": "master"
+}

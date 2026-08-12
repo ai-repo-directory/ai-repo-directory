@@ -12,6 +12,8 @@ export const CANONICAL_DIR = path.join(ROOT, "data", "canonical");
 export const CANDIDATES_DIR = path.join(ROOT, "data", "candidates");
 export const DERIVED_DIR = path.join(ROOT, "data", "derived");
 export const GITHUB_DIR = path.join(DERIVED_DIR, "github");
+/** Daily point-in-time GitHub snapshots for trend deltas (not used by UI yet). */
+export const GITHUB_HISTORY_DIR = path.join(DERIVED_DIR, "github-history");
 export const SCORES_PATH = path.join(DERIVED_DIR, "scores.json");
 
 export function ensureDir(dir: string): void {
@@ -38,6 +40,15 @@ export function writeJsonFile(filePath: string, data: unknown): void {
 
 export function githubSnapshotPath(id: string): string {
   return path.join(GITHUB_DIR, `${id}.json`);
+}
+
+/** UTC calendar day partition: data/derived/github-history/YYYY-MM-DD/{id}.json */
+export function githubHistoryDayDir(isoDay: string): string {
+  return path.join(GITHUB_HISTORY_DIR, isoDay);
+}
+
+export function githubHistorySnapshotPath(isoDay: string, id: string): string {
+  return path.join(githubHistoryDayDir(isoDay), `${id}.json`);
 }
 
 export function candidatePath(id: string): string {

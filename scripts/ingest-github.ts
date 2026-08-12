@@ -7,8 +7,10 @@ import { repositoryRecordSchema } from "../src/lib/types";
 import {
   CANONICAL_DIR,
   ensureDir,
+  githubHistorySnapshotPath,
   githubSnapshotPath,
   GITHUB_DIR,
+  GITHUB_HISTORY_DIR,
   listJsonFiles,
   readJsonFile,
   writeJsonFile,
@@ -215,6 +217,29 @@ async function fetchSnapshot(
   return parsed.data;
 }
 
+/** UTC YYYY-MM-DD from an ISO timestamp (for daily history partitions). */
+function utcDay(iso: string): string {
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) {
+    return new Date().toISOString().slice(0, 10);
+  }
+  return d.toISOString().slice(0, 10);
+}
+
+/**
+ * Append a same-day point-in-time copy under github-history/.
+ * Idempotent for re-runs on the same UTC day (overwrites that day's file).
+ * Does not delete prior days. Failure here must not block current-snapshot ingest.
+ */
+function appendHistorySnapshot(snap: GitHubSnapshot): void {
+  try {
+    const day = utcDay(snap.fetchedAt);
+    writeJsonFile(githubHistorySnapshotPath(day, snap.id), snap);
+  } catch (err) {
+    console.warn(`History append failed for ${snap.id}:`, err);
+  }
+}
+
 async function mapPool<T, R>(
   items: T[],
   concurrency: number,
@@ -255,11 +280,13 @@ async function main(): Promise<void> {
   }
 
   ensureDir(GITHUB_DIR);
+  ensureDir(GITHUB_HISTORY_DIR);
   const rate: RateState = { remaining: null, resetAt: null };
 
   let refreshed = 0;
   let skipped = 0;
   let failed = 0;
+  let historyAppended = 0;
 
   await mapPool(repos, CONCURRENCY, async (repo) => {
     const out = githubSnapshotPath(repo.id);
@@ -274,6 +301,8 @@ async function main(): Promise<void> {
         return;
       }
       writeJsonFile(out, snap);
+      appendHistorySnapshot(snap);
+      historyAppended++;
       refreshed++;
       console.log(
         `Updated ${repo.id} (★${snap.stars}, remaining=${rate.remaining ?? "?"})`,
@@ -285,7 +314,7 @@ async function main(): Promise<void> {
   });
 
   console.log(
-    `Ingest done: refreshed=${refreshed}, skipped(fresh)=${skipped}, failed=${failed}, total=${repos.length}`,
+    `Ingest done: refreshed=${refreshed}, skipped(fresh)=${skipped}, failed=${failed}, historyAppended=${historyAppended}, total=${repos.length}`,
   );
 }
 

@@ -62,8 +62,7 @@
     "whyCare": "Canonical open MusicGen/EnCodec stack if you need controllable music generation or audio tokenization building blocks.",
     "primaryCategory": "audio-ai",
     "secondaryCategories": [
-      "research",
-      "multimodal"
+      "research"
     ],
     "tags": [
       "musicgen",
@@ -79,7 +78,7 @@
     "latestCommitAt": "2026-03-03T21:50:32Z",
     "latestRelease": null,
     "archived": false,
-    "maintenance": "moderate",
+    "maintenance": "slow",
     "selfHostable": true,
     "localOfflineCapable": true,
     "audience": [
@@ -97,7 +96,7 @@
     "sources": [
       "https://github.com/facebookresearch/audiocraft"
     ],
-    "notes": "Includes MusicGen; no separate facebookresearch/musicgen app repo."
+    "notes": "Includes MusicGen; no separate facebookresearch/musicgen app repo. Activity verification 2026-08-12: maintenance moderate→slow (pushedAt=2026-03-03T21:50:32Z, primary_status=low_activity). Category verification 2026-08-12: audio-ai/['research', 'multimodal'] → audio-ai/['research']."
   },
   {
     "id": "facebookresearch-demucs",
@@ -205,8 +204,8 @@
     "githubUrl": "https://github.com/fishaudio/fish-speech",
     "homepage": "https://speech.fish.audio",
     "description": "SOTA Open Source TTS",
-    "editorialSummary": "Actively maintained open TTS stack from Fish Audio positioned as SOTA multilingual speech synthesis with strong cloning and deployment tooling. Custom research/non-commercial license—commercial use needs a separate agreement.",
-    "whyCare": "Current high-quality open TTS choice for cloning and multilingual speech when you can accept the Fish Audio research license terms.",
+    "editorialSummary": "Actively maintained open TTS stack from Fish Audio with strong multilingual synthesis and voice cloning, plus deployment tooling. README cites leading Seed-TTS Eval WER numbers; license is research/non-commercial unless you obtain a separate commercial agreement.",
+    "whyCare": "High-quality open TTS choice for cloning and multilingual speech when you can accept the Fish Audio research license terms.",
     "primaryCategory": "audio-ai",
     "secondaryCategories": [
       "local-ai"
@@ -244,7 +243,8 @@
     "sources": [
       "https://github.com/fishaudio/fish-speech",
       "https://speech.fish.audio",
-      "https://github.com/fishaudio/fish-speech/blob/main/LICENSE"
+      "https://github.com/fishaudio/fish-speech/blob/main/LICENSE",
+      "https://raw.githubusercontent.com/fishaudio/fish-speech/main/README.md"
     ],
     "notes": "GitHub SPDX is NOASSERTION; LICENSE is Fish Audio Research License (research/non-commercial; commercial requires separate license)."
   },
@@ -378,7 +378,7 @@
     "latestCommitAt": "2025-04-19T16:00:00Z",
     "latestRelease": null,
     "archived": false,
-    "maintenance": "slow",
+    "maintenance": "stale",
     "selfHostable": true,
     "localOfflineCapable": true,
     "audience": [
@@ -396,7 +396,8 @@
     "sources": [
       "https://github.com/myshell-ai/OpenVoice",
       "https://research.myshell.ai/open-voice"
-    ]
+    ],
+    "notes": "Activity verification 2026-08-12: maintenance slow→stale (pushedAt=2025-04-19T16:00:00Z, primary_status=stale)."
   },
   {
     "id": "openai-whisper",
@@ -410,8 +411,7 @@
     "whyCare": "Default open STT starting point: multilingual transcription, translation, and a huge ecosystem of optimized ports and wrappers.",
     "primaryCategory": "audio-ai",
     "secondaryCategories": [
-      "local-ai",
-      "multimodal"
+      "local-ai"
     ],
     "tags": [
       "asr",
@@ -447,7 +447,8 @@
     "sources": [
       "https://github.com/openai/whisper",
       "https://github.com/openai/whisper/releases/tag/v20250625"
-    ]
+    ],
+    "notes": "Category verification 2026-08-12: audio-ai/['local-ai', 'multimodal'] → audio-ai/['local-ai']."
   },
   {
     "id": "plachtaa-vall-e-x",
@@ -571,7 +572,7 @@
     ],
     "language": "Python",
     "license": "MIT",
-    "stars": 37301,
+    "stars": 37302,
     "forks": 5193,
     "latestCommitAt": "2026-08-04T07:47:32Z",
     "latestRelease": "2.3.260718",
@@ -723,7 +724,7 @@
     "latestCommitAt": "2025-11-19T14:40:46Z",
     "latestRelease": "v1.2.1",
     "archived": false,
-    "maintenance": "moderate",
+    "maintenance": "slow",
     "selfHostable": true,
     "localOfflineCapable": true,
     "audience": [
@@ -741,7 +742,8 @@
     "sources": [
       "https://github.com/SYSTRAN/faster-whisper",
       "https://github.com/SYSTRAN/faster-whisper/releases/tag/v1.2.1"
-    ]
+    ],
+    "notes": "Activity verification 2026-08-12: maintenance moderate→slow (pushedAt=2025-11-19T14:40:46Z, primary_status=low_activity)."
   },
   {
     "id": "yl4579-styletts2",

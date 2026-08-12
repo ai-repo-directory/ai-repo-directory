@@ -1,0 +1,21 @@
+{
+  "id": "mark3labs-mcp-go",
+  "fetchedAt": "2026-08-12T17:39:47.573Z",
+  "stars": 8998,
+  "forks": 864,
+  "watchers": 51,
+  "openIssues": 23,
+  "language": "Go",
+  "license": "MIT",
+  "description": "A Go implementation of the Model Context Protocol (MCP), enabling seamless integration between LLM applications and external data sources and tools.",
+  "homepage": "http://mcp-go.dev/",
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-08-12T12:29:17Z",
+  "updatedAt": "2026-08-12T16:26:57Z",
+  "createdAt": "2024-11-27T12:38:33Z",
+  "latestRelease": "v1.0.0-beta.1",
+  "latestReleaseAt": "2026-08-12T12:29:33Z",
+  "defaultBranch": "main"
+}

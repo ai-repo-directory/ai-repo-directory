@@ -1,0 +1,21 @@
+{
+  "id": "braintrustdata-autoevals",
+  "fetchedAt": "2026-08-12T17:39:29.639Z",
+  "stars": 998,
+  "forks": 76,
+  "watchers": 4,
+  "openIssues": 21,
+  "language": "Python",
+  "license": "MIT",
+  "description": "AutoEvals is a tool for quickly and easily evaluating AI model outputs using best practices.",
+  "homepage": null,
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-07-29T20:54:43Z",
+  "updatedAt": "2026-08-12T14:04:29Z",
+  "createdAt": "2023-07-11T06:25:52Z",
+  "latestRelease": "js-0.3.0",
+  "latestReleaseAt": "2026-06-09T18:01:17Z",
+  "defaultBranch": "main"
+}

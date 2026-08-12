@@ -26,7 +26,7 @@
     "license": "Elastic-2.0",
     "stars": 11015,
     "forks": 1055,
-    "latestCommitAt": "2026-08-12T17:16:35Z",
+    "latestCommitAt": "2026-08-12T17:34:35Z",
     "latestRelease": "arize-phoenix-v20.1.0",
     "archived": false,
     "maintenance": "active",
@@ -192,6 +192,53 @@
     "notes": "Canonical EleutherAI eval harness (often called lm-eval-harness)."
   },
   {
+    "id": "facebookresearch-moviegenbench",
+    "name": "MovieGenBench",
+    "owner": "facebookresearch",
+    "repo": "MovieGenBench",
+    "githubUrl": "https://github.com/facebookresearch/MovieGenBench",
+    "homepage": null,
+    "description": "Movie Gen Bench - two media generation evaluation benchmarks released with Meta Movie Gen",
+    "editorialSummary": "Meta’s open Movie Gen research artifact: evaluation benchmarks released with Movie Gen. Full Movie Gen model weights were not open-sourced; this is the primary official OSS companion release.",
+    "whyCare": "Only substantial official Meta Movie Gen OSS drop—use for T2V/evaluation research, not as a runnable Movie Gen model.",
+    "primaryCategory": "evaluation",
+    "secondaryCategories": [
+      "video-ai",
+      "research"
+    ],
+    "tags": [
+      "movie-gen",
+      "benchmark",
+      "evaluation",
+      "text-to-video",
+      "meta"
+    ],
+    "language": null,
+    "license": "CC-BY-NC-4.0",
+    "stars": 442,
+    "forks": 25,
+    "latestCommitAt": "2025-03-08T07:58:21Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "stale",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "fair",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/facebookresearch/MovieGenBench"
+    ],
+    "notes": "Not a Movie Gen model implementation—benchmarks only. LICENSE text is Creative Commons Attribution-NonCommercial 4.0; GitHub SPDX is NOASSERTION. Activity verification 2026-08-12: maintenance slow→stale (pushedAt=2025-03-08T07:58:21Z, primary_status=stale). Category verification 2026-08-12: video-ai/['evaluation', 'research'] → evaluation/['video-ai', 'research']."
+  },
+  {
     "id": "giskard-ai-giskard-oss",
     "name": "giskard-oss",
     "owner": "Giskard-AI",
@@ -199,8 +246,8 @@
     "githubUrl": "https://github.com/Giskard-AI/giskard-oss",
     "homepage": "https://docs.giskard.ai",
     "description": "🐢 Open-Source Evaluation & Testing library for LLM Agents",
-    "editorialSummary": "Giskard OSS is an evaluation and testing library for LLM agents and ML models, covering quality, security, fairness, and automated scanning workflows.",
-    "whyCare": "Strong when you need vulnerability/red-team style testing and responsible-AI checks beyond accuracy metrics alone.",
+    "editorialSummary": "Giskard OSS is a Python toolkit for testing and evaluating agentic systems. v3 is a modular rewrite (scenario checks, LLM-as-judge, and giskard-scan for vulnerability/RAG quality); legacy v2 tabular/ML scan paths remain available but are no longer actively maintained.",
+    "whyCare": "Reach for it when you need agent red-teaming, multi-turn scenario checks, and RAG/quality scanning beyond simple accuracy metrics.",
     "primaryCategory": "evaluation",
     "secondaryCategories": [
       "ai-agents"
@@ -235,7 +282,8 @@
     "dateLastVerified": "2026-08-12",
     "sources": [
       "https://github.com/Giskard-AI/giskard-oss",
-      "https://docs.giskard.ai"
+      "https://docs.giskard.ai",
+      "https://raw.githubusercontent.com/Giskard-AI/giskard-oss/main/README.md"
     ],
     "notes": "Canonical repo is Giskard-AI/giskard-oss (giskard-ai/giskard redirects here)."
   },
@@ -293,7 +341,7 @@
     "repo": "langfuse",
     "githubUrl": "https://github.com/langfuse/langfuse",
     "homepage": "https://langfuse.com",
-    "description": "🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets. Integrates with OpenTelemetry, LangChain, OpenAI SDK, LiteLLM, and more. 🍊YC W23",
+    "description": "🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets. Integrates with OpenTelemetry, LangChain, OpenAI SDK, LiteLLM, and more. 🍊YC W23 ",
     "editorialSummary": "Self-hostable LLM engineering platform combining tracing, evaluations, prompt management, datasets, and a playground. Strong OpenTelemetry and framework integrations make it a default choice for production LLMOps.",
     "whyCare": "One of the most complete open-source stacks for LLM observability plus evals—usable cloud or self-hosted—so teams can ship quality loops without locking into a closed SaaS-only path.",
     "primaryCategory": "evaluation",
@@ -337,54 +385,6 @@
     "notes": "GitHub SPDX is NOASSERTION (MIT for non-ee paths; ee/ directories use a separate commercial license). Stars/forks/release verified via GitHub API on 2026-08-12."
   },
   {
-    "id": "open-telemetry-semantic-conventions",
-    "name": "semantic-conventions",
-    "owner": "open-telemetry",
-    "repo": "semantic-conventions",
-    "githubUrl": "https://github.com/open-telemetry/semantic-conventions",
-    "homepage": null,
-    "description": "Defines standards for generating consistent, accessible telemetry across a variety of domains",
-    "editorialSummary": "OpenTelemetry Semantic Conventions—including GenAI attribute and span conventions—define how LLM/agent telemetry should be named and structured across vendors.",
-    "whyCare": "The standards layer behind interoperable GenAI observability; implementers (OpenLLMetry, Langfuse OTel, cloud APM) converge here.",
-    "primaryCategory": "evaluation",
-    "secondaryCategories": [
-      "infrastructure"
-    ],
-    "tags": [
-      "opentelemetry",
-      "genai",
-      "semantic-conventions",
-      "standards",
-      "observability"
-    ],
-    "language": "Jinja",
-    "license": "Apache-2.0",
-    "stars": 628,
-    "forks": 379,
-    "latestCommitAt": "2026-08-12T16:57:00Z",
-    "latestRelease": "v1.44.0",
-    "archived": false,
-    "maintenance": "active",
-    "selfHostable": true,
-    "localOfflineCapable": true,
-    "audience": [
-      "engineers",
-      "enterprises"
-    ],
-    "difficulty": "advanced",
-    "documentationQuality": "good",
-    "demoAvailable": false,
-    "featured": false,
-    "emerging": false,
-    "historicallySignificant": true,
-    "dateLastVerified": "2026-08-12",
-    "sources": [
-      "https://github.com/open-telemetry/semantic-conventions",
-      "https://opentelemetry.io/docs/specs/semconv/gen-ai/"
-    ],
-    "notes": "Listed as the OpenTelemetry GenAI standards home (specs + models/). Practical instrumentation often via OpenLLMetry or language contrib packages."
-  },
-  {
     "id": "openai-evals",
     "name": "evals",
     "owner": "openai",
@@ -411,7 +411,7 @@
     "latestCommitAt": "2026-04-14T15:29:57Z",
     "latestRelease": null,
     "archived": false,
-    "maintenance": "moderate",
+    "maintenance": "slow",
     "selfHostable": true,
     "localOfflineCapable": false,
     "audience": [
@@ -429,7 +429,7 @@
       "https://github.com/openai/evals",
       "https://github.com/openai/evals/blob/main/LICENSE.md"
     ],
-    "notes": "GitHub SPDX NOASSERTION; LICENSE.md is MIT with separate dataset license notes. No GitHub Releases; last push 2026-04-14."
+    "notes": "GitHub SPDX NOASSERTION; LICENSE.md is MIT with separate dataset license notes. No GitHub Releases; last push 2026-04-14. Activity verification 2026-08-12: maintenance moderate→slow (pushedAt=2026-04-14T15:29:57Z, primary_status=low_activity)."
   },
   {
     "id": "promptfoo-promptfoo",
@@ -456,7 +456,7 @@
     "license": "MIT",
     "stars": 24171,
     "forks": 2178,
-    "latestCommitAt": "2026-08-12T17:07:21Z",
+    "latestCommitAt": "2026-08-12T17:36:37Z",
     "latestRelease": "0.122.0",
     "archived": false,
     "maintenance": "active",
@@ -525,6 +525,54 @@
       "https://github.com/stanford-crfm/helm",
       "https://crfm.stanford.edu/helm"
     ]
+  },
+  {
+    "id": "swe-bench-swe-bench",
+    "name": "SWE-bench",
+    "owner": "SWE-bench",
+    "repo": "SWE-bench",
+    "githubUrl": "https://github.com/SWE-bench/SWE-bench",
+    "homepage": "https://www.swebench.com",
+    "description": "SWE-bench: Can Language Models Resolve Real-world Github Issues?",
+    "editorialSummary": "Canonical benchmark for coding agents solving real GitHub issues. Defines the evaluation target for modern software-engineering agents (Verified, Multimodal, and related suites).",
+    "whyCare": "Measure coding agents against the industry-standard SWE-bench suites—not synthetic coding quizzes.",
+    "primaryCategory": "evaluation",
+    "secondaryCategories": [
+      "coding-agents"
+    ],
+    "tags": [
+      "swe-bench",
+      "benchmark",
+      "coding-agents",
+      "evaluation",
+      "python"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 5625,
+    "forks": 937,
+    "latestCommitAt": "2026-08-12T12:16:07Z",
+    "latestRelease": null,
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/SWE-bench/SWE-bench",
+      "https://www.swebench.com"
+    ],
+    "notes": "Canonical org is SWE-bench/SWE-bench (princeton-nlp/SWE-bench redirects)."
   },
   {
     "id": "traceloop-openllmetry",
@@ -695,7 +743,7 @@
     "latestCommitAt": "2026-02-24T07:47:19Z",
     "latestRelease": "v0.4.3",
     "archived": false,
-    "maintenance": "moderate",
+    "maintenance": "slow",
     "selfHostable": true,
     "localOfflineCapable": false,
     "audience": [
@@ -713,56 +761,6 @@
       "https://github.com/vibrantlabsai/ragas",
       "https://docs.ragas.io"
     ],
-    "notes": "Formerly explodinggradients/ragas; GitHub now resolves to vibrantlabsai/ragas. Last push as of verification was 2026-02-24 (moderate maintenance)."
-  },
-  {
-    "id": "wandb-wandb",
-    "name": "wandb",
-    "owner": "wandb",
-    "repo": "wandb",
-    "githubUrl": "https://github.com/wandb/wandb",
-    "homepage": "https://wandb.ai",
-    "description": "The AI developer platform. Use Weights & Biases to train and fine-tune models, and manage models from experimentation to production.",
-    "editorialSummary": "Weights & Biases client SDK for experiment tracking, model management, and evaluation workflows. Partial fit for this category: core strength is MLOps/experiment tracking with growing LLM eval features.",
-    "whyCare": "If your team already lives in W&B for training, its eval and Weave-related workflows keep evaluation adjacent to experiment history.",
-    "primaryCategory": "evaluation",
-    "secondaryCategories": [
-      "training",
-      "infrastructure"
-    ],
-    "tags": [
-      "experiment-tracking",
-      "mlops",
-      "wandb",
-      "llm-eval",
-      "partial"
-    ],
-    "language": "Python",
-    "license": "MIT",
-    "stars": 11230,
-    "forks": 881,
-    "latestCommitAt": "2026-08-12T17:13:41Z",
-    "latestRelease": "v0.28.2",
-    "archived": false,
-    "maintenance": "active",
-    "selfHostable": false,
-    "localOfflineCapable": false,
-    "audience": [
-      "engineers",
-      "researchers",
-      "enterprises"
-    ],
-    "difficulty": "intermediate",
-    "documentationQuality": "excellent",
-    "demoAvailable": true,
-    "featured": false,
-    "emerging": false,
-    "historicallySignificant": true,
-    "dateLastVerified": "2026-08-12",
-    "sources": [
-      "https://github.com/wandb/wandb",
-      "https://wandb.ai"
-    ],
-    "notes": "Partial category inclusion: primary product is broader than LLM eval/observability; hosted backend is commercial (selfHostable=false for the platform)."
+    "notes": "Formerly explodinggradients/ragas; GitHub now resolves to vibrantlabsai/ragas. Last push as of verification was 2026-02-24 (moderate maintenance). Activity verification 2026-08-12: maintenance moderate→slow (pushedAt=2026-02-24T07:47:19Z, primary_status=low_activity)."
   }
 ]

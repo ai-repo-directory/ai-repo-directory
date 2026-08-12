@@ -1,0 +1,27 @@
+{
+  "id": "langchain-ai-langchain-mcp-adapters",
+  "fetchedAt": "2026-08-12T17:39:47.132Z",
+  "stars": 3627,
+  "forks": 473,
+  "watchers": 20,
+  "openIssues": 105,
+  "language": "Python",
+  "license": "MIT",
+  "description": "LangChain 🔌 MCP",
+  "homepage": "https://docs.langchain.com/oss/python/langchain/mcp",
+  "topics": [
+    "langchain",
+    "langgraph",
+    "mcp",
+    "python",
+    "tools"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-08-06T06:17:09Z",
+  "updatedAt": "2026-08-08T18:36:14Z",
+  "createdAt": "2025-02-07T23:08:03Z",
+  "latestRelease": "langchain-mcp-adapters==0.3.2",
+  "latestReleaseAt": "2026-08-06T06:15:24Z",
+  "defaultBranch": "main"
+}

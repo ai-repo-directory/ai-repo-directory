@@ -1,0 +1,28 @@
+{
+  "id": "openinterpreter-openinterpreter",
+  "fetchedAt": "2026-08-12T17:39:24.198Z",
+  "stars": 67979,
+  "forks": 5850,
+  "watchers": 466,
+  "openIssues": 4,
+  "language": "Rust",
+  "license": "Apache-2.0",
+  "description": "A coding agent for open models like Kimi K3",
+  "homepage": "http://openinterpreter.com/",
+  "topics": [
+    "acp",
+    "coding-agent",
+    "deepseek",
+    "kimi",
+    "qwen",
+    "rust"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-08-08T19:04:44Z",
+  "updatedAt": "2026-08-12T15:40:33Z",
+  "createdAt": "2023-07-14T07:10:44Z",
+  "latestRelease": "rust-v0.0.34",
+  "latestReleaseAt": "2026-07-18T03:43:04Z",
+  "defaultBranch": "main"
+}

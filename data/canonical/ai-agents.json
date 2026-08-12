@@ -72,7 +72,7 @@
     "language": "Python",
     "license": "Apache-2.0",
     "stars": 41681,
-    "forks": 5759,
+    "forks": 5758,
     "latestCommitAt": "2026-08-12T17:11:52Z",
     "latestRelease": "v2.8.7",
     "archived": false,
@@ -95,6 +95,55 @@
       "https://github.com/agno-agi/agno",
       "https://docs.agno.com"
     ]
+  },
+  {
+    "id": "browser-use-browser-use",
+    "name": "Browser Use",
+    "owner": "browser-use",
+    "repo": "browser-use",
+    "githubUrl": "https://github.com/browser-use/browser-use",
+    "homepage": "https://browser-use.com",
+    "description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
+    "editorialSummary": "Leading open library for LLM-driven browser automation—agents navigate and act on real websites via Playwright-backed control. Fills the browser-agent gap beyond MCP browser servers alone.",
+    "whyCare": "Use Browser Use when agents must complete web tasks in a real browser rather than API-only tools.",
+    "primaryCategory": "ai-agents",
+    "secondaryCategories": [
+      "mcp-tools"
+    ],
+    "tags": [
+      "browser-automation",
+      "agents",
+      "playwright",
+      "web",
+      "python"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 108950,
+    "forks": 11970,
+    "latestCommitAt": "2026-08-11T17:33:21Z",
+    "latestRelease": "0.13.7",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": false,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "enterprises"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/browser-use/browser-use",
+      "https://browser-use.com"
+    ],
+    "notes": "Requires network access to target sites; localOfflineCapable=false."
   },
   {
     "id": "camel-ai-camel",
@@ -216,7 +265,7 @@
     "license": "Apache-2.0",
     "stars": 21087,
     "forks": 3823,
-    "latestCommitAt": "2026-08-12T17:12:45Z",
+    "latestCommitAt": "2026-08-12T17:31:26Z",
     "latestRelease": "v2.6.3",
     "archived": false,
     "maintenance": "active",
@@ -350,7 +399,6 @@
     "primaryCategory": "ai-agents",
     "secondaryCategories": [
       "rag",
-      "local-ai",
       "infrastructure"
     ],
     "tags": [
@@ -365,7 +413,7 @@
     "license": null,
     "stars": 152225,
     "forks": 24028,
-    "latestCommitAt": "2026-08-12T17:25:52Z",
+    "latestCommitAt": "2026-08-12T17:31:16Z",
     "latestRelease": "1.16.1",
     "archived": false,
     "maintenance": "active",
@@ -388,7 +436,102 @@
       "https://dify.ai",
       "https://github.com/langgenius/dify/blob/main/LICENSE"
     ],
-    "notes": "License is a modified Apache-2.0 with additional commercial/multi-tenant restrictions (GitHub SPDX NOASSERTION); not plain Apache-2.0."
+    "notes": "License is a modified Apache-2.0 with additional commercial/multi-tenant restrictions (GitHub SPDX NOASSERTION); not plain Apache-2.0. Category verification 2026-08-12: ai-agents/['rag', 'local-ai', 'infrastructure'] → ai-agents/['rag', 'infrastructure']."
+  },
+  {
+    "id": "lastmile-ai-mcp-agent",
+    "name": "mcp-agent",
+    "owner": "lastmile-ai",
+    "repo": "mcp-agent",
+    "githubUrl": "https://github.com/lastmile-ai/mcp-agent",
+    "homepage": null,
+    "description": "Build effective agents using Model Context Protocol and simple workflow patterns",
+    "editorialSummary": "Python framework for composing effective agents on top of MCP with simple workflow patterns (fan-out, routers, evaluators). Bridges agent orchestration and MCP tool ecosystems.",
+    "whyCare": "MCP-native agent patterns without adopting a heavy general agent framework—useful when tools already speak MCP.",
+    "primaryCategory": "ai-agents",
+    "secondaryCategories": [
+      "mcp-tools"
+    ],
+    "tags": [
+      "mcp",
+      "agents",
+      "workflows",
+      "python",
+      "orchestration"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 8502,
+    "forks": 875,
+    "latestCommitAt": "2026-01-25T16:35:16Z",
+    "latestRelease": "v0.0.21",
+    "archived": false,
+    "maintenance": "slow",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/lastmile-ai/mcp-agent"
+    ],
+    "notes": "Activity verification 2026-08-12: maintenance moderate→slow (pushedAt=2026-01-25T16:35:16Z, primary_status=low_activity). Category verification 2026-08-12: mcp-tools/['ai-agents'] → ai-agents/['mcp-tools']."
+  },
+  {
+    "id": "microsoft-agent-framework",
+    "name": "Microsoft Agent Framework",
+    "owner": "microsoft",
+    "repo": "agent-framework",
+    "githubUrl": "https://github.com/microsoft/agent-framework",
+    "homepage": "https://aka.ms/agent-framework",
+    "description": "A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET.",
+    "editorialSummary": "Microsoft’s unified agent framework succeeding AutoGen and Semantic Kernel paths—Python and .NET APIs for building, orchestrating, and deploying single- and multi-agent workflows. Targets enterprise agent apps with durable orchestration patterns.",
+    "whyCare": "Prefer this when standardizing on Microsoft’s current agent stack rather than legacy AutoGen/Semantic Kernel silos.",
+    "primaryCategory": "ai-agents",
+    "secondaryCategories": [
+      "infrastructure"
+    ],
+    "tags": [
+      "agents",
+      "multi-agent",
+      "orchestration",
+      "dotnet",
+      "python",
+      "microsoft"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 12753,
+    "forks": 2148,
+    "latestCommitAt": "2026-08-12T18:58:03Z",
+    "latestRelease": "dotnet-1.17.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": true,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/microsoft/agent-framework",
+      "https://aka.ms/agent-framework"
+    ]
   },
   {
     "id": "microsoft-autogen",
@@ -412,13 +555,13 @@
       "dotnet"
     ],
     "language": "Python",
-    "license": "MIT",
+    "license": "CC-BY-4.0",
     "stars": 60386,
     "forks": 9098,
     "latestCommitAt": "2026-04-15T11:59:09Z",
     "latestRelease": "python-v0.7.5",
     "archived": false,
-    "maintenance": "moderate",
+    "maintenance": "slow",
     "selfHostable": true,
     "localOfflineCapable": true,
     "audience": [
@@ -437,7 +580,7 @@
       "https://github.com/microsoft/autogen",
       "https://microsoft.github.io/autogen/"
     ],
-    "notes": "Code under LICENSE-CODE (MIT); repo root LICENSE is CC-BY-4.0 for docs. Community continuation: ag2ai/ag2. Last notable push ~Apr 2026."
+    "notes": "Code under LICENSE-CODE (MIT); repo root LICENSE is CC-BY-4.0 for docs. Community continuation: ag2ai/ag2. Last notable push ~Apr 2026. Activity verification 2026-08-12: maintenance moderate→slow (pushedAt=2026-04-15T11:59:09Z, primary_status=low_activity)."
   },
   {
     "id": "microsoft-semantic-kernel",
@@ -604,9 +747,9 @@
     ],
     "language": "Python",
     "license": "MIT",
-    "stars": 19246,
+    "stars": 19247,
     "forks": 2509,
-    "latestCommitAt": "2026-08-12T17:24:44Z",
+    "latestCommitAt": "2026-08-12T17:28:19Z",
     "latestRelease": "v1.107.4",
     "archived": false,
     "maintenance": "active",
@@ -652,7 +795,7 @@
     "license": null,
     "stars": 186557,
     "forks": 46091,
-    "latestCommitAt": "2026-08-12T17:05:38Z",
+    "latestCommitAt": "2026-08-12T17:37:41Z",
     "latestRelease": "autogpt-platform-beta-v0.7.0",
     "archived": false,
     "maintenance": "active",

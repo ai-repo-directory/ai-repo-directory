@@ -1,0 +1,21 @@
+{
+  "id": "modelscope-diffsynth-studio",
+  "fetchedAt": "2026-08-12T17:40:05.058Z",
+  "stars": 12922,
+  "forks": 1264,
+  "watchers": 88,
+  "openIssues": 547,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "description": "Enjoy the magic of Diffusion models!",
+  "homepage": null,
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-08-12T11:03:05Z",
+  "updatedAt": "2026-08-12T16:02:15Z",
+  "createdAt": "2023-12-07T16:52:15Z",
+  "latestRelease": "v1.1.9",
+  "latestReleaseAt": "2025-11-18T02:32:52Z",
+  "defaultBranch": "main"
+}

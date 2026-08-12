@@ -1,54 +1,5 @@
 [
   {
-    "id": "ai-hypercomputer-maxtext",
-    "name": "MaxText",
-    "owner": "AI-Hypercomputer",
-    "repo": "maxtext",
-    "githubUrl": "https://github.com/AI-Hypercomputer/maxtext",
-    "homepage": "https://maxtext.readthedocs.io",
-    "description": "A simple, performant, and scalable Jax LLM!",
-    "editorialSummary": "Google's high-performance JAX LLM training reference (now under AI-Hypercomputer) for scalable pretraining on GPUs/TPUs. Practical JAX counterpart to PyTorch Megatron-style stacks.",
-    "whyCare": "Best-known open JAX example stack for serious LLM training research and performance work.",
-    "primaryCategory": "research",
-    "secondaryCategories": [
-      "training",
-      "infrastructure"
-    ],
-    "tags": [
-      "jax",
-      "llm",
-      "pretraining",
-      "tpu",
-      "maxtext"
-    ],
-    "language": "Python",
-    "license": "Apache-2.0",
-    "stars": 2387,
-    "forks": 582,
-    "latestCommitAt": "2026-08-12T17:28:36Z",
-    "latestRelease": "maxtext-v0.2.3",
-    "archived": false,
-    "maintenance": "active",
-    "selfHostable": true,
-    "localOfflineCapable": true,
-    "audience": [
-      "researchers",
-      "engineers"
-    ],
-    "difficulty": "advanced",
-    "documentationQuality": "good",
-    "demoAvailable": false,
-    "featured": false,
-    "emerging": true,
-    "historicallySignificant": false,
-    "dateLastVerified": "2026-08-12",
-    "sources": [
-      "https://github.com/AI-Hypercomputer/maxtext",
-      "https://maxtext.readthedocs.io"
-    ],
-    "notes": "Formerly google/maxtext; GitHub canonical full_name is AI-Hypercomputer/maxtext."
-  },
-  {
     "id": "blinkdl-rwkv-lm",
     "name": "RWKV-LM",
     "owner": "BlinkDL",
@@ -95,6 +46,53 @@
     "sources": [
       "https://github.com/BlinkDL/RWKV-LM"
     ]
+  },
+  {
+    "id": "deepseek-ai-deepseek-v3",
+    "name": "DeepSeek-V3",
+    "owner": "deepseek-ai",
+    "repo": "DeepSeek-V3",
+    "githubUrl": "https://github.com/deepseek-ai/DeepSeek-V3",
+    "homepage": null,
+    "description": null,
+    "editorialSummary": "Open DeepSeek-V3 MoE foundation-model release with paper and reference inference for MLA/DeepSeekMoE architectures. Major research/systems artifact of the open-weights era; production serving typically via vLLM/SGLang.",
+    "whyCare": "Study or reproduce DeepSeek-V3’s architecture and reference inference—the flagship open MoE release many systems papers cite.",
+    "primaryCategory": "research",
+    "secondaryCategories": [
+      "llm-inference"
+    ],
+    "tags": [
+      "deepseek",
+      "moe",
+      "mla",
+      "foundation-model",
+      "research"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 104169,
+    "forks": 16723,
+    "latestCommitAt": "2025-08-28T03:24:37Z",
+    "latestRelease": "v1.0.0",
+    "archived": false,
+    "maintenance": "stale",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/deepseek-ai/DeepSeek-V3"
+    ],
+    "notes": "Code under MIT; model weights use DeepSeek Model Agreement. Last push Aug 2025—retained as historically important research release. Catalog already has DeepSeek-VL2 in multimodal."
   },
   {
     "id": "eleutherai-gpt-neox",
@@ -145,55 +143,6 @@
     ]
   },
   {
-    "id": "google-flax",
-    "name": "Flax",
-    "owner": "google",
-    "repo": "flax",
-    "githubUrl": "https://github.com/google/flax",
-    "homepage": "https://flax.readthedocs.io",
-    "description": "Flax is a neural network library for JAX that is designed for flexibility.",
-    "editorialSummary": "Google's flexible neural net library on JAX, widely used for research implementations that need composable transforms, clarity, and TPU/GPU portability. Home to many JAX/Flax example patterns for transformers and beyond.",
-    "whyCare": "Go-to stack when a paper or lab ships JAX reference code and you need an idiomatic NN API rather than raw JAX.",
-    "primaryCategory": "research",
-    "secondaryCategories": [
-      "training"
-    ],
-    "tags": [
-      "jax",
-      "flax",
-      "neural-networks",
-      "tpu",
-      "research-framework"
-    ],
-    "language": "Jupyter Notebook",
-    "license": "Apache-2.0",
-    "stars": 7299,
-    "forks": 829,
-    "latestCommitAt": "2026-08-12T14:27:12Z",
-    "latestRelease": "v0.12.8",
-    "archived": false,
-    "maintenance": "active",
-    "selfHostable": true,
-    "localOfflineCapable": true,
-    "audience": [
-      "researchers",
-      "engineers",
-      "students"
-    ],
-    "difficulty": "intermediate",
-    "documentationQuality": "excellent",
-    "demoAvailable": true,
-    "featured": false,
-    "emerging": false,
-    "historicallySignificant": false,
-    "dateLastVerified": "2026-08-12",
-    "sources": [
-      "https://github.com/google/flax",
-      "https://flax.readthedocs.io"
-    ],
-    "notes": "GitHub primary language reported as Jupyter Notebook; library code is Python/JAX."
-  },
-  {
     "id": "harvardnlp-annotated-transformer",
     "name": "The Annotated Transformer",
     "owner": "harvardnlp",
@@ -219,7 +168,7 @@
     "latestCommitAt": "2024-04-07T09:58:46Z",
     "latestRelease": null,
     "archived": false,
-    "maintenance": "slow",
+    "maintenance": "stale",
     "selfHostable": true,
     "localOfflineCapable": true,
     "audience": [
@@ -238,60 +187,7 @@
       "https://github.com/harvardnlp/annotated-transformer",
       "http://nlp.seas.harvard.edu/annotated-transformer"
     ],
-    "notes": "Chosen over many AIAYN clones for editorial quality and historical role in teaching transformers."
-  },
-  {
-    "id": "huggingface-transformers",
-    "name": "Transformers",
-    "owner": "huggingface",
-    "repo": "transformers",
-    "githubUrl": "https://github.com/huggingface/transformers",
-    "homepage": "https://huggingface.co/transformers",
-    "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
-    "editorialSummary": "The de facto open-source model zoo and definition layer for modern transformers across NLP, vision, audio, and multimodal work. It turned research checkpoints into a shared, reproducible API used by labs and product teams alike.",
-    "whyCare": "If you need to load, fine-tune, or publish SOTA pretrained models with a consistent interface, this is the research-to-production bridge most papers and tutorials assume.",
-    "primaryCategory": "research",
-    "secondaryCategories": [
-      "training",
-      "llm-inference",
-      "multimodal"
-    ],
-    "tags": [
-      "transformers",
-      "pretrained-models",
-      "nlp",
-      "pytorch",
-      "huggingface",
-      "vlm"
-    ],
-    "language": "Python",
-    "license": "Apache-2.0",
-    "stars": 164003,
-    "forks": 34223,
-    "latestCommitAt": "2026-08-12T17:05:33Z",
-    "latestRelease": "v5.15.0",
-    "archived": false,
-    "maintenance": "active",
-    "selfHostable": true,
-    "localOfflineCapable": true,
-    "audience": [
-      "researchers",
-      "engineers",
-      "students",
-      "enterprises"
-    ],
-    "difficulty": "intermediate",
-    "documentationQuality": "excellent",
-    "demoAvailable": true,
-    "featured": true,
-    "emerging": false,
-    "historicallySignificant": true,
-    "dateLastVerified": "2026-08-12",
-    "sources": [
-      "https://github.com/huggingface/transformers",
-      "https://huggingface.co/docs/transformers"
-    ],
-    "notes": "Seminal papers-with-code style hub; primaryCategory research despite broad training/inference use."
+    "notes": "Chosen over many AIAYN clones for editorial quality and historical role in teaching transformers. Activity verification 2026-08-12: maintenance slow→stale (pushedAt=2024-04-07T09:58:46Z, primary_status=stale)."
   },
   {
     "id": "karpathy-mingpt",
@@ -321,7 +217,7 @@
     "latestCommitAt": "2024-08-15T04:09:40Z",
     "latestRelease": null,
     "archived": false,
-    "maintenance": "slow",
+    "maintenance": "stale",
     "selfHostable": true,
     "localOfflineCapable": true,
     "audience": [
@@ -339,7 +235,7 @@
     "sources": [
       "https://github.com/karpathy/minGPT"
     ],
-    "notes": "Largely superseded by nanoGPT for active experiments; retained for historical/educational significance."
+    "notes": "Largely superseded by nanoGPT for active experiments; retained for historical/educational significance. Activity verification 2026-08-12: maintenance slow→stale (pushedAt=2024-08-15T04:09:40Z, primary_status=stale)."
   },
   {
     "id": "karpathy-nanogpt",
@@ -349,8 +245,8 @@
     "githubUrl": "https://github.com/karpathy/nanoGPT",
     "homepage": null,
     "description": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
-    "editorialSummary": "Karpathy's minimal GPT training repo that became the default educational and prototyping baseline for modern LLM research. Small enough to read end-to-end, serious enough to train real models.",
-    "whyCare": "Best starting point for understanding GPT training loops, scaling experiments, and reproducible medium-scale pretraining without framework overhead.",
+    "editorialSummary": "Karpathy's minimal GPT training repo that taught a generation of researchers readable pretraining loops. The README now marks nanoGPT as deprecated in favor of the newer nanochat project, but the ~300-line train/model core remains a classic educational artifact.",
+    "whyCare": "Still the clearest historical baseline for understanding GPT training loops; for new work the author points you to nanochat instead.",
     "primaryCategory": "research",
     "secondaryCategories": [
       "training"
@@ -369,7 +265,7 @@
     "latestCommitAt": "2025-11-12T19:52:34Z",
     "latestRelease": null,
     "archived": false,
-    "maintenance": "moderate",
+    "maintenance": "stale",
     "selfHostable": true,
     "localOfflineCapable": true,
     "audience": [
@@ -386,56 +282,10 @@
     "historicallySignificant": true,
     "dateLastVerified": "2026-08-12",
     "sources": [
-      "https://github.com/karpathy/nanoGPT"
-    ]
-  },
-  {
-    "id": "lightning-ai-litgpt",
-    "name": "LitGPT",
-    "owner": "Lightning-AI",
-    "repo": "litgpt",
-    "githubUrl": "https://github.com/Lightning-AI/litgpt",
-    "homepage": "https://lightning.ai",
-    "description": "20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale.",
-    "editorialSummary": "Lightning AI's readable from-scratch LLM implementations with production-minded recipes for pretrain, finetune, and deploy. Emphasizes clarity over framework magic while staying competitive on throughput.",
-    "whyCare": "Useful when you want research-grade LLM training code that is still approachable enough to hack on without Megatron-scale complexity.",
-    "primaryCategory": "research",
-    "secondaryCategories": [
-      "training"
+      "https://github.com/karpathy/nanoGPT",
+      "https://raw.githubusercontent.com/karpathy/nanoGPT/master/README.md"
     ],
-    "tags": [
-      "llm",
-      "pretraining",
-      "finetuning",
-      "lightning",
-      "recipes"
-    ],
-    "language": "Python",
-    "license": "Apache-2.0",
-    "stars": 13611,
-    "forks": 1483,
-    "latestCommitAt": "2026-07-20T10:24:12Z",
-    "latestRelease": "v0.5.13",
-    "archived": false,
-    "maintenance": "active",
-    "selfHostable": true,
-    "localOfflineCapable": true,
-    "audience": [
-      "researchers",
-      "engineers",
-      "students"
-    ],
-    "difficulty": "intermediate",
-    "documentationQuality": "excellent",
-    "demoAvailable": false,
-    "featured": false,
-    "emerging": false,
-    "historicallySignificant": false,
-    "dateLastVerified": "2026-08-12",
-    "sources": [
-      "https://github.com/Lightning-AI/litgpt",
-      "https://lightning.ai"
-    ]
+    "notes": "Activity verification 2026-08-12: maintenance moderate→slow (pushedAt=2025-11-12T19:52:34Z, primary_status=low_activity)."
   },
   {
     "id": "lucidrains-x-transformers",
@@ -599,7 +449,7 @@
     ],
     "language": "Python",
     "license": "Apache-2.0",
-    "stars": 17459,
+    "stars": 17460,
     "forks": 3775,
     "latestCommitAt": "2023-06-02T18:55:09Z",
     "latestRelease": "v1.15.7",

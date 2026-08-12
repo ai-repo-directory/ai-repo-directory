@@ -1,0 +1,21 @@
+{
+  "id": "togethercomputer-redpajama-data",
+  "fetchedAt": "2026-08-12T17:39:29.041Z",
+  "stars": 4976,
+  "forks": 375,
+  "watchers": 78,
+  "openIssues": 44,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "description": "The RedPajama-Data repository contains code for preparing large datasets for training large language models.",
+  "homepage": null,
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-06-03T16:00:12Z",
+  "updatedAt": "2026-08-12T07:19:51Z",
+  "createdAt": "2023-04-14T20:43:41Z",
+  "latestRelease": null,
+  "latestReleaseAt": null,
+  "defaultBranch": "main"
+}

@@ -15,7 +15,7 @@ import {
 export const metadata: Metadata = {
   title: "Explore",
   description:
-    "Search and filter open-source AI repositories by category, language, license, maintenance, and more. Filters are shareable via URL.",
+    "Search and filter a curated AI repository directory by category, language, license, maintenance, and more. Filters are shareable via URL.",
 };
 
 export default async function ExplorePage({

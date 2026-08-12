@@ -1,0 +1,25 @@
+{
+  "id": "doubiiu-dynamicrafter",
+  "fetchedAt": "2026-08-12T17:40:03.162Z",
+  "stars": 3008,
+  "forks": 242,
+  "watchers": 31,
+  "openIssues": 91,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "description": "[ECCV 2024, Oral] DynamiCrafter: Animating Open-domain Images with Video Diffusion Priors",
+  "homepage": "https://doubiiu.github.io/projects/DynamiCrafter/",
+  "topics": [
+    "image-animation",
+    "image-to-video",
+    "video-generation"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2024-09-08T23:43:53Z",
+  "updatedAt": "2026-08-06T09:34:07Z",
+  "createdAt": "2023-11-27T12:34:23Z",
+  "latestRelease": null,
+  "latestReleaseAt": null,
+  "defaultBranch": "main"
+}

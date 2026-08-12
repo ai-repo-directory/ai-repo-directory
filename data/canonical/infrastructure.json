@@ -1,5 +1,52 @@
 [
   {
+    "id": "567-labs-instructor",
+    "name": "Instructor",
+    "owner": "567-labs",
+    "repo": "instructor",
+    "githubUrl": "https://github.com/567-labs/instructor",
+    "homepage": "https://python.useinstructor.com/",
+    "description": "structured outputs for llms ",
+    "editorialSummary": "Structured LLM output extraction via Pydantic across many providers. Dominant Python helper for schema-validated responses without full constrained-decoding stacks.",
+    "whyCare": "Use Instructor when you want typed, validated structured outputs from LLMs with minimal boilerplate.",
+    "primaryCategory": "infrastructure",
+    "secondaryCategories": [
+      "ai-agents"
+    ],
+    "tags": [
+      "structured-output",
+      "pydantic",
+      "python",
+      "llm",
+      "schema"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 13721,
+    "forks": 1184,
+    "latestCommitAt": "2026-08-09T14:55:49Z",
+    "latestRelease": "v1.15.4",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers"
+    ],
+    "difficulty": "beginner",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/567-labs/instructor",
+      "https://python.useinstructor.com/"
+    ],
+    "notes": "Canonical owner is 567-labs/instructor (instructor-ai/instructor redirects)."
+  },
+  {
     "id": "ai-dynamo-dynamo",
     "name": "NVIDIA Dynamo",
     "owner": "ai-dynamo",
@@ -23,9 +70,9 @@
     ],
     "language": "Rust",
     "license": "Apache-2.0",
-    "stars": 7742,
-    "forks": 1435,
-    "latestCommitAt": "2026-08-12T17:26:45Z",
+    "stars": 7743,
+    "forks": 1436,
+    "latestCommitAt": "2026-08-12T17:38:27Z",
     "latestRelease": "v1.3.1",
     "archived": false,
     "maintenance": "active",
@@ -99,6 +146,56 @@
     ]
   },
   {
+    "id": "berriai-litellm",
+    "name": "LiteLLM",
+    "owner": "BerriAI",
+    "repo": "litellm",
+    "githubUrl": "https://github.com/BerriAI/litellm",
+    "homepage": "https://docs.litellm.ai/docs/",
+    "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
+    "editorialSummary": "LiteLLM is a widely adopted LLM gateway/proxy that unifies 100+ providers behind an OpenAI-compatible API with routing, spend tracking, guardrails, and logging. It is a common production front door for agents, eval harnesses, and multi-provider apps.",
+    "whyCare": "Use LiteLLM when you need one OpenAI-compatible gateway across many LLM providers with cost controls and observability hooks.",
+    "primaryCategory": "infrastructure",
+    "secondaryCategories": [
+      "evaluation"
+    ],
+    "tags": [
+      "llm-gateway",
+      "proxy",
+      "openai-compatible",
+      "routing",
+      "cost-tracking",
+      "python"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 56194,
+    "forks": 10519,
+    "latestCommitAt": "2026-08-12T19:08:15Z",
+    "latestRelease": "v1.96.2",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/BerriAI/litellm",
+      "https://docs.litellm.ai/docs/",
+      "https://raw.githubusercontent.com/BerriAI/litellm/main/LICENSE"
+    ],
+    "notes": "Core OSS is MIT; content under enterprise/ uses a separate enterprise license. GitHub SPDX reports NOASSERTION due to dual licensing."
+  },
+  {
     "id": "determined-ai-determined",
     "name": "Determined",
     "owner": "determined-ai",
@@ -126,7 +223,7 @@
     "latestCommitAt": "2025-03-20T19:09:46Z",
     "latestRelease": "v0.38.1",
     "archived": false,
-    "maintenance": "slow",
+    "maintenance": "stale",
     "selfHostable": true,
     "localOfflineCapable": true,
     "audience": [
@@ -145,7 +242,54 @@
       "https://github.com/determined-ai/determined",
       "https://determined.ai"
     ],
-    "notes": "Last upstream push observed 2025-03-20; public docs host was unreachable at verification time."
+    "notes": "Last upstream push observed 2025-03-20; public docs host was unreachable at verification time. Activity verification 2026-08-12: maintenance slow→stale (pushedAt=2025-03-20T19:09:46Z, primary_status=stale)."
+  },
+  {
+    "id": "dottxt-ai-outlines",
+    "name": "Outlines",
+    "owner": "dottxt-ai",
+    "repo": "outlines",
+    "githubUrl": "https://github.com/dottxt-ai/outlines",
+    "homepage": "https://dottxt-ai.github.io/outlines/",
+    "description": "Structured Outputs",
+    "editorialSummary": "Constrained/structured generation library with JSON and grammar-guided decoding. Complements schema helpers like Instructor by steering generation itself.",
+    "whyCare": "Pick Outlines when you need constrained decoding guarantees—not just post-hoc validation of free-form completions.",
+    "primaryCategory": "infrastructure",
+    "secondaryCategories": [
+      "llm-inference"
+    ],
+    "tags": [
+      "structured-generation",
+      "constrained-decoding",
+      "json",
+      "grammar",
+      "python"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 15586,
+    "forks": 852,
+    "latestCommitAt": "2026-08-12T16:18:55Z",
+    "latestRelease": "1.3.3",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/dottxt-ai/outlines",
+      "https://dottxt-ai.github.io/outlines/"
+    ]
   },
   {
     "id": "flyteorg-flyte",
@@ -194,6 +338,256 @@
       "https://docs.flyte.org/",
       "https://flyte.org"
     ]
+  },
+  {
+    "id": "ggml-org-ggml",
+    "name": "ggml",
+    "owner": "ggml-org",
+    "repo": "ggml",
+    "githubUrl": "https://github.com/ggml-org/ggml",
+    "homepage": null,
+    "description": "Tensor library for machine learning",
+    "editorialSummary": "Tensor library powering llama.cpp, whisper.cpp, and related portable local-AI engines. The low-level substrate for GGUF-era on-device inference outside heavy Python stacks.",
+    "whyCare": "Reach for ggml when building custom local engines or understanding the tensor core behind llama.cpp/whisper.cpp.",
+    "primaryCategory": "infrastructure",
+    "secondaryCategories": [
+      "local-ai"
+    ],
+    "tags": [
+      "ggml",
+      "tensors",
+      "local-ai",
+      "cpp",
+      "gguf"
+    ],
+    "language": "C++",
+    "license": "MIT",
+    "stars": 15155,
+    "forks": 1773,
+    "latestCommitAt": "2026-08-12T10:46:07Z",
+    "latestRelease": "v0.19.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers",
+      "hobbyists"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/ggml-org/ggml"
+    ]
+  },
+  {
+    "id": "google-flax",
+    "name": "Flax",
+    "owner": "google",
+    "repo": "flax",
+    "githubUrl": "https://github.com/google/flax",
+    "homepage": "https://flax.readthedocs.io",
+    "description": "Flax is a neural network library for JAX that is designed for flexibility.",
+    "editorialSummary": "Google's flexible neural net library on JAX, widely used for research implementations that need composable transforms, clarity, and TPU/GPU portability. Home to many JAX/Flax example patterns for transformers and beyond.",
+    "whyCare": "Go-to stack when a paper or lab ships JAX reference code and you need an idiomatic NN API rather than raw JAX.",
+    "primaryCategory": "infrastructure",
+    "secondaryCategories": [
+      "training",
+      "research"
+    ],
+    "tags": [
+      "jax",
+      "flax",
+      "neural-networks",
+      "tpu",
+      "research-framework"
+    ],
+    "language": "Jupyter Notebook",
+    "license": "Apache-2.0",
+    "stars": 7299,
+    "forks": 829,
+    "latestCommitAt": "2026-08-12T14:27:12Z",
+    "latestRelease": "v0.12.8",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers",
+      "students"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/google/flax",
+      "https://flax.readthedocs.io"
+    ],
+    "notes": "GitHub primary language reported as Jupyter Notebook; library code is Python/JAX. Category verification 2026-08-12: research/['training'] → infrastructure/['training', 'research']."
+  },
+  {
+    "id": "huggingface-huggingface-hub",
+    "name": "Hugging Face Hub",
+    "owner": "huggingface",
+    "repo": "huggingface_hub",
+    "githubUrl": "https://github.com/huggingface/huggingface_hub",
+    "homepage": "https://huggingface.co/docs/huggingface_hub",
+    "description": "The official CLI and Python client for the Hugging Face Hub.",
+    "editorialSummary": "Official Python client and CLI for the Hugging Face Hub—download/upload models, datasets, and Spaces with caching, versioning, and auth. Foundational plumbing for nearly every HF-centered ML workflow.",
+    "whyCare": "If you pull or publish Hub artifacts from Python/CLI, this is the supported client—not an optional wrapper.",
+    "primaryCategory": "infrastructure",
+    "secondaryCategories": [
+      "datasets",
+      "training"
+    ],
+    "tags": [
+      "huggingface",
+      "hub",
+      "models",
+      "datasets",
+      "cli",
+      "python"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 3797,
+    "forks": 1134,
+    "latestCommitAt": "2026-08-12T10:25:40Z",
+    "latestRelease": "v1.27.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": false,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers",
+      "hobbyists",
+      "enterprises"
+    ],
+    "difficulty": "beginner",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/huggingface/huggingface_hub",
+      "https://huggingface.co/docs/huggingface_hub",
+      "https://raw.githubusercontent.com/huggingface/huggingface_hub/main/LICENSE"
+    ],
+    "notes": "Client talks to Hugging Face Hub (hosted); model/dataset files can be used fully offline after download. localOfflineCapable=true for cached artifacts; selfHostable=false for the Hub service itself."
+  },
+  {
+    "id": "huggingface-tokenizers",
+    "name": "Tokenizers",
+    "owner": "huggingface",
+    "repo": "tokenizers",
+    "githubUrl": "https://github.com/huggingface/tokenizers",
+    "homepage": "https://huggingface.co/docs/tokenizers",
+    "description": "💥 Fast State-of-the-Art Tokenizers optimized for Research and Production",
+    "editorialSummary": "Fast Rust-backed tokenizers library used across Hugging Face models for research and production. Core model-tooling substrate alongside transformers and the Hub client.",
+    "whyCare": "Need high-performance tokenization with HF compatibility—this is the standard library underneath most HF text models.",
+    "primaryCategory": "infrastructure",
+    "secondaryCategories": [
+      "training"
+    ],
+    "tags": [
+      "tokenizers",
+      "nlp",
+      "rust",
+      "huggingface",
+      "bpe"
+    ],
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "stars": 10958,
+    "forks": 1167,
+    "latestCommitAt": "2026-08-12T17:54:29Z",
+    "latestRelease": "v0.23.1",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "researchers"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/huggingface/tokenizers",
+      "https://huggingface.co/docs/tokenizers"
+    ]
+  },
+  {
+    "id": "huggingface-transformers",
+    "name": "Transformers",
+    "owner": "huggingface",
+    "repo": "transformers",
+    "githubUrl": "https://github.com/huggingface/transformers",
+    "homepage": "https://huggingface.co/transformers",
+    "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+    "editorialSummary": "The de facto open-source model zoo and definition layer for modern transformers across NLP, vision, audio, and multimodal work. It turned research checkpoints into a shared, reproducible API used by labs and product teams alike.",
+    "whyCare": "If you need to load, fine-tune, or publish SOTA pretrained models with a consistent interface, this is the research-to-production bridge most papers and tutorials assume.",
+    "primaryCategory": "infrastructure",
+    "secondaryCategories": [
+      "training",
+      "llm-inference",
+      "multimodal"
+    ],
+    "tags": [
+      "transformers",
+      "pretrained-models",
+      "nlp",
+      "pytorch",
+      "huggingface",
+      "vlm"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 164003,
+    "forks": 34223,
+    "latestCommitAt": "2026-08-12T17:05:33Z",
+    "latestRelease": "v5.15.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "researchers",
+      "engineers",
+      "students",
+      "enterprises"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/huggingface/transformers",
+      "https://huggingface.co/docs/transformers"
+    ],
+    "notes": "Seminal papers-with-code style hub; primaryCategory research despite broad training/inference use. Category verification 2026-08-12: research/['training', 'llm-inference', 'multimodal'] → infrastructure/['training', 'llm-inference', 'multimodal']."
   },
   {
     "id": "kserve-kserve",
@@ -269,7 +663,7 @@
     "stars": 15811,
     "forks": 2690,
     "latestCommitAt": "2026-07-10T11:31:26Z",
-    "latestRelease": "v1.10.0",
+    "latestRelease": "redirect",
     "archived": false,
     "maintenance": "moderate",
     "selfHostable": true,
@@ -338,6 +732,55 @@
     "sources": [
       "https://github.com/llm-d/llm-d",
       "https://www.llm-d.ai/"
+    ]
+  },
+  {
+    "id": "microsoft-onnxruntime",
+    "name": "ONNX Runtime",
+    "owner": "microsoft",
+    "repo": "onnxruntime",
+    "githubUrl": "https://github.com/microsoft/onnxruntime",
+    "homepage": "https://onnxruntime.ai",
+    "description": "ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator",
+    "editorialSummary": "Cross-platform high-performance ONNX inference (and training acceleration) runtime spanning CPU, GPU, and edge devices. Foundational execution engine under many production and edge ML paths.",
+    "whyCare": "Use ONNX Runtime when you need portable, optimized inference for ONNX models across hardware targets.",
+    "primaryCategory": "infrastructure",
+    "secondaryCategories": [
+      "llm-inference"
+    ],
+    "tags": [
+      "onnx",
+      "inference",
+      "runtime",
+      "edge",
+      "microsoft",
+      "cpp"
+    ],
+    "language": "C++",
+    "license": "MIT",
+    "stars": 21360,
+    "forks": 4120,
+    "latestCommitAt": "2026-08-12T18:05:25Z",
+    "latestRelease": "v1.29.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises",
+      "researchers"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/microsoft/onnxruntime",
+      "https://onnxruntime.ai"
     ]
   },
   {
@@ -489,6 +932,99 @@
     ]
   },
   {
+    "id": "open-telemetry-semantic-conventions",
+    "name": "semantic-conventions",
+    "owner": "open-telemetry",
+    "repo": "semantic-conventions",
+    "githubUrl": "https://github.com/open-telemetry/semantic-conventions",
+    "homepage": null,
+    "description": "Defines standards for generating consistent, accessible telemetry across a variety of domains",
+    "editorialSummary": "OpenTelemetry Semantic Conventions—including GenAI attribute and span conventions—define how LLM/agent telemetry should be named and structured across vendors.",
+    "whyCare": "The standards layer behind interoperable GenAI observability; implementers (OpenLLMetry, Langfuse OTel, cloud APM) converge here.",
+    "primaryCategory": "infrastructure",
+    "secondaryCategories": [
+      "evaluation"
+    ],
+    "tags": [
+      "opentelemetry",
+      "genai",
+      "semantic-conventions",
+      "standards",
+      "observability"
+    ],
+    "language": "Jinja",
+    "license": "Apache-2.0",
+    "stars": 628,
+    "forks": 379,
+    "latestCommitAt": "2026-08-12T16:57:00Z",
+    "latestRelease": "v1.44.0",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "enterprises"
+    ],
+    "difficulty": "advanced",
+    "documentationQuality": "good",
+    "demoAvailable": false,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/open-telemetry/semantic-conventions",
+      "https://opentelemetry.io/docs/specs/semconv/gen-ai/"
+    ],
+    "notes": "Listed as the OpenTelemetry GenAI standards home (specs + models/). Practical instrumentation often via OpenLLMetry or language contrib packages. Category verification 2026-08-12: evaluation/['infrastructure'] → infrastructure/['evaluation']."
+  },
+  {
+    "id": "openai-tiktoken",
+    "name": "tiktoken",
+    "owner": "openai",
+    "repo": "tiktoken",
+    "githubUrl": "https://github.com/openai/tiktoken",
+    "homepage": null,
+    "description": "tiktoken is a fast BPE tokeniser for use with OpenAI's models.",
+    "editorialSummary": "Fast BPE tokenizer used as the practical token-counting and encoding standard for OpenAI models and many compatible APIs. Complements HF tokenizers for OpenAI-ecosystem workloads.",
+    "whyCare": "Count and encode tokens the way OpenAI APIs do—essential for budgeting context and pricing.",
+    "primaryCategory": "infrastructure",
+    "secondaryCategories": [],
+    "tags": [
+      "tokenizer",
+      "bpe",
+      "openai",
+      "token-counting",
+      "python"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 18977,
+    "forks": 1582,
+    "latestCommitAt": "2026-05-24T08:43:54Z",
+    "latestRelease": "0.13.0",
+    "archived": false,
+    "maintenance": "moderate",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists"
+    ],
+    "difficulty": "beginner",
+    "documentationQuality": "good",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/openai/tiktoken"
+    ],
+    "notes": "Last push May 2026; still the de-facto OpenAI tokenizer. maintenance=moderate."
+  },
+  {
     "id": "ray-project-ray",
     "name": "Ray",
     "owner": "ray-project",
@@ -566,8 +1102,8 @@
     "license": "Apache-2.0",
     "stars": 10479,
     "forks": 1185,
-    "latestCommitAt": "2026-08-12T17:04:54Z",
-    "latestRelease": "v0.13.0",
+    "latestCommitAt": "2026-08-12T17:31:53Z",
+    "latestRelease": "v0.13.1rc1",
     "archived": false,
     "maintenance": "active",
     "selfHostable": true,
@@ -637,6 +1173,56 @@
       "https://github.com/triton-inference-server/server",
       "https://docs.nvidia.com/deeplearning/triton-inference-server/user-guide/docs/index.html"
     ]
+  },
+  {
+    "id": "vercel-ai",
+    "name": "Vercel AI SDK",
+    "owner": "vercel",
+    "repo": "ai",
+    "githubUrl": "https://github.com/vercel/ai",
+    "homepage": "https://ai-sdk.dev",
+    "description": "The AI Toolkit for TypeScript. From the creators of Next.js, the AI SDK is a free open-source library for building AI-powered applications and agents ",
+    "editorialSummary": "Dominant TypeScript AI SDK for app developers—streaming UI helpers, providers, and agent primitives from the Next.js ecosystem. Fills the JS/app-tooling hole in an otherwise Python-heavy catalog.",
+    "whyCare": "Building AI features in TypeScript/Next.js—this is the default SDK most tutorials and products assume.",
+    "primaryCategory": "infrastructure",
+    "secondaryCategories": [
+      "ai-agents"
+    ],
+    "tags": [
+      "typescript",
+      "ai-sdk",
+      "nextjs",
+      "streaming",
+      "vercel"
+    ],
+    "language": "TypeScript",
+    "license": "Apache-2.0",
+    "stars": 26149,
+    "forks": 4949,
+    "latestCommitAt": "2026-08-12T19:00:55Z",
+    "latestRelease": "@ai-sdk/xai@4.0.38",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": true,
+    "localOfflineCapable": true,
+    "audience": [
+      "engineers",
+      "hobbyists",
+      "enterprises"
+    ],
+    "difficulty": "beginner",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": true,
+    "emerging": false,
+    "historicallySignificant": false,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/vercel/ai",
+      "https://ai-sdk.dev",
+      "https://raw.githubusercontent.com/vercel/ai/main/LICENSE"
+    ],
+    "notes": "GitHub SPDX may report NOASSERTION; LICENSE file is Apache-2.0. Monorepo release tags vary by package."
   },
   {
     "id": "vllm-project-aibrix",
@@ -732,5 +1318,55 @@
       "https://github.com/vllm-project/llm-compressor",
       "https://docs.vllm.ai/projects/llm-compressor"
     ]
+  },
+  {
+    "id": "wandb-wandb",
+    "name": "wandb",
+    "owner": "wandb",
+    "repo": "wandb",
+    "githubUrl": "https://github.com/wandb/wandb",
+    "homepage": "https://wandb.ai",
+    "description": "The AI developer platform. Use Weights & Biases to train and fine-tune models, and manage models from experimentation to production.",
+    "editorialSummary": "Weights & Biases client SDK for experiment tracking, model management, and evaluation workflows. Partial fit for this category: core strength is MLOps/experiment tracking with growing LLM eval features.",
+    "whyCare": "If your team already lives in W&B for training, its eval and Weave-related workflows keep evaluation adjacent to experiment history.",
+    "primaryCategory": "infrastructure",
+    "secondaryCategories": [
+      "evaluation",
+      "training"
+    ],
+    "tags": [
+      "experiment-tracking",
+      "mlops",
+      "wandb",
+      "llm-eval",
+      "partial"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "stars": 11230,
+    "forks": 881,
+    "latestCommitAt": "2026-08-12T17:33:37Z",
+    "latestRelease": "v0.28.2",
+    "archived": false,
+    "maintenance": "active",
+    "selfHostable": false,
+    "localOfflineCapable": false,
+    "audience": [
+      "engineers",
+      "researchers",
+      "enterprises"
+    ],
+    "difficulty": "intermediate",
+    "documentationQuality": "excellent",
+    "demoAvailable": true,
+    "featured": false,
+    "emerging": false,
+    "historicallySignificant": true,
+    "dateLastVerified": "2026-08-12",
+    "sources": [
+      "https://github.com/wandb/wandb",
+      "https://wandb.ai"
+    ],
+    "notes": "Partial category inclusion: primary product is broader than LLM eval/observability; hosted backend is commercial (selfHostable=false for the platform). Category verification 2026-08-12: evaluation/['training', 'infrastructure'] → infrastructure/['evaluation', 'training']."
   }
 ]

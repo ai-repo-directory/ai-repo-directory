@@ -1,0 +1,30 @@
+{
+  "id": "lastmile-ai-mcp-agent",
+  "fetchedAt": "2026-08-12T17:39:47.290Z",
+  "stars": 8502,
+  "forks": 875,
+  "watchers": 48,
+  "openIssues": 136,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "description": "Build effective agents using Model Context Protocol and simple workflow patterns",
+  "homepage": null,
+  "topics": [
+    "agents",
+    "ai",
+    "ai-agents",
+    "llm",
+    "llms",
+    "mcp",
+    "model-context-protocol",
+    "python"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-01-25T16:35:16Z",
+  "updatedAt": "2026-08-12T07:23:59Z",
+  "createdAt": "2024-12-18T01:55:10Z",
+  "latestRelease": "v0.0.21",
+  "latestReleaseAt": "2025-05-09T16:54:50Z",
+  "defaultBranch": "main"
+}

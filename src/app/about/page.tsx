@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "About AI Repo Directory — a curated, scored index of open-source AI repositories for engineers and researchers.",
+    "About AI Repo Directory — a curated, independently verified directory of AI repositories for engineers and researchers.",
 };
 
 export default function AboutPage() {
@@ -14,19 +14,22 @@ export default function AboutPage() {
         <h1 className="text-3xl font-semibold tracking-tight text-ink">About</h1>
         <div className="prose-tight mt-4 text-base">
           <p>
-            AI Repo Directory is a high-signal discovery product for open-source
-            AI: coding agents, RAG stacks, inference servers, local AI,
-            infrastructure, and related research implementations.
+            AI Repo Directory is a curated, growing discovery catalog of
+            high-signal AI projects: coding agents, RAG stacks, inference
+            servers, local AI, infrastructure, and related research
+            implementations. It is not an exhaustive index of every AI
+            repository on GitHub.
           </p>
           <p>
-            The catalog combines structured repository metadata, optional GitHub
-            snapshots, and a transparent composite score so you can scan quickly
-            and dig deeper when something looks relevant.
+            Listings are independently verified against GitHub metadata and
+            project docs. GitHub stats are refreshed on a weekly cadence (not
+            real-time). Composite scores help you scan quickly and dig deeper
+            when something looks relevant.
           </p>
           <p>
-            It is built for developers and researchers who want density over
-            marketing — sharp filters, shareable explore URLs, and honest
-            maintenance signals.
+            Most entries are open source; some are source-available or have
+            dual licensing. Maintenance signals and licenses are shown
+            honestly — density over marketing.
           </p>
         </div>
 
@@ -58,7 +61,9 @@ export default function AboutPage() {
 
         <p className="mt-8 text-sm text-ink-faint">
           Not affiliated with GitHub or any of the listed projects. Metadata is
-          editorially maintained and may lag upstream changes.
+          editorially maintained and refreshed periodically — it may lag
+          upstream changes. Home “Most starred” ranks by total stars, not
+          star-velocity trending.
         </p>
       </article>
     </div>

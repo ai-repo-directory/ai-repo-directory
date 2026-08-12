@@ -1,0 +1,21 @@
+{
+  "id": "roocodeinc-roo-code",
+  "fetchedAt": "2026-08-12T17:39:24.732Z",
+  "stars": 24350,
+  "forks": 3417,
+  "watchers": 146,
+  "openIssues": 1036,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "description": "Roo Code gives you a whole dev team of AI agents in your code editor.",
+  "homepage": "https://roocode.com",
+  "topics": [],
+  "archived": true,
+  "disabled": false,
+  "pushedAt": "2026-05-15T18:08:47Z",
+  "updatedAt": "2026-08-11T23:32:07Z",
+  "createdAt": "2024-10-31T17:56:50Z",
+  "latestRelease": "v3.54.0",
+  "latestReleaseAt": "2026-05-15T17:52:24Z",
+  "defaultBranch": "main"
+}

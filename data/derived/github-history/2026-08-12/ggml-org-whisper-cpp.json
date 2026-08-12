@@ -1,0 +1,28 @@
+{
+  "id": "ggml-org-whisper-cpp",
+  "fetchedAt": "2026-08-12T17:39:19.637Z",
+  "stars": 52843,
+  "forks": 6059,
+  "watchers": 414,
+  "openIssues": 1239,
+  "language": "C++",
+  "license": "MIT",
+  "description": "Port of OpenAI's Whisper model in C/C++",
+  "homepage": null,
+  "topics": [
+    "inference",
+    "openai",
+    "speech-recognition",
+    "speech-to-text",
+    "transformer",
+    "whisper"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-08-07T18:59:53Z",
+  "updatedAt": "2026-08-12T17:13:55Z",
+  "createdAt": "2022-09-25T18:26:37Z",
+  "latestRelease": "v1.9.2",
+  "latestReleaseAt": "2026-08-04T15:31:37Z",
+  "defaultBranch": "master"
+}
