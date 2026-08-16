@@ -1,0 +1,31 @@
+name: Suggest a repository
+description: Recommend an AI repository for editorial review.
+title: "Repository suggestion: "
+labels: [new-repository]
+body:
+  - type: input
+    id: github-url
+    attributes:
+      label: Canonical GitHub URL
+      placeholder: https://github.com/owner/repository
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Best category
+      options: [llm-inference, ai-agents, coding-agents, rag, local-ai, image-ai, video-ai, audio-ai, training, evaluation, mcp-tools, multimodal, datasets, infrastructure, research, vector-db]
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Why should it be included?
+      description: Cite technical significance, active maintenance, documentation quality, or practical usefulness.
+    validations:
+      required: true
+  - type: textarea
+    id: caveats
+    attributes:
+      label: Caveats or trade-offs
+      description: Share license, maintenance, ecosystem, or scope limitations.

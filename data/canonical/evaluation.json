@@ -23,7 +23,7 @@
       "arize"
     ],
     "language": "Python",
-    "license": "Elastic-2.0",
+    "license": null,
     "stars": 11015,
     "forks": 1055,
     "latestCommitAt": "2026-08-12T17:34:35Z",
@@ -214,7 +214,7 @@
       "meta"
     ],
     "language": null,
-    "license": "CC-BY-NC-4.0",
+    "license": null,
     "stars": 442,
     "forks": 25,
     "latestCommitAt": "2025-03-08T07:58:21Z",
@@ -357,7 +357,7 @@
       "llmops"
     ],
     "language": "TypeScript",
-    "license": "MIT",
+    "license": null,
     "stars": 32973,
     "forks": 3550,
     "latestCommitAt": "2026-08-12T17:24:11Z",
@@ -405,7 +405,7 @@
       "llm-evaluation"
     ],
     "language": "Python",
-    "license": "MIT",
+    "license": null,
     "stars": 19154,
     "forks": 3052,
     "latestCommitAt": "2026-04-14T15:29:57Z",

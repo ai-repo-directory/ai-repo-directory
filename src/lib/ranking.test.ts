@@ -3,6 +3,9 @@ import { computeScore } from "./ranking";
 import { filterRepositories, parseFilters } from "./search";
 import type { EnrichedRepository, RepositoryRecord } from "./types";
 import { repositoryRecordSchema } from "./types";
+import { sitePath } from "./format";
+import fs from "node:fs";
+import path from "node:path";
 
 const baseRepo: RepositoryRecord = {
   id: "vllm-project-vllm",
@@ -94,5 +97,36 @@ describe("filterRepositories", () => {
     expect(filters.q).toBe("vllm");
     expect(filters.selfHostable).toBe(true);
     expect(filters.sort).toBe("stars");
+  });
+
+  it("ignores an invalid minimum-stars filter", () => {
+    expect(parseFilters(new URLSearchParams("minStars=not-a-number")).minStars).toBeUndefined();
+  });
+
+  it("sorts repositories by stars", () => {
+    const lower = { ...enriched, id: "lower", effectiveStars: 1 };
+    const higher = { ...enriched, id: "higher", effectiveStars: 2 };
+    expect(filterRepositories([lower, higher], { sort: "stars" }).map((repo) => repo.id)).toEqual(["higher", "lower"]);
+  });
+});
+
+describe("GitHub Pages helpers and release data", () => {
+  it("prefixes project routes with the configured base path", () => {
+    const previous = process.env.NEXT_PUBLIC_BASE_PATH;
+    process.env.NEXT_PUBLIC_BASE_PATH = "/ai-repo-directory";
+    expect(sitePath("/explore")).toBe("/ai-repo-directory/explore");
+    process.env.NEXT_PUBLIC_BASE_PATH = previous;
+  });
+
+  it("ships 256 canonical records and matching scores", () => {
+    const root = path.resolve(import.meta.dirname, "../..");
+    const canonicalDir = path.join(root, "data", "canonical");
+    const canonicalCount = fs.readdirSync(canonicalDir)
+      .filter((file) => file.endsWith(".json"))
+      .flatMap((file) => JSON.parse(fs.readFileSync(path.join(canonicalDir, file), "utf8")) as unknown[])
+      .length;
+    const scores = JSON.parse(fs.readFileSync(path.join(root, "data", "derived", "scores.json"), "utf8")) as unknown[];
+    expect(canonicalCount).toBe(256);
+    expect(scores).toHaveLength(canonicalCount);
   });
 });

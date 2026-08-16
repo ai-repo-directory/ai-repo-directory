@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a question or start a discussion
+    url: https://github.com/ai-repo-directory/ai-repo-directory/discussions
+    about: Use GitHub Discussions for support, ideas, and community conversation.

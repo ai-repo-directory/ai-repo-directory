@@ -12,7 +12,6 @@ export function track(event: AnalyticsEvent): void {
   if (typeof window === "undefined") return;
   // Plausible / GA / custom: replace with real sink
   if (process.env.NODE_ENV === "development") {
-    // eslint-disable-next-line no-console
     console.debug("[analytics]", event.name, event.props);
   }
   window.dispatchEvent(

@@ -1,4 +1,7 @@
 import type { SearchFilters } from "@/lib/search";
+import { sitePath } from "@/lib/format";
+
+const explorePath = sitePath("/explore/");
 
 export function SearchForm({
   defaultQuery = "",
@@ -11,7 +14,7 @@ export function SearchForm({
 }) {
   return (
     <form
-      action="/explore"
+      action={explorePath}
       method="get"
       role="search"
       className={compact ? "flex w-full gap-2" : "flex w-full flex-col gap-2 sm:flex-row"}
@@ -45,7 +48,7 @@ export function SearchFormWithFilters({
   filters: SearchFilters;
 }) {
   return (
-    <form action="/explore" method="get" role="search" className="flex gap-2">
+    <form action={explorePath} method="get" role="search" className="flex gap-2">
       <label htmlFor="explore-q" className="sr-only">
         Search query
       </label>

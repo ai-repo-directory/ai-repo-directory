@@ -22,3 +22,16 @@ export function absoluteUrl(path = ""): string {
     "http://localhost:3000";
   return `${base}${path.startsWith("/") ? path : `/${path}`}`;
 }
+
+/** The deployment origin, used by Next metadata before it applies `basePath`. */
+export function siteOrigin(): string {
+  const configured = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
+  return new URL(configured).origin;
+}
+
+/** A route that also works when the site is deployed under GitHub Pages. */
+export function sitePath(path = ""): string {
+  const normalized = path.startsWith("/") ? path : `/${path}`;
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH?.replace(/\/$/, "") || "";
+  return `${basePath}${normalized}`;
+}

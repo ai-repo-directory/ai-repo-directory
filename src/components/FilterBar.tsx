@@ -2,6 +2,7 @@ import Link from "next/link";
 import { CATEGORIES } from "@/lib/categories";
 import { MAINTENANCE_SIGNALS, DIFFICULTIES } from "@/lib/types";
 import type { SearchFilters } from "@/lib/search";
+import { sitePath } from "@/lib/format";
 
 const selectClass =
   "w-full border border-border bg-paper-elevated px-2.5 py-1.5 text-sm text-ink";
@@ -19,7 +20,8 @@ export function FilterBar({
   licenses: string[];
   resultCount: number;
 }) {
-  const clearHref = filters.q ? `/explore?q=${encodeURIComponent(filters.q)}` : "/explore";
+  const explorePath = sitePath("/explore/");
+  const clearHref = filters.q ? `${explorePath}?q=${encodeURIComponent(filters.q)}` : explorePath;
   const hasActive =
     Boolean(filters.category) ||
     Boolean(filters.language) ||
@@ -33,7 +35,7 @@ export function FilterBar({
 
   return (
     <form
-      action="/explore"
+      action={explorePath}
       method="get"
       className="border border-border bg-paper-elevated p-4"
       aria-label="Filter repositories"

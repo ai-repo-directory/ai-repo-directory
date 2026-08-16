@@ -69,7 +69,7 @@
       "rust"
     ],
     "language": "Rust",
-    "license": "Apache-2.0",
+    "license": null,
     "stars": 7743,
     "forks": 1436,
     "latestCommitAt": "2026-08-12T17:38:27Z",
@@ -168,7 +168,7 @@
       "python"
     ],
     "language": "Python",
-    "license": "MIT",
+    "license": null,
     "stars": 56194,
     "forks": 10519,
     "latestCommitAt": "2026-08-12T19:08:15Z",
@@ -1196,7 +1196,7 @@
       "vercel"
     ],
     "language": "TypeScript",
-    "license": "Apache-2.0",
+    "license": null,
     "stars": 26149,
     "forks": 4949,
     "latestCommitAt": "2026-08-12T19:00:55Z",

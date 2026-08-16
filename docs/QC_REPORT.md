@@ -4,9 +4,9 @@ Date: 2026-08-12
 
 ## Totals
 
-- Canonical repositories after merge: **233**
+- Canonical repositories after Dataset v1 freeze: **256**
 - Canonical category files: **16** (includes `vector-db` split from RAG research)
-- GitHub snapshots: **233** (`pnpm ingest`, 0 failures)
+- GitHub snapshots: **256** (`pnpm ingest`, 0 failures)
 - Validation: `pnpm validate` — OK (no duplicate IDs or GitHub URLs)
 
 ## Checks performed

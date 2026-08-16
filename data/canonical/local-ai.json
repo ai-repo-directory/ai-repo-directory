@@ -260,7 +260,7 @@
       "privacy"
     ],
     "language": "TypeScript",
-    "license": "Apache-2.0",
+    "license": null,
     "stars": 43980,
     "forks": 2961,
     "latestCommitAt": "2026-08-12T10:16:02Z",
@@ -557,7 +557,7 @@
       "llama.cpp"
     ],
     "language": "C++",
-    "license": "Apache-2.0",
+    "license": null,
     "stars": 25544,
     "forks": 1545,
     "latestCommitAt": "2026-08-03T06:27:13Z",

@@ -1,0 +1,18 @@
+name: Correct directory data
+description: Report inaccurate metadata, classification, or editorial context.
+title: "Data correction: "
+labels: [data-quality]
+body:
+  - type: input
+    id: directory-url
+    attributes:
+      label: Directory page URL or repository ID
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: What needs correcting?
+      description: Include an authoritative source URL where possible.
+    validations:
+      required: true

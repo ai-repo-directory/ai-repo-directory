@@ -1,0 +1,17 @@
+name: Report a website bug
+description: Help us reproduce and fix a problem in the directory.
+title: "Bug: "
+labels: [bug]
+body:
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction steps
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { IBM_Plex_Mono, IBM_Plex_Sans } from "next/font/google";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
-import { absoluteUrl } from "@/lib/format";
+import { siteOrigin } from "@/lib/format";
 import "./globals.css";
 
 const ibmPlexSans = IBM_Plex_Sans({
@@ -20,7 +20,7 @@ const ibmPlexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(absoluteUrl("/")),
+  metadataBase: new URL(siteOrigin()),
   title: {
     default: "AI Repo Directory",
     template: "%s · AI Repo Directory",
