@@ -3,7 +3,7 @@
     "id": "huggingface-transformers",
     "score": 96.5,
     "breakdown": {
-      "adoption": 98.27204317871433,
+      "adoption": 98.3187090459987,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -11,13 +11,13 @@
       "ecosystem": 85,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "langchain-ai-langchain",
     "score": 95.6,
     "breakdown": {
-      "adoption": 97.47478982092149,
+      "adoption": 97.4969845625208,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -25,13 +25,13 @@
       "ecosystem": 73,
       "usefulness": 95
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "ollama-ollama",
     "score": 95.1,
     "breakdown": {
-      "adoption": 98.857255730855,
+      "adoption": 98.87571553467616,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -39,27 +39,13 @@
       "ecosystem": 75,
       "usefulness": 88
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
-  },
-  {
-    "id": "modelcontextprotocol-servers",
-    "score": 95,
-    "breakdown": {
-      "adoption": 94.3343061892337,
-      "maintenance": 100,
-      "activity": 100,
-      "documentation": 100,
-      "maturity": 100,
-      "ecosystem": 73,
-      "usefulness": 95
-    },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "openhands-openhands",
     "score": 95,
     "breakdown": {
-      "adoption": 94.14685065331166,
+      "adoption": 94.21084405930951,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -67,13 +53,13 @@
       "ecosystem": 79,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "huggingface-diffusers",
     "score": 94.7,
     "breakdown": {
-      "adoption": 88.06823047613027,
+      "adoption": 88.07690932335095,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -81,13 +67,13 @@
       "ecosystem": 85,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "open-webui-open-webui",
     "score": 94.7,
     "breakdown": {
-      "adoption": 97.72019225418576,
+      "adoption": 97.75340338271725,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -95,13 +81,13 @@
       "ecosystem": 73,
       "usefulness": 88
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "run-llama-llama-index",
     "score": 94.4,
     "breakdown": {
-      "adoption": 90.75806514681604,
+      "adoption": 90.7705463117417,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -109,13 +95,13 @@
       "ecosystem": 79,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "huggingface-datasets",
     "score": 94.3,
     "breakdown": {
-      "adoption": 85.12685779839019,
+      "adoption": 85.1363402123331,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -123,13 +109,13 @@
       "ecosystem": 81,
       "usefulness": 95
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "milvus-io-milvus",
     "score": 94.3,
     "breakdown": {
-      "adoption": 89.95381793327707,
+      "adoption": 89.96539811826712,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -137,27 +123,13 @@
       "ecosystem": 79,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
-  },
-  {
-    "id": "openai-whisper",
-    "score": 94.3,
-    "breakdown": {
-      "adoption": 95.55978360623578,
-      "maintenance": 100,
-      "activity": 100,
-      "documentation": 100,
-      "maturity": 100,
-      "ecosystem": 73,
-      "usefulness": 88
-    },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "ray-project-ray",
     "score": 94.2,
     "breakdown": {
-      "adoption": 89.62017786773896,
+      "adoption": 89.63355388883214,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -165,13 +137,13 @@
       "ecosystem": 79,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "stanfordnlp-dspy",
-    "score": 94,
+    "score": 94.1,
     "breakdown": {
-      "adoption": 88.69589673269344,
+      "adoption": 88.72293038818565,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -179,13 +151,13 @@
       "ecosystem": 79,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "deepset-ai-haystack",
     "score": 93.6,
     "breakdown": {
-      "adoption": 86.34721297965866,
+      "adoption": 86.3636663275555,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -193,13 +165,13 @@
       "ecosystem": 79,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "deepspeedai-deepspeed",
     "score": 93.5,
     "breakdown": {
-      "adoption": 89.51746133854029,
+      "adoption": 89.5241080870544,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -207,13 +179,13 @@
       "ecosystem": 81,
       "usefulness": 83
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "mlflow-mlflow",
     "score": 93.4,
     "breakdown": {
-      "adoption": 86.69199693215545,
+      "adoption": 86.71945745340118,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -221,13 +193,13 @@
       "ecosystem": 77,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "mudler-localai",
     "score": 93.4,
     "breakdown": {
-      "adoption": 90.36569165413813,
+      "adoption": 90.37722523602088,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -235,13 +207,13 @@
       "ecosystem": 79,
       "usefulness": 83
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "unslothai-unsloth",
     "score": 93.4,
     "breakdown": {
-      "adoption": 93.21957129398487,
+      "adoption": 93.25211078025586,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -249,13 +221,13 @@
       "ecosystem": 81,
       "usefulness": 95
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "vllm-project-vllm",
     "score": 93.4,
     "breakdown": {
-      "adoption": 94.42935657461449,
+      "adoption": 94.47216484491997,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -263,13 +235,13 @@
       "ecosystem": 73,
       "usefulness": 83
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "microsoft-graphrag",
     "score": 93,
     "breakdown": {
-      "adoption": 88.33675175128664,
+      "adoption": 88.35141021418416,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -277,13 +249,13 @@
       "ecosystem": 71,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "huggingface-trl",
     "score": 92.8,
     "breakdown": {
-      "adoption": 84.28200935690086,
+      "adoption": 84.29853101085895,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -291,13 +263,13 @@
       "ecosystem": 75,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "modelcontextprotocol-python-sdk",
     "score": 92.8,
     "breakdown": {
-      "adoption": 85.77819360626683,
+      "adoption": 85.7974844832598,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -305,13 +277,13 @@
       "ecosystem": 73,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "microsoft-onnxruntime",
     "score": 92.7,
     "breakdown": {
-      "adoption": 85.08878951049049,
+      "adoption": 85.10636425383629,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -319,13 +291,27 @@
       "ecosystem": 73,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
+  },
+  {
+    "id": "modelcontextprotocol-servers",
+    "score": 92.6,
+    "breakdown": {
+      "adoption": 94.34872085497072,
+      "maintenance": 100,
+      "activity": 85,
+      "documentation": 100,
+      "maturity": 100,
+      "ecosystem": 73,
+      "usefulness": 95
+    },
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "nvidia-nemo-speech",
     "score": 92.5,
     "breakdown": {
-      "adoption": 83.98535383527599,
+      "adoption": 83.99947188214875,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -333,13 +319,13 @@
       "ecosystem": 81,
       "usefulness": 83
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "hiyouga-llamafactory",
     "score": 92.1,
     "breakdown": {
-      "adoption": 93.10303491429218,
+      "adoption": 93.1180099922324,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -347,13 +333,13 @@
       "ecosystem": 76,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "modelcontextprotocol-typescript-sdk",
     "score": 92.1,
     "breakdown": {
-      "adoption": 81.89927563284427,
+      "adoption": 81.9230801594401,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -361,13 +347,13 @@
       "ecosystem": 73,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "mintplex-labs-anything-llm",
     "score": 92,
     "breakdown": {
-      "adoption": 92.29059224193986,
+      "adoption": 92.31739490395394,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -375,13 +361,13 @@
       "ecosystem": 79,
       "usefulness": 88
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "huggingface-peft",
     "score": 91.9,
     "breakdown": {
-      "adoption": 85.03668108215705,
+      "adoption": 85.04839685262078,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -389,13 +375,27 @@
       "ecosystem": 67,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
+  },
+  {
+    "id": "openai-whisper",
+    "score": 91.9,
+    "breakdown": {
+      "adoption": 95.5845452294637,
+      "maintenance": 100,
+      "activity": 85,
+      "documentation": 100,
+      "maturity": 100,
+      "ecosystem": 73,
+      "usefulness": 88
+    },
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "chroma-core-chroma",
     "score": 91.8,
     "breakdown": {
-      "adoption": 87.00079057522399,
+      "adoption": 87.01123551272151,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -403,13 +403,13 @@
       "ecosystem": 77,
       "usefulness": 95
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "langchain-ai-langgraph",
     "score": 91.8,
     "breakdown": {
-      "adoption": 89.27872220492678,
+      "adoption": 89.34858424894988,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -417,13 +417,13 @@
       "ecosystem": 79,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.669Z"
+    "computedAt": "2026-09-20T10:15:22.588Z"
   },
   {
     "id": "upstash-context7",
     "score": 91.8,
     "breakdown": {
-      "adoption": 91.88030418489586,
+      "adoption": 91.90989233102015,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -431,13 +431,13 @@
       "ecosystem": 79,
       "usefulness": 87
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "microsoft-playwright-mcp",
     "score": 91.6,
     "breakdown": {
-      "adoption": 88.5325264576693,
+      "adoption": 88.58889231644429,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -445,13 +445,13 @@
       "ecosystem": 73,
       "usefulness": 95
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "triton-inference-server-server",
     "score": 91.6,
     "breakdown": {
-      "adoption": 80.61200091884794,
+      "adoption": 80.62029803070462,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -459,27 +459,13 @@
       "ecosystem": 71,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
-  },
-  {
-    "id": "berriai-litellm",
-    "score": 91.4,
-    "breakdown": {
-      "adoption": 91.52002039980236,
-      "maintenance": 100,
-      "activity": 100,
-      "documentation": 100,
-      "maturity": 80,
-      "ecosystem": 73,
-      "usefulness": 90
-    },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "onyx-dot-app-onyx",
-    "score": 91.4,
+    "score": 91.5,
     "breakdown": {
-      "adoption": 87.58803025312932,
+      "adoption": 87.61298079879,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -487,13 +473,27 @@
       "ecosystem": 79,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
+  },
+  {
+    "id": "berriai-litellm",
+    "score": 91.4,
+    "breakdown": {
+      "adoption": 91.5862559746087,
+      "maintenance": 100,
+      "activity": 100,
+      "documentation": 100,
+      "maturity": 80,
+      "ecosystem": 73,
+      "usefulness": 90
+    },
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "prefecthq-fastmcp",
     "score": 91.3,
     "breakdown": {
-      "adoption": 86.62330626430185,
+      "adoption": 86.65574911654298,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -501,13 +501,13 @@
       "ecosystem": 73,
       "usefulness": 95
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "qdrant-qdrant",
     "score": 91.3,
     "breakdown": {
-      "adoption": 88.07106180564759,
+      "adoption": 88.10569302005176,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -515,13 +515,13 @@
       "ecosystem": 77,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "openbmb-minicpm-v",
     "score": 91,
     "breakdown": {
-      "adoption": 86.31566371613073,
+      "adoption": 86.32899219917763,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -529,13 +529,13 @@
       "ecosystem": 77,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "vercel-ai",
     "score": 91,
     "breakdown": {
-      "adoption": 86.40157152189045,
+      "adoption": 86.4363475881886,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -543,13 +543,13 @@
       "ecosystem": 71,
       "usefulness": 95
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "comfy-org-comfyui",
     "score": 90.8,
     "breakdown": {
-      "adoption": 96.85022723470436,
+      "adoption": 96.90710671911737,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -557,13 +557,13 @@
       "ecosystem": 79,
       "usefulness": 78
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "github-github-mcp-server",
     "score": 90.8,
     "breakdown": {
-      "adoption": 87.75833447041862,
+      "adoption": 87.79289169888114,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -571,13 +571,13 @@
       "ecosystem": 77,
       "usefulness": 87
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "langfuse-langfuse",
     "score": 90.8,
     "breakdown": {
-      "adoption": 88.07257134504225,
+      "adoption": 88.13154614625452,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -585,13 +585,13 @@
       "ecosystem": 73,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "swe-agent-swe-agent",
     "score": 90.8,
     "breakdown": {
-      "adoption": 84.61629031798498,
+      "adoption": 84.63486543500245,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -599,13 +599,13 @@
       "ecosystem": 68,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "huggingface-huggingface-hub",
     "score": 90.7,
     "breakdown": {
-      "adoption": 73.84924401988562,
+      "adoption": 73.894303573218,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -613,13 +613,13 @@
       "ecosystem": 79,
       "usefulness": 85
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "modelcontextprotocol-modelcontextprotocol",
     "score": 90.7,
     "breakdown": {
-      "adoption": 79.45327600361145,
+      "adoption": 79.49846126145965,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -627,13 +627,13 @@
       "ecosystem": 73,
       "usefulness": 83
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "zylon-ai-private-gpt",
     "score": 90.6,
     "breakdown": {
-      "adoption": 91.39535754411628,
+      "adoption": 91.3973964144576,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -641,13 +641,13 @@
       "ecosystem": 77,
       "usefulness": 85
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "weaviate-weaviate",
-    "score": 90.4,
+    "score": 90.5,
     "breakdown": {
-      "adoption": 83.38157775208245,
+      "adoption": 83.39010042093769,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -655,13 +655,13 @@
       "ecosystem": 77,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "composiohq-composio",
     "score": 90.3,
     "breakdown": {
-      "adoption": 87.19038999210457,
+      "adoption": 87.21260327814166,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -669,13 +669,13 @@
       "ecosystem": 79,
       "usefulness": 82
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "arize-ai-phoenix",
     "score": 90.2,
     "breakdown": {
-      "adoption": 80.8746818166258,
+      "adoption": 80.93760162813024,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -683,13 +683,13 @@
       "ecosystem": 79,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "ggml-org-llama.cpp",
     "score": 90.1,
     "breakdown": {
-      "adoption": 96.61125333216287,
+      "adoption": 96.65414752044418,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -697,13 +697,13 @@
       "ecosystem": 73,
       "usefulness": 78
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "ggml-org-whisper-cpp",
     "score": 90,
     "breakdown": {
-      "adoption": 90.94245298356415,
+      "adoption": 90.96028094305869,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -711,13 +711,13 @@
       "ecosystem": 81,
       "usefulness": 78
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "danny-avila-librechat",
     "score": 89.9,
     "breakdown": {
-      "adoption": 89.51579859121966,
+      "adoption": 89.71763679655146,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -725,13 +725,13 @@
       "ecosystem": 73,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "janhq-jan",
     "score": 89.9,
     "breakdown": {
-      "adoption": 89.71807647959349,
+      "adoption": 89.73578567113445,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -739,13 +739,13 @@
       "ecosystem": 65,
       "usefulness": 88
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "meilisearch-meilisearch",
     "score": 89.9,
     "breakdown": {
-      "adoption": 91.5929635372282,
+      "adoption": 91.60076201265733,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -753,13 +753,13 @@
       "ecosystem": 64,
       "usefulness": 95
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "promptfoo-promptfoo",
     "score": 89.8,
     "breakdown": {
-      "adoption": 85.9841960735196,
+      "adoption": 86.04758023238378,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -767,13 +767,13 @@
       "ecosystem": 71,
       "usefulness": 87
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "swe-bench-swe-bench",
     "score": 89.7,
     "breakdown": {
-      "adoption": 76.48614562131567,
+      "adoption": 76.53622680677329,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -781,13 +781,13 @@
       "ecosystem": 71,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "invoke-ai-invokeai",
     "score": 89.6,
     "breakdown": {
-      "adoption": 86.75535347804743,
+      "adoption": 86.76573796368695,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -795,13 +795,13 @@
       "ecosystem": 73,
       "usefulness": 83
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "facebookresearch-faiss",
     "score": 89.5,
     "breakdown": {
-      "adoption": 89.17553105891157,
+      "adoption": 89.18269492066368,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -809,13 +809,13 @@
       "ecosystem": 79,
       "usefulness": 78
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "argilla-io-argilla",
     "score": 89.3,
     "breakdown": {
-      "adoption": 75.62121215702348,
+      "adoption": 75.63395803709925,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -823,13 +823,13 @@
       "ecosystem": 79,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "mlfoundations-open-clip",
     "score": 89.3,
     "breakdown": {
-      "adoption": 82.25581965987921,
+      "adoption": 82.26318786903859,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -837,13 +837,13 @@
       "ecosystem": 77,
       "usefulness": 83
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "argilla-io-distilabel",
     "score": 89.1,
     "breakdown": {
-      "adoption": 72.95683765377015,
+      "adoption": 72.96451522357873,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -851,13 +851,13 @@
       "ecosystem": 81,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "cline-cline",
     "score": 89.1,
     "breakdown": {
-      "adoption": 92.47910188351075,
+      "adoption": 92.56676118764577,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -865,13 +865,13 @@
       "ecosystem": 77,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "vespa-engine-vespa",
     "score": 89.1,
     "breakdown": {
-      "adoption": 77.75233883633139,
+      "adoption": 77.76979268973119,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -879,13 +879,13 @@
       "ecosystem": 64,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "skypilot-org-skypilot",
     "score": 89,
     "breakdown": {
-      "adoption": 80.3802025176474,
+      "adoption": 80.39432093035913,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -893,13 +893,27 @@
       "ecosystem": 79,
       "usefulness": 82
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
+  },
+  {
+    "id": "kserve-kserve",
+    "score": 88.8,
+    "breakdown": {
+      "adoption": 76.64288772120608,
+      "maintenance": 100,
+      "activity": 100,
+      "documentation": 100,
+      "maturity": 80,
+      "ecosystem": 73,
+      "usefulness": 90
+    },
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "nvidia-tensorrt-llm",
     "score": 88.8,
     "breakdown": {
-      "adoption": 82.47019911131389,
+      "adoption": 82.50000325045414,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -907,13 +921,13 @@
       "ecosystem": 73,
       "usefulness": 83
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "openai-openai-agents-python",
     "score": 88.8,
     "breakdown": {
-      "adoption": 87.02520995618237,
+      "adoption": 87.06343074920323,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -921,13 +935,13 @@
       "ecosystem": 67,
       "usefulness": 82
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "confident-ai-deepeval",
     "score": 88.7,
     "breakdown": {
-      "adoption": 83.91715801551001,
+      "adoption": 83.95347591441286,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -935,13 +949,13 @@
       "ecosystem": 71,
       "usefulness": 82
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "huggingface-accelerate",
     "score": 88.7,
     "breakdown": {
-      "adoption": 79.91145634382315,
+      "adoption": 79.92003532738295,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -949,27 +963,13 @@
       "ecosystem": 58,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
-  },
-  {
-    "id": "kserve-kserve",
-    "score": 88.7,
-    "breakdown": {
-      "adoption": 76.54730386645389,
-      "maintenance": 100,
-      "activity": 100,
-      "documentation": 100,
-      "maturity": 80,
-      "ecosystem": 73,
-      "usefulness": 90
-    },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "dao-ailab-flash-attention",
     "score": 88.6,
     "breakdown": {
-      "adoption": 85.94194362964392,
+      "adoption": 85.9641472906694,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -977,13 +977,13 @@
       "ecosystem": 77,
       "usefulness": 78
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "huggingface-tokenizers",
     "score": 88.6,
     "breakdown": {
-      "adoption": 80.64158506246511,
+      "adoption": 80.65102368366323,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -991,13 +991,13 @@
       "ecosystem": 56,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "nvidia-megatron-lm",
     "score": 88.5,
     "breakdown": {
-      "adoption": 83.78296183047314,
+      "adoption": 83.81386950835753,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -1005,13 +1005,13 @@
       "ecosystem": 79,
       "usefulness": 78
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "lancedb-lancedb",
     "score": 88.2,
     "breakdown": {
-      "adoption": 80.86270940159886,
+      "adoption": 80.89742572461473,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -1019,13 +1019,13 @@
       "ecosystem": 72,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "open-telemetry-opentelemetry-collector",
     "score": 88.2,
     "breakdown": {
-      "adoption": 78.16661524987097,
+      "adoption": 78.19331901408461,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -1033,13 +1033,13 @@
       "ecosystem": 56,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "eleutherai-lm-evaluation-harness",
     "score": 88,
     "breakdown": {
-      "adoption": 82.17468107030047,
+      "adoption": 82.20772208289195,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -1047,13 +1047,13 @@
       "ecosystem": 77,
       "usefulness": 78
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "infiniflow-ragflow",
     "score": 88,
     "breakdown": {
-      "adoption": 94.3569229651522,
+      "adoption": 94.38848373576494,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -1061,13 +1061,13 @@
       "ecosystem": 71,
       "usefulness": 85
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "axolotl-ai-cloud-axolotl",
     "score": 87.9,
     "breakdown": {
-      "adoption": 81.43695190407203,
+      "adoption": 81.44843657561204,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -1075,13 +1075,13 @@
       "ecosystem": 67,
       "usefulness": 83
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "fishaudio-fish-speech",
     "score": 87.8,
     "breakdown": {
-      "adoption": 87.71203761349119,
+      "adoption": 87.72896517034408,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -1089,13 +1089,13 @@
       "ecosystem": 79,
       "usefulness": 85
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "openinterpreter-openinterpreter",
     "score": 87.8,
     "breakdown": {
-      "adoption": 92.51764573084948,
+      "adoption": 92.52498430924302,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -1103,27 +1103,13 @@
       "ecosystem": 62,
       "usefulness": 85
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
-  },
-  {
-    "id": "stanford-crfm-helm",
-    "score": 87.8,
-    "breakdown": {
-      "adoption": 71.95391603280501,
-      "maintenance": 100,
-      "activity": 100,
-      "documentation": 100,
-      "maturity": 90,
-      "ecosystem": 62,
-      "usefulness": 90
-    },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "bitsandbytes-foundation-bitsandbytes",
     "score": 87.6,
     "breakdown": {
-      "adoption": 78.92363274735963,
+      "adoption": 78.9313130326498,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -1131,13 +1117,13 @@
       "ecosystem": 58,
       "usefulness": 83
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "microsoft-semantic-kernel",
     "score": 87.6,
     "breakdown": {
-      "adoption": 86.83500432773602,
+      "adoption": 86.84116129905881,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -1145,13 +1131,13 @@
       "ecosystem": 58,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "verl-project-verl",
     "score": 87.6,
     "breakdown": {
-      "adoption": 85.53823786115214,
+      "adoption": 85.56657232897264,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -1159,13 +1145,13 @@
       "ecosystem": 89,
       "usefulness": 78
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "crewaiinc-crewai",
     "score": 87.5,
     "breakdown": {
-      "adoption": 91.50031868468122,
+      "adoption": 91.54132459368115,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -1173,13 +1159,13 @@
       "ecosystem": 65,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.669Z"
+    "computedAt": "2026-09-20T10:15:22.588Z"
   },
   {
     "id": "anomalyco-opencode",
     "score": 87.4,
     "breakdown": {
-      "adoption": 99.73980694190591,
+      "adoption": 99.79436605547073,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -1187,13 +1173,13 @@
       "ecosystem": 62,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "langgenius-dify",
     "score": 87.3,
     "breakdown": {
-      "adoption": 97.87901339798466,
+      "adoption": 97.92000413784399,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -1201,13 +1187,13 @@
       "ecosystem": 64,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "pgvector-pgvector",
     "score": 87.3,
     "breakdown": {
-      "adoption": 85.42478449960906,
+      "adoption": 85.45361565515668,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -1215,13 +1201,13 @@
       "ecosystem": 77,
       "usefulness": 78
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "567-labs-instructor",
     "score": 87.2,
     "breakdown": {
-      "adoption": 82.13584199178254,
+      "adoption": 82.1569280576865,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -1229,13 +1215,13 @@
       "ecosystem": 56,
       "usefulness": 95
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "browser-use-browser-use",
     "score": 87.2,
     "breakdown": {
-      "adoption": 95.87775688447613,
+      "adoption": 95.93545763269526,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -1243,13 +1229,13 @@
       "ecosystem": 71,
       "usefulness": 77
     },
-    "computedAt": "2026-09-13T10:45:34.669Z"
+    "computedAt": "2026-09-20T10:15:22.588Z"
   },
   {
     "id": "pydantic-pydantic-ai",
     "score": 87.2,
     "breakdown": {
-      "adoption": 84.4814865839282,
+      "adoption": 84.53723676008443,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -1257,13 +1243,13 @@
       "ecosystem": 58,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "agno-agi-agno",
     "score": 87.1,
     "breakdown": {
-      "adoption": 89.37211823577448,
+      "adoption": 89.3892506852585,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -1271,13 +1257,13 @@
       "ecosystem": 71,
       "usefulness": 85
     },
-    "computedAt": "2026-09-13T10:45:34.669Z"
+    "computedAt": "2026-09-20T10:15:22.588Z"
   },
   {
     "id": "ml-explore-mlx",
     "score": 87.1,
     "breakdown": {
-      "adoption": 86.8002338463294,
+      "adoption": 86.82038673859216,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -1285,13 +1271,13 @@
       "ecosystem": 62,
       "usefulness": 83
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "neuml-txtai",
     "score": 87.1,
     "breakdown": {
-      "adoption": 81.6825372200249,
+      "adoption": 81.69108533540259,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -1299,13 +1285,13 @@
       "ecosystem": 62,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "microsoft-agent-framework",
     "score": 87,
     "breakdown": {
-      "adoption": 81.95452396012767,
+      "adoption": 82.00739321114591,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -1313,13 +1299,13 @@
       "ecosystem": 81,
       "usefulness": 85
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "mlc-ai-web-llm",
     "score": 86.9,
     "breakdown": {
-      "adoption": 84.21788755407985,
+      "adoption": 84.23355212997654,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -1327,13 +1313,13 @@
       "ecosystem": 56,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "wandb-wandb",
     "score": 86.9,
     "breakdown": {
-      "adoption": 80.7655504271182,
+      "adoption": 80.77076126640034,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -1341,13 +1327,13 @@
       "ecosystem": 62,
       "usefulness": 72
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "dottxt-ai-outlines",
     "score": 86.7,
     "breakdown": {
-      "adoption": 82.9753193710541,
+      "adoption": 82.9971501343071,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -1355,13 +1341,13 @@
       "ecosystem": 56,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "google-flax",
     "score": 86.5,
     "breakdown": {
-      "adoption": 77.96588607725883,
+      "adoption": 77.9730037149279,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -1369,13 +1355,13 @@
       "ecosystem": 62,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "ai-dynamo-dynamo",
     "score": 86.4,
     "breakdown": {
-      "adoption": 78.58612891087402,
+      "adoption": 78.65135818391101,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -1383,13 +1369,13 @@
       "ecosystem": 81,
       "usefulness": 85
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "openai-codex",
     "score": 86.4,
     "breakdown": {
-      "adoption": 96.3868092846429,
+      "adoption": 96.47633294665214,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -1397,27 +1383,13 @@
       "ecosystem": 56,
       "usefulness": 75
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
-  },
-  {
-    "id": "khoj-ai-khoj",
-    "score": 86.2,
-    "breakdown": {
-      "adoption": 88.57563247713031,
-      "maintenance": 100,
-      "activity": 85,
-      "documentation": 100,
-      "maturity": 70,
-      "ecosystem": 64,
-      "usefulness": 90
-    },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "modelcontextprotocol-inspector",
     "score": 86.2,
     "breakdown": {
-      "adoption": 80.54524082047757,
+      "adoption": 80.56916232804647,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -1425,13 +1397,13 @@
       "ecosystem": 71,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "netflix-metaflow",
     "score": 86.2,
     "breakdown": {
-      "adoption": 80.16974965050308,
+      "adoption": 80.17609342082477,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -1439,13 +1411,13 @@
       "ecosystem": 56,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "bentoml-bentoml",
     "score": 86,
     "breakdown": {
-      "adoption": 79.19530995839412,
+      "adoption": 79.20782848289141,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -1453,13 +1425,13 @@
       "ecosystem": 56,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "qwenlm-qwen-code",
     "score": 86,
     "breakdown": {
-      "adoption": 86.66348331070368,
+      "adoption": 86.70876626713792,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -1467,13 +1439,13 @@
       "ecosystem": 70,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "flyteorg-flyte",
     "score": 85.8,
     "breakdown": {
-      "adoption": 78.104167954947,
+      "adoption": 78.15538423800874,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -1481,13 +1453,13 @@
       "ecosystem": 56,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "google-gemini-gemini-cli",
     "score": 85.7,
     "breakdown": {
-      "adoption": 95.43759001074008,
+      "adoption": 95.44641626965905,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -1495,13 +1467,13 @@
       "ecosystem": 64,
       "usefulness": 82
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "huggingface-smolagents",
     "score": 85.7,
     "breakdown": {
-      "adoption": 87.0032366365766,
+      "adoption": 87.02764686731632,
       "maintenance": 100,
       "activity": 85,
       "documentation": 100,
@@ -1509,13 +1481,13 @@
       "ecosystem": 56,
       "usefulness": 95
     },
-    "computedAt": "2026-09-13T10:45:34.669Z"
+    "computedAt": "2026-09-20T10:15:22.588Z"
   },
   {
     "id": "mozilla-ai-llamafile",
     "score": 85.7,
     "breakdown": {
-      "adoption": 86.21457032192498,
+      "adoption": 86.22460021956228,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -1523,13 +1495,13 @@
       "ecosystem": 56,
       "usefulness": 83
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "nvidia-transformerengine",
     "score": 85.6,
     "breakdown": {
-      "adoption": 73.22215456152267,
+      "adoption": 73.24608096897349,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -1537,13 +1509,13 @@
       "ecosystem": 62,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "lightning-ai-litgpt",
     "score": 85.5,
     "breakdown": {
-      "adoption": 82.0317604901827,
+      "adoption": 82.0374807456902,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -1551,13 +1523,13 @@
       "ecosystem": 56,
       "usefulness": 83
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "aaif-goose-goose",
     "score": 85.4,
     "breakdown": {
-      "adoption": 91.00878726518587,
+      "adoption": 91.04487166999222,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -1565,13 +1537,27 @@
       "ecosystem": 64,
       "usefulness": 85
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
+  },
+  {
+    "id": "stanford-crfm-helm",
+    "score": 85.4,
+    "breakdown": {
+      "adoption": 71.97181279468906,
+      "maintenance": 100,
+      "activity": 85,
+      "documentation": 100,
+      "maturity": 90,
+      "ecosystem": 62,
+      "usefulness": 90
+    },
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "microsoft-phicookbook",
     "score": 85.2,
     "breakdown": {
-      "adoption": 73.82239424574638,
+      "adoption": 73.83583296578516,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -1579,13 +1565,13 @@
       "ecosystem": 62,
       "usefulness": 95
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "sdv-dev-sdv",
     "score": 85.1,
     "breakdown": {
-      "adoption": 73.26442628447265,
+      "adoption": 73.27723733526523,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -1593,13 +1579,13 @@
       "ecosystem": 58,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "chatgptnextweb-nextchat",
     "score": 85,
     "breakdown": {
-      "adoption": 94.22274562783807,
+      "adoption": 94.22560757580618,
       "maintenance": 100,
       "activity": 85,
       "documentation": 75,
@@ -1607,69 +1593,13 @@
       "ecosystem": 50,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
-    "id": "langchain-ai-langchain-mcp-adapters",
-    "score": 84.9,
+    "id": "huggingface-datatrove",
+    "score": 84.4,
     "breakdown": {
-      "adoption": 73.44865551710598,
-      "maintenance": 100,
-      "activity": 100,
-      "documentation": 100,
-      "maturity": 70,
-      "ecosystem": 56,
-      "usefulness": 90
-    },
-    "computedAt": "2026-09-13T10:45:34.670Z"
-  },
-  {
-    "id": "ggml-org-ggml",
-    "score": 84.3,
-    "breakdown": {
-      "adoption": 82.78992790797071,
-      "maintenance": 100,
-      "activity": 100,
-      "documentation": 75,
-      "maturity": 90,
-      "ecosystem": 56,
-      "usefulness": 78
-    },
-    "computedAt": "2026-09-13T10:45:34.670Z"
-  },
-  {
-    "id": "google-adk-python",
-    "score": 83.9,
-    "breakdown": {
-      "adoption": 84.99293671243738,
-      "maintenance": 100,
-      "activity": 100,
-      "documentation": 75,
-      "maturity": 70,
-      "ecosystem": 70,
-      "usefulness": 77
-    },
-    "computedAt": "2026-09-13T10:45:34.669Z"
-  },
-  {
-    "id": "sgl-project-sglang",
-    "score": 83.9,
-    "breakdown": {
-      "adoption": 88.32369425852502,
-      "maintenance": 100,
-      "activity": 100,
-      "documentation": 75,
-      "maturity": 70,
-      "ecosystem": 64,
-      "usefulness": 78
-    },
-    "computedAt": "2026-09-13T10:45:34.670Z"
-  },
-  {
-    "id": "nvidia-nemo-curator",
-    "score": 83.6,
-    "breakdown": {
-      "adoption": 68.70117064585762,
+      "adoption": 72.86009668336058,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -1677,13 +1607,83 @@
       "ecosystem": 81,
       "usefulness": 78
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
+  },
+  {
+    "id": "ggml-org-ggml",
+    "score": 84.3,
+    "breakdown": {
+      "adoption": 82.8034978485183,
+      "maintenance": 100,
+      "activity": 100,
+      "documentation": 75,
+      "maturity": 90,
+      "ecosystem": 56,
+      "usefulness": 78
+    },
+    "computedAt": "2026-09-20T10:15:22.589Z"
+  },
+  {
+    "id": "google-adk-python",
+    "score": 83.9,
+    "breakdown": {
+      "adoption": 85.01107347111147,
+      "maintenance": 100,
+      "activity": 100,
+      "documentation": 75,
+      "maturity": 70,
+      "ecosystem": 70,
+      "usefulness": 77
+    },
+    "computedAt": "2026-09-20T10:15:22.588Z"
+  },
+  {
+    "id": "sgl-project-sglang",
+    "score": 83.9,
+    "breakdown": {
+      "adoption": 88.38116840445957,
+      "maintenance": 100,
+      "activity": 100,
+      "documentation": 75,
+      "maturity": 70,
+      "ecosystem": 64,
+      "usefulness": 78
+    },
+    "computedAt": "2026-09-20T10:15:22.589Z"
+  },
+  {
+    "id": "khoj-ai-khoj",
+    "score": 83.8,
+    "breakdown": {
+      "adoption": 88.59725306697617,
+      "maintenance": 100,
+      "activity": 70,
+      "documentation": 100,
+      "maturity": 70,
+      "ecosystem": 64,
+      "usefulness": 90
+    },
+    "computedAt": "2026-09-20T10:15:22.589Z"
+  },
+  {
+    "id": "nvidia-nemo-curator",
+    "score": 83.6,
+    "breakdown": {
+      "adoption": 68.72327841785113,
+      "maintenance": 100,
+      "activity": 100,
+      "documentation": 75,
+      "maturity": 80,
+      "ecosystem": 81,
+      "usefulness": 78
+    },
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "mcp-use-mcp-use",
     "score": 83.5,
     "breakdown": {
-      "adoption": 80.39125431201481,
+      "adoption": 80.41452448666317,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -1691,13 +1691,13 @@
       "ecosystem": 64,
       "usefulness": 85
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "ukgovernmentbeis-inspect-ai",
     "score": 83.4,
     "breakdown": {
-      "adoption": 71.61363623097827,
+      "adoption": 71.74217598781047,
       "maintenance": 100,
       "activity": 100,
       "documentation": 100,
@@ -1705,41 +1705,13 @@
       "ecosystem": 64,
       "usefulness": 83
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
-  },
-  {
-    "id": "camel-ai-camel",
-    "score": 83.1,
-    "breakdown": {
-      "adoption": 83.72143896641195,
-      "maintenance": 100,
-      "activity": 100,
-      "documentation": 75,
-      "maturity": 70,
-      "ecosystem": 56,
-      "usefulness": 85
-    },
-    "computedAt": "2026-09-13T10:45:34.669Z"
-  },
-  {
-    "id": "chatboxai-chatbox",
-    "score": 83.1,
-    "breakdown": {
-      "adoption": 89.30828667094153,
-      "maintenance": 100,
-      "activity": 100,
-      "documentation": 75,
-      "maturity": 70,
-      "ecosystem": 50,
-      "usefulness": 83
-    },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "hao-ai-lab-fastvideo",
-    "score": 83.1,
+    "score": 83.2,
     "breakdown": {
-      "adoption": 74.63102941012257,
+      "adoption": 74.77207778298563,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -1747,13 +1719,41 @@
       "ecosystem": 70,
       "usefulness": 85
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
+  },
+  {
+    "id": "camel-ai-camel",
+    "score": 83.1,
+    "breakdown": {
+      "adoption": 83.73687423954757,
+      "maintenance": 100,
+      "activity": 100,
+      "documentation": 75,
+      "maturity": 70,
+      "ecosystem": 56,
+      "usefulness": 85
+    },
+    "computedAt": "2026-09-20T10:15:22.588Z"
+  },
+  {
+    "id": "chatboxai-chatbox",
+    "score": 83.1,
+    "breakdown": {
+      "adoption": 89.31935832141993,
+      "maintenance": 100,
+      "activity": 100,
+      "documentation": 75,
+      "maturity": 70,
+      "ecosystem": 50,
+      "usefulness": 83
+    },
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "hpcaitech-colossalai",
     "score": 83.1,
     "breakdown": {
-      "adoption": 89.26129620105766,
+      "adoption": 89.26098179109458,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -1761,13 +1761,13 @@
       "ecosystem": 56,
       "usefulness": 78
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "significant-gravitas-autogpt",
     "score": 83,
     "breakdown": {
-      "adoption": 99.08796231781916,
+      "adoption": 99.09342068118427,
       "maintenance": 100,
       "activity": 100,
       "documentation": 45,
@@ -1775,13 +1775,13 @@
       "ecosystem": 54,
       "usefulness": 75
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "vllm-project-llm-compressor",
     "score": 83,
     "breakdown": {
-      "adoption": 73.66065337875523,
+      "adoption": 73.69846804404656,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -1789,13 +1789,13 @@
       "ecosystem": 70,
       "usefulness": 85
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "flashinfer-ai-flashinfer",
     "score": 82.9,
     "breakdown": {
-      "adoption": 77.08353226322834,
+      "adoption": 77.15348776992627,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -1803,13 +1803,13 @@
       "ecosystem": 64,
       "usefulness": 85
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "llm-d-llm-d",
     "score": 82.7,
     "breakdown": {
-      "adoption": 74.82563511996803,
+      "adoption": 74.94136747522361,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -1817,27 +1817,13 @@
       "ecosystem": 66,
       "usefulness": 85
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
-  },
-  {
-    "id": "m-bain-whisperx",
-    "score": 82.7,
-    "breakdown": {
-      "adoption": 85.70669631301047,
-      "maintenance": 100,
-      "activity": 100,
-      "documentation": 75,
-      "maturity": 70,
-      "ecosystem": 58,
-      "usefulness": 78
-    },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "ml-explore-mlx-lm",
     "score": 82.7,
     "breakdown": {
-      "adoption": 77.6708844195984,
+      "adoption": 77.74681736356527,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -1845,13 +1831,27 @@
       "ecosystem": 62,
       "usefulness": 85
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
+  },
+  {
+    "id": "ag2ai-ag2",
+    "score": 82.6,
+    "breakdown": {
+      "adoption": 75.40722280834126,
+      "maintenance": 100,
+      "activity": 100,
+      "documentation": 75,
+      "maturity": 70,
+      "ecosystem": 64,
+      "usefulness": 85
+    },
+    "computedAt": "2026-09-20T10:15:22.588Z"
   },
   {
     "id": "helicone-helicone",
     "score": 82.6,
     "breakdown": {
-      "adoption": 76.83630372632044,
+      "adoption": 76.85110922639457,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -1859,13 +1859,13 @@
       "ecosystem": 56,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "vllm-project-aibrix",
     "score": 82.6,
     "breakdown": {
-      "adoption": 75.59564533759536,
+      "adoption": 75.61355264146904,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -1873,27 +1873,13 @@
       "ecosystem": 64,
       "usefulness": 85
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
-  },
-  {
-    "id": "ag2ai-ag2",
-    "score": 82.5,
-    "breakdown": {
-      "adoption": 75.38080047551121,
-      "maintenance": 100,
-      "activity": 100,
-      "documentation": 75,
-      "maturity": 70,
-      "ecosystem": 64,
-      "usefulness": 85
-    },
-    "computedAt": "2026-09-13T10:45:34.669Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "facebookresearch-seamless-communication",
     "score": 82.4,
     "breakdown": {
-      "adoption": 81.1085233747131,
+      "adoption": 81.11017169013417,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -1901,13 +1887,13 @@
       "ecosystem": 64,
       "usefulness": 85
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "openrlhf-openrlhf",
     "score": 82.4,
     "breakdown": {
-      "adoption": 79.99934852570289,
+      "adoption": 80.01301582296841,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -1915,13 +1901,13 @@
       "ecosystem": 64,
       "usefulness": 78
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "lostruins-koboldcpp",
     "score": 82.3,
     "breakdown": {
-      "adoption": 81.01331565040255,
+      "adoption": 81.08319683905074,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -1929,13 +1915,13 @@
       "ecosystem": 56,
       "usefulness": 83
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "mark3labs-mcp-go",
     "score": 82.3,
     "breakdown": {
-      "adoption": 79.38490497545489,
+      "adoption": 79.40777514171062,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -1943,27 +1929,13 @@
       "ecosystem": 56,
       "usefulness": 85
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
-  },
-  {
-    "id": "huggingface-datatrove",
-    "score": 82,
-    "breakdown": {
-      "adoption": 72.8366635025948,
-      "maintenance": 100,
-      "activity": 85,
-      "documentation": 75,
-      "maturity": 80,
-      "ecosystem": 81,
-      "usefulness": 78
-    },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "modelcontextprotocol-registry",
     "score": 82,
     "breakdown": {
-      "adoption": 77.8978778072149,
+      "adoption": 77.92032740289889,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -1971,13 +1943,13 @@
       "ecosystem": 64,
       "usefulness": 78
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "modelcontextprotocol-go-sdk",
     "score": 81.9,
     "breakdown": {
-      "adoption": 75.60460514264267,
+      "adoption": 75.64794976160599,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -1985,13 +1957,13 @@
       "ecosystem": 64,
       "usefulness": 80
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "huggingface-chat-ui",
     "score": 81.8,
     "breakdown": {
-      "adoption": 80.58823648855926,
+      "adoption": 80.592401526889,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -1999,13 +1971,13 @@
       "ecosystem": 50,
       "usefulness": 85
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "modelscope-diffsynth-studio",
     "score": 81.8,
     "breakdown": {
-      "adoption": 81.75409469826133,
+      "adoption": 81.78239994399935,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -2013,13 +1985,13 @@
       "ecosystem": 56,
       "usefulness": 78
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "ai-hypercomputer-maxtext",
     "score": 81.5,
     "breakdown": {
-      "adoption": 70.759921841626,
+      "adoption": 70.7626120821055,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -2027,13 +1999,13 @@
       "ecosystem": 70,
       "usefulness": 78
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "mcmonkeyprojects-swarmui",
     "score": 81.5,
     "breakdown": {
-      "adoption": 74.87446475462284,
+      "adoption": 74.905866476037,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -2041,27 +2013,13 @@
       "ecosystem": 64,
       "usefulness": 78
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
-  },
-  {
-    "id": "opennmt-ctranslate2",
-    "score": 81.5,
-    "breakdown": {
-      "adoption": 75.04114800931674,
-      "maintenance": 100,
-      "activity": 100,
-      "documentation": 75,
-      "maturity": 70,
-      "ecosystem": 64,
-      "usefulness": 78
-    },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "internlm-lmdeploy",
     "score": 81.2,
     "breakdown": {
-      "adoption": 78.5974498969903,
+      "adoption": 78.61358868197826,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -2069,13 +2027,27 @@
       "ecosystem": 56,
       "usefulness": 78
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
+  },
+  {
+    "id": "traceloop-openllmetry",
+    "score": 81.1,
+    "breakdown": {
+      "adoption": 78.07709546688093,
+      "maintenance": 100,
+      "activity": 100,
+      "documentation": 75,
+      "maturity": 70,
+      "ecosystem": 56,
+      "usefulness": 78
+    },
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "aider-ai-aider",
     "score": 81,
     "breakdown": {
-      "adoption": 90.34282936249673,
+      "adoption": 90.36343557888492,
       "maintenance": 70,
       "activity": 50,
       "documentation": 100,
@@ -2083,13 +2055,13 @@
       "ecosystem": 79,
       "usefulness": 95
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "lucidrains-x-transformers",
     "score": 80.8,
     "breakdown": {
-      "adoption": 76.61227788432066,
+      "adoption": 76.61775448592824,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -2097,13 +2069,13 @@
       "ecosystem": 56,
       "usefulness": 78
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "giskard-ai-giskard-oss",
     "score": 80.7,
     "breakdown": {
-      "adoption": 76.46600484434582,
+      "adoption": 76.48614562131567,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -2111,13 +2083,13 @@
       "ecosystem": 56,
       "usefulness": 77
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "open-telemetry-semantic-conventions",
     "score": 80.6,
     "breakdown": {
-      "adoption": 62.1736250880589,
+      "adoption": 62.2137139359788,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -2125,27 +2097,13 @@
       "ecosystem": 56,
       "usefulness": 78
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
-  },
-  {
-    "id": "rvc-project-retrieval-based-voice-conversion-webui",
-    "score": 80.6,
-    "breakdown": {
-      "adoption": 88.735553248247,
-      "maintenance": 100,
-      "activity": 85,
-      "documentation": 45,
-      "maturity": 80,
-      "ecosystem": 79,
-      "usefulness": 75
-    },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "truera-trulens",
     "score": 80.6,
     "breakdown": {
-      "adoption": 73.24975416739534,
+      "adoption": 73.28089301281827,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -2153,13 +2111,13 @@
       "ecosystem": 60,
       "usefulness": 77
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "vladmandic-sdnext",
     "score": 80.6,
     "breakdown": {
-      "adoption": 77.98632836107177,
+      "adoption": 77.98987700189413,
       "maintenance": 100,
       "activity": 100,
       "documentation": 75,
@@ -2167,13 +2125,13 @@
       "ecosystem": 62,
       "usefulness": 78
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "mlc-ai-mlc-llm",
     "score": 80.5,
     "breakdown": {
-      "adoption": 85.46854632454423,
+      "adoption": 85.47417165819422,
       "maintenance": 100,
       "activity": 85,
       "documentation": 75,
@@ -2181,27 +2139,27 @@
       "ecosystem": 62,
       "usefulness": 85
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
-    "id": "blinkdl-rwkv-lm",
-    "score": 80,
+    "id": "m-bain-whisperx",
+    "score": 80.3,
     "breakdown": {
-      "adoption": 82.51197543264632,
+      "adoption": 85.74132884069925,
       "maintenance": 100,
-      "activity": 100,
-      "documentation": 45,
-      "maturity": 90,
-      "ecosystem": 62,
-      "usefulness": 68
+      "activity": 85,
+      "documentation": 75,
+      "maturity": 70,
+      "ecosystem": 58,
+      "usefulness": 78
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "kubeflow-kubeflow",
     "score": 80,
     "breakdown": {
-      "adoption": 83.0057798634858,
+      "adoption": 83.00906437466828,
       "maintenance": 70,
       "activity": 85,
       "documentation": 75,
@@ -2209,13 +2167,13 @@
       "ecosystem": 71,
       "usefulness": 85
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "continuedev-continue",
     "score": 79.9,
     "breakdown": {
-      "adoption": 88.32478338311994,
+      "adoption": 88.33729524591787,
       "maintenance": 15,
       "activity": 100,
       "documentation": 100,
@@ -2223,13 +2181,13 @@
       "ecosystem": 79,
       "usefulness": 95
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "swivid-f5-tts",
     "score": 79.8,
     "breakdown": {
-      "adoption": 82.73707576408063,
+      "adoption": 82.75374488526525,
       "maintenance": 100,
       "activity": 70,
       "documentation": 75,
@@ -2237,13 +2195,27 @@
       "ecosystem": 70,
       "usefulness": 85
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
+  },
+  {
+    "id": "opennmt-ctranslate2",
+    "score": 79.1,
+    "breakdown": {
+      "adoption": 75.05229567788271,
+      "maintenance": 100,
+      "activity": 85,
+      "documentation": 75,
+      "maturity": 70,
+      "ecosystem": 64,
+      "usefulness": 78
+    },
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "microsoft-bitnet",
     "score": 78.8,
     "breakdown": {
-      "adoption": 89.0690600849446,
+      "adoption": 89.0768270951538,
       "maintenance": 100,
       "activity": 70,
       "documentation": 75,
@@ -2251,27 +2223,13 @@
       "ecosystem": 70,
       "usefulness": 78
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
-  },
-  {
-    "id": "traceloop-openllmetry",
-    "score": 78.7,
-    "breakdown": {
-      "adoption": 78.06307842601615,
-      "maintenance": 100,
-      "activity": 85,
-      "documentation": 75,
-      "maturity": 70,
-      "ecosystem": 56,
-      "usefulness": 78
-    },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "acly-krita-ai-diffusion",
     "score": 78.5,
     "breakdown": {
-      "adoption": 80.36543756529923,
+      "adoption": 80.39002726035767,
       "maintenance": 70,
       "activity": 85,
       "documentation": 100,
@@ -2279,13 +2237,13 @@
       "ecosystem": 56,
       "usefulness": 95
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "sillytavern-sillytavern",
     "score": 78.5,
     "breakdown": {
-      "adoption": 87.83803275569936,
+      "adoption": 87.8933439939233,
       "maintenance": 70,
       "activity": 100,
       "documentation": 75,
@@ -2293,27 +2251,13 @@
       "ecosystem": 50,
       "usefulness": 78
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
-  },
-  {
-    "id": "salesforce-lavis",
-    "score": 78.4,
-    "breakdown": {
-      "adoption": 80.77712441475637,
-      "maintenance": 70,
-      "activity": 50,
-      "documentation": 100,
-      "maturity": 90,
-      "ecosystem": 77,
-      "usefulness": 90
-    },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "cursortouch-windows-mcp",
     "score": 78.2,
     "breakdown": {
-      "adoption": 77.66622560710736,
+      "adoption": 77.72191265851812,
       "maintenance": 100,
       "activity": 100,
       "documentation": 45,
@@ -2321,27 +2265,41 @@
       "ecosystem": 66,
       "usefulness": 75
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
-    "id": "eleutherai-gpt-neox",
+    "id": "rvc-project-retrieval-based-voice-conversion-webui",
     "score": 78.2,
     "breakdown": {
-      "adoption": 78.09370162430594,
-      "maintenance": 70,
+      "adoption": 88.76123507777558,
+      "maintenance": 100,
+      "activity": 70,
+      "documentation": 45,
+      "maturity": 80,
+      "ecosystem": 79,
+      "usefulness": 75
+    },
+    "computedAt": "2026-09-20T10:15:22.589Z"
+  },
+  {
+    "id": "microsoft-unilm",
+    "score": 77.9,
+    "breakdown": {
+      "adoption": 85.20145399056885,
+      "maintenance": 40,
       "activity": 100,
       "documentation": 75,
-      "maturity": 80,
-      "ecosystem": 62,
+      "maturity": 90,
+      "ecosystem": 79,
       "usefulness": 78
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "state-spaces-mamba",
     "score": 77.8,
     "breakdown": {
-      "adoption": 84.1231007505556,
+      "adoption": 84.1307070129115,
       "maintenance": 100,
       "activity": 70,
       "documentation": 45,
@@ -2349,13 +2307,27 @@
       "ecosystem": 71,
       "usefulness": 68
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
+  },
+  {
+    "id": "blinkdl-rwkv-lm",
+    "score": 77.6,
+    "breakdown": {
+      "adoption": 82.51507574345032,
+      "maintenance": 100,
+      "activity": 85,
+      "documentation": 45,
+      "maturity": 90,
+      "ecosystem": 62,
+      "usefulness": 68
+    },
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "oobabooga-textgen",
     "score": 77.5,
     "breakdown": {
-      "adoption": 90.17285728806452,
+      "adoption": 90.17627323584688,
       "maintenance": 70,
       "activity": 85,
       "documentation": 75,
@@ -2363,13 +2335,13 @@
       "ecosystem": 58,
       "usefulness": 78
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "openai-tiktoken",
     "score": 77.2,
     "breakdown": {
-      "adoption": 84.26172152602655,
+      "adoption": 84.27930796054096,
       "maintenance": 70,
       "activity": 85,
       "documentation": 75,
@@ -2377,13 +2349,13 @@
       "ecosystem": 50,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "tabbyml-tabby",
     "score": 76.2,
     "breakdown": {
-      "adoption": 87.94857416192275,
+      "adoption": 87.94972783675964,
       "maintenance": 70,
       "activity": 70,
       "documentation": 75,
@@ -2391,27 +2363,27 @@
       "ecosystem": 62,
       "usefulness": 85
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
-    "id": "microsoft-unilm",
-    "score": 75.5,
+    "id": "eleutherai-gpt-neox",
+    "score": 75.8,
     "breakdown": {
-      "adoption": 85.1994015129734,
-      "maintenance": 40,
+      "adoption": 78.09370162430594,
+      "maintenance": 70,
       "activity": 85,
       "documentation": 75,
-      "maturity": 90,
-      "ecosystem": 79,
+      "maturity": 80,
+      "ecosystem": 62,
       "usefulness": 78
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "dphnai-sonar",
     "score": 74.7,
     "breakdown": {
-      "adoption": 69.02866957824264,
+      "adoption": 69.05319282344364,
       "maintenance": 100,
       "activity": 100,
       "documentation": 45,
@@ -2419,13 +2391,13 @@
       "ecosystem": 58,
       "usefulness": 68
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "openai-clip",
     "score": 74.4,
     "breakdown": {
-      "adoption": 88.02751227672417,
+      "adoption": 88.03510705138625,
       "maintenance": 40,
       "activity": 50,
       "documentation": 100,
@@ -2433,13 +2405,13 @@
       "ecosystem": 77,
       "usefulness": 95
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "allenai-dolma",
     "score": 73.7,
     "breakdown": {
-      "adoption": 67.82970943999575,
+      "adoption": 67.8381423437346,
       "maintenance": 40,
       "activity": 85,
       "documentation": 100,
@@ -2447,13 +2419,13 @@
       "ecosystem": 79,
       "usefulness": 83
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "tencent-hunyuan-hunyuanvideo",
     "score": 73.7,
     "breakdown": {
-      "adoption": 81.46510549173647,
+      "adoption": 81.4791367895044,
       "maintenance": 70,
       "activity": 70,
       "documentation": 75,
@@ -2461,13 +2433,13 @@
       "ecosystem": 71,
       "usefulness": 85
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "facebookresearch-sam2",
     "score": 73.4,
     "breakdown": {
-      "adoption": 84.46804837099853,
+      "adoption": 84.48312349557048,
       "maintenance": 70,
       "activity": 50,
       "documentation": 100,
@@ -2475,13 +2447,13 @@
       "ecosystem": 70,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "braintrustdata-autoevals",
     "score": 72.6,
     "breakdown": {
-      "adoption": 65.22410524689406,
+      "adoption": 65.24296030268658,
       "maintenance": 100,
       "activity": 70,
       "documentation": 75,
@@ -2489,27 +2461,13 @@
       "ecosystem": 48,
       "usefulness": 75
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
-  },
-  {
-    "id": "itzcrazykns-vane",
-    "score": 72.4,
-    "breakdown": {
-      "adoption": 88.47283041777793,
-      "maintenance": 40,
-      "activity": 100,
-      "documentation": 75,
-      "maturity": 60,
-      "ecosystem": 58,
-      "usefulness": 78
-    },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "togethercomputer-redpajama-data",
     "score": 71.8,
     "breakdown": {
-      "adoption": 75.46236330756585,
+      "adoption": 75.46497743971511,
       "maintenance": 70,
       "activity": 50,
       "documentation": 75,
@@ -2517,13 +2475,13 @@
       "ecosystem": 79,
       "usefulness": 78
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "exo-explore-exo",
     "score": 71.3,
     "breakdown": {
-      "adoption": 90.13516316507717,
+      "adoption": 90.15588766088241,
       "maintenance": 70,
       "activity": 85,
       "documentation": 45,
@@ -2531,13 +2489,13 @@
       "ecosystem": 68,
       "usefulness": 68
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "hpcaitech-open-sora",
     "score": 71,
     "breakdown": {
-      "adoption": 87.10908914898766,
+      "adoption": 87.11674069618675,
       "maintenance": 40,
       "activity": 50,
       "documentation": 75,
@@ -2545,13 +2503,13 @@
       "ecosystem": 77,
       "usefulness": 85
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "mosaicml-streaming",
     "score": 70.8,
     "breakdown": {
-      "adoption": 67.88014388980505,
+      "adoption": 67.89269172783263,
       "maintenance": 70,
       "activity": 70,
       "documentation": 100,
@@ -2559,7 +2517,21 @@
       "ecosystem": 64,
       "usefulness": 75
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
+  },
+  {
+    "id": "itzcrazykns-vane",
+    "score": 70,
+    "breakdown": {
+      "adoption": 88.50186368572388,
+      "maintenance": 40,
+      "activity": 85,
+      "documentation": 75,
+      "maturity": 60,
+      "ecosystem": 58,
+      "usefulness": 78
+    },
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "meta-pytorch-torchtune",
@@ -2573,27 +2545,13 @@
       "ecosystem": 58,
       "usefulness": 83
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
-  },
-  {
-    "id": "quivrhq-quivr",
-    "score": 69.9,
-    "breakdown": {
-      "adoption": 88.95110006708356,
-      "maintenance": 15,
-      "activity": 100,
-      "documentation": 75,
-      "maturity": 60,
-      "ecosystem": 56,
-      "usefulness": 90
-    },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "automatic1111-stable-diffusion-webui",
     "score": 68.4,
     "breakdown": {
-      "adoption": 98.25906039135178,
+      "adoption": 98.2633645462842,
       "maintenance": 40,
       "activity": 30,
       "documentation": 75,
@@ -2601,13 +2559,13 @@
       "ecosystem": 73,
       "usefulness": 78
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "microsoft-autogen",
     "score": 68.1,
     "breakdown": {
-      "adoption": 91.77567437497316,
+      "adoption": 91.78752547037999,
       "maintenance": 40,
       "activity": 50,
       "documentation": 75,
@@ -2615,13 +2573,13 @@
       "ecosystem": 56,
       "usefulness": 85
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "opengvlab-internvl",
     "score": 67.9,
     "breakdown": {
-      "adoption": 80.10084038302526,
+      "adoption": 80.10468785861414,
       "maintenance": 40,
       "activity": 30,
       "documentation": 100,
@@ -2629,13 +2587,27 @@
       "ecosystem": 77,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
+  },
+  {
+    "id": "quivrhq-quivr",
+    "score": 67.5,
+    "breakdown": {
+      "adoption": 88.95620896179081,
+      "maintenance": 15,
+      "activity": 85,
+      "documentation": 75,
+      "maturity": 60,
+      "ecosystem": 56,
+      "usefulness": 90
+    },
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "zai-org-cogvideo",
-    "score": 66.8,
+    "score": 66.9,
     "breakdown": {
-      "adoption": 81.71616203596756,
+      "adoption": 81.72366626122837,
       "maintenance": 40,
       "activity": 30,
       "documentation": 75,
@@ -2643,13 +2615,13 @@
       "ecosystem": 77,
       "usefulness": 85
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "predibase-lorax",
     "score": 66.1,
     "breakdown": {
-      "adoption": 73.74798160952935,
+      "adoption": 73.75308228881528,
       "maintenance": 70,
       "activity": 50,
       "documentation": 75,
@@ -2657,13 +2629,13 @@
       "ecosystem": 54,
       "usefulness": 78
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "llava-vl-llava-next",
     "score": 65.8,
     "breakdown": {
-      "adoption": 75.10774966014424,
+      "adoption": 75.1132691836505,
       "maintenance": 70,
       "activity": 50,
       "documentation": 75,
@@ -2671,13 +2643,13 @@
       "ecosystem": 60,
       "usefulness": 78
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "facebookresearch-audiocraft",
     "score": 65.6,
     "breakdown": {
-      "adoption": 85.60057725771952,
+      "adoption": 85.60498764487468,
       "maintenance": 40,
       "activity": 30,
       "documentation": 75,
@@ -2685,27 +2657,13 @@
       "ecosystem": 71,
       "usefulness": 85
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
-  },
-  {
-    "id": "wan-video-wan2-2",
-    "score": 65.4,
-    "breakdown": {
-      "adoption": 83.6411021690844,
-      "maintenance": 40,
-      "activity": 50,
-      "documentation": 75,
-      "maturity": 60,
-      "ecosystem": 65,
-      "usefulness": 85
-    },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "systran-faster-whisper",
     "score": 65.2,
     "breakdown": {
-      "adoption": 86.06429343528548,
+      "adoption": 86.0924799991483,
       "maintenance": 40,
       "activity": 30,
       "documentation": 75,
@@ -2713,13 +2671,13 @@
       "ecosystem": 79,
       "usefulness": 83
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "lllyasviel-fooocus",
     "score": 65.1,
     "breakdown": {
-      "adoption": 90.8667187169651,
+      "adoption": 90.87703119762907,
       "maintenance": 40,
       "activity": 30,
       "documentation": 75,
@@ -2727,13 +2685,13 @@
       "ecosystem": 71,
       "usefulness": 83
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "haotian-liu-llava",
     "score": 64.1,
     "breakdown": {
-      "adoption": 85.97404920676324,
+      "adoption": 85.97717300329633,
       "maintenance": 15,
       "activity": 10,
       "documentation": 100,
@@ -2741,13 +2699,13 @@
       "ecosystem": 77,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "mosaicml-llm-foundry",
     "score": 64.1,
     "breakdown": {
-      "adoption": 74.71661075403244,
+      "adoption": 74.72100694173402,
       "maintenance": 40,
       "activity": 50,
       "documentation": 75,
@@ -2755,13 +2713,13 @@
       "ecosystem": 58,
       "usefulness": 85
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "facebookresearch-segment-anything",
     "score": 63.8,
     "breakdown": {
-      "adoption": 91.08824329090588,
+      "adoption": 91.09251714195538,
       "maintenance": 15,
       "activity": 10,
       "documentation": 100,
@@ -2769,13 +2727,13 @@
       "ecosystem": 77,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "wan-video-wan2-1",
     "score": 63.8,
     "breakdown": {
-      "adoption": 83.44369193998466,
+      "adoption": 83.46056470418853,
       "maintenance": 40,
       "activity": 30,
       "documentation": 75,
@@ -2783,13 +2741,13 @@
       "ecosystem": 79,
       "usefulness": 85
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "lightricks-ltx-video",
     "score": 63.3,
     "breakdown": {
-      "adoption": 80.59002183107128,
+      "adoption": 80.59715831222525,
       "maintenance": 40,
       "activity": 30,
       "documentation": 75,
@@ -2797,13 +2755,13 @@
       "ecosystem": 79,
       "usefulness": 85
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "qwenlm-qwen3-vl",
     "score": 62.8,
     "breakdown": {
-      "adoption": 84.4948971330053,
+      "adoption": 84.50664953009043,
       "maintenance": 40,
       "activity": 30,
       "documentation": 75,
@@ -2811,13 +2769,27 @@
       "ecosystem": 77,
       "usefulness": 78
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
+  },
+  {
+    "id": "wan-video-wan2-2",
+    "score": 62.2,
+    "breakdown": {
+      "adoption": 83.67009317624165,
+      "maintenance": 40,
+      "activity": 30,
+      "documentation": 75,
+      "maturity": 60,
+      "ecosystem": 65,
+      "usefulness": 85
+    },
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "ailab-cvc-videocrafter",
     "score": 61.8,
     "breakdown": {
-      "adoption": 75.58282420134,
+      "adoption": 75.58923792365444,
       "maintenance": 40,
       "activity": 30,
       "documentation": 75,
@@ -2825,13 +2797,13 @@
       "ecosystem": 54,
       "usefulness": 85
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "karpathy-nanogpt",
     "score": 61.8,
     "breakdown": {
-      "adoption": 91.99475973591677,
+      "adoption": 92.01508393769511,
       "maintenance": 15,
       "activity": 30,
       "documentation": 75,
@@ -2839,13 +2811,13 @@
       "ecosystem": 71,
       "usefulness": 78
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "stability-ai-generative-models",
     "score": 61.7,
     "breakdown": {
-      "adoption": 86.53909812193788,
+      "adoption": 86.5398143198932,
       "maintenance": 40,
       "activity": 30,
       "documentation": 45,
@@ -2853,13 +2825,13 @@
       "ecosystem": 77,
       "usefulness": 68
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "coqui-ai-tts",
     "score": 61.4,
     "breakdown": {
-      "adoption": 89.94193392165921,
+      "adoption": 89.94561462340961,
       "maintenance": 15,
       "activity": 10,
       "documentation": 75,
@@ -2867,13 +2839,13 @@
       "ecosystem": 79,
       "usefulness": 85
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "vibrantlabsai-ragas",
     "score": 61,
     "breakdown": {
-      "adoption": 82.94720251550223,
+      "adoption": 82.9744941345153,
       "maintenance": 40,
       "activity": 30,
       "documentation": 75,
@@ -2881,13 +2853,13 @@
       "ecosystem": 54,
       "usefulness": 70
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "deepseek-ai-deepseek-v3",
     "score": 60.4,
     "breakdown": {
-      "adoption": 95.2829405722309,
+      "adoption": 95.28512334309849,
       "maintenance": 15,
       "activity": 10,
       "documentation": 75,
@@ -2895,13 +2867,13 @@
       "ecosystem": 71,
       "usefulness": 78
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "openai-swarm",
     "score": 60.3,
     "breakdown": {
-      "adoption": 85.12834033571448,
+      "adoption": 85.13456331077317,
       "maintenance": 40,
       "activity": 50,
       "documentation": 45,
@@ -2909,13 +2881,13 @@
       "ecosystem": 56,
       "usefulness": 72
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "lastmile-ai-mcp-agent",
     "score": 60.2,
     "breakdown": {
-      "adoption": 78.9711052033486,
+      "adoption": 78.9794917209226,
       "maintenance": 40,
       "activity": 30,
       "documentation": 75,
@@ -2923,13 +2895,13 @@
       "ecosystem": 56,
       "usefulness": 85
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "idea-research-grounded-sam-2",
     "score": 60,
     "breakdown": {
-      "adoption": 73.58261470419589,
+      "adoption": 73.59829740671633,
       "maintenance": 40,
       "activity": 30,
       "documentation": 75,
@@ -2937,13 +2909,13 @@
       "ecosystem": 62,
       "usefulness": 85
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "openai-evals",
     "score": 58.3,
     "breakdown": {
-      "adoption": 84.33211921225218,
+      "adoption": 84.34517181349598,
       "maintenance": 40,
       "activity": 50,
       "documentation": 45,
@@ -2951,13 +2923,13 @@
       "ecosystem": 54,
       "usefulness": 60
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "vision-cair-minigpt-4",
     "score": 58.3,
     "breakdown": {
-      "adoption": 86.12614367702645,
+      "adoption": 86.12639804212003,
       "maintenance": 15,
       "activity": 10,
       "documentation": 75,
@@ -2965,13 +2937,13 @@
       "ecosystem": 69,
       "usefulness": 85
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "genmoai-mochi",
     "score": 58.1,
     "breakdown": {
-      "adoption": 73.56689415626468,
+      "adoption": 73.57213855522916,
       "maintenance": 40,
       "activity": 30,
       "documentation": 75,
@@ -2979,13 +2951,27 @@
       "ecosystem": 56,
       "usefulness": 85
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
+  },
+  {
+    "id": "salesforce-lavis",
+    "score": 57.8,
+    "breakdown": {
+      "adoption": 80.77712441475637,
+      "maintenance": 5,
+      "activity": 5,
+      "documentation": 100,
+      "maturity": 65,
+      "ecosystem": 77,
+      "usefulness": 90
+    },
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "guoyww-animatediff",
     "score": 57.7,
     "breakdown": {
-      "adoption": 81.31778562744753,
+      "adoption": 81.3204457676407,
       "maintenance": 15,
       "activity": 10,
       "documentation": 75,
@@ -2993,13 +2979,13 @@
       "ecosystem": 71,
       "usefulness": 85
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "nomic-ai-gpt4all",
     "score": 57.7,
     "breakdown": {
-      "adoption": 93.33044105066571,
+      "adoption": 93.3301043447745,
       "maintenance": 15,
       "activity": 10,
       "documentation": 75,
@@ -3007,13 +2993,13 @@
       "ecosystem": 56,
       "usefulness": 83
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "meta-llama-synthetic-data-kit",
     "score": 57.3,
     "breakdown": {
-      "adoption": 68.21073019117912,
+      "adoption": 68.22265772071546,
       "maintenance": 40,
       "activity": 30,
       "documentation": 75,
@@ -3021,13 +3007,13 @@
       "ecosystem": 66,
       "usefulness": 78
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "harvardnlp-annotated-transformer",
     "score": 57.1,
     "breakdown": {
-      "adoption": 78.12244366819583,
+      "adoption": 78.13459905506252,
       "maintenance": 15,
       "activity": 10,
       "documentation": 100,
@@ -3035,13 +3021,13 @@
       "ecosystem": 50,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "xinntao-real-esrgan",
     "score": 56.9,
     "breakdown": {
-      "adoption": 88.4834673611338,
+      "adoption": 88.49709270738222,
       "maintenance": 15,
       "activity": 10,
       "documentation": 75,
@@ -3049,13 +3035,13 @@
       "ecosystem": 56,
       "usefulness": 83
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "hzwer-eccv2022-rife",
     "score": 56.8,
     "breakdown": {
-      "adoption": 76.19717764895047,
+      "adoption": 76.20534766177443,
       "maintenance": 40,
       "activity": 10,
       "documentation": 75,
@@ -3063,13 +3049,13 @@
       "ecosystem": 56,
       "usefulness": 78
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "suno-ai-bark",
     "score": 56.7,
     "breakdown": {
-      "adoption": 88.91041583639218,
+      "adoption": 88.91141116370176,
       "maintenance": 15,
       "activity": 10,
       "documentation": 75,
@@ -3077,13 +3063,13 @@
       "ecosystem": 62,
       "usefulness": 85
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "black-forest-labs-flux",
     "score": 55.2,
     "breakdown": {
-      "adoption": 86.21331549822301,
+      "adoption": 86.21733008355427,
       "maintenance": 15,
       "activity": 10,
       "documentation": 75,
@@ -3091,13 +3077,13 @@
       "ecosystem": 71,
       "usefulness": 78
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "karpathy-mingpt",
     "score": 55.2,
     "breakdown": {
-      "adoption": 85.9398499715097,
+      "adoption": 85.94403661511689,
       "maintenance": 15,
       "activity": 10,
       "documentation": 75,
@@ -3105,13 +3091,13 @@
       "ecosystem": 56,
       "usefulness": 83
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "myshell-ai-openvoice",
     "score": 54.3,
     "breakdown": {
-      "adoption": 88.61185861003976,
+      "adoption": 88.62608488570719,
       "maintenance": 15,
       "activity": 10,
       "documentation": 75,
@@ -3119,13 +3105,13 @@
       "ecosystem": 62,
       "usefulness": 85
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "lllyasviel-controlnet",
     "score": 53.1,
     "breakdown": {
-      "adoption": 87.99398967680936,
+      "adoption": 87.99475347294444,
       "maintenance": 15,
       "activity": 10,
       "documentation": 45,
@@ -3133,13 +3119,13 @@
       "ecosystem": 73,
       "usefulness": 68
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "idea-research-groundingdino",
     "score": 53,
     "breakdown": {
-      "adoption": 80.36420564070619,
+      "adoption": 80.38204578591584,
       "maintenance": 15,
       "activity": 10,
       "documentation": 75,
@@ -3147,13 +3133,13 @@
       "ecosystem": 62,
       "usefulness": 78
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "state-spaces-s4",
     "score": 53,
     "breakdown": {
-      "adoption": 71.98520317397417,
+      "adoption": 71.98743223036155,
       "maintenance": 15,
       "activity": 10,
       "documentation": 75,
@@ -3161,13 +3147,13 @@
       "ecosystem": 56,
       "usefulness": 85
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "tencent-ailab-ip-adapter",
     "score": 53,
     "breakdown": {
-      "adoption": 77.37749558384826,
+      "adoption": 77.38139176651734,
       "maintenance": 15,
       "activity": 10,
       "documentation": 75,
@@ -3175,13 +3161,13 @@
       "ecosystem": 56,
       "usefulness": 78
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "huggingface-text-generation-inference",
     "score": 52.8,
     "breakdown": {
-      "adoption": 80.55422168292918,
+      "adoption": 80.55302494971582,
       "maintenance": 5,
       "activity": 5,
       "documentation": 100,
@@ -3189,13 +3175,13 @@
       "ecosystem": 54,
       "usefulness": 83
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "qwenlm-qwen-vl",
     "score": 52.7,
     "breakdown": {
-      "adoption": 77.41635294467926,
+      "adoption": 77.41925792453945,
       "maintenance": 15,
       "activity": 10,
       "documentation": 75,
@@ -3203,13 +3189,13 @@
       "ecosystem": 54,
       "usefulness": 78
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "instantx-research-instantid",
     "score": 52.2,
     "breakdown": {
-      "adoption": 81.18391750521079,
+      "adoption": 81.18337429760335,
       "maintenance": 15,
       "activity": 10,
       "documentation": 75,
@@ -3217,13 +3203,13 @@
       "ecosystem": 56,
       "usefulness": 85
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "roocodeinc-roo-code",
     "score": 52,
     "breakdown": {
-      "adoption": 85.78570240350847,
+      "adoption": 85.78489830337433,
       "maintenance": 5,
       "activity": 5,
       "documentation": 75,
@@ -3231,7 +3217,7 @@
       "ecosystem": 56,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "determined-ai-determined",
@@ -3245,13 +3231,13 @@
       "ecosystem": 56,
       "usefulness": 85
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "datadreamer-dev-datadreamer",
     "score": 51.6,
     "breakdown": {
-      "adoption": 65.72662705325607,
+      "adoption": 65.74989285380214,
       "maintenance": 15,
       "activity": 10,
       "documentation": 75,
@@ -3259,13 +3245,27 @@
       "ecosystem": 64,
       "usefulness": 85
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
+  },
+  {
+    "id": "langchain-ai-langchain-mcp-adapters",
+    "score": 51.5,
+    "breakdown": {
+      "adoption": 73.45221628091616,
+      "maintenance": 5,
+      "activity": 5,
+      "documentation": 100,
+      "maturity": 45,
+      "ecosystem": 56,
+      "usefulness": 90
+    },
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "doubiiu-dynamicrafter",
     "score": 51.3,
     "breakdown": {
-      "adoption": 72.16983464376334,
+      "adoption": 72.17633281610121,
       "maintenance": 15,
       "activity": 10,
       "documentation": 75,
@@ -3273,13 +3273,13 @@
       "ecosystem": 62,
       "usefulness": 85
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "answerdotai-ragatouille",
     "score": 51.2,
     "breakdown": {
-      "adoption": 73.96049075399043,
+      "adoption": 73.96378252628307,
       "maintenance": 15,
       "activity": 10,
       "documentation": 75,
@@ -3287,13 +3287,13 @@
       "ecosystem": 56,
       "usefulness": 78
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "huggingface-fineweb-2",
     "score": 50.9,
     "breakdown": {
-      "adoption": 56.32405890304747,
+      "adoption": 56.39766892046863,
       "maintenance": 40,
       "activity": 30,
       "documentation": 45,
@@ -3301,13 +3301,13 @@
       "ecosystem": 72,
       "usefulness": 68
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "deepseek-ai-deepseek-vl2",
     "score": 50.8,
     "breakdown": {
-      "adoption": 75.95446493145724,
+      "adoption": 75.95567702881465,
       "maintenance": 15,
       "activity": 10,
       "documentation": 75,
@@ -3315,13 +3315,13 @@
       "ecosystem": 60,
       "usefulness": 78
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "allenai-molmo",
     "score": 49.9,
     "breakdown": {
-      "adoption": 64.5552031434514,
+      "adoption": 64.58304257568597,
       "maintenance": 15,
       "activity": 10,
       "documentation": 75,
@@ -3329,13 +3329,13 @@
       "ecosystem": 70,
       "usefulness": 78
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "smol-ai-developer",
     "score": 49.2,
     "breakdown": {
-      "adoption": 81.2895211556911,
+      "adoption": 81.2916586070198,
       "maintenance": 15,
       "activity": 10,
       "documentation": 45,
@@ -3343,13 +3343,13 @@
       "ecosystem": 60,
       "usefulness": 68
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "rhasspy-piper",
     "score": 48.9,
     "breakdown": {
-      "adoption": 80.78579143084062,
+      "adoption": 80.78810068901034,
       "maintenance": 5,
       "activity": 5,
       "documentation": 75,
@@ -3357,7 +3357,7 @@
       "ecosystem": 58,
       "usefulness": 90
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "facebookresearch-demucs",
@@ -3371,13 +3371,13 @@
       "ecosystem": 56,
       "usefulness": 83
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "ali-vilab-vgen",
     "score": 48.1,
     "breakdown": {
-      "adoption": 72.4849904537023,
+      "adoption": 72.48705491806075,
       "maintenance": 15,
       "activity": 10,
       "documentation": 45,
@@ -3385,13 +3385,13 @@
       "ecosystem": 56,
       "usefulness": 75
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "lllyasviel-stable-diffusion-webui-forge",
     "score": 47.5,
     "breakdown": {
-      "adoption": 81.71315792374989,
+      "adoption": 81.72216610757096,
       "maintenance": 15,
       "activity": 10,
       "documentation": 45,
@@ -3399,13 +3399,13 @@
       "ecosystem": 56,
       "usefulness": 68
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "eleutherai-the-pile",
     "score": 47.3,
     "breakdown": {
-      "adoption": 68.36411021441387,
+      "adoption": 68.37187934739022,
       "maintenance": 15,
       "activity": 10,
       "documentation": 45,
@@ -3413,13 +3413,13 @@
       "ecosystem": 64,
       "usefulness": 68
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "antonosika-gpt-engineer",
     "score": 46.9,
     "breakdown": {
-      "adoption": 91.11762866008483,
+      "adoption": 91.11632808220469,
       "maintenance": 5,
       "activity": 5,
       "documentation": 45,
@@ -3427,13 +3427,13 @@
       "ecosystem": 56,
       "usefulness": 73
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "browserbase-mcp-server-browserbase",
     "score": 46.7,
     "breakdown": {
-      "adoption": 72.98749379141994,
+      "adoption": 72.99704432417958,
       "maintenance": 5,
       "activity": 5,
       "documentation": 75,
@@ -3441,13 +3441,13 @@
       "ecosystem": 58,
       "usefulness": 67
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "yl4579-styletts2",
     "score": 46.5,
     "breakdown": {
-      "adoption": 77.04263169108611,
+      "adoption": 77.04775832803013,
       "maintenance": 15,
       "activity": 10,
       "documentation": 45,
@@ -3455,7 +3455,7 @@
       "ecosystem": 56,
       "usefulness": 75
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "facebookresearch-moviegenbench",
@@ -3469,13 +3469,13 @@
       "ecosystem": 62,
       "usefulness": 68
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "voideditor-void",
     "score": 45.3,
     "breakdown": {
-      "adoption": 86.89133969076653,
+      "adoption": 86.89066111741872,
       "maintenance": 5,
       "activity": 5,
       "documentation": 45,
@@ -3483,13 +3483,13 @@
       "ecosystem": 56,
       "usefulness": 75
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "tensorflow-tensor2tensor",
     "score": 44.9,
     "breakdown": {
-      "adoption": 83.63551215367157,
+      "adoption": 83.63700329353011,
       "maintenance": 5,
       "activity": 5,
       "documentation": 45,
@@ -3497,13 +3497,13 @@
       "ecosystem": 56,
       "usefulness": 68
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "instructlab-instructlab",
     "score": 44.8,
     "breakdown": {
-      "adoption": 67.27514346270573,
+      "adoption": 67.2705477537119,
       "maintenance": 5,
       "activity": 5,
       "documentation": 75,
@@ -3511,7 +3511,7 @@
       "ecosystem": 58,
       "usefulness": 78
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "vchitect-venhancer",
@@ -3525,13 +3525,13 @@
       "ecosystem": 56,
       "usefulness": 75
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "sourcegraph-cody-public-snapshot",
     "score": 42.2,
     "breakdown": {
-      "adoption": 73.7087431522155,
+      "adoption": 73.71216458991418,
       "maintenance": 5,
       "activity": 5,
       "documentation": 45,
@@ -3539,7 +3539,7 @@
       "ecosystem": 58,
       "usefulness": 60
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "abanteai-archive-old-cli-mentat",
@@ -3553,7 +3553,7 @@
       "ecosystem": 50,
       "usefulness": 68
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "plachtaa-vall-e-x",
@@ -3567,7 +3567,7 @@
       "ecosystem": 56,
       "usefulness": 75
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   },
   {
     "id": "facebookresearch-chameleon",
@@ -3581,6 +3581,6 @@
       "ecosystem": 56,
       "usefulness": 68
     },
-    "computedAt": "2026-09-13T10:45:34.670Z"
+    "computedAt": "2026-09-20T10:15:22.589Z"
   }
 ]
