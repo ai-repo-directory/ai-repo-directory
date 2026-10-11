@@ -1,7 +1,7 @@
 {
   "id": "allenai-dolma",
-  "fetchedAt": "2026-10-04T11:28:02.087Z",
-  "stars": 1549,
+  "fetchedAt": "2026-10-11T11:45:04.543Z",
+  "stars": 1557,
   "forks": 203,
   "watchers": 23,
   "openIssues": 29,
@@ -19,7 +19,7 @@
   "archived": false,
   "disabled": false,
   "pushedAt": "2026-08-24T23:21:57Z",
-  "updatedAt": "2026-10-03T23:12:14Z",
+  "updatedAt": "2026-10-09T22:57:02Z",
   "createdAt": "2023-06-20T20:37:39Z",
   "latestRelease": "v1.2.1",
   "latestReleaseAt": "2025-07-07T15:47:20Z",

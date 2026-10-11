@@ -1,0 +1,28 @@
+{
+  "id": "modelcontextprotocol-inspector",
+  "fetchedAt": "2026-10-11T11:45:22.050Z",
+  "stars": 11053,
+  "forks": 1543,
+  "watchers": 68,
+  "openIssues": 55,
+  "language": "TypeScript",
+  "license": null,
+  "description": "Visual testing tool for MCP servers",
+  "homepage": "https://modelcontextprotocol.io/docs/2026-07-28/tools/inspector",
+  "topics": [
+    "cli",
+    "debug",
+    "mcp",
+    "tool",
+    "tui",
+    "web"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-10-08T05:05:05Z",
+  "updatedAt": "2026-10-11T08:11:27Z",
+  "createdAt": "2024-10-03T21:47:42Z",
+  "latestRelease": "2.10.1",
+  "latestReleaseAt": "2026-10-08T05:05:05Z",
+  "defaultBranch": "main"
+}

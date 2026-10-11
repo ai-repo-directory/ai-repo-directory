@@ -1,0 +1,29 @@
+{
+  "id": "pydantic-pydantic-ai",
+  "fetchedAt": "2026-10-11T11:44:58.969Z",
+  "stars": 20541,
+  "forks": 2903,
+  "watchers": 123,
+  "openIssues": 1394,
+  "language": "Python",
+  "license": "MIT",
+  "description": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end.",
+  "homepage": "https://pydantic.dev/pydantic-ai",
+  "topics": [
+    "agent-framework",
+    "genai",
+    "harness",
+    "harness-engineering",
+    "llm",
+    "pydantic",
+    "python"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-10-11T05:08:41Z",
+  "updatedAt": "2026-10-11T11:28:28Z",
+  "createdAt": "2024-06-21T15:55:04Z",
+  "latestRelease": "v2.55.0",
+  "latestReleaseAt": "2026-10-09T19:20:25Z",
+  "defaultBranch": "main"
+}

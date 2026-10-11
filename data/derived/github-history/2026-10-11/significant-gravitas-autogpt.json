@@ -1,0 +1,33 @@
+{
+  "id": "significant-gravitas-autogpt",
+  "fetchedAt": "2026-10-11T11:44:58.917Z",
+  "stars": 187517,
+  "forks": 45926,
+  "watchers": 1539,
+  "openIssues": 702,
+  "language": "Python",
+  "license": null,
+  "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+  "homepage": "https://agpt.co",
+  "topics": [
+    "agentic-ai",
+    "agents",
+    "ai",
+    "artificial-intelligence",
+    "autonomous-agents",
+    "claude",
+    "gpt",
+    "llama-api",
+    "llm",
+    "openai",
+    "python"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-10-11T11:16:10Z",
+  "updatedAt": "2026-10-11T11:21:56Z",
+  "createdAt": "2023-03-16T09:21:07Z",
+  "latestRelease": "autogpt-platform-beta-v0.8.3",
+  "latestReleaseAt": "2026-10-08T05:35:51Z",
+  "defaultBranch": "master"
+}

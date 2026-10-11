@@ -1,0 +1,26 @@
+{
+  "id": "aaif-goose-goose",
+  "fetchedAt": "2026-10-11T11:45:01.820Z",
+  "stars": 55151,
+  "forks": 6406,
+  "watchers": 298,
+  "openIssues": 504,
+  "language": "Rust",
+  "license": "Apache-2.0",
+  "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+  "homepage": "https://goose-docs.ai/",
+  "topics": [
+    "acp",
+    "ai",
+    "ai-agents",
+    "mcp"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-10-09T23:52:36Z",
+  "updatedAt": "2026-10-11T11:42:37Z",
+  "createdAt": "2024-08-23T19:03:36Z",
+  "latestRelease": "v1.54.0",
+  "latestReleaseAt": "2026-10-08T18:44:54Z",
+  "defaultBranch": "main"
+}

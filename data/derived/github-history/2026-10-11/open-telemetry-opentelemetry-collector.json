@@ -1,0 +1,28 @@
+{
+  "id": "open-telemetry-opentelemetry-collector",
+  "fetchedAt": "2026-10-11T11:45:14.494Z",
+  "stars": 7649,
+  "forks": 2290,
+  "watchers": 94,
+  "openIssues": 701,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "description": "OpenTelemetry Collector",
+  "homepage": "https://opentelemetry.io",
+  "topics": [
+    "metrics",
+    "monitoring",
+    "observability",
+    "open-telemetry",
+    "opentelemetry",
+    "telemetry"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-10-09T22:56:59Z",
+  "updatedAt": "2026-10-11T04:06:02Z",
+  "createdAt": "2019-05-09T19:42:55Z",
+  "latestRelease": "v0.162.0",
+  "latestReleaseAt": "2026-09-28T14:09:31Z",
+  "defaultBranch": "main"
+}

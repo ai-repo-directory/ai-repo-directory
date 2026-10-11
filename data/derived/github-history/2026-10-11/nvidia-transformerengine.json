@@ -1,0 +1,31 @@
+{
+  "id": "nvidia-transformerengine",
+  "fetchedAt": "2026-10-11T11:45:31.202Z",
+  "stars": 3573,
+  "forks": 859,
+  "watchers": 37,
+  "openIssues": 363,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "description": "A library for accelerating Transformer models on NVIDIA GPUs, including using 8-bit and 4-bit floating point (FP8 and FP4) precision on Hopper, Ada and Blackwell GPUs, to provide better performance with lower memory utilization in both training and inference.",
+  "homepage": "https://docs.nvidia.com/deeplearning/transformer-engine/",
+  "topics": [
+    "cuda",
+    "deep-learning",
+    "fp4",
+    "fp8",
+    "gpu",
+    "jax",
+    "machine-learning",
+    "python",
+    "pytorch"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-10-11T00:53:56Z",
+  "updatedAt": "2026-10-11T01:51:29Z",
+  "createdAt": "2022-09-20T15:20:26Z",
+  "latestRelease": "v2.20.2",
+  "latestReleaseAt": "2026-10-05T21:14:28Z",
+  "defaultBranch": "main"
+}

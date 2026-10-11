@@ -1,0 +1,24 @@
+{
+  "id": "pgvector-pgvector",
+  "fetchedAt": "2026-10-11T11:45:32.545Z",
+  "stars": 23300,
+  "forks": 1345,
+  "watchers": 138,
+  "openIssues": 17,
+  "language": "C",
+  "license": null,
+  "description": "Open-source vector similarity search for Postgres",
+  "homepage": null,
+  "topics": [
+    "approximate-nearest-neighbor-search",
+    "nearest-neighbor-search"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-10-08T04:39:04Z",
+  "updatedAt": "2026-10-11T09:23:12Z",
+  "createdAt": "2021-04-20T21:13:52Z",
+  "latestRelease": null,
+  "latestReleaseAt": null,
+  "defaultBranch": "master"
+}

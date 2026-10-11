@@ -1,0 +1,32 @@
+{
+  "id": "lostruins-koboldcpp",
+  "fetchedAt": "2026-10-11T11:45:19.203Z",
+  "stars": 11989,
+  "forks": 789,
+  "watchers": 106,
+  "openIssues": 531,
+  "language": "C++",
+  "license": "AGPL-3.0",
+  "description": "KoboldCpp - Run GGUF AI models locally with a KoboldAI UI. One File. Zero Install.",
+  "homepage": "https://github.com/LostRuins/koboldcpp/releases/latest",
+  "topics": [
+    "gemma",
+    "ggml",
+    "gguf",
+    "koboldai",
+    "koboldcpp",
+    "language-model",
+    "llama",
+    "llamacpp",
+    "llm",
+    "mistral"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-10-11T09:52:54Z",
+  "updatedAt": "2026-10-11T09:53:13Z",
+  "createdAt": "2023-03-16T02:07:02Z",
+  "latestRelease": "v1.122.1",
+  "latestReleaseAt": "2026-09-26T09:05:10Z",
+  "defaultBranch": "concedo"
+}

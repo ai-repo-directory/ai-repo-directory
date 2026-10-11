@@ -1,0 +1,29 @@
+{
+  "id": "browser-use-browser-use",
+  "fetchedAt": "2026-10-11T11:44:56.642Z",
+  "stars": 117610,
+  "forks": 13011,
+  "watchers": 479,
+  "openIssues": 523,
+  "language": "Python",
+  "license": "MIT",
+  "description": "Agents that use the browser.",
+  "homepage": "https://browser-use.com",
+  "topics": [
+    "ai-agents",
+    "ai-tools",
+    "browser-automation",
+    "browser-use",
+    "llm",
+    "playwright",
+    "python"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-10-09T17:36:28Z",
+  "updatedAt": "2026-10-11T11:42:17Z",
+  "createdAt": "2024-10-31T16:00:56Z",
+  "latestRelease": "0.13.11",
+  "latestReleaseAt": "2026-10-07T04:23:18Z",
+  "defaultBranch": "main"
+}

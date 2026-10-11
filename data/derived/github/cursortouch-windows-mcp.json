@@ -1,8 +1,8 @@
 {
   "id": "cursortouch-windows-mcp",
-  "fetchedAt": "2026-10-04T11:28:14.613Z",
-  "stars": 7667,
-  "forks": 900,
+  "fetchedAt": "2026-10-11T11:45:21.241Z",
+  "stars": 8643,
+  "forks": 942,
   "watchers": 43,
   "openIssues": 24,
   "language": "Python",
@@ -19,10 +19,10 @@
   ],
   "archived": false,
   "disabled": false,
-  "pushedAt": "2026-10-04T04:31:23Z",
-  "updatedAt": "2026-10-04T11:18:36Z",
+  "pushedAt": "2026-10-10T01:33:19Z",
+  "updatedAt": "2026-10-11T11:37:21Z",
   "createdAt": "2025-05-13T02:27:53Z",
-  "latestRelease": "v0.8.7",
-  "latestReleaseAt": "2026-09-30T12:06:01Z",
+  "latestRelease": "v0.8.8",
+  "latestReleaseAt": "2026-10-10T01:33:58Z",
   "defaultBranch": "main"
 }

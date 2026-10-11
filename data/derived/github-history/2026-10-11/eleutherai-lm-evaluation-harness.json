@@ -1,0 +1,25 @@
+{
+  "id": "eleutherai-lm-evaluation-harness",
+  "fetchedAt": "2026-10-11T11:45:07.026Z",
+  "stars": 14185,
+  "forks": 3663,
+  "watchers": 55,
+  "openIssues": 1153,
+  "language": "Python",
+  "license": "MIT",
+  "description": "A framework for few-shot evaluation of language models.",
+  "homepage": "https://www.eleuther.ai",
+  "topics": [
+    "evaluation-framework",
+    "language-model",
+    "transformer"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-09-14T10:51:06Z",
+  "updatedAt": "2026-10-11T11:36:19Z",
+  "createdAt": "2020-08-28T00:09:15Z",
+  "latestRelease": "v0.4.13",
+  "latestReleaseAt": "2026-08-31T20:42:30Z",
+  "defaultBranch": "main"
+}

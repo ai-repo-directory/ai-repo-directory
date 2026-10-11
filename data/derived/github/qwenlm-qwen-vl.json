@@ -1,7 +1,7 @@
 {
   "id": "qwenlm-qwen-vl",
-  "fetchedAt": "2026-10-04T11:28:17.656Z",
-  "stars": 6726,
+  "fetchedAt": "2026-10-11T11:45:25.012Z",
+  "stars": 6728,
   "forks": 495,
   "watchers": 46,
   "openIssues": 326,
@@ -16,7 +16,7 @@
   "archived": false,
   "disabled": false,
   "pushedAt": "2024-08-07T02:37:06Z",
-  "updatedAt": "2026-10-02T18:36:15Z",
+  "updatedAt": "2026-10-11T07:55:35Z",
   "createdAt": "2023-08-21T07:57:15Z",
   "latestRelease": null,
   "latestReleaseAt": null,

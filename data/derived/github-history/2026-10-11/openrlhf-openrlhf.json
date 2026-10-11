@@ -1,0 +1,30 @@
+{
+  "id": "openrlhf-openrlhf",
+  "fetchedAt": "2026-10-11T11:45:31.275Z",
+  "stars": 10079,
+  "forks": 1037,
+  "watchers": 57,
+  "openIssues": 393,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "description": "An Easy-to-use, Scalable and High-performance Agentic RL Framework based on Ray (PPO & DAPO & REINFORCE++ &  VLM & TIS & vLLM & Ray & Async  RL)",
+  "homepage": "https://openrlhf.readthedocs.io/",
+  "topics": [
+    "large-language-models",
+    "proximal-policy-optimization",
+    "raylib",
+    "reinforcement-learning",
+    "reinforcement-learning-from-human-feedback",
+    "transformers",
+    "visual-language-models",
+    "vllm"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-10-05T17:33:02Z",
+  "updatedAt": "2026-10-11T03:00:29Z",
+  "createdAt": "2023-07-30T02:20:13Z",
+  "latestRelease": "v0.11.2",
+  "latestReleaseAt": "2026-09-14T01:51:43Z",
+  "defaultBranch": "main"
+}

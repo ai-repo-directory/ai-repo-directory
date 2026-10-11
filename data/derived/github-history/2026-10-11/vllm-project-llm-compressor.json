@@ -1,0 +1,24 @@
+{
+  "id": "vllm-project-llm-compressor",
+  "fetchedAt": "2026-10-11T11:45:15.746Z",
+  "stars": 3864,
+  "forks": 685,
+  "watchers": 29,
+  "openIssues": 100,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "description": "State-of-the-art LLM compression, built for production inference with vLLM",
+  "homepage": "https://docs.vllm.ai/projects/llm-compressor",
+  "topics": [
+    "compression",
+    "quantization"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-10-09T18:17:47Z",
+  "updatedAt": "2026-10-11T08:07:56Z",
+  "createdAt": "2024-06-20T20:13:34Z",
+  "latestRelease": "0.14.0",
+  "latestReleaseAt": "2026-09-22T18:59:17Z",
+  "defaultBranch": "main"
+}

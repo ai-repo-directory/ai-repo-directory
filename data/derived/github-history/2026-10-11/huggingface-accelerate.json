@@ -1,0 +1,21 @@
+{
+  "id": "huggingface-accelerate",
+  "fetchedAt": "2026-10-11T11:45:30.007Z",
+  "stars": 9912,
+  "forks": 1541,
+  "watchers": 98,
+  "openIssues": 98,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "description": "🚀 A simple way to launch, train, and use PyTorch models on almost any device and distributed configuration, automatic mixed precision (including fp8), and easy-to-configure FSDP and DeepSpeed support",
+  "homepage": "https://huggingface.co/docs/accelerate",
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-10-09T15:02:50Z",
+  "updatedAt": "2026-10-10T20:49:13Z",
+  "createdAt": "2020-10-30T13:27:12Z",
+  "latestRelease": "v1.15.0",
+  "latestReleaseAt": "2026-09-09T13:30:33Z",
+  "defaultBranch": "main"
+}

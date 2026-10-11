@@ -1,0 +1,21 @@
+{
+  "id": "eleutherai-the-pile",
+  "fetchedAt": "2026-10-11T11:45:05.232Z",
+  "stars": 1679,
+  "forks": 149,
+  "watchers": 28,
+  "openIssues": 28,
+  "language": "Python",
+  "license": "MIT",
+  "description": null,
+  "homepage": null,
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2023-04-27T21:00:48Z",
+  "updatedAt": "2026-10-01T05:45:35Z",
+  "createdAt": "2020-08-26T22:54:52Z",
+  "latestRelease": null,
+  "latestReleaseAt": null,
+  "defaultBranch": "master"
+}

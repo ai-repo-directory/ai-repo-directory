@@ -1,0 +1,31 @@
+{
+  "id": "huggingface-chat-ui",
+  "fetchedAt": "2026-10-11T11:45:18.489Z",
+  "stars": 10978,
+  "forks": 1695,
+  "watchers": 99,
+  "openIssues": 303,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "description": "The open source codebase powering HuggingChat",
+  "homepage": "https://huggingface.co/chat",
+  "topics": [
+    "chatgpt",
+    "hacktoberfest",
+    "huggingface",
+    "llm",
+    "svelte",
+    "svelte-kit",
+    "sveltekit",
+    "tailwindcss",
+    "typescript"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-10-09T17:10:55Z",
+  "updatedAt": "2026-10-11T03:08:26Z",
+  "createdAt": "2023-02-17T15:31:50Z",
+  "latestRelease": "v0.10.0",
+  "latestReleaseAt": "2026-05-11T10:02:29Z",
+  "defaultBranch": "main"
+}

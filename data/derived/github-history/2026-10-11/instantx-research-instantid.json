@@ -1,0 +1,21 @@
+{
+  "id": "instantx-research-instantid",
+  "fetchedAt": "2026-10-11T11:45:10.519Z",
+  "stars": 11994,
+  "forks": 891,
+  "watchers": 126,
+  "openIssues": 187,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "description": "InstantID: Zero-shot Identity-Preserving Generation in Seconds 🔥",
+  "homepage": "https://instantid.github.io/",
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2024-07-18T04:12:48Z",
+  "updatedAt": "2026-10-10T03:19:47Z",
+  "createdAt": "2023-12-11T13:16:04Z",
+  "latestRelease": null,
+  "latestReleaseAt": null,
+  "defaultBranch": "main"
+}

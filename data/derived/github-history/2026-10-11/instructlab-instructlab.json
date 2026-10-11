@@ -1,0 +1,21 @@
+{
+  "id": "instructlab-instructlab",
+  "fetchedAt": "2026-10-11T11:45:05.769Z",
+  "stars": 1417,
+  "forks": 454,
+  "watchers": 51,
+  "openIssues": 8,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "description": "InstructLab Core package.  Use this to chat with a model and execute the InstructLab workflow to train a model using custom taxonomy data.",
+  "homepage": "https://instructlab.ai",
+  "topics": [],
+  "archived": true,
+  "disabled": false,
+  "pushedAt": "2026-03-30T22:38:31Z",
+  "updatedAt": "2026-10-01T09:24:34Z",
+  "createdAt": "2024-02-21T22:59:01Z",
+  "latestRelease": "v0.26.1",
+  "latestReleaseAt": "2025-05-05T18:12:19Z",
+  "defaultBranch": "main"
+}

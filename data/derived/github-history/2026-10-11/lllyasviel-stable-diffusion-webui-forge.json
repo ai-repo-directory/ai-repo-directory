@@ -1,0 +1,21 @@
+{
+  "id": "lllyasviel-stable-diffusion-webui-forge",
+  "fetchedAt": "2026-10-11T11:45:10.931Z",
+  "stars": 13055,
+  "forks": 1760,
+  "watchers": 126,
+  "openIssues": 1160,
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "description": null,
+  "homepage": null,
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2025-07-31T01:33:17Z",
+  "updatedAt": "2026-10-11T07:44:11Z",
+  "createdAt": "2024-01-14T11:39:30Z",
+  "latestRelease": "latest",
+  "latestReleaseAt": "2024-02-05T03:21:31Z",
+  "defaultBranch": "main"
+}

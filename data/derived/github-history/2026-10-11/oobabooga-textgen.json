@@ -1,0 +1,21 @@
+{
+  "id": "oobabooga-textgen",
+  "fetchedAt": "2026-10-11T11:45:20.245Z",
+  "stars": 47729,
+  "forks": 5984,
+  "watchers": 359,
+  "openIssues": 847,
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "description": "Open-source desktop app for local LLMs. Text, vision, tool-calling, OpenAI/Anthropic-compatible API. 100% private.",
+  "homepage": null,
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-08-17T17:38:16Z",
+  "updatedAt": "2026-10-11T09:58:11Z",
+  "createdAt": "2022-12-21T04:17:37Z",
+  "latestRelease": "v4.9",
+  "latestReleaseAt": "2026-05-20T19:02:34Z",
+  "defaultBranch": "main"
+}

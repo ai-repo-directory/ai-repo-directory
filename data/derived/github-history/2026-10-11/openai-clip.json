@@ -1,0 +1,24 @@
+{
+  "id": "openai-clip",
+  "fetchedAt": "2026-10-11T11:45:24.661Z",
+  "stars": 34441,
+  "forks": 4058,
+  "watchers": 326,
+  "openIssues": 273,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "description": "CLIP (Contrastive Language-Image Pretraining),  Predict the most relevant text snippet given an image",
+  "homepage": null,
+  "topics": [
+    "deep-learning",
+    "machine-learning"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-03-25T18:46:40Z",
+  "updatedAt": "2026-10-11T11:00:23Z",
+  "createdAt": "2020-12-16T11:24:42Z",
+  "latestRelease": null,
+  "latestReleaseAt": null,
+  "defaultBranch": "main"
+}

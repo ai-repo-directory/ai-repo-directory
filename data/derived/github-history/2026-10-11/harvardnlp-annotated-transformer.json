@@ -1,0 +1,25 @@
+{
+  "id": "harvardnlp-annotated-transformer",
+  "fetchedAt": "2026-10-11T11:45:28.017Z",
+  "stars": 7538,
+  "forks": 1578,
+  "watchers": 69,
+  "openIssues": 35,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "description": "An annotated implementation of the Transformer paper.",
+  "homepage": "http://nlp.seas.harvard.edu/annotated-transformer",
+  "topics": [
+    "annotated",
+    "notebook",
+    "python"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2024-04-07T09:58:46Z",
+  "updatedAt": "2026-10-10T03:31:06Z",
+  "createdAt": "2018-03-21T16:23:15Z",
+  "latestRelease": null,
+  "latestReleaseAt": null,
+  "defaultBranch": "master"
+}

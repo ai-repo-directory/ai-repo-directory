@@ -1,6 +1,6 @@
 {
   "id": "allenai-molmo",
-  "fetchedAt": "2026-10-04T11:28:16.301Z",
+  "fetchedAt": "2026-10-11T11:45:23.326Z",
   "stars": 939,
   "forks": 97,
   "watchers": 13,
@@ -13,7 +13,7 @@
   "archived": false,
   "disabled": false,
   "pushedAt": "2024-12-12T17:37:41Z",
-  "updatedAt": "2026-10-02T12:46:12Z",
+  "updatedAt": "2026-10-09T09:21:20Z",
   "createdAt": "2024-12-05T17:41:00Z",
   "latestRelease": null,
   "latestReleaseAt": null,

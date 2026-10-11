@@ -1,7 +1,7 @@
 {
   "id": "mosaicml-streaming",
-  "fetchedAt": "2026-10-04T11:28:03.369Z",
-  "stars": 1565,
+  "fetchedAt": "2026-10-11T11:45:06.173Z",
+  "stars": 1566,
   "forks": 205,
   "watchers": 24,
   "openIssues": 116,
@@ -20,7 +20,7 @@
   "archived": false,
   "disabled": false,
   "pushedAt": "2026-06-25T15:02:27Z",
-  "updatedAt": "2026-10-02T22:11:26Z",
+  "updatedAt": "2026-10-09T18:44:20Z",
   "createdAt": "2022-06-09T13:36:54Z",
   "latestRelease": null,
   "latestReleaseAt": null,

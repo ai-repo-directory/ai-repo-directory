@@ -1,0 +1,21 @@
+{
+  "id": "exo-explore-exo",
+  "fetchedAt": "2026-10-11T11:45:16.232Z",
+  "stars": 47829,
+  "forks": 3546,
+  "watchers": 355,
+  "openIssues": 455,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "description": "Run frontier AI locally.",
+  "homepage": null,
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-10-06T02:03:09Z",
+  "updatedAt": "2026-10-11T11:09:30Z",
+  "createdAt": "2024-06-24T18:36:22Z",
+  "latestRelease": "v1.0.71",
+  "latestReleaseAt": "2026-04-23T15:04:10Z",
+  "defaultBranch": "main"
+}

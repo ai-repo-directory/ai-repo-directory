@@ -1,0 +1,25 @@
+{
+  "id": "tencent-hunyuan-hunyuanvideo",
+  "fetchedAt": "2026-10-11T11:45:34.955Z",
+  "stars": 12612,
+  "forks": 1349,
+  "watchers": 144,
+  "openIssues": 186,
+  "language": "Python",
+  "license": null,
+  "description": "HunyuanVideo: A Systematic Framework For Large Video Generation Model",
+  "homepage": "https://aivideo.hunyuan.tencent.com",
+  "topics": [
+    "diffusion-models",
+    "diffusion-transformer",
+    "video-generation"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-10-08T08:57:37Z",
+  "updatedAt": "2026-10-11T08:30:49Z",
+  "createdAt": "2024-11-28T08:38:31Z",
+  "latestRelease": null,
+  "latestReleaseAt": null,
+  "defaultBranch": "main"
+}
