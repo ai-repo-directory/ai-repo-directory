@@ -1,0 +1,28 @@
+{
+  "id": "cursortouch-windows-mcp",
+  "fetchedAt": "2026-10-18T10:03:05.997Z",
+  "stars": 9413,
+  "forks": 1014,
+  "watchers": 43,
+  "openIssues": 24,
+  "language": "Python",
+  "license": "MIT",
+  "description": "MCP Server for Computer Use in Windows",
+  "homepage": null,
+  "topics": [
+    "ai",
+    "desktop",
+    "mcp",
+    "tools",
+    "windows",
+    "windows-automation"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-10-16T07:31:44Z",
+  "updatedAt": "2026-10-18T09:51:21Z",
+  "createdAt": "2025-05-13T02:27:53Z",
+  "latestRelease": "v0.8.8",
+  "latestReleaseAt": "2026-10-10T01:33:58Z",
+  "defaultBranch": "main"
+}

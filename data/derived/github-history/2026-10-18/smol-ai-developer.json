@@ -1,0 +1,21 @@
+{
+  "id": "smol-ai-developer",
+  "fetchedAt": "2026-10-18T10:02:50.205Z",
+  "stars": 12186,
+  "forks": 1071,
+  "watchers": 150,
+  "openIssues": 89,
+  "language": "Python",
+  "license": "MIT",
+  "description": "the first library to let you embed a developer agent in your own app!",
+  "homepage": "https://twitter.com/SmolModels",
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2024-04-07T07:11:03Z",
+  "updatedAt": "2026-10-17T18:05:10Z",
+  "createdAt": "2023-05-13T07:19:57Z",
+  "latestRelease": null,
+  "latestReleaseAt": null,
+  "defaultBranch": "main"
+}

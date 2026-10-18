@@ -1,0 +1,21 @@
+{
+  "id": "stanfordnlp-dspy",
+  "fetchedAt": "2026-10-18T10:03:11.427Z",
+  "stars": 38676,
+  "forks": 3432,
+  "watchers": 218,
+  "openIssues": 811,
+  "language": "Python",
+  "license": "MIT",
+  "description": "DSPy: The framework for programming—not prompting—language models",
+  "homepage": "https://dspy.ai",
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-10-16T19:33:56Z",
+  "updatedAt": "2026-10-18T05:34:49Z",
+  "createdAt": "2023-01-09T21:01:51Z",
+  "latestRelease": "3.4.1",
+  "latestReleaseAt": "2026-10-12T23:12:32Z",
+  "defaultBranch": "main"
+}

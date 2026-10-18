@@ -1,10 +1,10 @@
 {
   "id": "weaviate-weaviate",
-  "fetchedAt": "2026-10-11T11:45:32.995Z",
-  "stars": 16875,
+  "fetchedAt": "2026-10-18T10:03:16.765Z",
+  "stars": 16886,
   "forks": 1421,
   "watchers": 141,
-  "openIssues": 798,
+  "openIssues": 788,
   "language": "Go",
   "license": null,
   "description": "Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database​.",
@@ -33,10 +33,10 @@
   ],
   "archived": false,
   "disabled": false,
-  "pushedAt": "2026-10-09T15:13:48Z",
-  "updatedAt": "2026-10-10T20:24:22Z",
+  "pushedAt": "2026-10-16T16:13:05Z",
+  "updatedAt": "2026-10-18T09:21:17Z",
   "createdAt": "2016-03-30T15:03:17Z",
-  "latestRelease": "v1.40.0",
-  "latestReleaseAt": "2026-10-07T06:58:25Z",
+  "latestRelease": "v1.40.1",
+  "latestReleaseAt": "2026-10-13T06:35:30Z",
   "defaultBranch": "main"
 }

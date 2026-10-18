@@ -1,8 +1,8 @@
 {
   "id": "axolotl-ai-cloud-axolotl",
-  "fetchedAt": "2026-10-11T11:45:29.075Z",
-  "stars": 12555,
-  "forks": 1452,
+  "fetchedAt": "2026-10-18T10:03:13.334Z",
+  "stars": 12589,
+  "forks": 1561,
   "watchers": 57,
   "openIssues": 247,
   "language": "Python",
@@ -15,10 +15,10 @@
   ],
   "archived": false,
   "disabled": false,
-  "pushedAt": "2026-10-10T20:11:11Z",
-  "updatedAt": "2026-10-11T07:26:39Z",
+  "pushedAt": "2026-10-18T05:54:44Z",
+  "updatedAt": "2026-10-18T09:17:15Z",
   "createdAt": "2023-04-14T04:25:47Z",
-  "latestRelease": "v0.20.0",
-  "latestReleaseAt": "2026-09-30T14:08:10Z",
+  "latestRelease": "v0.21.0",
+  "latestReleaseAt": "2026-10-16T13:52:11Z",
   "defaultBranch": "main"
 }

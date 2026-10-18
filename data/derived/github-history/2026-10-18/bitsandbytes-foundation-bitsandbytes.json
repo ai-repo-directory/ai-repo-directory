@@ -1,0 +1,27 @@
+{
+  "id": "bitsandbytes-foundation-bitsandbytes",
+  "fetchedAt": "2026-10-18T10:03:13.530Z",
+  "stars": 8526,
+  "forks": 956,
+  "watchers": 53,
+  "openIssues": 101,
+  "language": "Python",
+  "license": "MIT",
+  "description": "Accessible large language models via k-bit quantization for PyTorch.",
+  "homepage": "https://huggingface.co/docs/bitsandbytes/main/en/index",
+  "topics": [
+    "llm",
+    "machine-learning",
+    "pytorch",
+    "qlora",
+    "quantization"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-09-07T14:36:23Z",
+  "updatedAt": "2026-10-18T02:01:00Z",
+  "createdAt": "2021-06-04T00:10:34Z",
+  "latestRelease": "0.50.2",
+  "latestReleaseAt": "2026-08-27T00:13:56Z",
+  "defaultBranch": "main"
+}

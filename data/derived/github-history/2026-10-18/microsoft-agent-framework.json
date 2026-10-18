@@ -1,0 +1,32 @@
+{
+  "id": "microsoft-agent-framework",
+  "fetchedAt": "2026-10-18T10:02:45.031Z",
+  "stars": 14187,
+  "forks": 2485,
+  "watchers": 112,
+  "openIssues": 777,
+  "language": "Python",
+  "license": "MIT",
+  "description": "A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET.",
+  "homepage": "https://aka.ms/agent-framework",
+  "topics": [
+    "agent-framework",
+    "agentic-ai",
+    "agents",
+    "ai",
+    "dotnet",
+    "multi-agent",
+    "orchestration",
+    "python",
+    "sdk",
+    "workflows"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-10-18T08:43:25Z",
+  "updatedAt": "2026-10-18T06:13:41Z",
+  "createdAt": "2025-04-28T19:40:42Z",
+  "latestRelease": "python-1.22.0",
+  "latestReleaseAt": "2026-10-15T09:53:40Z",
+  "defaultBranch": "main"
+}

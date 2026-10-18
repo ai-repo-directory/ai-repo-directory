@@ -1,0 +1,21 @@
+{
+  "id": "answerdotai-ragatouille",
+  "fetchedAt": "2026-10-18T10:03:10.089Z",
+  "stars": 3972,
+  "forks": 279,
+  "watchers": 37,
+  "openIssues": 98,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "description": "Easily use and train state of the art late-interaction retrieval methods (ColBERT) in any RAG pipeline. Designed for modularity and ease-of-use, backed by research.",
+  "homepage": null,
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2025-05-17T12:45:38Z",
+  "updatedAt": "2026-10-17T06:31:32Z",
+  "createdAt": "2023-12-29T16:26:42Z",
+  "latestRelease": "0.0.9",
+  "latestReleaseAt": "2025-02-11T04:31:38Z",
+  "defaultBranch": "main"
+}

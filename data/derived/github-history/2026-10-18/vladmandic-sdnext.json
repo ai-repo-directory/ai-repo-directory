@@ -1,0 +1,32 @@
+{
+  "id": "vladmandic-sdnext",
+  "fetchedAt": "2026-10-18T10:02:57.355Z",
+  "stars": 7356,
+  "forks": 580,
+  "watchers": 65,
+  "openIssues": 59,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "description": "SD.Next: All-in-one WebUI for AI generative image and video creation, captioning and processing",
+  "homepage": "https://vladmandic.github.io/sdnext/",
+  "topics": [
+    "ai-art",
+    "caption",
+    "diffusers",
+    "generative-art",
+    "python",
+    "pytorch",
+    "sdnext",
+    "stable-diffusion",
+    "transformers",
+    "webui"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-10-18T06:42:54Z",
+  "updatedAt": "2026-10-18T06:43:10Z",
+  "createdAt": "2022-12-24T20:59:11Z",
+  "latestRelease": null,
+  "latestReleaseAt": null,
+  "defaultBranch": "master"
+}

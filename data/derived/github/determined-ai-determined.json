@@ -1,7 +1,7 @@
 {
   "id": "determined-ai-determined",
-  "fetchedAt": "2026-10-11T11:45:12.375Z",
-  "stars": 3244,
+  "fetchedAt": "2026-10-18T10:02:58.115Z",
+  "stars": 3245,
   "forks": 374,
   "watchers": 74,
   "openIssues": 108,
@@ -28,7 +28,7 @@
   "archived": false,
   "disabled": false,
   "pushedAt": "2025-03-20T19:09:46Z",
-  "updatedAt": "2026-10-11T06:01:16Z",
+  "updatedAt": "2026-10-16T07:46:35Z",
   "createdAt": "2020-04-07T16:12:29Z",
   "latestRelease": "v0.38.1",
   "latestReleaseAt": "2025-03-19T23:12:44Z",

@@ -1,0 +1,25 @@
+{
+  "id": "github-github-mcp-server",
+  "fetchedAt": "2026-10-18T10:03:06.147Z",
+  "stars": 33713,
+  "forks": 5306,
+  "watchers": 410,
+  "openIssues": 380,
+  "language": "Go",
+  "license": "MIT",
+  "description": "GitHub's official MCP Server",
+  "homepage": null,
+  "topics": [
+    "github",
+    "mcp",
+    "mcp-server"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-10-15T21:16:40Z",
+  "updatedAt": "2026-10-18T08:00:34Z",
+  "createdAt": "2025-03-04T16:42:04Z",
+  "latestRelease": "v2.0.2",
+  "latestReleaseAt": "2026-10-08T11:33:15Z",
+  "defaultBranch": "main"
+}

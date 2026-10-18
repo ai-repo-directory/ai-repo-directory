@@ -1,0 +1,25 @@
+{
+  "id": "state-spaces-s4",
+  "fetchedAt": "2026-10-18T10:03:12.937Z",
+  "stars": 2929,
+  "forks": 371,
+  "watchers": 50,
+  "openIssues": 59,
+  "language": "Jupyter Notebook",
+  "license": "Apache-2.0",
+  "description": "Structured state space sequence models",
+  "homepage": null,
+  "topics": [
+    "pytorch",
+    "sequence-models",
+    "state-space-models"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2024-07-17T17:04:39Z",
+  "updatedAt": "2026-10-14T05:57:14Z",
+  "createdAt": "2021-11-03T15:33:53Z",
+  "latestRelease": null,
+  "latestReleaseAt": null,
+  "defaultBranch": "main"
+}

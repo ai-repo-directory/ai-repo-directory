@@ -1,0 +1,21 @@
+{
+  "id": "allenai-molmo",
+  "fetchedAt": "2026-10-18T10:03:08.063Z",
+  "stars": 940,
+  "forks": 97,
+  "watchers": 13,
+  "openIssues": 36,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "description": "Code for the Molmo Vision-Language Model",
+  "homepage": null,
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2024-12-12T17:37:41Z",
+  "updatedAt": "2026-10-18T05:55:14Z",
+  "createdAt": "2024-12-05T17:41:00Z",
+  "latestRelease": null,
+  "latestReleaseAt": null,
+  "defaultBranch": "main"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "ali-vilab-vgen",
+  "fetchedAt": "2026-10-18T10:03:17.087Z",
+  "stars": 3151,
+  "forks": 274,
+  "watchers": 30,
+  "openIssues": 115,
+  "language": "Python",
+  "license": null,
+  "description": "Official repo for VGen: a holistic video generation ecosystem for video generation building on diffusion models",
+  "homepage": "https://i2vgen-xl.github.io",
+  "topics": [
+    "diffusion-models",
+    "video-synthesis"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2025-01-10T09:09:13Z",
+  "updatedAt": "2026-10-17T07:16:16Z",
+  "createdAt": "2023-11-06T06:50:19Z",
+  "latestRelease": null,
+  "latestReleaseAt": null,
+  "defaultBranch": "main"
+}

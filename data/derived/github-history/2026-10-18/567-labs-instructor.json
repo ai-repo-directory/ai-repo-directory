@@ -1,0 +1,28 @@
+{
+  "id": "567-labs-instructor",
+  "fetchedAt": "2026-10-18T10:02:57.621Z",
+  "stars": 14030,
+  "forks": 1321,
+  "watchers": 55,
+  "openIssues": 212,
+  "language": "Python",
+  "license": "MIT",
+  "description": "structured outputs for llms ",
+  "homepage": "https://python.useinstructor.com/",
+  "topics": [
+    "openai",
+    "openai-function-calli",
+    "openai-functions",
+    "pydantic-v2",
+    "python",
+    "validation"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-10-14T22:21:57Z",
+  "updatedAt": "2026-10-18T09:46:54Z",
+  "createdAt": "2023-06-14T10:42:23Z",
+  "latestRelease": "v1.17.0",
+  "latestReleaseAt": "2026-09-09T02:25:36Z",
+  "defaultBranch": "main"
+}

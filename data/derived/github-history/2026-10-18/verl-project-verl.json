@@ -1,0 +1,21 @@
+{
+  "id": "verl-project-verl",
+  "fetchedAt": "2026-10-18T10:03:15.577Z",
+  "stars": 23914,
+  "forks": 4770,
+  "watchers": 90,
+  "openIssues": 1371,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "description": "verl/HybridFlow: A Flexible and Efficient RL Post-Training Framework ",
+  "homepage": "https://verl-project.github.io",
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-10-18T04:36:44Z",
+  "updatedAt": "2026-10-18T07:47:27Z",
+  "createdAt": "2024-10-31T06:11:15Z",
+  "latestRelease": "v0.9.1",
+  "latestReleaseAt": "2026-09-20T07:24:43Z",
+  "defaultBranch": "main"
+}

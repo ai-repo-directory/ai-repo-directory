@@ -1,0 +1,28 @@
+{
+  "id": "chroma-core-chroma",
+  "fetchedAt": "2026-10-18T10:03:15.816Z",
+  "stars": 29521,
+  "forks": 2569,
+  "watchers": 135,
+  "openIssues": 949,
+  "language": "Rust",
+  "license": "Apache-2.0",
+  "description": "Search infrastructure for AI",
+  "homepage": "https://www.trychroma.com/",
+  "topics": [
+    "agents",
+    "ai",
+    "ai-agents",
+    "database",
+    "rust",
+    "rust-lang"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-10-17T22:33:48Z",
+  "updatedAt": "2026-10-17T23:09:36Z",
+  "createdAt": "2022-10-05T17:58:44Z",
+  "latestRelease": "1.5.9",
+  "latestReleaseAt": "2026-05-05T05:55:40Z",
+  "defaultBranch": "main"
+}

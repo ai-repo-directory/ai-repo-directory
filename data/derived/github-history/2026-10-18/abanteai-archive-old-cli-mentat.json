@@ -1,0 +1,21 @@
+{
+  "id": "abanteai-archive-old-cli-mentat",
+  "fetchedAt": "2026-10-18T10:02:48.225Z",
+  "stars": 2538,
+  "forks": 232,
+  "watchers": 2,
+  "openIssues": 0,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "description": null,
+  "homepage": "https://mentat.ai",
+  "topics": [],
+  "archived": true,
+  "disabled": false,
+  "pushedAt": "2025-01-07T22:52:59Z",
+  "updatedAt": "2026-10-15T02:31:27Z",
+  "createdAt": "2023-07-25T18:00:13Z",
+  "latestRelease": "v1.0.18",
+  "latestReleaseAt": "2024-04-23T00:02:38Z",
+  "defaultBranch": "main"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "vibrantlabsai-ragas",
+  "fetchedAt": "2026-10-18T10:02:54.810Z",
+  "stars": 16050,
+  "forks": 1839,
+  "watchers": 66,
+  "openIssues": 635,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "description": "Supercharge Your LLM Application Evaluations 🚀",
+  "homepage": "https://docs.ragas.io",
+  "topics": [
+    "evaluation",
+    "llm",
+    "llmops"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-02-24T07:47:19Z",
+  "updatedAt": "2026-10-18T07:22:56Z",
+  "createdAt": "2023-05-08T17:48:04Z",
+  "latestRelease": "v0.4.3",
+  "latestReleaseAt": "2026-01-13T17:47:29Z",
+  "defaultBranch": "main"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "openhands-openhands",
+  "fetchedAt": "2026-10-18T10:02:49.410Z",
+  "stars": 91173,
+  "forks": 12099,
+  "watchers": 499,
+  "openIssues": 1056,
+  "language": "TypeScript",
+  "license": "MIT",
+  "description": "🙌 OpenHands: AI-Driven Development",
+  "homepage": "https://openhands.dev",
+  "topics": [
+    "agent",
+    "artificial-intelligence",
+    "chatgpt",
+    "claude-ai",
+    "cli",
+    "developer-tools",
+    "gpt",
+    "llm",
+    "openai"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-10-17T22:11:14Z",
+  "updatedAt": "2026-10-18T09:44:06Z",
+  "createdAt": "2024-03-13T03:33:31Z",
+  "latestRelease": "v1.27.1",
+  "latestReleaseAt": "2026-10-12T19:33:56Z",
+  "defaultBranch": "main"
+}

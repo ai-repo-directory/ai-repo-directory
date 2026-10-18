@@ -1,0 +1,28 @@
+{
+  "id": "comfy-org-comfyui",
+  "fetchedAt": "2026-10-18T10:02:55.480Z",
+  "stars": 138118,
+  "forks": 16455,
+  "watchers": 828,
+  "openIssues": 5239,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
+  "homepage": "https://www.comfy.org/",
+  "topics": [
+    "ai",
+    "comfy",
+    "comfyui",
+    "python",
+    "pytorch",
+    "stable-diffusion"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-10-18T05:20:10Z",
+  "updatedAt": "2026-10-18T09:55:41Z",
+  "createdAt": "2023-01-17T03:15:56Z",
+  "latestRelease": "v0.41.0",
+  "latestReleaseAt": "2026-10-15T22:57:45Z",
+  "defaultBranch": "master"
+}

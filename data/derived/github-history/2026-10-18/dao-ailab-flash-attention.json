@@ -1,0 +1,21 @@
+{
+  "id": "dao-ailab-flash-attention",
+  "fetchedAt": "2026-10-18T10:03:13.685Z",
+  "stars": 25154,
+  "forks": 3163,
+  "watchers": 148,
+  "openIssues": 1367,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "description": "Fast and memory-efficient exact attention",
+  "homepage": null,
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-10-18T08:42:36Z",
+  "updatedAt": "2026-10-18T09:36:15Z",
+  "createdAt": "2022-05-19T21:22:06Z",
+  "latestRelease": "v2.8.3.post2",
+  "latestReleaseAt": "2026-10-13T05:41:17Z",
+  "defaultBranch": "main"
+}

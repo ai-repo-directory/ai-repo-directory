@@ -1,0 +1,26 @@
+{
+  "id": "upstash-context7",
+  "fetchedAt": "2026-10-18T10:03:07.800Z",
+  "stars": 63228,
+  "forks": 3108,
+  "watchers": 164,
+  "openIssues": 46,
+  "language": "TypeScript",
+  "license": "MIT",
+  "description": "Context7 Platform -- Up-to-date docs for AI agents",
+  "homepage": "https://context7.com",
+  "topics": [
+    "llm",
+    "mcp",
+    "mcp-server",
+    "vibe-coding"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-10-17T14:44:22Z",
+  "updatedAt": "2026-10-18T10:01:48Z",
+  "createdAt": "2025-03-26T23:40:39Z",
+  "latestRelease": "ctx7@0.8.0",
+  "latestReleaseAt": "2026-10-16T14:31:38Z",
+  "defaultBranch": "master"
+}

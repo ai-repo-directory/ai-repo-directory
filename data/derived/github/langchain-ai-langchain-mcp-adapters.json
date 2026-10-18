@@ -1,7 +1,7 @@
 {
   "id": "langchain-ai-langchain-mcp-adapters",
-  "fetchedAt": "2026-10-11T11:45:21.477Z",
-  "stars": 3653,
+  "fetchedAt": "2026-10-18T10:03:06.174Z",
+  "stars": 3651,
   "forks": 492,
   "watchers": 21,
   "openIssues": 0,
@@ -19,7 +19,7 @@
   "archived": true,
   "disabled": false,
   "pushedAt": "2026-09-16T03:16:07Z",
-  "updatedAt": "2026-10-10T16:42:49Z",
+  "updatedAt": "2026-10-14T06:39:49Z",
   "createdAt": "2025-02-07T23:08:03Z",
   "latestRelease": "langchain-mcp-adapters==0.3.2",
   "latestReleaseAt": "2026-08-06T06:15:24Z",
