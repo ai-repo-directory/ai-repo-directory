@@ -1,7 +1,7 @@
 {
   "id": "sourcegraph-cody-public-snapshot",
-  "fetchedAt": "2026-10-18T10:02:50.183Z",
-  "stars": 3800,
+  "fetchedAt": "2026-10-25T10:19:50.333Z",
+  "stars": 3801,
   "forks": 486,
   "watchers": 10,
   "openIssues": 43,
@@ -17,7 +17,7 @@
   "archived": true,
   "disabled": false,
   "pushedAt": "2025-08-01T14:31:09Z",
-  "updatedAt": "2026-10-13T15:30:35Z",
+  "updatedAt": "2026-10-22T10:27:18Z",
   "createdAt": "2023-07-10T10:13:55Z",
   "latestRelease": "vscode-v1.116.0",
   "latestReleaseAt": "2025-07-30T17:40:54Z",

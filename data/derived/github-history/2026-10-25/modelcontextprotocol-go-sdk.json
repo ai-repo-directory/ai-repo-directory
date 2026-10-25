@@ -1,0 +1,24 @@
+{
+  "id": "modelcontextprotocol-go-sdk",
+  "fetchedAt": "2026-10-25T10:20:07.694Z",
+  "stars": 5272,
+  "forks": 601,
+  "watchers": 56,
+  "openIssues": 127,
+  "language": "Go",
+  "license": null,
+  "description": "The official Go SDK for Model Context Protocol servers and clients. Maintained in collaboration with Google.",
+  "homepage": "https://modelcontextprotocol.io",
+  "topics": [
+    "go",
+    "mcp"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-10-23T15:48:14Z",
+  "updatedAt": "2026-10-25T08:49:20Z",
+  "createdAt": "2025-04-23T10:07:33Z",
+  "latestRelease": "v1.8.0",
+  "latestReleaseAt": "2026-09-14T08:05:46Z",
+  "defaultBranch": "main"
+}

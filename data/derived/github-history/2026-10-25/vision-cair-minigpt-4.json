@@ -1,0 +1,21 @@
+{
+  "id": "vision-cair-minigpt-4",
+  "fetchedAt": "2026-10-25T10:20:11.087Z",
+  "stars": 25577,
+  "forks": 2860,
+  "watchers": 210,
+  "openIssues": 375,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "description": "Open-sourced codes for MiniGPT-4 and MiniGPT-v2 (https://minigpt-4.github.io, https://minigpt-v2.github.io/)",
+  "homepage": "https://minigpt-4.github.io",
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2024-09-02T09:07:21Z",
+  "updatedAt": "2026-10-25T08:43:52Z",
+  "createdAt": "2023-04-15T22:17:09Z",
+  "latestRelease": null,
+  "latestReleaseAt": null,
+  "defaultBranch": "main"
+}

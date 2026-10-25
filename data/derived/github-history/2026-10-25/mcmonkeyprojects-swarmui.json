@@ -1,0 +1,31 @@
+{
+  "id": "mcmonkeyprojects-swarmui",
+  "fetchedAt": "2026-10-25T10:19:57.362Z",
+  "stars": 4703,
+  "forks": 476,
+  "watchers": 43,
+  "openIssues": 154,
+  "language": "C#",
+  "license": "MIT",
+  "description": "SwarmUI (formerly StableSwarmUI), A Modular Stable Diffusion Web-User-Interface, with an emphasis on making powertools easily accessible, high performance, and extensibility.",
+  "homepage": null,
+  "topics": [
+    "ai",
+    "comfyui",
+    "csharp",
+    "image-generation",
+    "javascript",
+    "machine-learning",
+    "ml",
+    "python",
+    "stable-diffusion"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-10-21T23:56:15Z",
+  "updatedAt": "2026-10-25T03:40:28Z",
+  "createdAt": "2024-06-21T06:24:53Z",
+  "latestRelease": "0.9.8-Beta",
+  "latestReleaseAt": "2026-02-06T16:54:03Z",
+  "defaultBranch": "master"
+}

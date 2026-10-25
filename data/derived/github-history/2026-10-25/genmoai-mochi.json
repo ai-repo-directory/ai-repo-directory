@@ -1,0 +1,21 @@
+{
+  "id": "genmoai-mochi",
+  "fetchedAt": "2026-10-25T10:20:18.759Z",
+  "stars": 3752,
+  "forks": 494,
+  "watchers": 45,
+  "openIssues": 61,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "description": "The best OSS video generation models, created by Genmo",
+  "homepage": null,
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-10-22T23:35:03Z",
+  "updatedAt": "2026-10-25T09:08:51Z",
+  "createdAt": "2024-09-11T02:55:33Z",
+  "latestRelease": null,
+  "latestReleaseAt": null,
+  "defaultBranch": "main"
+}

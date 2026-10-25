@@ -1,0 +1,31 @@
+{
+  "id": "microsoft-onnxruntime",
+  "fetchedAt": "2026-10-25T10:20:00.020Z",
+  "stars": 22168,
+  "forks": 4362,
+  "watchers": 264,
+  "openIssues": 1821,
+  "language": "C++",
+  "license": "MIT",
+  "description": "ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator",
+  "homepage": "https://onnxruntime.ai",
+  "topics": [
+    "ai-framework",
+    "deep-learning",
+    "hardware-acceleration",
+    "machine-learning",
+    "neural-networks",
+    "onnx",
+    "pytorch",
+    "scikit-learn",
+    "tensorflow"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-10-25T06:02:55Z",
+  "updatedAt": "2026-10-25T04:39:25Z",
+  "createdAt": "2018-11-10T02:22:53Z",
+  "latestRelease": "v1.31.0",
+  "latestReleaseAt": "2026-10-09T04:51:32Z",
+  "defaultBranch": "main"
+}

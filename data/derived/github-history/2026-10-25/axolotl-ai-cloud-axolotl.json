@@ -1,0 +1,24 @@
+{
+  "id": "axolotl-ai-cloud-axolotl",
+  "fetchedAt": "2026-10-25T10:20:14.419Z",
+  "stars": 12628,
+  "forks": 1467,
+  "watchers": 55,
+  "openIssues": 249,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "description": "Go ahead and axolotl questions",
+  "homepage": "https://docs.axolotl.ai",
+  "topics": [
+    "fine-tuning",
+    "llm"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-10-25T10:14:18Z",
+  "updatedAt": "2026-10-25T10:03:05Z",
+  "createdAt": "2023-04-14T04:25:47Z",
+  "latestRelease": "v0.21.0",
+  "latestReleaseAt": "2026-10-16T13:52:11Z",
+  "defaultBranch": "main"
+}

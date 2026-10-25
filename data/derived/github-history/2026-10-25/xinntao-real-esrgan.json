@@ -1,0 +1,30 @@
+{
+  "id": "xinntao-real-esrgan",
+  "fetchedAt": "2026-10-25T10:19:57.973Z",
+  "stars": 37209,
+  "forks": 4499,
+  "watchers": 256,
+  "openIssues": 649,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "description": "Real-ESRGAN aims at developing Practical Algorithms for General Image/Video Restoration.",
+  "homepage": null,
+  "topics": [
+    "amine",
+    "denoise",
+    "esrgan",
+    "image-restoration",
+    "jpeg-compression",
+    "pytorch",
+    "real-esrgan",
+    "super-resolution"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2024-08-06T13:15:18Z",
+  "updatedAt": "2026-10-25T07:43:27Z",
+  "createdAt": "2021-07-19T03:23:30Z",
+  "latestRelease": "v0.3.0",
+  "latestReleaseAt": "2022-09-20T11:58:18Z",
+  "defaultBranch": "master"
+}

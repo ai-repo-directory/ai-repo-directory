@@ -1,0 +1,26 @@
+{
+  "id": "myshell-ai-openvoice",
+  "fetchedAt": "2026-10-25T10:19:46.741Z",
+  "stars": 38064,
+  "forks": 4277,
+  "watchers": 262,
+  "openIssues": 315,
+  "language": "Python",
+  "license": "MIT",
+  "description": "Instant voice cloning by MIT and MyShell. Audio foundation model.",
+  "homepage": "https://research.myshell.ai/open-voice",
+  "topics": [
+    "text-to-speech",
+    "tts",
+    "voice-clone",
+    "zero-shot-tts"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2025-04-19T16:00:00Z",
+  "updatedAt": "2026-10-25T09:50:48Z",
+  "createdAt": "2023-11-29T12:17:01Z",
+  "latestRelease": null,
+  "latestReleaseAt": null,
+  "defaultBranch": "main"
+}

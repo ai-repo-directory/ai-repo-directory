@@ -1,0 +1,32 @@
+{
+  "id": "dphnai-sonar",
+  "fetchedAt": "2026-10-25T10:20:01.884Z",
+  "stars": 1885,
+  "forks": 211,
+  "watchers": 28,
+  "openIssues": 57,
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "description": "Large-scale LLM inference engine",
+  "homepage": "https://sonar.dphn.ai",
+  "topics": [
+    "api-rest",
+    "cuda",
+    "inference-engine",
+    "inferentia",
+    "intel",
+    "lora",
+    "machine-learning",
+    "rocm",
+    "speculative-decoding",
+    "tpu"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-10-25T09:24:19Z",
+  "updatedAt": "2026-10-25T00:48:50Z",
+  "createdAt": "2023-06-23T02:34:29Z",
+  "latestRelease": "v0.24.1",
+  "latestReleaseAt": "2026-09-11T20:40:09Z",
+  "defaultBranch": "main"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "meta-llama-synthetic-data-kit",
+  "fetchedAt": "2026-10-25T10:19:52.669Z",
+  "stars": 1651,
+  "forks": 238,
+  "watchers": 16,
+  "openIssues": 51,
+  "language": "Python",
+  "license": "MIT",
+  "description": "Tool for generating high quality Synthetic datasets",
+  "homepage": "https://pypi.org/project/synthetic-data-kit/",
+  "topics": [
+    "data",
+    "generation",
+    "llm",
+    "python",
+    "synthetic"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2025-10-28T20:10:55Z",
+  "updatedAt": "2026-10-23T02:33:21Z",
+  "createdAt": "2025-03-27T06:40:42Z",
+  "latestRelease": null,
+  "latestReleaseAt": null,
+  "defaultBranch": "main"
+}

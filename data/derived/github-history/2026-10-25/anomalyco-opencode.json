@@ -1,0 +1,21 @@
+{
+  "id": "anomalyco-opencode",
+  "fetchedAt": "2026-10-25T10:19:48.471Z",
+  "stars": 221321,
+  "forks": 29620,
+  "watchers": 858,
+  "openIssues": 3802,
+  "language": "TypeScript",
+  "license": "MIT",
+  "description": "The open source coding agent.",
+  "homepage": "https://opencode.ai",
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-10-25T10:07:44Z",
+  "updatedAt": "2026-10-25T10:08:34Z",
+  "createdAt": "2025-04-30T20:08:00Z",
+  "latestRelease": "v1.19.4",
+  "latestReleaseAt": "2026-10-22T13:03:41Z",
+  "defaultBranch": "dev"
+}

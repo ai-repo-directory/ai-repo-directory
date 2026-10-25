@@ -1,0 +1,21 @@
+{
+  "id": "huggingface-datatrove",
+  "fetchedAt": "2026-10-25T10:19:52.131Z",
+  "stars": 3402,
+  "forks": 324,
+  "watchers": 49,
+  "openIssues": 126,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "description": "Freeing data processing from scripting madness by providing a set of platform-agnostic customizable pipeline processing blocks.",
+  "homepage": null,
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-10-23T14:15:58Z",
+  "updatedAt": "2026-10-24T13:03:48Z",
+  "createdAt": "2023-06-14T12:05:28Z",
+  "latestRelease": "v0.10.1",
+  "latestReleaseAt": "2026-09-30T08:30:49Z",
+  "defaultBranch": "main"
+}
