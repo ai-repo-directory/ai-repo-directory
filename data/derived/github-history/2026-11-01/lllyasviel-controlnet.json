@@ -1,0 +1,21 @@
+{
+  "id": "lllyasviel-controlnet",
+  "fetchedAt": "2026-11-01T12:14:34.984Z",
+  "stars": 34141,
+  "forks": 3013,
+  "watchers": 219,
+  "openIssues": 461,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "description": "Let us control diffusion models!",
+  "homepage": null,
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2024-02-25T09:49:39Z",
+  "updatedAt": "2026-11-01T00:34:13Z",
+  "createdAt": "2023-02-01T02:43:30Z",
+  "latestRelease": null,
+  "latestReleaseAt": null,
+  "defaultBranch": "main"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "continuedev-continue",
+  "fetchedAt": "2026-11-01T12:14:26.176Z",
+  "stars": 36394,
+  "forks": 5540,
+  "watchers": 162,
+  "openIssues": 858,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "description": "open-source coding agent",
+  "homepage": "https://continue.dev",
+  "topics": [
+    "agent",
+    "ai",
+    "cli",
+    "developer-tools",
+    "open-source"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-11-01T07:23:48Z",
+  "updatedAt": "2026-11-01T11:33:56Z",
+  "createdAt": "2023-05-24T03:39:39Z",
+  "latestRelease": "v2.0.0-vscode",
+  "latestReleaseAt": "2026-06-19T00:24:01Z",
+  "defaultBranch": "main"
+}

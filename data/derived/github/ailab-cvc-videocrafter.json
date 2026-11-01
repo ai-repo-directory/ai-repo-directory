@@ -1,7 +1,7 @@
 {
   "id": "ailab-cvc-videocrafter",
-  "fetchedAt": "2026-10-25T10:20:18.247Z",
-  "stars": 5106,
+  "fetchedAt": "2026-11-01T12:14:58.225Z",
+  "stars": 5110,
   "forks": 412,
   "watchers": 65,
   "openIssues": 75,
@@ -17,7 +17,7 @@
   "archived": false,
   "disabled": false,
   "pushedAt": "2026-01-09T15:01:22Z",
-  "updatedAt": "2026-10-25T09:04:51Z",
+  "updatedAt": "2026-11-01T02:38:20Z",
   "createdAt": "2023-04-03T09:27:42Z",
   "latestRelease": "VideoCrafter1",
   "latestReleaseAt": "2024-01-17T11:39:37Z",

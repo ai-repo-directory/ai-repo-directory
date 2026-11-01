@@ -1,0 +1,21 @@
+{
+  "id": "openai-tiktoken",
+  "fetchedAt": "2026-11-01T12:14:38.957Z",
+  "stars": 19574,
+  "forks": 1664,
+  "watchers": 206,
+  "openIssues": 150,
+  "language": "Python",
+  "license": "MIT",
+  "description": "tiktoken is a fast BPE tokeniser for use with OpenAI's models.",
+  "homepage": null,
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-08-17T05:25:57Z",
+  "updatedAt": "2026-11-01T10:04:28Z",
+  "createdAt": "2022-12-01T23:22:11Z",
+  "latestRelease": "0.14.0",
+  "latestReleaseAt": "2026-08-17T05:25:57Z",
+  "defaultBranch": "main"
+}

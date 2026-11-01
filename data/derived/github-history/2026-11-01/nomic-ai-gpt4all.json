@@ -1,0 +1,24 @@
+{
+  "id": "nomic-ai-gpt4all",
+  "fetchedAt": "2026-11-01T12:14:44.240Z",
+  "stars": 77342,
+  "forks": 8255,
+  "watchers": 695,
+  "openIssues": 776,
+  "language": "C++",
+  "license": "MIT",
+  "description": "GPT4All: Run Local LLMs on Any Device. Open-source and available for commercial use.",
+  "homepage": "https://nomic.ai/gpt4all",
+  "topics": [
+    "ai-chat",
+    "llm-inference"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2025-05-27T20:05:19Z",
+  "updatedAt": "2026-11-01T11:38:28Z",
+  "createdAt": "2023-03-27T18:49:32Z",
+  "latestRelease": "v3.10.0",
+  "latestReleaseAt": "2025-02-25T00:41:39Z",
+  "defaultBranch": "main"
+}

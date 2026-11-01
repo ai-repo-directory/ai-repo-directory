@@ -1,13 +1,13 @@
 {
   "id": "agno-agi-agno",
-  "fetchedAt": "2026-10-25T10:19:43.234Z",
-  "stars": 42883,
-  "forks": 6179,
+  "fetchedAt": "2026-11-01T12:14:20.006Z",
+  "stars": 43002,
+  "forks": 6221,
   "watchers": 234,
-  "openIssues": 1936,
+  "openIssues": 1954,
   "language": "Python",
   "license": "Apache-2.0",
-  "description": "Build, run, and manage agent platforms.",
+  "description": "The self-driving agent platform",
   "homepage": "https://docs.agno.com",
   "topics": [
     "agents",
@@ -18,10 +18,10 @@
   ],
   "archived": false,
   "disabled": false,
-  "pushedAt": "2026-10-25T10:18:54Z",
-  "updatedAt": "2026-10-25T08:19:33Z",
+  "pushedAt": "2026-10-31T01:00:01Z",
+  "updatedAt": "2026-11-01T11:28:19Z",
   "createdAt": "2022-05-04T15:23:02Z",
-  "latestRelease": "v3.1.10",
-  "latestReleaseAt": "2026-10-23T13:10:30Z",
+  "latestRelease": "v3.1.12",
+  "latestReleaseAt": "2026-10-29T14:00:55Z",
   "defaultBranch": "main"
 }

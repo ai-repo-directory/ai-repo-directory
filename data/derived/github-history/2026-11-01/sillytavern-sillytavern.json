@@ -1,0 +1,25 @@
+{
+  "id": "sillytavern-sillytavern",
+  "fetchedAt": "2026-11-01T12:14:44.901Z",
+  "stars": 35185,
+  "forks": 6629,
+  "watchers": 162,
+  "openIssues": 687,
+  "language": "JavaScript",
+  "license": "AGPL-3.0",
+  "description": "LLM Frontend for Power Users.",
+  "homepage": "https://sillytavern.app",
+  "topics": [
+    "ai",
+    "chat",
+    "llm"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-10-02T22:05:54Z",
+  "updatedAt": "2026-11-01T12:07:09Z",
+  "createdAt": "2023-02-09T10:19:24Z",
+  "latestRelease": "1.19.0",
+  "latestReleaseAt": "2026-09-14T18:05:11Z",
+  "defaultBranch": "release"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "modelcontextprotocol-python-sdk",
+  "fetchedAt": "2026-11-01T12:14:46.744Z",
+  "stars": 24726,
+  "forks": 4093,
+  "watchers": 176,
+  "openIssues": 380,
+  "language": "Python",
+  "license": "MIT",
+  "description": "The official Python SDK for Model Context Protocol servers and clients",
+  "homepage": "https://py.sdk.modelcontextprotocol.io/",
+  "topics": [
+    "mcp",
+    "mcp-client",
+    "mcp-server",
+    "python"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-10-27T11:15:12Z",
+  "updatedAt": "2026-11-01T12:13:19Z",
+  "createdAt": "2024-09-24T21:01:35Z",
+  "latestRelease": "v2.3.0",
+  "latestReleaseAt": "2026-10-02T22:02:27Z",
+  "defaultBranch": "main"
+}

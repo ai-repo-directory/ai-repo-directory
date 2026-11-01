@@ -1,0 +1,29 @@
+{
+  "id": "lightning-ai-litgpt",
+  "fetchedAt": "2026-11-01T12:14:55.212Z",
+  "stars": 13740,
+  "forks": 1538,
+  "watchers": 114,
+  "openIssues": 329,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "description": "20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale.",
+  "homepage": "https://lightning.ai",
+  "topics": [
+    "ai",
+    "artificial-intelligence",
+    "deep-learning",
+    "large-language-models",
+    "llm",
+    "llm-inference",
+    "llms"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-11-01T10:26:54Z",
+  "updatedAt": "2026-11-01T06:33:32Z",
+  "createdAt": "2023-05-04T17:46:11Z",
+  "latestRelease": "v0.5.13",
+  "latestReleaseAt": "2026-06-29T15:53:25Z",
+  "defaultBranch": "main"
+}

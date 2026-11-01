@@ -1,0 +1,23 @@
+{
+  "id": "ggml-org-ggml",
+  "fetchedAt": "2026-11-01T12:14:37.013Z",
+  "stars": 15565,
+  "forks": 1905,
+  "watchers": 150,
+  "openIssues": 380,
+  "language": "C++",
+  "license": "MIT",
+  "description": "Tensor library for machine learning",
+  "homepage": "https://github.com/ggml-org",
+  "topics": [
+    "machine-learning"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-10-28T10:32:37Z",
+  "updatedAt": "2026-11-01T12:09:35Z",
+  "createdAt": "2022-09-18T17:07:19Z",
+  "latestRelease": "v0.28.0",
+  "latestReleaseAt": "2026-10-28T10:32:39Z",
+  "defaultBranch": "master"
+}
