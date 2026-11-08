@@ -1,7 +1,7 @@
 {
   "id": "llava-vl-llava-next",
-  "fetchedAt": "2026-11-01T12:14:48.424Z",
-  "stars": 4733,
+  "fetchedAt": "2026-11-08T12:22:44.263Z",
+  "stars": 4735,
   "forks": 470,
   "watchers": 32,
   "openIssues": 355,
@@ -13,7 +13,7 @@
   "archived": false,
   "disabled": false,
   "pushedAt": "2026-06-15T06:32:49Z",
-  "updatedAt": "2026-11-01T06:07:30Z",
+  "updatedAt": "2026-11-05T17:12:42Z",
   "createdAt": "2024-03-08T12:54:09Z",
   "latestRelease": null,
   "latestReleaseAt": null,

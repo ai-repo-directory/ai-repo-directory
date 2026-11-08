@@ -1,0 +1,27 @@
+{
+  "id": "microsoft-semantic-kernel",
+  "fetchedAt": "2026-11-08T12:22:20.816Z",
+  "stars": 28747,
+  "forks": 4856,
+  "watchers": 294,
+  "openIssues": 316,
+  "language": "C#",
+  "license": "MIT",
+  "description": "Integrate cutting-edge LLM technology quickly and easily into your apps",
+  "homepage": "https://aka.ms/semantic-kernel",
+  "topics": [
+    "ai",
+    "artificial-intelligence",
+    "llm",
+    "openai",
+    "sdk"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-11-07T00:59:55Z",
+  "updatedAt": "2026-11-08T11:23:15Z",
+  "createdAt": "2023-02-27T17:39:42Z",
+  "latestRelease": "dotnet-1.82.0",
+  "latestReleaseAt": "2026-11-07T01:00:07Z",
+  "defaultBranch": "main"
+}

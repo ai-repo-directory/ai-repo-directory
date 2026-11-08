@@ -1,0 +1,21 @@
+{
+  "id": "vllm-project-aibrix",
+  "fetchedAt": "2026-11-08T12:22:36.791Z",
+  "stars": 5182,
+  "forks": 758,
+  "watchers": 51,
+  "openIssues": 400,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "description": "Cost-efficient and pluggable Infrastructure components for GenAI inference",
+  "homepage": null,
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-11-07T06:26:31Z",
+  "updatedAt": "2026-11-07T06:26:38Z",
+  "createdAt": "2024-06-10T23:06:10Z",
+  "latestRelease": "v0.8.0",
+  "latestReleaseAt": "2026-10-13T00:06:30Z",
+  "defaultBranch": "main"
+}

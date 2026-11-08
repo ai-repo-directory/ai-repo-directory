@@ -1,0 +1,31 @@
+{
+  "id": "prefecthq-fastmcp",
+  "fetchedAt": "2026-11-08T12:22:43.435Z",
+  "stars": 28341,
+  "forks": 2566,
+  "watchers": 119,
+  "openIssues": 460,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "description": "🚀 The fast, Pythonic way to build MCP servers and clients.",
+  "homepage": "https://gofastmcp.com",
+  "topics": [
+    "agents",
+    "fastmcp",
+    "llms",
+    "mcp",
+    "mcp-clients",
+    "mcp-servers",
+    "mcp-tools",
+    "model-context-protocol",
+    "python"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-11-08T12:19:23Z",
+  "updatedAt": "2026-11-08T09:26:59Z",
+  "createdAt": "2024-11-30T01:47:40Z",
+  "latestRelease": "v4.1.6",
+  "latestReleaseAt": "2026-11-03T02:52:59Z",
+  "defaultBranch": "main"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "cline-cline",
+  "fetchedAt": "2026-11-08T12:22:25.001Z",
+  "stars": 71457,
+  "forks": 7892,
+  "watchers": 294,
+  "openIssues": 1753,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
+  "homepage": "https://cline.bot",
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-11-07T00:08:40Z",
+  "updatedAt": "2026-11-08T12:19:49Z",
+  "createdAt": "2024-07-06T07:28:10Z",
+  "latestRelease": "v4.1.26",
+  "latestReleaseAt": "2026-10-26T09:06:50Z",
+  "defaultBranch": "main"
+}

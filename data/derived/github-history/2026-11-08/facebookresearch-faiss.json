@@ -1,0 +1,21 @@
+{
+  "id": "facebookresearch-faiss",
+  "fetchedAt": "2026-11-08T12:22:51.492Z",
+  "stars": 41269,
+  "forks": 4588,
+  "watchers": 495,
+  "openIssues": 378,
+  "language": "C++",
+  "license": "MIT",
+  "description": "A library for efficient similarity search and clustering of dense vectors.",
+  "homepage": "https://faiss.ai",
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-11-07T17:39:00Z",
+  "updatedAt": "2026-11-08T12:10:47Z",
+  "createdAt": "2017-02-07T16:07:05Z",
+  "latestRelease": "v1.15.1",
+  "latestReleaseAt": "2026-09-16T19:24:02Z",
+  "defaultBranch": "main"
+}

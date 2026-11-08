@@ -1,0 +1,26 @@
+{
+  "id": "modelcontextprotocol-typescript-sdk",
+  "fetchedAt": "2026-11-08T12:22:43.141Z",
+  "stars": 13730,
+  "forks": 2372,
+  "watchers": 105,
+  "openIssues": 652,
+  "language": "TypeScript",
+  "license": null,
+  "description": "The official TypeScript SDK for Model Context Protocol servers and clients",
+  "homepage": "https://ts.sdk.modelcontextprotocol.io/v2",
+  "topics": [
+    "mcp",
+    "mcp-client",
+    "mcp-server",
+    "typescript"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-11-05T15:00:35Z",
+  "updatedAt": "2026-11-07T20:32:59Z",
+  "createdAt": "2024-09-24T20:45:31Z",
+  "latestRelease": "v2.4.0",
+  "latestReleaseAt": "2026-10-23T18:32:25Z",
+  "defaultBranch": "main"
+}

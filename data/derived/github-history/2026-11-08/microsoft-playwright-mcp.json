@@ -1,0 +1,24 @@
+{
+  "id": "microsoft-playwright-mcp",
+  "fetchedAt": "2026-11-08T12:22:42.254Z",
+  "stars": 39327,
+  "forks": 3403,
+  "watchers": 150,
+  "openIssues": 3,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "description": "Playwright MCP server",
+  "homepage": "https://www.npmjs.com/package/@playwright/mcp",
+  "topics": [
+    "mcp",
+    "playwright"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-11-06T22:49:45Z",
+  "updatedAt": "2026-11-08T12:22:39Z",
+  "createdAt": "2025-03-21T17:48:36Z",
+  "latestRelease": "v0.0.84",
+  "latestReleaseAt": "2026-10-31T15:20:06Z",
+  "defaultBranch": "main"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "tabbyml-tabby",
+  "fetchedAt": "2026-11-08T12:22:26.439Z",
+  "stars": 33924,
+  "forks": 1796,
+  "watchers": 181,
+  "openIssues": 345,
+  "language": "Rust",
+  "license": null,
+  "description": "Self-hosted AI coding assistant",
+  "homepage": "https://tabbyml.com",
+  "topics": [
+    "ai",
+    "codegen",
+    "coding-assistant",
+    "coding-language",
+    "developer-experience",
+    "developer-tools",
+    "gen-ai",
+    "ide",
+    "llms"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-06-30T20:38:02Z",
+  "updatedAt": "2026-11-08T11:28:52Z",
+  "createdAt": "2023-03-16T09:18:01Z",
+  "latestRelease": "v0.32.0",
+  "latestReleaseAt": "2026-01-25T17:07:44Z",
+  "defaultBranch": "main"
+}

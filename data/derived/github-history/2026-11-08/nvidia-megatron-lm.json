@@ -1,0 +1,25 @@
+{
+  "id": "nvidia-megatron-lm",
+  "fetchedAt": "2026-11-08T12:22:50.499Z",
+  "stars": 18350,
+  "forks": 4715,
+  "watchers": 162,
+  "openIssues": 1944,
+  "language": "Python",
+  "license": null,
+  "description": "Ongoing research training transformer models at scale",
+  "homepage": "https://docs.nvidia.com/megatron-core/developer-guide/latest/get-started/quickstart.html",
+  "topics": [
+    "large-language-models",
+    "model-para",
+    "transformers"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-11-08T11:49:57Z",
+  "updatedAt": "2026-11-08T11:48:46Z",
+  "createdAt": "2019-03-21T16:15:52Z",
+  "latestRelease": "core_v0.20.0",
+  "latestReleaseAt": "2026-10-29T21:06:49Z",
+  "defaultBranch": "main"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "lllyasviel-fooocus",
+  "fetchedAt": "2026-11-08T12:22:32.588Z",
+  "stars": 53841,
+  "forks": 8626,
+  "watchers": 474,
+  "openIssues": 316,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "description": "Focus on prompting and generating",
+  "homepage": null,
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2025-12-01T19:17:07Z",
+  "updatedAt": "2026-11-08T11:33:39Z",
+  "createdAt": "2023-08-09T18:43:40Z",
+  "latestRelease": "v2.5.5",
+  "latestReleaseAt": "2024-08-12T06:12:31Z",
+  "defaultBranch": "main"
+}

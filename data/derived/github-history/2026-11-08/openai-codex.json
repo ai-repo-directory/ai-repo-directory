@@ -1,0 +1,21 @@
+{
+  "id": "openai-codex",
+  "fetchedAt": "2026-11-08T12:22:25.664Z",
+  "stars": 133648,
+  "forks": 21187,
+  "watchers": 665,
+  "openIssues": 26910,
+  "language": "Rust",
+  "license": "Apache-2.0",
+  "description": "Lightweight coding agent that runs in your terminal",
+  "homepage": null,
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-11-08T05:59:28Z",
+  "updatedAt": "2026-11-08T12:21:22Z",
+  "createdAt": "2025-04-13T05:37:54Z",
+  "latestRelease": "rust-v0.167.0",
+  "latestReleaseAt": "2026-11-06T01:40:00Z",
+  "defaultBranch": "main"
+}

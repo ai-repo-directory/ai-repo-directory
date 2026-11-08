@@ -1,0 +1,24 @@
+{
+  "id": "wan-video-wan2-1",
+  "fetchedAt": "2026-11-08T12:22:54.509Z",
+  "stars": 17404,
+  "forks": 4023,
+  "watchers": 166,
+  "openIssues": 392,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "description": "Wan: Open and Advanced Large-Scale Video Generative Models",
+  "homepage": "https://wan.video",
+  "topics": [
+    "aigc",
+    "videogeneration"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-03-05T09:38:07Z",
+  "updatedAt": "2026-11-08T08:33:28Z",
+  "createdAt": "2025-02-25T11:49:33Z",
+  "latestRelease": null,
+  "latestReleaseAt": null,
+  "defaultBranch": "main"
+}

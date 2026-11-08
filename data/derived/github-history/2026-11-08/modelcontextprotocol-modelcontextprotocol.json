@@ -1,0 +1,26 @@
+{
+  "id": "modelcontextprotocol-modelcontextprotocol",
+  "fetchedAt": "2026-11-08T12:22:42.626Z",
+  "stars": 9644,
+  "forks": 1899,
+  "watchers": 182,
+  "openIssues": 117,
+  "language": "TypeScript",
+  "license": null,
+  "description": "Specification and documentation for the Model Context Protocol",
+  "homepage": "https://modelcontextprotocol.io",
+  "topics": [
+    "docs",
+    "mcp",
+    "specification",
+    "standard"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-11-08T05:17:05Z",
+  "updatedAt": "2026-11-08T11:26:29Z",
+  "createdAt": "2024-09-24T20:26:52Z",
+  "latestRelease": "2026-07-28",
+  "latestReleaseAt": "2026-07-28T16:47:49Z",
+  "defaultBranch": "main"
+}

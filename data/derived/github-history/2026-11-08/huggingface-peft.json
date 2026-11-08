@@ -1,0 +1,32 @@
+{
+  "id": "huggingface-peft",
+  "fetchedAt": "2026-11-08T12:22:50.128Z",
+  "stars": 21877,
+  "forks": 2651,
+  "watchers": 114,
+  "openIssues": 113,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "description": "🤗 PEFT: State-of-the-art Parameter-Efficient Fine-Tuning.",
+  "homepage": "https://huggingface.co/docs/peft",
+  "topics": [
+    "adapter",
+    "diffusion",
+    "fine-tuning",
+    "llm",
+    "lora",
+    "parameter-efficient-learning",
+    "peft",
+    "python",
+    "pytorch",
+    "transformers"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-11-05T07:54:11Z",
+  "updatedAt": "2026-11-07T15:49:25Z",
+  "createdAt": "2022-11-25T03:51:09Z",
+  "latestRelease": "v0.21.2",
+  "latestReleaseAt": "2026-10-01T10:29:50Z",
+  "defaultBranch": "main"
+}

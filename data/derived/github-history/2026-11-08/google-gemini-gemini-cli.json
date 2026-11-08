@@ -1,0 +1,29 @@
+{
+  "id": "google-gemini-gemini-cli",
+  "fetchedAt": "2026-11-08T12:22:24.967Z",
+  "stars": 108776,
+  "forks": 14934,
+  "watchers": 588,
+  "openIssues": 753,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+  "homepage": "https://geminicli.com",
+  "topics": [
+    "ai",
+    "ai-agents",
+    "cli",
+    "gemini",
+    "gemini-api",
+    "mcp-client",
+    "mcp-server"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-11-08T01:08:20Z",
+  "updatedAt": "2026-11-08T12:21:35Z",
+  "createdAt": "2025-04-17T17:04:31Z",
+  "latestRelease": "v0.67.0",
+  "latestReleaseAt": "2026-11-04T20:27:11Z",
+  "defaultBranch": "main"
+}

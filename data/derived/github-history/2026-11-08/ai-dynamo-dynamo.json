@@ -1,0 +1,32 @@
+{
+  "id": "ai-dynamo-dynamo",
+  "fetchedAt": "2026-11-08T12:22:33.507Z",
+  "stars": 8455,
+  "forks": 1828,
+  "watchers": 77,
+  "openIssues": 2376,
+  "language": "Rust",
+  "license": null,
+  "description": "A Datacenter Scale Distributed Inference Serving Framework",
+  "homepage": "https://docs.nvidia.com/dynamo/latest",
+  "topics": [
+    "diffusion",
+    "disaggregated-serving",
+    "kubernetes",
+    "llm-inference",
+    "omni",
+    "routing-engine",
+    "rust",
+    "sglang",
+    "tensorrt-llm",
+    "vllm"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-11-08T12:16:13Z",
+  "updatedAt": "2026-11-08T12:11:36Z",
+  "createdAt": "2025-03-03T18:40:07Z",
+  "latestRelease": "v1.6.2",
+  "latestReleaseAt": "2026-11-05T22:11:38Z",
+  "defaultBranch": "main"
+}

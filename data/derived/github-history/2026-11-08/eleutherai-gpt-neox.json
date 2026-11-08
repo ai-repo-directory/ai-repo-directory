@@ -1,0 +1,26 @@
+{
+  "id": "eleutherai-gpt-neox",
+  "fetchedAt": "2026-11-08T12:22:47.673Z",
+  "stars": 7472,
+  "forks": 1127,
+  "watchers": 125,
+  "openIssues": 136,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "description": "An implementation of model parallel autoregressive transformers on GPUs, based on the Megatron and DeepSpeed libraries",
+  "homepage": "https://www.eleuther.ai/",
+  "topics": [
+    "deepspeed-library",
+    "gpt-3",
+    "language-model",
+    "transformers"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-11-07T18:35:39Z",
+  "updatedAt": "2026-11-07T18:35:46Z",
+  "createdAt": "2020-12-22T14:37:54Z",
+  "latestRelease": "v2.0",
+  "latestReleaseAt": "2023-03-10T00:26:35Z",
+  "defaultBranch": "main"
+}
