@@ -1,0 +1,21 @@
+{
+  "id": "facebookresearch-seamless-communication",
+  "fetchedAt": "2026-11-15T13:05:38.291Z",
+  "stars": 11908,
+  "forks": 1187,
+  "watchers": 149,
+  "openIssues": 256,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "description": "Foundational Models for State-of-the-Art Speech and Text Translation",
+  "homepage": null,
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-09-08T12:22:24Z",
+  "updatedAt": "2026-11-15T03:45:34Z",
+  "createdAt": "2023-08-01T20:36:21Z",
+  "latestRelease": null,
+  "latestReleaseAt": null,
+  "defaultBranch": "main"
+}

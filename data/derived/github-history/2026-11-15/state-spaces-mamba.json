@@ -1,0 +1,21 @@
+{
+  "id": "state-spaces-mamba",
+  "fetchedAt": "2026-11-15T13:06:07.434Z",
+  "stars": 19005,
+  "forks": 1842,
+  "watchers": 123,
+  "openIssues": 653,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "description": "Mamba SSM architecture",
+  "homepage": null,
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-11-08T16:52:49Z",
+  "updatedAt": "2026-11-15T11:00:47Z",
+  "createdAt": "2023-12-01T01:17:39Z",
+  "latestRelease": "v2.3.2.post1",
+  "latestReleaseAt": "2026-05-09T11:45:59Z",
+  "defaultBranch": "main"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "openai-openai-agents-python",
+  "fetchedAt": "2026-11-15T13:05:37.123Z",
+  "stars": 30691,
+  "forks": 5062,
+  "watchers": 226,
+  "openIssues": 51,
+  "language": "Python",
+  "license": "MIT",
+  "description": "A lightweight, powerful framework for multi-agent workflows",
+  "homepage": "https://openai.github.io/openai-agents-python/",
+  "topics": [
+    "agents",
+    "ai",
+    "framework",
+    "harness",
+    "llm",
+    "openai",
+    "python"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-11-15T08:30:29Z",
+  "updatedAt": "2026-11-15T11:13:56Z",
+  "createdAt": "2025-03-11T03:42:36Z",
+  "latestRelease": "v0.24.0",
+  "latestReleaseAt": "2026-10-15T02:20:12Z",
+  "defaultBranch": "main"
+}

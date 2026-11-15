@@ -1,0 +1,32 @@
+{
+  "id": "flashinfer-ai-flashinfer",
+  "fetchedAt": "2026-11-15T13:05:54.879Z",
+  "stars": 6928,
+  "forks": 1757,
+  "watchers": 56,
+  "openIssues": 1441,
+  "language": "Cuda",
+  "license": "Apache-2.0",
+  "description": "FlashInfer: Kernel Library for LLM Serving",
+  "homepage": "https://flashinfer.ai",
+  "topics": [
+    "attention",
+    "cuda",
+    "distributed-inference",
+    "gpu",
+    "jit",
+    "large-large-models",
+    "llm-inference",
+    "moe",
+    "nvidia",
+    "pytorch"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-11-15T07:47:34Z",
+  "updatedAt": "2026-11-15T08:37:12Z",
+  "createdAt": "2023-07-22T00:29:04Z",
+  "latestRelease": "v0.7.4",
+  "latestReleaseAt": "2026-11-11T02:18:17Z",
+  "defaultBranch": "main"
+}

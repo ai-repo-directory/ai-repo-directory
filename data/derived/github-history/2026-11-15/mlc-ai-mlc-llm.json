@@ -1,0 +1,26 @@
+{
+  "id": "mlc-ai-mlc-llm",
+  "fetchedAt": "2026-11-15T13:05:55.811Z",
+  "stars": 23436,
+  "forks": 2215,
+  "watchers": 269,
+  "openIssues": 371,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "description": "Universal LLM Deployment Engine with ML Compilation",
+  "homepage": "https://llm.mlc.ai/",
+  "topics": [
+    "language-model",
+    "llm",
+    "machine-learning-compilation",
+    "tvm"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-11-14T10:52:37Z",
+  "updatedAt": "2026-11-15T13:00:12Z",
+  "createdAt": "2023-04-29T01:59:25Z",
+  "latestRelease": null,
+  "latestReleaseAt": null,
+  "defaultBranch": "main"
+}

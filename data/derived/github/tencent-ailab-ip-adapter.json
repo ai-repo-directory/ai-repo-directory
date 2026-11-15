@@ -1,7 +1,7 @@
 {
   "id": "tencent-ailab-ip-adapter",
-  "fetchedAt": "2026-11-08T12:22:33.047Z",
-  "stars": 6714,
+  "fetchedAt": "2026-11-15T13:05:50.073Z",
+  "stars": 6717,
   "forks": 432,
   "watchers": 57,
   "openIssues": 301,
@@ -13,7 +13,7 @@
   "archived": false,
   "disabled": false,
   "pushedAt": "2024-06-28T02:47:03Z",
-  "updatedAt": "2026-11-08T02:14:32Z",
+  "updatedAt": "2026-11-15T11:22:43Z",
   "createdAt": "2023-08-16T03:35:16Z",
   "latestRelease": null,
   "latestReleaseAt": null,

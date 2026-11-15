@@ -1,0 +1,24 @@
+{
+  "id": "ml-explore-mlx-lm",
+  "fetchedAt": "2026-11-15T13:05:57.925Z",
+  "stars": 7662,
+  "forks": 1188,
+  "watchers": 58,
+  "openIssues": 294,
+  "language": "Python",
+  "license": "MIT",
+  "description": "Run LLMs with MLX",
+  "homepage": null,
+  "topics": [
+    "llms",
+    "mlx"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-11-06T11:23:26Z",
+  "updatedAt": "2026-11-15T12:36:26Z",
+  "createdAt": "2025-03-11T16:38:30Z",
+  "latestRelease": "v0.32.2",
+  "latestReleaseAt": "2026-10-16T02:49:02Z",
+  "defaultBranch": "main"
+}

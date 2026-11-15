@@ -1,0 +1,21 @@
+{
+  "id": "openai-evals",
+  "fetchedAt": "2026-11-15T13:05:46.602Z",
+  "stars": 19744,
+  "forks": 3133,
+  "watchers": 271,
+  "openIssues": 351,
+  "language": "Python",
+  "license": null,
+  "description": "Evals is a framework for evaluating LLMs and LLM systems, and an open-source registry of benchmarks.",
+  "homepage": null,
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-04-14T15:29:57Z",
+  "updatedAt": "2026-11-14T22:45:17Z",
+  "createdAt": "2023-01-23T20:51:04Z",
+  "latestRelease": null,
+  "latestReleaseAt": null,
+  "defaultBranch": "main"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "black-forest-labs-flux",
+  "fetchedAt": "2026-11-15T13:05:48.044Z",
+  "stars": 26061,
+  "forks": 1935,
+  "watchers": 205,
+  "openIssues": 222,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "description": "Official inference repo for FLUX.1 models",
+  "homepage": null,
+  "topics": [],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2025-07-31T13:58:55Z",
+  "updatedAt": "2026-11-15T07:05:52Z",
+  "createdAt": "2024-08-01T09:04:19Z",
+  "latestRelease": null,
+  "latestReleaseAt": null,
+  "defaultBranch": "main"
+}

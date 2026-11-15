@@ -1,0 +1,28 @@
+{
+  "id": "confident-ai-deepeval",
+  "fetchedAt": "2026-11-15T13:05:45.651Z",
+  "stars": 19487,
+  "forks": 2205,
+  "watchers": 64,
+  "openIssues": 844,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "description": "The LLM Evaluation Framework",
+  "homepage": "https://deepeval.com",
+  "topics": [
+    "evaluation-framework",
+    "evaluation-metrics",
+    "llm-evaluation",
+    "llm-evaluation-framework",
+    "llm-evaluation-metrics",
+    "python"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-11-12T23:21:12Z",
+  "updatedAt": "2026-11-15T12:03:07Z",
+  "createdAt": "2023-08-10T05:35:04Z",
+  "latestRelease": "python-v4.2.4",
+  "latestReleaseAt": "2026-09-22T16:36:00Z",
+  "defaultBranch": "main"
+}

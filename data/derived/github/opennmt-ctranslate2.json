@@ -1,8 +1,8 @@
 {
   "id": "opennmt-ctranslate2",
-  "fetchedAt": "2026-11-08T12:22:38.362Z",
-  "stars": 4740,
-  "forks": 554,
+  "fetchedAt": "2026-11-15T13:05:55.841Z",
+  "stars": 4751,
+  "forks": 557,
   "watchers": 53,
   "openIssues": 273,
   "language": "C++",
@@ -33,10 +33,10 @@
   ],
   "archived": false,
   "disabled": false,
-  "pushedAt": "2026-11-08T09:43:38Z",
-  "updatedAt": "2026-11-08T09:43:46Z",
+  "pushedAt": "2026-11-10T19:48:05Z",
+  "updatedAt": "2026-11-15T08:23:33Z",
   "createdAt": "2019-09-23T08:10:42Z",
-  "latestRelease": "v4.8.5",
-  "latestReleaseAt": "2026-11-02T18:46:09Z",
+  "latestRelease": "v4.9.0",
+  "latestReleaseAt": "2026-11-10T19:49:16Z",
   "defaultBranch": "master"
 }

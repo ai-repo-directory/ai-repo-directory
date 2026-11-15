@@ -1,0 +1,29 @@
+{
+  "id": "mlc-ai-web-llm",
+  "fetchedAt": "2026-11-15T13:05:58.096Z",
+  "stars": 19379,
+  "forks": 1412,
+  "watchers": 137,
+  "openIssues": 155,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "description": "High-performance In-browser LLM Inference Engine ",
+  "homepage": "https://webllm.mlc.ai",
+  "topics": [
+    "chatgpt",
+    "deep-learning",
+    "language-model",
+    "llm",
+    "tvm",
+    "webgpu",
+    "webml"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-11-14T02:38:32Z",
+  "updatedAt": "2026-11-15T09:57:59Z",
+  "createdAt": "2023-04-13T18:11:59Z",
+  "latestRelease": "v0.2.88",
+  "latestReleaseAt": "2026-11-10T09:20:02Z",
+  "defaultBranch": "main"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "ml-explore-mlx",
+  "fetchedAt": "2026-11-15T13:05:55.372Z",
+  "stars": 29168,
+  "forks": 2430,
+  "watchers": 209,
+  "openIssues": 156,
+  "language": "C++",
+  "license": "MIT",
+  "description": "MLX: An array framework for Apple silicon",
+  "homepage": "https://ml-explore.github.io/mlx/",
+  "topics": [
+    "mlx"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-11-13T22:25:46Z",
+  "updatedAt": "2026-11-15T12:53:52Z",
+  "createdAt": "2023-11-28T23:33:45Z",
+  "latestRelease": "v0.32.4",
+  "latestReleaseAt": "2026-10-14T23:37:14Z",
+  "defaultBranch": "main"
+}

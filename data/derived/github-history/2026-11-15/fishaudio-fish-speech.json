@@ -1,0 +1,29 @@
+{
+  "id": "fishaudio-fish-speech",
+  "fetchedAt": "2026-11-15T13:05:38.400Z",
+  "stars": 33737,
+  "forks": 2937,
+  "watchers": 161,
+  "openIssues": 25,
+  "language": "Python",
+  "license": null,
+  "description": "SOTA Open Source TTS",
+  "homepage": "https://speech.fish.audio",
+  "topics": [
+    "llama",
+    "transformer",
+    "tts",
+    "valle",
+    "vits",
+    "vqgan",
+    "vqvae"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-11-14T10:03:36Z",
+  "updatedAt": "2026-11-15T12:57:21Z",
+  "createdAt": "2023-10-10T03:16:51Z",
+  "latestRelease": "v1.5.1",
+  "latestReleaseAt": "2025-05-31T12:15:00Z",
+  "defaultBranch": "main"
+}

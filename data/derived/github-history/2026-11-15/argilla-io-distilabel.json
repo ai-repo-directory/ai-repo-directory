@@ -1,0 +1,31 @@
+{
+  "id": "argilla-io-distilabel",
+  "fetchedAt": "2026-11-15T13:05:43.429Z",
+  "stars": 3457,
+  "forks": 265,
+  "watchers": 24,
+  "openIssues": 116,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "description": "Distilabel is a framework for synthetic data and AI feedback for engineers who need fast, reliable and scalable pipelines based on verified research papers.",
+  "homepage": "https://distilabel.argilla.io",
+  "topics": [
+    "ai",
+    "huggingface",
+    "llms",
+    "openai",
+    "python",
+    "rlaif",
+    "rlhf",
+    "synthetic-data",
+    "synthetic-dataset-generation"
+  ],
+  "archived": false,
+  "disabled": false,
+  "pushedAt": "2026-11-09T22:38:14Z",
+  "updatedAt": "2026-11-13T20:45:42Z",
+  "createdAt": "2023-10-16T14:12:33Z",
+  "latestRelease": "1.5.3",
+  "latestReleaseAt": "2025-01-28T10:08:05Z",
+  "defaultBranch": "main"
+}

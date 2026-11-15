@@ -1,7 +1,7 @@
 {
   "id": "mosaicml-llm-foundry",
-  "fetchedAt": "2026-11-08T12:22:50.437Z",
-  "stars": 4462,
+  "fetchedAt": "2026-11-15T13:06:09.616Z",
+  "stars": 4460,
   "forks": 590,
   "watchers": 47,
   "openIssues": 72,
@@ -19,7 +19,7 @@
   "archived": true,
   "disabled": false,
   "pushedAt": "2026-03-25T17:22:01Z",
-  "updatedAt": "2026-10-31T17:00:43Z",
+  "updatedAt": "2026-11-09T12:05:31Z",
   "createdAt": "2023-04-28T22:33:27Z",
   "latestRelease": null,
   "latestReleaseAt": null,

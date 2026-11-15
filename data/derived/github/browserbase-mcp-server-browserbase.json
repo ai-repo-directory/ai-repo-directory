@@ -1,7 +1,7 @@
 {
   "id": "browserbase-mcp-server-browserbase",
-  "fetchedAt": "2026-11-08T12:22:41.403Z",
-  "stars": 3397,
+  "fetchedAt": "2026-11-15T13:05:59.450Z",
+  "stars": 3399,
   "forks": 374,
   "watchers": 26,
   "openIssues": 52,
@@ -21,7 +21,7 @@
   "archived": true,
   "disabled": false,
   "pushedAt": "2026-07-20T21:48:14Z",
-  "updatedAt": "2026-11-07T08:23:12Z",
+  "updatedAt": "2026-11-12T15:54:51Z",
   "createdAt": "2024-12-05T19:20:40Z",
   "latestRelease": "v3.0.0",
   "latestReleaseAt": "2026-03-31T01:51:54Z",
